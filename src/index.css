@@ -152,7 +152,7 @@
   }
 
   .article-content {
-    @apply prose prose-invert prose-lg max-w-none;
+    @apply max-w-none;
     
     h2 {
       @apply text-3xl mt-12 mb-6 text-foreground;
