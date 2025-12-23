@@ -12,6 +12,7 @@ import AuthorPage from "./pages/AuthorPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import TermsPage from "./pages/TermsPage";
+import WriteForUsPage from "./pages/WriteForUsPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ const App = () => (
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/terms" element={<TermsPage />} />
+            <Route path="/write-for-us" element={<WriteForUsPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

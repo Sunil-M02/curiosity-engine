@@ -18,14 +18,20 @@ export function Footer() {
                 CuriosityFields
               </span>
             </Link>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              A knowledge-first digital publication exploring science, technology, AI, history, astronomy, and the future of innovation.
+            <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+              Independent writing and research-driven stories exploring ideas that shape science, technology, and the future.
             </p>
+            <Link
+              to="/write-for-us"
+              className="inline-flex items-center gap-2 text-primary hover:text-primary/80 text-sm font-medium transition-colors"
+            >
+              Become a Contributor →
+            </Link>
           </div>
 
-          {/* Categories */}
+          {/* Topics */}
           <div>
-            <h4 className="font-display text-lg font-semibold text-foreground mb-4">Categories</h4>
+            <h4 className="font-display text-lg font-semibold text-foreground mb-4">Topics</h4>
             <ul className="space-y-2">
               {categories.map((category) => (
                 <li key={category}>
@@ -46,7 +52,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link to="/about" className="text-muted-foreground hover:text-primary text-sm transition-colors">
-                  About Us
+                  About CuriosityFields
                 </Link>
               </li>
               <li>
@@ -57,6 +63,11 @@ export function Footer() {
               <li>
                 <Link to="/terms" className="text-muted-foreground hover:text-primary text-sm transition-colors">
                   Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link to="/write-for-us" className="text-muted-foreground hover:text-primary text-sm transition-colors">
+                  Write for Us
                 </Link>
               </li>
             </ul>
