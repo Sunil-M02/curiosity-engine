@@ -1,11 +1,25 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Search } from 'lucide-react';
+import { Menu, X, Search, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { categoryInfo, type Category } from '@/data/articles';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 
 const categories = Object.keys(categoryInfo) as Category[];
+
+const navLinks = [
+  { label: 'Home', href: '/' },
+  { label: 'Topics', href: '/categories', hasDropdown: true },
+  { label: 'Write for Us', href: '/write-for-us' },
+  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' },
+];
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -23,6 +37,11 @@ export function Header() {
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [location]);
+
+  const isActive = (href: string) => {
+    if (href === '/') return location.pathname === '/';
+    return location.pathname.startsWith(href);
+  };
 
   return (
     <header
@@ -44,21 +63,46 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
-            {categories.slice(0, 4).map((category) => (
-              <Link
-                key={category}
-                to={`/category/${category}`}
-                className="px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors link-underline"
-              >
-                {categoryInfo[category].name}
-              </Link>
-            ))}
-            <Link
-              to="/categories"
-              className="px-3 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors link-underline"
-            >
-              More
-            </Link>
+            {navLinks.map((link) =>
+              link.hasDropdown ? (
+                <DropdownMenu key={link.label}>
+                  <DropdownMenuTrigger asChild>
+                    <button
+                      className={`px-3 py-2 text-sm flex items-center gap-1 transition-colors link-underline ${
+                        isActive(link.href) ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
+                      }`}
+                    >
+                      {link.label}
+                      <ChevronDown className="w-4 h-4" />
+                    </button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="center" className="w-48">
+                    <DropdownMenuItem asChild>
+                      <Link to="/categories" className="w-full">
+                        All Topics
+                      </Link>
+                    </DropdownMenuItem>
+                    {categories.map((category) => (
+                      <DropdownMenuItem key={category} asChild>
+                        <Link to={`/category/${category}`} className="w-full">
+                          {categoryInfo[category].name}
+                        </Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              ) : (
+                <Link
+                  key={link.label}
+                  to={link.href}
+                  className={`px-3 py-2 text-sm transition-colors link-underline ${
+                    isActive(link.href) ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
           </div>
 
           {/* Desktop Actions */}
@@ -66,9 +110,6 @@ export function Header() {
             <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground">
               <Search className="w-5 h-5" />
             </Button>
-            <Link to="/about">
-              <Button variant="outline" size="sm">About</Button>
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -94,24 +135,37 @@ export function Header() {
             className="lg:hidden glass-effect border-b border-border/50 overflow-hidden"
           >
             <div className="container py-6 space-y-4">
-              <div className="grid grid-cols-2 gap-2">
-                {categories.map((category) => (
+              {/* Main Nav Links */}
+              <div className="space-y-2">
+                {navLinks.map((link) => (
                   <Link
-                    key={category}
-                    to={`/category/${category}`}
-                    className="px-4 py-3 rounded-lg bg-secondary/50 text-sm text-secondary-foreground hover:bg-secondary transition-colors"
+                    key={link.label}
+                    to={link.href}
+                    className={`block px-4 py-3 rounded-lg text-sm transition-colors ${
+                      isActive(link.href)
+                        ? 'bg-primary/10 text-primary'
+                        : 'bg-secondary/50 text-secondary-foreground hover:bg-secondary'
+                    }`}
                   >
-                    {categoryInfo[category].name}
+                    {link.label}
                   </Link>
                 ))}
               </div>
-              <div className="flex gap-2 pt-4 border-t border-border/50">
-                <Link to="/about" className="flex-1">
-                  <Button variant="outline" className="w-full">About</Button>
-                </Link>
-                <Link to="/contact" className="flex-1">
-                  <Button variant="default" className="w-full">Contact</Button>
-                </Link>
+              
+              {/* Topic Categories */}
+              <div className="pt-4 border-t border-border/50">
+                <p className="text-xs uppercase tracking-wider text-muted-foreground mb-3 px-4">Topics</p>
+                <div className="grid grid-cols-2 gap-2">
+                  {categories.map((category) => (
+                    <Link
+                      key={category}
+                      to={`/category/${category}`}
+                      className="px-4 py-2 rounded-lg bg-secondary/30 text-sm text-secondary-foreground hover:bg-secondary transition-colors"
+                    >
+                      {categoryInfo[category].name}
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
           </motion.div>
