@@ -9,8 +9,12 @@ export function LatestArticles() {
   const articles = getLatestArticles(6);
 
   return (
-    <section className="py-16 lg:py-24 bg-card/30">
-      <div className="container">
+    <section className="py-16 lg:py-24 relative">
+      {/* Distinct background treatment */}
+      <div className="absolute inset-0 bg-gradient-to-t from-card/50 via-background to-background pointer-events-none" />
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border/50 to-transparent" />
+      
+      <div className="container relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -19,6 +23,9 @@ export function LatestArticles() {
           className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12"
         >
           <div>
+            <span className="inline-block px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-medium uppercase tracking-wider mb-4">
+              Fresh Reads
+            </span>
             <h2 className="font-display text-3xl lg:text-4xl font-semibold text-foreground mb-2">
               Latest Articles
             </h2>

@@ -1,7 +1,15 @@
 import { Link } from 'react-router-dom';
+import { Instagram, Facebook, Twitter } from 'lucide-react';
 import { categoryInfo, type Category } from '@/data/articles';
 
 const categories = Object.keys(categoryInfo) as Category[];
+
+// Social links - currently inactive/placeholder
+const socialLinks = [
+  { icon: Instagram, label: 'Instagram', handle: '@CuriosityFields', active: false },
+  { icon: Facebook, label: 'Facebook', handle: 'CuriosityFields', active: false },
+  { icon: Twitter, label: 'X (Twitter)', handle: '@CuriosityFields', active: false },
+];
 
 export function Footer() {
   return (
@@ -100,16 +108,24 @@ export function Footer() {
           <p className="text-muted-foreground text-sm">
             © {new Date().getFullYear()} CuriosityFields. All rights reserved.
           </p>
-          <div className="flex gap-6">
-            <a href="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">
-              Twitter
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">
-              LinkedIn
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">
-              RSS
-            </a>
+          
+          {/* Social Icons - Muted/Disabled State */}
+          <div className="flex items-center gap-4">
+            {socialLinks.map((social) => (
+              <div
+                key={social.label}
+                className="group relative"
+                title={`${social.label} - Coming Soon`}
+              >
+                <social.icon 
+                  className="w-5 h-5 text-muted-foreground/40 cursor-not-allowed transition-colors"
+                />
+                {/* Tooltip on hover */}
+                <span className="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-secondary text-xs text-muted-foreground rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+                  Coming Soon
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

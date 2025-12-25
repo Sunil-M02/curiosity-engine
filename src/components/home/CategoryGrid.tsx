@@ -7,8 +7,12 @@ const categories = Object.keys(categoryInfo) as Category[];
 
 export function CategoryGrid() {
   return (
-    <section className="py-16 lg:py-24">
-      <div className="container">
+    <section className="py-16 lg:py-24 relative overflow-hidden">
+      {/* Distinct section background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 via-background to-card/20 pointer-events-none" />
+      {/* Subtle ambient glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
+      <div className="container relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -16,6 +20,9 @@ export function CategoryGrid() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
+          <span className="inline-block px-3 py-1 rounded-full bg-accent/10 text-accent-foreground text-xs font-medium uppercase tracking-wider mb-4">
+            Knowledge Hubs
+          </span>
           <h2 className="font-display text-3xl lg:text-4xl font-semibold text-foreground mb-4">
             Explore by Topic
           </h2>
