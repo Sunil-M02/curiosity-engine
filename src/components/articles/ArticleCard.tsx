@@ -118,55 +118,60 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
       className="group"
     >
       <Link to={`/article/${article.slug}`} className="block">
-        <div className="relative aspect-[16/10] overflow-hidden rounded-xl mb-4">
-          <img
-            src={article.coverImage}
-            alt={article.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-            loading="lazy"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        </div>
-        
-        <div className="flex items-center gap-3 mb-3">
-          <span
-            className="px-2.5 py-0.5 rounded-full text-xs font-medium"
-            style={{ backgroundColor: categoryColor, color: 'hsl(222, 47%, 6%)' }}
-          >
-            {categoryInfo[article.category].name}
-          </span>
-          <span className="flex items-center gap-1 text-muted-foreground text-xs">
-            <Clock className="w-3 h-3" />
-            {article.readTime} min
-          </span>
-        </div>
-        
-        <h3 className="font-display text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors line-clamp-2">
-          {article.title}
-        </h3>
-        
-        <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
-          {article.excerpt}
-        </p>
-        
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
+        {/* Card with subtle lift and shadow on hover */}
+        <div className="rounded-xl bg-card border border-border/30 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_hsl(var(--primary)/0.1)] hover:border-primary/20">
+          <div className="relative aspect-[16/10] overflow-hidden">
             <img
-              src={article.author.avatar}
-              alt={article.author.name}
-              className="w-8 h-8 rounded-full object-cover"
+              src={article.coverImage}
+              alt={article.title}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
             />
-            <div>
-              <p className="text-foreground text-sm font-medium">{article.author.name}</p>
-              <p className="text-muted-foreground text-xs">
-                {format(new Date(article.publishedAt), 'MMM d, yyyy')}
-              </p>
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
           
-          <span className="text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-            <ArrowRight className="w-5 h-5" />
-          </span>
+          <div className="p-5">
+            <div className="flex items-center gap-3 mb-3">
+              <span
+                className="px-2.5 py-0.5 rounded-full text-xs font-medium"
+                style={{ backgroundColor: categoryColor, color: 'hsl(222, 47%, 6%)' }}
+              >
+                {categoryInfo[article.category].name}
+              </span>
+              <span className="flex items-center gap-1 text-muted-foreground text-xs">
+                <Clock className="w-3 h-3" />
+                {article.readTime} min
+              </span>
+            </div>
+            
+            <h3 className="font-display text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors duration-200 line-clamp-2">
+              {article.title}
+            </h3>
+            
+            <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+              {article.excerpt}
+            </p>
+            
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <img
+                  src={article.author.avatar}
+                  alt={article.author.name}
+                  className="w-8 h-8 rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-foreground text-sm font-medium">{article.author.name}</p>
+                  <p className="text-muted-foreground text-xs">
+                    {format(new Date(article.publishedAt), 'MMM d, yyyy')}
+                  </p>
+                </div>
+              </div>
+              
+              <span className="text-primary opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                <ArrowRight className="w-5 h-5" />
+              </span>
+            </div>
+          </div>
         </div>
       </Link>
     </motion.article>

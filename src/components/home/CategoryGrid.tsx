@@ -44,19 +44,22 @@ export function CategoryGrid() {
               >
                 <Link
                   to={`/category/${category}`}
-                  className="group block p-6 rounded-2xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 hover-lift card-shadow hover-glow"
+                  className="group block p-6 rounded-2xl bg-card border border-border/50 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_0_30px_hsl(var(--primary)/0.15)]"
                 >
                   <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-4"
+                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:scale-110"
                     style={{ backgroundColor: `${info.color}20` }}
                   >
                     <div
-                      className="w-6 h-6 rounded-lg"
-                      style={{ backgroundColor: info.color }}
+                      className="w-6 h-6 rounded-lg transition-all duration-300 group-hover:shadow-[0_0_15px_var(--category-color)]"
+                      style={{ 
+                        backgroundColor: info.color,
+                        ['--category-color' as any]: info.color,
+                      }}
                     />
                   </div>
                   
-                  <h3 className="font-display text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-display text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors duration-200">
                     {info.name}
                   </h3>
                   
@@ -66,7 +69,7 @@ export function CategoryGrid() {
                   
                   <span className="inline-flex items-center gap-2 text-primary text-sm font-medium">
                     Explore articles
-                    <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                    <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
                   </span>
                 </Link>
               </motion.div>

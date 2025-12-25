@@ -4,11 +4,11 @@ import { categoryInfo, type Category } from '@/data/articles';
 
 const categories = Object.keys(categoryInfo) as Category[];
 
-// Social links - currently inactive/placeholder
+// Social links - active with proper URLs
 const socialLinks = [
-  { icon: Instagram, label: 'Instagram', handle: '@CuriosityFields', active: false },
-  { icon: Facebook, label: 'Facebook', handle: 'CuriosityFields', active: false },
-  { icon: Twitter, label: 'X (Twitter)', handle: '@CuriosityFields', active: false },
+  { icon: Instagram, label: 'Instagram', url: 'https://instagram.com/curiosityfields' },
+  { icon: Facebook, label: 'Facebook', url: 'https://facebook.com/curiosityfields' },
+  { icon: Twitter, label: 'X', url: 'https://x.com/curiosityfields' },
 ];
 
 export function Footer() {
@@ -109,22 +109,21 @@ export function Footer() {
             © {new Date().getFullYear()} CuriosityFields. All rights reserved.
           </p>
           
-          {/* Social Icons - Muted/Disabled State */}
+          {/* Social Icons - Active State */}
           <div className="flex items-center gap-4">
             {socialLinks.map((social) => (
-              <div
+              <a
                 key={social.label}
-                className="group relative"
-                title={`${social.label} - Coming Soon`}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative p-2 -m-2"
+                aria-label={`Follow us on ${social.label}`}
               >
                 <social.icon 
-                  className="w-5 h-5 text-muted-foreground/40 cursor-not-allowed transition-colors"
+                  className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors duration-200"
                 />
-                {/* Tooltip on hover */}
-                <span className="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-secondary text-xs text-muted-foreground rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-                  Coming Soon
-                </span>
-              </div>
+              </a>
             ))}
           </div>
         </div>
