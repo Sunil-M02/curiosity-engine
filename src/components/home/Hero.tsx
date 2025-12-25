@@ -1,49 +1,43 @@
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { getFeaturedArticles, categoryInfo } from '@/data/articles';
+import { ParticleField } from '@/components/effects/ParticleField';
 
 export function Hero() {
   const featuredArticle = getFeaturedArticles()[0];
+  const prefersReducedMotion = useReducedMotion();
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background gradient with depth layers */}
       <div className="absolute inset-0 bg-gradient-to-b from-card via-background to-background" />
       
-      {/* Ambient glow layer 1 - Primary */}
-      <motion.div 
-        className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-primary/8 rounded-full blur-[120px]"
-        animate={{
-          scale: [1, 1.1, 1],
-          opacity: [0.6, 0.8, 0.6],
-        }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          ease: "easeInOut"
+      {/* Particle field - ambient motion */}
+      <ParticleField />
+      
+      {/* Static light falloff layer - deep indigo, muted gold, soft cyan */}
+      <div 
+        className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[900px] h-[500px] pointer-events-none"
+        style={{
+          background: 'radial-gradient(ellipse at center, hsl(240 50% 25% / 0.15) 0%, hsl(38 70% 50% / 0.08) 40%, hsl(190 70% 50% / 0.05) 70%, transparent 100%)',
+          filter: 'blur(80px)',
         }}
       />
       
-      {/* Ambient glow layer 2 - Accent */}
-      <motion.div 
-        className="absolute top-1/3 left-1/4 w-[600px] h-[300px] bg-accent/6 rounded-full blur-[100px]"
-        animate={{
-          scale: [1.1, 1, 1.1],
-          opacity: [0.4, 0.6, 0.4],
-          x: [-20, 20, -20],
-        }}
-        transition={{
-          duration: 12,
-          repeat: Infinity,
-          ease: "easeInOut"
+      {/* Secondary glow - accent color */}
+      <div 
+        className="absolute top-1/3 left-1/4 w-[600px] h-[400px] pointer-events-none"
+        style={{
+          background: 'radial-gradient(ellipse at center, hsl(200 75% 55% / 0.08) 0%, transparent 70%)',
+          filter: 'blur(100px)',
         }}
       />
       
       {/* Subtle noise/grain texture overlay */}
       <div 
-        className="absolute inset-0 opacity-[0.015] pointer-events-none"
+        className="absolute inset-0 opacity-[0.02] pointer-events-none"
         style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
         }}
@@ -130,30 +124,12 @@ export function Hero() {
                   </div>
                 </div>
 
-                {/* Decorative depth elements */}
-                <motion.div 
-                  className="absolute -top-4 -right-4 w-24 h-24 bg-primary/15 rounded-full blur-2xl"
-                  animate={{
-                    scale: [1, 1.2, 1],
-                    opacity: [0.5, 0.7, 0.5],
-                  }}
-                  transition={{
-                    duration: 6,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                  }}
+                {/* Static decorative depth elements - no animation */}
+                <div 
+                  className="absolute -top-4 -right-4 w-24 h-24 bg-primary/15 rounded-full blur-2xl pointer-events-none"
                 />
-                <motion.div 
-                  className="absolute -bottom-4 -left-4 w-32 h-32 bg-accent/15 rounded-full blur-3xl"
-                  animate={{
-                    scale: [1.2, 1, 1.2],
-                    opacity: [0.4, 0.6, 0.4],
-                  }}
-                  transition={{
-                    duration: 8,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                  }}
+                <div 
+                  className="absolute -bottom-4 -left-4 w-32 h-32 bg-accent/15 rounded-full blur-3xl pointer-events-none"
                 />
               </Link>
             </motion.div>
