@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
 import { motion, useReducedMotion } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
+import { lazy, Suspense } from 'react';
 import { Button } from '@/components/ui/button';
 import { getFeaturedArticles, categoryInfo } from '@/data/articles';
-import { ParticleField } from '@/components/effects/ParticleField';
+
+// Lazy load particle field for better LCP
+const ParticleField = lazy(() => import('@/components/effects/ParticleField').then(m => ({ default: m.ParticleField })));
 
 export function Hero() {
   const featuredArticle = getFeaturedArticles()[0];
@@ -14,8 +17,10 @@ export function Hero() {
       {/* Background gradient with depth layers */}
       <div className="absolute inset-0 bg-gradient-to-b from-card via-background to-background" />
       
-      {/* Particle field - ambient motion */}
-      <ParticleField />
+      {/* Particle field - ambient motion (lazy loaded) */}
+      <Suspense fallback={null}>
+        <ParticleField />
+      </Suspense>
       
       {/* Static light falloff layer - deep indigo, muted gold, soft cyan */}
       <div 

@@ -11,6 +11,7 @@ import ArticlePage from "./pages/ArticlePage";
 import AuthorPage from "./pages/AuthorPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import ContactThankYouPage from "./pages/ContactThankYouPage";
 import TermsPage from "./pages/TermsPage";
 import WriteForUsPage from "./pages/WriteForUsPage";
 import NotFound from "./pages/NotFound";
@@ -32,6 +33,7 @@ const App = () => (
             <Route path="/author/:id" element={<AuthorPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/contact/thank-you" element={<ContactThankYouPage />} />
             <Route path="/terms" element={<TermsPage />} />
             <Route path="/write-for-us" element={<WriteForUsPage />} />
             <Route path="*" element={<NotFound />} />
