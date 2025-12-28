@@ -54,9 +54,9 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Quick Links */}
           <div>
-            <h4 className="font-display text-lg font-semibold text-foreground mb-4">Company</h4>
+            <h4 className="font-display text-lg font-semibold text-foreground mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
                 <Link to="/about" className="text-muted-foreground hover:text-primary text-sm transition-colors">

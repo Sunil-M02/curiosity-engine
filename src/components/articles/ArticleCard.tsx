@@ -118,8 +118,8 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
       className="group"
     >
       <Link to={`/article/${article.slug}`} className="block">
-        {/* Card with subtle lift and shadow on hover */}
-        <div className="rounded-xl bg-card border border-border/30 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_hsl(var(--primary)/0.1)] hover:border-primary/20">
+        {/* Card with enhanced lift and shadow on hover */}
+        <div className="rounded-xl bg-card border border-border/40 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_12px_40px_hsl(var(--primary)/0.15)] hover:border-primary/30">
           <div className="relative aspect-[16/10] overflow-hidden">
             <img
               src={article.coverImage}
@@ -130,10 +130,10 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
             <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
           
-          <div className="p-5">
+          <div className="p-6">
             <div className="flex items-center gap-3 mb-3">
               <span
-                className="px-2.5 py-0.5 rounded-full text-xs font-medium"
+                className="px-2.5 py-0.5 rounded-full text-xs font-semibold"
                 style={{ backgroundColor: categoryColor, color: 'hsl(222, 47%, 6%)' }}
               >
                 {categoryInfo[article.category].name}
@@ -144,7 +144,7 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
               </span>
             </div>
             
-            <h3 className="font-display text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors duration-200 line-clamp-2">
+            <h3 className="font-display text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors duration-200 line-clamp-2 group-hover:brightness-110">
               {article.title}
             </h3>
             

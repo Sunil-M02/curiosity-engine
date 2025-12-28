@@ -30,11 +30,11 @@ const ContactPage = () => {
           <div className="mt-12 flex flex-col gap-4">
             <div className="flex items-center gap-3 text-muted-foreground">
               <Mail className="w-5 h-5 text-primary" />
-              <span>hello@curiosityfields.com</span>
+              <span>sunilfun009@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-muted-foreground">
               <MapPin className="w-5 h-5 text-primary" />
-              <span>San Francisco, CA</span>
+              <span>Mumbai, India</span>
             </div>
           </div>
         </motion.div>

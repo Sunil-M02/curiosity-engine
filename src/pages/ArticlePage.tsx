@@ -150,14 +150,52 @@ const ArticlePage = () => {
               </Link>
 
               <div className="flex items-center gap-2">
-                <Button variant="outline" size="sm" className="gap-2">
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="gap-2"
+                  onClick={async () => {
+                    const shareUrl = window.location.href;
+                    const shareData = {
+                      title: article.title,
+                      text: article.excerpt,
+                      url: shareUrl
+                    };
+                    
+                    if (navigator.share) {
+                      try {
+                        await navigator.share(shareData);
+                      } catch (err) {
+                        // User cancelled or error
+                      }
+                    } else {
+                      await navigator.clipboard.writeText(shareUrl);
+                      // TODO: Add toast notification
+                    }
+                  }}
+                >
                   <Share2 className="w-4 h-4" />
                   Share
                 </Button>
-                <Button variant="ghost" size="icon">
+                <Button 
+                  variant="ghost" 
+                  size="icon"
+                  onClick={() => {
+                    const url = encodeURIComponent(window.location.href);
+                    const text = encodeURIComponent(article.title);
+                    window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank');
+                  }}
+                >
                   <Twitter className="w-4 h-4" />
                 </Button>
-                <Button variant="ghost" size="icon">
+                <Button 
+                  variant="ghost" 
+                  size="icon"
+                  onClick={() => {
+                    const url = encodeURIComponent(window.location.href);
+                    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank');
+                  }}
+                >
                   <Linkedin className="w-4 h-4" />
                 </Button>
               </div>

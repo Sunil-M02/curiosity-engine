@@ -48,7 +48,6 @@ const guidelines = [
 
 export default function WriteForUsPage() {
   const breadcrumbItems = [
-    { label: 'Home', href: '/' },
     { label: 'Write for Us' },
   ];
 
