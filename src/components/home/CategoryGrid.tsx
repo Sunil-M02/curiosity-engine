@@ -7,13 +7,15 @@ const categories = Object.keys(categoryInfo) as Category[];
 
 export function CategoryGrid() {
   return (
-    <section className="py-20 lg:py-28 relative overflow-hidden">
+    <section className="py-16 lg:py-24 relative overflow-hidden">
       {/* Distinct section background with stronger separation */}
-      <div className="absolute inset-0 bg-gradient-to-br from-card via-secondary/40 to-card pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-br from-card via-secondary/50 to-card pointer-events-none" />
       {/* Top border accent */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
+      {/* Bottom border accent */}
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
       {/* Subtle ambient glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-primary/8 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
       
       <div className="container relative z-10">
         <motion.div
@@ -21,16 +23,16 @@ export function CategoryGrid() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-14"
+          className="text-center mb-12"
         >
-          <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-widest mb-4 border border-primary/20">
+          <span className="inline-block px-4 py-2 rounded-full bg-primary/15 text-primary text-xs font-bold uppercase tracking-widest mb-4 border border-primary/30 shadow-[0_0_20px_hsl(var(--primary)/0.15)]">
             Knowledge Hubs
           </span>
-          <h2 className="font-display text-3xl lg:text-5xl font-bold text-foreground mb-5">
+          <h2 className="font-display text-3xl lg:text-5xl font-bold text-foreground mb-4">
             Explore by Topic
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Curated deep-dives into the subjects that fuel your curiosity. From the cosmos to code, history to the horizon.
+          <p className="text-muted-foreground/90 max-w-2xl mx-auto text-lg font-medium">
+            Curated deep-dives into the subjects that fuel curiosity.
           </p>
         </motion.div>
 
@@ -47,7 +49,7 @@ export function CategoryGrid() {
               >
                 <Link
                   to={`/category/${category}`}
-                  className="group block p-6 lg:p-8 rounded-2xl bg-card/80 border border-border/60 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/50 hover:shadow-[0_0_40px_hsl(var(--primary)/0.2)] backdrop-blur-sm"
+                  className="group block p-6 lg:p-7 rounded-2xl bg-card/90 border border-border/70 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/50 hover:shadow-[0_0_40px_hsl(var(--primary)/0.25)] backdrop-blur-sm"
                 >
                   <div
                     className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-all duration-300 group-hover:scale-110"

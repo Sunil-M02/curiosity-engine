@@ -9,7 +9,7 @@ export function LatestArticles() {
   const articles = getLatestArticles(6);
 
   return (
-    <section className="py-20 lg:py-28 relative">
+    <section className="py-16 lg:py-24 relative">
       {/* Distinct background treatment */}
       <div className="absolute inset-0 bg-gradient-to-b from-card/30 via-background to-secondary/20 pointer-events-none" />
       {/* Top accent line */}
@@ -21,7 +21,7 @@ export function LatestArticles() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14"
+          className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12"
         >
           <div>
             <span className="inline-block px-4 py-1.5 rounded-full bg-secondary text-secondary-foreground text-xs font-semibold uppercase tracking-widest mb-4 border border-border/50">
