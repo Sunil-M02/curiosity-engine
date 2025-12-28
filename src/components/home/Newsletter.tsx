@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 
 export function Newsletter() {
   return (
-    <section className="py-16 lg:py-24">
+    <section className="py-14 lg:py-20">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
@@ -47,7 +47,7 @@ export function Newsletter() {
             </form>
             
             <p className="text-muted-foreground text-sm mt-4">
-              No spam. Unsubscribe anytime.
+              No spam. One thoughtful email a week.
             </p>
           </div>
         </motion.div>

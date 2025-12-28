@@ -6,7 +6,7 @@ export function FeaturedSection() {
   const featuredArticles = getFeaturedArticles();
 
   return (
-    <section className="py-20 lg:py-28 relative">
+    <section className="py-16 lg:py-24 relative">
       {/* Section background for visual separation */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/20 to-card/40 pointer-events-none" />
       {/* Bottom border accent */}
@@ -18,7 +18,7 @@ export function FeaturedSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="mb-14"
+          className="mb-12"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-widest mb-4 border border-primary/20">
             Curated Selection
