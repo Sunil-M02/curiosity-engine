@@ -170,17 +170,18 @@
     @apply max-w-none;
     
     h2 {
-      @apply text-3xl mt-12 mb-6 text-foreground;
+      @apply text-3xl mt-14 mb-6 text-foreground font-semibold;
       font-family: var(--font-display);
     }
 
     h3 {
-      @apply text-2xl mt-10 mb-4 text-foreground;
+      @apply text-2xl mt-10 mb-4 text-foreground font-semibold;
       font-family: var(--font-display);
     }
 
     p {
-      @apply text-muted-foreground leading-relaxed mb-6;
+      @apply text-secondary-foreground leading-[1.85] mb-7 text-[1.0625rem];
+      font-weight: 450;
     }
 
     a {
@@ -192,15 +193,15 @@
     }
 
     ul, ol {
-      @apply text-muted-foreground mb-6 pl-6;
+      @apply text-secondary-foreground mb-7 pl-6 leading-[1.85];
     }
 
     li {
-      @apply mb-2;
+      @apply mb-3;
     }
 
     img {
-      @apply rounded-xl my-8;
+      @apply rounded-xl my-10;
     }
 
     code {

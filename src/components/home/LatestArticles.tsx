@@ -9,10 +9,11 @@ export function LatestArticles() {
   const articles = getLatestArticles(6);
 
   return (
-    <section className="py-16 lg:py-24 relative">
+    <section className="py-20 lg:py-28 relative">
       {/* Distinct background treatment */}
-      <div className="absolute inset-0 bg-gradient-to-t from-card/50 via-background to-background pointer-events-none" />
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border/50 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-card/30 via-background to-secondary/20 pointer-events-none" />
+      {/* Top accent line */}
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border/60 to-transparent" />
       
       <div className="container relative z-10">
         <motion.div
@@ -20,16 +21,16 @@ export function LatestArticles() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12"
+          className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14"
         >
           <div>
-            <span className="inline-block px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-medium uppercase tracking-wider mb-4">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-secondary text-secondary-foreground text-xs font-semibold uppercase tracking-widest mb-4 border border-border/50">
               Fresh Reads
             </span>
-            <h2 className="font-display text-3xl lg:text-4xl font-semibold text-foreground mb-2">
+            <h2 className="font-display text-3xl lg:text-5xl font-bold text-foreground mb-3">
               Latest Articles
             </h2>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-lg">
               Fresh perspectives on the ideas shaping our world.
             </p>
           </div>
