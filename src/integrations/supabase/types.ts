@@ -35,6 +35,39 @@ export type Database = {
         }
         Relationships: []
       }
+      contact_submissions: {
+        Row: {
+          created_at: string
+          email: string
+          id: string
+          message: string
+          name: string
+          source_page: string | null
+          subject: string
+          submitted_at: string
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          id?: string
+          message: string
+          name: string
+          source_page?: string | null
+          subject: string
+          submitted_at?: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          id?: string
+          message?: string
+          name?: string
+          source_page?: string | null
+          subject?: string
+          submitted_at?: string
+        }
+        Relationships: []
+      }
       Post: {
         Row: {
           category_id: string | null

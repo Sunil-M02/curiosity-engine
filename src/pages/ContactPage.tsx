@@ -1,24 +1,64 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Check } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { SEO } from '@/components/seo/SEO';
 import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
 import { Button } from '@/components/ui/button';
+import { supabase } from '@/integrations/supabase/client';
+import { toast } from 'sonner';
 
 const ContactPage = () => {
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const navigate = useNavigate();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData(prev => ({
+      ...prev,
+      [e.target.name]: e.target.value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    // Prevent duplicate submissions
+    if (isSubmitting) return;
+    
+    setIsSubmitting(true);
+
+    try {
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          source_page: '/contact',
+        },
+      });
+
+      if (error) {
+        console.error('Submission error:', error);
+        toast.error('Failed to send message. Please try again.');
+        setIsSubmitting(false);
+        return;
+      }
+
+      // Redirect to thank-you page on success
+      navigate('/contact/thank-you');
+    } catch (err) {
+      console.error('Unexpected error:', err);
+      toast.error('Something went wrong. Please try again later.');
       setIsSubmitting(false);
-      setIsSubmitted(true);
-    }, 800);
+    }
   };
 
   return (
@@ -36,59 +76,54 @@ const ContactPage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <input 
                 type="text" 
+                name="name"
                 placeholder="Your Name" 
-                className={`px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity ${isSubmitted ? 'opacity-50 pointer-events-none' : ''}`} 
+                value={formData.name}
+                onChange={handleChange}
+                className="px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity disabled:opacity-50" 
                 required 
-                disabled={isSubmitted}
+                disabled={isSubmitting}
               />
               <input 
                 type="email" 
+                name="email"
                 placeholder="Your Email" 
-                className={`px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity ${isSubmitted ? 'opacity-50 pointer-events-none' : ''}`} 
+                value={formData.email}
+                onChange={handleChange}
+                className="px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity disabled:opacity-50" 
                 required 
-                disabled={isSubmitted}
+                disabled={isSubmitting}
               />
             </div>
             <input 
               type="text" 
+              name="subject"
               placeholder="Subject" 
-              className={`w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity ${isSubmitted ? 'opacity-50 pointer-events-none' : ''}`} 
+              value={formData.subject}
+              onChange={handleChange}
+              className="w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity disabled:opacity-50" 
               required 
-              disabled={isSubmitted}
+              disabled={isSubmitting}
             />
             <textarea 
+              name="message"
               placeholder="Your Message" 
               rows={6} 
-              className={`w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none transition-opacity ${isSubmitted ? 'opacity-50 pointer-events-none' : ''}`} 
+              value={formData.message}
+              onChange={handleChange}
+              className="w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none transition-opacity disabled:opacity-50" 
               required 
-              disabled={isSubmitted}
+              disabled={isSubmitting}
             />
             
             <Button 
-              variant={isSubmitted ? "outline" : "hero"} 
+              variant="hero" 
               size="lg" 
               type="submit" 
-              disabled={isSubmitted || isSubmitting}
-              className={isSubmitted ? 'border-green-500/50 text-green-400 pointer-events-none' : ''}
+              disabled={isSubmitting}
             >
-              {isSubmitting ? 'Sending...' : isSubmitted ? (
-                <>
-                  <Check className="w-4 h-4 mr-2" />
-                  Message Sent
-                </>
-              ) : 'Send Message'}
+              {isSubmitting ? 'Sending...' : 'Send Message'}
             </Button>
-
-            {isSubmitted && (
-              <motion.div 
-                initial={{ opacity: 0, y: 10 }} 
-                animate={{ opacity: 1, y: 0 }} 
-                className="p-4 rounded-xl bg-green-500/10 border border-green-500/20"
-              >
-                <p className="text-green-400 font-medium">Thanks for reaching out. We've received your message.</p>
-                <p className="text-muted-foreground text-sm mt-1">We typically respond within 24–48 hours.</p>
-              </motion.div>
-            )}
           </form>
 
           <div className="mt-12 flex flex-col gap-4">
