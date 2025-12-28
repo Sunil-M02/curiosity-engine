@@ -6,6 +6,7 @@ interface SEOProps {
   canonical?: string;
   type?: 'website' | 'article';
   image?: string;
+  robots?: string;
   article?: {
     publishedTime?: string;
     modifiedTime?: string;
@@ -21,6 +22,7 @@ export function SEO({
   canonical, 
   type = 'website',
   image = 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=630&fit=crop',
+  robots,
   article 
 }: SEOProps) {
   const siteName = 'CuriosityFields';
@@ -31,6 +33,7 @@ export function SEO({
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
+      {robots && <meta name="robots" content={robots} />}
       {canonical && <link rel="canonical" href={canonical} />}
       
       {/* Open Graph */}

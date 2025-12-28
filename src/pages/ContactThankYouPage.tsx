@@ -11,7 +11,7 @@ const ContactThankYouPage = () => {
       <SEO 
         title="Message Sent - CuriosityFields" 
         description="Thank you for contacting CuriosityFields." 
-        canonical="https://curiosityfields.com/contact/thank-you" 
+        robots="noindex, follow"
       />
       
       <div className="container py-20 lg:py-32">
