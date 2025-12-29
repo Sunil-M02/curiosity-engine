@@ -7,7 +7,7 @@ const categories = Object.keys(categoryInfo) as Category[];
 
 export function CategoryGrid() {
   return (
-    <section className="py-16 lg:py-24 relative overflow-hidden">
+    <section className="py-14 lg:py-20 relative overflow-hidden">
       {/* Distinct section background with stronger separation */}
       <div className="absolute inset-0 bg-gradient-to-br from-card via-secondary/50 to-card pointer-events-none" />
       {/* Top border accent */}

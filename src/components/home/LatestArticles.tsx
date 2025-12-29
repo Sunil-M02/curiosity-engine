@@ -9,7 +9,7 @@ export function LatestArticles() {
   const articles = getLatestArticles(6);
 
   return (
-    <section className="py-16 lg:py-24 relative">
+    <section className="py-14 lg:py-20 relative">
       {/* Distinct background treatment */}
       <div className="absolute inset-0 bg-gradient-to-b from-card/30 via-background to-secondary/20 pointer-events-none" />
       {/* Top accent line */}
