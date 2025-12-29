@@ -6,7 +6,7 @@ export function FeaturedSection() {
   const featuredArticles = getFeaturedArticles();
 
   return (
-    <section className="py-16 lg:py-24 relative">
+    <section className="py-14 lg:py-20 relative">
       {/* Section background for visual separation */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/20 to-card/40 pointer-events-none" />
       {/* Bottom border accent */}

@@ -1,76 +1,31 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Loader2, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { supabase } from '@/integrations/supabase/client';
 import { useLocation } from 'react-router-dom';
+import { useNewsletterSubscription } from '@/hooks/useNewsletterSubscription';
 
 export function Newsletter() {
-  const [email, setEmail] = useState('');
-  const [error, setError] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
   const location = useLocation();
+  
+  const {
+    email,
+    setEmail,
+    error,
+    clearError,
+    isSubmitting,
+    isSuccess,
+    handleSubmit,
+  } = useNewsletterSubscription({ sourcePage: location.pathname });
   
   const prefersReducedMotion = useMemo(() => 
     typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches,
   []);
 
-  const validateEmail = (email: string) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email.trim());
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setError('');
-    
-    const trimmedEmail = email.trim();
-    
-    if (!trimmedEmail) {
-      setError('Please enter your email address.');
-      return;
-    }
-    
-    if (!validateEmail(trimmedEmail)) {
-      setError('Please enter a valid email address.');
-      return;
-    }
-    
-    setIsSubmitting(true);
-    
-    try {
-      const { error: insertError } = await supabase
-        .from('newsletter_subscribers')
-        .insert({
-          email: trimmedEmail,
-          source_page: location.pathname,
-        });
-      
-      if (insertError) {
-        if (insertError.code === '23505') {
-          // Duplicate email - treat as success
-          setIsSuccess(true);
-        } else {
-          throw insertError;
-        }
-      } else {
-        setIsSuccess(true);
-      }
-      
-      setEmail('');
-    } catch (err: any) {
-      console.error('Newsletter subscription error:', err);
-      setError('Something went wrong. Please try again.');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
   if (isSuccess) {
     return (
-      <section className="py-14 lg:py-20">
+      <section className="py-12 lg:py-16">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -83,7 +38,7 @@ export function Newsletter() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/30 rounded-full blur-3xl" />
             <div className="absolute bottom-0 left-0 w-48 h-48 bg-accent/30 rounded-full blur-3xl" />
             
-            <div className="relative px-6 py-16 lg:px-16 lg:py-20 text-center">
+            <div className="relative px-6 py-14 lg:px-16 lg:py-16 text-center">
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -105,7 +60,7 @@ export function Newsletter() {
   }
 
   return (
-    <section className="py-14 lg:py-20">
+    <section className="py-12 lg:py-16">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
@@ -144,7 +99,7 @@ export function Newsletter() {
             }}
           />
           
-          <div className="relative px-6 py-16 lg:px-16 lg:py-20 text-center">
+          <div className="relative px-6 py-14 lg:px-16 lg:py-16 text-center">
             <h2 className="font-display text-3xl lg:text-4xl font-semibold text-foreground mb-4">
               Stay Curious
             </h2>
@@ -163,7 +118,7 @@ export function Newsletter() {
                   value={email}
                   onChange={(e) => {
                     setEmail(e.target.value);
-                    if (error) setError('');
+                    if (error) clearError();
                   }}
                   onFocus={() => setIsFocused(true)}
                   onBlur={() => setIsFocused(false)}
