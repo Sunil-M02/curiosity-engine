@@ -8,7 +8,7 @@ interface LogoProps {
   size?: 'sm' | 'md' | 'lg';
 }
 
-// Orbital symbol SVG component
+// Abstract "C" symbol - open arcs forming the letter C
 function LogoSymbol({ className }: { className?: string }) {
   return (
     <svg
@@ -18,69 +18,57 @@ function LogoSymbol({ className }: { className?: string }) {
       className={cn('flex-shrink-0', className)}
       aria-hidden="true"
     >
-      {/* Orbital rings - cream/off-white strokes */}
-      <ellipse
-        cx="24"
-        cy="24"
-        rx="22"
-        ry="22"
+      {/* Outer arc - largest C curve */}
+      <path
+        d="M 38 24 A 14 14 0 1 1 38 24.01"
         stroke="currentColor"
-        strokeWidth="0.75"
+        strokeWidth="0.8"
+        strokeLinecap="round"
+        fill="none"
+        className="text-logo"
+        opacity="0.5"
+        transform="rotate(-30 24 24)"
+      />
+      {/* Second arc */}
+      <path
+        d="M 35 24 A 11 11 0 1 1 35 24.01"
+        stroke="currentColor"
+        strokeWidth="0.8"
+        strokeLinecap="round"
+        fill="none"
+        className="text-logo"
         opacity="0.6"
-        className="text-logo"
+        transform="rotate(-25 24 24)"
       />
-      <ellipse
-        cx="24"
-        cy="24"
-        rx="18"
-        ry="18"
+      {/* Third arc */}
+      <path
+        d="M 32 24 A 8 8 0 1 1 32 24.01"
         stroke="currentColor"
-        strokeWidth="0.75"
-        opacity="0.7"
+        strokeWidth="0.8"
+        strokeLinecap="round"
+        fill="none"
         className="text-logo"
+        opacity="0.75"
+        transform="rotate(-20 24 24)"
       />
-      <ellipse
-        cx="24"
-        cy="24"
-        rx="14"
-        ry="14"
+      {/* Inner arc - smallest C curve */}
+      <path
+        d="M 29 24 A 5 5 0 1 1 29 24.01"
         stroke="currentColor"
-        strokeWidth="0.75"
-        opacity="0.8"
+        strokeWidth="0.8"
+        strokeLinecap="round"
+        fill="none"
         className="text-logo"
-      />
-      <ellipse
-        cx="24"
-        cy="24"
-        rx="10"
-        ry="10"
-        stroke="currentColor"
-        strokeWidth="0.75"
         opacity="0.9"
-        className="text-logo"
+        transform="rotate(-15 24 24)"
       />
       
-      {/* Inner dark circle */}
+      {/* Amber/gold center dot */}
       <circle
         cx="24"
         cy="24"
-        r="7"
-        className="fill-background"
-      />
-      
-      {/* Amber/gold center glow */}
-      <circle
-        cx="24"
-        cy="24"
-        r="3.5"
+        r="2.5"
         className="fill-logo-accent"
-      />
-      {/* Subtle glow effect */}
-      <circle
-        cx="24"
-        cy="24"
-        r="4.5"
-        className="fill-logo-accent/30"
       />
     </svg>
   );
