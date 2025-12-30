@@ -21,6 +21,7 @@ export default {
         display: ["'Inter'", "system-ui", "-apple-system", "BlinkMacSystemFont", "'Segoe UI'", "sans-serif"],
         body: ["'Inter'", "system-ui", "-apple-system", "BlinkMacSystemFont", "'Segoe UI'", "sans-serif"],
         article: ["'Source Serif 4 Variable'", "Georgia", "'Times New Roman'", "serif"],
+        logo: ["'Libre Baskerville'", "Georgia", "'Times New Roman'", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -65,6 +66,10 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        logo: {
+          DEFAULT: "hsl(var(--logo))",
+          accent: "hsl(var(--logo-accent))",
         },
       },
       borderRadius: {

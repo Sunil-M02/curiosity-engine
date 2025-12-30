@@ -3,6 +3,7 @@ import { Loader2, CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { categoryInfo, type Category } from '@/data/articles';
 import { useNewsletterSubscription } from '@/hooks/useNewsletterSubscription';
+import { Logo } from '@/components/brand/Logo';
 
 const categories = Object.keys(categoryInfo) as Category[];
 
@@ -64,14 +65,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-hero flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-lg">C</span>
-              </div>
-              <span className="font-display text-xl font-semibold text-foreground">
-                CuriosityFields
-              </span>
-            </Link>
+            <div className="mb-4">
+              <Logo variant="wordmark" size="md" />
+            </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Independent writing and research-driven stories exploring ideas that shape science, technology, and the future.
             </p>
