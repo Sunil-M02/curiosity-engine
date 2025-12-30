@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { Layout } from '@/components/layout/Layout';
 import { SEO } from '@/components/seo/SEO';
 import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
-import { authors } from '@/data/articles';
 
 const AboutPage = () => {
   return (
@@ -21,25 +20,52 @@ const AboutPage = () => {
             About <span className="text-gradient">CuriosityFields</span>
           </h1>
           
-          <div className="prose prose-invert prose-lg">
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+          <div className="prose prose-invert prose-lg space-y-6">
+            <p className="text-muted-foreground text-lg leading-relaxed">
               CuriosityFields is a knowledge-first digital publication dedicated to exploring the ideas that shape our understanding of the world. We cover science, technology, artificial intelligence, history, astronomy, and future innovation.
             </p>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            <p className="text-muted-foreground text-lg leading-relaxed">
               Our mission is simple: to spark curiosity and provide authoritative, accessible content that helps readers understand the most important developments in science and technology.
             </p>
           </div>
 
-          <h2 className="font-display text-2xl font-semibold text-foreground mt-12 mb-6">Our Team</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {authors.map((author) => (
-              <div key={author.id} className="p-6 rounded-xl bg-card border border-border/50">
-                <img src={author.avatar} alt={author.name} className="w-16 h-16 rounded-full object-cover mb-4" />
-                <h3 className="font-display text-lg font-semibold text-foreground">{author.name}</h3>
-                <p className="text-primary text-sm mb-2">{author.role}</p>
-                <p className="text-muted-foreground text-sm">{author.bio}</p>
-              </div>
-            ))}
+          <h2 className="font-display text-2xl font-semibold text-foreground mt-16 mb-6">Our Editorial Approach</h2>
+          
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-display text-lg font-medium text-foreground mb-2">Research-First Philosophy</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Every piece we publish begins with thorough research. We consult primary sources, peer-reviewed studies, and expert analysis to ensure our content reflects the current state of knowledge—not speculation or hype.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-display text-lg font-medium text-foreground mb-2">Editorial Independence</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                CuriosityFields operates with complete editorial independence. Our coverage is shaped by what matters to curious readers, not by commercial interests or trending algorithms. We choose depth over clicks.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-display text-lg font-medium text-foreground mb-2">Accuracy & Fact-Checking</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                We hold ourselves to rigorous standards of accuracy. Claims are verified, sources are cited, and corrections are made transparently when errors occur. Trust is earned through consistency.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-display text-lg font-medium text-foreground mb-2">Curated, Not Crowded</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                We deliberately focus on six core topics: science, technology, AI, history, astronomy, and future innovation. This allows us to go deeper rather than wider—offering substantive analysis instead of surface-level coverage.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-display text-lg font-medium text-foreground mb-2">Accessible Expertise</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Complex ideas deserve clear explanations. We translate technical subjects into accessible language without sacrificing nuance, helping readers engage with ideas that might otherwise feel out of reach.
+              </p>
+            </div>
           </div>
         </motion.div>
       </div>
