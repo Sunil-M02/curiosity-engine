@@ -64,10 +64,8 @@ export function Footer() {
       <div className="container content-rail py-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 items-start">
           {/* Brand */}
-          <div className="flex flex-col">
-            <div className="mb-4 -mt-0.5">
-              <Logo variant="full" size="md" />
-            </div>
+          <div>
+            <Logo variant="full" size="md" className="mb-4" />
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Independent writing and research-driven stories exploring ideas that shape science, technology, and the future.
             </p>
