@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
-import { motion, useReducedMotion } from 'framer-motion';
+import { motion, useReducedMotion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useRef, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
 import { getFeaturedArticles, categoryInfo } from '@/data/articles';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 // Lazy load particle field for better LCP
 const ParticleField = lazy(() => import('@/components/effects/ParticleField').then(m => ({ default: m.ParticleField })));
@@ -11,6 +12,31 @@ const ParticleField = lazy(() => import('@/components/effects/ParticleField').th
 export function Hero() {
   const featuredArticle = getFeaturedArticles()[0];
   const prefersReducedMotion = useReducedMotion();
+  const isMobile = useIsMobile();
+  
+  // 3D tilt for featured article card
+  const cardRef = useRef<HTMLDivElement>(null);
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const springConfig = { damping: 20, stiffness: 200 };
+  const rotateX = useSpring(useTransform(y, [-0.5, 0.5], [6, -6]), springConfig);
+  const rotateY = useSpring(useTransform(x, [-0.5, 0.5], [-6, 6]), springConfig);
+  
+  const handleMouseMove = useCallback((event: React.MouseEvent<HTMLDivElement>) => {
+    if (isMobile || prefersReducedMotion || !cardRef.current) return;
+    const rect = cardRef.current.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    x.set((event.clientX - centerX) / rect.width);
+    y.set((event.clientY - centerY) / rect.height);
+  }, [isMobile, prefersReducedMotion, x, y]);
+  
+  const handleMouseLeave = useCallback(() => {
+    x.set(0);
+    y.set(0);
+  }, [x, y]);
+  
+  const enable3D = !isMobile && !prefersReducedMotion;
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
@@ -93,16 +119,25 @@ export function Hero() {
             </div>
           </motion.div>
 
-          {/* Right Content - Featured Article Preview */}
+          {/* Right Content - Featured Article Preview with 3D tilt */}
           {featuredArticle && (
             <motion.div
+              ref={cardRef}
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
+              style={enable3D ? { 
+                rotateX, 
+                rotateY, 
+                transformStyle: 'preserve-3d',
+                perspective: 1200 
+              } : undefined}
+              onMouseMove={enable3D ? handleMouseMove : undefined}
+              onMouseLeave={enable3D ? handleMouseLeave : undefined}
               className="relative"
             >
               <Link to={`/article/${featuredArticle.slug}`} className="group block">
-                <div className="relative rounded-2xl overflow-hidden elevated-shadow">
+                <div className="relative rounded-2xl overflow-hidden elevated-shadow transition-shadow duration-300 hover:shadow-[0_20px_60px_hsl(var(--primary)/0.2)]">
                   <img
                     src={featuredArticle.coverImage}
                     alt={featuredArticle.title}

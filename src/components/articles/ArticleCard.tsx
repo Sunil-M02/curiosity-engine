@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { ArrowRight, Clock, Calendar } from 'lucide-react';
 import { Article, categoryInfo } from '@/data/articles';
 import { format } from 'date-fns';
+import { useRef, useCallback } from 'react';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 interface ArticleCardProps {
   article: Article;
@@ -12,14 +14,46 @@ interface ArticleCardProps {
 
 export function ArticleCard({ article, variant = 'default', index = 0 }: ArticleCardProps) {
   const categoryColor = categoryInfo[article.category].color;
+  const isMobile = useIsMobile();
+  const cardRef = useRef<HTMLDivElement>(null);
+  
+  // 3D tilt motion values
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const springConfig = { damping: 25, stiffness: 300 };
+  const rotateX = useSpring(useTransform(y, [-0.5, 0.5], [4, -4]), springConfig);
+  const rotateY = useSpring(useTransform(x, [-0.5, 0.5], [-4, 4]), springConfig);
+  
+  const handleMouseMove = useCallback((event: React.MouseEvent<HTMLDivElement>) => {
+    if (isMobile || !cardRef.current) return;
+    const rect = cardRef.current.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    x.set((event.clientX - centerX) / rect.width);
+    y.set((event.clientY - centerY) / rect.height);
+  }, [isMobile, x, y]);
+  
+  const handleMouseLeave = useCallback(() => {
+    x.set(0);
+    y.set(0);
+  }, [x, y]);
+  
+  const prefersReducedMotion = typeof window !== 'undefined' 
+    && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  
+  const enable3D = !isMobile && !prefersReducedMotion;
 
   if (variant === 'featured') {
     return (
       <motion.article
+        ref={cardRef}
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: index * 0.1 }}
+        style={enable3D ? { rotateX, rotateY, transformStyle: 'preserve-3d' } : undefined}
+        onMouseMove={enable3D ? handleMouseMove : undefined}
+        onMouseLeave={enable3D ? handleMouseLeave : undefined}
         className="group relative"
       >
         <Link to={`/article/${article.slug}`} className="block">
@@ -54,14 +88,13 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
                 {article.excerpt}
               </p>
               
-              <div className="flex items-center gap-4">
-                <img
-                  src={article.author.avatar}
-                  alt={article.author.name}
-                  className="w-10 h-10 rounded-full object-cover"
-                />
+              {/* Editorial Desk attribution instead of author */}
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+                  <span className="text-primary font-display font-semibold text-sm">CF</span>
+                </div>
                 <div>
-                  <p className="text-foreground font-medium text-sm">{article.author.name}</p>
+                  <p className="text-foreground font-medium text-sm">Editorial Desk</p>
                   <p className="text-muted-foreground text-xs">
                     {format(new Date(article.publishedAt), 'MMMM d, yyyy')}
                   </p>
@@ -111,10 +144,14 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
 
   return (
     <motion.article
+      ref={cardRef}
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
+      style={enable3D ? { rotateX, rotateY, transformStyle: 'preserve-3d', perspective: 1000 } : undefined}
+      onMouseMove={enable3D ? handleMouseMove : undefined}
+      onMouseLeave={enable3D ? handleMouseLeave : undefined}
       className="group"
     >
       <Link to={`/article/${article.slug}`} className="block">
@@ -152,15 +189,14 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
               {article.excerpt}
             </p>
             
+            {/* Editorial attribution instead of author */}
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <img
-                  src={article.author.avatar}
-                  alt={article.author.name}
-                  className="w-8 h-8 rounded-full object-cover"
-                />
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                  <span className="text-primary font-display font-semibold text-xs">CF</span>
+                </div>
                 <div>
-                  <p className="text-foreground text-sm font-medium">{article.author.name}</p>
+                  <p className="text-foreground text-sm font-medium">Editorial Desk</p>
                   <p className="text-muted-foreground text-xs">
                     {format(new Date(article.publishedAt), 'MMM d, yyyy')}
                   </p>
