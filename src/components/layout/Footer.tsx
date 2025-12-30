@@ -65,8 +65,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="mb-4">
-              <Logo variant="wordmark" size="md" />
+            <div className="mb-4 opacity-90">
+              <Logo variant="full" size="md" />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Independent writing and research-driven stories exploring ideas that shape science, technology, and the future.
