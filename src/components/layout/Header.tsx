@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { categoryInfo, type Category } from '@/data/articles';
 import { SearchOverlay } from '@/components/search/SearchOverlay';
+import { Logo } from '@/components/brand/Logo';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -67,14 +68,7 @@ export function Header() {
       <div className="container">
         <nav className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-lg">C</span>
-            </div>
-            <span className="font-display text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
-              CuriosityFields
-            </span>
-          </Link>
+          <Logo variant="full" size="md" />
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
