@@ -62,10 +62,10 @@ export function Footer() {
   return (
     <footer className="bg-card border-t border-border/50 mt-16">
       <div className="container content-rail py-14">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 items-start">
           {/* Brand */}
-          <div>
-            <div className="mb-4">
+          <div className="flex flex-col">
+            <div className="mb-4 -mt-0.5">
               <Logo variant="full" size="md" />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
