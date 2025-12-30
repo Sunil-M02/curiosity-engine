@@ -44,17 +44,17 @@ export function Logo({
     sm: {
       symbol: 'w-[3.3rem] h-[3.3rem]',
       wordmark: 'text-lg',
-      gap: 'gap-1.5',
+      gap: 'gap-1',
     },
     md: {
       symbol: 'w-[4.2rem] h-[4.2rem]',
       wordmark: 'text-xl',
-      gap: 'gap-2',
+      gap: 'gap-1.5',
     },
     lg: {
       symbol: 'w-[5.4rem] h-[5.4rem]',
       wordmark: 'text-2xl',
-      gap: 'gap-2.5',
+      gap: 'gap-2',
     },
   };
 

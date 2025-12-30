@@ -138,6 +138,10 @@
     font-family: var(--font-display);
     @apply font-semibold tracking-tight leading-tight;
   }
+
+  h1 {
+    scroll-margin-top: 6rem;
+  }
 }
 
 @layer components {
