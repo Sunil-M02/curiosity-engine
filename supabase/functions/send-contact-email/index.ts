@@ -35,6 +35,39 @@ const handler = async (req: Request): Promise<Response> => {
       );
     }
 
+    // Validate field lengths
+    if (name.length > 100) {
+      console.error("Name too long:", name.length);
+      return new Response(
+        JSON.stringify({ error: "Name must be 100 characters or less" }),
+        { status: 400, headers: { "Content-Type": "application/json", ...corsHeaders } }
+      );
+    }
+
+    if (email.length > 255) {
+      console.error("Email too long:", email.length);
+      return new Response(
+        JSON.stringify({ error: "Email must be 255 characters or less" }),
+        { status: 400, headers: { "Content-Type": "application/json", ...corsHeaders } }
+      );
+    }
+
+    if (subject.length > 200) {
+      console.error("Subject too long:", subject.length);
+      return new Response(
+        JSON.stringify({ error: "Subject must be 200 characters or less" }),
+        { status: 400, headers: { "Content-Type": "application/json", ...corsHeaders } }
+      );
+    }
+
+    if (message.length > 5000) {
+      console.error("Message too long:", message.length);
+      return new Response(
+        JSON.stringify({ error: "Message must be 5000 characters or less" }),
+        { status: 400, headers: { "Content-Type": "application/json", ...corsHeaders } }
+      );
+    }
+
     // Basic email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
@@ -45,10 +78,31 @@ const handler = async (req: Request): Promise<Response> => {
       );
     }
 
-    // Create Supabase client with service role for database insert
+    // Create Supabase client for rate limiting check
     const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
     const supabaseServiceKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
     const supabase = createClient(supabaseUrl, supabaseServiceKey);
+
+    // Database-based rate limiting: max 3 submissions per email per hour
+    const oneHourAgo = new Date(Date.now() - 60 * 60 * 1000).toISOString();
+    const { count: recentSubmissions, error: countError } = await supabase
+      .from("contact_submissions")
+      .select("*", { count: "exact", head: true })
+      .eq("email", email)
+      .gte("submitted_at", oneHourAgo);
+
+    if (countError) {
+      console.error("Rate limit check error:", countError);
+      // Continue if rate limit check fails (fail open for availability)
+    } else if (recentSubmissions !== null && recentSubmissions >= 3) {
+      console.warn("Rate limit exceeded for email:", email);
+      return new Response(
+        JSON.stringify({ error: "Too many submissions. Please try again later." }),
+        { status: 429, headers: { "Content-Type": "application/json", ...corsHeaders } }
+      );
+    }
+
+    // Store submission in database
 
     // Store submission in database
     const submittedAt = new Date().toISOString();

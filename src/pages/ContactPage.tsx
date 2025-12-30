@@ -80,6 +80,7 @@ const ContactPage = () => {
                 placeholder="Your Name" 
                 value={formData.name}
                 onChange={handleChange}
+                maxLength={100}
                 className="px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity disabled:opacity-50" 
                 required 
                 disabled={isSubmitting}
@@ -90,6 +91,7 @@ const ContactPage = () => {
                 placeholder="Your Email" 
                 value={formData.email}
                 onChange={handleChange}
+                maxLength={255}
                 className="px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity disabled:opacity-50" 
                 required 
                 disabled={isSubmitting}
@@ -101,6 +103,7 @@ const ContactPage = () => {
               placeholder="Subject" 
               value={formData.subject}
               onChange={handleChange}
+              maxLength={200}
               className="w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-opacity disabled:opacity-50" 
               required 
               disabled={isSubmitting}
@@ -111,6 +114,7 @@ const ContactPage = () => {
               rows={6} 
               value={formData.message}
               onChange={handleChange}
+              maxLength={5000}
               className="w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none transition-opacity disabled:opacity-50" 
               required 
               disabled={isSubmitting}
