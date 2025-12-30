@@ -145,6 +145,10 @@
 }
 
 @layer components {
+  /* Master content rail - consistent horizontal padding sitewide */
+  .content-rail {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
   .text-gradient {
     background: var(--gradient-text);
     -webkit-background-clip: text;

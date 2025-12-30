@@ -60,7 +60,7 @@ export default function WriteForUsPage() {
       />
 
       <div className="pt-24 lg:pt-32">
-        <div className="container">
+        <div className="container content-rail">
           <Breadcrumbs items={breadcrumbItems} />
 
           {/* Hero Section */}
