@@ -8,7 +8,7 @@ import Index from "./pages/Index";
 import CategoryPage from "./pages/CategoryPage";
 import CategoriesPage from "./pages/CategoriesPage";
 import ArticlePage from "./pages/ArticlePage";
-import AuthorPage from "./pages/AuthorPage";
+// AuthorPage removed - brand-led editorial model (no individual authors)
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ContactThankYouPage from "./pages/ContactThankYouPage";
@@ -30,7 +30,7 @@ const App = () => (
             <Route path="/category/:slug" element={<CategoryPage />} />
             <Route path="/categories" element={<CategoriesPage />} />
             <Route path="/article/:slug" element={<ArticlePage />} />
-            <Route path="/author/:id" element={<AuthorPage />} />
+            {/* Author routes removed - brand-led editorial model */}
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/contact/thank-you" element={<ContactThankYouPage />} />

@@ -36,6 +36,7 @@ const CategoryPage = () => {
         title={`${info.name} Articles - CuriosityFields`}
         description={info.description}
         canonical={`https://curiosityfields.com/category/${category}`}
+        noIndex={true}
       />
       
       <div className="container py-12 lg:py-20">

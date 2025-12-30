@@ -42,8 +42,8 @@ const ArticlePage = () => {
     "image": article.coverImage,
     "datePublished": article.publishedAt,
     "author": {
-      "@type": "Person",
-      "name": article.author.name
+      "@type": "Organization",
+      "name": "CuriosityFields Editorial"
     },
     "publisher": {
       "@type": "Organization",
@@ -67,9 +67,9 @@ const ArticlePage = () => {
         canonical={`https://curiosityfields.com/article/${article.slug}`}
         type="article"
         image={article.coverImage}
+        noIndex={true}
         article={{
           publishedTime: article.publishedAt,
-          author: article.author.name,
           section: categoryInfo[article.category].name,
           tags: article.tags
         }}
@@ -127,27 +127,22 @@ const ArticlePage = () => {
               {article.excerpt}
             </p>
 
-            {/* Author & Meta */}
+            {/* Editorial Desk Attribution */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-8 border-b border-border/50">
-              <Link
-                to={`/author/${article.author.id}`}
-                className="flex items-center gap-4 group"
-              >
-                <img
-                  src={article.author.avatar}
-                  alt={article.author.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                  <span className="text-primary font-display font-semibold text-lg">CF</span>
+                </div>
                 <div>
-                  <p className="text-foreground font-medium group-hover:text-primary transition-colors">
-                    {article.author.name}
+                  <p className="text-foreground font-medium">
+                    Editorial Desk · CuriosityFields
                   </p>
                   <p className="text-muted-foreground text-sm flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
                     {format(new Date(article.publishedAt), 'MMMM d, yyyy')}
                   </p>
                 </div>
-              </Link>
+              </div>
 
               <div className="flex items-center gap-2">
                 <Button 
@@ -233,22 +228,21 @@ const ArticlePage = () => {
               </div>
             </div>
 
-            {/* Author Bio */}
+            {/* Publisher Attribution */}
             <div className="mt-12 p-6 rounded-2xl bg-card border border-border/50">
               <div className="flex items-start gap-4">
-                <img
-                  src={article.author.avatar}
-                  alt={article.author.name}
-                  className="w-16 h-16 rounded-full object-cover"
-                />
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <span className="text-primary font-display font-bold text-2xl">CF</span>
+                </div>
                 <div>
-                  <p className="text-muted-foreground text-sm mb-1">Written by</p>
+                  <p className="text-muted-foreground text-sm mb-1">Published by</p>
                   <h4 className="font-display text-xl font-semibold text-foreground mb-1">
-                    {article.author.name}
+                    CuriosityFields Editorial
                   </h4>
-                  <p className="text-primary text-sm mb-2">{article.author.role}</p>
+                  <p className="text-primary text-sm mb-2">Editorial Desk</p>
                   <p className="text-muted-foreground text-sm">
-                    {article.author.bio}
+                    CuriosityFields is a knowledge-first digital publication focused on science, technology, 
+                    artificial intelligence, history, astronomy, and future innovation.
                   </p>
                 </div>
               </div>

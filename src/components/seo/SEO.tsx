@@ -7,10 +7,10 @@ interface SEOProps {
   type?: 'website' | 'article';
   image?: string;
   robots?: string;
+  noIndex?: boolean; // Simplified prop for pre-launch deindexing
   article?: {
     publishedTime?: string;
     modifiedTime?: string;
-    author?: string;
     section?: string;
     tags?: string[];
   };
@@ -23,17 +23,21 @@ export function SEO({
   type = 'website',
   image = 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=630&fit=crop',
   robots,
+  noIndex = false,
   article 
 }: SEOProps) {
   const siteName = 'CuriosityFields';
   const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
+  
+  // Compute robots meta - noIndex prop takes precedence
+  const robotsContent = noIndex ? 'noindex, follow' : robots;
   
   return (
     <Helmet>
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      {robots && <meta name="robots" content={robots} />}
+      {robotsContent && <meta name="robots" content={robotsContent} />}
       {canonical && <link rel="canonical" href={canonical} />}
       
       {/* Open Graph */}
@@ -50,7 +54,7 @@ export function SEO({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       
-      {/* Article specific */}
+      {/* Article specific - Now uses Organization/Publisher instead of Person/Author */}
       {type === 'article' && article && (
         <>
           {article.publishedTime && (
@@ -59,9 +63,7 @@ export function SEO({
           {article.modifiedTime && (
             <meta property="article:modified_time" content={article.modifiedTime} />
           )}
-          {article.author && (
-            <meta property="article:author" content={article.author} />
-          )}
+          <meta property="article:publisher" content="CuriosityFields" />
           {article.section && (
             <meta property="article:section" content={article.section} />
           )}
