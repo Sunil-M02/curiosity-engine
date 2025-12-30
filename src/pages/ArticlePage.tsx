@@ -16,7 +16,7 @@ const ArticlePage = () => {
   if (!article) {
     return (
       <Layout>
-        <div className="container py-20 text-center">
+        <div className="container content-rail py-20 text-center">
           <h1 className="font-display text-4xl font-semibold text-foreground mb-4">
             Article Not Found
           </h1>
@@ -91,7 +91,7 @@ const ArticlePage = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
         </div>
 
-        <div className="container relative -mt-40 lg:-mt-60 z-10">
+        <div className="container content-rail relative -mt-40 lg:-mt-60 z-10">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -220,7 +220,7 @@ const ArticlePage = () => {
         </div>
 
         {/* Article Content */}
-        <div className="container py-12">
+        <div className="container content-rail py-12">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -274,7 +274,7 @@ const ArticlePage = () => {
         {/* Related Articles */}
         {relatedArticles.length > 0 && (
           <section className="bg-card/30 py-16 lg:py-24">
-            <div className="container">
+            <div className="container content-rail">
               <h2 className="font-display text-2xl lg:text-3xl font-semibold text-foreground mb-8">
                 Related Articles
               </h2>

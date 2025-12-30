@@ -17,7 +17,7 @@ const CategoriesPage = () => {
         canonical="https://curiosityfields.com/categories"
       />
       
-      <div className="container py-12 lg:py-20">
+      <div className="container content-rail py-12 lg:py-20">
         <Breadcrumbs items={[{ label: 'Categories' }]} />
 
         <motion.div

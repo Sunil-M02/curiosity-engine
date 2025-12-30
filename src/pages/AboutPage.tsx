@@ -12,7 +12,7 @@ const AboutPage = () => {
         canonical="https://curiosityfields.com/about"
       />
       
-      <div className="container py-12 lg:py-20">
+      <div className="container content-rail py-12 lg:py-20">
         <Breadcrumbs items={[{ label: 'About' }]} />
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">

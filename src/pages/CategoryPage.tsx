@@ -15,7 +15,7 @@ const CategoryPage = () => {
   if (!info) {
     return (
       <Layout>
-        <div className="container py-20 text-center">
+        <div className="container content-rail py-20 text-center">
           <h1 className="font-display text-4xl font-semibold text-foreground mb-4">
             Category Not Found
           </h1>
@@ -39,7 +39,7 @@ const CategoryPage = () => {
         noIndex={true}
       />
       
-      <div className="container py-12 lg:py-20">
+      <div className="container content-rail py-12 lg:py-20">
         <Breadcrumbs
           items={[
             { label: 'Categories', href: '/categories' },

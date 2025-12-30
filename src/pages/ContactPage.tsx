@@ -65,7 +65,7 @@ const ContactPage = () => {
     <Layout>
       <SEO title="Contact Us - CuriosityFields" description="Get in touch with the CuriosityFields team." canonical="https://curiosityfields.com/contact" />
       
-      <div className="container py-12 lg:py-20">
+      <div className="container content-rail py-12 lg:py-20">
         <Breadcrumbs items={[{ label: 'Contact' }]} />
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl">

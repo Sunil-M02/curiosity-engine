@@ -14,7 +14,7 @@ const ContactThankYouPage = () => {
         robots="noindex, follow"
       />
       
-      <div className="container py-20 lg:py-32">
+      <div className="container content-rail py-20 lg:py-32">
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 
           animate={{ opacity: 1, y: 0 }}

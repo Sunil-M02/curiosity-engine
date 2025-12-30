@@ -26,7 +26,7 @@ export function Newsletter() {
   if (isSuccess) {
     return (
       <section className="py-12 lg:py-16">
-        <div className="container">
+        <div className="container content-rail">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -61,7 +61,7 @@ export function Newsletter() {
 
   return (
     <section className="py-12 lg:py-16">
-      <div className="container">
+      <div className="container content-rail">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}

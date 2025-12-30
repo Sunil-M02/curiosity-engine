@@ -8,7 +8,7 @@ const TermsPage = () => {
     <Layout>
       <SEO title="Terms of Service - CuriosityFields" description="Read the terms of service for CuriosityFields." canonical="https://curiosityfields.com/terms" />
       
-      <div className="container py-12 lg:py-20">
+      <div className="container content-rail py-12 lg:py-20">
         <Breadcrumbs items={[{ label: 'Terms of Service' }]} />
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl article-content">
