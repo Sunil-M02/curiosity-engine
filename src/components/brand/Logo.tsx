@@ -42,19 +42,19 @@ export function Logo({
 }: LogoProps) {
   const sizeClasses = {
     sm: {
-      symbol: 'w-[3.3rem] h-[3.3rem]',
+      symbol: 'w-[3.6rem] h-[3.6rem]',
       wordmark: 'text-lg',
-      gap: 'gap-1',
+      gap: 'gap-0.5',
     },
     md: {
-      symbol: 'w-[4.2rem] h-[4.2rem]',
+      symbol: 'w-[4.6rem] h-[4.6rem]',
       wordmark: 'text-xl',
-      gap: 'gap-1.5',
+      gap: 'gap-1',
     },
     lg: {
-      symbol: 'w-[5.4rem] h-[5.4rem]',
+      symbol: 'w-[5.9rem] h-[5.9rem]',
       wordmark: 'text-2xl',
-      gap: 'gap-2',
+      gap: 'gap-1.5',
     },
   };
 
