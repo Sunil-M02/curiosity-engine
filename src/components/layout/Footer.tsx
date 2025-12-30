@@ -62,9 +62,9 @@ export function Footer() {
   return (
     <footer className="bg-card border-t border-border/50 mt-16">
       <div className="container content-rail py-14">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10">
           {/* Brand */}
-          <div className="lg:col-span-1">
+          <div>
             <div className="mb-4">
               <Logo variant="full" size="md" />
             </div>
