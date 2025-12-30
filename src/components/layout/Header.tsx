@@ -65,10 +65,10 @@ export function Header() {
         isScrolled ? 'glass-effect border-b border-border/50' : 'bg-transparent'
       }`}
     >
-      <div className="container">
+      <div className="container px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Logo variant="full" size="md" />
+          <Logo variant="full" size="md" linkTo="/" />
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
@@ -147,7 +147,7 @@ export function Header() {
             transition={{ duration: 0.3 }}
             className="lg:hidden glass-effect border-b border-border/50 overflow-hidden"
           >
-            <div className="container py-6 space-y-4">
+            <div className="container px-4 sm:px-6 lg:px-8 py-6 space-y-4">
               {/* Main Nav Links */}
               <div className="space-y-2">
                 {navLinks.map((link) => (
