@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
+import logoSymbol from '@/assets/logo-symbol.png';
 
 interface LogoProps {
   variant?: 'full' | 'wordmark' | 'symbol';
@@ -8,69 +9,14 @@ interface LogoProps {
   size?: 'sm' | 'md' | 'lg';
 }
 
-// Abstract "C" symbol - open arcs forming the letter C
+// Logo symbol using uploaded image
 function LogoSymbol({ className }: { className?: string }) {
   return (
-    <svg
-      viewBox="0 0 48 48"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={cn('flex-shrink-0', className)}
-      aria-hidden="true"
-    >
-      {/* Outer arc - largest C curve */}
-      <path
-        d="M 38 24 A 14 14 0 1 1 38 24.01"
-        stroke="currentColor"
-        strokeWidth="0.8"
-        strokeLinecap="round"
-        fill="none"
-        className="text-logo"
-        opacity="0.5"
-        transform="rotate(-30 24 24)"
-      />
-      {/* Second arc */}
-      <path
-        d="M 35 24 A 11 11 0 1 1 35 24.01"
-        stroke="currentColor"
-        strokeWidth="0.8"
-        strokeLinecap="round"
-        fill="none"
-        className="text-logo"
-        opacity="0.6"
-        transform="rotate(-25 24 24)"
-      />
-      {/* Third arc */}
-      <path
-        d="M 32 24 A 8 8 0 1 1 32 24.01"
-        stroke="currentColor"
-        strokeWidth="0.8"
-        strokeLinecap="round"
-        fill="none"
-        className="text-logo"
-        opacity="0.75"
-        transform="rotate(-20 24 24)"
-      />
-      {/* Inner arc - smallest C curve */}
-      <path
-        d="M 29 24 A 5 5 0 1 1 29 24.01"
-        stroke="currentColor"
-        strokeWidth="0.8"
-        strokeLinecap="round"
-        fill="none"
-        className="text-logo"
-        opacity="0.9"
-        transform="rotate(-15 24 24)"
-      />
-      
-      {/* Amber/gold center dot */}
-      <circle
-        cx="24"
-        cy="24"
-        r="2.5"
-        className="fill-logo-accent"
-      />
-    </svg>
+    <img
+      src={logoSymbol}
+      alt="CuriosityFields"
+      className={cn('flex-shrink-0 object-contain', className)}
+    />
   );
 }
 
