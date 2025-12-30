@@ -74,7 +74,7 @@ export function Hero() {
         }}
       />
       
-      <div className="container relative z-10 py-20 lg:py-32">
+      <div className="container px-4 sm:px-6 lg:px-8 relative z-10 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Content */}
           <motion.div
