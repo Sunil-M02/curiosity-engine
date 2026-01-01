@@ -29,8 +29,8 @@ export function SEO({
   const siteName = 'CuriosityFields';
   const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
   
-  // Compute robots meta - noIndex prop takes precedence
-  const robotsContent = noIndex ? 'noindex, follow' : robots;
+  // Compute robots meta - noIndex prop takes precedence, default to index, follow
+  const robotsContent = noIndex ? 'noindex, follow' : (robots || 'index, follow');
   
   return (
     <Helmet>
