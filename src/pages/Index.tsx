@@ -13,10 +13,10 @@ const Index = () => {
     name: "CuriosityFields",
     description:
       "A knowledge-first digital publication exploring science, technology, AI, history, astronomy, and future innovation.",
-    url: "https://curiosityfields.com",
+    url: "https://www.curiosityfields.com",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://curiosityfields.com/search?q={search_term_string}",
+      target: "https://www.curiosityfields.com/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
@@ -25,8 +25,8 @@ const Index = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "CuriosityFields",
-    url: "https://curiosityfields.com",
-    logo: "https://curiosityfields.com/logo.png",
+    url: "https://www.curiosityfields.com",
+    logo: "https://www.curiosityfields.com/logo.png",
     sameAs: ["https://twitter.com/curiosityfields", "https://linkedin.com/company/curiosityfields"],
   };
 

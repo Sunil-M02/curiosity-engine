@@ -63,7 +63,7 @@ const ContactPage = () => {
 
   return (
     <Layout>
-      <SEO title="Contact Us - CuriosityFields" description="Get in touch with the CuriosityFields team." canonical="https://curiosityfields.com/contact" />
+      <SEO title="Contact Us - CuriosityFields" description="Get in touch with the CuriosityFields team." canonical="https://www.curiosityfields.com/contact" />
       
       <div className="container content-rail py-12 lg:py-20">
         <Breadcrumbs items={[{ label: 'Contact' }]} />

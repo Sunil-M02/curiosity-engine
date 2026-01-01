@@ -35,8 +35,7 @@ const CategoryPage = () => {
       <SEO
         title={`${info.name} Articles - CuriosityFields`}
         description={info.description}
-        canonical={`https://curiosityfields.com/category/${category}`}
-        noIndex={true}
+        canonical={`https://www.curiosityfields.com/category/${category}`}
       />
       
       <div className="container content-rail py-12 lg:py-20">
