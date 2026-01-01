@@ -56,7 +56,7 @@ export default function WriteForUsPage() {
       <SEO
         title="Write for Us"
         description="Join CuriosityFields as a contributor. Share your expertise in science, technology, AI, history, astronomy, and future innovation with our curious community."
-        canonical="/write-for-us"
+        canonical="https://www.curiosityfields.com/write-for-us"
       />
 
       <div className="pt-24 lg:pt-32">

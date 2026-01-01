@@ -9,7 +9,7 @@ const AboutPage = () => {
       <SEO
         title="About CuriosityFields"
         description="CuriosityFields is a knowledge-first digital publication exploring science, technology, AI, history, astronomy, and future innovation."
-        canonical="https://curiosityfields.com/about"
+        canonical="https://www.curiosityfields.com/about"
       />
       
       <div className="container content-rail py-12 lg:py-20">

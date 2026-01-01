@@ -50,12 +50,12 @@ const ArticlePage = () => {
       "name": "CuriosityFields",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://curiosityfields.com/logo.png"
+        "url": "https://www.curiosityfields.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://curiosityfields.com/article/${article.slug}`
+      "@id": `https://www.curiosityfields.com/article/${article.slug}`
     }
   };
 
@@ -64,10 +64,9 @@ const ArticlePage = () => {
       <SEO
         title={article.title}
         description={article.excerpt}
-        canonical={`https://curiosityfields.com/article/${article.slug}`}
+        canonical={`https://www.curiosityfields.com/article/${article.slug}`}
         type="article"
         image={article.coverImage}
-        noIndex={true}
         article={{
           publishedTime: article.publishedAt,
           section: categoryInfo[article.category].name,

@@ -14,7 +14,7 @@ const CategoriesPage = () => {
       <SEO
         title="All Categories - CuriosityFields"
         description="Explore all topics on CuriosityFields. From science and technology to history and space, find articles that fuel your curiosity."
-        canonical="https://curiosityfields.com/categories"
+        canonical="https://www.curiosityfields.com/categories"
       />
       
       <div className="container content-rail py-12 lg:py-20">
