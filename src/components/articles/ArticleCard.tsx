@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { ArrowRight, Clock, Calendar } from 'lucide-react';
+import { ArrowRight, Clock } from 'lucide-react';
 import { Article, categoryInfo } from '@/data/articles';
 import { format } from 'date-fns';
 import { useRef, useCallback } from 'react';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { OptimizedImage } from '@/components/ui/OptimizedImage';
 
 interface ArticleCardProps {
   article: Article;
@@ -58,11 +59,13 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
       >
         <Link to={`/article/${article.slug}`} className="block">
           <div className="relative aspect-[16/10] lg:aspect-[21/9] overflow-hidden rounded-2xl">
-            <img
+            <OptimizedImage
               src={article.coverImage}
               alt={article.title}
+              articleTitle={article.title}
+              category={article.category}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
             
@@ -117,11 +120,13 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
         className="group"
       >
         <Link to={`/article/${article.slug}`} className="flex gap-4 items-start">
-          <img
+          <OptimizedImage
             src={article.coverImage}
             alt={article.title}
+            articleTitle={article.title}
+            category={article.category}
             className="w-24 h-24 rounded-lg object-cover flex-shrink-0 transition-transform duration-300 group-hover:scale-105"
-            loading="lazy"
+            sizes="96px"
           />
           <div className="flex-1 min-w-0">
             <span
@@ -158,11 +163,13 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
         {/* Card with enhanced lift and shadow on hover */}
         <div className="rounded-xl bg-card border border-border/40 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_12px_40px_hsl(var(--primary)/0.15)] hover:border-primary/30">
           <div className="relative aspect-[16/10] overflow-hidden">
-            <img
+            <OptimizedImage
               src={article.coverImage}
               alt={article.title}
+              articleTitle={article.title}
+              category={article.category}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              loading="lazy"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>

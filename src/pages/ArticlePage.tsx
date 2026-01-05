@@ -8,6 +8,7 @@ import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
 import { ArticleCard } from '@/components/articles/ArticleCard';
 import { Button } from '@/components/ui/button';
 import { getArticleBySlug, getRelatedArticles, categoryInfo } from '@/data/articles';
+import { OptimizedImage } from '@/components/ui/OptimizedImage';
 
 const ArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -82,10 +83,14 @@ const ArticlePage = () => {
       <article>
         {/* Hero Section */}
         <div className="relative h-[50vh] lg:h-[70vh] overflow-hidden">
-          <img
+          <OptimizedImage
             src={article.coverImage}
             alt={article.title}
+            articleTitle={article.title}
+            category={article.category}
+            lazy={false}
             className="w-full h-full object-cover"
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
         </div>
