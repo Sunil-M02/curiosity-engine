@@ -3,8 +3,7 @@ import { Category } from '@/data/articles';
 import {
   getFallbackImage,
   generateAltText,
-  generateSrcSet,
-  isValidImageUrl,
+  isLocalImage,
   logImageError,
 } from '@/lib/image-utils';
 import { cn } from '@/lib/utils';
@@ -32,6 +31,29 @@ interface OptimizedImageProps extends Omit<ImgHTMLAttributes<HTMLImageElement>, 
   showSkeleton?: boolean;
 }
 
+/**
+ * Get the best initial source - prefer local images, fallback for external
+ */
+function getInitialSrc(src: string | undefined | null, category?: Category): string {
+  // No source provided
+  if (!src || typeof src !== 'string' || src.trim() === '') {
+    return getFallbackImage(category);
+  }
+  
+  // Local images are always safe to use
+  if (isLocalImage(src)) {
+    return src;
+  }
+  
+  // External URLs - try them but be ready to fallback
+  try {
+    new URL(src);
+    return src;
+  } catch {
+    return getFallbackImage(category);
+  }
+}
+
 export function OptimizedImage({
   src,
   alt,
@@ -44,31 +66,38 @@ export function OptimizedImage({
   showSkeleton = false,
   ...props
 }: OptimizedImageProps) {
-  const [imgSrc, setImgSrc] = useState<string>(() => 
-    isValidImageUrl(src) ? src : getFallbackImage(category)
-  );
+  const [imgSrc, setImgSrc] = useState<string>(() => getInitialSrc(src, category));
   const [hasError, setHasError] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
 
   // Update src when prop changes
   useEffect(() => {
-    if (isValidImageUrl(src)) {
-      setImgSrc(src);
-      setHasError(false);
-      setIsLoaded(false);
-    } else {
-      setImgSrc(getFallbackImage(category));
-      setHasError(true);
-    }
+    const newSrc = getInitialSrc(src, category);
+    setImgSrc(newSrc);
+    setHasError(false);
+    setIsLoaded(false);
+    setRetryCount(0);
   }, [src, category]);
 
   const handleError = useCallback(() => {
+    // Only log and fallback once per image
     if (!hasError) {
       logImageError(src, articleTitle || 'Unknown context');
       setHasError(true);
-      setImgSrc(getFallbackImage(category));
+      
+      // Switch to local fallback immediately
+      const fallback = getFallbackImage(category);
+      setImgSrc(fallback);
+      
+      // If fallback also fails (shouldn't happen with local images), increment retry
+      setRetryCount(prev => prev + 1);
+    } else if (retryCount < 2) {
+      // Ultimate fallback - just use generic
+      setImgSrc('/images/defaults/technology.jpg');
+      setRetryCount(prev => prev + 1);
     }
-  }, [src, category, articleTitle, hasError]);
+  }, [src, category, articleTitle, hasError, retryCount]);
 
   const handleLoad = useCallback(() => {
     setIsLoaded(true);
@@ -79,9 +108,6 @@ export function OptimizedImage({
   
   // Ensure alt is never empty
   const safeAlt = finalAlt || 'Article illustration';
-
-  // Generate srcset for responsive images
-  const srcSet = generateSrcSet(imgSrc);
 
   if (showSkeleton) {
     return (
@@ -101,7 +127,6 @@ export function OptimizedImage({
           decoding="async"
           onError={handleError}
           onLoad={handleLoad}
-          srcSet={srcSet || undefined}
           sizes={sizes}
           {...props}
         />
@@ -118,7 +143,6 @@ export function OptimizedImage({
       decoding="async"
       onError={handleError}
       onLoad={handleLoad}
-      srcSet={srcSet || undefined}
       sizes={sizes}
       {...props}
     />

@@ -1,20 +1,20 @@
 import { Category } from '@/data/articles';
 
-// Topic-based fallback images (using high-quality Unsplash images)
+// Topic-based fallback images using LOCAL assets (never breaks)
 export const categoryFallbackImages: Record<Category, string> = {
-  'science': 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1200&h=800&fit=crop',
-  'technology': 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=800&fit=crop',
-  'artificial-intelligence': 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=800&fit=crop',
-  'history': 'https://images.unsplash.com/photo-1461360370896-922624d12a74?w=1200&h=800&fit=crop',
-  'astronomy': 'https://images.unsplash.com/photo-1462332420958-a05d1e002413?w=1200&h=800&fit=crop',
-  'future-innovation': 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&h=800&fit=crop',
+  'science': '/images/defaults/science.jpg',
+  'technology': '/images/defaults/technology.jpg',
+  'artificial-intelligence': '/images/defaults/ai.jpg',
+  'history': '/images/defaults/history.jpg',
+  'astronomy': '/images/defaults/space.jpg',
+  'future-innovation': '/images/defaults/future.jpg',
 };
 
-// Generic fallback for unknown categories
-export const genericFallbackImage = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop';
+// Generic fallback for unknown categories (uses technology as a safe default)
+export const genericFallbackImage = '/images/defaults/technology.jpg';
 
 /**
- * Get a fallback image based on topic/category
+ * Get a fallback image based on topic/category - always returns a local path
  */
 export function getFallbackImage(category?: Category): string {
   if (category && categoryFallbackImages[category]) {
@@ -27,7 +27,7 @@ export function getFallbackImage(category?: Category): string {
  * Validate if an image URL is from an allowed source
  */
 export function isAllowedImageSource(url: string): boolean {
-  // Local assets are always allowed
+  // Local assets are always allowed and preferred
   if (url.startsWith('/') || url.startsWith('./') || url.startsWith('../')) {
     return true;
   }
@@ -37,9 +37,8 @@ export function isAllowedImageSource(url: string): boolean {
     return true;
   }
   
-  // Allowed CDN domains
+  // Allowed CDN domains - only our own CDN, no external hotlinking
   const allowedDomains = [
-    'images.unsplash.com',
     'cdn.curiosityfields.com',
     'curiosityfields.com',
     'www.curiosityfields.com',
@@ -51,6 +50,13 @@ export function isAllowedImageSource(url: string): boolean {
   } catch {
     return false;
   }
+}
+
+/**
+ * Check if URL is a local/self-hosted image (most reliable)
+ */
+export function isLocalImage(url: string): boolean {
+  return url.startsWith('/') || url.startsWith('./') || url.startsWith('../') || url.startsWith('data:');
 }
 
 /**
