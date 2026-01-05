@@ -5,6 +5,7 @@ import { lazy, Suspense, useRef, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
 import { getFeaturedArticles, categoryInfo } from '@/data/articles';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { OptimizedImage } from '@/components/ui/OptimizedImage';
 
 // Lazy load particle field for better LCP
 const ParticleField = lazy(() => import('@/components/effects/ParticleField').then(m => ({ default: m.ParticleField })));
@@ -138,10 +139,14 @@ export function Hero() {
             >
               <Link to={`/article/${featuredArticle.slug}`} className="group block">
                 <div className="relative rounded-2xl overflow-hidden elevated-shadow transition-shadow duration-300 hover:shadow-[0_20px_60px_hsl(var(--primary)/0.2)]">
-                  <img
+                  <OptimizedImage
                     src={featuredArticle.coverImage}
                     alt={featuredArticle.title}
+                    articleTitle={featuredArticle.title}
+                    category={featuredArticle.category}
+                    lazy={false}
                     className="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-105"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
                   
