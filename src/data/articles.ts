@@ -23,90 +23,92 @@ export interface Article {
   tags: string[];
 }
 
-export type Category = 
-  | 'science'
-  | 'technology'
-  | 'artificial-intelligence'
-  | 'history'
-  | 'astronomy'
-  | 'future-innovation';
+export type Category =
+  | "science"
+  | "technology"
+  | "artificial-intelligence"
+  | "history"
+  | "astronomy"
+  | "future-innovation";
 
 export const categoryInfo: Record<Category, { name: string; description: string; color: string }> = {
-  'science': {
-    name: 'Science',
-    description: 'Exploring the fundamental principles that govern our universe through research, discovery, and experimentation.',
-    color: 'hsl(142, 70%, 45%)',
+  science: {
+    name: "Science",
+    description:
+      "Exploring the fundamental principles that govern our universe through research, discovery, and experimentation.",
+    color: "hsl(142, 70%, 45%)",
   },
-  'technology': {
-    name: 'Technology',
-    description: 'The latest breakthroughs in computing, engineering, and digital innovation shaping our world.',
-    color: 'hsl(200, 75%, 55%)',
+  technology: {
+    name: "Technology",
+    description: "The latest breakthroughs in computing, engineering, and digital innovation shaping our world.",
+    color: "hsl(200, 75%, 55%)",
   },
-  'artificial-intelligence': {
-    name: 'Artificial Intelligence',
-    description: 'Deep dives into machine learning, neural networks, and the future of intelligent systems.',
-    color: 'hsl(280, 70%, 60%)',
+  "artificial-intelligence": {
+    name: "Artificial Intelligence",
+    description: "Deep dives into machine learning, neural networks, and the future of intelligent systems.",
+    color: "hsl(280, 70%, 60%)",
   },
-  'history': {
-    name: 'History',
-    description: 'Uncovering the stories, events, and people that shaped human civilization.',
-    color: 'hsl(25, 80%, 55%)',
+  history: {
+    name: "History",
+    description: "Uncovering the stories, events, and people that shaped human civilization.",
+    color: "hsl(25, 80%, 55%)",
   },
-  'astronomy': {
-    name: 'Astronomy & Space',
-    description: 'Journey through the cosmos exploring planets, stars, galaxies, and the mysteries of the universe.',
-    color: 'hsl(220, 80%, 60%)',
+  astronomy: {
+    name: "Astronomy & Space",
+    description: "Journey through the cosmos exploring planets, stars, galaxies, and the mysteries of the universe.",
+    color: "hsl(220, 80%, 60%)",
   },
-  'future-innovation': {
-    name: 'Future Innovation',
-    description: 'Visionary ideas and emerging technologies that will define tomorrow\'s world.',
-    color: 'hsl(38, 92%, 55%)',
+  "future-innovation": {
+    name: "Future Innovation",
+    description: "Visionary ideas and emerging technologies that will define tomorrow's world.",
+    color: "hsl(38, 92%, 55%)",
   },
 };
 
 export const authors: Author[] = [
   {
-    id: '1',
-    name: 'Dr. Elena Vasquez',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop',
-    bio: 'Astrophysicist and science writer with over 15 years of experience researching black holes and dark matter. Former NASA researcher.',
-    role: 'Senior Science Editor',
-    twitter: 'elenavasquez',
+    id: "1",
+    name: "Dr. Elena Vasquez",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    bio: "Astrophysicist and science writer with over 15 years of experience researching black holes and dark matter. Former NASA researcher.",
+    role: "Senior Science Editor",
+    twitter: "elenavasquez",
   },
   {
-    id: '2',
-    name: 'Marcus Chen',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop',
-    bio: 'Technology journalist and AI researcher. Previously led machine learning teams at major tech companies.',
-    role: 'Technology Correspondent',
-    linkedin: 'marcuschen',
+    id: "2",
+    name: "Marcus Chen",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    bio: "Technology journalist and AI researcher. Previously led machine learning teams at major tech companies.",
+    role: "Technology Correspondent",
+    linkedin: "marcuschen",
   },
   {
-    id: '3',
-    name: 'Sarah Williams',
-    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop',
-    bio: 'Historian specializing in ancient civilizations and their technological achievements. Author of three bestselling books.',
-    role: 'History Editor',
-    twitter: 'sarahwhistory',
+    id: "3",
+    name: "Sarah Williams",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+    bio: "Historian specializing in ancient civilizations and their technological achievements. Author of three bestselling books.",
+    role: "History Editor",
+    twitter: "sarahwhistory",
   },
   {
-    id: '4',
-    name: 'James Okonkwo',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop',
-    bio: 'Futurist and innovation strategist helping organizations prepare for emerging technologies.',
-    role: 'Innovation Editor',
-    linkedin: 'jamesokonkwo',
+    id: "4",
+    name: "James Okonkwo",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+    bio: "Futurist and innovation strategist helping organizations prepare for emerging technologies.",
+    role: "Innovation Editor",
+    linkedin: "jamesokonkwo",
   },
 ];
 
 export const articles: Article[] = [
   {
-    id: '1',
-    slug: 'the-quantum-revolution-reshaping-computing',
-    title: 'The Quantum Revolution: How Quantum Computing Is Reshaping Our Digital Future',
-    excerpt: 'Quantum computers are no longer science fiction. As tech giants race to achieve quantum supremacy, we explore what this means for cryptography, medicine, and beyond.',
+    id: "1",
+    slug: "the-quantum-revolution-reshaping-computing",
+    title: "The Quantum Revolution: How Quantum Computing Is Reshaping Our Digital Future",
+    excerpt:
+      "Quantum computers are no longer science fiction. As tech giants race to achieve quantum supremacy, we explore what this means for cryptography, medicine, and beyond.",
     content: `
-      <p>The race to build practical quantum computers has reached a pivotal moment. What was once theoretical physics confined to academic papers is now becoming engineering reality in laboratories across the globe.</p>
+      <p>The race to build practical quantum computers has reached a pivotal moment. What was once theoretical physics confined to academic papers is now becoming engineering reality in laboratories across the world.</p>
 
       <h2>Understanding Quantum Advantage</h2>
       <p>Unlike classical computers that process information in bits (0s and 1s), quantum computers harness the strange properties of quantum mechanics—superposition and entanglement—to perform calculations in fundamentally different ways.</p>
@@ -135,19 +137,20 @@ export const articles: Article[] = [
       
       <p>Yet progress is accelerating. IBM, Google, and startups worldwide are pushing boundaries, with each year bringing significant advances. The quantum revolution may be closer than we think.</p>
     `,
-    coverImage: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=800&fit=crop',
-    category: 'technology',
+    coverImage: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=800&fit=crop",
+    category: "technology",
     author: authors[1],
-    publishedAt: '2024-12-20',
+    publishedAt: "2024-12-20",
     readTime: 8,
     featured: true,
-    tags: ['quantum computing', 'technology', 'cryptography', 'future'],
+    tags: ["quantum computing", "technology", "cryptography", "future"],
   },
   {
-    id: '2',
-    slug: 'james-webb-telescope-discoveries-changing-astronomy',
-    title: 'The James Webb Space Telescope: A Year of Discoveries That Changed Astronomy',
-    excerpt: 'From the earliest galaxies to potentially habitable exoplanets, JWST has revolutionized our understanding of the cosmos in just twelve months.',
+    id: "2",
+    slug: "james-webb-telescope-discoveries-changing-astronomy",
+    title: "The James Webb Space Telescope: A Year of Discoveries That Changed Astronomy",
+    excerpt:
+      "From the earliest galaxies to potentially habitable exoplanets, JWST has revolutionized our understanding of the cosmos in just twelve months.",
     content: `
       <p>When the James Webb Space Telescope began sending back its first images, astronomers around the world held their breath. What they saw exceeded every expectation.</p>
 
@@ -169,19 +172,20 @@ export const articles: Article[] = [
       <h3>What's Next</h3>
       <p>With a planned operational lifetime of at least 20 years and a queue of observations stretching years into the future, JWST is just getting started. The best discoveries may still lie ahead.</p>
     `,
-    coverImage: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1200&h=800&fit=crop',
-    category: 'astronomy',
+    coverImage: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1200&h=800&fit=crop",
+    category: "astronomy",
     author: authors[0],
-    publishedAt: '2024-12-18',
+    publishedAt: "2024-12-18",
     readTime: 7,
     featured: true,
-    tags: ['space', 'astronomy', 'JWST', 'exoplanets'],
+    tags: ["space", "astronomy", "JWST", "exoplanets"],
   },
   {
-    id: '3',
-    slug: 'artificial-general-intelligence-closer-than-expected',
-    title: 'Is Artificial General Intelligence Closer Than We Think?',
-    excerpt: 'Recent breakthroughs in large language models and multimodal AI have reignited debates about the timeline to AGI. Experts weigh in.',
+    id: "3",
+    slug: "artificial-general-intelligence-closer-than-expected",
+    title: "Is Artificial General Intelligence Closer Than We Think?",
+    excerpt:
+      "Recent breakthroughs in large language models and multimodal AI have reignited debates about the timeline to AGI. Experts weigh in.",
     content: `
       <p>The question of when—or if—we'll achieve artificial general intelligence has taken on new urgency. Recent advances in AI capabilities have surprised even optimistic researchers.</p>
 
@@ -206,19 +210,20 @@ export const articles: Article[] = [
       <h3>Preparing for Either Scenario</h3>
       <p>Whether AGI arrives in years or decades, the implications are profound. Societies must prepare for both the opportunities and risks of increasingly capable AI systems.</p>
     `,
-    coverImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop',
-    category: 'artificial-intelligence',
+    coverImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop",
+    category: "artificial-intelligence",
     author: authors[1],
-    publishedAt: '2024-12-15',
+    publishedAt: "2024-12-15",
     readTime: 9,
     featured: true,
-    tags: ['AI', 'AGI', 'machine learning', 'future'],
+    tags: ["AI", "AGI", "machine learning", "future"],
   },
   {
-    id: '4',
-    slug: 'lost-library-of-alexandria-what-we-really-lost',
-    title: 'The Lost Library of Alexandria: What Ancient Knowledge Did Humanity Truly Lose?',
-    excerpt: 'Separating myth from history, we explore what the great library actually contained and which works vanished forever.',
+    id: "4",
+    slug: "lost-library-of-alexandria-what-we-really-lost",
+    title: "The Lost Library of Alexandria: What Ancient Knowledge Did Humanity Truly Lose?",
+    excerpt:
+      "Separating myth from history, we explore what the great library actually contained and which works vanished forever.",
     content: `
       <p>The Library of Alexandria has become a symbol of lost knowledge, a cautionary tale about the fragility of human achievement. But what did we actually lose, and how much is mythologized?</p>
 
@@ -245,19 +250,20 @@ export const articles: Article[] = [
       <h3>Modern Echoes</h3>
       <p>Today's digital repositories face similar challenges. How do we preserve knowledge for future generations? The Library of Alexandria reminds us that civilization's achievements are never permanent.</p>
     `,
-    coverImage: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=800&fit=crop',
-    category: 'history',
+    coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=800&fit=crop",
+    category: "history",
     author: authors[2],
-    publishedAt: '2024-12-12',
+    publishedAt: "2024-12-12",
     readTime: 6,
     featured: false,
-    tags: ['history', 'ancient world', 'libraries', 'knowledge'],
+    tags: ["history", "ancient world", "libraries", "knowledge"],
   },
   {
-    id: '5',
-    slug: 'crispr-gene-editing-transforming-medicine',
-    title: 'CRISPR Gene Editing: How It\'s Transforming Medicine Right Now',
-    excerpt: 'From curing genetic diseases to fighting cancer, CRISPR is moving from laboratory promise to clinical reality faster than anyone predicted.',
+    id: "5",
+    slug: "crispr-gene-editing-transforming-medicine",
+    title: "CRISPR Gene Editing: How It's Transforming Medicine Right Now",
+    excerpt:
+      "From curing genetic diseases to fighting cancer, CRISPR is moving from laboratory promise to clinical reality faster than anyone predicted.",
     content: `
       <p>Just over a decade since its discovery, CRISPR-Cas9 gene editing is already saving lives. What was once science fiction is becoming standard medical practice.</p>
 
@@ -284,19 +290,20 @@ export const articles: Article[] = [
       <h3>The Future of Medicine</h3>
       <p>With dozens of clinical trials underway for conditions from blindness to HIV, the next decade will likely see CRISPR become a standard tool in medicine's arsenal.</p>
     `,
-    coverImage: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1200&h=800&fit=crop',
-    category: 'science',
+    coverImage: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1200&h=800&fit=crop",
+    category: "science",
     author: authors[0],
-    publishedAt: '2024-12-10',
+    publishedAt: "2024-12-10",
     readTime: 7,
     featured: false,
-    tags: ['science', 'medicine', 'CRISPR', 'genetics'],
+    tags: ["science", "medicine", "CRISPR", "genetics"],
   },
   {
-    id: '6',
-    slug: 'sustainable-cities-2050-urban-innovation',
-    title: 'Sustainable Cities of 2050: The Urban Innovations Being Built Today',
-    excerpt: 'From vertical forests to smart grids, the cities of tomorrow are already taking shape. A tour of the technologies defining urban futures.',
+    id: "6",
+    slug: "sustainable-cities-2050-urban-innovation",
+    title: "Sustainable Cities of 2050: The Urban Innovations Being Built Today",
+    excerpt:
+      "From vertical forests to smart grids, the cities of tomorrow are already taking shape. A tour of the technologies defining urban futures.",
     content: `
       <p>By 2050, over 70% of humanity will live in cities. How we design these urban spaces will determine not just our quality of life, but the planet's future.</p>
 
@@ -323,19 +330,20 @@ export const articles: Article[] = [
       <h3>Building Tomorrow</h3>
       <p>These aren't distant dreams—they're being implemented now in cities from Singapore to Copenhagen. The question is whether the transformation can happen fast enough.</p>
     `,
-    coverImage: 'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&h=800&fit=crop',
-    category: 'future-innovation',
+    coverImage: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&h=800&fit=crop",
+    category: "future-innovation",
     author: authors[3],
-    publishedAt: '2024-12-08',
+    publishedAt: "2024-12-08",
     readTime: 8,
     featured: false,
-    tags: ['future', 'cities', 'sustainability', 'innovation'],
+    tags: ["future", "cities", "sustainability", "innovation"],
   },
   {
-    id: '7',
-    slug: 'dark-matter-mystery-what-we-know',
-    title: 'The Dark Matter Mystery: What We Know and What We\'re Getting Wrong',
-    excerpt: 'It makes up 85% of the universe\'s mass, yet we\'ve never detected it directly. The latest experiments and theories trying to solve physics\' greatest puzzle.',
+    id: "7",
+    slug: "dark-matter-mystery-what-we-know",
+    title: "The Dark Matter Mystery: What We Know and What We're Getting Wrong",
+    excerpt:
+      "It makes up 85% of the universe's mass, yet we've never detected it directly. The latest experiments and theories trying to solve physics' greatest puzzle.",
     content: `
       <p>Dark matter is arguably the biggest mystery in modern physics. We know it exists—its gravitational effects are undeniable—but after decades of searching, we still don't know what it is.</p>
 
@@ -362,19 +370,20 @@ export const articles: Article[] = [
       <h3>The Search Continues</h3>
       <p>New experiments using different technologies and approaches are coming online. The answer, when it comes, could revolutionize our understanding of the universe.</p>
     `,
-    coverImage: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop',
-    category: 'astronomy',
+    coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop",
+    category: "astronomy",
     author: authors[0],
-    publishedAt: '2024-12-05',
+    publishedAt: "2024-12-05",
     readTime: 9,
     featured: false,
-    tags: ['astronomy', 'physics', 'dark matter', 'universe'],
+    tags: ["astronomy", "physics", "dark matter", "universe"],
   },
   {
-    id: '8',
-    slug: 'ancient-computers-antikythera-mechanism',
-    title: 'Ancient Computers: The Antikythera Mechanism and Lost Technology',
-    excerpt: 'A 2,000-year-old device that predicted eclipses and tracked planets reveals ancient Greeks were far more advanced than we imagined.',
+    id: "8",
+    slug: "ancient-computers-antikythera-mechanism",
+    title: "Ancient Computers: The Antikythera Mechanism and Lost Technology",
+    excerpt:
+      "A 2,000-year-old device that predicted eclipses and tracked planets reveals ancient Greeks were far more advanced than we imagined.",
     content: `
       <p>In 1901, divers exploring a Roman shipwreck off the Greek island of Antikythera pulled up a corroded lump of bronze. It would take a century to understand what they had found.</p>
 
@@ -402,31 +411,34 @@ export const articles: Article[] = [
       <h3>Modern Reconstructions</h3>
       <p>Using CT scans and decades of research, scientists have now recreated working replicas, finally understanding how ancient astronomers compressed the cosmos into clockwork.</p>
     `,
-    coverImage: 'https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=1200&h=800&fit=crop',
-    category: 'history',
+    coverImage: "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=1200&h=800&fit=crop",
+    category: "history",
     author: authors[2],
-    publishedAt: '2024-12-01',
+    publishedAt: "2024-12-01",
     readTime: 6,
     featured: false,
-    tags: ['history', 'technology', 'ancient world', 'archaeology'],
+    tags: ["history", "technology", "ancient world", "archaeology"],
   },
 ];
 
 export function getArticlesByCategory(category: Category): Article[] {
-  return articles.filter(article => article.category === category);
+  return articles.filter((article) => article.category === category);
 }
 
 export function getFeaturedArticles(): Article[] {
-  return articles.filter(article => article.featured);
+  return articles.filter((article) => article.featured);
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {
-  return articles.find(article => article.slug === slug);
+  return articles.find((article) => article.slug === slug);
 }
 
 export function getRelatedArticles(article: Article, limit = 3): Article[] {
   return articles
-    .filter(a => a.id !== article.id && (a.category === article.category || a.tags.some(tag => article.tags.includes(tag))))
+    .filter(
+      (a) =>
+        a.id !== article.id && (a.category === article.category || a.tags.some((tag) => article.tags.includes(tag))),
+    )
     .slice(0, limit);
 }
 
@@ -437,5 +449,5 @@ export function getLatestArticles(limit = 6): Article[] {
 }
 
 export function getAuthorById(id: string): Author | undefined {
-  return authors.find(author => author.id === id);
+  return authors.find((author) => author.id === id);
 }
