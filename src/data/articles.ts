@@ -200,29 +200,125 @@ export const articles: Article[] = [
   {
     id: "2",
     slug: "james-webb-telescope-discoveries-changing-astronomy",
-    title: "The James Webb Space Telescope: A Year of Discoveries That Changed Astronomy",
+    title: "James Webb Space Telescope Discoveries: How JWST Is Redefining Our Understanding of the Universe",
     excerpt:
-      "From the earliest galaxies to potentially habitable exoplanets, JWST has revolutionized our understanding of the cosmos in just twelve months.",
+      "From uncovering unexpectedly mature early galaxies to decoding the atmospheres of distant exoplanets, the James Webb Space Telescope is transforming astronomy from theory-driven assumptions to data-driven reality. Here’s how JWST is reshaping what we know about the universe.",
     content: `
-      <p>When the James Webb Space Telescope began sending back its first images, astronomers around the world held their breath. What they saw exceeded every expectation.</p>
+      <p>When the James Webb Space Telescope (JWST) released its first full-color images, it was immediately clear that astronomy had entered a new era. This was not a routine upgrade from previous space telescopes. JWST was designed to answer questions that older instruments simply could not reach: How did the first galaxies form? What are exoplanet atmospheres really made of? How do stars and planetary systems come into existence? Within its first year, JWST began delivering data that challenged long-standing theories and forced scientists to rethink the early history of the universe.</p>
 
-      <h2>Peering Back in Time</h2>
-      <p>JWST's infrared capabilities allow it to see light that has traveled for over 13 billion years—showing us galaxies that formed just a few hundred million years after the Big Bang.</p>
-      
-      <p>What surprised researchers was finding these ancient galaxies far more developed than expected. Massive, well-structured galaxies shouldn't exist so early in cosmic history, yet there they were, challenging our models of galaxy formation.</p>
+<p>Unlike optical telescopes that see visible light, JWST observes primarily in the infrared spectrum. This allows it to detect extremely faint and distant objects whose light has been stretched by the expansion of the universe. In practical terms, it means JWST can see further back in time than any telescope before it, reaching closer to the moment when the first stars and galaxies formed.</p>
 
-      <h2>Exoplanet Atmospheres Revealed</h2>
-      <p>Perhaps even more exciting for those searching for life beyond Earth, JWST has begun analyzing the atmospheres of exoplanets with unprecedented detail.</p>
-      
-      <p>The telescope detected carbon dioxide in the atmosphere of WASP-39b, marking the first definitive detection of this molecule on an exoplanet. More tantalizingly, it found hints of water vapor and other organic molecules on several worlds.</p>
+<h2>What Makes the James Webb Space Telescope Different</h2>
 
-      <blockquote>"Every week brings a new discovery that would have been the highlight of a career just a decade ago. We're drinking from a firehose of cosmic knowledge." — Dr. Jane Rigby, JWST Operations Project Scientist</blockquote>
+<p>JWST is not a replacement for the Hubble Space Telescope; it is a fundamentally different instrument. Hubble observes mostly visible and ultraviolet light, while JWST is optimized for infrared. This distinction is critical because the earliest galaxies emit light that has been shifted into the infrared by cosmic expansion. Without infrared sensitivity, those galaxies remain invisible.</p>
 
-      <h2>Stellar Nurseries in Detail</h2>
-      <p>The telescope's images of star-forming regions like the Carina Nebula have revealed never-before-seen details of how stars are born from clouds of gas and dust.</p>
+<p>JWST’s 6.5-meter segmented mirror is over six times larger than Hubble’s. This gives it far greater light-gathering power, allowing it to detect objects that are both older and fainter. Its position at the second Lagrange point (L2), about one million miles from Earth, keeps it thermally stable and away from Earth’s heat and light interference.</p>
 
-      <h3>What's Next</h3>
-      <p>With a planned operational lifetime of at least 20 years and a queue of observations stretching years into the future, JWST is just getting started. The best discoveries may still lie ahead.</p>
+<p>Its massive sunshield, roughly the size of a tennis court, blocks heat from the Sun, Earth, and Moon. This keeps the telescope cold enough to detect faint infrared signals. Without this extreme cooling, its instruments would be blinded by their own heat.</p>
+
+<h2>Peering Back to the First Galaxies</h2>
+
+<p>One of JWST’s most powerful achievements has been its ability to observe galaxies that formed only a few hundred million years after the Big Bang. These observations are not just pushing distance records; they are reshaping cosmology.</p>
+
+<p>Before JWST, scientists believed that early galaxies were small, chaotic, and slow to assemble. JWST has shown something very different. Many early galaxies appear surprisingly massive, structured, and chemically evolved. This implies that galaxy formation happened much faster than existing models predicted.</p>
+
+<p>This matters because cosmological models are built on assumptions about how matter collapses, how stars form, and how galaxies grow. JWST data suggests that these processes were far more efficient in the early universe than previously believed. That forces astronomers to revisit foundational theories of cosmic evolution.</p>
+
+<h2>How Infrared Vision Changes What We See</h2>
+
+<p>Infrared light penetrates cosmic dust that blocks visible wavelengths. Many star-forming regions are hidden inside dense clouds of gas and dust. Hubble could only see their outer surfaces. JWST can see inside them.</p>
+
+<p>This has transformed the study of stellar nurseries. Regions like the Carina Nebula and the Pillars of Creation have been imaged with extraordinary clarity. JWST reveals:</p>
+
+<ul>
+  <li>Protostars forming inside dense gas clouds</li>
+  <li>Jets of material being ejected from newborn stars</li>
+  <li>Complex chemical structures previously undetectable</li>
+  <li>Precise distributions of dust and molecular gas</li>
+</ul>
+
+<p>These details help scientists understand how stars acquire mass, how planetary systems form, and why different stars evolve in different ways.</p>
+
+<h2>Rewriting Exoplanet Science</h2>
+
+<p>Perhaps JWST’s most direct impact on public imagination comes from its work on exoplanets. For the first time, astronomers can analyze exoplanet atmospheres with high precision rather than inferring their composition indirectly.</p>
+
+<p>JWST has already detected carbon dioxide, water vapor, methane, and sulfur compounds in several exoplanet atmospheres. One landmark result was the unambiguous detection of carbon dioxide in the atmosphere of WASP-39b, a gas giant located about 700 light-years away. This was not just a technical success; it validated JWST’s ability to perform real atmospheric chemistry on worlds beyond our solar system.</p>
+
+<p>Atmospheric composition tells scientists:</p>
+
+<ul>
+  <li>How a planet formed</li>
+  <li>Whether it migrated from another region of its solar system</li>
+  <li>How stable its climate might be</li>
+  <li>Whether basic ingredients for life could exist</li>
+</ul>
+
+<p>While JWST is not yet detecting life itself, it is building the toolkit required to identify potentially habitable environments with unprecedented confidence.</p>
+
+<h2>Why These Discoveries Matter for Astrobiology</h2>
+
+<p>Astrobiology is no longer theoretical. JWST allows scientists to examine whether rocky planets have atmospheres capable of supporting liquid water. It can identify gases that may indicate biological processes, such as oxygen, methane combinations, or chemical imbalances that are hard to explain through geology alone.</p>
+
+<p>This does not mean JWST will announce alien life tomorrow. It means that for the first time, the search for life beyond Earth is grounded in measurable, testable data rather than speculation.</p>
+
+<h2>Stellar Evolution in Unprecedented Detail</h2>
+
+<p>JWST’s observations of dying stars and planetary nebulae have also been transformative. These are the environments where heavy elements like carbon, oxygen, and nitrogen are released into space. Those elements later become part of new stars, planets, and potentially living organisms.</p>
+
+<p>By mapping these processes, JWST helps scientists understand how the chemical building blocks of life are recycled through the universe.</p>
+
+<h2>How JWST Is Challenging Existing Models</h2>
+
+<p>One of the most uncomfortable outcomes of JWST’s success is that it is exposing weaknesses in current theories. When data consistently contradicts predictions, theory must change.</p>
+
+<p>JWST has shown:</p>
+
+<ul>
+  <li>Early galaxies formed faster than expected</li>
+  <li>Star formation was more efficient in the early universe</li>
+  <li>Complex chemical elements existed earlier than predicted</li>
+</ul>
+
+<p>This does not mean previous science was wrong. It means it was incomplete. JWST is filling gaps that could not be tested before.</p>
+
+<h2>The Long-Term Scientific Impact</h2>
+
+<p>JWST was designed for a mission life of at least 20 years, and fuel projections suggest it may operate even longer. This means today’s discoveries are only the beginning. As more observations accumulate, scientists will refine measurements, discover unexpected phenomena, and build entirely new frameworks for understanding the universe.</p>
+
+<p>Unlike many scientific instruments that answer narrow questions, JWST is reshaping multiple disciplines simultaneously: cosmology, planetary science, stellar physics, and astrobiology.</p>
+
+<h2>Why the James Webb Telescope Is a Turning Point</h2>
+
+<p>The importance of JWST is not just about better images. It is about changing what questions are possible to ask. Before JWST, many aspects of the early universe and exoplanet atmospheres were beyond direct observation. Now they are measurable.</p>
+
+<p>This shift from inference to observation is what makes JWST revolutionary. It turns theories into testable science. It replaces assumptions with data. And it forces astronomy to evolve based on evidence rather than expectation.</p>
+
+<p>In that sense, the James Webb Space Telescope is not just observing the universe. It is redefining how humanity understands its place within it.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What makes the James Webb Space Telescope different from Hubble?</h3>
+<p>The James Webb Space Telescope observes primarily in infrared light, while Hubble focuses on visible and ultraviolet wavelengths. This allows JWST to see much older and more distant objects, study star-forming regions hidden by dust, and analyze the chemical composition of exoplanet atmospheres in far greater detail.</p>
+
+<h3>How far back in time can JWST see?</h3>
+<p>JWST can observe light from galaxies formed over 13.5 billion years ago, meaning it can study objects that existed just a few hundred million years after the Big Bang. This makes it the most powerful telescope ever built for studying the early universe.</p>
+
+<h3>Has the James Webb Telescope found life on other planets?</h3>
+<p>No. JWST has not detected life. However, it has detected important atmospheric molecules such as water vapor, carbon dioxide, and methane, which help scientists evaluate whether planets could potentially support life.</p>
+
+<h3>Why is infrared observation so important in astronomy?</h3>
+<p>Infrared light can pass through cosmic dust that blocks visible light and can detect extremely distant galaxies whose light has been stretched by the expansion of the universe. This makes infrared astronomy essential for studying star formation, galaxy evolution, and planetary atmospheres.</p>
+
+<h3>What was JWST’s most important exoplanet discovery so far?</h3>
+<p>One of JWST’s most important achievements was the clear detection of carbon dioxide in the atmosphere of the exoplanet WASP-39b. This confirmed that the telescope can directly analyze the chemistry of distant worlds.</p>
+
+<h3>Why are JWST’s early galaxy discoveries so surprising?</h3>
+<p>Scientists expected early galaxies to be small and poorly organized. JWST has found large, structured, and chemically evolved galaxies much earlier than predicted, suggesting that galaxy formation happened faster and more efficiently than existing models assumed.</p>
+
+<h3>How long will the James Webb Space Telescope operate?</h3>
+<p>JWST was designed to operate for at least 10 years, but fuel efficiency projections suggest it could remain functional for 20 years or more, continuing to produce scientific discoveries for decades.</p>
+
     `,
     coverImage: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1200&h=800&fit=crop",
     category: "astronomy",
