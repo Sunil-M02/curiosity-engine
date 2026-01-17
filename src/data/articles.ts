@@ -200,7 +200,7 @@ export const articles: Article[] = [
   {
     id: "2",
     slug: "james-webb-telescope-discoveries-changing-astronomy",
-    title: "James Webb Space Telescope Discoveries: How JWST Is Redefining Our Understanding of the Universe",
+    title: "James Webb Telescope Discoveries That Are Changing Astronomy",
     excerpt:
       "From uncovering unexpectedly mature early galaxies to decoding the atmospheres of distant exoplanets, the James Webb Space Telescope is transforming astronomy from theory-driven assumptions to data-driven reality. Here’s how JWST is reshaping what we know about the universe.",
     content: `
@@ -323,7 +323,7 @@ export const articles: Article[] = [
     coverImage: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1200&h=800&fit=crop",
     category: "astronomy",
     author: authors[0],
-    publishedAt: "2024-12-18",
+    publishedAt: "2026-1-17",
     readTime: 7,
     featured: true,
     tags: ["space", "astronomy", "JWST", "exoplanets"],
