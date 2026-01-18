@@ -192,7 +192,7 @@ export const articles: Article[] = [
     coverImage: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=800&fit=crop",
     category: "technology",
     author: authors[1],
-    publishedAt: "2024-12-20",
+    publishedAt: "2026-01-10",
     readTime: 8,
     featured: true,
     tags: ["quantum computing", "technology", "cryptography", "future"],
@@ -335,33 +335,109 @@ export const articles: Article[] = [
     excerpt:
       "Artificial General Intelligence is the idea of machines that can think, learn, and reason like humans across any task. Recent breakthroughs in AI make AGI feel closer than ever, but how much of that is real progress and how much is illusion?",
     content: `
-      <p>The question of when—or if—we'll achieve artificial general intelligence has taken on new urgency. Recent advances in AI capabilities have surprised even optimistic researchers.</p>
+      <p>Artificial General Intelligence (AGI) represents the most ambitious goal in the history of artificial intelligence. Unlike today’s AI systems, which are designed to perform specific tasks such as language translation, image recognition, or recommendation systems, AGI refers to machines that can learn, reason, and adapt across any domain, much like humans. An AGI system would not need retraining for every new problem. It would be capable of understanding new situations, transferring knowledge between tasks, and solving unfamiliar challenges on its own.</p>
 
-      <h2>Defining the Goal</h2>
-      <p>AGI refers to AI systems that can match or exceed human cognitive abilities across virtually any intellectual task. Unlike narrow AI (which excels at specific tasks), AGI would be able to transfer knowledge between domains, reason abstractly, and learn from minimal examples.</p>
+<p>This distinction is critical. Most of what we call “AI” today is better described as Artificial Narrow Intelligence (ANI). These systems are powerful but limited. A chess engine cannot write a business plan. A language model cannot drive a car. AGI would unify these abilities into a single, flexible intelligence.</p>
 
-      <h2>Signs of Progress</h2>
-      <p>Modern language models demonstrate remarkable emergent abilities—capabilities that appear suddenly as models scale up, without being explicitly programmed. These include:</p>
-      
-      <ul>
-        <li>Multi-step reasoning and problem-solving</li>
-        <li>Understanding context and nuance</li>
-        <li>Generating creative content across formats</li>
-        <li>Learning new tasks from just a few examples</li>
-      </ul>
+<h2>What Exactly Is Artificial General Intelligence?</h2>
 
-      <h2>The Skeptical View</h2>
-      <p>Not everyone is convinced. Critics argue that current AI systems, however impressive, are fundamentally different from human intelligence. They lack true understanding, consciousness, and the ability to form genuine goals.</p>
+<p>AGI is defined as a system that can perform any intellectual task a human can perform. That includes abstract reasoning, learning from experience, planning, creativity, and understanding cause and effect in the real world. Unlike narrow AI, AGI would not be confined to one function or dataset.</p>
 
-      <blockquote>"We've built very sophisticated pattern matchers, not thinking machines. The gap between what we have and AGI may be much larger than it appears." — Dr. Gary Marcus, NYU</blockquote>
+<p>In simple terms, today’s AI is specialized. AGI would be universal. It would be capable of solving problems it has never seen before by applying general principles rather than memorized patterns.</p>
 
-      <h3>Preparing for Either Scenario</h3>
-      <p>Whether AGI arrives in years or decades, the implications are profound. Societies must prepare for both the opportunities and risks of increasingly capable AI systems.</p>
+<h2>Why AGI Matters More Than Any Other AI Breakthrough</h2>
+
+<p>AGI would represent a structural shift in civilization. It would not just automate physical labor or repetitive digital tasks. It would automate cognition itself. Research, design, strategy, medicine, law, and education could all be transformed.</p>
+
+<p>This is why AGI is both promising and unsettling. If intelligence becomes scalable, then decision-making power changes fundamentally. Productivity could explode, but so could economic disruption and ethical risk.</p>
+
+<h2>Why Recent AI Progress Makes AGI Feel Close</h2>
+
+<p>Large language models and multimodal systems show abilities that were once considered uniquely human. They can reason through problems, summarize complex topics, write code, and interpret images. These behaviors create the impression that AGI is nearly achieved.</p>
+
+<ul>
+  <li>They perform multi-step reasoning.</li>
+  <li>They generalize across different domains.</li>
+  <li>They learn new tasks from limited examples.</li>
+</ul>
+
+<p>However, these systems are still fundamentally pattern-recognition engines. They predict likely outputs based on statistical correlations, not understanding.</p>
+
+<h2>Why AGI Does Not Exist Yet</h2>
+
+<p>Despite impressive results, today’s AI systems lack core attributes of general intelligence:</p>
+
+<ul>
+  <li>They do not possess real-world understanding.</li>
+  <li>They cannot form independent goals.</li>
+  <li>They lack common sense reasoning.</li>
+  <li>They cannot truly explain why something is true.</li>
+</ul>
+
+<p>Human intelligence is grounded in physical experience, social interaction, and emotional context. Machines currently have none of these in a meaningful way.</p>
+
+<h2>The Illusion of Intelligence</h2>
+
+<p>One of the greatest dangers in AGI discussions is confusing fluency with understanding. When a system produces confident language, humans instinctively assume comprehension. In reality, the system may simply be generating statistically likely responses.</p>
+
+<p>This illusion is powerful and misleading. It creates premature confidence in systems that do not truly reason.</p>
+
+<h2>What Would True AGI Require?</h2>
+
+<p>For a system to qualify as AGI, it would need:</p>
+
+<ul>
+  <li>General learning without massive labeled datasets</li>
+  <li>Transfer of knowledge across unrelated tasks</li>
+  <li>Persistent memory and self-reflection</li>
+  <li>Goal-setting and decision-making ability</li>
+  <li>Robust reasoning under uncertainty</li>
+</ul>
+
+<p>No existing system meets these requirements.</p>
+
+<h2>When Could AGI Realistically Arrive?</h2>
+
+<p>Predictions range from decades away to never. The uncertainty exists because we do not yet understand human intelligence well enough to reproduce it. Progress in computing power does not automatically translate into progress in cognition.</p>
+
+<h2>Why Caution Matters More Than Hype</h2>
+
+<p>AGI is not a product milestone. It is a scientific challenge. Overstating progress damages trust and distorts public understanding. Precision matters more than excitement when dealing with technology that could reshape society.</p>
+
+<h2>The Core Question</h2>
+
+<p>The real question is not whether machines will become more capable. They will. The question is whether intelligence itself can be engineered or whether it is inseparable from consciousness, biology, and lived experience.</p>
+
+<p>AGI is not just a technological problem. It is a philosophical one.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the difference between AI and AGI?</h3>
+<p>AI today is narrow and task-specific. AGI would be capable of performing any intellectual task a human can, including reasoning, learning, and adapting across completely new situations.</p>
+
+<h3>Does Artificial General Intelligence exist today?</h3>
+<p>No. All existing systems are forms of narrow AI. They can appear intelligent but do not possess general reasoning or true understanding.</p>
+
+<h3>Why do some experts think AGI is close?</h3>
+<p>Because modern AI systems show emergent abilities such as reasoning, creativity, and problem-solving that resemble human intelligence, even though they remain fundamentally statistical systems.</p>
+
+<h3>Why do others believe AGI is still far away?</h3>
+<p>Because current AI lacks common sense, real-world grounding, long-term memory, and independent goal formation, which are central to general intelligence.</p>
+
+<h3>Will AGI replace human jobs?</h3>
+<p>AGI would transform knowledge work. Humans would likely move toward roles involving oversight, ethics, creativity, and strategic judgment rather than routine cognition.</p>
+
+<h3>Is AGI dangerous?</h3>
+<p>It could be if its objectives are misaligned with human values or if it is deployed without safeguards. That is why safety research and governance are critical.</p>
+
+<h3>When is AGI expected to be developed?</h3>
+<p>There is no consensus. Estimates range from decades away to possibly never, because human intelligence itself is still not fully understood.</p>
+
     `,
     coverImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop",
     category: "artificial-intelligence",
     author: authors[1],
-    publishedAt: "2024-12-15",
+    publishedAt: "2026-01-18",
     readTime: 9,
     featured: true,
     tags: ["AI", "AGI", "machine learning", "future"],
@@ -401,7 +477,7 @@ export const articles: Article[] = [
     coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=800&fit=crop",
     category: "history",
     author: authors[2],
-    publishedAt: "2024-12-12",
+    publishedAt: "2026-01-02",
     readTime: 6,
     featured: false,
     tags: ["history", "ancient world", "libraries", "knowledge"],
@@ -441,7 +517,7 @@ export const articles: Article[] = [
     coverImage: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1200&h=800&fit=crop",
     category: "science",
     author: authors[0],
-    publishedAt: "2024-12-10",
+    publishedAt: "2026-01-03",
     readTime: 7,
     featured: false,
     tags: ["science", "medicine", "CRISPR", "genetics"],
@@ -481,7 +557,7 @@ export const articles: Article[] = [
     coverImage: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&h=800&fit=crop",
     category: "future-innovation",
     author: authors[3],
-    publishedAt: "2024-12-08",
+    publishedAt: "2026-01-05",
     readTime: 8,
     featured: false,
     tags: ["future", "cities", "sustainability", "innovation"],
@@ -521,7 +597,7 @@ export const articles: Article[] = [
     coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop",
     category: "astronomy",
     author: authors[0],
-    publishedAt: "2024-12-05",
+    publishedAt: "2026-01-07",
     readTime: 9,
     featured: false,
     tags: ["astronomy", "physics", "dark matter", "universe"],
@@ -562,7 +638,7 @@ export const articles: Article[] = [
     coverImage: "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=1200&h=800&fit=crop",
     category: "history",
     author: authors[2],
-    publishedAt: "2024-12-01",
+    publishedAt: "2026-01-09",
     readTime: 6,
     featured: false,
     tags: ["history", "technology", "ancient world", "archaeology"],
