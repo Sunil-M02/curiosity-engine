@@ -331,9 +331,9 @@ export const articles: Article[] = [
   {
     id: "3",
     slug: "artificial-general-intelligence-closer-than-expected",
-    title: "Is Artificial General Intelligence Closer Than We Think?",
+    title: "Artificial General Intelligence: How Close Are We to Real Thinking Machines?",
     excerpt:
-      "Recent breakthroughs in large language models and multimodal AI have reignited debates about the timeline to AGI. Experts weigh in.",
+      "Artificial General Intelligence is the idea of machines that can think, learn, and reason like humans across any task. Recent breakthroughs in AI make AGI feel closer than ever, but how much of that is real progress and how much is illusion?",
     content: `
       <p>The question of when—or if—we'll achieve artificial general intelligence has taken on new urgency. Recent advances in AI capabilities have surprised even optimistic researchers.</p>
 
