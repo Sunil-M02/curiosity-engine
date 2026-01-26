@@ -698,32 +698,34 @@ export const articles: Article[] = [
       <h2>2. The Digital Nervous System: Smart Infrastructure</h2>
       <p>Future cities operate as connected networks. Through the Internet of Things (IoT), every streetlight, water pipe, and trash bin provides real-time data to optimize municipal operations.</p>
       
-      <table>
-        <thead>
-          <tr>
-            <th>Technology</th>
-            <th>Real-World Impact</th>
-            <th>Efficiency Gain</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Smart Grids</td>
-            <td>Real-time balancing of solar/wind loads</td>
-            <td>40% reduction in peak demand</td>
-          </tr>
-          <tr>
-            <td>Acoustic Leak Detection</td>
-            <td>Identifying water pipe micro-fractures</td>
-            <td>Prevents 20-30% water loss</td>
-          </tr>
-          <tr>
-            <td>AI Traffic Management</td>
-            <td>Adaptive signal timing based on flow</td>
-            <td>15-25% reduction in idling</td>
-          </tr>
-        </tbody>
-      </table>
+      <style>
+        .data-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-family: sans-serif;
+          min-width: 400px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          overflow: hidden;
+        }
+        .data-table font-weight: bold;
+        .data-table thead tr {
+          background-color: #009879;
+          color: #ffffff;
+          text-align: left;
+        }
+        .data-table th, .data-table td {
+          padding: 12px 15px;
+          border-bottom: 1px solid #dddddd;
+        }
+        .data-table tbody tr:nth-of-type(even) {
+          background-color: #f3f3f3;
+        }
+        .data-table tbody tr:last-of-type {
+          border-bottom: 2px solid #009879;
+        }
+      </style>
 
       <h2>3. Mobility Transformation: Designing Cities Beyond Cars</h2>
       <p>The 20th-century car-centric model is being dismantled. The "15-Minute City" framework—popularized by Paris Mayor Anne Hidalgo—envisions urban neighborhoods where every essential need (work, groceries, healthcare, education) is within a 15-minute walk or bike ride.</p>
@@ -782,8 +784,6 @@ export const articles: Article[] = [
         <h3>Which cities are leading in sustainability today?</h3>
         <p>Copenhagen, Singapore, Amsterdam, and Stockholm are widely cited for their integrated sustainability models and successful carbon-reduction benchmarks.</p>
       </section>
-
-      <hr />
      
     `,
     coverImage: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&h=800&fit=crop",
