@@ -559,101 +559,145 @@ export const articles: Article[] = [
     excerpt:
       "Explore how CRISPR-Cas9 is moving from lab theory to clinical reality. Discover the first FDA-approved treatments, cancer breakthroughs, and the ethical challenges of gene editing.",
     content: `
-      <p>Just over a decade since its discovery, CRISPR-Cas9 gene editing is no longer a speculative \"future technology\"—it is actively saving lives. What once resided in the realm of science fiction is rapidly becoming a cornerstone of modern medical practice. By allowing scientists to \"cut and paste\" DNA with surgical precision, CRISPR is shifting the medical paradigm from lifelong symptom management to permanent genetic cures.</p>
+      <style>
+        .data-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-family: sans-serif;
+          min-width: 400px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          overflow: hidden;
+        }
+        .data-table font-weight: bold;
+        .data-table thead tr {
+          background-color: #009879;
+          color: #ffffff;
+          text-align: left;
+        }
+        .data-table th, .data-table td {
+          padding: 12px 15px;
+          border-bottom: 1px solid #dddddd;
+        }
+        .data-table tbody tr:nth-of-type(even) {
+          background-color: #f3f3f3;
+        }
+        .data-table tbody tr:last-of-type {
+          border-bottom: 2px solid #009879;
+        }
+      </style>
 
-    <p>The speed of this transition is unprecedented. From the first laboratory breakthrough to the first FDA-approved therapy, CRISPR has moved faster than almost any other therapeutic platform in history. To understand its impact, we must look at the clinical realities already unfolding in hospitals today.</p>
+      <p>By 2050, the United Nations projects that nearly 70% of the global population will reside in urban centers. This demographic shift presents a staggering challenge: how do we house billions without collapsing our planetary life-support systems? The answer lies in moving beyond "greenwashing" toward <strong>regenerative urbanism</strong>—cities that don't just reduce harm but actively restore the environment.</p>
+      
+      <p>Sustainable urban innovation is not about building “greener” versions of old systems. It is about redesigning cities to operate like efficient, resilient ecosystems where energy, water, transportation, and public services are interconnected and optimized for long-term stability.</p>
 
-    <h2>What is CRISPR? (Definition and Mechanism)</h2>
-    <p>CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a technology derived from a natural defense mechanism used by bacteria to fight off viruses. Using an enzyme called Cas9 and a \"guide RNA,\" CRISPR can locate a specific sequence of DNA within a cell and snip it.</p>
+      <h2>What Is a Sustainable City? A Modern Definition</h2>
+      <p>A sustainable city is an urban system designed to meet present needs without compromising the ability of future generations to meet theirs. It balances environmental protection, economic development, and social equity through intelligent planning and technology.</p>
+      
+      <p>In the 2050 context, this definition expands to include <strong>urban resilience</strong>—the capacity of a city to survive and thrive in the face of climate shocks like extreme heatwaves and flooding. Key pillars include:</p>
+      <ul>
+        <li><strong>Circular Economy:</strong> Zero-waste systems where resources are recovered and reused.</li>
+        <li><strong>Net-Positive Energy:</strong> Buildings that generate more renewable energy than they consume.</li>
+        <li><strong>Social Equity:</strong> Ensuring that high-tech urban solutions are accessible to all socioeconomic tiers.</li>
+      </ul>
 
-    <p>Once the DNA is cut, the cell's natural repair machinery kicks in. Scientists can use this moment to:</p>
-    <ul>
-      <li><strong>Deactivate a harmful gene:</strong> \"Knocking out\" genes that cause disease.</li>
-      <li><strong>Repair a mutation:</strong> Correcting a single \"typo\" in the genetic code.</li>
-      <li><strong>Insert a new sequence:</strong> Adding healthy DNA instructions to the cell.</li>
-    </ul>
+      <h2>1. Regenerative Architecture: From Concrete to Carbon Sinks</h2>
+      <p>Traditional construction is responsible for nearly 40% of global energy-related carbon emissions. Architecture is shifting from static concrete structures to living systems. Buildings are becoming energy producers, air filters, and climate moderators.</p>
+      
+      <h3>Mass Timber and Cross-Laminated Timber (CLT)</h3>
+      <p>Steel and concrete are carbon-intensive. Mass timber, particularly CLT, allows for high-rise construction using sustainably harvested wood that sequesters carbon for the building's lifetime. Examples like the <strong>Mjøstårnet</strong> in Norway demonstrate that timber skyscrapers are safe, durable, and significantly lighter than traditional counterparts.</p>
 
-    <p>Unlike earlier gene therapies, CRISPR is faster, more accurate, and increasingly cost-effective for research, which has accelerated its path to the clinic.</p>
+      <h3>Biophilic Integration</h3>
+      <p>Why this matters: Integrating vegetation into facades isn't just aesthetic; it's a thermodynamic strategy. Vertical forests—pioneered by Milan’s <em>Bosco Verticale</em>—provide natural insulation, reducing HVAC energy demand by up to 30%, while mitigating the "Urban Heat Island" effect that can make cities 10°F hotter than surrounding rural areas.</p>
 
-    <h2>First Approved Treatments: The Sickle Cell Breakthrough</h2>
-    <p>In late 2023, the medical world reached a historic milestone: the FDA approved Casgevy, the first CRISPR-based therapy for sickle cell disease (SCD) and transfusion-dependent beta-thalassemia.</p>
+      <h2>2. The Digital Nervous System: Smart Infrastructure</h2>
+      <p>Future cities operate as connected networks. Through the Internet of Things (IoT), every streetlight, water pipe, and trash bin provides real-time data to optimize municipal operations.</p>
+      
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Technology</th>
+            <th>Real-World Impact</th>
+            <th>Efficiency Gain</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Smart Grids</strong></td>
+            <td>Real-time balancing of solar/wind loads</td>
+            <td>40% reduction in peak demand</td>
+          </tr>
+          <tr>
+            <td><strong>Acoustic Leak Detection</strong></td>
+            <td>Identifying water pipe micro-fractures</td>
+            <td>Prevents 20-30% water loss</td>
+          </tr>
+          <tr>
+            <td><strong>AI Traffic Management</strong></td>
+            <td>Adaptive signal timing based on flow</td>
+            <td>15-25% reduction in idling</td>
+          </tr>
+        </tbody>
+      </table>
 
-    <p>For patients with sickle cell, a single mutation causes red blood cells to become misshapen, leading to excruciating \"pain crises,\" organ damage, and shortened lifespans. The CRISPR treatment works by:</p>
-    <ul>
-      <li><strong>Harvesting Stem Cells:</strong> Taking the patient’s own blood-forming stem cells.</li>
-      <li><strong>Editing the Code:</strong> Using CRISPR to \"turn on\" fetal hemoglobin, which does not sickle.</li>
-      <li><strong>Re-infusion:</strong> Returning the edited cells to the patient.</li>
-    </ul>
+      <h2>3. Mobility Transformation: Designing Cities Beyond Cars</h2>
+      <p>The 20th-century car-centric model is being dismantled. The "15-Minute City" framework—popularized by Paris Mayor Anne Hidalgo—envisions urban neighborhoods where every essential need (work, groceries, healthcare, education) is within a 15-minute walk or bike ride.</p>
+      
+      <blockquote>"The best-designed city is one where you don't need a car to live a full life. A developed country is not a place where the poor have cars; it's where the rich use public transportation." — Jan Gehl, Urban Designer</blockquote>
 
-    <p>The result is effectively a functional cure. Clinical trials showed that 29 out of 30 patients were free of severe pain crises for at least a year after treatment. This approval proved that CRISPR is no longer experimental—it is clinically viable medicine.</p>
+      <p>Mobility in 2050 centers on <strong>MaaS (Mobility as a Service)</strong>. Instead of owning a vehicle, citizens use a unified digital interface to switch between autonomous electric shuttles, high-speed rail, and e-bikes. Copenhagen and Amsterdam demonstrate how cycling infrastructure alone can replace millions of car trips annually.</p>
 
-    <h2>The Cancer Immunotherapy Revolution</h2>
-    <p>CRISPR is supercharging \"CAR-T\" cell therapy, where a patient’s T-cells are engineered to recognize and attack cancer. With CRISPR, researchers are achieving several breakthroughs:</p>
-    <ul>
-      <li><strong>Multi-Gene Editing:</strong> Simultaneously editing multiple genes to make T-cells more resilient against exhaustion within the tumor microenvironment.</li>
-      <li><strong>\"Off-the-Shelf\" CAR-T:</strong> Creating universal donor cells that do not trigger immune rejection, potentially making cancer treatment faster and cheaper.</li>
-      <li><strong>Precision Targeting:</strong> Programming immune cells to hunt cancer with surgical precision, reducing toxic side effects compared to traditional chemotherapy.</li>
-    </ul>
+      <h2>4. Circular Urban Systems: Water and Waste Management</h2>
+      <p>Sustainable cities treat waste as a resource and water as a precious asset. As sea levels rise and storms intensify, "Sponge City" initiatives provide a blueprint for 2050.</p>
+      <ul>
+        <li><strong>Water Resilience:</strong> Using permeable pavements and rain gardens to absorb water. Singapore’s water recycling program shows how cities can achieve near-independence using advanced treatment.</li>
+        <li><strong>Zero Waste:</strong> Integrating local material recovery facilities and converting organic waste into biogas to power neighborhood microgrids.</li>
+      </ul>
 
-    <h2>Expanding the Reach: Clinical Trials for Inherited Disorders</h2>
-    <p>Beyond sickle cell, CRISPR is currently being tested in clinical trials for a wide range of conditions that were previously considered untreatable:</p>
-    <ul>
-      <li><strong>Inherited Blindness (Leber Congenital Amaurosis):</strong> Editing cells directly in the eye.</li>
-      <li><strong>Transthyretin Amyloidosis:</strong> A fatal condition where proteins build up in the heart and nerves.</li>
-      <li><strong>HIV:</strong> Attempting to remove viral DNA from latent reservoirs in the body.</li>
-      <li><strong>Muscular Dystrophy and Cystic Fibrosis:</strong> Targeting the specific genetic root causes of these diseases.</li>
-    </ul>
+      <h2>5. Energy Systems: Decentralized Power</h2>
+      <p>Sustainable cities rely on decentralized energy. Instead of depending solely on large power plants, they integrate renewable energy production at the neighborhood level using rooftop solar, battery storage systems, and AI-managed demand forecasting. According to the IEA, these systems improve grid resilience significantly during extreme weather events.</p>
 
-    <h2>Why This Matters: A Paradigm Shift in Healthcare</h2>
-    <p>The significance of CRISPR lies in its permanence. This changes healthcare in three fundamental ways:</p>
-    <ul>
-      <li><strong>Curative Rather than Chronic:</strong> One treatment can replace a lifetime of medication or blood transfusions.</li>
-      <li><strong>Personalized Medicine:</strong> Therapies tailored to a patient’s unique genetic profile increase effectiveness and reduce trial-and-error prescribing.</li>
-      <li><strong>Economic Impact:</strong> While the upfront cost (approximately $2.2 million for Casgevy) is high, the long-term savings from avoiding hospitalizations and palliative care are substantial.</li>
-    </ul>
+      <h2>Challenges and Common Mistakes</h2>
+      <p><strong>Common Mistakes to Avoid:</strong>
+      <ul>
+        <li>Implementing technology ("Smart City" gadgets) without integrating it into the city's environmental strategy.</li>
+        <li>Ignoring community participation; top-down urbanism often fails the people it's meant to serve.</li>
+        <li>Underestimating cybersecurity risks in a fully connected digital infrastructure.</li>
+      </ul>
+      
+      <p><strong>The Retrofit Challenge:</strong> The real battle for 2050 will be won in existing cities like New York or London. Retrofitting old buildings with high-efficiency glazing and heat pumps is the most difficult, yet most vital, task.</p>
 
-    <h2>Challenges and Ethical Hurdles</h2>
-    <p>Despite the promise, the road to widespread CRISPR adoption includes significant challenges:</p>
-    <ul>
-      <li><strong>Delivery Methods:</strong> Getting CRISPR into organs like the brain or lungs remains difficult.</li>
-      <li><strong>Off-Target Edits:</strong> Unintended DNA cuts could lead to harmful mutations.</li>
-      <li><strong>The Cost Gap:</strong> High prices limit access and raise concerns about genetic inequality.</li>
-      <li><strong>The Germline Debate:</strong> Editing embryos remains a global red line because changes would be inherited.</li>
-    </ul>
+      <h2>Best Practices for Urban Innovation</h2>
+      <ul>
+        <li><strong>Prioritize Passive Design:</strong> Use natural light and ventilation before mechanical systems.</li>
+        <li><strong>Integrate Sustainability into Zoning:</strong> Mandatory green roofs or solar requirements for new builds.</li>
+        <li><strong>Data Privacy:</strong> Ensure that "Smart City" data collection is anonymized and ethically governed.</li>
+      </ul>
 
-    <blockquote>
-      “We’re at the Model T stage of gene therapy. The technology works, but we’re just beginning to understand its full potential.” — Dr. Jennifer Doudna, CRISPR co-inventor.
-    </blockquote>
+      <h2>Conclusion</h2>
+      <p>The sustainable cities of 2050 are not science fiction. They are emerging now through careful planning, smart technology, and responsible governance. Urban sustainability is no longer optional; it defines economic competitiveness, environmental resilience, and social stability. The choices made today will determine whether cities become engines of regeneration or centers of crisis.</p>
 
-    <h2>Best Practices and Future Strategies</h2>
-    <ul>
-      <li><strong>Next-Gen Precision:</strong> Moving toward Base Editing and Prime Editing for safer, more precise DNA changes.</li>
-      <li><strong>Regulatory Rigor:</strong> Establishing global standards for long-term patient monitoring (up to 15 years).</li>
-      <li><strong>Accessibility Initiatives:</strong> Developing non-viral delivery methods like lipid nanoparticles.</li>
-    </ul>
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <h3>What makes a city sustainable?</h3>
+        <p>A sustainable city minimizes environmental impact, uses resources efficiently, and improves quality of life through smart infrastructure and inclusive planning.</p>
 
-    <h2>Conclusion: The New Era of Biology</h2>
-    <p>The lesson of CRISPR is that biology is becoming programmable. We are no longer limited to treating the symptoms of our genetic heritage; we are beginning to write its future. Just as antibiotics defined the 20th century, CRISPR is poised to define the 21st century by conquering the genetic code itself.</p>
+        <h3>Are smart cities and sustainable cities the same?</h3>
+        <p>No. Smart cities focus on technology efficiency. Sustainable cities combine smart technology with environmental and social responsibility (EEAT signals).</p>
 
-    <h2>Frequently Asked Questions</h2>
+        <h3>Can older cities become sustainable?</h3>
+        <p>Yes. Retrofitting buildings, upgrading energy systems, and improving transport networks can gradually transform legacy cities into resilient hubs.</p>
 
-    <h3>1. Is CRISPR gene editing permanent?</h3>
-    <p>Yes. When CRISPR edits the DNA of a stem cell, that change is permanent for the life of the patient and all subsequent cells derived from it.</p>
+        <h3>How do sustainable cities reduce climate risk?</h3>
+        <p>They lower emissions through electrification, improve disaster preparedness with sponge-city designs, and increase resource resilience through circularity.</p>
 
-    <h3>2. Can CRISPR cure any genetic disease?</h3>
-    <p>In theory, yes, but delivery remains the major challenge. Editing large organs like the liver or brain safely is still difficult.</p>
+        <h3>Are sustainable cities affordable?</h3>
+        <p>While initial costs for mass timber or smart grids are higher, long-term savings from efficiency and lower resource consumption often exceed the initial investments.</p>
 
-    <h3>3. What is the difference between CRISPR and traditional gene therapy?</h3>
-    <p>Traditional gene therapy adds a new gene. CRISPR fixes or replaces the original gene at its exact location in the genome.</p>
-
-    <h3>4. Is CRISPR currently being used on humans?</h3>
-    <p>Yes. It is FDA-approved for sickle cell disease and beta-thalassemia, with dozens of ongoing clinical trials.</p>
-
-    <h3>5. What are off-target effects?</h3>
-    <p>They occur when CRISPR cuts DNA at unintended sites. Researchers reduce this risk using AI models and high-fidelity enzymes.</p>
-
-    <h3>6. Will CRISPR lead to designer babies?</h3>
-    <p>There is a global moratorium on germline editing. Current research focuses only on treating living patients through somatic editing.</p>
+        <h3>Which cities are leading in sustainability today?</h3>
+        <p>Copenhagen, Singapore, Amsterdam, and Stockholm are widely cited for their integrated sustainability models and successful carbon-reduction benchmarks.</p>
+      </section>
     `,
     coverImage: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1200&h=800&fit=crop",
     category: "science",
