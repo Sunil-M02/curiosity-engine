@@ -784,12 +784,7 @@ export const articles: Article[] = [
       </section>
 
       <hr />
-      <p><strong>Sources:</strong></p>
-      <ol>
-        <li>UN DESA: <em>World Urbanization Prospects 2018</em>. <a href="https://population.un.org/wup/">population.un.org</a> - Proves the 70% urban population projection.</li>
-        <li>International Energy Agency (IEA): <em>Buildings and Construction Report</em>. <a href="https://www.iea.org/reports/buildings">iea.org</a> - Confirms the 40% emission contribution of the sector.</li>
-        <li>C40 Cities: <em>The 15-Minute City Framework</em>. <a href="https://www.c40.org">c40.org</a> - Outlines the mobility shift benchmarks.</li>
-      </ol>
+     
     `,
     coverImage: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&h=800&fit=crop",
     category: "future-innovation",
