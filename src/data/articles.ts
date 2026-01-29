@@ -973,7 +973,7 @@ export const articles: Article[] = [
 
       
     `,
-    coverImage: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&h=800&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=800&fit=crop",
     category: "artificial-intelligence",
     author: authors[1],
     publishedAt: "2026-01-29",
