@@ -952,6 +952,11 @@ export const articles: Article[] = [
         <li><strong>Prompt Injection Awareness:</strong> Be cautious when asking the bot to "Summarize this website." Malicious actors can hide instructions in a webpage's metadata that might trick the AI into exfiltrating your <code>.env</code> files. Always review the bot's proposed actions for sensitive tasks.</li>
       </ul>
 
+      <h2>Conclusion: From Assistant to Coworker</h2>
+      <p>Moltbot represents the logical evolution of artificial intelligence. We are moving past the novelty of "chatting" and entering the era of "operating." By combining the reasoning of LLMs with the execution power of a local machine, Moltbot transforms the AI from a digital oracle you talk to into a functional coworker that works for you.</p>
+      
+      <p>For those looking to reclaim hours of their week from administrative drudgery, the path is clear: stop chatting with your AI and start giving it a job. Moltbot is the platform that makes that transition possible.</p>
+
       <h2>Frequently Asked Questions</h2>
       
       <h3>Is Moltbot free?</h3>
@@ -966,10 +971,7 @@ export const articles: Article[] = [
       <h3>Does it support local LLMs like Llama 3?</h3>
       <p>Yes. Via integrations with <strong>Ollama</strong> or <strong>LM Studio</strong>, you can run the entire intelligence layer locally, making Moltbot 100% private and offline-capable.</p>
 
-      <h2>Conclusion: From Assistant to Coworker</h2>
-      <p>Moltbot represents the logical evolution of artificial intelligence. We are moving past the novelty of "chatting" and entering the era of "operating." By combining the reasoning of LLMs with the execution power of a local machine, Moltbot transforms the AI from a digital oracle you talk to into a functional coworker that works for you.</p>
       
-      <p>For those looking to reclaim hours of their week from administrative drudgery, the path is clear: stop chatting with your AI and start giving it a job. Moltbot is the platform that makes that transition possible.</p>
     `,
     coverImage: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&h=800&fit=crop",
     category: "artificial-intelligence",
