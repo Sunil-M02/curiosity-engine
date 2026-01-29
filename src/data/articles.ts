@@ -713,8 +713,6 @@ export const articles: Article[] = [
     title: "Sustainable Cities of 2050: The Urban Innovations Being Built Today",
     excerpt:
       "By 2050, 70% of the world will live in cities. Discover the regenerative architecture, smart grids, and 15-minute mobility frameworks defining the future of urban living.",
-    metaDescription:
-      "Explore the technologies building the sustainable cities of 2050. Learn about vertical forests, sponge cities, smart grids, and the 15-minute city model for urban resilience.",
     content: `
       <p>By 2050, the United Nations projects that nearly 70% of the global population will reside in urban centers. This demographic shift presents a staggering challenge: how do we house billions without collapsing our planetary life-support systems? The answer lies in moving beyond "greenwashing" toward <strong>regenerative urbanism</strong>—cities that don't just reduce harm but actively restore the environment.</p>
       
@@ -972,14 +970,14 @@ export const articles: Article[] = [
       
       <p>For those looking to reclaim hours of their week from administrative drudgery, the path is clear: stop chatting with your AI and start giving it a job. Moltbot is the platform that makes that transition possible.</p>
     `,
-    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop",
-    "category": "Artificial Intelligence",
-    "author": "SEO Content Strategist",
+    coverImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop",
+    category: "artificial-intelligence",
+    author: authors[1],
     "publishedAt": "2026-01-29",
     "readTime": 12,
     "featured": true,
     "tags": ["AI Agents", "Moltbot", "Productivity", "Automation", "Open Source", "Clawdbot", "Self-Hosted"]
-}
+},
   {
     id: "8",
     slug: "ancient-computers-antikythera-mechanism",
