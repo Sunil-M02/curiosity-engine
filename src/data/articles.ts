@@ -885,7 +885,7 @@ export const articles: Article[] = [
     content: `
       <p class="lead">The "AI revolution" has largely been defined by chatbots that talk. While Large Language Models (LLMs) like ChatGPT and Claude are excellent at generating text, they have historically been confined to a browser tab, unable to interact with the real world or your personal files. That is changing with the rise of <strong>agentic AI</strong>.</p>
       
-      <p>Moltbot (previously known as Clawdbot) represents a fundamental shift in how we interact with artificial intelligence. It is a tool designed not just to answer questions, but to execute tasks—clearing your inbox, booking flights, and managing your calendar—all from the chat applications you already use every day. By giving AI "eyes and hands" on your local machine, Moltbot breaks the digital chains of the standard chatbot and introduces a new era of personal automation.</p>
+      <p><a href="https://www.molt.bot/" target="_blank">Moltbot</a> (previously known as Clawdbot) represents a fundamental shift in how we interact with artificial intelligence. It is a tool designed not just to answer questions, but to execute tasks—clearing your inbox, booking flights, and managing your calendar—all from the chat applications you already use every day. By giving AI "eyes and hands" on your local machine, Moltbot breaks the digital chains of the standard chatbot and introduces a new era of personal automation.</p>
 
       <h2>What is Moltbot? (The 2026 Definition)</h2>
       <p>At its core, <strong>Moltbot is an open-source, locally-hosted AI agent</strong> that connects high-intelligence models (like Anthropic’s Claude 3.5 Sonnet or OpenAI’s GPT-4o) to your personal operating system and preferred communication apps. Unlike standard assistants that live on a corporate server, Moltbot operates on your hardware—Mac, Windows (via WSL2), or Linux.</p>
@@ -973,7 +973,7 @@ export const articles: Article[] = [
 
       
     `,
-    coverImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=800&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&h=800&fit=crop",
     category: "artificial-intelligence",
     author: authors[1],
     publishedAt: "2026-01-29",
