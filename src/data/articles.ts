@@ -879,9 +879,9 @@ export const articles: Article[] = [
   {
     id: "9",
     slug: "moltbot-the-ai-agent-that-actually-does-things",
-    title: "Moltbot: The 'Eyes and Hands' AI Agent That Actually Does Your Work",
+    title: "OpenClaw: The 'Eyes and Hands' AI Agent That Actually Does Your Work",
     excerpt:
-      "Meet Moltbot, the locally-hosted AI agent that turns passive conversations into active execution. From booking flights to clearing your inbox via WhatsApp, the era of agentic AI is here.",
+      "Meet OpenClaw, the locally-hosted AI agent that turns passive conversations into active execution. From booking flights to clearing your inbox via WhatsApp, the era of agentic AI is here.",
     content: `
       <p class="lead">The "AI revolution" has largely been defined by chatbots that talk. While Large Language Models (LLMs) like ChatGPT and Claude are excellent at generating text, they have historically been confined to a browser tab, unable to interact with the real world or your personal files. That is changing with the rise of <strong>agentic AI</strong>.</p>
       
