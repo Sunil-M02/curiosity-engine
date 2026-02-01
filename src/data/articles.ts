@@ -878,7 +878,7 @@ export const articles: Article[] = [
   },
   {
     id: "9",
-    slug: "moltbot-the-ai-agent-that-actually-does-things",
+    slug: "openclaw-the-ai-agent-that-actually-does-things",
     title: "OpenClaw: The 'Eyes and Hands' AI Agent That Actually Does Your Work",
     excerpt:
       "Meet OpenClaw, the locally-hosted AI agent that turns passive conversations into active execution. From booking flights to clearing your inbox via WhatsApp, the era of agentic AI is here.",
