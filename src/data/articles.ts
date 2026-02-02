@@ -930,7 +930,7 @@ export const articles: Article[] = [
       
       <h3>Step 1: The One-Liner Install</h3>
       <p>Open your terminal (on Mac or Linux) and run the official installation script:</p>
-      <pre><code>curl -sSL https://molt.bot/install.sh | bash</code></pre>
+      <pre><code>curl -fsSL https://openclaw.ai/install.sh | bash</code></pre>
       
       <h3>Step 2: The Onboarding Wizard</h3>
       <p>Run <code>OpenClaw onboard</code>. This launches an interactive setup that will ask you to:</p>
