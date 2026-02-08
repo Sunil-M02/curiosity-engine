@@ -113,7 +113,8 @@ export const articles: Article[] = [
     title: "The Quantum Revolution: How Quantum Computing Is Reshaping Our Digital Future",
     excerpt:
       "Quantum computers are no longer science fiction. As tech giants race to achieve quantum supremacy, we explore what this means for cryptography, medicine, and beyond.",
-    metaDescription: "Discover how quantum computing works, its real-world applications in medicine and finance, and why it threatens current encryption. Expert guide to the quantum revolution.",
+    metaDescription:
+      "Discover how quantum computing works, its real-world applications in medicine and finance, and why it threatens current encryption. Expert guide to the quantum revolution.",
     content: `
       <p class="lead">The race to build practical quantum computers has shifted from theoretical physics to an engineering arms race. We are witnessing a fundamental change in how humanity processes information—one that will solve problems currently impossible for even the most powerful supercomputers.</p>
 
@@ -210,7 +211,8 @@ export const articles: Article[] = [
     title: "James Webb Telescope Discoveries That Are Changing Astronomy",
     excerpt:
       "From uncovering unexpectedly mature early galaxies to decoding the atmospheres of distant exoplanets, the James Webb Space Telescope is transforming astronomy from theory-driven assumptions to data-driven reality. Here’s how JWST is reshaping what we know about the universe.",
-    metaDescription: "Explore JWST's groundbreaking discoveries: early galaxies, exoplanet atmospheres, and cosmic mysteries. See how the James Webb Telescope rewrites astronomy.",
+    metaDescription:
+      "Explore JWST's groundbreaking discoveries: early galaxies, exoplanet atmospheres, and cosmic mysteries. See how the James Webb Telescope rewrites astronomy.",
     content: `
       <p>When the James Webb Space Telescope (JWST) released its first full-color images, it was immediately clear that astronomy had entered a new era. This was not a routine upgrade from previous space telescopes. JWST was designed to answer questions that older instruments simply could not reach: How did the first galaxies form? What are exoplanet atmospheres really made of? How do stars and planetary systems come into existence? Within its first year, JWST began delivering data that challenged long-standing theories and forced scientists to rethink the early history of the universe.</p>
 
@@ -342,7 +344,8 @@ export const articles: Article[] = [
     title: "Artificial General Intelligence: How Close Are We to Real Thinking Machines?",
     excerpt:
       "Artificial General Intelligence is the idea of machines that can think, learn, and reason like humans across any task. Recent breakthroughs in AI make AGI feel closer than ever, but how much of that is real progress and how much is illusion?",
-    metaDescription: "Learn what AGI really means, why experts disagree on timelines, and what separates today's AI from true general intelligence. A balanced expert analysis.",
+    metaDescription:
+      "Learn what AGI really means, why experts disagree on timelines, and what separates today's AI from true general intelligence. A balanced expert analysis.",
     content: `
       <p>Artificial General Intelligence (AGI) represents the most ambitious goal in the history of artificial intelligence. Unlike today’s AI systems, which are designed to perform specific tasks such as language translation, image recognition, or recommendation systems, AGI refers to machines that can learn, reason, and adapt across any domain, much like humans. An AGI system would not need retraining for every new problem. It would be capable of understanding new situations, transferring knowledge between tasks, and solving unfamiliar challenges on its own.</p>
 
@@ -457,7 +460,8 @@ export const articles: Article[] = [
     title: "The Lost Library of Alexandria: What Ancient Knowledge Did Humanity Truly Lose?",
     excerpt:
       "Discover the true history of the Library of Alexandria. Explore the specific works lost to time, debunk the myths of its destruction, and understand its impact on modern knowledge preservation.",
-    metaDescription: "Uncover what was really lost when the Library of Alexandria fell. Explore the ancient texts, scientific works, and myths behind history's greatest tragedy.",
+    metaDescription:
+      "Uncover what was really lost when the Library of Alexandria fell. Explore the ancient texts, scientific works, and myths behind history's greatest tragedy.",
     content: `
       <p>The Library of Alexandria has become the ultimate symbol of lost human achievement—a scholarly \"Atlantis\" whose disappearance supposedly set civilization back by centuries. For many, it represents the tragic incineration of the ancient world's collective wisdom in a single, cinematic fire. But as modern archaeology and historiography peel back the layers of legend, a more complex and sobering reality emerges.</p>
 
@@ -568,7 +572,8 @@ export const articles: Article[] = [
     title: "CRISPR Gene Editing: How It's Transforming Medicine Right Now",
     excerpt:
       "Explore how CRISPR-Cas9 is moving from lab theory to clinical reality. Discover the first FDA-approved treatments, cancer breakthroughs, and the ethical challenges of gene editing.",
-    metaDescription: "Learn how CRISPR gene editing is revolutionizing medicine with FDA-approved treatments for genetic diseases, cancer therapies, and ethical implications.",
+    metaDescription:
+      "Learn how CRISPR gene editing is revolutionizing medicine with FDA-approved treatments for genetic diseases, cancer therapies, and ethical implications.",
     content: `
       <style>
         .data-table {
@@ -724,7 +729,8 @@ export const articles: Article[] = [
     title: "Sustainable Cities of 2050: The Urban Innovations Being Built Today",
     excerpt:
       "By 2050, 70% of the world will live in cities. Discover the regenerative architecture, smart grids, and 15-minute mobility frameworks defining the future of urban living.",
-    metaDescription: "Discover how sustainable cities of 2050 will work: regenerative architecture, smart grids, 15-minute neighborhoods, and urban innovations being built today.",
+    metaDescription:
+      "Discover how sustainable cities of 2050 will work: regenerative architecture, smart grids, 15-minute neighborhoods, and urban innovations being built today.",
     content: `
       <p>By 2050, the United Nations projects that nearly 70% of the global population will reside in urban centers. This demographic shift presents a staggering challenge: how do we house billions without collapsing our planetary life-support systems? The answer lies in moving beyond "greenwashing" toward <strong>regenerative urbanism</strong>—cities that don't just reduce harm but actively restore the environment.</p>
       
@@ -854,7 +860,8 @@ export const articles: Article[] = [
     title: "The Dark Matter Mystery: What We Know and What We're Getting Wrong",
     excerpt:
       "It makes up 85% of the universe's mass, yet we've never detected it directly. The latest experiments and theories trying to solve physics' greatest puzzle.",
-    metaDescription: "Explore the dark matter mystery: what scientists know, leading theories like WIMPs and axions, and why decades of experiments have found nothing.",
+    metaDescription:
+      "Explore the dark matter mystery: what scientists know, leading theories like WIMPs and axions, and why decades of experiments have found nothing.",
     content: `
       <p>Dark matter is arguably the biggest mystery in modern physics. We know it exists—its gravitational effects are undeniable—but after decades of searching, we still don't know what it is.</p>
 
@@ -895,7 +902,8 @@ export const articles: Article[] = [
     title: "OpenClaw: The 'Eyes and Hands' AI Agent That Actually Does Your Work",
     excerpt:
       "Meet OpenClaw, the locally-hosted AI agent that turns passive conversations into active execution. From booking flights to clearing your inbox via WhatsApp, the era of agentic AI is here.",
-    metaDescription: "Discover OpenClaw, the open-source AI agent that executes tasks on your computer via WhatsApp and Telegram. Learn setup, features, and security best practices.",
+    metaDescription:
+      "Discover OpenClaw, the open-source AI agent that executes tasks on your computer via WhatsApp and Telegram. Learn setup, features, and security best practices.",
     content: `
       <p class="lead">The "AI revolution" has largely been defined by chatbots that talk. While Large Language Models (LLMs) like ChatGPT and Claude are excellent at generating text, they have historically been confined to a browser tab, unable to interact with the real world or your personal files. That is changing with the rise of <strong>agentic AI</strong>.</p>
       
@@ -1001,7 +1009,8 @@ export const articles: Article[] = [
     title: "Ancient Computers: The Antikythera Mechanism and Lost Technology",
     excerpt:
       "A 2,000-year-old device that predicted eclipses and tracked planets reveals ancient Greeks were far more advanced than we imagined.",
-    metaDescription: "Discover the Antikythera Mechanism, the 2,000-year-old ancient Greek computer that predicted eclipses. Explore how this device rewrites technological history.",
+    metaDescription:
+      "Discover the Antikythera Mechanism, the 2,000-year-old ancient Greek computer that predicted eclipses. Explore how this device rewrites technological history.",
     content: `
       <p>In 1901, divers exploring a Roman shipwreck off the Greek island of Antikythera pulled up a corroded lump of bronze. It would take a century to understand what they had found.</p>
 
@@ -1044,7 +1053,8 @@ export const articles: Article[] = [
     title: "Artemis III Update: NASA’s 2026 Mission to Land Humans on the Moon",
     excerpt:
       "NASA is preparing to return humans to the lunar surface for the first time in over 50 years. We break down the latest Artemis III mission status, the shift to a 2026/2027 timeline, and the technology powering our return to the Moon.",
-    metaDescription: "Get the latest Artemis III update: NASA's 2026 Moon landing timeline, Starship HLS progress, and lunar South Pole site selection explained.",
+    metaDescription:
+      "Explore the latest Artemis III update and NASA’s 2026–2027 Moon landing timeline, Starship HLS progress, lunar South Pole plans, and scientific goals.",
     content: `
     <p class="lead">Artemis III is the most ambitious human spaceflight mission of the 21st century. As of early 2026, NASA is moving from theoretical planning to hardware integration, targeting a historic return to the lunar surface that will place the first woman and the first person of color on the Moon.</p>
 
