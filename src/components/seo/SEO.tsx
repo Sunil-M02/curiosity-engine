@@ -33,7 +33,7 @@ export function SEO({
   const robotsContent = noIndex ? 'noindex, follow' : (robots || 'index, follow');
   
   return (
-    <Helmet>
+    <Helmet prioritizeSeoTags>
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
