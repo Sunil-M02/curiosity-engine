@@ -1027,10 +1027,6 @@ export const articles: Article[] = [
     id: "artemis-3-2026-status-update",
     slug: "artemis-iii-update-nasa-2026-moon-landing",
     title: "Artemis III Update: NASA’s 2026 Mission to Land Humans on the Moon",
-    metaDescription:
-      "Explore the latest Artemis III update for 2026. Discover NASA's lunar South Pole landing site, Starship HLS progress, and scientific goals for humanity's return.",
-    userIntent:
-      "Informational / Exploratory - Users are seeking current status, technical milestones, and the feasibility of NASA's 2026/2027 timeline for a crewed lunar landing.",
     excerpt:
       "NASA is preparing to return humans to the lunar surface for the first time in over 50 years. We break down the latest Artemis III mission status, the shift to a 2026/2027 timeline, and the technology powering our return to the Moon.",
     content: `
@@ -1144,7 +1140,7 @@ export const articles: Article[] = [
     <p>Yes. China’s space agency (CNSA) is targeting a crewed lunar landing by 2030, creating a strategic focus on the South Pole region.</p>
   `,
     coverImage: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=800&fit=crop",
-    category: "space",
+    category: "astronomy",
     author: authors[0],
     publishedAt: "2026-02-08",
     readTime: 9,
