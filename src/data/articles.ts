@@ -35,32 +35,37 @@ export const categoryInfo: Record<Category, { name: string; description: string;
   science: {
     name: "Science",
     description:
-      "Exploring the fundamental principles that govern our universe through research, discovery, and experimentation.",
+      "Discover groundbreaking science articles on physics, biology, chemistry, and research breakthroughs. Explore how scientific discoveries shape our understanding of the world.",
     color: "hsl(142, 70%, 45%)",
   },
   technology: {
     name: "Technology",
-    description: "The latest breakthroughs in computing, engineering, and digital innovation shaping our world.",
+    description:
+      "Stay updated with the latest technology news, computing innovations, and engineering breakthroughs. Expert analysis on digital trends shaping our future.",
     color: "hsl(200, 75%, 55%)",
   },
   "artificial-intelligence": {
     name: "Artificial Intelligence",
-    description: "Deep dives into machine learning, neural networks, and the future of intelligent systems.",
+    description:
+      "Explore AI articles on machine learning, neural networks, ChatGPT, and intelligent systems. In-depth analysis of how artificial intelligence is transforming industries.",
     color: "hsl(280, 70%, 60%)",
   },
   history: {
     name: "History",
-    description: "Uncovering the stories, events, and people that shaped human civilization.",
+    description:
+      "Journey through human history with articles on ancient civilizations, historical events, and the people who shaped our world. Discover stories from the past.",
     color: "hsl(25, 80%, 55%)",
   },
   astronomy: {
     name: "Astronomy & Space",
-    description: "Journey through the cosmos exploring planets, stars, galaxies, and the mysteries of the universe.",
+    description:
+      "Explore the cosmos with articles on planets, stars, galaxies, NASA missions, and space exploration. Your guide to the mysteries of the universe.",
     color: "hsl(220, 80%, 60%)",
   },
   "future-innovation": {
     name: "Future Innovation",
-    description: "Visionary ideas and emerging technologies that will define tomorrow's world.",
+    description:
+      "Discover emerging technologies and visionary ideas shaping tomorrow. Articles on innovation trends, futurism, and breakthrough technologies defining the next decade.",
     color: "hsl(38, 92%, 55%)",
   },
 };
