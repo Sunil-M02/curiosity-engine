@@ -241,6 +241,31 @@
       @apply bg-secondary p-4 rounded-xl overflow-x-auto my-8;
       font-family: var(--font-body);
     }
+
+    table {
+      @apply w-full my-8 border-collapse rounded-xl overflow-hidden;
+      border: 1px solid hsl(var(--border));
+    }
+
+    thead {
+      background: hsl(var(--muted));
+    }
+
+    th {
+      @apply px-4 py-3 text-left text-sm font-semibold text-foreground;
+      font-family: var(--font-display);
+      border: 1px solid hsl(var(--border));
+    }
+
+    td {
+      @apply px-4 py-3 text-sm;
+      color: hsl(40 15% 85%);
+      border: 1px solid hsl(var(--border));
+    }
+
+    tr:nth-child(even) {
+      background: hsl(var(--muted) / 0.3);
+    }
   }
 
   .link-underline {
