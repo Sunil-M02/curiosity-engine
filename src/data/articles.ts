@@ -1307,10 +1307,7 @@ export const articles: Article[] = [
   `,
     "coverImage": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=800&fit=crop",
     "category": "neuroscience",
-    "author": {
-        "name": "Dr. Sarah Chen",
-        "bio": "Neuroscientist and medical writer specializing in psychoneuroimmunology and mind-body medicine."
-    },
+    author: authors[0],
     "publishedAt": "2026-02-22",
     "readTime": 8,
     "featured": true,
