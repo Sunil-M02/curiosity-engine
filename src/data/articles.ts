@@ -1306,7 +1306,7 @@ export const articles: Article[] = [
     <p>Placebo effects improve symptoms through positive expectation. Nocebo effects worsen symptoms through negative expectation. Both operate through similar neurobiological pathways but with opposite outcomes based on the valence of belief.</p>
   `,
     "coverImage": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=800&fit=crop",
-    "category": "neuroscience",
+    "category": "science",
     author: authors[0],
     "publishedAt": "2026-02-22",
     "readTime": 8,
