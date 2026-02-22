@@ -1174,13 +1174,15 @@ export const articles: Article[] = [
     tags: ["Artemis III", "NASA", "Moon Mission", "Space Exploration", "Lunar Landing"],
   },
 
-{
-    "id": "placebo-effect-brain-chemistry-healing",
-    "slug": "placebo-effect-brain-chemistry-science-healing",
-    "title": "The Science Behind the Placebo Effect: How Belief Literally Changes Your Brain Chemistry",
-    "excerpt": "The placebo effect is not 'fake' healing. It is a measurable neurobiological response where belief, expectation, and context trigger real physiological changes through dopamine, endorphins, and endocannabinoids. Here is what actually happens in your brain.",
-    "metaDescription": "Discover the neuroscience of the placebo effect. Learn how belief triggers dopamine, endorphins, and endocannabinoids to create real physiological healing responses.",
-    "content": `
+  {
+    id: "placebo-effect-brain-chemistry-healing",
+    slug: "placebo-effect-brain-chemistry-science-healing",
+    title: "The Science Behind the Placebo Effect: How Belief Literally Changes Your Brain Chemistry",
+    excerpt:
+      "The placebo effect is not 'fake' healing. It is a measurable neurobiological response where belief, expectation, and context trigger real physiological changes through dopamine, endorphins, and endocannabinoids. Here is what actually happens in your brain.",
+    metaDescription:
+      "Discover the neuroscience of the placebo effect. Learn how belief triggers dopamine, endorphins, and endocannabinoids to create real physiological healing responses.",
+    content: `
     <p class="lead">Your brain can heal your body without drugs. This is not mysticism. It is neurobiology. The placebo effect demonstrates that belief, expectation, and context trigger measurable changes in brain chemistry, producing real physiological responses that reduce pain, improve motor function, and modulate immune activity.</p>
 
     <p>For decades, scientists dismissed placebo responses as psychological noise or false hope. Modern neuroimaging has proven otherwise. When a patient expects pain relief, their brain releases endogenous opioids. When they anticipate movement improvement, dopamine circuits activate. These are not imagined changes. They are quantifiable shifts in neurotransmitter activity.</p>
@@ -1305,17 +1307,22 @@ export const articles: Article[] = [
     <h3>What is the difference between placebo and nocebo effects?</h3>
     <p>Placebo effects improve symptoms through positive expectation. Nocebo effects worsen symptoms through negative expectation. Both operate through similar neurobiological pathways but with opposite outcomes based on the valence of belief.</p>
   `,
-    "coverImage": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=800&fit=crop",
-    "category": "science",
+    coverImage: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=800&fit=crop",
+    category: "science",
     author: authors[0],
-    "publishedAt": "2026-02-22",
-    "readTime": 8,
-    "featured": true,
-    "tags": ["Placebo Effect", "Neuroscience", "Brain Chemistry", "Pain Management", "Psychoneuroimmunology", "Medical Research"]
-}
+    publishedAt: "2026-02-22",
+    readTime: 8,
+    featured: true,
+    tags: [
+      "Placebo Effect",
+      "Neuroscience",
+      "Brain Chemistry",
+      "Pain Management",
+      "Psychoneuroimmunology",
+      "Medical Research",
+    ],
+  },
 
-
-  
   {
     id: "agentic-ai-rise-2026-autonomous-agents",
     slug: "2026-rise-of-agentic-ai-autonomous-agents-automation",
