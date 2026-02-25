@@ -197,7 +197,7 @@ export const articles: Article[] = [
       <h3>How can I start learning quantum computing?</h3>
       <p>You don't need a PhD in physics to start. Python libraries like Qiskit (IBM) and Cirq (Google) allow developers to write quantum circuits. Understanding linear algebra is helpful, but the software abstraction layers are improving rapidly.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/quantum-computing.jpg",
     category: "technology",
     author: authors[1],
     publishedAt: "2026-01-10",
@@ -330,7 +330,7 @@ export const articles: Article[] = [
 <p>JWST was designed to operate for at least 10 years, but fuel efficiency projections suggest it could remain functional for 20 years or more, continuing to produce scientific discoveries for decades.</p>
 
     `,
-    coverImage: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/james-webb-telescope.jpg",
     category: "astronomy",
     author: authors[0],
     publishedAt: "2026-1-17",
@@ -446,7 +446,7 @@ export const articles: Article[] = [
 <p>There is no consensus. Estimates range from decades away to possibly never, because human intelligence itself is still not fully understood.</p>
 
     `,
-    coverImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/agi-thinking-machines.jpg",
     category: "artificial-intelligence",
     author: authors[1],
     publishedAt: "2026-01-18",
@@ -558,7 +558,7 @@ export const articles: Article[] = [
     <h3>6. Could AI recover the lost texts?</h3>
     <p>AI cannot recreate missing works, but it is helping read carbonized scrolls from sites like Herculaneum, which may one day reveal copies of Alexandrian texts.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/library-alexandria.jpg",
     category: "history",
     author: authors[2],
     publishedAt: "2026-01-02",
@@ -715,7 +715,7 @@ export const articles: Article[] = [
         <p>Copenhagen, Singapore, Amsterdam, and Stockholm are widely cited for their integrated sustainability models and successful carbon-reduction benchmarks.</p>
       </section>
     `,
-    coverImage: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/crispr-gene-editing.jpg",
     category: "science",
     author: authors[0],
     publishedAt: "2026-01-03",
@@ -846,7 +846,7 @@ export const articles: Article[] = [
       </section>
      
     `,
-    coverImage: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/sustainable-cities.jpg",
     category: "future-innovation",
     author: authors[3],
     publishedAt: "2026-01-05",
@@ -888,7 +888,7 @@ export const articles: Article[] = [
       <h3>The Search Continues</h3>
       <p>New experiments using different technologies and approaches are coming online. The answer, when it comes, could revolutionize our understanding of the universe.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/dark-matter.jpg",
     category: "astronomy",
     author: authors[0],
     publishedAt: "2026-01-07",
@@ -995,7 +995,7 @@ export const articles: Article[] = [
 
       
     `,
-    coverImage: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/ai-agent-openclaw.jpg",
     category: "artificial-intelligence",
     author: authors[1],
     publishedAt: "2026-01-29",
@@ -1038,7 +1038,7 @@ export const articles: Article[] = [
       <h3>Modern Reconstructions</h3>
       <p>Using CT scans and decades of research, scientists have now recreated working replicas, finally understanding how ancient astronomers compressed the cosmos into clockwork.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/antikythera-mechanism.jpg",
     category: "history",
     author: authors[2],
     publishedAt: "2026-01-09",
@@ -1165,7 +1165,7 @@ export const articles: Article[] = [
     <h3>Is China also going to the Moon?</h3>
     <p>Yes. China’s space agency (CNSA) is targeting a crewed lunar landing by 2030, creating a strategic focus on the South Pole region.</p>
   `,
-    coverImage: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/artemis-moon-landing.jpg",
     category: "astronomy",
     author: authors[0],
     publishedAt: "2026-02-08",
@@ -1307,7 +1307,7 @@ export const articles: Article[] = [
     <h3>What is the difference between placebo and nocebo effects?</h3>
     <p>Placebo effects improve symptoms through positive expectation. Nocebo effects worsen symptoms through negative expectation. Both operate through similar neurobiological pathways but with opposite outcomes based on the valence of belief.</p>
   `,
-    coverImage: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/placebo-effect-brain.jpg",
     category: "science",
     author: authors[0],
     publishedAt: "2026-02-22",
@@ -1484,7 +1484,7 @@ export const articles: Article[] = [
   <p>Critical thinking, prompt design, data literacy, and governance awareness become increasingly valuable.</p>
 
   `,
-    coverImage: "https://images.unsplash.com/photo-1677442135136-760c813028c0?w=1200&h=800&fit=crop",
+    coverImage: "/images/articles/agentic-ai-autonomous.jpg",
     category: "artificial-intelligence",
     author: authors[0],
     publishedAt: "2026-02-14",
