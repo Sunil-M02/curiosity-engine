@@ -162,7 +162,7 @@ export function logImageError(
   context: string,
   error?: Error
 ): void {
-  if (process.env.NODE_ENV === 'development') {
+  if (import.meta.env.DEV) {
     console.warn(`[Image Error] ${context}:`, {
       src,
       error: error?.message,
