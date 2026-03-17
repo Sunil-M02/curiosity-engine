@@ -1631,7 +1631,6 @@ export const articles: Article[] = [
     excerpt: "In 2026, science is no longer a human-only endeavor. Explore the emergence of AI Scientists—autonomous systems capable of generating hypotheses, running experiments, and publishing papers with minimal human intervention.",
     metaDescription: "Explore the rise of AI Scientists in 2026. Learn how autonomous AI agents like Sakana's AI Scientist and self-driving labs are redefining discovery, drug development, and the future of human research.",
     content: `
-    <p class="lead"><strong>User Intent:</strong> The user is seeking an informational and exploratory analysis of "AI Scientists," focusing on how autonomous AI systems are conducting research in 2026, the real-world applications of self-driving labs, and the shifting role of human researchers.</p>
 
     <p>AI Scientists are autonomous agentic systems that integrate Large Language Models (LLMs) with laboratory automation to execute the entire scientific method. By early 2026, these systems are no longer just assistants; they generate hypotheses, design experiments, analyze data, and draft peer-reviewed manuscripts. While they currently excel in computational domains like machine learning and materials science, their ability to drive physical discoveries is rapidly expanding through "self-driving laboratories."</p>
 
