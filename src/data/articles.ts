@@ -1733,6 +1733,123 @@ export const articles: Article[] = [
     featured: true,
     tags: ["AI Scientists", "Autonomous Research", "Self-Driving Labs", "Agentic AI", "Drug Discovery", "Scientific Method"],
   },
+  {
+    id: "5500-year-old-syphilis-skeleton-colombia",
+    slug: "5500-year-old-syphilis-skeleton-rewrote-disease-history",
+    title: "The 5,500-Year-Old Syphilis Skeleton That Rewrote Disease History",
+    excerpt:
+      "A single hunter-gatherer buried in a Colombian rock shelter 5,500 years ago has just overturned one of medicine's oldest debates. We break down what scientists found in the bones, why it changes everything we thought we knew about syphilis, and what it means for fighting the disease today.",
+    metaDescription:
+      "A 5,500-year-old skeleton from Colombia has yielded the oldest known genome of Treponema pallidum — the bacterium behind syphilis. Discover what this January 2026 Science discovery means for disease history, the Columbus debate, and modern public health.",
+    content: `
+      <p class="lead">A 5,500-year-old skeleton buried in a Colombian rock shelter has just handed scientists the oldest genetic evidence of syphilis-related disease ever recovered. Published in the journal <em>Science</em> in January 2026, the discovery extends the known genetic record of <em>Treponema pallidum</em> — the bacterium behind syphilis, yaws, and bejel — by more than 3,000 years, and places treponemal disease in the Americas thousands of years before Columbus ever crossed the Atlantic.</p>
+      <p>The skeleton belonged to a hunter-gatherer who died around 3,500 BCE in the Sabana de Bogotá region of Colombia. The individual showed no visible bone lesions — the classic sign scientists look for when diagnosing ancient treponemal infections. The pathogen was found anyway, buried in 1.5 billion fragments of genetic data generated for an entirely different research project.</p>
+      <p>What emerged from those bones has reignited one of medicine's oldest debates: where did syphilis come from? And the answer is turning out to be far older, and far more complicated, than anyone expected.</p>
+
+      <h2>The Discovery: What Scientists Actually Found</h2>
+      <p>Researchers originally sequenced this individual's DNA to study ancient human population history — not to look for disease. The sequencing run generated approximately 1.5 billion genetic fragments. While reviewing the data, independent teams at the University of California Santa Cruz and the University of Lausanne both detected traces of <em>Treponema pallidum</em> in the dataset and joined forces to investigate.</p>
+      <p>The bacterial DNA represented only a tiny fraction of the total genetic material. But the unusually deep sequencing — far beyond what most studies generate — was enough to reconstruct the pathogen's full genome without any specialized pathogen-enrichment techniques. That recovery method is itself a significant methodological first.</p>
+      <p>The ancient strain has been labeled <strong>TE1-3</strong>. It belongs to the <em>Treponema pallidum</em> species but does not match any known modern subspecies — not the one that causes syphilis, not the one behind yaws, and not bejel. TE1-3 is something older: an early-diverging lineage that branched off before any of today's disease-causing strains existed.</p>
+      <p>Statistical modeling places its split from other <em>T. pallidum</em> lineages at approximately <strong>13,700 years ago</strong>. The three modern subspecies responsible for syphilis, yaws, and bejel diverged much more recently — around 6,000 years ago — which is consistent with other recent genomic research.</p>
+
+      <h2>The Long-Running Debate: Did Columbus Bring Syphilis to Europe?</h2>
+      <p>For more than five centuries, historians and physicians have argued about where syphilis originated. The dominant theory — the Columbian hypothesis — holds that Columbus's crew contracted syphilis in the Americas in 1492 and brought it back to Europe, triggering a devastating epidemic that swept across the continent within years.</p>
+      <p>A competing theory, the pre-Columbian hypothesis, argues that treponemal diseases already existed in Europe and other parts of the world before any transatlantic contact, and that the 15th-century European epidemic was simply a new strain or a newly virulent form of something that was already present.</p>
+      <p>The Colombian skeleton does not resolve this debate definitively — the researchers are explicit about that. But it substantially shifts the weight of the evidence.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Theory</th>
+            <th>Core Argument</th>
+            <th>What the 2026 Discovery Adds</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Columbian Hypothesis</strong></td>
+            <td>Syphilis originated in the Americas and was brought to Europe by Columbus's crew in 1492</td>
+            <td>Strengthened — treponemal pathogens were already diversifying in the Americas at least 5,500 years ago, long before European contact</td>
+          </tr>
+          <tr>
+            <td><strong>Pre-Columbian Hypothesis</strong></td>
+            <td>Treponemal diseases existed in Europe before 1492; the epidemic was not caused by a New World import</td>
+            <td>Not disproven — some European researchers maintain evidence of pre-contact treponemal disease in Europe; the debate continues</td>
+          </tr>
+          <tr>
+            <td><strong>Unitarian Hypothesis</strong></td>
+            <td>All treponemal diseases (syphilis, yaws, bejel, pinta) are forms of one disease shaped by climate and environment, not separate pathogens</td>
+            <td>Gains support — TE1-3's existence as a non-modern strain suggests treponemal diversity was broad, and disease expression may have been environmentally determined</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>"Current genomic evidence does not resolve the long-standing debate about where the disease syndromes themselves originated," said Elizabeth Nelson, a molecular anthropologist at SMU involved in the study, "but it does show there's this long evolutionary history of treponemal pathogens that was already diversifying in the Americas thousands of years earlier than previously known."</p>
+
+      <h2>The Skeleton Itself: What Made This Possible</h2>
+      <p>The remains were excavated from Tequendama I, a rock shelter on the edge of the Sabana de Bogotá. The individual was a middle-aged hunter-gatherer, part of a small mobile community that lived in the region before agriculture became widespread — roughly 3,500 BCE.</p>
+      <p>One detail stands out: <strong>the skeleton showed no visible bone lesions</strong>. Treponemal diseases can cause distinctive damage to bones — the moth-eaten appearance associated with advanced syphilis is one of archaeology's most recognized disease signatures. The absence of lesions here means the infection either had not progressed to that stage, the individual carried the pathogen without symptomatic disease, or the strain expressed differently than modern forms do.</p>
+      <p>The bacterial DNA was recovered from the <strong>tibia</strong> — a bone not typically used for ancient pathogen research. Most ancient DNA pathogen studies draw from dental pulp or visibly diseased bone. Recovering a full bacterial genome from an apparently healthy section of cortical tibial bone is a methodological first that opens new avenues for paleogenomic research across many diseases.</p>
+
+      <h2>How Paleogenomics Makes This Possible</h2>
+      <p>Paleogenomics is the field of reconstructing genetic material from ancient biological samples. For pathogens, this means extracting bacterial or viral DNA preserved in bone, teeth, or soft tissue over thousands of years — and distinguishing it from the vast amount of contaminating genetic material that accumulates over millennia.</p>
+      <p>The process in this case involved deep metagenomic sequencing, generating far more genetic data than standard studies. Within the 1.5 billion fragments, bacterial reads were present at trace levels — but enough to reconstruct TE1-3's complete genome. Researchers at the University of California Santa Cruz and the University of Lausanne independently detected the same signal, which provided a critical cross-validation before publication.</p>
+
+      <h2>Why This Matters Beyond History</h2>
+      <p>Syphilis is not a historical relic. Global syphilis rates have rebounded significantly over the past decade. The United States reported record levels of congenital syphilis — infections passed from mother to child — in recent years. Understanding where the bacterium came from, how it evolved, and why different forms cause different diseases has direct relevance for current control strategies.</p>
+      <p>The same genetic features linked to virulence in modern <em>T. pallidum</em> strains are present in TE1-3 — which means the pathogen has carried its harmful potential for at least 5,500 years, likely far longer. Comparing ancient genomes like this one with modern strains over time could help researchers understand how the bacterium adapts, which antibiotic resistance risks may emerge, and why certain populations are disproportionately affected.</p>
+      <p>"Comparing progressively ancient genomes of Treponema with modern genetic data could help inform infection control strategies for syphilis, which has rebounded globally over the past decade," wrote Molly Zuckerman and Lydia Bailey, anthropologists at Mississippi State University, in a related perspective piece published alongside the study in <em>Science</em>.</p>
+
+      <h2>What Remains Unresolved</h2>
+      <p>Good science is honest about its limits, and this study is no exception.</p>
+      <ul>
+        <li><strong>The origin debate is not closed.</strong> TE1-3 predates all known modern strains, but a subset of European researchers still maintains that treponemal diseases were present in pre-Columbian Europe. The Colombian genome strengthens the American-origin argument without eliminating the alternative.</li>
+        <li><strong>No confirmed pinta genome exists.</strong> Pinta — a skin disease caused by a closely related pathogen — has never had its genome recovered. Some researchers suggest TE1-3 may be an ancestral form related to pinta, given the absence of bone lesions. This remains speculative.</li>
+        <li><strong>Transmission and disease expression in ancient populations are unknown.</strong> The strain carries modern virulence markers, but whether it was transmitted sexually, through skin contact, or via other routes in a pre-agricultural hunter-gatherer context is unclear. Disease expression may have varied significantly across environments and social structures.</li>
+        <li><strong>The 13,700-year divergence estimate carries statistical uncertainty.</strong> Genomic dating models involve assumptions about mutation rates that can shift estimates by thousands of years. The figure is the best current estimate, not a fixed date.</li>
+      </ul>
+
+      <h2>Key Takeaways</h2>
+      <div class="summary-box">
+        <ul>
+          <li><strong>The discovery:</strong> A 5,500-year-old skeleton from a Colombian rock shelter yielded the oldest known genome of <em>Treponema pallidum</em> — the bacterium behind syphilis, yaws, and bejel. Published in <em>Science</em>, January 22, 2026.</li>
+          <li><strong>The strain:</strong> Labeled TE1-3, this ancient lineage diverged from all known modern subspecies approximately 13,700 years ago — making it a previously unknown branch of the pathogen family, not a direct ancestor of modern syphilis.</li>
+          <li><strong>The extension:</strong> This pushes the genetic record of <em>T. pallidum</em> back by more than 3,000 years, from approximately 2,000–2,500 years ago (the previous oldest known genomes) to 5,500 years ago.</li>
+          <li><strong>The method:</strong> TE1-3 was recovered from an unaffected section of the tibia — no bone lesions were visible — using deep metagenomic sequencing originally designed to study human population history, not disease.</li>
+          <li><strong>The Columbus debate:</strong> The discovery strengthens the American-origin hypothesis without definitively closing it. The pathogen was diversifying in the Americas thousands of years before any transatlantic contact.</li>
+          <li><strong>Why it matters now:</strong> Syphilis rates are rising globally. Understanding the deep evolutionary history of the bacterium could directly inform modern surveillance, treatment strategies, and antibiotic resistance planning.</li>
+        </ul>
+      </div>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What was found in the 5,500-year-old Colombian skeleton?</h3>
+      <p>Researchers recovered the genome of <em>Treponema pallidum</em> — the bacterium responsible for syphilis and related diseases — from a 5,500-year-old human skeleton excavated from the Tequendama I rock shelter in the Sabana de Bogotá region of Colombia. The genome, labeled TE1-3, represents a previously unknown lineage of the pathogen and is the oldest of its kind ever identified. The findings were published in the journal <em>Science</em> on January 22, 2026.</p>
+
+      <h3>Does this discovery prove syphilis originated in the Americas?</h3>
+      <p>It strengthens that case significantly without closing the debate entirely. TE1-3 demonstrates that treponemal pathogens were already diversifying in the Americas at least 5,500 years ago — long before Christopher Columbus's 1492 voyage. But a subset of European researchers maintains evidence of pre-contact treponemal disease in Europe, and the study's authors acknowledge the origin debate is not fully resolved.</p>
+
+      <h3>Why did the skeleton show no bone lesions if it was infected?</h3>
+      <p>Treponemal diseases only cause visible bone damage in some infected individuals and typically only at advanced stages of disease. The absence of lesions does not rule out infection — many people carry <em>T. pallidum</em> without ever developing the bone damage associated with late-stage disease. The pathogen was detected through deep genetic sequencing, not through physical evidence of disease progression.</p>
+
+      <h3>What is the difference between syphilis, yaws, and bejel?</h3>
+      <p>All three diseases are caused by closely related subspecies of <em>Treponema pallidum</em>. Syphilis is primarily sexually transmitted and can affect the entire body including the brain and heart if untreated. Yaws is spread through skin-to-skin contact and mainly affects the skin, bones, and joints. Bejel is transmitted through contact with mucous membranes or skin and primarily causes lesions in the mouth, skin, and bones. Despite being caused by genetically nearly identical bacteria, each disease has a different transmission route and clinical presentation.</p>
+
+      <h3>How did scientists extract DNA from a 5,500-year-old bone?</h3>
+      <p>The team used deep metagenomic sequencing, generating approximately 1.5 billion genetic fragments from the individual's remains. This approach was originally designed to study the person's population ancestry, not to search for pathogens. The bacterial DNA represented only a small fraction of the total data but was sufficient to reconstruct TE1-3's complete genome. Crucially, independent teams at UC Santa Cruz and the University of Lausanne both detected the same signal, providing cross-validation before the results were published.</p>
+
+      <h3>Why does ancient syphilis history matter for modern medicine?</h3>
+      <p>Syphilis rates have been rising globally, with the United States recording record levels of congenital syphilis in recent years. Understanding how <em>Treponema pallidum</em> evolved over thousands of years — including which genetic features are linked to virulence and how the pathogen adapts across different environments — can directly inform modern surveillance systems, antibiotic resistance planning, and public health strategies. Ancient genomes serve as reference points for tracing how the bacterium has changed and where it may be heading.</p>
+
+      <h3>Is TE1-3 still circulating today?</h3>
+      <p>No. The ancient strain TE1-3 does not match any known modern subspecies and is not in circulation today. It represents an early-diverging lineage of <em>T. pallidum</em> that branched off approximately 13,700 years ago — before any of the modern disease-causing forms emerged. Its significance is as a window into the deep evolutionary past of the pathogen family, not as a current health risk.</p>
+    `,
+    coverImage: "/images/articles/syphilis-skeleton-colombia.jpg",
+    category: "history",
+    author: authors[0],
+    publishedAt: "2026-05-08",
+    readTime: 11,
+    featured: true,
+    tags: ["Syphilis History", "Ancient DNA", "Paleogenomics", "Treponema pallidum", "Colombia Archaeology", "Disease Origins", "History of Medicine"],
+  },
 ];
 
 export function getArticlesByCategory(category: Category): Article[] {
