@@ -1845,7 +1845,7 @@ export const articles: Article[] = [
     coverImage: "/images/articles/syphilis-skeleton-colombia.jpg",
     category: "history",
     author: authors[0],
-    publishedAt: "2026-05-08",
+    publishedAt: "2026-04-01",
     readTime: 11,
     featured: true,
     tags: ["Syphilis History", "Ancient DNA", "Paleogenomics", "Treponema pallidum", "Colombia Archaeology", "Disease Origins", "History of Medicine"],
