@@ -40,3 +40,7 @@ Group keywords by:
 - Keyword clusters
 - Content plan
 - SEO structure
+
+## ⚡ Optimization
+- Reduced keyword overlap
+- Improved clustering logic
