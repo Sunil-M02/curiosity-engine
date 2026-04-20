@@ -75,3 +75,8 @@ Curiosity Engine aims to bridge that gap by creating:
 
 ## 🔗 Repository
 https://github.com/Sunil-M02/curiosity-engine
+
+## 🚀 Recent Updates
+- Added structured AI workflows
+- Improved SEO automation framework
+- Enhanced research workflows
