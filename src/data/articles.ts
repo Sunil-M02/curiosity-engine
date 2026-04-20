@@ -1973,7 +1973,7 @@ export const articles: Article[] = [
     coverImage: "/images/articles/streaming-energy-cost.jpg",
     category: "technology",
     author: authors[1],
-    publishedAt: "2026-04-01",
+    publishedAt: "2026-04-08",
     readTime: 8,
     featured: true,
     tags: ["Streaming", "Energy", "Data Centers", "Carbon Footprint", "Digital Infrastructure"],
