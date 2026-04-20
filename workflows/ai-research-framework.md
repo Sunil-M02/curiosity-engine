@@ -41,3 +41,7 @@ Tools:
 - Structured research document
 - Key insights
 - Actionable conclusions
+
+## 🔍 Improvements
+- Better prompt structuring
+- More accurate data extraction approach
