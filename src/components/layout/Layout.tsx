@@ -10,9 +10,9 @@ interface LayoutProps {
 export function Layout({ children }: LayoutProps) {
   const location = useLocation();
 
-  // Scroll restoration on route change
+  // Scroll restoration on route change (Lenis-aware: instant jump bypasses smoothing)
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
   }, [location.pathname]);
 
   return (

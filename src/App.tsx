@@ -15,6 +15,7 @@ import ContactThankYouPage from "./pages/ContactThankYouPage";
 import TermsPage from "./pages/TermsPage";
 import WriteForUsPage from "./pages/WriteForUsPage";
 import NotFound from "./pages/NotFound";
+import { SmoothScroll } from "./components/effects/SmoothScroll";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        <SmoothScroll />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
