@@ -84,3 +84,13 @@ https://github.com/Sunil-M02/curiosity-engine
 ## 🧠 Core Philosophy
 - Systems > prompts
 - Workflows > one-time outputs
+
+## 🧠 Prompt Library
+
+This repository includes a growing collection of reusable AI prompts:
+
+- SEO content generation prompts
+- AI research frameworks
+- Workflow-based prompt systems
+
+These prompts are designed for real-world use cases and optimized for quality and efficiency.
