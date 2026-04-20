@@ -304,7 +304,7 @@ export const articles: Article[] = [
 
 <p>This shift from inference to observation is what makes JWST revolutionary. It turns theories into testable science. It replaces assumptions with data. And it forces astronomy to evolve based on evidence rather than expectation.</p>
 
-<p>In that sense, the James Webb Space Telescope is not just observing the universe. It is redefining how humanity understands its place within it.</p>
+<p>In that sense, the JWST is not just observing the universe. It is redefining how humanity understands its place within it.</p>
 
 <h2>Frequently Asked Questions</h2>
 
