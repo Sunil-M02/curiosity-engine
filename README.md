@@ -80,3 +80,7 @@ https://github.com/Sunil-M02/curiosity-engine
 - Added structured AI workflows
 - Improved SEO automation framework
 - Enhanced research workflows
+
+## 🧠 Core Philosophy
+- Systems > prompts
+- Workflows > one-time outputs
