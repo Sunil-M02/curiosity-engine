@@ -1910,7 +1910,7 @@ export const articles: Article[] = [
     coverImage: "/images/articles/tardigrade-radiation.jpg",
     category: "science",
     author: authors[0],
-    publishedAt: "2026-04-01",
+    publishedAt: "2026-04-04",
     readTime: 9,
     featured: true,
     tags: ["Tardigrades", "Radiation Biology", "Extremophiles", "DNA Repair", "Astrobiology"],
