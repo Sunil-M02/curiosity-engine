@@ -200,29 +200,57 @@
 
   .article-content {
     @apply max-w-none;
-    font-family: var(--font-article);
-    max-width: 65ch;
-    
-    h2 {
-      @apply text-2xl sm:text-3xl mt-14 mb-6 text-foreground;
+    font-family: var(--font-lora);
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Drop cap on first paragraph */
+    > p:first-of-type::first-letter {
+      font-family: var(--font-lora);
+      float: left;
+      font-size: 3.75em;
+      line-height: 0.85;
+      padding-top: 0.1em;
+      margin-right: 0.08em;
+      color: #D4A843;
+      font-weight: 600;
+    }
+
+    h1 {
       font-family: var(--font-display);
+      font-size: 40px;
       font-weight: 700;
-      line-height: 1.25;
+      line-height: 1.2;
+      @apply text-foreground;
+    }
+
+    h2 {
+      @apply mb-6 text-foreground;
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-top: 2.5rem;
+      border-left: 3px solid #D4A843;
+      padding-left: 0.85rem;
     }
 
     h3 {
-      @apply text-xl sm:text-2xl mt-10 mb-4 text-foreground;
+      @apply mt-10 mb-4 text-foreground;
       font-family: var(--font-display);
-      font-weight: 600;
+      font-size: 20px;
+      font-weight: 500;
       line-height: 1.3;
     }
 
     p {
       @apply mb-7;
-      font-size: 1.0625rem;
-      line-height: 1.7;
+      font-family: var(--font-lora);
+      font-size: 19px;
+      line-height: 1.85;
       font-weight: 400;
-      color: hsl(40 15% 85%);
+      color: #c9c9c9;
     }
 
     a {
@@ -230,9 +258,14 @@
     }
 
     blockquote {
-      @apply border-l-4 border-primary pl-6 italic my-8;
-      font-family: var(--font-article);
-      color: hsl(40 15% 75%);
+      font-family: var(--font-lora);
+      font-style: italic;
+      font-size: 22px;
+      line-height: 1.6;
+      border-left: 4px solid #D4A843;
+      padding-left: 24px;
+      margin: 2rem 0;
+      color: #dcdcdc;
     }
 
     ul, ol {
