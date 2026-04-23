@@ -6,6 +6,7 @@ import { Layout } from '@/components/layout/Layout';
 import { SEO } from '@/components/seo/SEO';
 import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
 import { ArticleCard } from '@/components/articles/ArticleCard';
+import { ReadingProgress } from '@/components/articles/ReadingProgress';
 import { Button } from '@/components/ui/button';
 import { getArticleBySlug, getRelatedArticles, categoryInfo } from '@/data/articles';
 import { OptimizedImage } from '@/components/ui/OptimizedImage';
@@ -62,6 +63,7 @@ const ArticlePage = () => {
 
   return (
     <Layout>
+      <ReadingProgress />
       <SEO
         title={article.title}
         description={article.metaDescription}
