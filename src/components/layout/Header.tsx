@@ -88,7 +88,7 @@ export function Header() {
                   <DropdownMenuContent align="center" className="w-48">
                     {categories.map((category) => (
                       <DropdownMenuItem key={category} asChild>
-                        <Link to={`/category/${category}`} className="w-full">
+                        <Link to={`/categories/${category}`} className="w-full">
                           {categoryInfo[category].name}
                         </Link>
                       </DropdownMenuItem>
@@ -172,7 +172,7 @@ export function Header() {
                   {categories.map((category) => (
                     <Link
                       key={category}
-                      to={`/category/${category}`}
+                      to={`/categories/${category}`}
                       className="px-4 py-2 rounded-lg bg-secondary/30 text-sm text-secondary-foreground hover:bg-secondary transition-colors"
                     >
                       {categoryInfo[category].name}

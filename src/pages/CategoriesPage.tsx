@@ -48,7 +48,7 @@ const CategoriesPage = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <Link
-                  to={`/category/${category}`}
+                  to={`/categories/${category}`}
                   className="group block p-8 rounded-2xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 hover-lift card-shadow hover-glow"
                 >
                   <div className="flex items-start justify-between mb-6">
