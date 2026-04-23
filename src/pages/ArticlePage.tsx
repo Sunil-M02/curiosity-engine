@@ -104,14 +104,14 @@ const ArticlePage = () => {
           >
             <Breadcrumbs
               items={[
-                { label: categoryInfo[article.category].name, href: `/category/${article.category}` },
+                { label: categoryInfo[article.category].name, href: `/categories/${article.category}` },
                 { label: article.title.slice(0, 40) + '...' }
               ]}
             />
 
             <div className="flex items-center gap-3 mb-6">
               <Link
-                to={`/category/${article.category}`}
+                to={`/categories/${article.category}`}
                 className="px-3 py-1 rounded-full text-sm font-medium transition-opacity hover:opacity-80"
                 style={{ backgroundColor: categoryColor, color: 'hsl(222, 47%, 6%)' }}
               >

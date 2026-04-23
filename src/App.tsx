@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useParams } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import CategoryPage from "./pages/CategoryPage";
@@ -19,6 +19,12 @@ import { SmoothScroll } from "./components/effects/SmoothScroll";
 
 const queryClient = new QueryClient();
 
+// 301-style client redirect for legacy /category/:slug -> /categories/:slug
+const CategoryRedirect = () => {
+  const { slug } = useParams<{ slug: string }>();
+  return <Navigate to={`/categories/${slug}`} replace />;
+};
+
 const App = () => (
   <HelmetProvider>
     <QueryClientProvider client={queryClient}>
@@ -29,8 +35,10 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/category/:slug" element={<CategoryPage />} />
             <Route path="/categories" element={<CategoriesPage />} />
+            <Route path="/categories/:slug" element={<CategoryPage />} />
+            {/* Legacy redirect: /category/:slug -> /categories/:slug */}
+            <Route path="/category/:slug" element={<CategoryRedirect />} />
             <Route path="/article/:slug" element={<ArticlePage />} />
             {/* Author routes removed - brand-led editorial model */}
             <Route path="/about" element={<AboutPage />} />

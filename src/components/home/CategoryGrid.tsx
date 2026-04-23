@@ -50,7 +50,7 @@ function TopicCard({ category, index }: { category: Category; index: number }) {
       onMouseLeave={enable3D ? handleMouseLeave : undefined}
     >
       <Link
-        to={`/category/${category}`}
+        to={`/categories/${category}`}
         className="group block p-6 lg:p-7 rounded-2xl bg-card/90 border border-border/70 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/50 hover:shadow-[0_0_40px_hsl(var(--primary)/0.25)] backdrop-blur-sm"
       >
         <div
