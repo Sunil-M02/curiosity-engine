@@ -29,8 +29,10 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/category/:slug" element={<CategoryPage />} />
             <Route path="/categories" element={<CategoriesPage />} />
+            <Route path="/categories/:slug" element={<CategoryPage />} />
+            {/* Legacy redirect: /category/:slug -> /categories/:slug */}
+            <Route path="/category/:slug" element={<CategoryRedirect />} />
             <Route path="/article/:slug" element={<ArticlePage />} />
             {/* Author routes removed - brand-led editorial model */}
             <Route path="/about" element={<AboutPage />} />
