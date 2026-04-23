@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useParams } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import CategoryPage from "./pages/CategoryPage";
@@ -18,6 +18,12 @@ import NotFound from "./pages/NotFound";
 import { SmoothScroll } from "./components/effects/SmoothScroll";
 
 const queryClient = new QueryClient();
+
+// 301-style client redirect for legacy /category/:slug -> /categories/:slug
+const CategoryRedirect = () => {
+  const { slug } = useParams<{ slug: string }>();
+  return <Navigate to={`/categories/${slug}`} replace />;
+};
 
 const App = () => (
   <HelmetProvider>
