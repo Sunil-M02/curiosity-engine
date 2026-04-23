@@ -1,3 +1,9 @@
+# robots.txt for https://www.curiosityfields.com
+
+User-agent: *
+Allow: /
+Disallow: /contact/thank-you
+
 User-agent: Googlebot
 Allow: /
 
@@ -10,5 +16,4 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+Sitemap: https://www.curiosityfields.com/sitemap.xml
