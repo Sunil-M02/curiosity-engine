@@ -87,13 +87,19 @@ export function Footer() {
                   <li key={category}>
                     <Link
                       to={`/categories/${category}`}
-                      className="text-sm text-muted-foreground transition-colors duration-200 ease-out"
+                      className="text-sm text-muted-foreground transition-all duration-[250ms] ease-out"
                       style={{ ['--cat-color' as string]: color }}
                       onMouseEnter={(e) => {
-                        (e.currentTarget as HTMLAnchorElement).style.color = color;
+                        const el = e.currentTarget as HTMLAnchorElement;
+                        el.style.color = color;
+                        el.style.textShadow = `0 0 12px ${color}66, 0 0 4px ${color}99`;
+                        el.style.filter = 'brightness(1.15) saturate(1.2)';
                       }}
                       onMouseLeave={(e) => {
-                        (e.currentTarget as HTMLAnchorElement).style.color = '';
+                        const el = e.currentTarget as HTMLAnchorElement;
+                        el.style.color = '';
+                        el.style.textShadow = '';
+                        el.style.filter = '';
                       }}
                     >
                       {categoryInfo[category].name}
