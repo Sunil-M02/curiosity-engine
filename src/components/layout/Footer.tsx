@@ -81,17 +81,26 @@ export function Footer() {
           <div>
             <h4 className="font-display text-lg font-semibold text-foreground mb-4">Topics</h4>
             <ul className="space-y-2">
-              {categories.map((category) => (
-                <li key={category}>
-                  <Link
-                    to={`/categories/${category}`}
-                    className="text-sm transition-opacity hover:opacity-80"
-                    style={{ color: categoryInfo[category].color }}
-                  >
-                    {categoryInfo[category].name}
-                  </Link>
-                </li>
-              ))}
+              {categories.map((category) => {
+                const color = categoryInfo[category].color;
+                return (
+                  <li key={category}>
+                    <Link
+                      to={`/categories/${category}`}
+                      className="text-sm text-muted-foreground transition-colors duration-200 ease-out"
+                      style={{ ['--cat-color' as string]: color }}
+                      onMouseEnter={(e) => {
+                        (e.currentTarget as HTMLAnchorElement).style.color = color;
+                      }}
+                      onMouseLeave={(e) => {
+                        (e.currentTarget as HTMLAnchorElement).style.color = '';
+                      }}
+                    >
+                      {categoryInfo[category].name}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
