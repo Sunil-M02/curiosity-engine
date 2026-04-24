@@ -440,3 +440,12 @@
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-muted-foreground/50;
 }
+
+/* Hero latest dispatches scroll row — subtle webkit scrollbar */
+.hero-scroll-row::-webkit-scrollbar { height: 6px; }
+.hero-scroll-row::-webkit-scrollbar-track { background: transparent; }
+.hero-scroll-row::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 999px;
+}
+.hero-scroll-row::-webkit-scrollbar-thumb:hover { background: hsl(var(--primary) / 0.5); }
