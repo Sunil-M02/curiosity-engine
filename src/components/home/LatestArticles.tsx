@@ -4,6 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ArticleCard } from '@/components/articles/ArticleCard';
 import { getLatestArticles } from '@/data/articles';
+import { SectionHeading } from '@/components/home/SectionHeading';
 
 export function LatestArticles() {
   const articles = getLatestArticles(6);
@@ -16,32 +17,20 @@ export function LatestArticles() {
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border/60 to-transparent" />
       
       <div className="container content-rail relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12"
-        >
-          <div>
-            <span className="inline-block px-4 py-1.5 rounded-full bg-secondary text-secondary-foreground text-xs font-semibold uppercase tracking-widest mb-4 border border-border/50">
-              Fresh Reads
-            </span>
-            <h2 className="font-display text-3xl lg:text-5xl font-bold text-foreground mb-3">
-              Latest Articles
-            </h2>
-            <p className="text-muted-foreground text-lg">
-              Fresh perspectives on the ideas shaping our world.
-            </p>
-          </div>
-          
-          <Link to="/categories">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
+          <SectionHeading
+            eyebrow="Fresh Reads"
+            title="Latest Articles"
+            description="Fresh perspectives on the ideas shaping our world."
+          />
+
+          <Link to="/categories" className="sm:mb-2">
             <Button variant="outline" className="group">
               View All
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </Button>
           </Link>
-        </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {articles.map((article, index) => (
