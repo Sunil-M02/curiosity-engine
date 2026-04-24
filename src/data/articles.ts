@@ -37,37 +37,37 @@ export const categoryInfo: Record<Category, { name: string; description: string;
     name: "Science",
     description:
       "Discover groundbreaking science articles on physics, biology, chemistry, and research breakthroughs. Explore how scientific discoveries shape our understanding of the world.",
-    color: "hsl(142, 70%, 45%)",
+    color: "#4A9E6B",
   },
   technology: {
     name: "Technology",
     description:
       "Stay updated with the latest technology news, computing innovations, and engineering breakthroughs. Expert analysis on digital trends shaping our future.",
-    color: "hsl(200, 75%, 55%)",
+    color: "#4A7EC7",
   },
   "artificial-intelligence": {
     name: "Artificial Intelligence",
     description:
       "Explore AI articles on machine learning, neural networks, ChatGPT, and intelligent systems. In-depth analysis of how artificial intelligence is transforming industries.",
-    color: "hsl(280, 70%, 60%)",
+    color: "#9B6DD4",
   },
   history: {
     name: "History",
     description:
       "Journey through human history with articles on ancient civilizations, historical events, and the people who shaped our world. Discover stories from the past.",
-    color: "hsl(25, 80%, 55%)",
+    color: "#C4783A",
   },
   astronomy: {
     name: "Astronomy & Space",
     description:
       "Explore the cosmos with articles on planets, stars, galaxies, NASA missions, and space exploration. Your guide to the mysteries of the universe.",
-    color: "hsl(220, 80%, 60%)",
+    color: "#4AA8C4",
   },
   "future-innovation": {
     name: "Future Innovation",
     description:
       "Discover emerging technologies and visionary ideas shaping tomorrow. Articles on innovation trends, futurism, and breakthrough technologies defining the next decade.",
-    color: "hsl(38, 92%, 55%)",
+    color: "#D4A843",
   },
 };
 
