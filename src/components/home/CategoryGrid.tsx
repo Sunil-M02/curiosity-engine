@@ -4,6 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { categoryInfo, type Category } from '@/data/articles';
 import { useRef, useCallback } from 'react';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { SectionHeading } from '@/components/home/SectionHeading';
 
 const categories = Object.keys(categoryInfo) as Category[];
 
@@ -96,23 +97,11 @@ export function CategoryGrid() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
       
       <div className="container content-rail relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-12"
-        >
-          <span className="inline-block px-4 py-2 rounded-full bg-primary/15 text-primary text-xs font-bold uppercase tracking-widest mb-4 border border-primary/30 shadow-[0_0_20px_hsl(var(--primary)/0.15)]">
-            Knowledge Hubs
-          </span>
-          <h2 className="font-display text-3xl lg:text-5xl font-bold text-foreground mb-4">
-            Explore by Topic
-          </h2>
-          <p className="text-muted-foreground/90 max-w-2xl mx-auto text-lg font-medium">
-            Curated deep-dives into the subjects that fuel curiosity.
-          </p>
-        </motion.div>
+        <SectionHeading
+          eyebrow="Knowledge Hubs"
+          title="Explore by Topic"
+          description="Curated deep-dives into the subjects that fuel curiosity."
+        />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
           {categories.map((category, index) => (

@@ -85,7 +85,8 @@ export function Footer() {
                 <li key={category}>
                   <Link
                     to={`/categories/${category}`}
-                    className="text-muted-foreground hover:text-primary text-sm transition-colors"
+                    className="text-sm transition-opacity hover:opacity-80"
+                    style={{ color: categoryInfo[category].color }}
                   >
                     {categoryInfo[category].name}
                   </Link>

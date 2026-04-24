@@ -38,7 +38,11 @@ const CategoriesPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {categories.map((category, index) => {
             const info = categoryInfo[category];
-            const articleCount = getArticlesByCategory(category).length;
+            const categoryArticles = getArticlesByCategory(category);
+            const articleCount = categoryArticles.length;
+            const recent = [...categoryArticles]
+              .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
+              .slice(0, 2);
             
             return (
               <motion.div
@@ -49,18 +53,20 @@ const CategoriesPage = () => {
               >
                 <Link
                   to={`/categories/${category}`}
-                  className="group block p-8 rounded-2xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 hover-lift card-shadow hover-glow"
+                  className="group block p-8 rounded-2xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-300 hover-lift card-shadow hover-glow category-card"
+                  style={{
+                    borderLeftWidth: '4px',
+                    borderLeftColor: info.color,
+                    ['--category-color' as string]: info.color,
+                  }}
                 >
-                  <div className="flex items-start justify-between mb-6">
-                    <div
-                      className="w-14 h-14 rounded-xl flex items-center justify-center"
-                      style={{ backgroundColor: `${info.color}20` }}
+                  <div className="flex items-start justify-between mb-5">
+                    <span
+                      className="uppercase tracking-[0.18em] font-semibold"
+                      style={{ fontSize: '11px', color: info.color }}
                     >
-                      <div
-                        className="w-7 h-7 rounded-lg"
-                        style={{ backgroundColor: info.color }}
-                      />
-                    </div>
+                      {info.name}
+                    </span>
                     <span className="text-muted-foreground text-sm">
                       {articleCount} {articleCount === 1 ? 'article' : 'articles'}
                     </span>
@@ -70,9 +76,24 @@ const CategoriesPage = () => {
                     {info.name}
                   </h2>
                   
-                  <p className="text-muted-foreground mb-6">
+                  <p className="text-muted-foreground mb-5">
                     {info.description}
                   </p>
+
+                  {recent.length > 0 && (
+                    <ul className="space-y-1.5 mb-6 border-t border-border/40 pt-4">
+                      {recent.map((a) => (
+                        <li
+                          key={a.id}
+                          className="text-muted-foreground/90 line-clamp-1"
+                          style={{ fontSize: '12px', lineHeight: 1.5 }}
+                        >
+                          <span style={{ color: info.color }} className="mr-2">›</span>
+                          {a.title}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                   
                   <span className="inline-flex items-center gap-2 text-primary font-medium">
                     Browse articles
