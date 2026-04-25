@@ -65,7 +65,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 items-start">
           {/* Brand */}
           <div>
-            <Logo variant="full" size="sm" className="mb-4 items-center gap-2" />
+            <div className="flex items-center gap-2 mb-4">
+              <img
+                src={(new URL('../../assets/logo-symbol.png', import.meta.url)).href}
+                alt="CuriosityFields"
+                className="w-10 h-10 object-contain flex-shrink-0"
+              />
+              <span className="font-logo text-logo text-xl tracking-tight leading-none">
+                CuriosityFields
+              </span>
+            </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Independent writing and research-driven stories exploring ideas that shape science, technology, and the future.
             </p>
