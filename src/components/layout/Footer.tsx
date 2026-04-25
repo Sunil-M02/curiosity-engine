@@ -3,7 +3,7 @@ import { Loader2, CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { categoryInfo, type Category } from '@/data/articles';
 import { useNewsletterSubscription } from '@/hooks/useNewsletterSubscription';
-import logoSymbol from '@/assets/logo-symbol.png';
+import { Logo } from '@/components/brand/Logo';
 
 const categories = Object.keys(categoryInfo) as Category[];
 
@@ -65,16 +65,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 items-start">
           {/* Brand */}
           <div>
-            <Link to="/" className="flex items-center gap-2 mb-4 hover:opacity-80 transition-opacity">
-              <img
-                src={logoSymbol}
-                alt="CuriosityFields"
-                className="w-10 h-10 object-contain flex-shrink-0"
-              />
-              <span className="font-logo text-logo text-xl tracking-tight leading-none">
-                CuriosityFields
-              </span>
-            </Link>
+            <Logo variant="full" size="md" className="mb-4" />
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Independent writing and research-driven stories exploring ideas that shape science, technology, and the future.
             </p>
