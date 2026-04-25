@@ -140,48 +140,65 @@ export function Header() {
       {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3 }}
-            className="lg:hidden glass-effect border-b border-border/50 overflow-hidden"
-          >
-            <div className="container content-rail py-6 space-y-4">
-              {/* Main Nav Links */}
-              <div className="space-y-2">
+          <>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="lg:hidden fixed inset-0 z-40 bg-background/70 backdrop-blur-sm"
+              onClick={() => setIsMobileMenuOpen(false)}
+            />
+            <motion.aside
+              initial={{ x: '100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '100%' }}
+              transition={{ type: 'tween', duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+              className="lg:hidden fixed top-0 right-0 z-50 h-screen w-[85%] max-w-sm bg-card border-l border-border/60 overflow-y-auto"
+            >
+              <div className="flex items-center justify-between px-5 py-4 border-b border-border/50">
+                <span className="font-display text-base font-semibold text-foreground">Menu</span>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  aria-label="Close menu"
+                >
+                  <X className="w-6 h-6" />
+                </Button>
+              </div>
+              <nav className="px-3 py-4">
                 {navLinks.map((link) => (
                   <Link
                     key={link.label}
                     to={link.href}
-                    className={`block px-4 py-3 rounded-lg text-sm transition-colors ${
+                    style={{ fontSize: '20px', padding: '16px' }}
+                    className={`block rounded-lg transition-colors ${
                       isActive(link.href)
-                        ? 'bg-primary/10 text-primary'
-                        : 'bg-secondary/50 text-secondary-foreground hover:bg-secondary'
+                        ? 'text-primary'
+                        : 'text-foreground hover:bg-secondary/60'
                     }`}
                   >
                     {link.label}
                   </Link>
                 ))}
-              </div>
-              
-              {/* Topic Categories */}
-              <div className="pt-4 border-t border-border/50">
-                <p className="text-xs uppercase tracking-wider text-muted-foreground mb-3 px-4">Topics</p>
-                <div className="grid grid-cols-2 gap-2">
+
+                <div className="mt-4 pt-4 border-t border-border/50">
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2 px-4">Topics</p>
                   {categories.map((category) => (
                     <Link
                       key={category}
                       to={`/categories/${category}`}
-                      className="px-4 py-2 rounded-lg bg-secondary/30 text-sm text-secondary-foreground hover:bg-secondary transition-colors"
+                      style={{ fontSize: '20px', padding: '16px' }}
+                      className="block rounded-lg text-foreground hover:bg-secondary/60 transition-colors"
                     >
                       {categoryInfo[category].name}
                     </Link>
                   ))}
                 </div>
-              </div>
-            </div>
-          </motion.div>
+              </nav>
+            </motion.aside>
+          </>
         )}
       </AnimatePresence>
     </header>
