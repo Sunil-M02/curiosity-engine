@@ -12,8 +12,14 @@ export function FeaturedSection() {
   // Combine featured + latest, dedupe, take up to 6
   const featured = getFeaturedArticles();
   const latest = getLatestArticles(8);
+  // Articles to exclude from the Editor's Picks carousel (e.g. images that
+  // don't crop well into the card layout). They remain available everywhere else.
+  const excludedSlugs = new Set<string>([
+    'james-webb-telescope-discoveries-changing-astronomy',
+  ]);
   const seen = new Set<string>();
   const slides = [...featured, ...latest].filter((a) => {
+    if (excludedSlugs.has(a.slug)) return false;
     if (seen.has(a.id)) return false;
     seen.add(a.id);
     return true;
@@ -86,11 +92,6 @@ export function FeaturedSection() {
           <div className="flex">
             {slides.map((article) => {
               const color = categoryInfo[article.category].color;
-              // Per-article fine-tuning of focal point so subjects stay centered.
-              const objectPositionMap: Record<string, string> = {
-                'james-webb-telescope-discoveries-changing-astronomy': 'center 35%',
-              };
-              const objectPosition = objectPositionMap[article.slug] ?? 'center center';
               return (
                 <div
                   key={article.id}
@@ -108,7 +109,7 @@ export function FeaturedSection() {
                           articleTitle={article.title}
                           category={article.category}
                           className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.03]"
-                          style={{ objectPosition }}
+                          style={{ objectPosition: 'center center' }}
                           sizes="(max-width: 768px) 100vw, 50vw"
                         />
                         <span
