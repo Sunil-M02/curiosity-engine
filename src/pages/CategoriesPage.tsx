@@ -1,12 +1,21 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Atom, Cpu, Brain, Landmark, Telescope, Rocket, type LucideIcon } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { SEO } from '@/components/seo/SEO';
 import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
 import { categoryInfo, type Category, getArticlesByCategory } from '@/data/articles';
 
 const categories = Object.keys(categoryInfo) as Category[];
+
+const categoryIcons: Record<Category, LucideIcon> = {
+  science: Atom,
+  technology: Cpu,
+  'artificial-intelligence': Brain,
+  history: Landmark,
+  astronomy: Telescope,
+  'future-innovation': Rocket,
+};
 
 const CategoriesPage = () => {
   return (
@@ -40,9 +49,7 @@ const CategoriesPage = () => {
             const info = categoryInfo[category];
             const categoryArticles = getArticlesByCategory(category);
             const articleCount = categoryArticles.length;
-            const recent = [...categoryArticles]
-              .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
-              .slice(0, 2);
+            const Icon = categoryIcons[category];
             
             return (
               <motion.div
@@ -61,12 +68,21 @@ const CategoriesPage = () => {
                   }}
                 >
                   <div className="flex items-start justify-between mb-5">
-                    <span
-                      className="uppercase tracking-[0.18em] font-semibold"
-                      style={{ fontSize: '11px', color: info.color }}
+                    <div
+                      className="flex items-center justify-center w-12 h-12 rounded-xl transition-all duration-300 group-hover:scale-105"
+                      style={{
+                        backgroundColor: `${info.color}1F`,
+                        boxShadow: `0 0 24px ${info.color}33`,
+                      }}
                     >
-                      {info.name}
-                    </span>
+                      <Icon
+                        className="w-6 h-6"
+                        style={{
+                          color: info.color,
+                          filter: `drop-shadow(0 0 6px ${info.color}80)`,
+                        }}
+                      />
+                    </div>
                     <span className="text-muted-foreground text-sm">
                       {articleCount} {articleCount === 1 ? 'article' : 'articles'}
                     </span>
@@ -76,24 +92,9 @@ const CategoriesPage = () => {
                     {info.name}
                   </h2>
                   
-                  <p className="text-muted-foreground mb-5">
+                  <p className="text-muted-foreground mb-6">
                     {info.description}
                   </p>
-
-                  {recent.length > 0 && (
-                    <ul className="space-y-1.5 mb-6 border-t border-border/40 pt-4">
-                      {recent.map((a) => (
-                        <li
-                          key={a.id}
-                          className="text-muted-foreground/90 line-clamp-1"
-                          style={{ fontSize: '12px', lineHeight: 1.5 }}
-                        >
-                          <span style={{ color: info.color }} className="mr-2">›</span>
-                          {a.title}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
                   
                   <span className="inline-flex items-center gap-2 text-primary font-medium">
                     Browse articles
