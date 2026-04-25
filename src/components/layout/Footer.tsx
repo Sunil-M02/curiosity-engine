@@ -3,7 +3,6 @@ import { Loader2, CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { categoryInfo, type Category } from '@/data/articles';
 import { useNewsletterSubscription } from '@/hooks/useNewsletterSubscription';
-import { Logo } from '@/components/brand/Logo';
 import logoSymbol from '@/assets/logo-symbol.png';
 
 const categories = Object.keys(categoryInfo) as Category[];
