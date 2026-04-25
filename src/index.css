@@ -8,6 +8,8 @@
 @import '@fontsource/lora/400.css';
 @import '@fontsource/lora/400-italic.css';
 @import '@fontsource/lora/600.css';
+@import '@fontsource/fira-code/400.css';
+@import '@fontsource/fira-code/500.css';
 
 @tailwind base;
 @tailwind components;
@@ -284,13 +286,33 @@
     }
 
     code {
-      @apply bg-secondary px-2 py-1 rounded text-sm;
-      font-family: var(--font-body);
+      background: #1a1a2e;
+      color: #f5f5f5;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 14px;
     }
 
     pre {
-      @apply bg-secondary p-4 rounded-xl overflow-x-auto my-8;
-      font-family: var(--font-body);
+      position: relative;
+      background: #1a1a2e;
+      color: #f5f5f5;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 2rem 0;
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    pre code {
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+      font-size: 14px;
+      color: inherit;
     }
 
     table {
