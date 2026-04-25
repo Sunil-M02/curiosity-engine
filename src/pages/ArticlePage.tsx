@@ -141,7 +141,7 @@ const ArticlePage = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium">
-                    Editorial Desk · CuriosityFields
+                    The CuriosityFields Team
                   </p>
                   <p className="text-muted-foreground text-sm flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
@@ -266,7 +266,7 @@ const ArticlePage = () => {
                   <h4 className="font-display text-xl font-semibold text-foreground mb-1">
                     CuriosityFields Editorial
                   </h4>
-                  <p className="text-primary text-sm mb-2">Editorial Desk</p>
+                  <p className="text-primary text-sm mb-2">The CuriosityFields Team</p>
                   <p className="text-muted-foreground text-sm">
                     CuriosityFields is a knowledge-first digital publication focused on science, technology, 
                     artificial intelligence, history, astronomy, and future innovation.
