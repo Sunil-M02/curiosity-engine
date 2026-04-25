@@ -64,10 +64,11 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
               alt={article.title}
               articleTitle={article.title}
               category={article.category}
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              className="w-full h-full object-cover"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
             
             <div className="absolute bottom-0 left-0 right-0 p-6 lg:p-10">
               <div className="flex items-center gap-3 mb-4">
@@ -83,7 +84,7 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
                 </span>
               </div>
               
-              <h2 className="font-display text-2xl lg:text-4xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
+              <h2 className="font-display text-2xl lg:text-4xl font-semibold text-foreground mb-3 transition-colors duration-200 group-hover:text-[#D4A843]">
                 {article.title}
               </h2>
               
@@ -97,7 +98,7 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
                   <span className="text-primary font-display font-semibold text-sm">CF</span>
                 </div>
                 <div>
-                  <p className="text-foreground font-medium text-sm">Editorial Desk</p>
+                  <p className="text-foreground font-medium text-sm">The CuriosityFields Team</p>
                   <p className="text-muted-foreground text-xs">
                     {format(new Date(article.publishedAt), 'MMMM d, yyyy')}
                   </p>
@@ -120,14 +121,17 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
         className="group"
       >
         <Link to={`/article/${article.slug}`} className="flex gap-4 items-start">
+          <div className="relative w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden">
           <OptimizedImage
             src={article.coverImage}
             alt={article.title}
             articleTitle={article.title}
             category={article.category}
-            className="w-24 h-24 rounded-lg object-cover flex-shrink-0 transition-transform duration-300 group-hover:scale-105"
+            className="w-full h-full object-cover"
             sizes="96px"
           />
+          <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
+          </div>
           <div className="flex-1 min-w-0">
             <span
               className="text-xs font-medium"
@@ -135,7 +139,7 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
             >
               {categoryInfo[article.category].name}
             </span>
-            <h3 className="font-display text-base font-medium text-foreground mt-1 group-hover:text-primary transition-colors line-clamp-2">
+            <h3 className="font-display text-base font-medium text-foreground mt-1 transition-colors duration-200 group-hover:text-[#D4A843] line-clamp-2">
               {article.title}
             </h3>
             <p className="text-muted-foreground text-xs mt-2">
@@ -160,18 +164,18 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
       className="group"
     >
       <Link to={`/article/${article.slug}`} className="block">
-        {/* Card with enhanced lift and shadow on hover */}
-        <div className="rounded-xl bg-card border border-border/40 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_12px_40px_hsl(var(--primary)/0.15)] hover:border-primary/30">
+        {/* Card — no transform; title color shifts on hover */}
+        <div className="rounded-xl bg-card border border-border/40 overflow-hidden transition-colors duration-200 hover:border-primary/30">
           <div className="relative aspect-[16/10] overflow-hidden">
             <OptimizedImage
               src={article.coverImage}
               alt={article.title}
               articleTitle={article.title}
               category={article.category}
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
           </div>
           
           <div className="p-6">
@@ -188,7 +192,7 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
               </span>
             </div>
             
-            <h3 className="font-display text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors duration-200 line-clamp-2 group-hover:brightness-110">
+            <h3 className="font-display text-xl font-bold text-foreground mb-2 transition-colors duration-200 group-hover:text-[#D4A843] line-clamp-2">
               {article.title}
             </h3>
             
@@ -203,7 +207,7 @@ export function ArticleCard({ article, variant = 'default', index = 0 }: Article
                   <span className="text-primary font-display font-semibold text-xs">CF</span>
                 </div>
                 <div>
-                  <p className="text-foreground text-sm font-medium">Editorial Desk</p>
+                  <p className="text-foreground text-sm font-medium">The CuriosityFields Team</p>
                   <p className="text-muted-foreground text-xs">
                     {format(new Date(article.publishedAt), 'MMM d, yyyy')}
                   </p>
