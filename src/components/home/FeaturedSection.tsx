@@ -86,6 +86,11 @@ export function FeaturedSection() {
           <div className="flex">
             {slides.map((article) => {
               const color = categoryInfo[article.category].color;
+              // Per-article fine-tuning of focal point so subjects stay centered.
+              const objectPositionMap: Record<string, string> = {
+                'james-webb-telescope-discoveries-changing-astronomy': 'center 35%',
+              };
+              const objectPosition = objectPositionMap[article.slug] ?? 'center center';
               return (
                 <div
                   key={article.id}
@@ -102,7 +107,8 @@ export function FeaturedSection() {
                           alt={article.title}
                           articleTitle={article.title}
                           category={article.category}
-                          className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 ease-in-out group-hover:scale-[1.03]"
+                          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.03]"
+                          style={{ objectPosition }}
                           sizes="(max-width: 768px) 100vw, 50vw"
                         />
                         <span
