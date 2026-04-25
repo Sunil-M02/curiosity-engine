@@ -108,10 +108,11 @@ export function FeaturedSection() {
                           alt={article.title}
                           articleTitle={article.title}
                           category={article.category}
-                          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.03]"
+                          className="absolute inset-0 w-full h-full object-cover"
                           style={{ objectPosition: 'center center' }}
                           sizes="(max-width: 768px) 100vw, 50vw"
                         />
+                        <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
                         <span
                           className="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] font-semibold uppercase tracking-wider"
                           style={{ backgroundColor: color, color: 'hsl(222, 47%, 6%)' }}
@@ -121,7 +122,7 @@ export function FeaturedSection() {
                       </div>
 
                       <div className="p-6 lg:p-8 flex flex-col justify-center">
-                        <h3 className="font-display text-xl lg:text-2xl font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-3 mb-3 leading-snug">
+                        <h3 className="font-display text-xl lg:text-2xl font-semibold text-foreground transition-colors duration-200 group-hover:text-[#D4A843] line-clamp-3 mb-3 leading-snug">
                           {article.title}
                         </h3>
                         <p className="text-muted-foreground text-sm line-clamp-3 mb-5 leading-relaxed">
