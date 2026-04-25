@@ -60,7 +60,7 @@ export function Hero() {
               className="block uppercase tracking-[0.22em] text-foreground/60 mb-7"
               style={{ fontSize: '11px', fontWeight: 600 }}
             >
-              CuriosityFields — Editorial
+              Exploring the world's most fascinating ideas
             </span>
 
             <h1 className="font-display text-5xl sm:text-6xl lg:text-[4.5rem] xl:text-[5rem] font-semibold text-foreground leading-[1.05] tracking-tight mb-8">
@@ -79,8 +79,8 @@ export function Hero() {
             </h1>
 
             <p className="text-muted-foreground text-lg lg:text-xl max-w-xl mb-10 leading-relaxed">
-              Long-form journalism on science, technology, AI, history, and the
-              ideas shaping what comes next.
+              From quantum breakthroughs to distant galaxies, we turn complex
+              ideas into stories that expand how you think.
             </p>
 
             <div className="flex items-center gap-6">
