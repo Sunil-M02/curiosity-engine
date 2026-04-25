@@ -93,16 +93,16 @@ export function FeaturedSection() {
                 >
                   <Link
                     to={`/article/${article.slug}`}
-                    className="group block rounded-2xl overflow-hidden bg-card border border-border/50 transition-colors duration-300 hover:border-primary/40"
+                    className="group block rounded-2xl overflow-hidden bg-card border border-border/50 transition-colors duration-300 hover:border-primary/40 h-full"
                   >
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
-                      <div className="relative aspect-[4/3] md:aspect-auto md:h-full overflow-hidden">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-0 h-full">
+                      <div className="relative w-full aspect-[4/3] md:aspect-auto md:h-full min-h-[260px] overflow-hidden bg-muted/20">
                         <OptimizedImage
                           src={article.coverImage}
                           alt={article.title}
                           articleTitle={article.title}
                           category={article.category}
-                          className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.03]"
+                          className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 ease-in-out group-hover:scale-[1.03]"
                           sizes="(max-width: 768px) 100vw, 50vw"
                         />
                         <span
