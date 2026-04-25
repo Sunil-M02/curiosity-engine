@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fontsource-variable/source-serif-4": "^5.2.9",
+    "@fontsource/fira-code": "^5.2.7",
     "@fontsource/inter": "^5.2.8",
     "@fontsource/libre-baskerville": "^5.2.10",
     "@fontsource/lora": "^5.2.8",
