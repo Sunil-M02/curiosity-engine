@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Clock, Calendar, Share2 } from 'lucide-react';
 import { format } from 'date-fns';
@@ -14,6 +15,45 @@ import { OptimizedImage } from '@/components/ui/OptimizedImage';
 const ArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = getArticleBySlug(slug || '');
+  const contentRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!contentRef.current || !article) return;
+    const pres = contentRef.current.querySelectorAll('pre');
+    const cleanups: Array<() => void> = [];
+    pres.forEach((pre) => {
+      if (pre.querySelector('[data-copy-btn]')) return;
+      (pre as HTMLElement).style.position = 'relative';
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.dataset.copyBtn = 'true';
+      btn.textContent = 'Copy';
+      btn.setAttribute('aria-label', 'Copy code');
+      btn.style.cssText =
+        'position:absolute;top:8px;right:8px;background:rgba(255,255,255,0.08);color:#f5f5f5;border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:4px 10px;font-size:12px;font-family:Inter,sans-serif;cursor:pointer;transition:background 0.15s;';
+      const onEnter = () => (btn.style.background = 'rgba(255,255,255,0.18)');
+      const onLeave = () => (btn.style.background = 'rgba(255,255,255,0.08)');
+      const onClick = async () => {
+        const code = pre.querySelector('code')?.innerText ?? pre.innerText;
+        try {
+          await navigator.clipboard.writeText(code.replace(/^Copy\s*/, ''));
+          btn.textContent = 'Copied';
+          setTimeout(() => (btn.textContent = 'Copy'), 1500);
+        } catch {}
+      };
+      btn.addEventListener('mouseenter', onEnter);
+      btn.addEventListener('mouseleave', onLeave);
+      btn.addEventListener('click', onClick);
+      pre.appendChild(btn);
+      cleanups.push(() => {
+        btn.removeEventListener('mouseenter', onEnter);
+        btn.removeEventListener('mouseleave', onLeave);
+        btn.removeEventListener('click', onClick);
+        btn.remove();
+      });
+    });
+    return () => cleanups.forEach((fn) => fn());
+  }, [article]);
 
   if (!article) {
     return (
@@ -234,6 +274,7 @@ const ArticlePage = () => {
             className="max-w-3xl mx-auto"
           >
             <div
+              ref={contentRef}
               className="article-content"
               dangerouslySetInnerHTML={{ __html: article.content }}
             />
