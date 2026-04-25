@@ -42,10 +42,12 @@ const Index = () => {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
 
       <Hero />
-      <FeaturedSection />
-      <CategoryGrid />
-      <LatestArticles />
-      <Newsletter />
+      <div className="space-y-20">
+        <FeaturedSection />
+        <CategoryGrid />
+        <LatestArticles />
+        <Newsletter />
+      </div>
     </Layout>
   );
 };
