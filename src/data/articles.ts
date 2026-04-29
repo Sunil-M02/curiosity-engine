@@ -2245,6 +2245,566 @@ export const articles: Article[] = [
     featured: true,
     tags: ["AI", "Neural Architecture Search", "AutoML", "AI Safety", "Recursive Self-Improvement", "AGI"],
   },
+  {
+    id: "multitasking-neurologically-impossible",
+    slug: "multitasking-neurologically-impossible-brain-task-switching",
+    title: "Multitasking Is Neurologically Impossible: What Your Brain Is Actually Doing",
+    excerpt:
+      "Multitasking is neurologically impossible — your brain serially switches tasks, not parallel-processes them. Here's what's actually happening inside your skull, and why it costs you.",
+    metaDescription:
+      "Multitasking is neurologically impossible — your brain serially switches tasks, not parallel-processes them. Here's what's actually happening inside your skull, and why it costs you.",
+    content: `
+      <p class="lead">Your brain cannot run two conscious tasks simultaneously — it rapidly switches between them, burning time and energy each flip. Every task-switch triggers a "restart tax" called the attentional blink, costing 0.1 to 0.5 seconds per switch.</p>
+
+      <ul>
+        <li>Your brain cannot run two conscious tasks simultaneously — it rapidly switches between them, burning time and energy each flip</li>
+        <li>Every task-switch triggers a "restart tax" called the attentional blink, costing 0.1 to 0.5 seconds per switch</li>
+        <li>Perceived multitasking is actually rapid serial processing — the brain's PR department spinning a productivity story</li>
+        <li>The prefrontal cortex has one "task slot" for conscious cognitive work — no architectural workaround exists</li>
+        <li>Chronic multitaskers perform worse at filtering distraction than people who rarely multitask, per Stanford research</li>
+      </ul>
+
+      <h2>Introduction</h2>
+      <p>Here's the uncomfortable truth: you have never multitasked in your life. Not once. When you're texting while watching TV, answering email while on a call, or toggling between browser tabs during a meeting, your brain isn't running two streams in parallel. It's doing something far more interesting, and far more costly.</p>
+      <p>Multitasking, as most people mean it, is neurologically impossible. The human brain has exactly one channel for conscious cognitive processing. What feels like doing two things at once is actually rapid serial switching. The brain abandons Task A, resets its working memory, loads Task B, works briefly, then abandons that and loads Task A again.</p>
+      <p>Every switch costs time, burns glucose, and leaves cognitive residue that degrades performance on both tasks. Understanding what your brain is actually doing when you think you're multitasking changes how you work, think, and make decisions.</p>
+
+      <h2>The Brain Has One Cognitive Lane, Not Multiple</h2>
+      <p>The prefrontal cortex (PFC) sits just behind your forehead and handles everything we'd call thinking: planning, reasoning, attention management, and working memory. It's the most metabolically expensive tissue in the body, and it has, functionally, one slot for active cognitive tasks.</p>
+      <p>This isn't a design flaw. It's a constraint baked into the architecture of conscious thought.</p>
+      <p>Neuroscientists at MIT and Carnegie Mellon have shown, using fMRI, that when subjects try to run two language tasks simultaneously, the PFC doesn't split processing. It serializes it. The two tasks take roughly twice as long as doing them sequentially, with more errors on both.</p>
+      <p>The one exception is automatic versus conscious tasks. You can genuinely walk and talk at the same time because walking, for a healthy adult, is largely handled by the cerebellum and basal ganglia, below the PFC's pay grade. True parallel processing happens when one task is fully automated. Two conscious tasks are serial, every time.</p>
+
+      <h3>What's Actually Happening: The Switch Cost</h3>
+      <p>Every time your brain pivots from one task to another, it has to disengage from the current task's rules and context, load the new task's rules into working memory, and orient attention to the new stimuli. This three-step reset is called task switching, and the time it burns is called switch cost.</p>
+      <p>Psychologists at the American Psychological Association have measured it extensively. Typical switch costs run from 0.1 seconds for trivial switches to several minutes for complex ones.</p>
+      <p>There's also backward interference. The previous task leaks into the new one. Read an angry email, then try to write a careful analysis. The emotional residue is still running in the background.</p>
+
+      <h3>Why Your Brain Convinces You It's Working Fine</h3>
+      <p>The brain is an extremely confident narrator of its own performance. It doesn't experience the switch cost consciously. You just feel like you're handling things.</p>
+      <p>During the brief window when your brain is switching, conscious perception pauses in a phenomenon called the attentional blink. You don't notice the blink.</p>
+      <p>The brain also confuses busyness with productivity. High task-switching volume produces elevated dopamine and adrenaline, which feels like productive engagement. You feel energized. You are, in reality, running hot while accomplishing less.</p>
+
+      <h2>The Stanford Finding That Should Embarrass Every "Great Multitasker"</h2>
+      <p>In 2009, psychologist Clifford Nass and his team at Stanford ran experiments expecting to find that heavy multitaskers had developed superior attention management skills. They found the opposite.</p>
+      <p>Heavy media multitaskers were worse at filtering irrelevant information, managing working memory, and switching between tasks deliberately.</p>
+      <p>The people who multitask most were the worst at every cognitive skill multitasking supposedly trains. Nass's explanation was simple: constant task switching trains the brain to treat everything as potentially relevant. That's a catastrophic habit when you need to focus.</p>
+      <p>This finding has been replicated. The neural pathways that handle selective attention weaken under chronic multitasking conditions.</p>
+
+      <h2>What High Performers Actually Do</h2>
+      <p>Top performers in cognitively demanding fields, such as surgeons, air traffic controllers, and elite engineers, do not multitask.</p>
+      <p>They do something that looks like multitasking from the outside but is structurally different: time-sliced serial processing with pre-planned switching protocols.</p>
+      <p>A surgeon handling complications doesn't split attention between bleeding and vitals simultaneously. They check vitals on a scheduled cycle, maintain primary focus on the operative field, and rely on a trained team to handle parallel streams. The system multitasks. The individual does not.</p>
+      <p>For knowledge workers, the equivalent is time blocking. Hard boundaries around task categories allow the PFC to operate at depth inside each window rather than switching constantly.</p>
+      <p>The brain doesn't multitask better with practice. It gets more efficient at single-task execution and better at planning task sequences.</p>
+
+      <h2>The Attention Economy Knows All of This</h2>
+      <p>Tech platforms are not accidentally designed to fragment your attention.</p>
+      <p>The notification cadence, infinite scroll, and red badge on the app icon are optimized to produce maximum task switching. That produces maximum engagement time, which produces maximum ad revenue.</p>
+      <p>Every ping that pulls you out of deep work isn't just an interruption. It's a cognitive reset that costs you 10 to 23 minutes to fully recover from, according to a study at UC Irvine.</p>
+      <p>Your attention isn't just valuable to you. It's a product someone else is selling.</p>
+
+      <h2>Conclusion</h2>
+      <p>The brain's inability to multitask isn't a weakness to overcome. It's a hard architectural fact to work with.</p>
+      <p>Serial processing, done deeply, produces better outputs than shallow parallel switching. Most of what passes for multitasking is cognitive thrashing, the mental equivalent of a computer freezing because it has too many tabs open.</p>
+      <p>The question worth sitting with is simple: what would your best thinking look like if it got your full attention?</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can women multitask better than men?</h3>
+      <p>No peer-reviewed evidence supports this. The claim traces to a 2019 University of Glasgow study, but its authors cautioned against interpreting it as evidence for parallel processing. The underlying neuroscience, a single PFC cognitive channel, applies to all humans regardless of sex.</p>
+
+      <h3>What about people who "thrive" under constant interruption?</h3>
+      <p>They're adapting to a sub-optimal condition. Chronic multitaskers often become dependent on the stimulation that constant switching provides, similar to a tolerance effect, while their deep-focus capacity quietly erodes.</p>
+
+      <h3>Does meditation improve multitasking ability?</h3>
+      <p>Meditation improves attentional control, the ability to notice distraction and return focus deliberately. This reduces switch cost per transition. It doesn't grant parallel processing; it makes serial processing more efficient.</p>
+
+      <h3>Is there any task where true parallel processing occurs?</h3>
+      <p>Yes. When one task is fully automatized and requires no working memory or conscious executive control. Experienced drivers can hold a conversation. Novice drivers cannot. The automated task runs on implicit memory circuits outside the PFC.</p>
+
+      <h3>Why do I feel more productive when multitasking?</h3>
+      <p>Task switching produces a mild dopamine response tied to novelty seeking. The feeling of productive busyness is real. The actual output is not. You're experiencing arousal, not performance.</p>
+
+      <h3>Does aging affect switch cost?</h3>
+      <p>Yes. Switch cost increases with age, primarily due to reduced PFC efficiency and slower working memory loading. This is one reason deep, single-task focus becomes increasingly valuable as cognitive resources change over time.</p>
+    `,
+    coverImage: "/images/articles/multitasking-brain.jpg",
+    category: "science",
+    author: authors[0],
+    publishedAt: "2026-04-22",
+    readTime: 9,
+    featured: false,
+    tags: ["Neuroscience", "Multitasking", "Cognition", "Productivity", "Attention"],
+  },
+  {
+    id: "google-indexes-130-trillion-pages",
+    slug: "how-google-indexes-130-trillion-pages-crawling-architecture",
+    title: "How Google Actually Indexes 130 Trillion Pages: The Real Crawling Architecture",
+    excerpt:
+      "Google doesn't search the internet in real time — it searches a pre-built copy of it. Here's how Googlebot, Caffeine, and distributed indexing actually work at scale.",
+    metaDescription:
+      "Google doesn't search the internet in real time — it searches a pre-built copy of it. Here's how Googlebot, Caffeine, and distributed indexing actually work at scale.",
+    content: `
+      <p class="lead">Google doesn't search the live internet — it searches a pre-built index updated in near-real-time. Googlebot is a distributed fleet of crawlers, not a single program — thousands of machines running in parallel.</p>
+
+      <ul>
+        <li>Google doesn't search the live internet — it searches a pre-built index updated in near-real-time</li>
+        <li>Googlebot is a distributed fleet of crawlers, not a single program — thousands of machines running in parallel</li>
+        <li>The Caffeine indexing system reduced index latency from weeks to seconds for fresh content when it launched in 2010</li>
+        <li>URL prioritization is decided by a multi-factor scoring model — crawl budget is finite and competed for</li>
+        <li>About 60% of discovered URLs are never crawled — robots.txt, server errors, or low PageRank block access</li>
+      </ul>
+
+      <h2>Introduction</h2>
+      <p>When you type a search query, Google doesn't go out and search the internet. It searches a copy of the internet, a massive, continuously updated index stored across hundreds of thousands of servers globally.</p>
+      <p>Google's index contains over 130 trillion individual pages, according to the company's own estimates. Building and maintaining that index is one of the most complex distributed systems engineering problems ever solved commercially.</p>
+      <p>Most people's mental model of how search works, a crawler that finds pages and adds them to a list, is real, but flattened beyond recognition. The actual architecture involves distributed crawl queues, probabilistic link scheduling, real-time indexing pipelines, and a rendering system that has to simulate a full browser to parse modern JavaScript-heavy pages.</p>
+
+      <h2>Googlebot Is a Fleet, Not a Program</h2>
+      <p>'Googlebot' is the public name for Google's web crawler. In reality, it's not one thing; it's a distributed system of many thousands of crawl agents running on Google's server infrastructure, coordinated by a central URL Frontier, the prioritized queue of URLs waiting to be fetched.</p>
+      <p>There are actually multiple distinct crawlers: Googlebot desktop, Googlebot smartphone (the primary crawler since mobile-first indexing in 2019), and Googlebot-News, Googlebot-Video, Googlebot-Image for specialized content types.</p>
+      <p>The smartphone Googlebot renders pages using a headless version of Chromium, meaning it actually executes JavaScript, builds the DOM, and processes CSS. A site that hides content behind JavaScript will have that content invisible to any crawler that doesn't render. Google does render. It just doesn't do it instantly.</p>
+
+      <h2>The URL Frontier: How Pages Get Prioritized</h2>
+      <p>Not every URL Google knows about gets crawled. The URL Frontier is Google's prioritized queue; at any moment, it contains billions of URLs waiting to be fetched. Priority is determined by PageRank estimate, content freshness signals, server response history, and crawl budget allocation.</p>
+      <p>When your web server is slow, Google doesn't just wait longer. It crawls less of your site. A site that consistently returns fast responses gets more of its pages indexed more often. Approximately 60% of discovered URLs are never actually fetched, according to research from SEO tooling companies that have studied crawl log data at scale.</p>
+
+      <h2>Discovery: How Google Finds New Pages</h2>
+      <p>New pages don't announce themselves to Google. They get found through link following (every page Googlebot fetches has its outbound links extracted and added to the Frontier), XML sitemaps submitted via Search Console, and direct URL submission through the URL Inspection tool.</p>
+      <p>What Google doesn't do: discover pages from browser data alone. There's a persistent myth that Google uses Chrome browsing data to discover URLs. Google has denied this under oath in antitrust proceedings. Crawl discovery is link-based and sitemap-based.</p>
+
+      <h2>The Rendering Queue: JavaScript's Hidden Cost</h2>
+      <p>Modern websites render content dynamically using JavaScript frameworks, React, Vue, Angular, Next.js. Googlebot fetches the raw HTML first. If there's significant JavaScript involved, the page gets placed into a rendering queue, a separate, slower pipeline where a headless Chromium instance executes the JavaScript and builds the final DOM.</p>
+      <p>This creates a two-tier indexing problem. The raw HTML fetch might happen within hours of discovery. The rendered content might not be processed for days or weeks.</p>
+      <p>For SEO-critical pages, this is a concrete argument for server-side rendering or static site generation: make the important content available in the initial HTML response.</p>
+
+      <h2>Caffeine: How Google Keeps the Index Fresh</h2>
+      <p>Before 2010, Google's indexing system rebuilt its index in large batch cycles. A page could go live and take weeks to appear in search results. The Caffeine system, announced in June 2010, replaced batch indexing with a continuous, incremental pipeline. When Googlebot fetches a page, that page's content can enter the searchable index within seconds to hours.</p>
+      <p>The architecture behind Caffeine runs on Google's Bigtable and distributed file system infrastructure, storing the index as a distributed key-value store that can be partially updated without full rebuilds.</p>
+
+      <h2>The Index Is Not What You Think It Is</h2>
+      <p>A common misconception: Google's index is a list of URLs. It's not. The index is a multi-dimensional data structure storing full parsed text content, structural metadata (H1s, title tags, alt text), PageRank scores, rendering output, structured data from schema markup, and Core Web Vitals data.</p>
+      <p>When a search query arrives, Google runs it against pre-computed inverted index structures, a lookup table mapping query terms to pages, pre-ranked by relevance signals. The top results for common queries are essentially pre-cached. Your query returns in under 200 milliseconds because most of the work was done before you asked.</p>
+
+      <h2>Conclusion</h2>
+      <p>The scale is hard to hold in mind. Hundreds of thousands of crawl agents. Trillion-entry inverted index structures. Rendering queues processing JavaScript pages in parallel. All of it running so that your query returns in under 200 milliseconds.</p>
+      <p>The next time a new page you published doesn't appear in search results immediately, you're not waiting for Google to find it. You're waiting for your URL to clear a queue that has billions of entries ahead of it. Understanding that queue, how it works and what earns priority, is the practical import of everything above.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How long does it actually take for a new page to get indexed?</h3>
+      <p>Varies enormously. A news article on an authorized publisher site: minutes. A new page on a high-authority domain with strong internal linking: hours to days. A page on a new domain with no inbound links and no sitemap: weeks to potentially never.</p>
+
+      <h3>What is crawl budget and does it affect small sites?</h3>
+      <p>Crawl budget is how many pages Googlebot will crawl on your site within a given timeframe. Sites under ~1,000 pages rarely face crawl budget constraints. Budget constraints matter on very large sites with millions of URLs.</p>
+
+      <h3>Does Google index every version of every page?</h3>
+      <p>No. Google canonicalization algorithms consolidate duplicate or near-duplicate pages to a single canonical version. Multiple URLs serving the same content get consolidated.</p>
+
+      <h3>Can Google index content behind a login?</h3>
+      <p>Not typically. Google respects HTTP authentication and doesn't attempt to log in. Paywalled content from authorized news publishers can appear in snippets under a specific program, but full indexing of login-required content doesn't occur.</p>
+
+      <h3>Is it true that Google uses AI to understand page content?</h3>
+      <p>Yes. Google's MUM and predecessor BERT systems use transformer-based neural networks to interpret query intent and page relevance at a semantic level. Google doesn't just match keywords. It interprets meaning in context.</p>
+    `,
+    coverImage: "/images/articles/google-indexing-architecture.jpg",
+    category: "technology",
+    author: authors[1],
+    publishedAt: "2026-04-23",
+    readTime: 10,
+    featured: false,
+    tags: ["Google", "Search Engine", "SEO", "Web Crawling", "Indexing"],
+  },
+  {
+    id: "social-feed-algorithm-ranking",
+    slug: "how-social-feed-ranking-algorithm-works",
+    title: "The Algorithm Knows You Better Than You Think: How Social Feed Ranking Works",
+    excerpt:
+      "Social feed algorithms don't show you what's popular — they predict what will keep you watching. Here's the actual machine learning behind what you see and why.",
+    metaDescription:
+      "Social feed algorithms don't show you what's popular — they predict what will keep you watching. Here's the actual machine learning behind what you see and why.",
+    content: `
+      <p class="lead">Social feed algorithms are prediction engines, not popularity filters — they predict your next action, not what's "good." Every scroll, pause, rewatch, and share generates labeled training data that updates your personal ranking model.</p>
+
+      <ul>
+        <li>Social feed algorithms are prediction engines, not popularity filters — they predict your next action, not what's "good"</li>
+        <li>Every scroll, pause, rewatch, and share generates labeled training data that updates your personal ranking model</li>
+        <li>Engagement optimization doesn't target happiness — it targets continued engagement, which sometimes requires emotional activation</li>
+        <li>TikTok's For You Page is widely studied as the most effective ranking architecture ever deployed in a consumer product</li>
+        <li>You can influence the algorithm, but you cannot opt out of being modeled — every action is a signal</li>
+      </ul>
+
+      <h2>Introduction</h2>
+      <p>You did not choose what appeared in your feed this morning. An algorithm did. And it didn't put those posts there because they were important, recent, or even particularly liked by people you follow. It put them there because a machine learning model predicted, with high confidence, that you would stop scrolling when you hit them.</p>
+      <p>Social feed ranking is a real-time prediction problem, not a curation problem. The algorithm isn't asking 'what is good content?' It's asking 'given everything I know about this specific user in this specific moment, what item will maximize the probability that they take the next desired action?'</p>
+      <p>Understanding how this actually works changes your relationship to social media in an irreversible way. You can't unsee the machinery once you see it.</p>
+
+      <h2>The Core Problem: Ranking at Scale</h2>
+      <p>Instagram, as of 2023, processes roughly 100 million photos and videos uploaded per day. TikTok serves over 1 billion active users. The algorithm's job: pick ~20 items from thousands of candidates and rank them in order, for a billion users, hundreds of millions of times per day.</p>
+      <p>This requires a multi-stage pipeline. Stage 1 candidate retrieval uses approximate nearest-neighbor search to pull approximately 1,000 candidates from millions in milliseconds. Stage 2 ranking scores each candidate across multiple predicted engagement signals. Stage 3 reranking applies diversity, policy rules, and advertiser constraints. You see Stage 3's output in about 200 milliseconds.</p>
+
+      <h2>What Signals Actually Train the Model</h2>
+      <p>High-signal positive labels: completing a video, rewatching, sharing to external platforms, saving, typing a comment. High-signal negative labels: scrolling past without pausing, reporting, hiding, muting, swiping away within the first second.</p>
+      <p>The most powerful signal most users don't think about is dwell time, how long you spend on a post before scrolling. You don't have to interact. Simply pausing for three seconds on a video of dogs teaches the algorithm that dogs get your attention. It will probe whether you prefer large dogs, puppies, training videos, or funny fails. Your interest profile is continuously refined every time you use the app.</p>
+
+      <h2>Why TikTok's Algorithm Is Different</h2>
+      <p>TikTok's For You Page operates on a different starting assumption than Meta or YouTube's legacy architectures. Facebook and YouTube historically relied heavily on social graph signals, what your friends liked and who you followed. TikTok was designed from the start around content-first ranking. It doesn't care much who you follow. It cares what content produces the strongest engagement signals from you specifically.</p>
+      <p>A TikTok account with zero followers can get 10 million views on its first video if the content generates strong early engagement signals. TikTok shows new content to small test audiences, measures engagement rate, and uses that to decide whether to expand distribution. Meta's researchers published a paper in 2022 acknowledging that TikTok's approach had forced significant architecture changes across their platforms.</p>
+
+      <h2>The Emotional Activation Problem</h2>
+      <p>Neutral content, pleasant, mildly interesting, unemotional, generates moderate engagement. Emotionally activating content, outrage, anxiety, awe, amusement, fear, generates stronger and faster engagement responses. The algorithm doesn't know the difference between "this made me feel good" and "this made me feel terrible." Both produce the stop-scroll behavior it's trying to elicit.</p>
+      <p>A Facebook internal study leaked in 2021 via Frances Haugen showed that researchers knew content producing negative emotions often outperformed positive content on engagement metrics. The algorithm wasn't designed to make you angry. But it was designed to maximize engagement, and for a significant fraction of users, emotionally negative content produces the strongest engagement signals.</p>
+
+      <h2>What You Can Actually Do About It</h2>
+      <p>You cannot stop being modeled. Every action is a signal, including inaction. But you can influence what the model learns about you. Friction is a feature; the more deliberately you engage, pausing intentionally and searching for content rather than scrolling passively, the more your active preferences shape the model.</p>
+      <p>Hard resets work. Most platforms offer 'not interested' and 'see less from this account.' These are genuine high-weight negative signals. Using them consistently for a week shifts the candidate pool noticeably. Engaging when you have full cognitive capacity teaches the algorithm different preferences than late-night scrolling does.</p>
+
+      <h2>Conclusion</h2>
+      <p>The algorithm isn't malicious. It's optimizing for a metric, engagement, that was chosen because it's measurable and correlates with the business outcome of keeping you in the app. That the pursuit of that metric has emotional side effects wasn't part of the original design. But the engineers who build these systems know now. Most changes they make in response are modest.</p>
+      <p>You scroll differently when you know the pause is being logged. The most interesting question this raises isn't about social media. It's about what it means that the most sophisticated prediction systems ever built are being used primarily to decide what content you look at next.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Does the algorithm actually "know" me, or does it just know my patterns?</h3>
+      <p>The model has no semantic understanding of you as a person; it has a high-dimensional vector of interaction patterns. Whether that constitutes "knowing you" depends on your definition, but the predictions it generates about your behavior are often more accurate than those of the people around you.</p>
+
+      <h3>Can you fully reset your algorithm by clearing your history?</h3>
+      <p>Partial reset only. Clearing watch history removes content-level signals, but device fingerprinting, IP patterns, and demographic inferences from your behavior often persist. The model partially rebuilds quickly from new behavior patterns.</p>
+
+      <h3>Do ads affect the organic ranking?</h3>
+      <p>Advertiser content runs through separate pipelines and appears in designated slots. However, advertiser interest in reaching demographic segments does feed back into what organic content gets amplified.</p>
+
+      <h3>Why do I sometimes see content from accounts I unfollowed?</h3>
+      <p>The algorithm distinguishes between "following" as a social signal and engagement history as a content signal. If you heavily engaged with an account's content before unfollowing, the model may still surface similar content because the content signals persist.</p>
+
+      <h3>Is the algorithm the same for everyone on the platform?</h3>
+      <p>The architecture is the same; the model weights and your personal candidate pool are unique to you. Two people opening Instagram at the same moment will see completely different content even if they follow identical accounts.</p>
+    `,
+    coverImage: "/images/articles/social-feed-algorithm.jpg",
+    category: "technology",
+    author: authors[1],
+    publishedAt: "2026-04-24",
+    readTime: 10,
+    featured: false,
+    tags: ["Social Media", "Algorithm", "Machine Learning", "TikTok", "Engagement"],
+  },
+  {
+    id: "7-things-ai-cannot-do-2026",
+    slug: "7-things-ai-cannot-do-in-2026",
+    title: "The 7 Things AI Cannot Do in 2026 (Despite What You've Been Told)",
+    excerpt:
+      "AI can write code, pass the bar exam, and generate photorealistic video. But 7 fundamental limitations remain in 2026 that no model has solved — and some may never be solved.",
+    metaDescription:
+      "AI can write code, pass the bar exam, and generate photorealistic video. But 7 fundamental limitations remain in 2026 that no model has solved — and some may never be solved.",
+    content: `
+      <p class="lead">Current AI systems are extraordinary pattern-completion engines but have no genuine causal understanding of the world. Persistent reliable memory across long contexts remains an unsolved engineering problem, not just a product limitation.</p>
+
+      <ul>
+        <li>Current AI systems are extraordinary pattern-completion engines but have no genuine causal understanding of the world</li>
+        <li>Persistent reliable memory across long contexts remains an unsolved engineering problem, not just a product limitation</li>
+        <li>AI cannot verify its own outputs; the systems that catch errors are the systems making errors</li>
+        <li>Planning across genuinely novel multi-step problems degrades significantly compared to human experts</li>
+        <li>The most oversold AI capability in 2026: autonomous multi-day task completion without human oversight</li>
+      </ul>
+
+      <h2>Introduction</h2>
+      <p>The marketing around AI in 2026 has reached a pitch where it's genuinely hard to separate capability from hype. AI passed the bar exam. AI generates films from text prompts. AI writes production software. A model scored in the 99th percentile on GRE verbal reasoning. All of that is real.</p>
+      <p>What is also real: seven fundamental limitations that persist in every major AI system available today, including the most capable frontier models. These are not temporary bugs waiting to be patched. Some are deep structural properties of how current architectures work. Others may be solvable in time but remain unsolved now.</p>
+
+      <h2>1. AI Cannot Reliably Know When It's Wrong</h2>
+      <p>This is the most consequential limitation and the least discussed. Every large language model generates outputs by predicting what tokens should come next. The model that generates a confident wrong answer is the same model that would theoretically catch that wrong answer. There's no separate error-checking module watching the output.</p>
+      <p>Models can generate hallucinated citations, fabricated statistics, and incorrect code with exactly the same tone and fluency as correct outputs. Researchers have tested calibration, how well a model's expressed confidence matches its actual accuracy, and found it poor on domain-specific technical questions. The model doesn't know what it doesn't know in any reliable sense.</p>
+
+      <h2>2. AI Has No Causal Model of the World</h2>
+      <p>AI systems trained on text have learned an extraordinarily rich map of correlations between concepts. They know that antibiotics are associated with bacterial infections, that recessions correlate with unemployment. What they lack is a causal model, an understanding of mechanism, not just association.</p>
+      <p>A human doctor doesn't just pattern-match symptoms to diagnoses. They reason about biological mechanisms. When researchers test AI on novel causal inference problems, problems requiring mechanistic reasoning rather than pattern recognition, performance degrades significantly compared to matched-difficulty problems that appear in training data.</p>
+
+      <h2>3. AI Cannot Maintain Reliable Long-Term Memory</h2>
+      <p>Every commercial AI system has a context window, a finite amount of text it can see at once. Information outside the window is gone. Not archived and retrievable. Gone. Various products layer memory systems on top of this, but these work approximately, not reliably.</p>
+      <p>Research on "lost in the middle" effects shows that model performance degrades on information positioned in the middle of very long contexts even when technically within the window. For AI to function as a genuine long-term collaborator, this problem would need a different solution architecture than current transformers provide.</p>
+
+      <h2>4. AI Cannot Reliably Plan Novel Multi-Step Tasks</h2>
+      <p>AI systems in 2026 can execute well-defined tasks impressively. Ask a model to write a function, draft an email, summarize a document, tasks with clear inputs and outputs, and it performs well.</p>
+      <p>Ask it to plan and execute a genuinely novel multi-step task, one requiring adaptation when intermediate steps fail, handling unexpected tool outputs, maintaining a coherent goal across many actions, and performance degrades substantially. As of early 2026, the best available models complete roughly 35-50% of complex multi-step tasks successfully without human intervention on standard agent benchmarks.</p>
+
+      <h2>5. AI Has No Persistent Understanding of Physical Reality</h2>
+      <p>AI language models have read extensive descriptions of physical objects, forces, and interactions. This is not the same as understanding physics. When researchers test models on novel physical reasoning problems, performance varies wildly, often wrong on problems trivially solved by anyone who has interacted with physical objects.</p>
+      <p>Multimodal models trained on images and video do somewhat better. But this still reflects learned visual pattern matching, not a derived model of physical mechanics. The gap becomes clear on genuinely novel physical configurations.</p>
+
+      <h2>6. AI Cannot Perform Genuine Moral Reasoning</h2>
+      <p>AI systems can produce text that looks like ethical reasoning. In many common moral scenarios, well-represented in training data, their outputs are reasonable. What they cannot do is reason about genuinely novel moral problems where competing human values are in genuine tension and there's no analogous historical resolution to pattern-match against.</p>
+      <p>An AI system also has no stakes in outcomes. Moral reasoning that is genuinely difficult involves the reasoner accepting they might be wrong, that their reasoning has consequences for real people. AI has no skin in the game. Whether this makes genuine moral reasoning impossible for AI or just different is an open question.</p>
+
+      <h2>7. AI Cannot Replace the Expertise It Helps Access</h2>
+      <p>AI makes expertise accessible to non-experts at unprecedented scale. A small business owner can now get a contract reviewed, a student can get a research paper explained. What AI cannot do is tell a non-expert when the AI's output requires expert verification.</p>
+      <p>A lawyer using AI to draft a contract has the expertise to catch errors. A non-lawyer may not. The AI's output looks equally confident in both cases. The democratization of expert-level text is only genuinely useful when combined with some capacity to evaluate the output.</p>
+
+      <h2>Conclusion</h2>
+      <p>None of these limitations make AI useless. They make it a specific kind of tool, extraordinarily good at certain things, unreliable in specific ways, and best used by people who understand both.</p>
+      <p>AI performs best as a force multiplier for human judgment, not a replacement for it. The limitations above all point toward the same structural reality: current AI systems are pattern engines without ground truth, persistent memory, or causal models. Remarkable pattern engines, but pattern engines nonetheless.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Does Claude or GPT-5 have any of these limitations too?</h3>
+      <p>Yes, all of them apply to some degree to every major frontier model available as of early 2026, including Claude, GPT-5, and Gemini Ultra. The degree varies by task and architecture, but none have fundamentally solved calibration, causal reasoning, reliable planning, or persistent memory.</p>
+
+      <h3>What about AI reasoning models, don't they solve the planning problem?</h3>
+      <p>Reasoning models improve performance on structured multi-step problems significantly, especially in math and formal logic. They do not solve the novel multi-step task planning problem in open-domain settings. Failure modes remain qualitatively similar.</p>
+
+      <h3>Can RAG solve the memory problem?</h3>
+      <p>RAG solves part of it, factual recall on retrievable information. It doesn't solve the problem of the model accurately knowing when to trust retrieved content, or handling cases where relevant information isn't in the retrieval corpus.</p>
+
+      <h3>Will these limitations be solved in future models?</h3>
+      <p>Some probably will be, persistent memory architectures are an active research area with plausible paths. The causal reasoning gap is more fundamental and may require architectural innovation beyond transformer scaling.</p>
+
+      <h3>Is AI still worth using given all these limitations?</h3>
+      <p>Yes, with appropriate calibration. AI is genuinely transformative for well-scoped tasks where the output can be verified, where errors are recoverable, and where human judgment is part of the workflow.</p>
+    `,
+    coverImage: "/images/articles/ai-limitations-2026.jpg",
+    category: "artificial-intelligence",
+    author: authors[1],
+    publishedAt: "2026-04-25",
+    readTime: 11,
+    featured: false,
+    tags: ["AI", "AI Limitations", "Machine Learning", "AGI", "Frontier Models"],
+  },
+  {
+    id: "ai-context-problem-explained",
+    slug: "ai-reads-every-word-but-understands-nothing-context-problem",
+    title: "AI Reads Every Word But Understands Nothing: The Context Problem Explained",
+    excerpt:
+      "AI can process millions of tokens but still misses what you mean. The context problem explains why AI confidently gets things wrong — and what it actually does instead of understanding.",
+    metaDescription:
+      "AI can process millions of tokens but still misses what you mean. The context problem explains why AI confidently gets things wrong — and what it actually does instead of understanding.",
+    content: `
+      <p class="lead">AI language models process language statistically, not semantically; they predict likely next tokens, not meaning. "Understanding" requires a model of the world; AI has a model of language about the world, a critical difference.</p>
+
+      <ul>
+        <li>AI language models process language statistically, not semantically; they predict likely next tokens, not meaning</li>
+        <li>"Understanding" requires a model of the world; AI has a model of language about the world, a critical difference</li>
+        <li>"Lost in the middle" describes how models degrade on information buried in the center of long documents, even within their context window</li>
+        <li>Context is not memory: AI can hold a million tokens in context but cannot reason reliably across all of it simultaneously</li>
+        <li>The most dangerous failure: AI confidently produces wrong outputs that are locally coherent but globally wrong</li>
+      </ul>
+
+      <h2>Introduction</h2>
+      <p>Give an AI a 500-page legal document and it will summarize it in seconds. Ask it to find a specific clause, and it will quote text accurately. Ask it whether the clause means the company can terminate the contract unilaterally, and it might get the answer confidently, completely wrong.</p>
+      <p>This is the context problem. AI language models do not 'understand' text in any meaningful sense. They process sequences of tokens and predict what should come next, based on patterns learned from training data. When this produces fluent, accurate-seeming responses, it looks like understanding from the outside. When it fails, it fails in strange ways: confident, coherent, and incorrect.</p>
+
+      <h2>What "Context Window" Actually Means</h2>
+      <p>Every large language model has a context window, the maximum amount of text it can process in a single pass. Current frontier models handle 200,000 to 1,000,000 tokens, hundreds of pages of text. This sounds like near-unlimited comprehension. It isn't.</p>
+      <p>The context window is a processing boundary, not a comprehension guarantee. The model doesn't read it the way a human reads, building a mental model, flagging contradictions, holding key facts while reading later pages. It processes the token sequence and produces the next token based on the full sequence's statistical influence on what should logically follow.</p>
+
+      <h2>The "Lost in the Middle" Problem</h2>
+      <p>In 2023, researchers at Stanford and UC Berkeley published findings that have since been widely replicated: language model performance on information retrieval tasks degrades significantly based on where in the context window the relevant information appears.</p>
+      <p>Information at the beginning of a context (primacy effect) and at the end (recency effect) is used more reliably than information buried in the middle. In a 10,000-token document, a crucial fact on page 8 may be effectively invisible to the model's final answer generation, even though it's technically 'in context.' For critical analysis of long documents, the structure of how you present information matters as much as whether it's present.</p>
+
+      <h2>Statistical Coherence vs. Semantic Accuracy</h2>
+      <p>When an AI model produces an answer, it's generating text that is statistically coherent given its training and the current context. Statistically coherent means: this is the kind of text that typically follows this kind of prompt, based on patterns in training data.</p>
+      <p>Statistical coherence is not the same as semantic accuracy. A model trained on billions of words knows that legal contract discussions about termination typically include phrases like '30 days written notice.' If the specific contract in context says 90 days, the model might produce '30 days' because that's statistically more common in the domain — not because it misread the document, but because statistical probability slightly overpowered textual fidelity.</p>
+
+      <h2>Why AI Cannot "Re-Read" to Verify</h2>
+      <p>When a human is unsure about something they read, they go back and check. AI models, as currently designed, cannot do this during a single inference pass. Each output token is generated through a forward pass. The model has no mechanism to pause and say, "Let me re-examine page 47 before committing to this answer."</p>
+      <p>Chain-of-thought prompting and reasoning models improve this by generating extended intermediate thinking steps before final output. But they don't solve the fundamental issue: the model cannot arbitrarily re-attend to arbitrary parts of its context in a targeted, deliberate way the way a human can re-read a document.</p>
+
+      <h2>The Confidence Problem Makes This Worse</h2>
+      <p>If AI said 'I'm not sure about this part' when working from statistically plausible but potentially wrong context interpretation, the problem would be manageable. It often doesn't. Models produce confident, authoritative-toned outputs whether they're right or wrong. The fluency of the language doesn't degrade when accuracy does.</p>
+      <p>This is not a bug that can simply be patched. Confidence is an artifact of language generation itself. Fluency and certainty are reinforced during training because hesitant or incoherent text is penalized. Separately calibrating confidence from fluency remains an unsolved research problem.</p>
+
+      <h2>What This Means Practically</h2>
+      <p>AI is reliable for summarizing well-structured documents, extracting clearly stated facts from focused sections, answering direct questions with short well-defined answers located near the query in context.</p>
+      <p>AI is unreliable for drawing conclusions requiring integration of many facts spread across a long document, identifying what's not in a document, flagging internal inconsistencies, and anything where a locally plausible but globally wrong answer would be hard to catch. The practical fix is verification structure: use AI to find and surface; use human judgment to interpret and conclude.</p>
+
+      <h2>Conclusion</h2>
+      <p>The gap between 'processes every word' and 'understands every word' is not trivial. It's the gap between a statistical pattern engine and a reasoning mind. Current AI systems live firmly on the statistical side of that gap.</p>
+      <p>Context windows will continue to expand. Lost-in-the-middle effects may shrink. But the deeper issue, that language prediction and language comprehension are fundamentally different, is architectural. It is not a parameter that can simply be scaled away.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What's the difference between context window and memory?</h3>
+      <p>A context window is temporary. Everything within it is accessible during a session and disappears afterward. Memory, in systems that implement it, is persistent storage that is injected back into future context windows. Neither functions like human long-term memory.</p>
+
+      <h3>Do longer context windows solve the context problem?</h3>
+      <p>Longer windows reduce some failure cases but don't eliminate the core issue. "Lost in the middle" effects scale with context length. A 1M token context window doesn't ensure that a fact at token position 500,000 is used as reliably as facts at position 1 or 999,000.</p>
+
+      <h3>Why do AI models seem so confident when they're wrong?</h3>
+      <p>Tonal confidence is a learned output characteristic. Models generate text that resembles confident expert writing because such patterns dominate training data. The model does not "believe" it is correct. It has no self-model. It produces tokens that best match confident-sounding continuations.</p>
+
+      <h3>Can RAG fix the context problem?</h3>
+      <p>RAG helps by retrieving only relevant chunks and placing them near the query in context, which reduces lost-in-the-middle effects. It is a mitigation strategy, not a solution. Retrieval quality directly constrains answer quality.</p>
+
+      <h3>Does this mean AI shouldn't be used for legal or medical document analysis?</h3>
+      <p>It means AI should assist, not replace, expert review in high-stakes domains. Finding clauses, summarizing sections, and flagging language for attention are appropriate uses. Making final determinations based solely on AI interpretation is not.</p>
+    `,
+    coverImage: "/images/articles/ai-context-problem.jpg",
+    category: "artificial-intelligence",
+    author: authors[1],
+    publishedAt: "2026-04-26",
+    readTime: 10,
+    featured: false,
+    tags: ["AI", "Context Window", "LLM", "Language Models", "AI Understanding"],
+  },
+  {
+    id: "bronze-age-collapse-1200-bc",
+    slug: "bronze-age-collapse-1200-bc-civilisation-vanished",
+    title: "In 1200 BC, an Entire Civilisation Vanished in 50 Years and Historians Still Don't Know Why",
+    excerpt:
+      "Around 1200 BC, virtually every major Bronze Age civilisation collapsed within decades. Palaces burned, trade ended, writing was lost. The cause remains history's greatest unsolved mystery.",
+    metaDescription:
+      "Around 1200 BC, virtually every major Bronze Age civilisation collapsed within decades. Palaces burned, trade ended, writing was lost. The cause remains history's greatest unsolved mystery.",
+    content: `
+      <p class="lead">Around 1200 BC, the Hittite Empire, Mycenaean Greece, Ugarit, and the Aegean palace economies all collapsed within roughly 50 years. Linear B script, the writing system of Mycenaean Greece, disappeared entirely and wasn't rediscovered for 3,000 years.</p>
+
+      <ul>
+        <li>Around 1200 BC, the Hittite Empire, Mycenaean Greece, Ugarit, and the Aegean palace economies all collapsed within roughly 50 years</li>
+        <li>Linear B script, the writing system of Mycenaean Greece, disappeared entirely and wasn't rediscovered for 3,000 years</li>
+        <li>No single cause has been confirmed: leading theories include climate drought, the mysterious "Sea Peoples," earthquakes, and systems collapse</li>
+        <li>The collapse represents one of the most dramatic civilisational regressions in recorded history. Literacy vanished. Long-distance trade ceased</li>
+        <li>A 2022 pollen and isotope study provided the strongest climate evidence yet, but even its authors say drought alone does not explain everything</li>
+      </ul>
+
+      <h2>Introduction</h2>
+      <p>In 1350 BC, the Eastern Mediterranean was, by the standards of the ancient world, strikingly modern. The Hittites ran a sophisticated empire stretching across modern Turkey. Mycenaean Greece built multi-story palaces with administrative bureaucracies. Egypt traded tin and copper across thousands of miles. Ugarit, on the Syrian coast, was a cosmopolitan trading hub where merchants wrote in multiple languages.</p>
+      <p>Fifty years later, nearly all of it was gone. Between roughly 1200 and 1150 BC, virtually every major Bronze Age civilisation in the Eastern Mediterranean either collapsed completely or entered a centuries-long decline from which it never fully recovered. Palaces were burned. Long-distance trade networks went silent. Writing systems disappeared. Population dropped by estimates of 25 to 50 percent in some regions. It took Greece roughly 400 years to recover literacy.</p>
+      <p>How does an interconnected, sophisticated world collapse this thoroughly in half a century? Historians have been trying to answer that question since the 19th century. They still don't have a complete answer.</p>
+
+      <h2>What Actually Fell</h2>
+      <p>The Hittite Empire, which had fought Egypt to a standstill at the Battle of Kadesh and negotiated one of history's earliest recorded peace treaties, ceased to exist entirely around 1180 BC. Its capital, Hattusa, was burned. The dynasty ended. No successor state emerged.</p>
+      <p>Mycenaean Greece, the civilization of Agamemnon and the palaces of Mycenae and Tiryns, collapsed completely. Its Linear B administrative script vanished. Greece entered a Dark Age lasting roughly 400 years, after which it re-emerged as a dramatically different culture using a new alphabet borrowed from the Phoenicians.</p>
+      <p>Ugarit, one of the great trading cities of the ancient world, was destroyed around 1185 BC and never rebuilt. Archaeologists found a clay tablet in the kiln, a letter from the king of Ugarit pleading for military help, its firing interrupted by the city's destruction.</p>
+
+      <h2>The Sea Peoples: History's Most Mysterious Invaders</h2>
+      <p>Egyptian records describe the collapse partly as an invasion by groups Egyptians called the "Sea Peoples," a confederation of migrating groups identified only by names scholars have debated for more than a century. Ramesses III claims to have defeated them around 1177 BC. Yet the civilizations they supposedly passed through had already collapsed.</p>
+      <p>This creates a logical problem. If the Sea Peoples caused the collapse, who caused the Sea Peoples? Most scholars now treat them as a symptom rather than a cause. They appear to have been populations displaced by earlier shocks, moving into an already destabilized Eastern Mediterranean as refugees and raiders, not as a coordinated invasion force.</p>
+
+      <h2>The Climate Evidence: Real, but Incomplete</h2>
+      <p>A 2022 study analyzing pollen records and sediment isotopes from Cyprus, the Levant, and Anatolia documented a significant drought event beginning around 1200 BC and lasting roughly 300 years. Crop failures in grain-dependent palace economies could explain population decline, state revenue collapse, and the cessation of long-distance grain trade.</p>
+      <p>This represents the strongest physical evidence for an environmental trigger. But the climate evidence has limitations as a comprehensive explanation. The drought signal is not uniform across all affected regions, and some regions experiencing similar conditions did not collapse. Drought likely played a role. Whether it was sufficient on its own, or merely one accelerant among several, remains contested.</p>
+
+      <h2>Eric Cline and the Systems Collapse Theory</h2>
+      <p>The most sophisticated current theory belongs to archaeologist Eric Cline, developed in his 2014 book '1177 B.C.: The Year Civilization Collapsed.' Cline argues that the Bronze Age Eastern Mediterranean was a globalized, deeply interconnected system. Cyprus produced copper. Afghanistan produced tin. Egypt produced grain. The palace economies depended on this trade to function.</p>
+      <p>Cline's argument is that no single event caused the collapse. Instead, a convergence of stressors, including drought, earthquakes, trade disruption, and internal instability, struck a maximally interconnected system with little redundancy and no shock absorption. Systems-collapse theory is now the most widely cited scholarly framework, though it remains difficult to prove conclusively because it describes interacting forces rather than a single detectable cause.</p>
+
+      <h2>What Was Permanently Lost</h2>
+      <p>The collapse erased accumulated human knowledge. Linear B, the administrative script of the Mycenaean palatial economy, disappeared along with the palaces. When literacy returned to Greece around 800 BC, it used an entirely different system. Oral tradition was all that survived.</p>
+      <p>Long-distance trade collapsed. The tin-copper exchange that produced bronze effectively ended. Iron replaced bronze, partly because iron ore is locally available and more resilient to trade disruption. Some regions experienced population declines of 50 to 75 percent in the century following 1200 BC.</p>
+
+      <h2>Conclusion</h2>
+      <p>The Bronze Age Collapse is a mirror held up to every complex civilization that has ever existed. The most sophisticated interconnected system of its era failed so completely that it took centuries to reassemble what had been lost.</p>
+      <p>What makes it haunting isn't just the scale. It's the speed. Within a human lifetime, people went from living in a cosmopolitan trading world to living in illiterate, subsistence communities with no knowledge that the previous world had existed. History has not produced a single-cause explanation because single causes don't collapse systems this comprehensive. It takes a convergence.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the most widely accepted cause of the Bronze Age Collapse?</h3>
+      <p>No single cause has consensus. Eric Cline's multi-causal systems collapse theory — combining drought, earthquakes, migrations, and trade disruption, is currently the most widely cited framework, though debate continues.</p>
+
+      <h3>Did any civilizations survive the Bronze Age Collapse?</h3>
+      <p>Egypt survived in diminished form. The Assyrians survived but contracted. The Phoenicians emerged relatively intact and became the dominant maritime traders of the subsequent period, eventually spreading their alphabet across the Mediterranean.</p>
+
+      <h3>Who were the Sea Peoples specifically?</h3>
+      <p>Scholars still debate their identity. The Peleset are widely believed to be the Philistines who settled in Canaan after the collapse. Most scholars now view them as displaced peoples rather than an organized invasion force.</p>
+
+      <h3>Why did writing disappear in Greece?</h3>
+      <p>Linear B was an administrative script used specifically by palace economies. When the palaces burned and the administrative system collapsed, there was no institutional context in which literacy served a function. Oral culture filled the gap for 400 years.</p>
+
+      <h3>Could something similar happen to modern civilization?</h3>
+      <p>The academic literature on systemic risk and complexity collapse draws explicitly from Bronze Age research. Modern global supply chains are orders of magnitude more interdependent than the Bronze Age system. The vulnerability to cascading failure in maximally interconnected systems is real and documented.</p>
+    `,
+    coverImage: "/images/articles/bronze-age-collapse.jpg",
+    category: "history",
+    author: authors[2],
+    publishedAt: "2026-04-27",
+    readTime: 11,
+    featured: false,
+    tags: ["Bronze Age", "Ancient History", "Mediterranean", "Civilizational Collapse", "Sea Peoples"],
+  },
+  {
+    id: "black-holes-dont-suck-physics",
+    slug: "black-holes-dont-suck-physics-of-orbiting-one",
+    title: "Black Holes Don't Suck: The Physics of Why You're Safe Orbiting One",
+    excerpt:
+      "Black holes don't vacuum up everything around them — they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
+    metaDescription:
+      "Black holes don't vacuum up everything around them — they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
+    content: `
+      <p class="lead">A black hole with the mass of the Sun would let Earth orbit at exactly the same distance. Nothing would change gravitationally. "Sucking" implies suction, which requires pressure differentials. Gravity doesn't work that way.</p>
+
+      <ul>
+        <li>A black hole with the mass of the Sun would let Earth orbit at exactly the same distance. Nothing would change gravitationally</li>
+        <li>"Sucking" implies suction, which requires pressure differentials. Gravity doesn't work that way</li>
+        <li>Tidal forces, not gravitational strength per se, are what make black holes dangerous near the event horizon</li>
+        <li>You could orbit a stellar-mass black hole indefinitely at a safe distance, just as you orbit any massive object</li>
+        <li>The event horizon is a point of no return, not a surface that attracts. Crossing it doesn't feel different until it's too late</li>
+      </ul>
+
+      <h2>Introduction</h2>
+      <p>Almost everything popular culture has told you about black holes is wrong. They don't roam the galaxy devouring everything in their path. They don't suck ships toward them from light-years away. They don't have some special gravitational superpower beyond what any mass of their size would have.</p>
+      <p>A black hole is, gravitationally speaking, a completely ordinary object. If you replaced the Sun with a black hole of identical mass, Earth's orbit would not change by a single kilometer. The seasons, the length of the year, the tides, nothing would change gravitationally. You would freeze without sunlight, but that is a different problem.</p>
+      <p>What makes them extraordinary is real and remarkable. It's just not what most people think.</p>
+
+      <h2>Gravity Doesn't Suck — It Attracts Symmetrically</h2>
+      <p>The word 'suck' implies a suction mechanism, like a vacuum cleaner creating a pressure differential that draws air inward. Gravity doesn't work this way. Gravity is a mutual attraction between masses that follows an inverse square law: the force between two objects is proportional to the product of their masses and inversely proportional to the square of the distance between them.</p>
+      <p>This law applies identically to a black hole, a neutron star, an ordinary star, or a bowling ball. Mass determines gravitational force. The nature of the object, whether it has collapsed or emits light, is irrelevant to the gravitational force at a distance. Where black holes differ is how close you can get before the physics becomes extreme.</p>
+
+      <h2>Orbital Mechanics: Why Objects Don't Fall In</h2>
+      <p>Why does Earth orbit the Sun instead of falling into it? Because it has sideways velocity. Earth is moving sideways at about 30 km/s. The Sun's gravity curves Earth's path. If gravity were switched off, Earth would fly off tangentially. Gravity keeps bending the path back, and the result is an orbit.</p>
+      <p>The same logic applies to anything orbiting a black hole. A planet, star, or spacecraft with enough tangential velocity can orbit it indefinitely at any distance outside the event horizon. This is why the galaxy doesn't get eaten by the supermassive black hole at its center (Sagittarius A*, about 4 million solar masses). Stars orbit it at distances of light-years, the same way planets orbit stars, just on much larger scales.</p>
+
+      <h2>What Actually Makes Black Holes Dangerous Up Close</h2>
+      <p>Near a stellar-mass black hole, the gravitational gradient becomes extreme over very short distances. Gravity increases sharply the closer you get. If you fell feet-first toward one, your feet would feel far stronger gravity than your head. This difference would stretch your body lengthwise while compressing it sideways.</p>
+      <p>Physicists call this spaghettification. The term is informal, but the physics is precise.</p>
+      <p>The scale of this effect depends on the black hole's mass. Supermassive black holes (billions of solar masses) actually have gentler tidal gradients near their event horizons than stellar-mass black holes, because the event horizon is so much larger. Falling into a supermassive black hole, you might cross the event horizon before feeling particularly unusual tidal stresses.</p>
+
+      <h2>The Event Horizon: A Point, Not a Surface</h2>
+      <p>The event horizon is the radius at which escape velocity equals the speed of light. Inside this boundary, nothing has sufficient velocity to escape, neither matter nor light. Crucially, it is not a physical surface. There is no wall, no membrane, and nothing to collide with.</p>
+      <p>From an external perspective, nothing is ever seen crossing the event horizon. Gravitational time dilation causes light from an infalling object to become increasingly redshifted and stretched in time. To an outside observer, the object appears to slow, redden, and asymptotically freeze, never fully disappearing.</p>
+      <p>For the falling observer, however, the crossing occurs in finite time. The signal simply never reaches back out.</p>
+
+      <h2>Comparison: Black Hole vs. Star of Equal Mass</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Property</th>
+            <th>Star (1 Solar Mass)</th>
+            <th>Black Hole (1 Solar Mass)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Gravitational force at 1 AU</td><td>Identical</td><td>Identical</td></tr>
+          <tr><td>Orbital mechanics at 1 AU</td><td>Normal orbit possible</td><td>Normal orbit possible</td></tr>
+          <tr><td>Closest safe approach</td><td>Surface (~696,000 km)</td><td>Event horizon (~3 km)</td></tr>
+          <tr><td>Danger at close range</td><td>Heat and radiation</td><td>Tidal spaghettification</td></tr>
+          <tr><td>Emits light</td><td>Yes</td><td>No (except Hawking radiation)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Conclusion</h2>
+      <p>Black holes are genuinely one of the most extreme physical phenomena the universe produces. But the fear that they're some special gravitational menace — cosmic vacuum cleaners lurking to swallow everything within reach — is simply wrong. At a distance, they're unremarkable gravity sources.</p>
+      <p>The real strangeness of black holes is subtler and more profound: they're regions where spacetime curvature becomes so extreme that the future points inward. Every trajectory, once inside the event horizon, leads to the singularity. Not because of suction, but because all forward paths in time lead there. That's genuinely, deeply weird. You don't need to exaggerate it.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Could Earth be swallowed by a passing black hole?</h3>
+      <p>Only if a black hole passed close enough to gravitationally disrupt Earth's orbit. There are no black holes close enough to pose this risk. The nearest known stellar-mass black hole (Gaia BH1) is about 1,560 light-years away and poses zero threat.</p>
+
+      <h3>What happens inside a black hole?</h3>
+      <p>We genuinely don't know. General relativity predicts a singularity, but this signals that general relativity breaks down at those scales. A quantum theory of gravity would be needed to describe the interior, and we don't have one.</p>
+
+      <h3>Would you feel yourself crossing the event horizon?</h3>
+      <p>For a stellar-mass black hole, you'd be dead from tidal forces before reaching it. For a supermassive black hole with a large event horizon radius, you might cross without immediate physical sensation. You'd only know when you noticed that no signal you sent outward received a reply.</p>
+
+      <h3>Can black holes merge?</h3>
+      <p>Yes. This is how gravitational waves were first detected. LIGO's first observation in 2015 captured two black holes merging about 1.3 billion light-years away. For a brief moment, the system emitted more energy as gravitational waves than all the stars in the observable universe emit in light.</p>
+    `,
+    coverImage: "/images/articles/black-hole-physics.jpg",
+    category: "astronomy",
+    author: authors[0],
+    publishedAt: "2026-04-28",
+    readTime: 10,
+    featured: false,
+    tags: ["Black Holes", "Astrophysics", "Gravity", "Event Horizon", "Space"],
+  },
 ];
 
 export function getArticlesByCategory(category: Category): Article[] {
