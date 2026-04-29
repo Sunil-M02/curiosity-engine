@@ -2254,17 +2254,6 @@ export const articles: Article[] = [
     metaDescription:
       "Multitasking is neurologically impossible — your brain serially switches tasks, not parallel-processes them. Here's what's actually happening inside your skull, and why it costs you.",
     content: `
-      <p class="lead">Your brain cannot run two conscious tasks simultaneously — it rapidly switches between them, burning time and energy each flip. Every task-switch triggers a "restart tax" called the attentional blink, costing 0.1 to 0.5 seconds per switch.</p>
-
-      <ul>
-        <li>Your brain cannot run two conscious tasks simultaneously — it rapidly switches between them, burning time and energy each flip</li>
-        <li>Every task-switch triggers a "restart tax" called the attentional blink, costing 0.1 to 0.5 seconds per switch</li>
-        <li>Perceived multitasking is actually rapid serial processing — the brain's PR department spinning a productivity story</li>
-        <li>The prefrontal cortex has one "task slot" for conscious cognitive work — no architectural workaround exists</li>
-        <li>Chronic multitaskers perform worse at filtering distraction than people who rarely multitask, per Stanford research</li>
-      </ul>
-
-      <h2>Introduction</h2>
       <p>Here's the uncomfortable truth: you have never multitasked in your life. Not once. When you're texting while watching TV, answering email while on a call, or toggling between browser tabs during a meeting, your brain isn't running two streams in parallel. It's doing something far more interesting, and far more costly.</p>
       <p>Multitasking, as most people mean it, is neurologically impossible. The human brain has exactly one channel for conscious cognitive processing. What feels like doing two things at once is actually rapid serial switching. The brain abandons Task A, resets its working memory, loads Task B, works briefly, then abandons that and loads Task A again.</p>
       <p>Every switch costs time, burns glucose, and leaves cognitive residue that degrades performance on both tasks. Understanding what your brain is actually doing when you think you're multitasking changes how you work, think, and make decisions.</p>
@@ -2346,17 +2335,6 @@ export const articles: Article[] = [
     metaDescription:
       "Google doesn't search the internet in real time — it searches a pre-built copy of it. Here's how Googlebot, Caffeine, and distributed indexing actually work at scale.",
     content: `
-      <p class="lead">Google doesn't search the live internet — it searches a pre-built index updated in near-real-time. Googlebot is a distributed fleet of crawlers, not a single program — thousands of machines running in parallel.</p>
-
-      <ul>
-        <li>Google doesn't search the live internet — it searches a pre-built index updated in near-real-time</li>
-        <li>Googlebot is a distributed fleet of crawlers, not a single program — thousands of machines running in parallel</li>
-        <li>The Caffeine indexing system reduced index latency from weeks to seconds for fresh content when it launched in 2010</li>
-        <li>URL prioritization is decided by a multi-factor scoring model — crawl budget is finite and competed for</li>
-        <li>About 60% of discovered URLs are never crawled — robots.txt, server errors, or low PageRank block access</li>
-      </ul>
-
-      <h2>Introduction</h2>
       <p>When you type a search query, Google doesn't go out and search the internet. It searches a copy of the internet, a massive, continuously updated index stored across hundreds of thousands of servers globally.</p>
       <p>Google's index contains over 130 trillion individual pages, according to the company's own estimates. Building and maintaining that index is one of the most complex distributed systems engineering problems ever solved commercially.</p>
       <p>Most people's mental model of how search works, a crawler that finds pages and adds them to a list, is real, but flattened beyond recognition. The actual architecture involves distributed crawl queues, probabilistic link scheduling, real-time indexing pipelines, and a rendering system that has to simulate a full browser to parse modern JavaScript-heavy pages.</p>
@@ -2425,17 +2403,6 @@ export const articles: Article[] = [
     metaDescription:
       "Social feed algorithms don't show you what's popular — they predict what will keep you watching. Here's the actual machine learning behind what you see and why.",
     content: `
-      <p class="lead">Social feed algorithms are prediction engines, not popularity filters — they predict your next action, not what's "good." Every scroll, pause, rewatch, and share generates labeled training data that updates your personal ranking model.</p>
-
-      <ul>
-        <li>Social feed algorithms are prediction engines, not popularity filters — they predict your next action, not what's "good"</li>
-        <li>Every scroll, pause, rewatch, and share generates labeled training data that updates your personal ranking model</li>
-        <li>Engagement optimization doesn't target happiness — it targets continued engagement, which sometimes requires emotional activation</li>
-        <li>TikTok's For You Page is widely studied as the most effective ranking architecture ever deployed in a consumer product</li>
-        <li>You can influence the algorithm, but you cannot opt out of being modeled — every action is a signal</li>
-      </ul>
-
-      <h2>Introduction</h2>
       <p>You did not choose what appeared in your feed this morning. An algorithm did. And it didn't put those posts there because they were important, recent, or even particularly liked by people you follow. It put them there because a machine learning model predicted, with high confidence, that you would stop scrolling when you hit them.</p>
       <p>Social feed ranking is a real-time prediction problem, not a curation problem. The algorithm isn't asking 'what is good content?' It's asking 'given everything I know about this specific user in this specific moment, what item will maximize the probability that they take the next desired action?'</p>
       <p>Understanding how this actually works changes your relationship to social media in an irreversible way. You can't unsee the machinery once you see it.</p>
@@ -2498,17 +2465,6 @@ export const articles: Article[] = [
     metaDescription:
       "AI can write code, pass the bar exam, and generate photorealistic video. But 7 fundamental limitations remain in 2026 that no model has solved — and some may never be solved.",
     content: `
-      <p class="lead">Current AI systems are extraordinary pattern-completion engines but have no genuine causal understanding of the world. Persistent reliable memory across long contexts remains an unsolved engineering problem, not just a product limitation.</p>
-
-      <ul>
-        <li>Current AI systems are extraordinary pattern-completion engines but have no genuine causal understanding of the world</li>
-        <li>Persistent reliable memory across long contexts remains an unsolved engineering problem, not just a product limitation</li>
-        <li>AI cannot verify its own outputs; the systems that catch errors are the systems making errors</li>
-        <li>Planning across genuinely novel multi-step problems degrades significantly compared to human experts</li>
-        <li>The most oversold AI capability in 2026: autonomous multi-day task completion without human oversight</li>
-      </ul>
-
-      <h2>Introduction</h2>
       <p>The marketing around AI in 2026 has reached a pitch where it's genuinely hard to separate capability from hype. AI passed the bar exam. AI generates films from text prompts. AI writes production software. A model scored in the 99th percentile on GRE verbal reasoning. All of that is real.</p>
       <p>What is also real: seven fundamental limitations that persist in every major AI system available today, including the most capable frontier models. These are not temporary bugs waiting to be patched. Some are deep structural properties of how current architectures work. Others may be solvable in time but remain unsolved now.</p>
 
@@ -2578,17 +2534,6 @@ export const articles: Article[] = [
     metaDescription:
       "AI can process millions of tokens but still misses what you mean. The context problem explains why AI confidently gets things wrong — and what it actually does instead of understanding.",
     content: `
-      <p class="lead">AI language models process language statistically, not semantically; they predict likely next tokens, not meaning. "Understanding" requires a model of the world; AI has a model of language about the world, a critical difference.</p>
-
-      <ul>
-        <li>AI language models process language statistically, not semantically; they predict likely next tokens, not meaning</li>
-        <li>"Understanding" requires a model of the world; AI has a model of language about the world, a critical difference</li>
-        <li>"Lost in the middle" describes how models degrade on information buried in the center of long documents, even within their context window</li>
-        <li>Context is not memory: AI can hold a million tokens in context but cannot reason reliably across all of it simultaneously</li>
-        <li>The most dangerous failure: AI confidently produces wrong outputs that are locally coherent but globally wrong</li>
-      </ul>
-
-      <h2>Introduction</h2>
       <p>Give an AI a 500-page legal document and it will summarize it in seconds. Ask it to find a specific clause, and it will quote text accurately. Ask it whether the clause means the company can terminate the contract unilaterally, and it might get the answer confidently, completely wrong.</p>
       <p>This is the context problem. AI language models do not 'understand' text in any meaningful sense. They process sequences of tokens and predict what should come next, based on patterns learned from training data. When this produces fluent, accurate-seeming responses, it looks like understanding from the outside. When it fails, it fails in strange ways: confident, coherent, and incorrect.</p>
 
@@ -2654,17 +2599,6 @@ export const articles: Article[] = [
     metaDescription:
       "Around 1200 BC, virtually every major Bronze Age civilisation collapsed within decades. Palaces burned, trade ended, writing was lost. The cause remains history's greatest unsolved mystery.",
     content: `
-      <p class="lead">Around 1200 BC, the Hittite Empire, Mycenaean Greece, Ugarit, and the Aegean palace economies all collapsed within roughly 50 years. Linear B script, the writing system of Mycenaean Greece, disappeared entirely and wasn't rediscovered for 3,000 years.</p>
-
-      <ul>
-        <li>Around 1200 BC, the Hittite Empire, Mycenaean Greece, Ugarit, and the Aegean palace economies all collapsed within roughly 50 years</li>
-        <li>Linear B script, the writing system of Mycenaean Greece, disappeared entirely and wasn't rediscovered for 3,000 years</li>
-        <li>No single cause has been confirmed: leading theories include climate drought, the mysterious "Sea Peoples," earthquakes, and systems collapse</li>
-        <li>The collapse represents one of the most dramatic civilisational regressions in recorded history. Literacy vanished. Long-distance trade ceased</li>
-        <li>A 2022 pollen and isotope study provided the strongest climate evidence yet, but even its authors say drought alone does not explain everything</li>
-      </ul>
-
-      <h2>Introduction</h2>
       <p>In 1350 BC, the Eastern Mediterranean was, by the standards of the ancient world, strikingly modern. The Hittites ran a sophisticated empire stretching across modern Turkey. Mycenaean Greece built multi-story palaces with administrative bureaucracies. Egypt traded tin and copper across thousands of miles. Ugarit, on the Syrian coast, was a cosmopolitan trading hub where merchants wrote in multiple languages.</p>
       <p>Fifty years later, nearly all of it was gone. Between roughly 1200 and 1150 BC, virtually every major Bronze Age civilisation in the Eastern Mediterranean either collapsed completely or entered a centuries-long decline from which it never fully recovered. Palaces were burned. Long-distance trade networks went silent. Writing systems disappeared. Population dropped by estimates of 25 to 50 percent in some regions. It took Greece roughly 400 years to recover literacy.</p>
       <p>How does an interconnected, sophisticated world collapse this thoroughly in half a century? Historians have been trying to answer that question since the 19th century. They still don't have a complete answer.</p>
@@ -2728,17 +2662,6 @@ export const articles: Article[] = [
     metaDescription:
       "Black holes don't vacuum up everything around them — they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
     content: `
-      <p class="lead">A black hole with the mass of the Sun would let Earth orbit at exactly the same distance. Nothing would change gravitationally. "Sucking" implies suction, which requires pressure differentials. Gravity doesn't work that way.</p>
-
-      <ul>
-        <li>A black hole with the mass of the Sun would let Earth orbit at exactly the same distance. Nothing would change gravitationally</li>
-        <li>"Sucking" implies suction, which requires pressure differentials. Gravity doesn't work that way</li>
-        <li>Tidal forces, not gravitational strength per se, are what make black holes dangerous near the event horizon</li>
-        <li>You could orbit a stellar-mass black hole indefinitely at a safe distance, just as you orbit any massive object</li>
-        <li>The event horizon is a point of no return, not a surface that attracts. Crossing it doesn't feel different until it's too late</li>
-      </ul>
-
-      <h2>Introduction</h2>
       <p>Almost everything popular culture has told you about black holes is wrong. They don't roam the galaxy devouring everything in their path. They don't suck ships toward them from light-years away. They don't have some special gravitational superpower beyond what any mass of their size would have.</p>
       <p>A black hole is, gravitationally speaking, a completely ordinary object. If you replaced the Sun with a black hole of identical mass, Earth's orbit would not change by a single kilometer. The seasons, the length of the year, the tides, nothing would change gravitationally. You would freeze without sunlight, but that is a different problem.</p>
       <p>What makes them extraordinary is real and remarkable. It's just not what most people think.</p>
