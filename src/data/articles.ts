@@ -2750,7 +2750,7 @@ export const articles: Article[] = [
 
       <h2>Why Venus Got So Much Worse Than Earth</h2>
       <p>Venus and Earth formed from the same protoplanetary material at roughly the same time, about 4.5 billion years ago. They're nearly identical in size, mass, and bulk composition. The leading explanation for divergence centers on water loss and the runaway greenhouse effect.</p>
-      <p>Early Venus may have had liquid water for up to 2 billion years. But Venus is slightly closer to the Sun. As solar luminosity increased, oceans began evaporating. Water vapor is itself a greenhouse gas — as more entered the atmosphere, temperatures rose further, evaporating more water. The feedback loop ran until the oceans were gone. Without liquid water, the carbon-silicate cycle that removes CO₂ from Earth's atmosphere broke down. CO₂ from volcanic outgassing had nowhere to go.</p>
+      <p>Early Venus may have had liquid water for up to 2 billion years. But Venus is slightly closer to the Sun. As solar luminosity increased, oceans began evaporating. Water vapor is itself a greenhouse gas, as more entered the atmosphere, temperatures rose further, evaporating more water. The feedback loop ran until the oceans were gone. Without liquid water, the carbon-silicate cycle that removes CO₂ from Earth's atmosphere broke down. CO₂ from volcanic outgassing had nowhere to go.</p>
 
       <h2>Mars vs. Venus: Why the Cold One Wins</h2>
       <table>
@@ -2765,15 +2765,15 @@ export const articles: Article[] = [
           <tr><td>Human presence</td><td>Extremely difficult but technically imaginable</td><td>No viable pathway with current technology</td></tr>
         </tbody>
       </table>
-      <p>Mars is not easy. But Mars's challenges are cold, low pressure, and thin air — hazards that human engineering has tools to address incrementally. Venus's surface challenges aren't addressable by incremental engineering. No suit can withstand 92 bar at 465°C. No solar panel works under perpetual sulfuric acid clouds.</p>
+      <p>Mars is not easy. But Mars's challenges are cold, low pressure, and thin air, hazards that human engineering has tools to address incrementally. Venus's surface challenges aren't addressable by incremental engineering. No suit can withstand 92 bar at 465°C. No solar panel works under perpetual sulfuric acid clouds.</p>
 
       <h2>The One Genuinely Interesting Venus Proposal</h2>
       <p>At 50-60 km altitude in Venus's atmosphere, conditions are dramatically different. Temperature and pressure are close to Earth's surface conditions. Theoretical designs involve large floating habitats maintained at altitude by buoyancy in the dense CO₂ atmosphere. NASA's HAVOC (High Altitude Venus Operational Concept) study explored this between 2014 and 2017.</p>
       <p>This is not currently feasible. The engineering challenges of acid-resistant construction at those altitudes are formidable. But it's a physically coherent idea in a way that surface habitation is not.</p>
 
       <h2>Conclusion</h2>
-      <p>Venus is the clearest example in our solar system of how small initial differences compound into radically different outcomes over geological time. A slightly shorter orbital distance, slightly higher early insolation, slightly weaker magnetic field — and a planet that might have been habitable became the most hostile surface in the inner solar system.</p>
-      <p>What Venus offers is not a destination but a warning — a data point for understanding how habitable planets can fail, and why Earth's particular conditions are worth understanding and protecting with some seriousness.</p>
+      <p>Venus is the clearest example in our solar system of how small initial differences compound into radically different outcomes over geological time. A slightly shorter orbital distance, slightly higher early insolation, slightly weaker magnetic field, and a planet that might have been habitable became the most hostile surface in the inner solar system.</p>
+      <p>What Venus offers is not a destination but a warning, a data point for understanding how habitable planets can fail, and why Earth's particular conditions are worth understanding and protecting with some seriousness.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -2784,7 +2784,7 @@ export const articles: Article[] = [
       <p>Theoretically, over thousands of years, proposals include seeding the atmosphere with microbes engineered to convert CO₂ and bombarding the planet with hydrogen to synthesize water. None is currently feasible, and the absence of a magnetic field means any introduced water would continue to be lost to space.</p>
 
       <h3>Is Venus geologically active?</h3>
-      <p>Recent evidence suggests yes. A 2023 analysis of Magellan mission radar data identified what appears to be active volcanic activity — changes in a volcanic vent consistent with an eruption between 1990 and 1992.</p>
+      <p>Recent evidence suggests yes. A 2023 analysis of Magellan mission radar data identified what appears to be active volcanic activity, changes in a volcanic vent consistent with an eruption between 1990 and 1992.</p>
 
       <h3>Why do scientists still study Venus if it's so hostile?</h3>
       <p>Venus is the best analog for understanding runaway greenhouse effects, directly relevant to climate science. ESA's EnVision and NASA's VERITAS missions, both planned for the early 2030s, aim to study Venus's geology and history in significantly more detail.</p>
