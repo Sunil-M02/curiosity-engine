@@ -2737,8 +2737,8 @@ export const articles: Article[] = [
     metaDescription:
       "Venus is closer to Earth and similar in size, yet it's arguably the most hostile planet in the solar system. Here's the actual science of why Venus is a worse colonization target than Mars.",
     content: `
-      <p>Venus is the closest planet to Earth. On clear nights, it's the brightest object in the sky after the Sun and Moon. Its size and mass are nearly identical to Earth's. For most of human history, if any planet harbored life, Venus — cloudy, perhaps tropical — was the best candidate.</p>
-      <p>Every spacecraft we've sent there has been destroyed. Venus is not a gentler Mars. It is a fundamentally different category of hostile. Mars is cold and thin-aired — severe, but addressable in principle with enough engineering. Venus is a pressure cooker wrapped in acid fog running at 465°C year-round, day and night, pole to equator, with no seasonal variation and no habitability pathway that current technology can address.</p>
+      <p>Venus is the closest planet to Earth. On clear nights, it's the brightest object in the sky after the Sun and Moon. Its size and mass are nearly identical to Earth's. For most of human history, if any planet harbored life, Venus was considered the best candidate, cloudy and possibly tropical.</p>
+      <p>Every spacecraft we've sent there has been destroyed. Venus is not a gentler Mars. It is a fundamentally different category of hostile. Mars is cold and thin-aired, severe but addressable in principle with enough engineering. Venus is a pressure cooker wrapped in acid fog running at 465°C year-round, day and night, pole to equator, with no seasonal variation and no habitability pathway that current technology can address.</p>
 
       <h2>The Numbers That Kill You</h2>
       <p>Surface temperature: average 465°C (869°F). Hotter than Mercury's sun-facing surface despite Venus being farther from the Sun. The reason is the greenhouse effect: Venus's atmosphere is 96.5% carbon dioxide, creating a thermal blanket that traps all solar energy. No day-night temperature variation. No polar cold zones. The entire surface is uniformly, continuously lethal.</p>
@@ -2787,7 +2787,7 @@ export const articles: Article[] = [
       <p>Recent evidence suggests yes. A 2023 analysis of Magellan mission radar data identified what appears to be active volcanic activity — changes in a volcanic vent consistent with an eruption between 1990 and 1992.</p>
 
       <h3>Why do scientists still study Venus if it's so hostile?</h3>
-      <p>Venus is the best analog for understanding runaway greenhouse effects — directly relevant to climate science. ESA's EnVision and NASA's VERITAS missions, both planned for the early 2030s, aim to study Venus's geology and history in significantly more detail.</p>
+      <p>Venus is the best analog for understanding runaway greenhouse effects, directly relevant to climate science. ESA's EnVision and NASA's VERITAS missions, both planned for the early 2030s, aim to study Venus's geology and history in significantly more detail.</p>
     `,
     coverImage: "/images/articles/venus-hostile-surface.jpg",
     category: "astronomy",
