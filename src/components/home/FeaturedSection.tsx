@@ -4,7 +4,7 @@ import Autoplay from 'embla-carousel-autoplay';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
 import { format } from 'date-fns';
-import { getFeaturedArticles, getLatestArticles, categoryInfo } from '@/data/articles';
+import { getFeaturedArticles, categoryInfo } from '@/data/articles';
 import { OptimizedImage } from '@/components/ui/OptimizedImage';
 import { SectionHeading } from '@/components/home/SectionHeading';
 
