@@ -202,7 +202,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-01-10",
     readTime: 8,
-    featured: true,
+    featured: false,
     tags: ["quantum computing", "technology", "cryptography", "future"],
   },
   {
@@ -335,7 +335,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-1-17",
     readTime: 7,
-    featured: true,
+    featured: false,
     tags: ["space", "astronomy", "JWST", "exoplanets"],
   },
   {
@@ -451,7 +451,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-01-18",
     readTime: 9,
-    featured: true,
+    featured: false,
     tags: ["AI", "AGI", "machine learning", "future"],
   },
   {
@@ -1000,7 +1000,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-01-29",
     readTime: 12,
-    featured: true,
+    featured: false,
     tags: ["AI Agents", "OpenClaw", "Productivity", "Automation", "Open Source", "Clawdbot", "Self-Hosted"],
   },
   {
@@ -1170,7 +1170,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-02-08",
     readTime: 9,
-    featured: true,
+    featured: false,
     tags: ["Artemis III", "NASA", "Moon Mission", "Space Exploration", "Lunar Landing"],
   },
 
@@ -1312,7 +1312,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-02-22",
     readTime: 8,
-    featured: true,
+    featured: false,
     tags: [
       "Placebo Effect",
       "Neuroscience",
@@ -1489,7 +1489,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-02-14",
     readTime: 8,
-    featured: true,
+    featured: false,
     tags: ["Agentic AI", "Autonomous Agents", "AI Automation", "Future of Work", "Artificial Intelligence"],
   },
   {
@@ -1621,7 +1621,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-03-01",
     readTime: 7,
-    featured: true,
+    featured: false,
     tags: ["Passkeys", "Biometrics", "Cybersecurity", "Digital Identity", "FIDO Alliance"],
   },
   {
@@ -1730,7 +1730,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-03-17",
     readTime: 12,
-    featured: true,
+    featured: false,
     tags: ["AI Scientists", "Autonomous Research", "Self-Driving Labs", "Agentic AI", "Drug Discovery", "Scientific Method"],
   },
   {
@@ -1847,7 +1847,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-04-01",
     readTime: 11,
-    featured: true,
+    featured: false,
     tags: ["Syphilis History", "Ancient DNA", "Paleogenomics", "Treponema pallidum", "Colombia Archaeology", "Disease Origins", "History of Medicine"],
   },
   {
@@ -1912,7 +1912,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-04-04",
     readTime: 9,
-    featured: true,
+    featured: false,
     tags: ["Tardigrades", "Radiation Biology", "Extremophiles", "DNA Repair", "Astrobiology"],
   },
   {
@@ -1975,7 +1975,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-04-08",
     readTime: 8,
-    featured: true,
+    featured: false,
     tags: ["Streaming", "Energy", "Data Centers", "Carbon Footprint", "Digital Infrastructure"],
   },
   {
@@ -2044,7 +2044,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-04-11",
     readTime: 10,
-    featured: true,
+    featured: false,
     tags: ["AI Hallucinations", "LLM", "Language Models", "Machine Learning", "AI Safety"],
   },
   {
@@ -2108,7 +2108,7 @@ export const articles: Article[] = [
     author: authors[2],
     publishedAt: "2026-04-14",
     readTime: 10,
-    featured: true,
+    featured: false,
     tags: ["Pandemics", "Human Evolution", "Genetics", "Black Death", "Ancient DNA", "Epidemiology"],
   },
   {
@@ -2173,7 +2173,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-04-17",
     readTime: 10,
-    featured: true,
+    featured: false,
     tags: ["Space Medicine", "NASA", "Human Body", "ISS", "Microgravity", "Scott Kelly", "Twin Study"],
   },
   {
@@ -2242,7 +2242,7 @@ export const articles: Article[] = [
     author: authors[3],
     publishedAt: "2026-04-20",
     readTime: 11,
-    featured: true,
+    featured: false,
     tags: ["AI", "Neural Architecture Search", "AutoML", "AI Safety", "Recursive Self-Improvement", "AGI"],
   },
   {
@@ -2856,7 +2856,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-04-30",
     readTime: 10,
-    featured: false,
+    featured: true,
     tags: ["De-Extinction", "CRISPR", "Genetics", "Woolly Mammoth", "Biotechnology"],
   },
   {
@@ -3206,6 +3206,363 @@ export const articles: Article[] = [
     featured: false,
     tags: ["Ancient India", "History of Medicine", "Surgery", "Ayurveda", "Sushruta"],
   },
+  {
+    id: "animals-cavities-science",
+    slug: "why-animals-dont-get-cavities-humans-do",
+    title: "Why Animals Don't Get Cavities (And Humans Specifically Do)",
+    excerpt:
+      "Most animals never see a dentist and still keep perfect teeth. Here's the real biological reason humans are uniquely prone to tooth decay and what it reveals about our diet.",
+    metaDescription:
+      "Most animals never see a dentist and still keep perfect teeth. Here's the real biological reason humans are uniquely prone to tooth decay and what it reveals about our diet.",
+    content: `
+      <h2>The Mouth Is a Battlefield, and Sugar Decides Who Wins</h2>
+      <p>Tooth decay isn't about hygiene alone. It's a chemical war fought on your tooth surface every time you eat. The bacteria living in your mouth, particularly <strong>Streptococcus mutans</strong>, feed on the sugars you consume and produce lactic acid as a byproduct. That acid dissolves the mineral structure of tooth enamel over time. Do it enough, and you get a cavity.</p>
+      <p>Every animal has bacteria in its mouth. So why aren't wolves walking around with rotten teeth?</p>
+      <p>The answer comes down to what those animals eat, how often they eat it, and what their saliva is designed to handle.</p>
+
+      <h2>Wild Animals Eat in Ways That Don't Feed the Decay Process</h2>
+      <p>Most wild animals consume foods that don't sustain acid-producing bacteria at dangerous levels. Carnivores eat protein and fat, not fermentable carbohydrates. Herbivores eat fibrous plants with complex carbohydrates that require significant breakdown before bacteria can access them. Neither diet gives S. mutans the quick, easily fermentable sugars it thrives on.</p>
+      <p>There's also the frequency issue. Wild animals typically eat in discrete meals, not continuously throughout the day. Every time you eat something sugary or starchy, your mouth pH drops and stays low for 20 to 40 minutes. An animal that eats one large meal every two days gives its saliva time to neutralize and remineralize. A human who sips sweetened coffee all morning never does.</p>
+      <p><strong>Why this matters:</strong> The cavity problem isn't just about what you eat. It's about how often acid attacks your teeth relative to how long your saliva has to repair the damage.</p>
+
+      <h2>Saliva Does More Work Than Most People Realize</h2>
+      <p><strong>Saliva</strong> is the body's primary defense against tooth decay, and different animals produce very different compositions. Human saliva contains amylase, an enzyme that begins breaking down starch in the mouth, which actually speeds up how quickly bacteria can access fermentable sugars. We evolved this enzyme because cooked starchy foods became central to the human diet around 300,000 years ago.</p>
+      <p>Some animals produce saliva with higher buffering capacity, meaning it neutralizes acid faster. Others produce it in much larger volumes relative to their tooth surface area.</p>
+      <p>Rats, which are commonly used in cavity research, will develop cavities readily in lab conditions when fed a human-style diet. Put them back on their natural whole-food diet, and the problem largely disappears. The bacteria aren't the variable. The diet is.</p>
+
+      <h2>Agriculture Changed Human Teeth More Than Any Other Event in History</h2>
+      <p>For most of human evolution, dental cavities were rare. Archaeological surveys of pre-agricultural human remains consistently show low cavity rates, typically under 2 percent of teeth examined. Once farming communities emerged, that number jumped. In some early agricultural populations, cavity rates climbed above 10 percent.</p>
+      <p>The shift wasn't random. Agricultural diets introduced two major changes: a dramatic increase in refined carbohydrates like grain-based foods, and year-round access to stored, processed foods rather than seasonal whole foods. Add to that the introduction of refined sugar, which became widespread in Europe only in the last few centuries, and you have a recipe for an epidemic.</p>
+      <p>Some anthropologists describe the cavity surge after agriculture as one of the clearest biological signatures of the Neolithic transition visible in the fossil record.</p>
+      <p><strong>Why this matters:</strong> Humans don't have uniquely weak teeth. We have a uniquely modern diet applied to teeth that evolved for something else entirely.</p>
+
+      <h2>The Modern Mouth Is Running the Wrong Operating System</h2>
+      <p>Your teeth are running hardware optimized roughly 200,000 years ago, on inputs that have changed dramatically with every dietary revolution since. The hardware hasn't changed. The food has.</p>
+      <p>The bacteria responsible for cavities, <em>S. mutans</em> in particular, wasn't always as dominant in the human mouth as it is now. Research into ancient dental plaque suggests that the microbial community in pre-agricultural mouths was more diverse and less dominated by acid-producing species. Modern diets, combined with the reduction in saliva flow that comes with stress and certain medications, have created conditions where <em>S. mutans</em> thrives.</p>
+      <p>Dogs domesticated alongside humans developed higher cavity rates than their wolf ancestors for exactly the same reason. Feed them table scraps and processed kibble long enough, and their mouths start looking more like ours. The teeth didn't change. The food did.</p>
+
+      <h2>What About Animals That Do Get Cavities?</h2>
+      <p>The claim that animals don't get cavities needs some nuance. Some wild animals do develop tooth decay, though rarely and typically under unusual conditions.</p>
+      <p>Bears that gorge on fruit in autumn can develop cavities. Beavers in regions with high natural sugar availability have been documented with decayed teeth. Captive animals fed human food develop cavities at rates closer to humans.</p>
+      <p>The pattern is consistent across species: introduce fermentable sugar at high frequency, and the cavity-causing machinery activates regardless of the animal involved.</p>
+
+      <table>
+        <thead>
+          <tr><th>Factor</th><th>Wild Animals</th><th>Modern Humans</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Primary diet</td><td>Protein, fat, fibrous plants</td><td>Refined carbs, processed sugars</td></tr>
+          <tr><td>Eating frequency</td><td>Infrequent, whole meals</td><td>Multiple times daily, frequent snacking</td></tr>
+          <tr><td>Sugar type</td><td>Minimal, complex</td><td>Abundant, simple and refined</td></tr>
+          <tr><td>Saliva recovery time</td><td>Long intervals between meals</td><td>Short, often continuous acid exposure</td></tr>
+          <tr><td>S. mutans dominance</td><td>Low to moderate</td><td>Often high</td></tr>
+          <tr><td>Cavity rate (lifetime)</td><td>Very low</td><td>Up to 90% in adults</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Conclusion</h2>
+      <p>The reason animals don't get cavities isn't that they have better teeth or cleaner mouths. It's that the modern human food environment is genuinely unusual in evolutionary terms. Frequent eating, refined sugars, and sticky processed carbohydrates create exactly the conditions that acid-producing bacteria need to do damage.</p>
+      <p>Your teeth aren't defective. They're doing a reasonable job against a diet they were never designed to face. The animals holding perfect dental records aren't brushing twice a day. They're eating what their teeth were built for. That's a stranger and more sobering observation than most dental hygiene advice ever acknowledges.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Do wild animals ever get tooth decay?</h3>
+      <p>Yes, occasionally. Bears that eat large quantities of fruit in autumn can develop cavities. Captive animals fed human-style food develop them at higher rates. The key variable is diet composition and feeding frequency, not species.</p>
+      <h3>What bacteria causes most human cavities?</h3>
+      <p>Streptococcus mutans is the primary culprit. It metabolizes fermentable sugars and excretes lactic acid, which dissolves tooth enamel over time. It thrives specifically in mouths frequently exposed to simple sugars.</p>
+      <h3>Did ancient humans get cavities?</h3>
+      <p>Pre-agricultural humans had very low cavity rates, typically under 2 percent based on archaeological dental surveys. Rates rose sharply after farming introduced grain-heavy, carbohydrate-dense diets to most populations.</p>
+      <h3>Why do humans produce amylase in saliva if it speeds up cavity formation?</h3>
+      <p>Amylase evolved to help digest cooked starchy foods, which became central to the human diet hundreds of thousands of years ago. It was a useful adaptation for digestion. The cavity trade-off is a side effect that only became significant as diets shifted further toward refined carbohydrates.</p>
+      <h3>Can early tooth decay be reversed?</h3>
+      <p>At the very early stage, before a cavity fully forms, enamel can remineralize with adequate saliva, fluoride exposure, and reduced acid attacks. Once the decay reaches dentin, professional treatment is necessary.</p>
+      <h3>Do dogs and cats get cavities?</h3>
+      <p>Cats get cavities very rarely because of their tooth shape and carnivorous diet. Dogs develop them more often, particularly when fed processed commercial food and table scraps. Dogs on raw meat diets show significantly lower rates.</p>
+      <h3>Is sugar frequency worse than sugar quantity for teeth?</h3>
+      <p>Yes. Research consistently shows that how often you expose your mouth to sugar matters more than total daily sugar amount. Sipping a sugary drink over three hours causes more cumulative acid exposure than drinking the same amount quickly with a meal.</p>
+    `,
+    coverImage: "/images/articles/animals-cavities-science.jpg",
+    category: "science",
+    author: authors[0],
+    publishedAt: "2026-05-05",
+    readTime: 8,
+    featured: true,
+    tags: ["Biology", "Evolution", "Diet", "Dentistry", "Anthropology"],
+  },
+  {
+    id: "zero-history-mathematics",
+    slug: "zero-most-dangerous-idea-in-history-10000-years",
+    title: "Zero Was the Most Dangerous Idea in History — Why It Took 10,000 Years to Accept It",
+    excerpt:
+      "Zero seems obvious now. It took humanity 10,000 years to accept it and people were imprisoned for defending it. Here's why nothing caused everything.",
+    metaDescription:
+      "Zero seems obvious now. It took humanity 10,000 years to accept it and people were imprisoned for defending it. Here's why nothing caused everything.",
+    content: `
+      <h2>A Number That Shouldn't Exist Kept Getting Invented Anyway</h2>
+      <p>Count the things in front of you. Now count the things that aren't there.</p>
+      <p>That second instruction feels wrong in a way that's hard to articulate, and that discomfort is exactly why zero took so long to arrive. For most of recorded history, mathematics was a tool for counting real, physical things. Grain in a storehouse. Soldiers in a column. Cubits of land. A number representing the absence of things wasn't just unnecessary. To many civilizations, it was incoherent.</p>
+      <p>And yet, independently and thousands of miles apart, several cultures arrived at the same uncomfortable idea. Something had to represent nothing. The fight over whether that something could be a legitimate number shaped philosophy, religion, and science for millennia.</p>
+
+      <h2>The Counting Systems That Worked Fine Without It</h2>
+      <p>The ancient Egyptians built pyramids with mathematics that had no zero. Greek astronomers mapped the stars without it. Roman engineers constructed aqueducts still standing today using a numeral system that contained no symbol for nothing. These weren't primitive oversights. The math worked for what it needed to do.</p>
+      <p>The problem wasn't calculation. It was notation.</p>
+      <p>When Babylonian astronomers around 300 BCE needed to distinguish between numbers like 2 and 200 in their base-60 system, they introduced a placeholder symbol, two small wedges that meant "nothing goes here." But this wasn't zero as a number. It was a positional marker, like the difference between writing 205 and 25. You couldn't add it, subtract it, or reason about it philosophically. It was punctuation, not mathematics.</p>
+      <p>The Greeks came closest to needing zero and rejected it most forcefully. Aristotle argued against the concept directly, partly on practical grounds and partly because it created logical problems. Division by zero produces results that break arithmetic. If zero is a number, what happens when you divide by it? The question had no satisfying answer, and Aristotle preferred to define the problem away rather than accept a number that generated paradoxes.</p>
+      <p><strong>Why this matters:</strong> The resistance to zero wasn't ignorance. It was a logical response to a genuinely destabilizing concept that existing mathematical frameworks couldn't contain.</p>
+
+      <h2>The Two Civilizations That Actually Invented It</h2>
+      <p>The Babylonian placeholder and the eventual invention of zero as a true number are separated by several hundred years and a significant philosophical leap.</p>
+      <p><strong>The Mayans</strong> independently developed zero around the 4th century CE as part of their calendar system. Their symbol, a shell shape, functioned as both a placeholder and a standalone value. Mayan astronomers used it to perform calculations of remarkable accuracy. But the Mayan mathematical tradition remained geographically isolated. It never spread, never collided with other traditions, and never sparked the philosophical crisis that zero eventually caused in the Old World.</p>
+      <p><strong>The Indians</strong> are responsible for the zero the modern world uses. The mathematician Brahmagupta, writing in 628 CE, was the first to define zero as the result of subtracting a number from itself, and to establish rules for arithmetic involving it. He got some of it wrong. He concluded that zero divided by zero equals zero, which it doesn't. But the framework he built was the first to treat zero as a genuine number with its own mathematical properties, not just a gap filler.</p>
+      <p>From India, zero traveled through Islamic mathematicians, particularly Al-Khwarizmi in the 9th century, whose work on algebra incorporated the Indian numeral system including zero. His texts, translated into Latin in 12th-century Europe, brought zero into contact with a culture that had been doing mathematics quite differently for over a thousand years.</p>
+
+      <h2>Why Medieval Europe Found Zero Threatening</h2>
+      <p>The reception of zero in medieval Europe was not enthusiastic.</p>
+      <p>Part of the resistance was practical. Merchants and traders had been using Roman numerals for centuries, and the system, while clunky, worked. Introducing a new numeral system required retraining everyone who handled accounts.</p>
+      <p>The deeper resistance was theological. Medieval European thought was heavily shaped by Aristotelian philosophy, which the Church had absorbed into its framework over centuries. Aristotle had rejected the void. If nature abhors a vacuum and God fills all space, then true nothingness cannot exist. Zero, as a number representing actual nothingness, had uncomfortable implications.</p>
+      <p>In Florence in the 13th century, the city banned the use of Hindu-Arabic numerals in banking records, partly out of concern that the symbols were too easy to forge but also because the new system and its troubling zero created accounting possibilities that were harder to audit with Roman notation. Bankers who wanted to use the new system moved their operations to the countryside.</p>
+      <p><strong>Why this matters:</strong> Zero wasn't just a mathematical innovation. It carried philosophical baggage that forced a confrontation with ideas about existence, nothingness, and the nature of God that medieval institutions weren't prepared for.</p>
+
+      <h2>The Moment Zero Unlocked Everything</h2>
+      <p>Fibonacci brought the Hindu-Arabic system including zero to European attention in his 1202 work <em>Liber Abaci</em>, demonstrating how it made commercial arithmetic faster and less error-prone. The practical advantages were too useful to ignore indefinitely.</p>
+      <p>Once zero settled into European mathematics, it didn't just make counting easier. It made entirely new branches of mathematics possible.</p>
+      <p>Negative numbers require zero to exist as a reference point. The number line, which underlies coordinate geometry, needs a zero to anchor it. Calculus, developed independently by Newton and Leibniz in the 17th century, depends on reasoning about quantities approaching zero. The limit, the derivative, the integral: all of these rest on the concept of infinitely small approaches to nothing.</p>
+      <p>Without zero, algebra as we know it doesn't exist. Without algebra, physics as we know it doesn't exist. The entire edifice of modern science, from quantum mechanics to general relativity, is written in mathematical language that would be impossible without a number that most of the ancient world refused to recognize.</p>
+
+      <table>
+        <thead>
+          <tr><th>Civilization</th><th>Relationship with Zero</th><th>What They Used Instead</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Ancient Egypt</td><td>No zero</td><td>Additive hieroglyphic numerals</td></tr>
+          <tr><td>Ancient Greece</td><td>Rejected zero philosophically</td><td>Alphabetic numerals, no placeholder</td></tr>
+          <tr><td>Rome</td><td>No zero</td><td>Position-based Roman numerals</td></tr>
+          <tr><td>Babylon (~300 BCE)</td><td>Placeholder only</td><td>Wedge marks for empty positions</td></tr>
+          <tr><td>Maya (~4th century CE)</td><td>Full zero, isolated tradition</td><td>Shell symbol</td></tr>
+          <tr><td>India (628 CE)</td><td>First true mathematical zero</td><td>Brahmagupta's rules for zero</td></tr>
+          <tr><td>Islamic world (9th century)</td><td>Adopted Indian system</td><td>Al-Khwarizmi's algebra</td></tr>
+          <tr><td>Medieval Europe (13th century on)</td><td>Gradual, contested adoption</td><td>Roman numerals for official use</td></tr>
+        </tbody>
+      </table>
+
+      <h2>The Philosophical Wound That Still Hasn't Healed</h2>
+      <p>Zero still makes mathematics strange in ways that can't be patched over.</p>
+      <p>Division by zero remains undefined. Any number divided by zero doesn't produce a result. It breaks the arithmetic. In computer systems, a division-by-zero error can crash a program. In 1997, the USS Yorktown, a Navy cruiser, suffered a propulsion system failure when a crew member entered zero into a data field, triggering a division by zero in the ship's software and disabling its engines for nearly three hours.</p>
+      <p>At the conceptual level, zero sits at the intersection of mathematics and metaphysics in a way no other number does. Is zero even, odd, or neither? It's even. Is it positive or negative? Neither. What is zero to the power of zero? Mathematicians argue about it, and different fields handle it differently.</p>
+      <p>The number that took 10,000 years to accept is still philosophically unsettled. It's just too useful to argue with anymore.</p>
+
+      <h2>Conclusion</h2>
+      <p>Zero is the strangest number in existence, and the strangest thing about it is how long obvious it seems in retrospect. Of course nothing is something. Of course the absence of quantity can be represented. But every civilization that encountered the idea wrestled with it for generations before accepting it, because zero forces a confrontation with what numbers are actually for.</p>
+      <p>The ten millennia it took to stabilize the concept weren't wasted. They're evidence of how genuinely disruptive an idea zero was. It didn't just expand mathematics. It changed what mathematics was allowed to say about reality. That's an unusual thing for a number representing nothing to accomplish.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Who is officially credited with inventing zero?</h3>
+      <p>The Indian mathematician Brahmagupta is most often credited with the first rigorous mathematical treatment of zero in 628 CE, defining rules for arithmetic with it. Earlier uses by the Babylonians and Mayans were placeholders rather than fully developed numbers.</p>
+      <h3>Why did ancient Greece reject zero?</h3>
+      <p>Aristotle argued against the concept of the void, and this philosophical position influenced Greek mathematics. Zero also caused logical problems, particularly around division, that Greek mathematicians found irresolvable within their existing frameworks.</p>
+      <h3>Is zero a positive or negative number?</h3>
+      <p>Neither. Zero is the only number that is neither positive nor negative. It sits at the boundary between the two, which is part of why it causes so many edge cases in mathematics and computer science.</p>
+      <h3>Did the Roman Empire really function without zero?</h3>
+      <p>Yes. Roman numerals have no symbol for zero, yet Romans conducted complex engineering, taxation, and astronomical work with this system. The limitation showed mainly in calculation efficiency and the inability to develop more advanced algebraic thinking.</p>
+      <h3>What happens when you divide by zero?</h3>
+      <p>Division by zero is undefined in standard mathematics. Any attempt to divide a number by zero produces no valid result because no number multiplied by zero can return a non-zero value. In computing, it typically causes an error or system crash.</p>
+      <h3>Was zero ever actually illegal?</h3>
+      <p>In Florence during the 13th century, the use of Hindu-Arabic numerals, which included zero, was banned in banking. The prohibition was partly practical and partly rooted in distrust of the new notation system.</p>
+      <h3>How does zero make calculus possible?</h3>
+      <p>Calculus depends on the concept of a limit, which involves reasoning about what happens to a mathematical expression as a variable approaches zero. Without zero as a defined mathematical object, this reasoning has no foundation, and calculus as developed by Newton and Leibniz cannot exist.</p>
+    `,
+    coverImage: "/images/articles/zero-history-mathematics.jpg",
+    category: "history",
+    author: authors[0],
+    publishedAt: "2026-05-06",
+    readTime: 9,
+    featured: true,
+    tags: ["Mathematics", "History", "Philosophy", "Civilization", "Brahmagupta"],
+  },
+  {
+    id: "mars-colonisation-engineering",
+    slug: "13-engineering-problems-mars-colonisation-harder-than-told",
+    title: "The 13 Engineering Problems That Make Mars Colonisation Harder Than You've Been Told",
+    excerpt:
+      "Mars colonisation faces 13 overlapping engineering problems that no current technology fully solves. Here's what the optimistic timelines consistently leave out.",
+    metaDescription:
+      "Mars colonisation faces 13 overlapping engineering problems that no current technology fully solves. Here's what the optimistic timelines consistently leave out.",
+    content: `
+      <h2>The Gap Between the Announcement and the Physics</h2>
+      <p>SpaceX has announced Mars landing timelines several times. The dates keep shifting. That's not a project management failure. It's what happens when the physics of keeping humans alive on another planet collides with the reality of building the technology to do it.</p>
+      <p>None of the problems with Mars colonisation are secret. They're all published in peer-reviewed journals, NASA technical reports, and aerospace engineering literature. They just rarely appear together in one place, which makes each one feel manageable in isolation. Together, they paint a picture that's significantly more sobering than most announcements convey.</p>
+      <p>Here are the 13 engineering problems standing between us and a sustainable Mars colony, in rough order of how immediately they would kill you.</p>
+
+      <h2>The Problems That Kill You in Minutes</h2>
+      <h3>1. Atmospheric Pressure</h3>
+      <p>Mars has an atmosphere. It's just 0.6 percent as dense as Earth's at sea level. That's the equivalent of standing at 35 kilometers altitude on Earth. No human can survive unprotected. Every structure that humans inhabit must maintain roughly Earth-level internal pressure against a near-vacuum exterior, continuously, without failure.</p>
+      <p>Pressure differential engineering at this scale is solvable. We do it on the International Space Station. The ISS is roughly 900 cubic meters. A Mars colony capable of supporting hundreds of people and growing food would need to be orders of magnitude larger. Every weld, seal, and joint becomes a potential catastrophic failure point. And on Mars, repair supply chains take seven months minimum.</p>
+      <h3>2. Oxygen Generation</h3>
+      <p>The Martian atmosphere is 95 percent carbon dioxide. MOXIE, the oxygen-generating experiment aboard the Perseverance rover, successfully produced oxygen from CO2 using electrolysis in a proof of concept. Scaling from a toaster-sized experiment to a system that supplies breathable air for a growing colony continuously is an unsolved engineering challenge at the required size and reliability level.</p>
+      <h3>3. Temperature Swings</h3>
+      <p>Mars surface temperatures average around minus 60 degrees Celsius. Equatorial regions near midday can reach 20 degrees Celsius. At the poles and at night, temperatures drop to minus 125 degrees Celsius. Habitats must handle these swings without material fatigue, seal degradation, or thermal bridging that cracks structural components over years of cycling.</p>
+
+      <h2>The Problems That Kill You in Days</h2>
+      <h3>4. Water</h3>
+      <p>Mars has water ice, primarily at the poles and in subsurface deposits confirmed by radar. Mining, purifying, and distributing that water at scale requires infrastructure that doesn't exist and would need to be transported from Earth or manufactured on-site from materials not yet characterized in sufficient detail. A colony of 100 people needs roughly 50 to 100 liters of water per person per day for drinking, food production, and hygiene.</p>
+      <h3>5. Food Production</h3>
+      <p>Mars soil, called regolith, contains perchlorates at levels toxic to humans and lacks the organic matter necessary for plant growth. Growing food in pressurized greenhouses using hydroponic or aeroponic systems avoids the soil problem but requires reliable power, precise temperature control, atmospheric management, and continuous water supply. A crop failure on Mars cannot be supplemented by emergency resupply within any useful timeframe.</p>
+      <h3>6. Radiation</h3>
+      <p>Mars has no global magnetic field and a thin atmosphere, so both solar particle events and galactic cosmic rays reach the surface at levels estimated at 0.67 millisieverts per day, roughly equivalent to a full-body CT scan every five to six days. Over a two-year surface mission, a colonist would accumulate radiation exposure approaching established lifetime limits for current NASA standards.</p>
+      <p>The most credible mitigation is underground habitats or habitats covered by several meters of regolith. Building those is a separate large-scale engineering problem. Pharmaceutical countermeasures for chronic radiation exposure at this level don't currently exist.</p>
+
+      <h2>The Problems That Kill You Over Years</h2>
+      <h3>7. Bone Density and Muscle Loss</h3>
+      <p>Mars gravity is 38 percent of Earth's. Long-term habitation in reduced gravity causes measurable bone density loss and muscle atrophy even with aggressive exercise countermeasures, as demonstrated by astronauts on the ISS in microgravity. Mars gravity is better than zero but may still cause cumulative degradation over years. The threshold for safe long-term habitation in 0.38g is not known because no human has ever lived in it.</p>
+      <h3>8. Psychological Isolation</h3>
+      <p>Communication delays between Mars and Earth range from 3 to 22 minutes one-way depending on orbital positions. That means no real-time conversation with anyone outside the colony. No immediate medical consultation. No crisis support that isn't self-contained. Studies of isolated Antarctic crews and submarine deployments are the closest analogues, and they consistently show that group psychological breakdown is a serious risk in confined, isolated teams over extended periods.</p>
+      <h3>9. Dust</h3>
+      <p>Martian dust is fine, electrostatically charged, and pervasive. Dust storms can cover the entire planet for months, cutting solar power generation to near zero and coating any surface, including solar panels, habitat windows, and equipment sensors. The 2018 global dust storm ended the Opportunity rover's mission. A colony that relies on solar power during a planet-wide dust event faces a serious energy crisis.</p>
+
+      <h2>The Infrastructure Problems</h2>
+      <h3>10. Power</h3>
+      <p>A self-sustaining Mars colony needs reliable, high-output power that doesn't depend on sunlight. Nuclear fission is the most realistic option. NASA's Kilopower project has tested small fission reactors at the kilowatt scale. A colony needs megawatt-scale power. The regulatory, logistical, and engineering pathway from Kilopower to colony-scale nuclear power on Mars is long and not currently funded at the required level.</p>
+      <h3>11. Manufacturing and Spare Parts</h3>
+      <p>Every piece of equipment on Mars will eventually break. Supply missions from Earth take seven to nine months and can only launch during specific orbital windows that occur roughly every 26 months. A colony cannot wait two years for a replacement part. It needs the capability to manufacture critical components on-site using local materials and transported feedstocks. In-situ resource utilization at this scale is being researched but is nowhere near demonstrated at colony-relevant capacity.</p>
+      <h3>12. Medical Care</h3>
+      <p>Surgery in reduced gravity with limited equipment, by personnel who may not be surgeons, in a facility that cannot transfer a patient to a better-equipped hospital, is a fundamentally different medical environment than anything on Earth. Training, equipment, pharmaceutical shelf life, and diagnostic capability all need to be self-contained and resilient to the kinds of emergencies that are statistically inevitable in a population of any size over years.</p>
+      <h3>13. Getting There</h3>
+      <p>The transit itself is roughly seven months in microgravity, with the radiation exposure that entails, followed by a high-velocity atmospheric entry into a thin Martian atmosphere that makes aerobraking less effective than on Earth. Landing large payloads on Mars is an unsolved engineering problem at the scale required for a colony. The largest object ever successfully landed on Mars is the Perseverance rover at about one metric ton. A crewed mission requires landing tens to hundreds of metric tons safely.</p>
+
+      <table>
+        <thead>
+          <tr><th>Problem Category</th><th>Current Status</th><th>Estimated Readiness</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Pressure containment</td><td>Solved at small scale (ISS)</td><td>Needs scaling</td></tr>
+          <tr><td>Oxygen generation</td><td>Proof of concept (MOXIE)</td><td>Needs 100x+ scaling</td></tr>
+          <tr><td>Radiation shielding</td><td>Conceptual (underground habitats)</td><td>No full solution demonstrated</td></tr>
+          <tr><td>Water extraction</td><td>Detected, not mined</td><td>Technology immature</td></tr>
+          <tr><td>Food production</td><td>Lab-demonstrated</td><td>Not tested at colony scale</td></tr>
+          <tr><td>Low-gravity health effects</td><td>Partially studied in 0g</td><td>0.38g data essentially nonexistent</td></tr>
+          <tr><td>Nuclear power at scale</td><td>Small-scale tested (Kilopower)</td><td>Megawatt scale undeveloped</td></tr>
+          <tr><td>Large payload landing</td><td>Largest: 1 metric ton</td><td>Needs 10-100x improvement</td></tr>
+          <tr><td>In-situ manufacturing</td><td>Early research</td><td>Far from colony-capable</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Conclusion</h2>
+      <p>None of these problems are necessarily unsolvable. Human ingenuity has resolved more daunting challenges before. But they are simultaneously unsolved, and a viable Mars colony requires all of them to be solved at the same time, reliably, in an environment where failure means people die and help is seven months away.</p>
+      <p>The more interesting question isn't whether we'll go to Mars. It's whether we'll be honest about the timeline before we go. Optimistic announcements get funding and inspire engineers, which has real value. But the physics doesn't care about the announcement date. The 13 problems will still be there on launch day, and the colonists who face them would probably prefer that someone took them seriously first.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>What is the biggest unsolved problem for Mars colonisation?</h3>
+      <p>Radiation exposure is arguably the most difficult because it requires either extensive underground construction or pharmaceutical solutions that don't exist. Unlike most other problems, it cannot be solved with engineering alone at current technology levels.</p>
+      <h3>How long does it take to travel to Mars?</h3>
+      <p>With current propulsion technology, a transit from Earth to Mars takes approximately seven to nine months depending on the launch window. Optimal launch windows occur roughly every 26 months when Earth and Mars are favorably aligned.</p>
+      <h3>Can plants grow in Martian soil?</h3>
+      <p>Not directly. Martian regolith contains perchlorates, which are toxic to plants and humans, and lacks organic matter. Any food production would require hydroponics, aeroponics, or heavily processed and supplemented regolith rather than raw Martian soil.</p>
+      <h3>How much radiation would Mars colonists receive?</h3>
+      <p>Based on measurements from the Curiosity and Perseverance rovers, surface radiation on Mars is approximately 0.67 millisieverts per day. Over two years, that approaches the current career radiation limit for NASA astronauts, not counting the transit radiation exposure.</p>
+      <h3>Why can't we just use solar panels for power on Mars?</h3>
+      <p>Solar panels work on Mars at reduced efficiency due to greater distance from the Sun. The larger problem is Martian dust storms, which can cover the entire planet and block sunlight for months. A colony cannot be fully dependent on a power source that can drop to near zero for an extended, unpredictable period.</p>
+      <h3>What is the Mars transit problem for human health?</h3>
+      <p>Seven months in microgravity causes bone density loss, muscle atrophy, fluid shifts in the body, and radiation exposure. Arriving on Mars already physically weakened and then facing the demands of setting up a habitat is a serious compounding challenge that current exercise and pharmaceutical countermeasures only partially address.</p>
+      <h3>Is Elon Musk's Mars timeline realistic?</h3>
+      <p>Most aerospace engineers and NASA scientists who have commented publicly describe the timelines as optimistic by a significant margin. The technical problems are real and documented. The disagreement is not about whether those problems exist but about how quickly they can be solved with sufficient funding and engineering focus.</p>
+    `,
+    coverImage: "/images/articles/mars-colonisation-engineering.jpg",
+    category: "astronomy",
+    author: authors[0],
+    publishedAt: "2026-05-07",
+    readTime: 12,
+    featured: true,
+    tags: ["Mars", "Space Exploration", "Engineering", "NASA", "SpaceX"],
+  },
+  {
+    id: "ai-context-window",
+    slug: "what-context-window-actually-means-ai-limit",
+    title: "What \"Context Window\" Actually Means — And Why It Limits Every AI You Use",
+    excerpt:
+      "The context window is the single most important limit on what AI can and can't do. Here's what it actually is, how it works, and why it matters for every AI conversation.",
+    metaDescription:
+      "The context window is the single most important limit on what AI can and can't do. Here's what it actually is, how it works, and why it matters for every AI conversation.",
+    content: `
+      <h2>The AI Isn't Forgetful. It's Blind to Anything Outside Its Window.</h2>
+      <p>When an AI chatbot seems to "forget" something you told it three hours ago, most people assume the system has some kind of memory limit, like a goldfish. That's almost right but slightly wrong in a way that matters.</p>
+      <p>The AI didn't forget. It never saw what you said earlier in the first place.</p>
+      <p>Every large language model operates with something called a <strong>context window</strong>: a fixed amount of text it can process at any one moment. Think of it as the model's field of vision. Whatever falls inside that window, the model can read, reason about, and respond to. Whatever sits outside it is invisible, as if it was never written.</p>
+      <p>Understanding this one concept explains most of the frustrating limitations people run into with AI tools.</p>
+
+      <h2>What the Context Window Actually Contains</h2>
+      <p>When you send a message to an AI, the model doesn't receive just your latest sentence. It receives the entire conversation from the beginning, including the system prompt (a set of instructions the developer configures behind the scenes), your message history, the AI's previous responses, any documents or files you've pasted in, and your current message.</p>
+      <p>All of that together is the context. The context window is the limit on how much of that text the model can process at once.</p>
+      <p>Context window size is measured in <strong>tokens</strong>, which are roughly equivalent to word fragments. The word "unhappy" might be two tokens: "un" and "happy." "The" is one token. On average, 100 tokens correspond to roughly 75 words in English. A context window of 128,000 tokens can hold approximately 96,000 words, which is about the length of a novel.</p>
+      <p>When the total length of your conversation plus all supporting content exceeds the context window, the model literally cannot see the oldest parts of the conversation anymore. They fall off the edge. The model has no access to them, no awareness that they existed, and no ability to reference them.</p>
+      <p><strong>Why this matters:</strong> This isn't a software bug or a lazy design choice. It reflects something fundamental about how transformer-based language models process information.</p>
+
+      <h2>Why the Architecture Creates This Limit</h2>
+      <p>Large language models use a mechanism called <strong>attention</strong> to process text. Every token in the context pays attention to every other token, calculating relationships and relevance across the entire input. This is what allows the model to understand that "it" in one sentence refers to "the telescope" mentioned three paragraphs earlier.</p>
+      <p>The computational cost of this attention mechanism scales with the square of the context length. Double the context window, and the computation needed doesn't double. It quadruples. Extend it further and the cost grows rapidly. Running a model with a 1 million token context window requires exponentially more compute than running one with 128,000 tokens, which is why larger context windows come with slower response times and higher costs.</p>
+      <p>This is the core engineering tension: longer context windows are more useful, but they're more expensive and slower to run. Context window size is not just a feature choice. It's an economic and computational trade-off baked into the model's architecture.</p>
+
+      <h2>What Happens When You Hit the Limit</h2>
+      <p>Most consumer AI tools handle context overflow silently. The conversation keeps going and the model keeps responding, but the oldest content quietly disappears from what the model can see.</p>
+      <p>This creates specific failure patterns that are frustrating precisely because they're invisible:</p>
+      <p>The model contradicts itself, apparently ignoring something it said earlier that has now fallen outside the window. It fails to reference a document you pasted at the start of a long conversation. It asks you to clarify something you already explained, because that explanation is gone. It seems to lose track of the specific task you defined at the beginning of a long working session.</p>
+      <p>None of these are errors in the traditional sense. The model is doing its best with what it can see. The information it appears to be ignoring simply isn't in its field of vision anymore.</p>
+      <p><strong>Why this matters:</strong> If you're using AI for long, complex tasks like editing a full document, writing extended code, or working through a multi-step analysis, context management is a real workflow concern, not just a technical footnote.</p>
+
+      <h2>How Different Models Compare</h2>
+      <p>Context window sizes vary significantly across current models and continue to grow:</p>
+      <table>
+        <thead>
+          <tr><th>Model</th><th>Context Window (Approximate)</th><th>Equivalent in Words</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Early GPT-3 (2020)</td><td>4,096 tokens</td><td>~3,000 words</td></tr>
+          <tr><td>GPT-4 Turbo</td><td>128,000 tokens</td><td>~96,000 words</td></tr>
+          <tr><td>Claude 3 (various)</td><td>Up to 200,000 tokens</td><td>~150,000 words</td></tr>
+          <tr><td>Gemini 1.5 Pro</td><td>1,000,000 tokens</td><td>~750,000 words</td></tr>
+          <tr><td>Gemini 1.5 Ultra</td><td>2,000,000 tokens</td><td>~1,500,000 words</td></tr>
+        </tbody>
+      </table>
+      <p>Larger context windows are genuinely more capable for tasks involving long documents. But there's a catch that researchers call the <strong>lost-in-the-middle problem</strong>: models with very long context windows tend to pay less attention to information in the middle of the context than to information near the beginning or end. Adding more context doesn't guarantee the model will use it well. Attention gets diluted across longer inputs.</p>
+
+      <h2>The Difference Between Context and Memory</h2>
+      <p>People often confuse context window with memory. They're not the same thing.</p>
+      <p>Context is everything the model can currently see. Memory, in the way AI companies implement it as a product feature, is a separate system that stores information between conversations and retrieves relevant pieces into the context when needed.</p>
+      <p>When an AI tool appears to "remember" your name from a previous session, it almost certainly isn't using a longer context window. It's using a retrieval system that stored that information separately and injected it into the current context at the start of the new conversation.</p>
+      <p>Real persistent memory in language models, where the model itself retains information between sessions without external retrieval systems, doesn't exist yet at a practical level. What looks like memory is usually retrieval architecture built around the same fixed-window models.</p>
+      <p><strong>Why this matters:</strong> This distinction matters if you're evaluating AI tools for professional use. "Memory" as marketed and context window as a technical specification are different things that affect what the tool can actually do.</p>
+
+      <h2>Practical Strategies for Working Within Context Limits</h2>
+      <p>Understanding context windows makes it possible to work with AI more effectively rather than being surprised by its limitations.</p>
+      <p>Start important instructions near the beginning of a conversation and repeat critical constraints when starting a new major task within a long session. When working with long documents, break them into sections and process each separately rather than pasting everything at once. If the conversation has been going for a long time and the model seems confused, starting a fresh session with a concise summary of the key context is often more effective than continuing to add messages.</p>
+      <p>Some AI platforms show you how much of the context window you've used. This is worth paying attention to during complex working sessions.</p>
+
+      <h2>Conclusion</h2>
+      <p>The context window is the most consequential architectural feature that most AI users never think about explicitly. It's not a memory problem. It's a visibility problem. The model can only reason about what it can see, and what it can see is finite and defined before the conversation begins.</p>
+      <p>The practical upshot is worth internalizing: every AI tool you use has a horizon, and anything you say before that horizon may as well not have happened as far as the model is concerned. Working effectively with AI means understanding where that horizon is and designing your interactions around it, rather than assuming the model is tracking everything the way a human collaborator would.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>What is a context window in simple terms?</h3>
+      <p>It's the total amount of text an AI model can read and work with at one time, including the full conversation history, any documents you've shared, and the current message. Text beyond this limit is invisible to the model.</p>
+      <h3>Why do AI models seem to forget things in long conversations?</h3>
+      <p>When the total length of a conversation exceeds the context window, the oldest content is no longer visible to the model. It isn't forgotten, it was simply never stored in a way the model can retrieve. The model can only see what's currently inside its context window.</p>
+      <h3>What is a token in AI?</h3>
+      <p>A token is a chunk of text that the model processes as a single unit, roughly equivalent to a word or word fragment. The word "running" might be one token; "antidisestablishmentarianism" might be several. On average, 100 tokens correspond to about 75 words in English.</p>
+      <h3>Does a larger context window always mean a better AI?</h3>
+      <p>Not necessarily. Research has shown that models with very long context windows often struggle to use information effectively when it's buried in the middle of a long input. More context is useful up to a point, but it doesn't guarantee better performance on all tasks.</p>
+      <h3>What is the lost-in-the-middle problem?</h3>
+      <p>It's a documented tendency for language models to pay less attention to information in the middle of a long context, focusing more on content near the beginning and end. Adding more text to a context window doesn't guarantee equal attention to all of it.</p>
+      <h3>How is memory different from a context window?</h3>
+      <p>The context window is the text the model actively processes during one session. Memory, as a product feature, is a separate retrieval system that stores information between sessions and injects relevant pieces into the current context. The model itself doesn't persistently store anything between sessions.</p>
+      <h3>Can context windows keep getting bigger indefinitely?</h3>
+      <p>The computational cost of attention mechanisms scales roughly with the square of the context length, making very large windows expensive and slow. Architectural innovations like sparse attention and other approaches are working to reduce this cost, but there are real engineering constraints that prevent unlimited scaling at current efficiency levels.</p>
+    `,
+    coverImage: "/images/articles/ai-context-window.jpg",
+    category: "artificial-intelligence",
+    author: authors[0],
+    publishedAt: "2026-05-08",
+    readTime: 10,
+    featured: true,
+    tags: ["AI", "LLM", "Context Window", "Tokens", "Machine Learning"],
+  },
 ];
 
 export function getArticlesByCategory(category: Category): Article[] {
@@ -3231,6 +3588,7 @@ export function getRelatedArticles(article: Article, limit = 3): Article[] {
 
 export function getLatestArticles(limit = 6): Article[] {
   return [...articles]
+    .filter((a) => !a.featured)
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, limit);
 }
