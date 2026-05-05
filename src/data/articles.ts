@@ -21,6 +21,7 @@ export interface Article {
   publishedAt: string;
   readTime: number;
   featured: boolean;
+  editorsPick?: boolean;
   tags: string[];
 }
 
@@ -564,6 +565,7 @@ export const articles: Article[] = [
     publishedAt: "2026-01-02",
     readTime: 6,
     featured: false,
+    editorsPick: true,
     tags: ["history", "ancient world", "libraries", "knowledge"],
   },
   {
@@ -894,6 +896,7 @@ export const articles: Article[] = [
     publishedAt: "2026-01-07",
     readTime: 9,
     featured: false,
+    editorsPick: true,
     tags: ["astronomy", "physics", "dark matter", "universe"],
   },
   {
@@ -1044,6 +1047,7 @@ export const articles: Article[] = [
     publishedAt: "2026-01-09",
     readTime: 6,
     featured: false,
+    editorsPick: true,
     tags: ["history", "technology", "ancient world", "archaeology"],
   },
 
@@ -1313,6 +1317,7 @@ export const articles: Article[] = [
     publishedAt: "2026-02-22",
     readTime: 8,
     featured: false,
+    editorsPick: true,
     tags: [
       "Placebo Effect",
       "Neuroscience",
@@ -2651,6 +2656,7 @@ export const articles: Article[] = [
     publishedAt: "2026-04-27",
     readTime: 11,
     featured: false,
+    editorsPick: true,
     tags: ["Bronze Age", "Ancient History", "Mediterranean", "Civilizational Collapse", "Sea Peoples"],
   },
   {

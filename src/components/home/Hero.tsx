@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { lazy, Suspense } from 'react';
-import { getLatestArticles, categoryInfo } from '@/data/articles';
+import { articles, getLatestArticles, categoryInfo } from '@/data/articles';
 import { OptimizedImage } from '@/components/ui/OptimizedImage';
 
 const ParticleField = lazy(() =>
@@ -10,8 +10,10 @@ const ParticleField = lazy(() =>
 );
 
 export function Hero() {
-  const featured = getLatestArticles(1)[0];
-  const featuredColor = featured ? categoryInfo[featured.category].color : '#D4A843';
+  const heroArticle =
+    articles.find((a) => a.slug === 'woolly-mammoth-resurrection-crispr-de-extinction-biology') ||
+    getLatestArticles(1)[0];
+  const featuredColor = heroArticle ? categoryInfo[heroArticle.category].color : '#D4A843';
 
   return (
     <section className="relative min-h-[80vh] flex items-center overflow-hidden">
@@ -101,7 +103,7 @@ export function Hero() {
           </motion.div>
 
           {/* RIGHT — featured article card */}
-          {featured && (
+          {heroArticle && (
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -109,16 +111,16 @@ export function Hero() {
               className="lg:pl-4"
             >
               <Link
-                to={`/article/${featured.slug}`}
+                to={`/article/${heroArticle.slug}`}
                 className="group block rounded-2xl overflow-hidden bg-card border border-border/50 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 shadow-2xl shadow-black/30"
                 style={{ borderLeft: `4px solid ${featuredColor}` }}
               >
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <OptimizedImage
-                    src={featured.coverImage}
-                    alt={featured.title}
-                    articleTitle={featured.title}
-                    category={featured.category}
+                    src={heroArticle.coverImage}
+                    alt={heroArticle.title}
+                    articleTitle={heroArticle.title}
+                    category={heroArticle.category}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
@@ -127,15 +129,15 @@ export function Hero() {
                     className="absolute top-4 left-4 inline-block px-3 py-1 rounded-full text-[10px] font-semibold uppercase tracking-wider"
                     style={{ backgroundColor: featuredColor, color: 'hsl(222, 47%, 6%)' }}
                   >
-                    {categoryInfo[featured.category].name}
+                    {categoryInfo[heroArticle.category].name}
                   </span>
                 </div>
                 <div className="p-6 lg:p-7">
                   <h2 className="font-display text-2xl lg:text-3xl font-semibold text-foreground leading-snug mb-3 group-hover:text-primary transition-colors">
-                    {featured.title}
+                    {heroArticle.title}
                   </h2>
                   <p className="text-muted-foreground text-sm lg:text-base line-clamp-2 leading-relaxed">
-                    {featured.excerpt}
+                    {heroArticle.excerpt}
                   </p>
                 </div>
               </Link>
