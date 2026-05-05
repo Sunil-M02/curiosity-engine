@@ -3231,6 +3231,7 @@ export function getRelatedArticles(article: Article, limit = 3): Article[] {
 
 export function getLatestArticles(limit = 6): Article[] {
   return [...articles]
+    .filter((a) => !a.featured)
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, limit);
 }
