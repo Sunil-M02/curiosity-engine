@@ -4,24 +4,14 @@ import Autoplay from 'embla-carousel-autoplay';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
 import { format } from 'date-fns';
-import { getFeaturedArticles, categoryInfo } from '@/data/articles';
+import { articles, categoryInfo } from '@/data/articles';
 import { OptimizedImage } from '@/components/ui/OptimizedImage';
 import { SectionHeading } from '@/components/home/SectionHeading';
 
 export function FeaturedSection() {
-  // Editor's Picks shows only curated featured articles, kept disjoint
-  // from the Latest Articles section.
-  const featured = getFeaturedArticles();
-  const excludedSlugs = new Set<string>([
-    'james-webb-telescope-discoveries-changing-astronomy',
-  ]);
-  const seen = new Set<string>();
-  const slides = featured.filter((a) => {
-    if (excludedSlugs.has(a.slug)) return false;
-    if (seen.has(a.id)) return false;
-    seen.add(a.id);
-    return true;
-  }).slice(0, 6);
+  // Editor's Picks shows only curated articles tagged with editorsPick, kept
+  // disjoint from the Latest Articles section by curated selection.
+  const slides = articles.filter((article) => article.editorsPick === true).slice(0, 6);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, align: 'start', containScroll: 'trimSnaps', duration: 28 },
