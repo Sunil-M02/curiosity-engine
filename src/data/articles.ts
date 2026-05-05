@@ -334,7 +334,7 @@ export const articles: Article[] = [
     coverImage: "/images/articles/james-webb-telescope.jpg",
     category: "astronomy",
     author: authors[0],
-    publishedAt: "2026-1-17",
+    publishedAt: "2026-01-17",
     readTime: 7,
     featured: false,
     tags: ["space", "astronomy", "JWST", "exoplanets"],
@@ -3593,10 +3593,23 @@ export function getRelatedArticles(article: Article, limit = 3): Article[] {
 }
 
 export function getLatestArticles(limit = 6): Article[] {
-  return [...articles]
-    .filter((a) => !a.featured)
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .slice(0, limit);
+  const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
+
+  return articles
+    .map((article, index) => {
+      const isIsoDate = isoDatePattern.test(article.publishedAt);
+      const timestamp = isIsoDate ? Date.parse(article.publishedAt) : Number.NaN;
+      return { article, index, timestamp };
+    })
+    .filter((entry) => !Number.isNaN(entry.timestamp))
+    .sort((a, b) => {
+      if (a.timestamp === b.timestamp) {
+        return a.index - b.index;
+      }
+      return b.timestamp - a.timestamp;
+    })
+    .slice(0, limit)
+    .map((entry) => entry.article);
 }
 
 export function getAuthorById(id: string): Author | undefined {
