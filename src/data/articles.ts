@@ -202,7 +202,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-01-10",
     readTime: 8,
-    featured: true,
+    featured: false,
     tags: ["quantum computing", "technology", "cryptography", "future"],
   },
   {
@@ -335,7 +335,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-1-17",
     readTime: 7,
-    featured: true,
+    featured: false,
     tags: ["space", "astronomy", "JWST", "exoplanets"],
   },
   {
@@ -451,7 +451,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-01-18",
     readTime: 9,
-    featured: true,
+    featured: false,
     tags: ["AI", "AGI", "machine learning", "future"],
   },
   {
@@ -1000,7 +1000,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-01-29",
     readTime: 12,
-    featured: true,
+    featured: false,
     tags: ["AI Agents", "OpenClaw", "Productivity", "Automation", "Open Source", "Clawdbot", "Self-Hosted"],
   },
   {
@@ -1170,7 +1170,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-02-08",
     readTime: 9,
-    featured: true,
+    featured: false,
     tags: ["Artemis III", "NASA", "Moon Mission", "Space Exploration", "Lunar Landing"],
   },
 
@@ -1312,7 +1312,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-02-22",
     readTime: 8,
-    featured: true,
+    featured: false,
     tags: [
       "Placebo Effect",
       "Neuroscience",
@@ -1489,7 +1489,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-02-14",
     readTime: 8,
-    featured: true,
+    featured: false,
     tags: ["Agentic AI", "Autonomous Agents", "AI Automation", "Future of Work", "Artificial Intelligence"],
   },
   {
@@ -1621,7 +1621,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-03-01",
     readTime: 7,
-    featured: true,
+    featured: false,
     tags: ["Passkeys", "Biometrics", "Cybersecurity", "Digital Identity", "FIDO Alliance"],
   },
   {
@@ -1730,7 +1730,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-03-17",
     readTime: 12,
-    featured: true,
+    featured: false,
     tags: ["AI Scientists", "Autonomous Research", "Self-Driving Labs", "Agentic AI", "Drug Discovery", "Scientific Method"],
   },
   {
@@ -1847,7 +1847,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-04-01",
     readTime: 11,
-    featured: true,
+    featured: false,
     tags: ["Syphilis History", "Ancient DNA", "Paleogenomics", "Treponema pallidum", "Colombia Archaeology", "Disease Origins", "History of Medicine"],
   },
   {
@@ -1912,7 +1912,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-04-04",
     readTime: 9,
-    featured: true,
+    featured: false,
     tags: ["Tardigrades", "Radiation Biology", "Extremophiles", "DNA Repair", "Astrobiology"],
   },
   {
@@ -1975,7 +1975,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-04-08",
     readTime: 8,
-    featured: true,
+    featured: false,
     tags: ["Streaming", "Energy", "Data Centers", "Carbon Footprint", "Digital Infrastructure"],
   },
   {
@@ -2044,7 +2044,7 @@ export const articles: Article[] = [
     author: authors[1],
     publishedAt: "2026-04-11",
     readTime: 10,
-    featured: true,
+    featured: false,
     tags: ["AI Hallucinations", "LLM", "Language Models", "Machine Learning", "AI Safety"],
   },
   {
@@ -2108,7 +2108,7 @@ export const articles: Article[] = [
     author: authors[2],
     publishedAt: "2026-04-14",
     readTime: 10,
-    featured: true,
+    featured: false,
     tags: ["Pandemics", "Human Evolution", "Genetics", "Black Death", "Ancient DNA", "Epidemiology"],
   },
   {
@@ -2173,7 +2173,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-04-17",
     readTime: 10,
-    featured: true,
+    featured: false,
     tags: ["Space Medicine", "NASA", "Human Body", "ISS", "Microgravity", "Scott Kelly", "Twin Study"],
   },
   {
@@ -2242,7 +2242,7 @@ export const articles: Article[] = [
     author: authors[3],
     publishedAt: "2026-04-20",
     readTime: 11,
-    featured: true,
+    featured: false,
     tags: ["AI", "Neural Architecture Search", "AutoML", "AI Safety", "Recursive Self-Improvement", "AGI"],
   },
   {
@@ -2856,7 +2856,7 @@ export const articles: Article[] = [
     author: authors[0],
     publishedAt: "2026-04-30",
     readTime: 10,
-    featured: false,
+    featured: true,
     tags: ["De-Extinction", "CRISPR", "Genetics", "Woolly Mammoth", "Biotechnology"],
   },
   {
