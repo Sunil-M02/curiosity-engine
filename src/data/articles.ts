@@ -362,7 +362,7 @@ export const articles: Article[] = [
 
       <h2>Why AGI Feels Close in 2026</h2>
 
-      <p>Large language models and multimodal systems display behaviors that look broadly intelligent. They summarize research papers, write software, and interpret images while following natural language instructions. Tool-using workflows and <a href="https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation">agentic AI systems</a> add autonomy and persistence, which increases the impression of general intelligence.</p>
+      <p>Large language models and multimodal systems display behaviors that look broadly intelligent. They summarize research papers, write software, and interpret images while following natural language instructions. Tool-using workflows and <a href="https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation">agentic AI systems</a> add autonomy and persistence, increasing the impression of general intelligence.</p>
 
       <p>These capabilities are real, but they are still emergent properties of pattern learning and optimization for next-token prediction, not evidence of a general reasoning engine.</p>
 
@@ -1867,7 +1867,7 @@ export const articles: Article[] = [
 
       <h2>What Language Models Are Actually Doing</h2>
       <p>A large language model generates text by predicting, token by token, which word (or word fragment) is statistically most likely to follow the current sequence, given the patterns learned from its training data. There is no database being queried. There is no internal fact-checker. The model is not retrieving stored facts; it is producing statistically coherent continuations of text.</p>
-      <p>This is not a flaw in implementation. It is the design. The transformer architecture, introduced in the 2017 paper "Attention Is All You Need" by Vaswani and colleagues at Google, optimizes for next-token prediction accuracy across a corpus. What emerges is a system that becomes extraordinarily good at producing text that resembles text it has seen, producing fluent, structured, contextually appropriate output that is often accurate because accurate text was common in the training data.</p>
+      <p>This is not a flaw in implementation. It is the design. The transformer architecture, introduced in the 2017 paper "Attention Is All You Need" by Vaswani and colleagues at Google, optimizes for next-token prediction accuracy across a corpus. What emerges is a system that becomes extraordinarily good at producing text that resembles text it has seen, which generates fluent, structured, contextually appropriate output that is often accurate because accurate text was common in the training data.</p>
       <p>The problem is that statistical plausibility and factual accuracy are correlated but not equivalent. A model trained on a trillion tokens of human writing learns that certain patterns of text appear together frequently. "The capital of France is" is almost always followed by "Paris" in that corpus. But "The author of [obscure 1987 monograph] wrote" might be followed by the name of anyone who wrote similar-sounding academic texts, because the model has no way to distinguish between a reliable pattern and a spurious one.</p>
 
       <h2>Why Confidence Has No Epistemic Content</h2>
@@ -2429,7 +2429,7 @@ export const articles: Article[] = [
       <p>This is the context problem. AI language models do not understand text in any meaningful sense. They process sequences of tokens and predict what should come next, based on patterns learned from training data. When this produces fluent, accurate-seeming responses, it looks like understanding from the outside. When it fails, it fails in strange ways: confident, coherent, and incorrect.</p>
 
       <h2>What a Context Window Is and Why It Matters</h2>
-      <p>Every large language model has a context window, the maximum amount of text it can process in a single pass. For a deeper breakdown, see <a href="https://www.curiosityfields.com/article/what-context-window-actually-means-ai-limit">what a context window actually means</a>. Current frontier models handle 200,000 to 1,000,000 tokens, hundreds of pages of text. This sounds like near-unlimited comprehension. It is not.</p>
+      <p>Every large language model has a context window, the maximum amount of text it can process in a single pass. For a deeper breakdown, see the <a href="https://www.curiosityfields.com/article/what-context-window-actually-means-ai-limit">context window guide</a>. Current frontier models handle 200,000 to 1,000,000 tokens, hundreds of pages of text. This sounds like near-unlimited comprehension. It is not.</p>
       <p>The context window is a processing boundary, not a comprehension guarantee. The model doesn't read it the way a human reads, building a mental model, flagging contradictions, holding key facts while reading later pages. It processes the token sequence and produces the next token based on the full sequence's statistical influence on what should logically follow.</p>
 
       <h2>The "Lost in the Middle" Problem</h2>
