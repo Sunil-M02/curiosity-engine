@@ -577,7 +577,7 @@ export const articles: Article[] = [
     metaDescription:
       "CRISPR gene editing is now used in FDA-approved therapies. Explore how it works, current medical uses, delivery challenges, and ethical boundaries.",
     content: `
-      <p class="lead">CRISPR is a programmable gene editing system that can cut DNA at a chosen sequence and let cells repair the break in a new way. It has already reached patients, with FDA approved therapies for sickle cell disease and beta thalassemia proving that precise editing can treat real genetic disorders. The next phase targets cancer, eye and liver diseases, with delivery and safety as the main bottlenecks.</p>
+      <p class="lead">CRISPR is a programmable gene editing system that can cut DNA at a chosen sequence and let cells repair the break in a new way. It has already reached patients, with FDA-approved therapies for sickle cell disease and beta thalassemia proving that precise editing can treat real genetic disorders. The next phase targets cancer, eye and liver diseases, with delivery and safety as the main bottlenecks.</p>
 
       <p>CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats, a defense system bacteria use against viruses. Scientists repurposed it into a tool that edits genomes in living cells, bringing genetics into the clinic.</p>
 
@@ -587,11 +587,11 @@ export const articles: Article[] = [
       <p>These repair pathways are the same cellular systems that help organisms survive DNA damage from radiation and stress, including extremophiles like <a href="/article/can-tardigrades-survive-nuclear-radiation-real-science">tardigrades with unusual DNA protection proteins</a>.</p>
 
       <h2>Where CRISPR is already changing medicine</h2>
-      <h3>FDA approved therapy for sickle cell disease and beta thalassemia</h3>
-      <p>In 2023 the FDA approved the first CRISPR based therapy, exagamglogene autotemcel, marketed as Casgevy. It edits a patient's blood stem cells outside the body to switch on fetal hemoglobin, which reduces painful crises in sickle cell disease and improves oxygen carrying capacity in beta thalassemia.</p>
+      <h3>FDA-approved therapy for sickle cell disease and beta thalassemia</h3>
+      <p>In 2023 the FDA approved the first CRISPR-based therapy, exagamglogene autotemcel, marketed as Casgevy. It edits a patient's blood stem cells outside the body to switch on fetal hemoglobin, which reduces painful crises in sickle cell disease and improves oxygen-carrying capacity in beta thalassemia.</p>
 
       <h3>Cancer and immune cell engineering</h3>
-      <p>CRISPR is being used to make T cells more potent. Researchers are knocking out inhibitory genes such as PD-1 and inserting cancer targeting receptors, creating next generation CAR-T and TCR therapies. These edits are usually ex vivo, which allows careful safety checks before cells are infused back into the patient.</p>
+      <p>CRISPR is being used to make T cells more potent. Researchers are knocking out inhibitory genes such as PD-1 and inserting cancer-targeting receptors, creating next-generation CAR-T and TCR therapies. These edits are usually ex vivo, which allows careful safety checks before cells are infused back into the patient.</p>
 
       <h3>In vivo editing for liver and eye disease</h3>
       <p>Early clinical trials are testing CRISPR delivered directly into the body. The liver is a major target because lipid nanoparticles can reach hepatocytes efficiently. Programs for transthyretin amyloidosis and hereditary angioedema have shown promising reductions in disease proteins. Eye trials for conditions like Leber congenital amaurosis deliver CRISPR directly to retinal cells.</p>
@@ -604,11 +604,11 @@ export const articles: Article[] = [
       <p>Most medical programs focus on somatic cells, meaning the edits are not inherited. Germline editing, which would change embryos and future generations, is broadly prohibited by national regulations. The 2018 case of He Jiankui, who edited embryos without consensus oversight, reinforced the global push for clear ethical boundaries.</p>
 
       <h2>What to expect next</h2>
-      <p>Base editing and prime editing are expanding the range of treatable mutations. CRISPR diagnostics such as SHERLOCK and DETECTR are making rapid pathogen detection more accessible. Researchers are also exploring CRISPR based antimicrobials that could target harmful bacteria without disrupting the whole microbiome.</p>
+      <p>Base editing and prime editing are expanding the range of treatable mutations. CRISPR diagnostics such as SHERLOCK and DETECTR are making rapid pathogen detection more accessible. Researchers are also exploring CRISPR-based antimicrobials that could target harmful bacteria without disrupting the whole microbiome.</p>
 
       <h2>Frequently Asked Questions</h2>
       <h3>Is CRISPR already used in approved medicines?</h3>
-      <p>Yes. The first FDA approved CRISPR therapy, Casgevy, is used to treat sickle cell disease and beta thalassemia through ex vivo editing of blood stem cells.</p>
+      <p>Yes. The first FDA-approved CRISPR therapy, Casgevy, is used to treat sickle cell disease and beta thalassemia through ex vivo editing of blood stem cells.</p>
 
       <h3>Does CRISPR fix genes permanently?</h3>
       <p>Edits made to somatic cells are permanent in those cells and their descendants, but they are not passed to children. Germline editing is not permitted in clinical care.</p>
@@ -1767,11 +1767,11 @@ export const articles: Article[] = [
 
       <h2>Radiation resistance in one paragraph</h2>
       <p>Radiation resistance in biology refers to the absorbed dose (measured in grays, Gy) an organism can survive at a 50% population survival rate, called the LD50. For context: 5 Gy kills most adult humans. Cockroaches, frequently cited as radiation survivors, have an LD50 around 67 Gy. Tardigrades in their active, hydrated state have an LD50 somewhere between 570 and 6,200 Gy depending on the species, the radiation type, and crucially, whether the animal is in its dormant cryptobiotic state called a tun.</p>
-      <p>That range matters. A tardigrade in its tun form, desiccated and metabolically dormant, survives far higher doses than an active, hydrated one. The most commonly cited figure, around 6,000 Gy for gamma radiation, comes from studies on desiccated specimens. An active tardigrade fares considerably worse.</p>
+      <p>That range matters. A tardigrade in its tun form, desiccated and metabolically dormant, survives far higher doses than an active, hydrated one. The most commonly cited figure, around 6,000 Gy for gamma radiation, comes from studies on desiccated specimens. Active, hydrated tardigrades often fall closer to the low end of the range, around 570 Gy depending on species and radiation type.</p>
 
       <h2>The Dsup Protein: A Genuine Scientific Discovery</h2>
       <p>In 2016, a team at the University of Tokyo led by Dr. Takekazu Kunieda identified a protein unique to tardigrades called Dsup, short for Damage Suppressor. Published in <em>Nature Communications</em>, the study showed Dsup physically wraps around DNA and reduces radiation-induced strand breaks by approximately 40% compared to cells without it. When researchers introduced the Dsup gene into human cultured cells, those cells showed roughly 40% less X-ray damage.</p>
-      <p>This is not metaphor. Dsup is a real molecular shield. It is also one reason scientists are exploring whether <a href="/article/crispr-gene-editing-transforming-medicine">CRISPR based gene editing</a> could someday borrow protective traits, though that remains experimental. A 40% reduction in strand breaks is useful, not miraculous, and it buys time for the animal's repair enzymes to catch up.</p>
+      <p>This is not metaphor. Dsup is a real molecular shield. It is also one reason scientists are exploring whether <a href="/article/crispr-gene-editing-transforming-medicine">CRISPR-based gene editing</a> could someday borrow protective traits, though that remains experimental. A 40% reduction in strand breaks is useful, not miraculous, and it buys time for the animal's repair enzymes to catch up.</p>
 
       <h2>The Repair Machine Underneath</h2>
       <p>What actually makes tardigrades remarkable is not a single protein but a layered defense system. Research from the Max Planck Institute of Molecular Cell Biology and Genetics has documented that tardigrades possess unusually efficient versions of the standard DNA repair pathways, including non-homologous end joining (NHEJ) and homologous recombination (HR), plus antioxidant enzymes that neutralize the free radicals radiation generates.</p>
@@ -3156,7 +3156,7 @@ export const articles: Article[] = [
       </table>
 
       <h2>New directions: precision prevention</h2>
-      <p>Researchers are exploring targeted approaches that focus on the bacteria most responsible for decay instead of wiping out the entire oral microbiome. One promising area is <a href="/article/crispr-gene-editing-transforming-medicine">CRISPR based antimicrobial research</a> that could selectively disable harmful strains such as S. mutans while leaving beneficial species intact.</p>
+      <p>Researchers are exploring targeted approaches that focus on the bacteria most responsible for decay instead of wiping out the entire oral microbiome. One promising area is <a href="/article/crispr-gene-editing-transforming-medicine">CRISPR-based antimicrobial research</a> that could selectively disable harmful strains such as S. mutans while leaving beneficial species intact.</p>
 
       <h2>Conclusion</h2>
       <p>The reason animals don't get cavities isn't that they have better teeth or cleaner mouths. It's that the modern human food environment is genuinely unusual in evolutionary terms. Frequent eating, refined sugars, and sticky processed carbohydrates create exactly the conditions that acid-producing bacteria need to do damage.</p>
