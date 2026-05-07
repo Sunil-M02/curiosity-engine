@@ -3492,14 +3492,14 @@ export const articles: Article[] = [
       <p>When an AI chatbot seems to "forget" something you told it three hours ago, most people assume the system has some kind of memory limit, like a goldfish. That's almost right but slightly wrong in a way that matters.</p>
       <p>The AI didn't forget. It never saw what you said earlier in the first place.</p>
       <p>Every large language model operates with something called a <strong>context window</strong>: a fixed amount of text it can process at any one moment. Think of it as the model's field of vision. Whatever falls inside that window, the model can read, reason about, and respond to. Whatever sits outside it is invisible, as if it was never written.</p>
-      <p>Understanding this one concept explains most of the frustrating limitations people run into with AI tools.</p>
+      <p>Understanding this one concept explains most of the <a href="https://www.curiosityfields.com/article/7-things-ai-cannot-do-in-2026">frustrating limitations people run into with AI tools</a>.</p>
 
       <h2>What the Context Window Actually Contains</h2>
       <p>When you send a message to an AI, the model doesn't receive just your latest sentence. It receives the entire conversation from the beginning, including the system prompt (a set of instructions the developer configures behind the scenes), your message history, the AI's previous responses, any documents or files you've pasted in, and your current message.</p>
       <p>All of that together is the context. The context window is the limit on how much of that text the model can process at once.</p>
       <p>Context window size is measured in <strong>tokens</strong>, which are roughly equivalent to word fragments. The word "unhappy" might be two tokens: "un" and "happy." "The" is one token. On average, 100 tokens correspond to roughly 75 words in English. A context window of 128,000 tokens can hold approximately 96,000 words, which is about the length of a novel.</p>
       <p>When the total length of your conversation plus all supporting content exceeds the context window, the model literally cannot see the oldest parts of the conversation anymore. They fall off the edge. The model has no access to them, no awareness that they existed, and no ability to reference them.</p>
-      <p><strong>Why this matters:</strong> This isn't a software bug or a lazy design choice. It reflects something fundamental about how transformer-based language models process information.</p>
+      <p><strong>Why this matters:</strong> This isn't a software bug or a lazy design choice. It reflects something fundamental about <a href="https://www.curiosityfields.com/article/ai-reads-every-word-but-understands-nothing-context-problem">how transformer-based language models process information</a>.</p>
 
       <h2>Why the Architecture Creates This Limit</h2>
       <p>Large language models use a mechanism called <strong>attention</strong> to process text. Every token in the context pays attention to every other token, calculating relationships and relevance across the entire input. This is what allows the model to understand that "it" in one sentence refers to "the telescope" mentioned three paragraphs earlier.</p>
@@ -3508,7 +3508,7 @@ export const articles: Article[] = [
 
       <h2>What Happens When You Hit the Limit</h2>
       <p>Most consumer AI tools handle context overflow silently. The conversation keeps going and the model keeps responding, but the oldest content quietly disappears from what the model can see.</p>
-      <p>This creates specific failure patterns that are frustrating precisely because they're invisible:</p>
+      <p>This creates specific <a href="https://www.curiosityfields.com/article/why-ai-language-models-confidently-state-false-facts-mechanism">failure patterns</a> that are frustrating precisely because they're invisible:</p>
       <p>The model contradicts itself, apparently ignoring something it said earlier that has now fallen outside the window. It fails to reference a document you pasted at the start of a long conversation. It asks you to clarify something you already explained, because that explanation is gone. It seems to lose track of the specific task you defined at the beginning of a long working session.</p>
       <p>None of these are errors in the traditional sense. The model is doing its best with what it can see. The information it appears to be ignoring simply isn't in its field of vision anymore.</p>
       <p><strong>Why this matters:</strong> If you're using AI for long, complex tasks like editing a full document, writing extended code, or working through a multi-step analysis, context management is a real workflow concern, not just a technical footnote.</p>
