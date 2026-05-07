@@ -573,149 +573,51 @@ export const articles: Article[] = [
     slug: "crispr-gene-editing-transforming-medicine",
     title: "CRISPR Gene Editing: How It's Transforming Medicine Right Now",
     excerpt:
-      "Explore how CRISPR-Cas9 is moving from lab theory to clinical reality. Discover the first FDA-approved treatments, cancer breakthroughs, and the ethical challenges of gene editing.",
+      "CRISPR gene editing has reached patients, with FDA-approved therapies for sickle cell disease and beta thalassemia leading the way. Learn how the technology works, where it is already used, and what delivery, safety, and ethics still need to solve.",
     metaDescription:
-      "Learn how CRISPR gene editing is revolutionizing medicine with FDA-approved treatments for genetic diseases, cancer therapies, and ethical implications.",
+      "CRISPR gene editing is now used in FDA-approved therapies. Explore how it works, current medical uses, delivery challenges, and ethical boundaries.",
     content: `
-      <style>
-        .data-table {
-          width: 100%;
-          border-collapse: collapse;
-          margin: 25px 0;
-          font-family: sans-serif;
-          min-width: 400px;
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-          border-radius: 8px;
-          overflow: hidden;
-        }
-        .data-table font-weight: bold;
-        .data-table thead tr {
-          background-color: #009879;
-          color: #ffffff;
-          text-align: left;
-        }
-        .data-table th, .data-table td {
-          padding: 12px 15px;
-          border-bottom: 1px solid #dddddd;
-        }
-        .data-table tbody tr:nth-of-type(even) {
-          background-color: #f3f3f3;
-        }
-        .data-table tbody tr:last-of-type {
-          border-bottom: 2px solid #009879;
-        }
-      </style>
+      <p class="lead">CRISPR is a programmable gene editing system that can cut DNA at a chosen sequence and let cells repair the break in a new way. It has already reached patients, with FDA approved therapies for sickle cell disease and beta thalassemia proving that precise editing can treat real genetic disorders. The next phase targets cancer, eye and liver diseases, with delivery and safety as the main bottlenecks.</p>
 
-      <p>By 2050, the United Nations projects that nearly 70% of the global population will reside in urban centers. This demographic shift presents a staggering challenge: how do we house billions without collapsing our planetary life-support systems? The answer lies in moving beyond "greenwashing" toward <strong>regenerative urbanism</strong>—cities that don't just reduce harm but actively restore the environment.</p>
-      
-      <p>Sustainable urban innovation is not about building “greener” versions of old systems. It is about redesigning cities to operate like efficient, resilient ecosystems where energy, water, transportation, and public services are interconnected and optimized for long-term stability.</p>
+      <p>CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats, a defense system bacteria use against viruses. Scientists repurposed it into a tool that edits genomes in living cells, bringing genetics into the clinic.</p>
 
-      <h2>What Is a Sustainable City? A Modern Definition</h2>
-      <p>A sustainable city is an urban system designed to meet present needs without compromising the ability of future generations to meet theirs. It balances environmental protection, economic development, and social equity through intelligent planning and technology.</p>
-      
-      <p>In the 2050 context, this definition expands to include <strong>urban resilience</strong>—the capacity of a city to survive and thrive in the face of climate shocks like extreme heatwaves and flooding. Key pillars include:</p>
-      <ul>
-        <li><strong>Circular Economy:</strong> Zero-waste systems where resources are recovered and reused.</li>
-        <li><strong>Net-Positive Energy:</strong> Buildings that generate more renewable energy than they consume.</li>
-        <li><strong>Social Equity:</strong> Ensuring that high-tech urban solutions are accessible to all socioeconomic tiers.</li>
-      </ul>
+      <h2>What is CRISPR gene editing?</h2>
+      <p><strong>CRISPR-Cas9 is a programmable DNA editing system that uses a guide RNA to direct the Cas9 enzyme to a specific genetic sequence, where the cell repairs the cut and changes the code.</strong></p>
+      <p>The repair step matters. Cells can stitch the break with error-prone non-homologous end joining, which disrupts a gene, or with homology-directed repair, which can insert a corrected sequence. Newer tools such as base editors and prime editors reduce double strand breaks and make more precise edits.</p>
+      <p>These repair pathways are the same cellular systems that help organisms survive DNA damage from radiation and stress, including extremophiles like <a href="/article/can-tardigrades-survive-nuclear-radiation-real-science">tardigrades with unusual DNA protection proteins</a>.</p>
 
-      <h2>1. Regenerative Architecture: From Concrete to Carbon Sinks</h2>
-      <p>Traditional construction is responsible for nearly 40% of global energy-related carbon emissions. Architecture is shifting from static concrete structures to living systems. Buildings are becoming energy producers, air filters, and climate moderators.</p>
-      
-      <h3>Mass Timber and Cross-Laminated Timber (CLT)</h3>
-      <p>Steel and concrete are carbon-intensive. Mass timber, particularly CLT, allows for high-rise construction using sustainably harvested wood that sequesters carbon for the building's lifetime. Examples like the <strong>Mjøstårnet</strong> in Norway demonstrate that timber skyscrapers are safe, durable, and significantly lighter than traditional counterparts.</p>
+      <h2>Where CRISPR is already changing medicine</h2>
+      <h3>FDA approved therapy for sickle cell disease and beta thalassemia</h3>
+      <p>In 2023 the FDA approved the first CRISPR based therapy, exagamglogene autotemcel, marketed as Casgevy. It edits a patient's blood stem cells outside the body to switch on fetal hemoglobin, which reduces painful crises in sickle cell disease and improves oxygen carrying capacity in beta thalassemia.</p>
 
-      <h3>Biophilic Integration</h3>
-      <p>Why this matters: Integrating vegetation into facades isn't just aesthetic; it's a thermodynamic strategy. Vertical forests—pioneered by Milan’s <em>Bosco Verticale</em>—provide natural insulation, reducing HVAC energy demand by up to 30%, while mitigating the "Urban Heat Island" effect that can make cities 10°F hotter than surrounding rural areas.</p>
+      <h3>Cancer and immune cell engineering</h3>
+      <p>CRISPR is being used to make T cells more potent. Researchers are knocking out inhibitory genes such as PD-1 and inserting cancer targeting receptors, creating next generation CAR-T and TCR therapies. These edits are usually ex vivo, which allows careful safety checks before cells are infused back into the patient.</p>
 
-      <h2>2. The Digital Nervous System: Smart Infrastructure</h2>
-      <p>Future cities operate as connected networks. Through the Internet of Things (IoT), every streetlight, water pipe, and trash bin provides real-time data to optimize municipal operations.</p>
-      
-      <table class="data-table">
-        <thead>
-          <tr>
-            <th>Technology</th>
-            <th>Real-World Impact</th>
-            <th>Efficiency Gain</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Smart Grids</strong></td>
-            <td>Real-time balancing of solar/wind loads</td>
-            <td>40% reduction in peak demand</td>
-          </tr>
-          <tr>
-            <td><strong>Acoustic Leak Detection</strong></td>
-            <td>Identifying water pipe micro-fractures</td>
-            <td>Prevents 20-30% water loss</td>
-          </tr>
-          <tr>
-            <td><strong>AI Traffic Management</strong></td>
-            <td>Adaptive signal timing based on flow</td>
-            <td>15-25% reduction in idling</td>
-          </tr>
-        </tbody>
-      </table>
+      <h3>In vivo editing for liver and eye disease</h3>
+      <p>Early clinical trials are testing CRISPR delivered directly into the body. The liver is a major target because lipid nanoparticles can reach hepatocytes efficiently. Programs for transthyretin amyloidosis and hereditary angioedema have shown promising reductions in disease proteins. Eye trials for conditions like Leber congenital amaurosis deliver CRISPR directly to retinal cells.</p>
 
-      <h2>3. Mobility Transformation: Designing Cities Beyond Cars</h2>
-      <p>The 20th-century car-centric model is being dismantled. The "15-Minute City" framework—popularized by Paris Mayor Anne Hidalgo—envisions urban neighborhoods where every essential need (work, groceries, healthcare, education) is within a 15-minute walk or bike ride.</p>
-      
-      <blockquote>"The best-designed city is one where you don't need a car to live a full life. A developed country is not a place where the poor have cars; it's where the rich use public transportation." — Jan Gehl, Urban Designer</blockquote>
+      <h2>Why delivery and safety are the hard parts</h2>
+      <p>Delivering CRISPR to the right cells is harder than editing once it arrives. Viral vectors such as AAV provide durable delivery but can trigger immune responses and have size limits. Lipid nanoparticles are transient and safer for some organs, but they do not reach every tissue.</p>
+      <p>Off target edits are another risk. Modern guide RNA design and high fidelity Cas enzymes reduce mistakes, but long term monitoring is still essential. Clinical trials often include rigorous controls for symptom reporting and expectation effects, which is why <a href="/article/placebo-effect-brain-chemistry-science-healing">placebo effects in clinical research</a> remain a critical part of study design.</p>
 
-      <p>Mobility in 2050 centers on <strong>MaaS (Mobility as a Service)</strong>. Instead of owning a vehicle, citizens use a unified digital interface to switch between autonomous electric shuttles, high-speed rail, and e-bikes. Copenhagen and Amsterdam demonstrate how cycling infrastructure alone can replace millions of car trips annually.</p>
+      <h2>Ethics: somatic versus germline editing</h2>
+      <p>Most medical programs focus on somatic cells, meaning the edits are not inherited. Germline editing, which would change embryos and future generations, is broadly prohibited by national regulations. The 2018 case of He Jiankui, who edited embryos without consensus oversight, reinforced the global push for clear ethical boundaries.</p>
 
-      <h2>4. Circular Urban Systems: Water and Waste Management</h2>
-      <p>Sustainable cities treat waste as a resource and water as a precious asset. As sea levels rise and storms intensify, "Sponge City" initiatives provide a blueprint for 2050.</p>
-      <ul>
-        <li><strong>Water Resilience:</strong> Using permeable pavements and rain gardens to absorb water. Singapore’s water recycling program shows how cities can achieve near-independence using advanced treatment.</li>
-        <li><strong>Zero Waste:</strong> Integrating local material recovery facilities and converting organic waste into biogas to power neighborhood microgrids.</li>
-      </ul>
+      <h2>What to expect next</h2>
+      <p>Base editing and prime editing are expanding the range of treatable mutations. CRISPR diagnostics such as SHERLOCK and DETECTR are making rapid pathogen detection more accessible. Researchers are also exploring CRISPR based antimicrobials that could target harmful bacteria without disrupting the whole microbiome.</p>
 
-      <h2>5. Energy Systems: Decentralized Power</h2>
-      <p>Sustainable cities rely on decentralized energy. Instead of depending solely on large power plants, they integrate renewable energy production at the neighborhood level using rooftop solar, battery storage systems, and AI-managed demand forecasting. According to the IEA, these systems improve grid resilience significantly during extreme weather events.</p>
+      <h2>Frequently Asked Questions</h2>
+      <h3>Is CRISPR already used in approved medicines?</h3>
+      <p>Yes. The first FDA approved CRISPR therapy, Casgevy, is used to treat sickle cell disease and beta thalassemia through ex vivo editing of blood stem cells.</p>
 
-      <h2>Challenges and Common Mistakes</h2>
-      <p><strong>Common Mistakes to Avoid:</strong>
-      <ul>
-        <li>Implementing technology ("Smart City" gadgets) without integrating it into the city's environmental strategy.</li>
-        <li>Ignoring community participation; top-down urbanism often fails the people it's meant to serve.</li>
-        <li>Underestimating cybersecurity risks in a fully connected digital infrastructure.</li>
-      </ul>
-      
-      <p><strong>The Retrofit Challenge:</strong> The real battle for 2050 will be won in existing cities like New York or London. Retrofitting old buildings with high-efficiency glazing and heat pumps is the most difficult, yet most vital, task.</p>
+      <h3>Does CRISPR fix genes permanently?</h3>
+      <p>Edits made to somatic cells are permanent in those cells and their descendants, but they are not passed to children. Germline editing is not permitted in clinical care.</p>
 
-      <h2>Best Practices for Urban Innovation</h2>
-      <ul>
-        <li><strong>Prioritize Passive Design:</strong> Use natural light and ventilation before mechanical systems.</li>
-        <li><strong>Integrate Sustainability into Zoning:</strong> Mandatory green roofs or solar requirements for new builds.</li>
-        <li><strong>Data Privacy:</strong> Ensure that "Smart City" data collection is anonymized and ethically governed.</li>
-      </ul>
+      <h3>What are the main risks of CRISPR?</h3>
+      <p>The biggest risks are off target edits, unintended immune responses to delivery vectors, and incomplete editing across all target cells.</p>
 
-      <h2>Conclusion</h2>
-      <p>The sustainable cities of 2050 are not science fiction. They are emerging now through careful planning, smart technology, and responsible governance. Urban sustainability is no longer optional; it defines economic competitiveness, environmental resilience, and social stability. The choices made today will determine whether cities become engines of regeneration or centers of crisis.</p>
-
-      <section id="faq">
-        <h2>Frequently Asked Questions</h2>
-        <h3>What makes a city sustainable?</h3>
-        <p>A sustainable city minimizes environmental impact, uses resources efficiently, and improves quality of life through smart infrastructure and inclusive planning.</p>
-
-        <h3>Are smart cities and sustainable cities the same?</h3>
-        <p>No. Smart cities focus on technology efficiency. Sustainable cities combine smart technology with environmental and social responsibility (EEAT signals).</p>
-
-        <h3>Can older cities become sustainable?</h3>
-        <p>Yes. Retrofitting buildings, upgrading energy systems, and improving transport networks can gradually transform legacy cities into resilient hubs.</p>
-
-        <h3>How do sustainable cities reduce climate risk?</h3>
-        <p>They lower emissions through electrification, improve disaster preparedness with sponge-city designs, and increase resource resilience through circularity.</p>
-
-        <h3>Are sustainable cities affordable?</h3>
-        <p>While initial costs for mass timber or smart grids are higher, long-term savings from efficiency and lower resource consumption often exceed the initial investments.</p>
-
-        <h3>Which cities are leading in sustainability today?</h3>
-        <p>Copenhagen, Singapore, Amsterdam, and Stockholm are widely cited for their integrated sustainability models and successful carbon-reduction benchmarks.</p>
-      </section>
+      <h3>How soon will CRISPR treat common diseases?</h3>
+      <p>Rare single gene disorders are moving fastest. Complex diseases with many genetic and environmental drivers will take longer because editing one gene rarely solves the whole problem.</p>
     `,
     coverImage: "/images/articles/crispr-gene-editing.jpg",
     category: "science",
@@ -1183,15 +1085,13 @@ export const articles: Article[] = [
     slug: "placebo-effect-brain-chemistry-science-healing",
     title: "The Science Behind the Placebo Effect: How Belief Literally Changes Your Brain Chemistry",
     excerpt:
-      "The placebo effect is not 'fake' healing. It is a measurable neurobiological response where belief, expectation, and context trigger real physiological changes through dopamine, endorphins, and endocannabinoids. Here is what actually happens in your brain.",
+      "The placebo effect is measurable neurobiology, not fake healing. Belief and context can trigger dopamine, endorphins, and endocannabinoids that change pain, movement, and immune responses.",
     metaDescription:
-      "Discover the neuroscience of the placebo effect. Learn how belief triggers dopamine, endorphins, and endocannabinoids to create real physiological healing responses.",
+      "Explore the neuroscience of the placebo effect and how belief triggers dopamine, endorphins, and endocannabinoids that alter real symptoms.",
     content: `
-    <p class="lead">Your brain can heal your body without drugs. This is not mysticism. It is neurobiology. The placebo effect demonstrates that belief, expectation, and context trigger measurable changes in brain chemistry, producing real physiological responses that reduce pain, improve motor function, and modulate immune activity.</p>
+    <p class="lead">The placebo effect is a real biological response. When people expect relief, the brain releases its own painkillers and neuromodulators, which can reduce pain, improve movement in Parkinson's disease, and alter immune signaling even when the treatment is inert. Brain imaging confirms these changes, making the placebo effect a measurable part of physiology, not imagination.</p>
 
-    <p>For decades, scientists dismissed placebo responses as psychological noise or false hope. Modern neuroimaging has proven otherwise. When a patient expects pain relief, their brain releases endogenous opioids. When they anticipate movement improvement, dopamine circuits activate. These are not imagined changes. They are quantifiable shifts in neurotransmitter activity.</p>
-
-    <p>Understanding the placebo effect matters beyond clinical trials. It reveals the brain's role as an active regulator of health, not merely a passive receiver of medication. This knowledge reshapes how we approach treatment, patient communication, and the integration of mind-body medicine into standard care.</p>
+    <p>Understanding placebo responses matters beyond clinical trials. It shows how expectation, attention, and social context shape symptoms and why the way care is delivered can change outcomes.</p>
 
     <h2>What Is the Placebo Effect? A Neurobiological Definition</h2>
     <p>The placebo effect is a psychobiological phenomenon where a physiologically inert treatment produces measurable health improvements due to the patient's belief in its efficacy. It is not fakery. It is neurochemistry responding to expectation.</p>
@@ -1203,7 +1103,7 @@ export const articles: Article[] = [
       <li><strong>Context-dependent modulation:</strong> Environmental cues, white coats, and ritual elements amplify or dampen the response.</li>
     </ul>
 
-    <p>Brain imaging studies using PET and fMRI consistently show placebo analgesia correlates with increased activity in the dorsolateral prefrontal cortex and decreased activity in pain-processing regions like the thalamus and anterior insula.</p>
+    <p>Brain imaging studies using PET and fMRI consistently show placebo analgesia correlates with increased activity in the dorsolateral prefrontal cortex and decreased activity in pain-processing regions like the thalamus and anterior insula. These same prefrontal circuits also govern attention control and task switching, which is why the <a href="/article/multitasking-neurologically-impossible-brain-task-switching">multitasking debate in neuroscience</a> overlaps with placebo research.</p>
 
     <h2>The Brain Chemistry of Belief: Key Neurotransmitters</h2>
     <p>Placebo responses operate through specific neurochemical pathways. Understanding these mechanisms explains why the effect varies by condition and individual.</p>
@@ -1261,7 +1161,7 @@ export const articles: Article[] = [
       <li><strong>Provider authority:</strong> Confidence and warmth from physicians amplify responses.</li>
     </ul>
 
-    <p>These findings suggest the placebo effect is an evolved capacity for social learning. Humans have developed neurobiological systems that translate social cues and environmental context into physiological adjustments.</p>
+    <p>These findings suggest the placebo effect is an evolved capacity for social learning. Humans have developed neurobiological systems that translate social cues and environmental context into physiological adjustments. Context effects reach beyond medicine too, such as how cabin noise and low humidity alter flavour perception in <a href="/article/why-food-tastes-different-at-35000-feet-flying-flavour-science">the science of why food tastes different at 35,000 feet</a>.</p>
 
     <h2>Clinical Implications: Ethics and Applications</h2>
     <p>Open-label placebos (where patients know they are taking inactive pills) still produce measurable benefits. This challenges the assumption that deception is required for placebo effects to work.</p>
@@ -1301,9 +1201,6 @@ export const articles: Article[] = [
 
     <h3>Why do some people respond to placebos while others do not?</h3>
     <p>Individual variation depends on genetics affecting dopamine and opioid receptor density, prior learning experiences, anxiety levels, and the specific condition being treated. Pain and depression show higher placebo response rates than objective measures like tumor size.</p>
-
-    <h3>Do doctors use placebos in actual practice?</h3>
-    <p>Covert placebo use (deceiving patients) is generally considered unethical. However, many elements of care—positive framing, therapeutic touch, and optimized environments—ethically harness placebo mechanisms while providing active treatment.</p>
 
     <h3>Can the placebo effect cure serious diseases?</h3>
     <p>No. Placebo effects primarily modulate symptoms and subjective experiences. They do not eliminate infections, destroy cancer cells, or repair structural damage. They should complement, not replace, evidence-based medical treatment for serious conditions.</p>
@@ -1860,37 +1757,38 @@ export const articles: Article[] = [
     slug: "can-tardigrades-survive-nuclear-radiation-real-science",
     title: "Can Tardigrades Actually Survive Nuclear Radiation? The Real Science",
     excerpt:
-      "Tardigrades are internet legends — creatures said to survive anything, even nuclear blasts. But what does the peer-reviewed science actually show? We unpack the Dsup protein, DNA repair mechanisms, and the real limits of these microscopic survivors.",
+      "Tardigrades can survive extreme radiation, but only under specific conditions. Learn what the Dsup protein does, how DNA repair works in these animals, and where the myth goes too far.",
     metaDescription:
-      "Can tardigrades survive nuclear radiation? Explore the real science behind tardigrade radiation resistance, the Dsup protein, and what survivability actually means.",
+      "Can tardigrades survive nuclear radiation? Explore the real science behind their radiation resistance, Dsup protein, and biological limits.",
     content: `
-      <p class="lead">In 2011, a Japanese research team resurrected a tardigrade that had been frozen for 30 years. The animal woke up, reproduced, and continued its life as though nothing had happened. Stories like that have turned tardigrades into internet legends — creatures capable of surviving anything, including nuclear blasts. But surviving a freezer and surviving ionizing radiation are very different problems. One is about metabolism. The other is about DNA.</p>
+      <p class="lead">Tardigrades can survive radiation doses that would kill most animals, especially when they are in a dormant, dried state called a tun. Their resilience comes from DNA protection proteins and unusually fast repair pathways, not from invincibility. They are resistant to radiation, but they are not immune to heat, pressure, or direct blast forces.</p>
 
-      <p>The nuclear radiation claim deserves a harder look. It is one of the most repeated facts about tardigrades, and it is partially true — but the version most people believe is significantly more dramatic than what the experiments actually show.</p>
+      <p>The nuclear radiation claim deserves a harder look. It is one of the most repeated facts about tardigrades, and it is partially true, but the version most people believe is more dramatic than what the experiments actually show.</p>
 
-      <h2>What "Radiation Resistance" Actually Means</h2>
+      <h2>Radiation resistance in one paragraph</h2>
       <p>Radiation resistance in biology refers to the absorbed dose (measured in grays, Gy) an organism can survive at a 50% population survival rate, called the LD50. For context: 5 Gy kills most adult humans. Cockroaches, frequently cited as radiation survivors, have an LD50 around 67 Gy. Tardigrades in their active, hydrated state have an LD50 somewhere between 570 and 6,200 Gy depending on the species, the radiation type, and crucially, whether the animal is in its dormant cryptobiotic state called a tun.</p>
-      <p>That range matters. A tardigrade in its tun form — desiccated, metabolically dormant — survives far higher doses than an active, hydrated one. The most commonly cited figure, around 6,000 Gy for gamma radiation, comes from studies on desiccated specimens. An active tardigrade fares considerably worse.</p>
+      <p>That range matters. A tardigrade in its tun form, desiccated and metabolically dormant, survives far higher doses than an active, hydrated one. The most commonly cited figure, around 6,000 Gy for gamma radiation, comes from studies on desiccated specimens. An active tardigrade fares considerably worse.</p>
 
       <h2>The Dsup Protein: A Genuine Scientific Discovery</h2>
       <p>In 2016, a team at the University of Tokyo led by Dr. Takekazu Kunieda identified a protein unique to tardigrades called Dsup, short for Damage Suppressor. Published in <em>Nature Communications</em>, the study showed Dsup physically wraps around DNA and reduces radiation-induced strand breaks by approximately 40% compared to cells without it. When researchers introduced the Dsup gene into human cultured cells, those cells showed roughly 40% less X-ray damage.</p>
-      <p>This is not metaphor. Dsup is a real molecular shield. But it is worth being precise: a 40% reduction in strand breaks is useful, not miraculous. It does not make tardigrade DNA indestructible. It buys time for the animal's repair enzymes to catch up.</p>
+      <p>This is not metaphor. Dsup is a real molecular shield. It is also one reason scientists are exploring whether <a href="/article/crispr-gene-editing-transforming-medicine">CRISPR based gene editing</a> could someday borrow protective traits, though that remains experimental. A 40% reduction in strand breaks is useful, not miraculous, and it buys time for the animal's repair enzymes to catch up.</p>
 
       <h2>The Repair Machine Underneath</h2>
-      <p>What actually makes tardigrades remarkable is not a single protein but a layered defense system. Research from the Max Planck Institute of Molecular Cell Biology and Genetics has documented that tardigrades possess unusually efficient versions of the standard DNA repair pathways — non-homologous end joining (NHEJ) and homologous recombination (HR) — plus antioxidant enzymes that neutralize the free radicals radiation generates.</p>
+      <p>What actually makes tardigrades remarkable is not a single protein but a layered defense system. Research from the Max Planck Institute of Molecular Cell Biology and Genetics has documented that tardigrades possess unusually efficient versions of the standard DNA repair pathways, including non-homologous end joining (NHEJ) and homologous recombination (HR), plus antioxidant enzymes that neutralize the free radicals radiation generates.</p>
       <p>A 2020 study in <em>Current Biology</em> from researchers at the University of Stuttgart found that tardigrade cells can reassemble severely fragmented DNA within hours of radiation exposure. The cells do not avoid damage; they recover from it at a rate that other animals cannot match.</p>
 
       <h2>What Tardigrades Cannot Survive</h2>
       <p>The nuclear survival myth often implies tardigrades would outlast a nuclear war. The reality is more conditional. Tardigrades in tun form would likely survive the radiation levels near a nuclear detonation's outer zone. They would not survive the blast, heat, or pressure at or near ground zero. They are not indestructible; they are chemically resilient.</p>
       <p>Active, hydrated tardigrades also struggle significantly with prolonged high-temperature exposure. Research from Ramazzotti and Maucci documented heat as a more consistent killer than radiation for active specimens. A boiling water exposure of a few minutes is lethal.</p>
+      <p>Resilience always has boundaries shaped by environment and diet, a pattern you can also see in <a href="/article/why-animals-dont-get-cavities-humans-do">why animals rarely develop cavities in the wild</a>.</p>
 
       <h2>Why This Matters Beyond Animal Trivia</h2>
       <p>Dsup has attracted serious attention from cancer researchers and space biologists. The gene has been expressed in rice plants and tobacco cells to test radiation tolerance for long-duration space agriculture. NASA's interest in tardigrade biology connects directly to the challenge of protecting biological systems during deep space missions, where cosmic radiation doses accumulate over months and years.</p>
-      <p>In 2019, tardigrades were accidentally deposited on the Moon's surface when an Israeli lunar lander, Beresheet, crashed. Whether any survived in tun form remains genuinely unknown — they would be shielded from some radiation by regolith but exposed to vacuum and extreme temperature swings. It is the kind of natural experiment that will take another lunar mission to evaluate.</p>
+      <p>In 2019, tardigrades were accidentally deposited on the Moon's surface when an Israeli lunar lander, Beresheet, crashed. Whether any survived in tun form remains genuinely unknown because they would be shielded from some radiation by regolith but exposed to vacuum and extreme temperature swings. It is the kind of natural experiment that will take another lunar mission to evaluate.</p>
 
-      <h2>The Honest Summary</h2>
-      <p>Tardigrades do survive radiation levels that would kill every other known animal. That is not myth — it is documented, peer-reviewed biology. But the mechanism is not magic. It is a protein that reduces DNA strand breaks, paired with repair pathways faster than most organisms possess. The tun state dramatically amplifies those advantages by slowing metabolism and reducing free radical generation.</p>
-      <p>The version of tardigrade invincibility that circulates on social media — that they could survive a nuclear war intact and thriving — is an extrapolation that the science does not fully support. What the science supports is stranger and more interesting: a millimeter-long animal with a molecular toolkit that biotech researchers are now actively borrowing.</p>
+      <h2>Direct answer: can they survive nuclear radiation?</h2>
+      <p>Tardigrades can survive radiation levels that would kill most animals, and the evidence is peer reviewed. The mechanism is not magic. It is a DNA protection protein paired with repair pathways faster than most organisms possess, and the tun state amplifies those advantages by slowing metabolism and reducing free radical generation.</p>
+      <p>The popular claim that they would survive a nuclear war intact and thriving is an extrapolation the science does not support. The real story is still remarkable: a millimeter long animal with a molecular toolkit that biotechnology researchers are actively studying.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -1900,17 +1798,11 @@ export const articles: Article[] = [
       <h3>What is the Dsup protein in tardigrades?</h3>
       <p>Dsup (Damage Suppressor) is a tardigrade-specific protein identified by researchers at the University of Tokyo in 2016. It physically binds to DNA and reduces radiation-induced strand breaks by approximately 40%. Scientists have successfully expressed the Dsup gene in human cell cultures with measurable protective effects.</p>
 
-      <h3>Are tardigrades the most radiation-resistant animals on Earth?</h3>
-      <p>Among animals, yes. The bacterium <em>Deinococcus radiodurans</em> holds the record for radiation resistance across all life at roughly 20,000 Gy, but among multicellular animals, tardigrades appear to be the most resistant documented species.</p>
-
       <h3>Could tardigrades survive a nuclear explosion?</h3>
       <p>In tun form and at sufficient distance from the blast, tardigrades could potentially survive the radiation component of a nuclear detonation. The blast pressure, heat, and shockwave at close range would be lethal regardless of radiation tolerance.</p>
 
       <h3>Are tardigrades used in space biology research?</h3>
       <p>Yes. NASA and private research groups have sent tardigrades to the International Space Station to study how they handle microgravity and cosmic radiation. Their Dsup gene is also being tested in crops engineered for space agriculture.</p>
-
-      <h3>What other stresses can tardigrades survive?</h3>
-      <p>In tun form, tardigrades withstand near-absolute zero temperatures, pressures six times greater than the deepest ocean trench, vacuum exposure, and desiccation for decades. Active specimens are considerably more fragile and can be killed by sustained heat above roughly 80°C (176°F).</p>
     `,
     coverImage: "/images/articles/tardigrade-radiation.jpg",
     category: "science",
@@ -2255,13 +2147,12 @@ export const articles: Article[] = [
     slug: "multitasking-neurologically-impossible-brain-task-switching",
     title: "Multitasking Is Neurologically Impossible: What Your Brain Is Actually Doing",
     excerpt:
-      "Multitasking is neurologically impossible — your brain serially switches tasks, not parallel-processes them. Here's what's actually happening inside your skull, and why it costs you.",
+      "Multitasking is not parallel thinking. Your brain switches tasks in sequence, which costs time, accuracy, and energy.",
     metaDescription:
-      "Multitasking is neurologically impossible — your brain serially switches tasks, not parallel-processes them. Here's what's actually happening inside your skull, and why it costs you.",
+      "Multitasking is task switching, not parallel processing. Learn the neuroscience behind switch costs, attention limits, and productivity myths.",
     content: `
-      <p>Here's the uncomfortable truth: you have never multitasked in your life. Not once. When you're texting while watching TV, answering email while on a call, or toggling between browser tabs during a meeting, your brain isn't running two streams in parallel. It's doing something far more interesting, and far more costly.</p>
-      <p>Multitasking, as most people mean it, is neurologically impossible. The human brain has exactly one channel for conscious cognitive processing. What feels like doing two things at once is actually rapid serial switching. The brain abandons Task A, resets its working memory, loads Task B, works briefly, then abandons that and loads Task A again.</p>
-      <p>Every switch costs time, burns glucose, and leaves cognitive residue that degrades performance on both tasks. Understanding what your brain is actually doing when you think you're multitasking changes how you work, think, and make decisions.</p>
+      <p class="lead">Multitasking feels real, but the brain cannot run two conscious tasks at the same time. Instead it switches rapidly between tasks, and each switch burns time, glucose, and working memory. The result is slower performance, more errors, and a strong illusion of productivity.</p>
+      <p>When you answer email while on a call, your prefrontal cortex is not running two streams in parallel. It is serially loading and unloading task rules, which is why the experience feels busy but the output declines.</p>
 
       <h2>The Brain Has One Cognitive Lane, Not Multiple</h2>
       <p>The prefrontal cortex (PFC) sits just behind your forehead and handles everything we'd call thinking: planning, reasoning, attention management, and working memory. It's the most metabolically expensive tissue in the body, and it has, functionally, one slot for active cognitive tasks.</p>
@@ -2277,7 +2168,8 @@ export const articles: Article[] = [
       <h3>Why Your Brain Convinces You It's Working Fine</h3>
       <p>The brain is an extremely confident narrator of its own performance. It doesn't experience the switch cost consciously. You just feel like you're handling things.</p>
       <p>During the brief window when your brain is switching, conscious perception pauses in a phenomenon called the attentional blink. You don't notice the blink.</p>
-      <p>The brain also confuses busyness with productivity. High task-switching volume produces elevated dopamine and adrenaline, which feels like productive engagement. You feel energized. You are, in reality, running hot while accomplishing less.</p>
+      <p>Sensory overload can also blunt perception, a pattern you can see in other domains such as how cabin noise alters taste perception in <a href="/article/why-food-tastes-different-at-35000-feet-flying-flavour-science">the science of airline flavour</a>.</p>
+      <p>The brain also confuses busyness with productivity. High task-switching volume produces elevated dopamine and adrenaline, which feels like productive engagement. You feel energized. You are, in reality, running hot while accomplishing less. Dopamine driven expectation loops are one reason the <a href="/article/placebo-effect-brain-chemistry-science-healing">placebo effect can feel powerful</a> even when a treatment is inert.</p>
 
       <h2>The Stanford Finding That Should Embarrass Every "Great Multitasker"</h2>
       <p>In 2009, psychologist Clifford Nass and his team at Stanford ran experiments expecting to find that heavy multitaskers had developed superior attention management skills. They found the opposite.</p>
@@ -2298,6 +2190,9 @@ export const articles: Article[] = [
       <p>Every ping that pulls you out of deep work isn't just an interruption. It's a cognitive reset that costs you 10 to 23 minutes to fully recover from, according to a study at UC Irvine.</p>
       <p>Your attention isn't just valuable to you. It's a product someone else is selling.</p>
 
+      <h2>Direct answer: can humans multitask?</h2>
+      <p><strong>No. Humans can only run one conscious cognitive task at a time. What feels like multitasking is rapid task switching with measurable costs.</strong></p>
+
       <h2>Conclusion</h2>
       <p>The brain's inability to multitask isn't a weakness to overcome. It's a hard architectural fact to work with.</p>
       <p>Serial processing, done deeply, produces better outputs than shallow parallel switching. Most of what passes for multitasking is cognitive thrashing, the mental equivalent of a computer freezing because it has too many tabs open.</p>
@@ -2307,9 +2202,6 @@ export const articles: Article[] = [
 
       <h3>Can women multitask better than men?</h3>
       <p>No peer-reviewed evidence supports this. The claim traces to a 2019 University of Glasgow study, but its authors cautioned against interpreting it as evidence for parallel processing. The underlying neuroscience, a single PFC cognitive channel, applies to all humans regardless of sex.</p>
-
-      <h3>What about people who "thrive" under constant interruption?</h3>
-      <p>They're adapting to a sub-optimal condition. Chronic multitaskers often become dependent on the stimulation that constant switching provides, similar to a tolerance effect, while their deep-focus capacity quietly erodes.</p>
 
       <h3>Does meditation improve multitasking ability?</h3>
       <p>Meditation improves attentional control, the ability to notice distraction and return focus deliberately. This reduces switch cost per transition. It doesn't grant parallel processing; it makes serial processing more efficient.</p>
@@ -2949,13 +2841,12 @@ export const articles: Article[] = [
     slug: "why-food-tastes-different-at-35000-feet-flying-flavour-science",
     title: "Why Food Tastes Different at 35,000 Feet: The Science of Flying and Flavour",
     excerpt:
-      "Airline food gets unfair blame. The real culprit is cabin pressure, low humidity, and how altitude rewires your nose and taste buds. Here's the actual science.",
+      "Airline food tastes different because cabin pressure, low humidity, and noise blunt your senses. The science is about smell, saliva, and attention, not just recipe quality.",
     metaDescription:
-      "Airline food gets unfair blame. The real culprit is cabin pressure, low humidity, and how altitude rewires your nose and taste buds. Here's the actual science.",
+      "Discover why food tastes different on planes. Cabin pressure, low humidity, and noise reduce smell and taste, changing flavour perception.",
     content: `
-      <p>Airline food has a reputation as one of life's reliable disappointments. Bland chicken, inexplicably salty sauces, meals that taste like the cardboard they were packaged in. Passengers blame the catering, the chefs, the airline's budget. In most cases, they are blaming the wrong thing entirely.</p>
-      <p>The meal itself is often not the problem. Lufthansa, Singapore Airlines, and several others contract serious professional kitchens to prepare inflight food. The issue is that by the time that meal reaches your mouth, your sensory equipment has been quietly recalibrated by physics, and you are no longer eating with the same tongue and nose you had on the ground.</p>
-      <p>Here is what actually happens to your ability to taste food once the aircraft reaches cruising altitude.</p>
+      <p class="lead">Food tastes different on planes because your sense of smell and taste are dulled at altitude. Cabin pressure causes mild nasal congestion, very low humidity dries out mucous membranes, and constant cabin noise shifts attention away from subtle flavours. The result is flatter sweetness and saltiness even when the recipe is unchanged.</p>
+      <p>Airline catering is not always the culprit. Many carriers use professional kitchens and taste tests. The issue is that by the time the meal reaches your mouth, your sensory system has been recalibrated by the cabin environment.</p>
 
       <h2>Your Nose Does Most of the Work When You Eat</h2>
       <p>Taste and smell are so thoroughly intertwined that most food scientists prefer the term flavour to describe the combined sensory experience of eating. The tongue detects five basic qualities: sweet, salty, sour, bitter, and umami. But the enormous complexity of flavour, the difference between a ripe strawberry and a flat one, or between fresh coffee and stale, comes almost entirely from aroma compounds that travel from the back of your throat to your olfactory receptors.</p>
@@ -2976,6 +2867,7 @@ export const articles: Article[] = [
       <p>This one surprised the researchers who discovered it. A 2011 study published in the journal <em>Food Quality and Preference</em>, led by Professor Charles Spence at the University of Oxford, found that background noise levels significantly affect taste perception, specifically, high noise suppresses the perception of sweetness and enhances the perception of crunchiness.</p>
       <p>A typical commercial aircraft cabin at cruise generates around 85 decibels of ambient noise, engine roar, air conditioning, and the general hiss of pressurised air. That is well within the range Spence's research identified as capable of measurably reducing sweetness sensitivity.</p>
       <p>The mechanism is thought to involve cognitive load and the allocation of sensory attention. In loud environments, the brain prioritises auditory processing, and the resources available for interpreting subtle taste signals are partially diverted. It is a reminder that flavour is not just a chemical event in the mouth, it is a whole-brain interpretation of multiple simultaneous signals.</p>
+      <p>This sensitivity to context mirrors how expectation can change symptoms in the <a href="/article/placebo-effect-brain-chemistry-science-healing">placebo effect</a>, where the brain interprets signals differently based on belief and environment.</p>
 
       <h2>Why Tomato Juice and Bloody Marys Actually Make Sense on a Plane</h2>
       <p>There is a well-documented phenomenon that tomato juice, a drink that most people would find thick, acidic, and barely worth ordering on the ground, becomes surprisingly appealing at altitude. Lufthansa reportedly serves around 1.8 million litres of tomato juice annually, a disproportionately large share of which is consumed inflight.</p>
@@ -2987,12 +2879,12 @@ export const articles: Article[] = [
           <tr><th>Taste Quality</th><th>Affected by Cabin Pressure?</th><th>Affected by Noise?</th><th>Net Effect at Altitude</th></tr>
         </thead>
         <tbody>
-          <tr><td>Sweet</td><td>Yes — suppressed up to 30%</td><td>Yes — further reduced</td><td>Noticeably flat</td></tr>
-          <tr><td>Salty</td><td>Yes — suppressed up to 30%</td><td>Minimal</td><td>Underseasoned on ground, balanced aloft</td></tr>
+          <tr><td>Sweet</td><td>Yes, suppressed up to 30%</td><td>Yes, further reduced</td><td>Noticeably flat</td></tr>
+          <tr><td>Salty</td><td>Yes, suppressed up to 30%</td><td>Minimal</td><td>Underseasoned on ground, balanced aloft</td></tr>
           <tr><td>Umami</td><td>Minimal</td><td>Minimal</td><td>Relatively preserved</td></tr>
           <tr><td>Bitter</td><td>Minimal</td><td>Minimal</td><td>Relatively preserved</td></tr>
           <tr><td>Spicy (heat)</td><td>No effect</td><td>No effect</td><td>Unchanged or more noticeable</td></tr>
-          <tr><td>Aroma/Flavour</td><td>Significant — nasal congestion</td><td>Moderate (cognitive load)</td><td>Major reduction overall</td></tr>
+          <tr><td>Aroma/Flavour</td><td>Significant, nasal congestion</td><td>Moderate (cognitive load)</td><td>Major reduction overall</td></tr>
         </tbody>
       </table>
 
@@ -3002,7 +2894,7 @@ export const articles: Article[] = [
       <p>Hydration also matters. Drinking water regularly during a flight partially counteracts the desiccating effect on mucous membranes, which is why sommeliers and food professionals who travel frequently tend to drink more water than typical passengers, it preserves more of their sensory function.</p>
 
       <h2>Conclusion</h2>
-      <p>The blandness of airline food is mostly a sensory illusion produced by pressure, dryness, and noise conspiring to suppress your ability to taste. Your sweet and salty sensitivity drops by roughly a third. Your nose partially congests. The ambient roar diverts cognitive resources away from flavour interpretation. The meal was never the main problem, the cabin was. Next time the food seems flat, order the tomato juice, ask for extra seasoning, and remember you are eating with equipment that has been systematically detuned. The engineer who designed the pressurisation system did not consult the chef.</p>
+      <p>The blandness of airline food is mostly a sensory illusion produced by pressure, dryness, and noise conspiring to suppress your ability to taste. Your sweet and salty sensitivity drops by roughly a third. Your nose partially congests. The ambient roar diverts cognitive resources away from flavour interpretation. The meal was never the main problem, the cabin was. If you compensate with extra sugar or constant snacking, remember that frequency matters for dental health as explained in <a href="/article/why-animals-dont-get-cavities-humans-do">why humans get cavities while most animals do not</a>. Next time the food seems flat, order the tomato juice, ask for extra seasoning, and remember you are eating with equipment that has been systematically detuned.</p>
 
       <h2>Frequently Asked Questions</h2>
 
@@ -3014,12 +2906,6 @@ export const articles: Article[] = [
 
       <h3>Is the 30% taste suppression figure from research or aviation industry marketing?</h3>
       <p>It comes from independent research. The Fraunhofer Institute study commissioned by Lufthansa in 2010 is the most widely cited finding, but subsequent research including work from Cornell University's Food and Brand Lab has corroborated directionally similar effects. The exact percentage varies by individual and specific flavour, so treat it as an approximate range rather than a precise figure.</p>
-
-      <h3>Do business class passengers experience the same taste changes as economy passengers?</h3>
-      <p>Yes. Cabin pressure and humidity levels are consistent throughout the aircraft. Business and first class passengers eat better food and have more attentive service, but they eat it with the same physiologically compromised palates as everyone else. The primary advantage of premium cabins is recipe quality, not sensory performance.</p>
-
-      <h3>Why does alcohol feel stronger on a plane?</h3>
-      <p>This is partly a myth. Research does not consistently support the claim that alcohol is absorbed faster at altitude. The more likely explanation is dehydration, passengers who have not drunk enough water are already mildly dehydrated before they order a drink, which concentrates blood alcohol more quickly. Dehydration amplifies alcohol's effects regardless of altitude.</p>
 
       <h3>Can chewing gum or mints help restore taste during a flight?</h3>
       <p>Slightly. Chewing stimulates saliva production, which helps keep mucous membranes from drying out completely. Strong mint flavours rely partly on the cooling sensation of menthol, which activates temperature receptors rather than olfactory ones, making them somewhat more altitude-resistant than subtle flavours. Neither is a full solution.</p>
@@ -3217,17 +3103,20 @@ export const articles: Article[] = [
     slug: "why-animals-dont-get-cavities-humans-do",
     title: "Why Animals Don't Get Cavities (And Humans Specifically Do)",
     excerpt:
-      "Most animals never see a dentist and still keep perfect teeth. Here's the real biological reason humans are uniquely prone to tooth decay and what it reveals about our diet.",
+      "Animals avoid cavities mostly because of diet and eating patterns. Humans created a perfect environment for decay through frequent sugars and refined carbohydrates.",
     metaDescription:
-      "Most animals never see a dentist and still keep perfect teeth. Here's the real biological reason humans are uniquely prone to tooth decay and what it reveals about our diet.",
+      "Learn why animals rarely get cavities and why humans do. Diet, eating frequency, saliva chemistry, and modern carbohydrates drive tooth decay.",
     content: `
-      <h2>The Mouth Is a Battlefield, and Sugar Decides Who Wins</h2>
+      <p class="lead">Animals avoid cavities mostly because they do not eat frequent, refined sugars. Humans do, which feeds acid producing bacteria and keeps mouth pH low for long stretches. Cavities are less about weak teeth and more about a modern diet applied to an ancient mouth.</p>
+
+      <h2>How cavities form in the first place</h2>
       <p>Tooth decay isn't about hygiene alone. It's a chemical war fought on your tooth surface every time you eat. The bacteria living in your mouth, particularly <strong>Streptococcus mutans</strong>, feed on the sugars you consume and produce lactic acid as a byproduct. That acid dissolves the mineral structure of tooth enamel over time. Do it enough, and you get a cavity.</p>
       <p>Every animal has bacteria in its mouth. So why aren't wolves walking around with rotten teeth?</p>
       <p>The answer comes down to what those animals eat, how often they eat it, and what their saliva is designed to handle.</p>
 
       <h2>Wild Animals Eat in Ways That Don't Feed the Decay Process</h2>
       <p>Most wild animals consume foods that don't sustain acid-producing bacteria at dangerous levels. Carnivores eat protein and fat, not fermentable carbohydrates. Herbivores eat fibrous plants with complex carbohydrates that require significant breakdown before bacteria can access them. Neither diet gives S. mutans the quick, easily fermentable sugars it thrives on.</p>
+      <p>Humans, by contrast, design diets around quick energy and intense sweetness, and flavour perception itself changes by context, as shown in <a href="/article/why-food-tastes-different-at-35000-feet-flying-flavour-science">why food tastes different at altitude</a>.</p>
       <p>There's also the frequency issue. Wild animals typically eat in discrete meals, not continuously throughout the day. Every time you eat something sugary or starchy, your mouth pH drops and stays low for 20 to 40 minutes. An animal that eats one large meal every two days gives its saliva time to neutralize and remineralize. A human who sips sweetened coffee all morning never does.</p>
       <p><strong>Why this matters:</strong> The cavity problem isn't just about what you eat. It's about how often acid attacks your teeth relative to how long your saliva has to repair the damage.</p>
 
@@ -3266,6 +3155,9 @@ export const articles: Article[] = [
         </tbody>
       </table>
 
+      <h2>New directions: precision prevention</h2>
+      <p>Researchers are exploring targeted approaches that focus on the bacteria most responsible for decay instead of wiping out the entire oral microbiome. One promising area is <a href="/article/crispr-gene-editing-transforming-medicine">CRISPR based antimicrobial research</a> that could selectively disable harmful strains such as S. mutans while leaving beneficial species intact.</p>
+
       <h2>Conclusion</h2>
       <p>The reason animals don't get cavities isn't that they have better teeth or cleaner mouths. It's that the modern human food environment is genuinely unusual in evolutionary terms. Frequent eating, refined sugars, and sticky processed carbohydrates create exactly the conditions that acid-producing bacteria need to do damage.</p>
       <p>Your teeth aren't defective. They're doing a reasonable job against a diet they were never designed to face. The animals holding perfect dental records aren't brushing twice a day. They're eating what their teeth were built for. That's a stranger and more sobering observation than most dental hygiene advice ever acknowledges.</p>
@@ -3277,12 +3169,8 @@ export const articles: Article[] = [
       <p>Streptococcus mutans is the primary culprit. It metabolizes fermentable sugars and excretes lactic acid, which dissolves tooth enamel over time. It thrives specifically in mouths frequently exposed to simple sugars.</p>
       <h3>Did ancient humans get cavities?</h3>
       <p>Pre-agricultural humans had very low cavity rates, typically under 2 percent based on archaeological dental surveys. Rates rose sharply after farming introduced grain-heavy, carbohydrate-dense diets to most populations.</p>
-      <h3>Why do humans produce amylase in saliva if it speeds up cavity formation?</h3>
-      <p>Amylase evolved to help digest cooked starchy foods, which became central to the human diet hundreds of thousands of years ago. It was a useful adaptation for digestion. The cavity trade-off is a side effect that only became significant as diets shifted further toward refined carbohydrates.</p>
       <h3>Can early tooth decay be reversed?</h3>
       <p>At the very early stage, before a cavity fully forms, enamel can remineralize with adequate saliva, fluoride exposure, and reduced acid attacks. Once the decay reaches dentin, professional treatment is necessary.</p>
-      <h3>Do dogs and cats get cavities?</h3>
-      <p>Cats get cavities very rarely because of their tooth shape and carnivorous diet. Dogs develop them more often, particularly when fed processed commercial food and table scraps. Dogs on raw meat diets show significantly lower rates.</p>
       <h3>Is sugar frequency worse than sugar quantity for teeth?</h3>
       <p>Yes. Research consistently shows that how often you expose your mouth to sugar matters more than total daily sugar amount. Sipping a sugary drink over three hours causes more cumulative acid exposure than drinking the same amount quickly with a meal.</p>
     `,
