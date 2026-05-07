@@ -828,7 +828,7 @@ export const articles: Article[] = [
       <p>Run <code>OpenClaw onboard</code>. This launches an interactive setup that will ask you to:</p>
       <ul>
         <li><strong>Choose an AI Provider:</strong> Enter your API key for Anthropic, OpenAI, or a local provider like Ollama.</li>
-        <li><strong>Link a Channel:</strong> Select WhatsApp or Telegram. For WhatsApp, you'll simply scan a QR code with your phone, just like logging into WhatsApp Web.</li>
+        <li><strong>Link a Channel:</strong> Select WhatsApp or Telegram. For WhatsApp, you will simply scan a QR code with your phone, just like logging into WhatsApp Web.</li>
         <li><strong>Enable Skills:</strong> Choose which "powers" to give your bot (e.g., File access, Browser control).</li>
       </ul>
 
