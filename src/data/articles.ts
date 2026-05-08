@@ -123,10 +123,10 @@ export const articles: Article[] = [
 
       <p>This isn't just about faster smartphones. It’s about simulating molecular structures to cure diseases, optimizing global logistics in real-time, and—crucially—breaking the encryption that secures the internet. Here is everything you need to know about the quantum revolution.</p>
 
-      <h2>What Is Quantum Computing? (A Non-Technical Definition)</h2>
+      <h2>What Is Quantum Computing? A Non-Technical Definition</h2>
       <p>Classical computers, from your laptop to the Summit supercomputer, operate on a binary system. They use <strong>bits</strong> as the smallest unit of data, which exist in a state of either 0 or 1. Think of a light switch: it is either on or off.</p>
 
-      <p>Quantum computers use <strong>qubits</strong> (quantum bits). Thanks to a principle called <em>superposition</em>, a qubit can exist in a state of 0, 1, or both simultaneously. Imagine a spinning coin; while it's spinning, it is not heads or tails—it is a probability of both.</p>
+      <p>Quantum computers use <strong>qubits</strong> (quantum bits). Thanks to a principle called <em>superposition</em>, a qubit can exist in a state of 0, 1, or both simultaneously. Imagine a spinning coin: while it is spinning, it is not heads or tails. It is a probability of both.</p>
 
       <h3>The Power of Exponential Scaling</h3>
       <p>This capability allows quantum machines to handle calculations that scale exponentially rather than linearly. Two classical bits can hold one of four values (00, 01, 10, 11) at a time. Two qubits can hold all four values simultaneously.</p>
@@ -138,14 +138,14 @@ export const articles: Article[] = [
       <h2>Real-World Applications: Why It Matters Today</h2>
       <p>While a fully fault-tolerant quantum computer is still on the horizon, we are currently in the <strong>NISQ (Noisy Intermediate-Scale Quantum)</strong> era. Tech giants like Google, IBM, and startups like Rigetti are already demonstrating specific use cases where quantum creates massive value.</p>
 
-      <h3>1. Pharmaceutical and Material Science Revolution</h3>
+      <h3>1. Drug Discovery and Materials Science</h3>
       <p>Classical computers struggle to simulate molecules because nature itself is quantum. To simulate a caffeine molecule perfectly on a classical computer would require immense resources. Quantum computers map naturally to these problems.</p>
       <ul>
         <li><strong>Drug Discovery:</strong> Researchers can simulate protein folding and molecular interactions with high precision, potentially cutting drug development timelines by years.</li>
         <li><strong>Battery Technology:</strong> Simulating new material structures to create batteries with higher density and faster charging capabilities for EVs.</li>
       </ul>
 
-      <h3>2. Financial Modeling and Risk Assessment</h3>
+      <h3>2. Financial Modeling and Quantitative Risk</h3>
       <p>The financial sector is actively investing in quantum algorithms to improve Monte Carlo simulations—a method used to predict the probability of different outcomes.</p>
       <p>Quantum advantage allows banks to:</p>
       <ul>
@@ -155,10 +155,10 @@ export const articles: Article[] = [
       </ul>
 
       <h3>3. Logistics and Supply Chain Optimization</h3>
-      <p>This is often framed as the "Traveling Salesman Problem." If a delivery driver has 100 stops, calculating the absolute most efficient route involves more variables than there are stars in the galaxy. Quantum algorithms can analyze all potential routes simultaneously to find the global optimum, saving billions in fuel and time.</p>
+      <p>This is often framed as the "Traveling Salesman Problem." If a delivery driver has 100 stops, calculating the absolute most efficient route involves more variables than there are stars in the galaxy. Quantum algorithms can analyze all potential routes simultaneously to find the global optimum, saving billions in fuel and time. Classical systems still solve large-scale coordination problems with clever heuristics, similar to how <a href="/article/traffic-light-timing-algorithms-400000-signals">traffic light timing algorithms manage hundreds of thousands of intersections</a> using approximate, real-time optimization.</p>
 
-      <h2>The "Q-Day" Threat: Cybersecurity and Encryption</h2>
-      <p>The most pressing narrative in quantum computing is its impact on security. Most of the internet's security (HTTPS, banking, messaging) relies on RSA encryption. RSA works because factoring large numbers is incredibly difficult for classical computers.</p>
+      <h2>"Q-Day": How Quantum Computing Threatens Internet Encryption</h2>
+      <p>The most pressing narrative in quantum computing is its impact on security. Most of the internet's security, including HTTPS, online banking, and encrypted messaging, relies on RSA encryption. RSA works because factoring large numbers is incredibly difficult for classical computers.</p>
 
       <p>However, <strong>Shor’s Algorithm</strong>, a quantum concept derived in 1994, proved that a sufficiently powerful quantum computer could factor these numbers efficiently, rendering current encryption useless. This hypothetical day when encryption breaks is known as "Q-Day."</p>
 
@@ -166,13 +166,14 @@ export const articles: Article[] = [
       <p>Even though Q-Day is likely a decade away, the threat is immediate. Adversaries are currently stealing encrypted data—state secrets, intellectual property, private communications—and storing it. They are waiting until quantum technology matures to decrypt it.</p>
       
       <p><strong>Strategic Move:</strong> Organizations must transition to Post-Quantum Cryptography (PQC). The US National Institute of Standards and Technology (NIST) has already begun standardizing algorithms resistant to quantum attacks.</p>
+      <p>This shift is already changing how everyday authentication is designed. Standards bodies are pushing toward phishing-resistant credentials, which is one reason the industry is moving away from shared secrets entirely, as covered in our guide to <a href="/article/end-of-passwords-guide-passkeys-biometric-security">passkeys and biometric security</a>.</p>
 
-      <h2>Challenges: Why We Aren't There Yet</h2>
+      <h2>Why We Don't Have Quantum Computers Yet: The Engineering Challenges</h2>
       <p>If the potential is so high, why don't we have these machines on our desks? Engineering a quantum computer is one of the hardest tasks humanity has ever undertaken.</p>
 
       <ul>
         <li><strong>Decoherence:</strong> Qubits are incredibly fragile. Interaction with heat, light, or magnetic fields causes them to lose their quantum state (decoherence), leading to calculation errors.</li>
-        <li><strong>Extreme Conditions:</strong> Most quantum processors must be kept at temperatures near absolute zero—colder than deep space—to function.</li>
+        <li><strong>Extreme Conditions:</strong> Most quantum processors must be kept at temperatures near absolute zero, colder than deep space, in order to function.</li>
         <li><strong>Error Correction:</strong> To make a logical qubit that is stable, you currently need thousands of physical qubits to correct errors. Scaling this remains the primary engineering hurdle.</li>
       </ul>
 
@@ -197,6 +198,12 @@ export const articles: Article[] = [
 
       <h3>How can I start learning quantum computing?</h3>
       <p>You don't need a PhD in physics to start. Python libraries like Qiskit (IBM) and Cirq (Google) allow developers to write quantum circuits. Understanding linear algebra is helpful, but the software abstraction layers are improving rapidly.</p>
+
+      <h3>What is the difference between a qubit and a bit?</h3>
+      <p>A classical bit holds one definite value, either 0 or 1. A qubit uses superposition to hold a probabilistic combination of 0 and 1 at the same time, and through entanglement multiple qubits can represent exponentially more states than the same number of classical bits.</p>
+
+      <h3>Is quantum computing real today, or still theoretical?</h3>
+      <p>It is real and operational, but limited. We are in the NISQ era, where quantum processors from IBM, Google, IonQ, and Quantinuum run real workloads through cloud platforms. They are not yet large or stable enough to break encryption or replace classical high-performance computing for most tasks.</p>
     `,
     coverImage: "/images/articles/quantum-computing.jpg",
     category: "technology",
