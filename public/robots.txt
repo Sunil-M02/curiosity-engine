@@ -2,18 +2,6 @@
 
 User-agent: *
 Allow: /
-Disallow: /contact/thank-you
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
+Disallow: /contact/thank-you/
 
 Sitemap: https://www.curiosityfields.com/sitemap.xml
