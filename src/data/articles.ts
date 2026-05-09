@@ -191,7 +191,7 @@ export const articles: Article[] = [
 
       <h3>How can I start learning quantum computing?</h3>
       <p>IBM's Qiskit and Google's Cirq are the most accessible Python frameworks for writing quantum circuits. Both have free tutorials and simulation modes that run on classical hardware, so you do not need quantum hardware access to learn the basics. Linear algebra helps significantly because quantum states are vectors and quantum operations are matrices. IBM Quantum Learning and MIT OpenCourseWare offer structured paths that do not assume a physics PhD.</p>
-    ``,
+    `,
     coverImage: "/images/articles/quantum-computing.jpg",
     category: "technology",
     author: authors[1],
