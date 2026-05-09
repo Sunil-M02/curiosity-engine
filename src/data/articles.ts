@@ -191,7 +191,7 @@ export const articles: Article[] = [
 
       <h3>How can I start learning quantum computing?</h3>
       <p>IBM's Qiskit and Google's Cirq are the most accessible Python frameworks for writing quantum circuits. Both have free tutorials and simulation modes that run on classical hardware, so you do not need quantum hardware access to learn the basics. Linear algebra helps significantly because quantum states are vectors and quantum operations are matrices. IBM Quantum Learning and MIT OpenCourseWare offer structured paths that do not assume a physics PhD.</p>
-    ``,
+    `,
     coverImage: "/images/articles/quantum-computing.jpg",
     category: "technology",
     author: authors[1],
@@ -1490,7 +1490,7 @@ export const articles: Article[] = [
     <h3>Do I still need a password manager in 2026?</h3>
 
     <p>Yes, for two reasons. Most services have not yet migrated to passkeys, so legacy passwords still exist. More importantly, password managers are evolving into unified credential managers that store both legacy passwords and passkeys, with breach monitoring and autofill across all authentication types. The category is expanding, not disappearing.</p>
-  ``,
+  `,
     coverImage: "/images/articles/passkey-security-2026.jpg",
     category: "technology",
     author: authors[1],
@@ -1846,7 +1846,7 @@ export const articles: Article[] = [
 
       <h3>How does video streaming compare to AI queries in energy use?</h3>
       <p>Video streaming is energy-intensive relative to text browsing or email, but efficient on a per-bit basis because modern video codecs including H.265/HEVC and AV1 compress data very effectively. AI model inference is far more energy-intensive per session. A single large language model query consumes roughly ten times more energy than serving a second of streamed video, and that gap widens as model size increases.</p>
-    ``,
+    `,
     coverImage: "/images/articles/streaming-energy-cost.jpg",
     category: "technology",
     author: authors[1],
@@ -2281,7 +2281,7 @@ export const articles: Article[] = [
 
       <h3>Does Google use AI to understand page content?</h3>
       <p>Yes. Google's BERT and MUM systems use transformer-based neural networks to interpret query intent and page relevance at a semantic level. This means Google interprets the meaning of text in context, not just the presence of specific keywords. Writing for topical depth and genuine user intent consistently outperforms writing for keyword density.</p>
-    ``,
+    `,
     coverImage: "/images/articles/google-indexing-architecture.jpg",
     category: "technology",
     author: authors[1],
@@ -2362,7 +2362,7 @@ export const articles: Article[] = [
 
       <h3>Is the algorithm the same for everyone on the platform?</h3>
       <p>The architecture is the same. The trained model weights and your personal candidate pool are unique to you. Two people opening the same app at the same moment will see entirely different feeds even if they follow identical accounts, because ranking is personalized at the individual user level, not at a cohort level.</p>
-    ``,
+    `,
     coverImage: "/images/articles/social-feed-algorithm.jpg",
     category: "technology",
     author: authors[1],
@@ -2875,7 +2875,7 @@ export const articles: Article[] = [
 
       <h3>What happens when an adaptive traffic system loses sensor data?</h3>
       <p>Most systems fall back to pre-programmed fixed-time plans, timing tables designed for typical traffic conditions. The quality of this fallback depends on how recently those plans were updated and how well they reflect current road network configuration. In cities with poor maintenance schedules, fallback plans can be significantly outdated relative to actual traffic patterns.</p>
-    ``,
+    `,
     coverImage: "/images/articles/traffic-light-algorithms.jpg",
     category: "technology",
     author: authors[0],
