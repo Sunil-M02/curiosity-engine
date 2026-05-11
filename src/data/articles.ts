@@ -3519,18 +3519,16 @@ const getPublishedTimestamp = (article: Article): number | null => {
     return null;
   }
 
-  const timestamp = Date.parse(article.publishedAt);
-
-  if (Number.isNaN(timestamp)) {
-    return null;
-  }
-
-  const [, year, month, day] = match;
+  const [, yearString, monthString, dayString] = match;
+  const year = Number(yearString);
+  const month = Number(monthString);
+  const day = Number(dayString);
+  const timestamp = Date.UTC(year, month - 1, day);
   const parsedDate = new Date(timestamp);
   const isValidDate =
-    parsedDate.getUTCFullYear() === Number(year) &&
-    parsedDate.getUTCMonth() + 1 === Number(month) &&
-    parsedDate.getUTCDate() === Number(day);
+    parsedDate.getUTCFullYear() === year &&
+    parsedDate.getUTCMonth() + 1 === month &&
+    parsedDate.getUTCDate() === day;
 
   return isValidDate ? timestamp : null;
 };
@@ -3548,8 +3546,8 @@ const sortArticlesByPublishedAt = (
   const invalidEntries = options.excludeInvalid ? [] : entries.filter((entry) => entry.timestamp === null);
 
   const sortedValidEntries = validEntries.sort((a, b) => {
-    const aTime = a.timestamp ?? 0;
-    const bTime = b.timestamp ?? 0;
+    const aTime = a.timestamp as number;
+    const bTime = b.timestamp as number;
 
     if (aTime === bTime) {
       return a.index - b.index;
