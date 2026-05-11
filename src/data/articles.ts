@@ -3510,9 +3510,29 @@ export const articles: Article[] = [
   },
 ];
 
+const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
+
 const getPublishedTimestamp = (article: Article): number | null => {
+  const match = isoDatePattern.exec(article.publishedAt);
+
+  if (!match) {
+    return null;
+  }
+
   const timestamp = Date.parse(article.publishedAt);
-  return Number.isNaN(timestamp) ? null : timestamp;
+
+  if (Number.isNaN(timestamp)) {
+    return null;
+  }
+
+  const [, year, month, day] = match;
+  const parsedDate = new Date(timestamp);
+  const isValidDate =
+    parsedDate.getUTCFullYear() === Number(year) &&
+    parsedDate.getUTCMonth() + 1 === Number(month) &&
+    parsedDate.getUTCDate() === Number(day);
+
+  return isValidDate ? timestamp : null;
 };
 
 const sortArticlesByPublishedAt = (
