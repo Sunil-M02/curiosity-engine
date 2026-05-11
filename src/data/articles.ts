@@ -3568,7 +3568,7 @@ export function getFeaturedArticles(): Article[] {
 }
 
 export function getEditorsPickArticles(limit = 6): Article[] {
-  return sortArticlesByPublishedAt(articles.filter((article) => article.editorsPick === true)).slice(0, limit);
+  return articles.filter((article) => article.editorsPick === true).slice(0, limit);
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {
