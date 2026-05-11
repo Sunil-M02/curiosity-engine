@@ -3510,13 +3510,7 @@ export const articles: Article[] = [
   },
 ];
 
-const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
-
 const getPublishedTimestamp = (article: Article): number | null => {
-  if (!isoDatePattern.test(article.publishedAt)) {
-    return null;
-  }
-
   const timestamp = Date.parse(article.publishedAt);
   return Number.isNaN(timestamp) ? null : timestamp;
 };
@@ -3530,7 +3524,9 @@ const sortArticlesByPublishedAt = (
     index,
     timestamp: getPublishedTimestamp(article),
   }));
-  const filteredEntries = options.excludeInvalid ? entries.filter((entry) => entry.timestamp !== null) : entries;
+  const filteredEntries = options.excludeInvalid
+    ? entries.filter((entry) => entry.timestamp !== null)
+    : entries;
 
   return filteredEntries
     .sort((a, b) => {
