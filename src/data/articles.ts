@@ -205,125 +205,86 @@ export const articles: Article[] = [
     slug: "james-webb-telescope-discoveries-changing-astronomy",
     title: "James Webb Telescope Discoveries That Are Changing Astronomy",
     excerpt:
-      "From uncovering unexpectedly mature early galaxies to decoding the atmospheres of distant exoplanets, the James Webb Space Telescope is transforming astronomy from theory-driven assumptions to data-driven reality. Here’s how JWST is reshaping what we know about the universe.",
+      "From uncovering unexpectedly mature early galaxies to decoding the atmospheres of distant exoplanets, the James Webb Space Telescope is transforming astronomy from theory-driven assumptions to data-driven reality. Here's how JWST is reshaping what we know about the universe.",
     metaDescription:
-      "Explore JWST's groundbreaking discoveries: early galaxies, exoplanet atmospheres, and cosmic mysteries. See how the James Webb Telescope rewrites astronomy.",
+      "Explore JWST's groundbreaking discoveries: early galaxies, exoplanet atmospheres, and cosmic mysteries. See how the James Webb Space Telescope is rewriting cosmology.",
     content: `
-      <p>When the James Webb Space Telescope (JWST) released its first full-color images, it was immediately clear that astronomy had entered a new era. This was not a routine upgrade from previous space telescopes. JWST was designed to answer questions that older instruments simply could not reach: How did the first galaxies form? What are exoplanet atmospheres really made of? How do stars and planetary systems come into existence? Within its first year, JWST began delivering data that challenged long-standing theories and forced scientists to rethink the early history of the universe.</p>
-
-<p>Unlike optical telescopes that see visible light, JWST observes primarily in the infrared spectrum. This allows it to detect extremely faint and distant objects whose light has been stretched by the expansion of the universe. In practical terms, it means JWST can see further back in time than any telescope before it, reaching closer to the moment when the first stars and galaxies formed.</p>
-
-<h2>What Makes the James Webb Space Telescope Different</h2>
-
-<p>JWST is not a replacement for the Hubble Space Telescope; it is a fundamentally different instrument. Hubble observes mostly visible and ultraviolet light, while JWST is optimized for infrared. This distinction is critical because the earliest galaxies emit light that has been shifted into the infrared by cosmic expansion. Without infrared sensitivity, those galaxies remain invisible.</p>
-
-<p>JWST’s 6.5-meter segmented mirror is over six times larger than Hubble’s. This gives it far greater light-gathering power, allowing it to detect objects that are both older and fainter. Its position at the second Lagrange point (L2), about one million miles from Earth, keeps it thermally stable and away from Earth’s heat and light interference.</p>
-
-<p>Its massive sunshield, roughly the size of a tennis court, blocks heat from the Sun, Earth, and Moon. This keeps the telescope cold enough to detect faint infrared signals. Without this extreme cooling, its instruments would be blinded by their own heat.</p>
-
-<h2>Peering Back to the First Galaxies</h2>
-
-<p>One of JWST’s most powerful achievements has been its ability to observe galaxies that formed only a few hundred million years after the Big Bang. These observations are not just pushing distance records; they are reshaping cosmology.</p>
-
-<p>Before JWST, scientists believed that early galaxies were small, chaotic, and slow to assemble. JWST has shown something very different. Many early galaxies appear surprisingly massive, structured, and chemically evolved. This implies that galaxy formation happened much faster than existing models predicted.</p>
-
-<p>This matters because cosmological models are built on assumptions about how matter collapses, how stars form, and how galaxies grow. JWST data suggests that these processes were far more efficient in the early universe than previously believed. That forces astronomers to revisit foundational theories of cosmic evolution.</p>
-
-<h2>How Infrared Vision Changes What We See</h2>
-
-<p>Infrared light penetrates cosmic dust that blocks visible wavelengths. Many star-forming regions are hidden inside dense clouds of gas and dust. Hubble could only see their outer surfaces. JWST can see inside them.</p>
-
-<p>This has transformed the study of stellar nurseries. Regions like the Carina Nebula and the Pillars of Creation have been imaged with extraordinary clarity. JWST reveals:</p>
-
-<ul>
-  <li>Protostars forming inside dense gas clouds</li>
-  <li>Jets of material being ejected from newborn stars</li>
-  <li>Complex chemical structures previously undetectable</li>
-  <li>Precise distributions of dust and molecular gas</li>
-</ul>
-
-<p>These details help scientists understand how stars acquire mass, how planetary systems form, and why different stars evolve in different ways.</p>
-
-<h2>Rewriting Exoplanet Science</h2>
-
-<p>Perhaps JWST’s most direct impact on public imagination comes from its work on exoplanets. For the first time, astronomers can analyze exoplanet atmospheres with high precision rather than inferring their composition indirectly.</p>
-
-<p>JWST has already detected carbon dioxide, water vapor, methane, and sulfur compounds in several exoplanet atmospheres. One landmark result was the unambiguous detection of carbon dioxide in the atmosphere of WASP-39b, a gas giant located about 700 light-years away. This was not just a technical success; it validated JWST’s ability to perform real atmospheric chemistry on worlds beyond our solar system.</p>
-
-<p>Atmospheric composition tells scientists:</p>
-
-<ul>
-  <li>How a planet formed</li>
-  <li>Whether it migrated from another region of its solar system</li>
-  <li>How stable its climate might be</li>
-  <li>Whether basic ingredients for life could exist</li>
-</ul>
-
-<p>While JWST is not yet detecting life itself, it is building the toolkit required to identify potentially habitable environments with unprecedented confidence.</p>
-
-<h2>Why These Discoveries Matter for Astrobiology</h2>
-
-<p>Astrobiology is no longer theoretical. JWST allows scientists to examine whether rocky planets have atmospheres capable of supporting liquid water. It can identify gases that may indicate biological processes, such as oxygen, methane combinations, or chemical imbalances that are hard to explain through geology alone.</p>
-
-<p>This does not mean JWST will announce alien life tomorrow. It means that for the first time, the search for life beyond Earth is grounded in measurable, testable data rather than speculation.</p>
-
-<h2>Stellar Evolution in Unprecedented Detail</h2>
-
-<p>JWST’s observations of dying stars and planetary nebulae have also been transformative. These are the environments where heavy elements like carbon, oxygen, and nitrogen are released into space. Those elements later become part of new stars, planets, and potentially living organisms.</p>
-
-<p>By mapping these processes, JWST helps scientists understand how the chemical building blocks of life are recycled through the universe.</p>
-
-<h2>How JWST Is Challenging Existing Models</h2>
-
-<p>One of the most uncomfortable outcomes of JWST’s success is that it is exposing weaknesses in current theories. When data consistently contradicts predictions, theory must change.</p>
-
-<p>JWST has shown:</p>
-
-<ul>
-  <li>Early galaxies formed faster than expected</li>
-  <li>Star formation was more efficient in the early universe</li>
-  <li>Complex chemical elements existed earlier than predicted</li>
-</ul>
-
-<p>This does not mean previous science was wrong. It means it was incomplete. JWST is filling gaps that could not be tested before.</p>
-
-<h2>The Long-Term Scientific Impact</h2>
-
-<p>JWST was designed for a mission life of at least 20 years, and fuel projections suggest it may operate even longer. This means today’s discoveries are only the beginning. As more observations accumulate, scientists will refine measurements, discover unexpected phenomena, and build entirely new frameworks for understanding the universe.</p>
-
-<p>Unlike many scientific instruments that answer narrow questions, JWST is reshaping multiple disciplines simultaneously: cosmology, planetary science, stellar physics, and astrobiology.</p>
-
-<h2>Why the James Webb Telescope Is a Turning Point</h2>
-
-<p>The importance of JWST is not just about better images. It is about changing what questions are possible to ask. Before JWST, many aspects of the early universe and exoplanet atmospheres were beyond direct observation. Now they are measurable.</p>
-
-<p>This shift from inference to observation is what makes JWST revolutionary. It turns theories into testable science. It replaces assumptions with data. And it forces astronomy to evolve based on evidence rather than expectation.</p>
-
-<p>In that sense, the JWST is not just observing the universe. It is redefining how humanity understands its place within it.</p>
-
-<h2>Frequently Asked Questions</h2>
-
-<h3>What makes the James Webb Space Telescope different from Hubble?</h3>
-<p>The James Webb Space Telescope observes primarily in infrared light, while Hubble focuses on visible and ultraviolet wavelengths. This allows JWST to see much older and more distant objects, study star-forming regions hidden by dust, and analyze the chemical composition of exoplanet atmospheres in far greater detail.</p>
-
-<h3>How far back in time can JWST see?</h3>
-<p>JWST can observe light from galaxies formed over 13.5 billion years ago, meaning it can study objects that existed just a few hundred million years after the Big Bang. This makes it the most powerful telescope ever built for studying the early universe.</p>
-
-<h3>Has the James Webb Telescope found life on other planets?</h3>
-<p>No. JWST has not detected life. However, it has detected important atmospheric molecules such as water vapor, carbon dioxide, and methane, which help scientists evaluate whether planets could potentially support life.</p>
-
-<h3>Why is infrared observation so important in astronomy?</h3>
-<p>Infrared light can pass through cosmic dust that blocks visible light and can detect extremely distant galaxies whose light has been stretched by the expansion of the universe. This makes infrared astronomy essential for studying star formation, galaxy evolution, and planetary atmospheres.</p>
-
-<h3>What was JWST’s most important exoplanet discovery so far?</h3>
-<p>One of JWST’s most important achievements was the clear detection of carbon dioxide in the atmosphere of the exoplanet WASP-39b. This confirmed that the telescope can directly analyze the chemistry of distant worlds.</p>
-
-<h3>Why are JWST’s early galaxy discoveries so surprising?</h3>
-<p>Scientists expected early galaxies to be small and poorly organized. JWST has found large, structured, and chemically evolved galaxies much earlier than predicted, suggesting that galaxy formation happened faster and more efficiently than existing models assumed.</p>
-
-<h3>How long will the James Webb Space Telescope operate?</h3>
-<p>JWST was designed to operate for at least 10 years, but fuel efficiency projections suggest it could remain functional for 20 years or more, continuing to produce scientific discoveries for decades.</p>
-
+      <p class="lead">The James Webb Space Telescope (JWST) is the most powerful astronomical observatory ever built, observing the universe in infrared wavelengths that reveal objects invisible to Hubble. Since delivering its first science data in 2022, JWST has found early galaxies far larger and more chemically evolved than any model predicted, directly detected atmospheric molecules on planets outside our solar system, and exposed gaps in standard cosmological theory that researchers are still working to explain. It is not an upgrade to Hubble. It is a fundamentally different instrument answering questions that were previously unanswerable.</p>
+ 
+      <p>When JWST released its first full-color images, it was immediately clear that astronomy had entered a new era. JWST was designed to answer questions older instruments could not reach: How did the first galaxies form? What are exoplanet atmospheres really made of? How do stars and planetary systems come into existence? Within its first year, it began delivering data that challenged long-standing theories and forced scientists to rethink the early history of the universe.</p>
+ 
+      <h2>What Makes the James Webb Space Telescope Different</h2>
+ 
+      <p>JWST is not a replacement for the Hubble Space Telescope; it is a fundamentally different instrument. Hubble observes mostly visible and ultraviolet light, while JWST is optimized for infrared. This distinction is critical because the earliest galaxies emit light that has been redshifted into the infrared by cosmic expansion. Without infrared sensitivity, those galaxies remain invisible.</p>
+ 
+      <p>JWST's 6.5-meter segmented mirror is over six times larger than Hubble's, giving it far greater light-gathering power to detect objects that are both older and fainter. Its position at the second Lagrange point (L2), about one million miles from Earth, keeps it thermally stable and away from heat and light interference. A sunshield roughly the size of a tennis court blocks heat from the Sun, Earth, and Moon, keeping the telescope cold enough to detect faint infrared signals that its own instrument heat would otherwise overwhelm.</p>
+ 
+      <h2>Peering Back to the First Galaxies</h2>
+ 
+      <p>One of JWST's most powerful achievements is observing galaxies that formed only a few hundred million years after the Big Bang. These observations are not just pushing distance records; they are reshaping cosmology itself.</p>
+ 
+      <p>Before JWST, the standard model of galaxy formation predicted that early galaxies were small, chaotic, and slow to assemble. JWST has shown something very different. Many early galaxies appear surprisingly massive, structured, and chemically evolved, implying that galaxy formation happened much faster and more efficiently than existing models predicted. That forces astronomers to revisit foundational theories about how matter collapses, how stars form, and how galaxies grow.</p>
+ 
+      <h2>How Infrared Vision Changes What We See</h2>
+ 
+      <p>Infrared light penetrates cosmic dust that blocks visible wavelengths. Many star-forming regions are hidden inside dense clouds of gas and dust that Hubble could only see from the outside. JWST sees inside them.</p>
+ 
+      <p>This has transformed the study of stellar nurseries. Regions like the Carina Nebula and the Pillars of Creation have been imaged with extraordinary clarity. JWST reveals protostars forming inside dense gas clouds, jets of material ejected from newborn stars, complex chemical structures previously undetectable, and precise distributions of dust and molecular gas. These details help scientists understand how stars acquire mass, how planetary systems form, and why different stars evolve differently.</p>
+ 
+      <h2>Rewriting Exoplanet Science</h2>
+ 
+      <p>Perhaps JWST's most direct public impact comes from its work on exoplanets. For the first time, astronomers can analyze exoplanet atmospheres with high precision rather than inferring composition indirectly.</p>
+ 
+      <p>JWST has detected carbon dioxide, water vapor, methane, and sulfur compounds in several exoplanet atmospheres. One landmark result was the unambiguous detection of carbon dioxide in the atmosphere of WASP-39b, a gas giant about 700 light-years away. This was not just a technical success; it validated JWST's ability to perform real atmospheric chemistry on worlds beyond our solar system. Atmospheric composition tells scientists how a planet formed, whether it migrated through its solar system, how stable its climate might be, and whether basic ingredients for life could exist.</p>
+ 
+      <p>While JWST is not detecting life itself, it is building the toolkit required to identify potentially habitable environments with measurable confidence. Understanding which planets warrant closest scrutiny connects directly to <a href="/article/dark-matter-mystery-what-we-know">broader questions about the universe's structure and composition</a> that cosmologists are working to resolve simultaneously.</p>
+ 
+      <h2>Why These Discoveries Matter for Astrobiology</h2>
+ 
+      <p>Astrobiology is no longer purely theoretical. JWST allows scientists to examine whether rocky planets have atmospheres capable of supporting liquid water. It can identify gases that may indicate biological processes, such as combinations of oxygen and methane that are thermodynamically unstable together and difficult to explain through geology alone.</p>
+ 
+      <p>This does not mean JWST will announce alien life soon. It means that for the first time, the search for life beyond Earth is grounded in measurable, testable data rather than speculation.</p>
+ 
+      <h2>Stellar Evolution in Unprecedented Detail</h2>
+ 
+      <p>JWST's observations of dying stars and planetary nebulae have also been transformative. These are the environments where heavy elements like carbon, oxygen, and nitrogen are released into space, later becoming part of new stars, planets, and potentially living organisms. By mapping these processes, JWST helps scientists understand how the chemical building blocks of life are recycled through the universe over billions of years.</p>
+ 
+      <h2>How JWST Is Challenging Existing Models</h2>
+ 
+      <p>One of the most consequential outcomes of JWST's success is that it is exposing weaknesses in current theories. When data consistently contradicts predictions, theory must change. JWST has shown that early galaxies formed faster than expected, that star formation was more efficient in the early universe, and that complex chemical elements existed earlier than predicted. This does not mean previous science was wrong. It means it was incomplete. JWST is filling gaps that could not be tested before.</p>
+ 
+      <h2>The Long-Term Scientific Impact</h2>
+ 
+      <p>JWST was designed for a mission life of at least 20 years, and fuel projections suggest it may operate even longer. Today's discoveries are only the beginning. As more observations accumulate, scientists will refine measurements, discover unexpected phenomena, and build new frameworks for understanding the universe.</p>
+ 
+      <p>Unlike many scientific instruments that answer narrow questions, JWST is reshaping multiple disciplines simultaneously: cosmology, planetary science, stellar physics, and astrobiology. The human ambition to go further and understand more extends beyond telescopes to missions. <a href="/article/artemis-iii-update-nasa-2026-moon-landing">NASA's Artemis program</a> represents the same drive applied to physical presence beyond Earth, building infrastructure that JWST data increasingly informs.</p>
+ 
+      <h2>Why the James Webb Telescope Is a Turning Point</h2>
+ 
+      <p>The importance of JWST is not just better images. It is about changing which questions are possible to ask. Before JWST, many aspects of the early universe and exoplanet atmospheres were beyond direct observation. Now they are measurable. This shift from inference to observation is what makes JWST revolutionary. It turns theories into testable science, replaces assumptions with data, and forces astronomy to evolve based on evidence rather than expectation.</p>
+ 
+      <h2>Frequently Asked Questions</h2>
+ 
+      <h3>What makes the James Webb Space Telescope different from Hubble?</h3>
+      <p>JWST observes primarily in infrared light, while Hubble focuses on visible and ultraviolet wavelengths. This lets JWST see much older and more distant objects, study star-forming regions hidden by dust, and analyze exoplanet atmospheric chemistry in detail that Hubble cannot achieve.</p>
+ 
+      <h3>How far back in time can JWST see?</h3>
+      <p>JWST can observe light from galaxies formed over 13.5 billion years ago, studying objects that existed just a few hundred million years after the Big Bang, making it the most powerful tool ever built for studying the early universe.</p>
+ 
+      <h3>Has the James Webb Telescope found life on other planets?</h3>
+      <p>No. JWST has not detected life. It has detected atmospheric molecules including water vapor, carbon dioxide, and methane that help scientists evaluate whether planets could potentially support life.</p>
+ 
+      <h3>Why is infrared observation so important in astronomy?</h3>
+      <p>Infrared light passes through cosmic dust that blocks visible light and can detect extremely distant galaxies whose light has been redshifted by cosmic expansion, making it essential for studying star formation, galaxy evolution, and planetary atmospheres.</p>
+ 
+      <h3>What was JWST's most important exoplanet discovery so far?</h3>
+      <p>The clear detection of carbon dioxide in the atmosphere of WASP-39b confirmed that JWST can directly analyze the chemistry of distant worlds, validating its potential for future habitability assessments.</p>
+ 
+      <h3>Why are JWST's early galaxy discoveries so surprising?</h3>
+      <p>Scientists expected early galaxies to be small and poorly organized. JWST found large, structured, and chemically evolved galaxies much earlier than predicted, suggesting galaxy formation was faster and more efficient than standard models assumed.</p>
+ 
+      <h3>How long will the James Webb Space Telescope operate?</h3>
+      <p>JWST was designed to operate for at least 10 years, but fuel efficiency projections suggest it could remain functional for 20 years or more, continuing to produce science for decades.</p>
     `,
     coverImage: "/images/articles/james-webb-telescope.jpg",
     category: "astronomy",
@@ -683,30 +644,61 @@ export const articles: Article[] = [
     metaDescription:
       "Explore the dark matter mystery: what scientists know, leading theories like WIMPs and axions, and why decades of experiments have found nothing so far.",
     content: `
-      <p>Dark matter is arguably the biggest mystery in modern physics. We know it exists—its gravitational effects are undeniable—but after decades of searching, we still don't know what it is.</p>
-
+      <p class="lead">Dark matter is the most abundant form of matter in the universe, accounting for roughly 27% of the universe's total energy content and about 85% of all matter by mass, yet it has never been directly detected. Its existence is inferred entirely from gravitational effects: galaxies rotate at speeds that visible matter alone cannot explain, the universe's large-scale structure would not exist without it, and gravitational lensing bends light far more than the visible mass of galaxy clusters should allow. The evidence is overwhelming and consistent across multiple independent methods. What dark matter actually is remains completely unknown.</p>
+ 
+      <p>This is not a gap at the edges of physics. It sits at the center of cosmology and particle physics simultaneously, and after more than three decades of dedicated experiments, every candidate particle has either been ruled out or remains undetected.</p>
+ 
       <h2>The Evidence Is Overwhelming</h2>
-      <p>Galaxies rotate too fast. The universe's large-scale structure shouldn't exist. Gravitational lensing bends light more than visible matter explains. Something massive is out there, invisible to all our instruments.</p>
-      
-      <p>The math suggests dark matter outweighs normal matter by about 5 to 1. Yet every experiment designed to detect dark matter particles directly has come up empty.</p>
-
+ 
+      <p>Galaxies rotate too fast. In the 1970s, astronomer Vera Rubin measured the rotation curves of spiral galaxies and found that stars at the outer edges rotate at nearly the same speed as stars near the center. Under Newtonian gravity applied to visible matter alone, outer stars should orbit more slowly, just as outer planets orbit the Sun more slowly than inner ones. The only explanation consistent with the observed rotation curves is a large halo of invisible mass surrounding each galaxy.</p>
+ 
+      <p>Gravitational lensing provides a second independent line of evidence. Massive objects bend light passing near them, and the degree of bending depends on the total mass. Galaxy clusters bend background light far more than their visible matter can account for. The Bullet Cluster, two galaxy clusters that passed through each other, is particularly striking: the hot gas slowed during the collision, but the gravitational mass traced by lensing did not. The mass and the visible matter are in different places. Dark matter is the explanation that fits.</p>
+ 
+      <p>The cosmic microwave background (CMB), the afterglow radiation from the early universe mapped in detail by the Planck satellite, encodes the ratio of ordinary matter to dark matter in its temperature fluctuation patterns. The CMB data independently requires roughly five times as much dark matter as ordinary matter, consistent with all other measurements.</p>
+ 
       <h2>Leading Candidates</h2>
-      <p>The most popular theories propose various particles:</p>
-      
+ 
+      <p>The most popular theories propose particles not present in the Standard Model of particle physics:</p>
+ 
       <ul>
-        <li><strong>WIMPs:</strong> Weakly Interacting Massive Particles, once the favorite, are increasingly constrained by null results</li>
-        <li><strong>Axions:</strong> Ultra-light particles originally proposed to solve a different physics problem</li>
-        <li><strong>Sterile Neutrinos:</strong> Heavier cousins of known neutrinos</li>
-        <li><strong>Primordial Black Holes:</strong> Black holes formed in the early universe</li>
+        <li><strong>WIMPs (Weakly Interacting Massive Particles):</strong> Once the leading candidate, WIMPs interact with ordinary matter through the weak nuclear force and gravity. Decades of increasingly sensitive underground detectors, including LUX-ZEPLIN and XENONnT, have found no WIMP signal. The simplest WIMP models are now heavily constrained by null results.</li>
+        <li><strong>Axions:</strong> Ultra-light particles originally proposed to solve an unrelated problem in quantum chromodynamics. Experiments including ADMX use resonant microwave cavities in strong magnetic fields to search for axion-to-photon conversion. No detection yet, but significant parameter space remains to be explored.</li>
+        <li><strong>Sterile Neutrinos:</strong> Heavier cousins of the known neutrinos that interact only gravitationally. Certain X-ray emission anomalies from galaxy clusters were briefly considered a possible signal; current evidence does not support this interpretation.</li>
+        <li><strong>Primordial Black Holes:</strong> Black holes formed in the early universe before any stars existed. Gravitational microlensing surveys constrain most mass ranges. The LIGO/Virgo black hole merger detections renewed interest in specific mass windows that remain open.</li>
       </ul>
-
-      <h2>Alternative Approaches</h2>
-      <p>Some physicists question whether dark matter exists at all. Modified gravity theories attempt to explain the observations without invisible matter—though they face their own challenges.</p>
-
-      <blockquote>"The absence of detection isn't evidence of absence, but it should make us humble about our assumptions." — Dr. Priya Natarajan, Yale</blockquote>
-
-      <h3>The Search Continues</h3>
-      <p>New experiments using different technologies and approaches are coming online. The answer, when it comes, could revolutionize our understanding of the universe.</p>
+ 
+      <h2>Alternative Approaches: Modified Gravity</h2>
+ 
+      <p>Some physicists question whether dark matter exists at all, proposing instead that our theory of gravity is incomplete at galactic scales. Modified Newtonian Dynamics (MOND) and its relativistic extension TeVeS can reproduce galaxy rotation curves without dark matter, but fail to explain the CMB acoustic peaks and the Bullet Cluster observations without adding back something very much like dark matter. No modified gravity theory has succeeded across all scales simultaneously.</p>
+ 
+      <blockquote>"The absence of detection isn't evidence of absence, but it should make us humble about our assumptions." -- Dr. Priya Natarajan, Yale</blockquote>
+ 
+      <h2>What JWST Is Adding to the Search</h2>
+ 
+      <p>The James Webb Space Telescope is contributing to dark matter research indirectly through its observations of early galaxies. If dark matter particle properties influenced galaxy formation, JWST's data on how quickly and how large early galaxies became constrains which dark matter models are consistent with observation. <a href="/article/james-webb-telescope-discoveries-changing-astronomy">JWST's early galaxy findings</a>, showing more massive and structured galaxies than expected, create tension with some cold dark matter predictions and are actively being used to test alternatives.</p>
+ 
+      <h2>The Search Continues</h2>
+ 
+      <p>New experiments using different technologies and approaches are coming online. The LZ detector, one of the most sensitive WIMP detectors ever built, published its first results in 2023 with no signal. The DESI spectroscopic survey is mapping the large-scale structure of the universe in unprecedented detail, which constrains dark matter's clustering behavior. The Vera Rubin Observatory (LSST) will map gravitational lensing across billions of galaxies when operational.</p>
+ 
+      <p>The null results are themselves scientifically valuable. Each experiment that finds nothing rules out parameter space and narrows the possibilities. Understanding where dark matter is not provides direction for the next generation of searches.</p>
+ 
+      <h2>Frequently Asked Questions</h2>
+ 
+      <h3>What is dark matter made of?</h3>
+      <p>Unknown. Multiple candidate particles have been proposed including WIMPs, axions, and sterile neutrinos, but none has been directly detected. Dark matter's existence is firmly established by gravitational evidence; its particle identity remains the central unsolved problem in cosmology.</p>
+ 
+      <h3>How do scientists know dark matter exists if they can't detect it?</h3>
+      <p>Through multiple independent gravitational effects: galaxy rotation curves, gravitational lensing, the CMB temperature spectrum, and the large-scale structure of the universe all require roughly five times as much matter as is visible. The evidence is consistent across methods developed independently.</p>
+ 
+      <h3>Could dark matter be regular matter we haven't found yet?</h3>
+      <p>No. Nucleosynthesis constraints from the early universe set a firm upper limit on the amount of ordinary matter that could exist. Dark matter must be something outside the Standard Model of particle physics.</p>
+ 
+      <h3>Why hasn't dark matter been detected in the lab?</h3>
+      <p>Either because it interacts too weakly to produce detectable signals in current instruments, or because the candidates being searched for are not what dark matter actually is. Decades of null results have ruled out large portions of the WIMP parameter space that theorists considered most natural.</p>
+ 
+      <h3>How does dark matter affect everyday life?</h3>
+      <p>It does not in any directly perceptible way. Dark matter's gravitational influence shaped the formation of galaxies and the cosmic web, which ultimately determined where stars and planets formed. Without dark matter, the galaxy we live in would not exist in its current form.</p>
     `,
     coverImage: "/images/articles/dark-matter.jpg",
     category: "astronomy",
@@ -914,31 +906,31 @@ export const articles: Article[] = [
   {
     id: "artemis-3-2026-status-update",
     slug: "artemis-iii-update-nasa-2026-moon-landing",
-    title: "Artemis III Update: NASA’s 2026 Mission to Land Humans on the Moon",
+    title: "Artemis III Update: NASA's 2026 Mission to Land Humans on the Moon",
     excerpt:
       "NASA is preparing to return humans to the lunar surface for the first time in over 50 years. We break down the latest Artemis III mission status, the shift to a 2026/2027 timeline, and the technology powering our return to the Moon.",
     metaDescription:
-      "Explore the latest Artemis III update and NASA’s 2026–2027 Moon landing timeline, Starship HLS progress, lunar South Pole plans, and key scientific goals.",
+      "Explore the latest Artemis III update and NASA's 2026-2027 Moon landing timeline, Starship HLS progress, lunar South Pole plans, and key mission objectives.",
     content: `
-    <p class="lead">Artemis III is the most ambitious human spaceflight mission of the 21st century. As of early 2026, NASA is moving from theoretical planning to hardware integration, targeting a historic return to the lunar surface that will place the first woman and the first person of color on the Moon.</p>
-
-    <p>Following the success of Artemis I and the imminent crewed flyby of Artemis II, the third mission represents the ultimate test of the Space Launch System (SLS), the Orion spacecraft, and SpaceX’s Starship Human Landing System (HLS). This isn't just a "flags and footprints" mission; it is the foundation for a permanent lunar base and a future journey to Mars.</p>
-
-    <p>While technical hurdles regarding heat shields and orbital refueling have adjusted the "no earlier than" dates, the momentum for a late 2026 or 2027 landing remains strong. Here is the definitive update on the mission architecture, landing sites, and scientific objectives.</p>
-
+    <p class="lead">Artemis III is NASA's mission to land humans on the Moon for the first time since Apollo 17 in 1972. It will place the first woman and the first person of color on the lunar surface, using SpaceX's Starship as the Human Landing System (HLS). As of 2026, NASA is targeting a launch no earlier than late 2026, with a realistic planning window extending into 2027 or 2028. The mission architecture is substantially different from Apollo: instead of landing near the equator, Artemis III targets the lunar South Pole, where permanently shadowed craters contain water ice that could support long-term human presence and future propellant production.</p>
+ 
+    <p>This is not a symbolic return. Artemis III is designed as the first step toward a permanent lunar infrastructure and a pathway toward eventual crewed Mars missions. Every system being tested and every scientific objective pursued is chosen with that long-term goal in mind.</p>
+ 
     <h2>The Current Timeline: Is 2026 Still the Goal?</h2>
-    <p>In January 2024, NASA officially adjusted the Artemis III launch date to <strong>September 2026</strong> at the earliest. However, recent GAO reports and internal mission milestones suggest a realistic window opening in <strong>2027 or 2028</strong>.</p>
-
-    <p>The delay is primarily driven by three critical development paths: the Orion spacecraft’s life support systems, the heat shield performance observed during Artemis I, and the rapid-iteration testing of SpaceX’s Starship HLS. NASA maintains a safety-first approach, prioritizing data over dates to ensure the crew's survival during the high-speed reentry phase.</p>
-
+ 
+    <p>In January 2024, NASA officially adjusted the Artemis III launch date to <strong>September 2026</strong> at the earliest. However, GAO reports and internal mission milestone reviews suggest a realistic planning window of <strong>2027 or 2028</strong>.</p>
+ 
+    <p>The delay is driven by three critical development paths: the Orion spacecraft's life support systems, heat shield performance issues observed during Artemis I's re-entry, and ongoing testing of SpaceX's Starship HLS. NASA maintains a safety-first posture, prioritizing data over dates to ensure crew survival during the high-speed re-entry phase. The human health challenges that long-duration spaceflight creates, including bone loss, radiation exposure, and vision changes documented in <a href="/article/what-happens-to-human-body-after-one-year-in-space">extended ISS missions</a>, inform these conservative medical standards.</p>
+ 
     <h2>Comparing Eras: Apollo vs. Artemis</h2>
-    <p>To understand why Artemis III is a paradigm shift, we must look at how it differs from the missions of the 1960s. Artemis is built for sustainability, not just a symbolic visit.</p>
-
+ 
+    <p>To understand why Artemis III represents a paradigm shift, it helps to see how it differs from the 1960s missions. Artemis is built for sustainability, not just a symbolic visit.</p>
+ 
     <table>
       <thead>
         <tr>
           <th>Feature</th>
-          <th>Apollo Program (1969–1972)</th>
+          <th>Apollo Program (1969-1972)</th>
           <th>Artemis Program (2024+)</th>
         </tr>
       </thead>
@@ -950,8 +942,8 @@ export const articles: Article[] = [
         </tr>
         <tr>
           <td><strong>Landing Site</strong></td>
-          <td>Lunar Equator (Easier access)</td>
-          <td>Lunar South Pole (Resource rich)</td>
+          <td>Lunar Equator (easier access)</td>
+          <td>Lunar South Pole (resource rich)</td>
         </tr>
         <tr>
           <td><strong>Lander Capacity</strong></td>
@@ -960,74 +952,70 @@ export const articles: Article[] = [
         </tr>
         <tr>
           <td><strong>Collaboration</strong></td>
-          <td>United States (National)</td>
+          <td>United States (national)</td>
           <td>International (Artemis Accords)</td>
         </tr>
       </tbody>
     </table>
-
-    <h3>Mission Architecture: The Orbital Ballet</h3>
-    <p>The Artemis III mission profile involves a complex orbital "ballet" between multiple spacecraft. The mission can be summarized in four key stages:</p>
+ 
+    <h3>Mission Architecture: The Orbital Sequence</h3>
     <ul>
       <li><strong>Earth Departure:</strong> The SLS rocket launches four astronauts inside the Orion capsule from Kennedy Space Center.</li>
       <li><strong>HLS Pre-positioning:</strong> An uncrewed Starship HLS launches separately, refuels in Earth orbit via multiple tanker flights, and travels to a Near-Rectilinear Halo Orbit (NRHO) around the Moon.</li>
-      <li><strong>The Handshake:</strong> Orion docks with Starship HLS in lunar orbit. Two astronauts transfer to Starship for the descent, while two remain in Orion.</li>
-      <li><strong>The Return:</strong> After a week on the surface, Starship launches back to orbit, rendezvous with Orion, and the crew returns to Earth.</li>
+      <li><strong>The Handshake:</strong> Orion docks with Starship HLS in lunar orbit. Two astronauts transfer to Starship for the descent; two remain in Orion.</li>
+      <li><strong>The Return:</strong> After approximately 6.5 days on the surface, Starship launches back to orbit, rendezvous with Orion, and the crew returns to Earth.</li>
     </ul>
-
+ 
     <h2>Landing Site: Why the Lunar South Pole?</h2>
-    <p>Unlike Apollo, which landed near the lunar equator, Artemis III is targeting the <strong>Lunar South Pole</strong>. This region is scientifically valuable because it contains "permanently shadowed regions" (PSRs) where sunlight never reaches the crater floors.</p>
-
-    <p>NASA has identified 13 candidate landing regions, each approximately 15 by 15 kilometers. These sites are selected based on two primary factors:</p>
-    <ul>
-      <li><strong>Access to Water Ice:</strong> Ice can be converted into oxygen for breathing and hydrogen for rocket fuel (In-Situ Resource Utilization).</li>
-      <li><strong>Sunlight Visibility:</strong> High-altitude rims provide near-constant sunlight for solar power generation.</li>
-    </ul>
-
+ 
+    <p>Unlike Apollo, which landed near the lunar equator, Artemis III targets the <strong>Lunar South Pole</strong>. This region contains permanently shadowed regions (PSRs) where sunlight never reaches crater floors, preserving water ice accumulated over billions of years.</p>
+ 
+    <p>NASA has identified 13 candidate landing regions, each approximately 15 by 15 kilometers, selected based on access to water ice (convertible into oxygen and hydrogen propellant through In-Situ Resource Utilization) and sunlight availability on elevated crater rims for continuous solar power generation. The ability to produce propellant from local resources is one of the same principles being studied for <a href="/article/13-engineering-problems-mars-colonisation-harder-than-told">Mars colonization missions</a>, where Earth supply chains are seven months away.</p>
+ 
     <h2>Scientific Objectives: The 2024 Instrument Selection</h2>
+ 
     <p>NASA's Science Definition Team has outlined seven core objectives. In 2024, NASA announced the first three instruments that astronauts will manually deploy on the surface:</p>
-
+ 
     <h3>1. Lunar Environment Monitoring Station (LEMS)</h3>
-    <p>A compact, autonomous seismometer designed to detect "moonquakes." This will help scientists understand the Moon’s internal structure and crustal thickness, which is vital for building future permanent habitats.</p>
-
+    <p>A compact, autonomous seismometer designed to detect moonquakes and help scientists understand the Moon's internal structure and crustal thickness, critical for designing future permanent habitats.</p>
+ 
     <h3>2. Lunar Effects on Agricultural Flora (LEAF)</h3>
-    <p>This experiment will investigate how space radiation and partial gravity affect plant photosynthesis and growth. It is the first step toward growing food on another world.</p>
-
+    <p>This experiment investigates how space radiation and partial gravity (one-sixth of Earth's) affect plant photosynthesis and growth. It is the first practical step toward growing food on another world.</p>
+ 
     <h3>3. Lunar Dielectric Analyzer (LDA)</h3>
-    <p>An instrument that measures the regolith's ability to propagate an electric field. This data is critical in the search for subsurface volatiles, specifically water ice.</p>
-
+    <p>An instrument that measures the regolith's ability to propagate an electric field, critical for locating subsurface water ice deposits that ground-based radar has detected but not precisely characterized.</p>
+ 
     <h2>The Starship HLS Challenge</h2>
-    <p>SpaceX’s Starship is the tallest and most powerful launch system ever built. For Artemis III, Starship must prove it can perform <strong>cryogenic propellant transfer</strong> in orbit—a feat never before achieved at this scale.</p>
-
-    <p><strong>Why this matters:</strong> Without orbital refueling, Starship cannot carry enough fuel to land 100 metric tons on the Moon and return to orbit. This makes SpaceX a "critical path" partner for the 2026/2027 timeline.</p>
-
-    <h2>Key Takeaways for the Artemis Generation</h2>
+ 
+    <p>SpaceX's Starship is the tallest and most powerful launch vehicle ever built. For Artemis III, it must successfully perform <strong>cryogenic propellant transfer in orbit</strong>, a feat never achieved at this scale. Without orbital refueling, Starship cannot carry sufficient propellant to land 100 metric tons on the Moon and return to orbit. This makes SpaceX a critical-path partner whose timeline directly determines when Artemis III can fly.</p>
+ 
+    <h2>Key Takeaways</h2>
     <div class="summary-box">
       <ul>
-        <li><strong>Current Launch Target:</strong> September 2026 (No earlier than).</li>
-        <li><strong>Astronauts:</strong> Four launch, two land (first woman and first person of color).</li>
-        <li><strong>The Lander:</strong> SpaceX Starship HLS (Human Landing System).</li>
-        <li><strong>The Goal:</strong> Establish a long-term presence at the Lunar South Pole.</li>
-        <li><strong>Next Milestone:</strong> Artemis II crewed flyby (Targeted for early 2026).</li>
+        <li><strong>Current Launch Target:</strong> September 2026 (no earlier than), with 2027-2028 the more likely window.</li>
+        <li><strong>Crew:</strong> Four launch, two land (first woman and first person of color on the Moon).</li>
+        <li><strong>Lander:</strong> SpaceX Starship HLS (Human Landing System).</li>
+        <li><strong>Goal:</strong> Establish a long-term presence at the Lunar South Pole as foundation for Mars missions.</li>
+        <li><strong>Next Milestone:</strong> Artemis II crewed lunar flyby (targeted for early 2026).</li>
       </ul>
     </div>
-
+ 
     <h2>Frequently Asked Questions</h2>
-
+ 
     <h3>When was the last time humans were on the Moon?</h3>
-    <p>The last human mission to the Moon was Apollo 17, which departed the lunar surface on December 14, 1972. Artemis III will end a gap of over 50 years.</p>
-
+    <p>Apollo 17 departed the lunar surface on December 14, 1972. Artemis III will end a gap of over 50 years in human lunar exploration.</p>
+ 
     <h3>Who are the astronauts for Artemis III?</h3>
-    <p>While the four-person crew for Artemis II has been named (Wiseman, Glover, Koch, and Hansen), the specific crew for Artemis III has not yet been announced.</p>
-
+    <p>The four-person Artemis II crew has been named (Wiseman, Glover, Koch, and Hansen). The specific Artemis III crew has not yet been publicly announced.</p>
+ 
     <h3>How long will the astronauts stay on the Moon?</h3>
-    <p>The landing astronauts are expected to stay on the lunar surface for approximately 6.5 days, conducting at least four moonwalks (EVAs).</p>
-
+    <p>The landing crew is expected to remain on the lunar surface for approximately 6.5 days, conducting at least four moonwalks (EVAs) for scientific work and instrument deployment.</p>
+ 
     <h3>What is the difference between Artemis II and Artemis III?</h3>
-    <p>Artemis II is a crewed flyby (no landing). Artemis III is the mission that will actually land two astronauts on the surface using the Starship HLS.</p>
-
+    <p>Artemis II is a crewed lunar flyby with no landing. Artemis III is the mission that will land two astronauts on the lunar surface using the Starship HLS.</p>
+ 
     <h3>Is China also going to the Moon?</h3>
-    <p>Yes. China’s space agency (CNSA) is targeting a crewed lunar landing by 2030, creating a strategic focus on the South Pole region.</p>
+    <p>Yes. China's CNSA is targeting a crewed lunar landing by 2030, creating strategic competition focused on the South Pole region that both programs consider the most valuable lunar real estate.</p>
   `,
     coverImage: "/images/articles/artemis-moon-landing.jpg",
     category: "astronomy",
@@ -1964,55 +1952,68 @@ export const articles: Article[] = [
     excerpt:
       "Scott Kelly came back from 340 days on the ISS two inches taller than his identical twin. Some of the changes reversed in days. Others hadn't fully reversed eighteen months later. Here's what the NASA Twin Study actually revealed about the body in microgravity.",
     metaDescription:
-      "What does one year in space do to the human body? Explore the real science from NASA's Twin Study, covering bone loss, vision, DNA changes, gut microbiome, and cognitive effects.",
+      "What does one year in space do to the human body? Explore the real science from NASA's Twin Study, covering bone loss, vision damage, gene expression, and what it means for Mars.",
     content: `
-      <p class="lead">When Scott Kelly returned to Earth in March 2016 after 340 days on the International Space Station, he was two inches taller than his identical twin brother Mark. Within two days, he had shrunk back to his normal height. The fluid that had accumulated in his spine during months of microgravity drained away quickly. Other changes from the mission took much longer to resolve. Some, researchers found when they published the full NASA Twin Study results in <em>Science</em> in 2019, had not fully reversed eighteen months after landing.</p>
-
-      <p>Human beings evolved over millions of years in Earth's gravity, with Earth's magnetic field providing partial radiation shielding, and with the constant mechanical loading that walking and standing impose on bones and muscles. Remove those conditions, and the body starts adapting — not in ways that are helpful for space exploration.</p>
-
+      <p class="lead">After 340 days aboard the International Space Station, astronaut Scott Kelly returned to Earth two inches taller than his identical twin brother Mark. Within two days, he had shrunk back to his normal height. Other changes took far longer. Some, documented in the full NASA Twin Study published in Science in 2019, had still not fully reversed eighteen months after landing. Space does not pause the human body. It actively reshapes it in ways that have direct consequences for every mission beyond low Earth orbit.</p>
+ 
+      <p>Human beings evolved over millions of years in Earth's gravity, with Earth's magnetic field providing partial radiation shielding, and with the constant mechanical loading that walking and standing impose on bones and muscles. Remove those conditions, and the body adapts in ways that are not helpful for space exploration.</p>
+ 
       <h2>Bone and Muscle: The Most Predictable Changes</h2>
-      <p>In microgravity, the body rapidly loses bone density and muscle mass because the mechanical loading signals that maintain them are absent. Bone remodeling is driven largely by mechanical stress — the skeleton is constantly being broken down and rebuilt, and loading signals from activity favor net bone formation. Remove the loading, and resorption outpaces formation.</p>
-      <p>ISS astronauts on six-month missions lose approximately 1–2% of bone density per month in load-bearing regions, primarily the hip, femur, and lumbar spine — a rate roughly ten times faster than the bone loss seen in postmenopausal osteoporosis. The NASA Twin Study documented that Scott Kelly lost bone density across multiple sites, with some areas showing partial recovery after return to Earth but incomplete recovery even eighteen months later.</p>
-      <p>The ISS exercise protocol, which requires roughly two hours of daily exercise combining resistive loading and cardiovascular work, mitigates but does not eliminate these losses. A 2021 paper in <em>npj Microgravity</em> from researchers at the University of Calgary analyzed bone microarchitecture in 17 astronauts after six-month missions and found that nine of them had not fully recovered trabecular bone structure one year after return.</p>
-
+ 
+      <p>In microgravity, the body rapidly loses bone density and muscle mass because the mechanical loading signals that maintain them are absent. Bone remodeling is driven largely by mechanical stress: the skeleton is constantly being broken down and rebuilt, and loading signals from activity favor net bone formation. Remove the loading, and resorption outpaces formation.</p>
+ 
+      <p>ISS astronauts on six-month missions lose approximately 1 to 2% of bone density per month in load-bearing regions, primarily the hip, femur, and lumbar spine, a rate roughly ten times faster than the bone loss seen in postmenopausal osteoporosis. The NASA Twin Study documented that Scott Kelly lost bone density across multiple sites, with some areas showing partial recovery after return to Earth but incomplete recovery even eighteen months later.</p>
+ 
+      <p>The ISS exercise protocol, which requires roughly two hours of daily exercise combining resistive loading and cardiovascular work, mitigates but does not eliminate these losses. A 2021 paper in npj Microgravity from researchers at the University of Calgary analyzed bone microarchitecture in 17 astronauts after six-month missions and found that nine had not fully recovered trabecular bone structure one year after return. For missions to Mars lasting seven months in transit alone, this is a serious design constraint. The <a href="/article/13-engineering-problems-mars-colonisation-harder-than-told">13 engineering problems facing Mars colonization</a> include this one explicitly, because arriving on Mars already physically weakened compounds every other challenge a crew faces.</p>
+ 
       <h2>The Vision Problem That Caught NASA by Surprise</h2>
-      <p>Approximately 70% of astronauts on long-duration ISS missions report visual changes, and the cause was not understood until around 2012. The syndrome, now called Spaceflight-Associated Neuro-ocular Syndrome (SANS), involves flattening of the back of the eyeball, swelling of the optic nerve, and in some cases permanent changes to visual acuity.</p>
-      <p>The leading hypothesis, supported by intracranial pressure measurements and imaging studies, is that microgravity shifts fluid from the lower body toward the head. On Earth, standing upright keeps roughly 70% of body fluids in the legs and lower body. In microgravity, that fluid redistribution does not happen, leading to chronically elevated intracranial pressure that deforms the eye. The NASA Twin Study documented optic disc edema and choroidal folds in Scott Kelly — structural changes to his eye that were visible on MRI imaging.</p>
-      <p>SANS is now considered one of the most significant medical risks for long-duration spaceflight, including any future Mars missions. A transit to Mars would take approximately 7 months, meaning astronauts would arrive with potentially degraded vision and elevated intracranial pressure.</p>
-
+ 
+      <p>Approximately 70% of astronauts on long-duration ISS missions report visual changes. The syndrome, now called Spaceflight-Associated Neuro-ocular Syndrome (SANS), involves flattening of the back of the eyeball, swelling of the optic nerve, and in some cases permanent changes to visual acuity.</p>
+ 
+      <p>The leading hypothesis, supported by intracranial pressure measurements and imaging studies, is that microgravity shifts fluid from the lower body toward the head. On Earth, standing upright keeps roughly 70% of body fluids in the legs and lower body. In microgravity, that redistribution does not happen, leading to chronically elevated intracranial pressure that mechanically deforms the eye. The NASA Twin Study documented optic disc edema and choroidal folds in Scott Kelly, structural changes visible on MRI imaging.</p>
+ 
+      <p>SANS is now considered one of the most significant medical risks for long-duration spaceflight. A Mars transit of approximately seven months means astronauts would arrive with potentially degraded vision and elevated intracranial pressure before any surface work begins.</p>
+ 
       <h2>Telomeres: The Gene Expression Surprise</h2>
-      <p>One of the more counterintuitive findings from the Twin Study was that Scott Kelly's telomeres — the protective caps on the ends of chromosomes — actually lengthened during his mission. Telomere length is generally associated with biological aging; shortening telomeres correlate with cellular senescence and age-related disease. Finding them longer in space was unexpected.</p>
-      <p>The research team, led by Dr. Susan Bailey at Colorado State University, noted that this likely reflected the intense exercise regimen and caloric restriction of the mission rather than any protective effect of space itself. Upon return to Earth, telomere length rapidly shortened, dropping below pre-flight levels within 48 hours before stabilizing. The transient lengthening was real; what it means for long-term health is still being studied.</p>
-      <p>More concerning was evidence of increased DNA damage and altered gene expression. Scott showed higher rates of DNA double-strand breaks and changes in the expression of genes related to immune function, bone formation, and hypoxia response. Some of these changes had reversed eighteen months after the mission; others had not.</p>
-
+ 
+      <p>One of the more counterintuitive findings from the Twin Study was that Scott Kelly's telomeres, the protective caps on the ends of chromosomes, actually lengthened during his mission. Telomere shortening correlates with cellular senescence and age-related disease, so finding them longer in space was unexpected.</p>
+ 
+      <p>The research team, led by Dr. Susan Bailey at Colorado State University, noted that this likely reflected the intense exercise regimen and caloric restriction of the mission rather than any protective effect of space itself. Upon return to Earth, telomere length rapidly shortened, dropping below pre-flight levels within 48 hours before stabilizing. More concerning was evidence of increased DNA damage and altered gene expression, including higher rates of DNA double-strand breaks and changes in genes related to immune function, bone formation, and hypoxia response. Some changes had reversed eighteen months after the mission; others had not.</p>
+ 
       <h2>Gut Microbiome Shifts</h2>
-      <p>The NASA Twin Study included gut microbiome analysis — comparing the composition of bacteria in Scott's digestive system before, during, and after the mission against Mark's terrestrial baseline. Space diet, confinement, altered exercise, radiation exposure, and stress all influenced the microbial community.</p>
-      <p>During the mission, Scott's microbiome showed reduced diversity and shifts in the ratio of Firmicutes to Bacteroidetes — phyla-level changes associated in ground-based research with metabolic and inflammatory outcomes. After return to Earth, his microbiome largely reverted to its pre-flight composition within months. Notably, the microbial changes were substantially larger than those attributable to diet alone, suggesting that microgravity or radiation exposure directly influences gut microbial ecology through mechanisms not yet fully characterized.</p>
-
+ 
+      <p>The NASA Twin Study included gut microbiome analysis comparing Scott's gut bacteria before, during, and after the mission against Mark's terrestrial baseline. Space diet, confinement, altered exercise, radiation exposure, and stress all influenced the microbial community.</p>
+ 
+      <p>During the mission, Scott's microbiome showed reduced diversity and shifts in the ratio of Firmicutes to Bacteroidetes, phyla-level changes associated in ground-based research with metabolic and inflammatory outcomes. After return to Earth, his microbiome largely reverted to pre-flight composition within months. The microbial changes were substantially larger than those attributable to diet alone, suggesting that microgravity or radiation exposure directly influences gut microbial ecology through mechanisms not yet fully characterized.</p>
+ 
       <h2>Cognitive and Psychological Effects</h2>
-      <p>Long-duration spaceflight presents cognitive challenges that compound physiological ones. A 2019 study in <em>Nature Neuroscience</em> from researchers at the University of Michigan analyzed MRI data from cosmonauts before and after long-duration ISS missions and found structural changes in the brain's gray matter, including reductions in regions associated with sensorimotor coordination and cerebrospinal fluid redistribution into spaces previously occupied by gray matter.</p>
-      <p>Cognitive testing of ISS crew members shows measurable performance decrements in tasks requiring attention and spatial reasoning during long missions, with partial recovery after return. The 2020 HERA (Human Exploration Research Analog) study from NASA's Johnson Space Center documented progressive changes in communication patterns and decision-making in isolated crews over multi-month simulated missions.</p>
-
+ 
+      <p>A 2019 study in Nature Neuroscience from researchers at the University of Michigan analyzed MRI data from cosmonauts before and after long-duration ISS missions and found structural changes in brain gray matter, including reductions in regions associated with sensorimotor coordination and cerebrospinal fluid redistribution into spaces previously occupied by gray matter.</p>
+ 
+      <p>Cognitive testing of ISS crew members shows measurable performance decrements in tasks requiring attention and spatial reasoning during long missions, with partial recovery after return. The 2020 HERA study from NASA's Johnson Space Center documented progressive changes in communication patterns and decision-making in isolated crews over multi-month simulated missions. These psychological effects compound physiological ones and are particularly relevant for <a href="/article/artemis-iii-update-nasa-2026-moon-landing">planning lunar surface operations</a> where crew performance under stress directly determines mission safety.</p>
+ 
       <h2>What This Means for Mars</h2>
-      <p>The Moon is 3 days away; a medical emergency can be stabilized until rescue arrives. Mars is 7 months away at closest approach; there is no rescue. Every physiological risk documented in the NASA Twin Study — bone loss, SANS, cognitive changes, DNA damage, microbiome disruption — becomes a mission-design constraint for a Mars transit.</p>
-      <p>NASA's current research priorities for long-duration spaceflight address these risks through pharmaceutical countermeasures (bisphosphonates for bone, experimental intracranial pressure interventions for SANS), improved exercise hardware, artificial gravity concepts, and radiation shielding approaches. None of these represent solved problems. The human body is not built for interplanetary transit, and the adaptation problem is one of the genuinely hard engineering challenges of the next phase of space exploration.</p>
-
+ 
+      <p>The Moon is three days away; a medical emergency can be stabilized until rescue options are assessed. Mars is seven months away at closest approach; there is no rescue. Every physiological risk documented in the NASA Twin Study, including bone loss, SANS, cognitive changes, DNA damage, and microbiome disruption, becomes a mission design constraint for a Mars transit.</p>
+ 
+      <p>NASA's current research priorities address these risks through pharmaceutical countermeasures (bisphosphonates for bone, experimental intracranial pressure interventions for SANS), improved exercise hardware, artificial gravity concepts, and radiation shielding approaches. None of these are solved problems. The human body is not built for interplanetary transit, and the adaptation problem is one of the genuinely hard engineering challenges of the next phase of space exploration.</p>
+ 
       <h2>Frequently Asked Questions</h2>
-
+ 
       <h3>What is the NASA Twin Study?</h3>
-      <p>The NASA Twin Study compared astronaut Scott Kelly, who spent 340 days on the International Space Station in 2015–2016, against his identical twin brother Mark Kelly, who remained on Earth. The study, published in <em>Science</em> in 2019, examined over 10 physiological and molecular systems and documented changes in gene expression, telomere length, gut microbiome composition, cognitive function, and bone density that differed between the twins during and after the mission.</p>
-
+      <p>The NASA Twin Study compared astronaut Scott Kelly, who spent 340 days on the ISS in 2015-2016, against his identical twin Mark Kelly, who remained on Earth. Published in Science in 2019, it examined over 10 physiological and molecular systems and documented changes in gene expression, telomere length, gut microbiome, cognitive function, and bone density.</p>
+ 
       <h3>How much bone density does an astronaut lose in space?</h3>
-      <p>ISS astronauts on six-month missions typically lose 1–2% of bone density per month in weight-bearing regions including the hip, femur, and lumbar spine. This is roughly 10 times the rate of bone loss in postmenopausal osteoporosis. The mandatory daily exercise protocol mitigates but does not eliminate these losses.</p>
-
+      <p>ISS astronauts on six-month missions typically lose 1 to 2% of bone density per month in weight-bearing regions including the hip, femur, and lumbar spine, roughly 10 times the rate of bone loss in postmenopausal osteoporosis. Mandatory daily exercise mitigates but does not eliminate these losses.</p>
+ 
       <h3>What is Spaceflight-Associated Neuro-ocular Syndrome (SANS)?</h3>
-      <p>SANS is a syndrome affecting approximately 70% of long-duration ISS astronauts, involving flattening of the back of the eyeball, optic disc swelling, and in some cases permanent visual acuity changes. It appears to result from fluid redistribution toward the head in microgravity, which chronically elevates intracranial pressure and mechanically deforms the eye.</p>
-
+      <p>SANS affects approximately 70% of long-duration ISS astronauts, involving flattening of the back of the eyeball, optic disc swelling, and in some cases permanent visual acuity changes, likely caused by fluid shifting toward the head in microgravity and chronically elevating intracranial pressure.</p>
+ 
       <h3>Can the body fully recover after a year in space?</h3>
-      <p>Many changes do reverse after return to Earth — fluid redistribution normalizes within days, muscle mass can be rebuilt with exercise, and some gene expression changes resolve. However, the NASA Twin Study found that certain indicators, including some bone microstructure changes and gene expression patterns, had not fully normalized eighteen months after Scott Kelly's return.</p>
-
+      <p>Many changes do reverse after return to Earth, including fluid redistribution, much of the muscle loss, and some gene expression changes. However, the NASA Twin Study found that certain bone microstructure changes and gene expression patterns had not fully normalized eighteen months after Scott Kelly's return.</p>
+ 
       <h3>What are the main medical risks for a Mars mission?</h3>
-      <p>Based on current ISS research, the primary medical risks for a 7-month Mars transit include progressive bone loss, SANS-related vision degradation, increased cancer risk from galactic cosmic ray exposure (which Earth's magnetic field partially shields against in LEO), potential cognitive and psychiatric effects from isolation, and microbiome disruptions with uncertain long-term health implications.</p>
+      <p>Based on current ISS research, the primary risks for a seven-month Mars transit include progressive bone loss, SANS-related vision degradation, increased cancer risk from galactic cosmic ray exposure, potential cognitive and psychiatric effects from isolation, and microbiome disruptions with uncertain long-term health implications.</p>
     `,
     coverImage: "/images/articles/year-in-space-body.jpg",
     category: "astronomy",
@@ -2555,32 +2556,38 @@ export const articles: Article[] = [
     slug: "black-holes-dont-suck-physics-of-orbiting-one",
     title: "Black Holes Don't Suck: The Physics of Why You're Safe Orbiting One",
     excerpt:
-      "Black holes don't vacuum up everything around them — they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
+      "Black holes don't vacuum up everything around them; they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
     metaDescription:
-      "Black holes don't vacuum up everything around them — they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
+      "Black holes don't vacuum up everything around them. They follow the same gravity rules as any star of equal mass. Here's the real physics of orbital mechanics and tidal forces.",
     content: `
-      <p>Almost everything popular culture has told you about black holes is wrong. They don't roam the galaxy devouring everything in their path. They don't suck ships toward them from light-years away. They don't have some special gravitational superpower beyond what any mass of their size would have.</p>
-      <p>A black hole is, gravitationally speaking, a completely ordinary object. If you replaced the Sun with a black hole of identical mass, Earth's orbit would not change by a single kilometer. The seasons, the length of the year, the tides, nothing would change gravitationally. You would freeze without sunlight, but that is a different problem.</p>
-      <p>What makes them extraordinary is real and remarkable. It's just not what most people think.</p>
-
-      <h2>Gravity Doesn't Suck — It Attracts Symmetrically</h2>
-      <p>The word 'suck' implies a suction mechanism, like a vacuum cleaner creating a pressure differential that draws air inward. Gravity doesn't work this way. Gravity is a mutual attraction between masses that follows an inverse square law: the force between two objects is proportional to the product of their masses and inversely proportional to the square of the distance between them.</p>
-      <p>This law applies identically to a black hole, a neutron star, an ordinary star, or a bowling ball. Mass determines gravitational force. The nature of the object, whether it has collapsed or emits light, is irrelevant to the gravitational force at a distance. Where black holes differ is how close you can get before the physics becomes extreme.</p>
-
+      <p class="lead">A black hole is not a cosmic vacuum cleaner. At any given distance, it exerts exactly the same gravitational force as a star of identical mass would at that same distance. If the Sun were replaced by a black hole of equal mass, Earth's orbit would not change by a single kilometer. The seasons, the year's length, the tides: nothing would change gravitationally. You would freeze without sunlight, but that is a radiation problem, not a gravity problem. What makes black holes genuinely dangerous has nothing to do with special gravitational suction and everything to do with how close you can get before ordinary orbital mechanics stops protecting you.</p>
+ 
+      <p>Almost everything popular culture has told you about black holes is wrong. They do not roam the galaxy devouring everything in their path. They do not pull ships toward them from light-years away. What makes them extraordinary is real and remarkable. It is just not what most people think.</p>
+ 
+      <h2>Gravity Doesn't Suck: It Attracts Symmetrically</h2>
+ 
+      <p>The word "suck" implies a suction mechanism, like a vacuum cleaner creating a pressure differential that draws air inward. Gravity does not work this way. Gravity is a mutual attraction between masses that follows an inverse square law: the force between two objects is proportional to the product of their masses and inversely proportional to the square of the distance between them.</p>
+ 
+      <p>This law applies identically to a black hole, a neutron star, an ordinary star, or a bowling ball. Mass determines gravitational force. Whether the object has collapsed or emits light is irrelevant to the gravitational force at a distance. Where black holes differ is how close you can get before the physics becomes extreme.</p>
+ 
       <h2>Orbital Mechanics: Why Objects Don't Fall In</h2>
-      <p>Why does Earth orbit the Sun instead of falling into it? Because it has sideways velocity. Earth is moving sideways at about 30 km/s. The Sun's gravity curves Earth's path. If gravity were switched off, Earth would fly off tangentially. Gravity keeps bending the path back, and the result is an orbit.</p>
-      <p>The same logic applies to anything orbiting a black hole. A planet, star, or spacecraft with enough tangential velocity can orbit it indefinitely at any distance outside the event horizon. This is why the galaxy doesn't get eaten by the supermassive black hole at its center (Sagittarius A*, about 4 million solar masses). Stars orbit it at distances of light-years, the same way planets orbit stars, just on much larger scales.</p>
-
+ 
+      <p>Why does Earth orbit the Sun instead of falling into it? Because it has sideways velocity. Earth moves sideways at about 30 km/s. The Sun's gravity curves Earth's path. If gravity were switched off, Earth would fly off tangentially. Gravity keeps bending the path back, and the result is a stable orbit.</p>
+ 
+      <p>The same logic applies to anything orbiting a black hole. A planet, star, or spacecraft with sufficient tangential velocity can orbit indefinitely at any distance outside the event horizon. This is why the galaxy is not being consumed by the supermassive black hole at its center, Sagittarius A*, which has a mass of about 4 million Suns. Stars orbit it at distances of light-years, the same way planets orbit stars, just at much larger scales. The same orbital mechanics that keeps Earth around the Sun governs the trajectories that <a href="/article/artemis-iii-update-nasa-2026-moon-landing">spacecraft use when entering lunar orbit</a>.</p>
+ 
       <h2>What Actually Makes Black Holes Dangerous Up Close</h2>
-      <p>Near a stellar-mass black hole, the gravitational gradient becomes extreme over very short distances. Gravity increases sharply the closer you get. If you fell feet-first toward one, your feet would feel far stronger gravity than your head. This difference would stretch your body lengthwise while compressing it sideways.</p>
-      <p>Physicists call this spaghettification. The term is informal, but the physics is precise.</p>
-      <p>The scale of this effect depends on the black hole's mass. Supermassive black holes (billions of solar masses) actually have gentler tidal gradients near their event horizons than stellar-mass black holes, because the event horizon is so much larger. Falling into a supermassive black hole, you might cross the event horizon before feeling particularly unusual tidal stresses.</p>
-
-      <h2>The Event Horizon: A Point, Not a Surface</h2>
-      <p>The event horizon is the radius at which escape velocity equals the speed of light. Inside this boundary, nothing has sufficient velocity to escape, neither matter nor light. Crucially, it is not a physical surface. There is no wall, no membrane, and nothing to collide with.</p>
-      <p>From an external perspective, nothing is ever seen crossing the event horizon. Gravitational time dilation causes light from an infalling object to become increasingly redshifted and stretched in time. To an outside observer, the object appears to slow, redden, and asymptotically freeze, never fully disappearing.</p>
-      <p>For the falling observer, however, the crossing occurs in finite time. The signal simply never reaches back out.</p>
-
+ 
+      <p>Near a stellar-mass black hole, the gravitational gradient becomes extreme over very short distances. Gravity increases sharply the closer you get. If you fell feet-first toward one, your feet would experience far stronger gravity than your head. This difference would stretch your body lengthwise while compressing it sideways. Physicists call this spaghettification. The term is informal; the physics is precise.</p>
+ 
+      <p>The scale of this effect depends on the black hole's mass. Supermassive black holes (billions of solar masses) have gentler tidal gradients near their event horizons than stellar-mass black holes, because the event horizon is so much larger. Falling into a supermassive black hole, you might cross the event horizon before feeling particularly unusual tidal stresses.</p>
+ 
+      <h2>The Event Horizon: A Boundary, Not a Surface</h2>
+ 
+      <p>The event horizon is the radius at which escape velocity equals the speed of light. Inside this boundary, nothing has sufficient velocity to escape, neither matter nor light. Crucially, it is not a physical surface. There is no wall, no membrane, and nothing to collide with at the horizon itself.</p>
+ 
+      <p>From an external perspective, nothing is ever seen crossing the event horizon. Gravitational time dilation causes light from an infalling object to become increasingly redshifted and stretched in time. To an outside observer, the object appears to slow, redden, and asymptotically freeze, never fully disappearing. For the falling observer, the crossing occurs in finite proper time. The signal simply never reaches back out. This extreme spacetime curvature is among the phenomena that <a href="/article/james-webb-telescope-discoveries-changing-astronomy">JWST is studying indirectly</a> through black hole effects on surrounding matter and light in active galactic nuclei.</p>
+ 
       <h2>Comparison: Black Hole vs. Star of Equal Mass</h2>
       <table>
         <thead>
@@ -2598,24 +2605,24 @@ export const articles: Article[] = [
           <tr><td>Emits light</td><td>Yes</td><td>No (except Hawking radiation)</td></tr>
         </tbody>
       </table>
-
+ 
       <h2>Conclusion</h2>
-      <p>Black holes are genuinely one of the most extreme physical phenomena the universe produces. But the fear that they're some special gravitational menace — cosmic vacuum cleaners lurking to swallow everything within reach — is simply wrong. At a distance, they're unremarkable gravity sources.</p>
-      <p>The real strangeness of black holes is subtler and more profound: they're regions where spacetime curvature becomes so extreme that the future points inward. Every trajectory, once inside the event horizon, leads to the singularity. Not because of suction, but because all forward paths in time lead there. That's genuinely, deeply weird. You don't need to exaggerate it.</p>
-
+ 
+      <p>Black holes are genuinely one of the most extreme physical phenomena the universe produces. But the fear that they are some special gravitational menace, cosmic vacuum cleaners lurking to swallow everything within reach, is simply wrong. At a distance, they are unremarkable gravity sources. The real strangeness is subtler and more profound: they are regions where spacetime curvature becomes so extreme that all forward paths in time lead inward. Not because of suction, but because of geometry. That is genuinely, deeply strange. You do not need to exaggerate it.</p>
+ 
       <h2>Frequently Asked Questions</h2>
-
+ 
       <h3>Could Earth be swallowed by a passing black hole?</h3>
-      <p>Only if a black hole passed close enough to gravitationally disrupt Earth's orbit. There are no black holes close enough to pose this risk. The nearest known stellar-mass black hole (Gaia BH1) is about 1,560 light-years away and poses zero threat.</p>
-
+      <p>Only if a black hole passed close enough to gravitationally disrupt Earth's orbit. There are no black holes close enough to pose this risk. The nearest known stellar-mass black hole, Gaia BH1, is about 1,560 light-years away and poses zero threat.</p>
+ 
       <h3>What happens inside a black hole?</h3>
-      <p>We genuinely don't know. General relativity predicts a singularity, but this signals that general relativity breaks down at those scales. A quantum theory of gravity would be needed to describe the interior, and we don't have one.</p>
-
+      <p>General relativity predicts a singularity, but this signals that general relativity breaks down at those scales. A quantum theory of gravity would be needed to describe the interior, and no complete such theory currently exists.</p>
+ 
       <h3>Would you feel yourself crossing the event horizon?</h3>
-      <p>For a stellar-mass black hole, you'd be dead from tidal forces before reaching it. For a supermassive black hole with a large event horizon radius, you might cross without immediate physical sensation. You'd only know when you noticed that no signal you sent outward received a reply.</p>
-
+      <p>For a stellar-mass black hole, tidal forces would be fatal before you reached it. For a supermassive black hole with a large event horizon, you might cross without immediate physical sensation, only knowing when no outward signal you sent received a reply.</p>
+ 
       <h3>Can black holes merge?</h3>
-      <p>Yes. This is how gravitational waves were first detected. LIGO's first observation in 2015 captured two black holes merging about 1.3 billion light-years away. For a brief moment, the system emitted more energy as gravitational waves than all the stars in the observable universe emit in light.</p>
+      <p>Yes. LIGO's first gravitational wave detection in 2015 captured two black holes merging about 1.3 billion light-years away. For a brief moment, the system emitted more energy as gravitational waves than all observable stars emit in light combined.</p>
     `,
     coverImage: "/images/articles/black-hole-physics.jpg",
     category: "astronomy",
@@ -2634,57 +2641,70 @@ export const articles: Article[] = [
     metaDescription:
       "Venus is closer to Earth and similar in size, yet it's arguably the most hostile planet in the solar system. Here's the actual science of why Venus is a worse colonization target than Mars.",
     content: `
-      <p>Venus is the closest planet to Earth. On clear nights, it's the brightest object in the sky after the Sun and Moon. Its size and mass are nearly identical to Earth's. For most of human history, if any planet harbored life, Venus was considered the best candidate, cloudy and possibly tropical.</p>
-      <p>Every spacecraft we've sent there has been destroyed. Venus is not a gentler Mars. It is a fundamentally different category of hostile. Mars is cold and thin-aired, severe but addressable in principle with enough engineering. Venus is a pressure cooker wrapped in acid fog running at 465°C year-round, day and night, pole to equator, with no seasonal variation and no habitability pathway that current technology can address.</p>
-
+      <p class="lead">Venus is the closest planet to Earth and nearly identical in size and mass, yet it is the most hostile surface environment in the inner solar system. Surface temperature averages 465 degrees Celsius, hot enough to melt lead, with no variation between day and night or pole and equator. Atmospheric pressure at the surface is 92 times Earth's sea-level pressure, equivalent to being 900 meters underwater. The atmosphere is 96.5% carbon dioxide laced with clouds of sulfuric acid. Every spacecraft ever sent to the Venusian surface has been destroyed. The longest any probe survived was 127 minutes. An unprotected human would not last 2 minutes. Venus is not a harder version of Mars. It is a categorically different kind of hostile.</p>
+ 
+      <p>For most of human history, Venus was considered the best candidate for life beyond Earth, cloudy and possibly tropical. What the space age revealed was a planet that shows exactly how completely a world otherwise similar to Earth can fail.</p>
+ 
       <h2>The Numbers That Kill You</h2>
-      <p>Surface temperature: average 465°C (869°F). Hotter than Mercury's sun-facing surface despite Venus being farther from the Sun. The reason is the greenhouse effect: Venus's atmosphere is 96.5% carbon dioxide, creating a thermal blanket that traps all solar energy. No day-night temperature variation. No polar cold zones. The entire surface is uniformly, continuously lethal.</p>
-      <p>Pressure: 92 bar at the surface. Earth's sea-level atmosphere is 1 bar. You would need to dive 900 meters into Earth's ocean to experience equivalent pressure. Human bodies can survive perhaps 5-6 bar with pressure suits. No suit currently imaginable provides protection at 92 bar combined with 465°C. Time to death on the surface with no protection: conservative estimate 2 minutes.</p>
-
+ 
+      <p>Surface temperature averages 465 degrees Celsius (869 degrees Fahrenheit), hotter than Mercury's sun-facing surface despite Venus being farther from the Sun. The reason is the greenhouse effect: Venus's atmosphere is 96.5% carbon dioxide, creating a thermal blanket that traps essentially all solar energy. There is no day-night temperature variation. No polar cold zones. The entire surface is uniformly and continuously lethal.</p>
+ 
+      <p>Atmospheric pressure at the surface is 92 bar. Earth's sea-level atmosphere is 1 bar. You would need to dive 900 meters into Earth's ocean to experience equivalent pressure. Human bodies can survive perhaps 5 to 6 bar with pressure suits. No suit currently imaginable provides protection at 92 bar combined with 465 degrees Celsius. Conservative estimate for time to death on the surface with no protection: 2 minutes from the combined pressure and heat, likely less.</p>
+ 
       <h2>What the Venera Probes Actually Experienced</h2>
+ 
       <p>The Soviet Union ran the most ambitious Venus exploration program in history. Between 1970 and 1984, they landed ten probes on the Venusian surface. Venera 7, in 1970, was the first spacecraft to successfully transmit data from another planet's surface. It lasted 23 minutes. Venera 9 survived 53 minutes and returned the first photographs from Venus's surface. Venera 13 lasted 127 minutes before the environment destroyed it.</p>
-      <p>These probes were built from titanium and designed using principles borrowed from deep-sea submersible engineering. They were pre-cooled to extend survival time. They still lasted, on average, under an hour. The images show a rocky, flat landscape under a thick orange sky. The surface of Venus looks like the floor of a very hot, very pressurized industrial furnace.</p>
-
+ 
+      <p>These probes were built from titanium, engineered using principles borrowed from deep-sea submersible design, and pre-cooled to extend survival time. They still lasted, on average, under an hour. The surface images show a rocky, flat landscape under a thick orange sky. It looks like the floor of a very hot, very pressurized industrial furnace.</p>
+ 
       <h2>Why Venus Got So Much Worse Than Earth</h2>
-      <p>Venus and Earth formed from the same protoplanetary material at roughly the same time, about 4.5 billion years ago. They're nearly identical in size, mass, and bulk composition. The leading explanation for divergence centers on water loss and the runaway greenhouse effect.</p>
-      <p>Early Venus may have had liquid water for up to 2 billion years. But Venus is slightly closer to the Sun. As solar luminosity increased, oceans began evaporating. Water vapor is itself a greenhouse gas, as more entered the atmosphere, temperatures rose further, evaporating more water. The feedback loop ran until the oceans were gone. Without liquid water, the carbon-silicate cycle that removes CO₂ from Earth's atmosphere broke down. CO₂ from volcanic outgassing had nowhere to go.</p>
-
+ 
+      <p>Venus and Earth formed from the same protoplanetary material approximately 4.5 billion years ago, nearly identical in size, mass, and bulk composition. The leading explanation for their divergence centers on water loss and the runaway greenhouse effect.</p>
+ 
+      <p>Early Venus may have had liquid water for up to 2 billion years. But Venus sits slightly closer to the Sun. As solar luminosity increased over billions of years, oceans began evaporating. Water vapor is itself a greenhouse gas; as more entered the atmosphere, temperatures rose further, evaporating more water. The feedback loop ran until the oceans were gone. Without liquid water, the carbon-silicate cycle that removes CO2 from Earth's atmosphere broke down. Volcanic outgassing had nowhere to go. The result is the thermal trap we observe today.</p>
+ 
+      <p>Venus is the solar system's clearest demonstration of how a runaway greenhouse effect operates at planetary scale. That same atmospheric physics, scaled down, informs the engineering constraints on any closed-atmosphere habitat, including the pressurized greenhouses that would be needed on <a href="/article/13-engineering-problems-mars-colonisation-harder-than-told">a Mars colony</a>.</p>
+ 
       <h2>Mars vs. Venus: Why the Cold One Wins</h2>
+ 
       <table>
         <thead>
           <tr><th>Factor</th><th>Mars</th><th>Venus</th></tr>
         </thead>
         <tbody>
-          <tr><td>Surface temperature</td><td>-60°C average (survivable with suits)</td><td>465°C (unsurvivable with any current technology)</td></tr>
+          <tr><td>Surface temperature</td><td>-60 degrees Celsius average (survivable with suits)</td><td>465 degrees Celsius (unsurvivable with any current technology)</td></tr>
           <tr><td>Atmospheric pressure</td><td>0.006 bar (suits needed, manageable)</td><td>92 bar (unsurvivable)</td></tr>
           <tr><td>Day length</td><td>24.6 hours</td><td>243 Earth days</td></tr>
           <tr><td>Water ice present</td><td>Yes, polar caps and subsurface</td><td>No confirmed surface water</td></tr>
           <tr><td>Human presence</td><td>Extremely difficult but technically imaginable</td><td>No viable pathway with current technology</td></tr>
         </tbody>
       </table>
-      <p>Mars is not easy. But Mars's challenges are cold, low pressure, and thin air, hazards that human engineering has tools to address incrementally. Venus's surface challenges aren't addressable by incremental engineering. No suit can withstand 92 bar at 465°C. No solar panel works under perpetual sulfuric acid clouds.</p>
-
+ 
+      <p>Mars is not easy. But Mars's challenges, cold temperatures, low pressure, and thin atmosphere, are hazards that engineering has tools to address incrementally. Venus's surface conditions are not addressable by incremental engineering. No suit can withstand 92 bar at 465 degrees Celsius. No solar panel works under perpetual sulfuric acid cloud cover. The biological effects of prolonged spaceflight that complicate any Mars mission, documented extensively in <a href="/article/what-happens-to-human-body-after-one-year-in-space">NASA's long-duration spaceflight research</a>, would not even be the limiting factor on Venus. Getting to the surface at all is.</p>
+ 
       <h2>The One Genuinely Interesting Venus Proposal</h2>
-      <p>At 50-60 km altitude in Venus's atmosphere, conditions are dramatically different. Temperature and pressure are close to Earth's surface conditions. Theoretical designs involve large floating habitats maintained at altitude by buoyancy in the dense CO₂ atmosphere. NASA's HAVOC (High Altitude Venus Operational Concept) study explored this between 2014 and 2017.</p>
-      <p>This is not currently feasible. The engineering challenges of acid-resistant construction at those altitudes are formidable. But it's a physically coherent idea in a way that surface habitation is not.</p>
-
+ 
+      <p>At 50 to 60 km altitude in Venus's atmosphere, conditions are dramatically different. Temperature and pressure approach Earth's surface conditions. Theoretical designs involve large floating habitats maintained at altitude by buoyancy in the dense CO2 atmosphere. NASA's HAVOC (High Altitude Venus Operational Concept) study explored this between 2014 and 2017.</p>
+ 
+      <p>This is not currently feasible. Engineering acid-resistant materials at those altitudes, managing buoyancy and station-keeping, and supplying such a habitat remotely are formidable unsolved problems. It is also an observation post concept, not a habitation concept: no food production pathway, no water supply, no surface access. But it is a physically coherent idea in a way that surface habitation on Venus simply is not.</p>
+ 
       <h2>Conclusion</h2>
-      <p>Venus is the clearest example in our solar system of how small initial differences compound into radically different outcomes over geological time. A slightly shorter orbital distance, slightly higher early insolation, slightly weaker magnetic field, and a planet that might have been habitable became the most hostile surface in the inner solar system.</p>
-      <p>What Venus offers is not a destination but a warning, a data point for understanding how habitable planets can fail, and why Earth's particular conditions are worth understanding and protecting with some seriousness.</p>
-
+ 
+      <p>Venus is the clearest example in our solar system of how small initial differences compound into radically different outcomes over geological time. A slightly shorter orbital distance, slightly higher early insolation, and a planet that might have been habitable for billions of years became the most hostile surface in the inner solar system. What Venus offers is not a destination but a lesson: a data point for understanding how habitable planets can fail, and why Earth's conditions are worth understanding and protecting seriously.</p>
+ 
       <h2>Frequently Asked Questions</h2>
-
+ 
       <h3>Has any country proposed a crewed Venus mission?</h3>
-      <p>Several conceptual studies have been conducted, including NASA's HAVOC atmospheric concept. No crewed Venus mission has received serious funding. The surface is not a viable crewed destination. Atmospheric mission concepts remain in early-phase research.</p>
-
+      <p>Several conceptual studies have been conducted, including NASA's HAVOC atmospheric concept. No crewed Venus mission has received serious funding or engineering development. The surface is not a viable crewed destination with any foreseeable technology.</p>
+ 
       <h3>Could Venus be terraformed?</h3>
-      <p>Theoretically, over thousands of years, proposals include seeding the atmosphere with microbes engineered to convert CO₂ and bombarding the planet with hydrogen to synthesize water. None is currently feasible, and the absence of a magnetic field means any introduced water would continue to be lost to space.</p>
-
+      <p>Theoretically, proposals over thousands of years include seeding the atmosphere with engineered microbes to convert CO2 and bombarding the planet with hydrogen to synthesize water. None is currently feasible, and the absence of a global magnetic field means any introduced water would continue being stripped away by the solar wind.</p>
+ 
       <h3>Is Venus geologically active?</h3>
-      <p>Recent evidence suggests yes. A 2023 analysis of Magellan mission radar data identified what appears to be active volcanic activity, changes in a volcanic vent consistent with an eruption between 1990 and 1992.</p>
-
+      <p>Recent evidence suggests yes. A 2023 analysis of Magellan mission radar data identified changes in a volcanic vent consistent with an eruption between 1990 and 1992, indicating ongoing volcanic activity beneath the cloud cover.</p>
+ 
       <h3>Why do scientists still study Venus if it's so hostile?</h3>
-      <p>Venus is the best analog for understanding runaway greenhouse effects, directly relevant to climate science. ESA's EnVision and NASA's VERITAS missions, both planned for the early 2030s, aim to study Venus's geology and history in significantly more detail.</p>
+      <p>Venus is the best available analog for studying runaway greenhouse effects at planetary scale, directly relevant to climate science. ESA's EnVision and NASA's VERITAS missions, planned for the early 2030s, aim to study Venus's geology, internal structure, and atmospheric history in significantly more detail.</p>
     `,
     coverImage: "/images/articles/venus-hostile-surface.jpg",
     category: "astronomy",
@@ -3273,46 +3293,60 @@ export const articles: Article[] = [
       "Mars colonisation faces 13 overlapping engineering problems that no current technology fully solves. Here's what the optimistic timelines consistently leave out.",
     content: `
       <h2>The Gap Between the Announcement and the Physics</h2>
-      <p>SpaceX has announced Mars landing timelines several times. The dates keep shifting. That's not a project management failure. It's what happens when the physics of keeping humans alive on another planet collides with the reality of building the technology to do it.</p>
-      <p>None of the problems with Mars colonisation are secret. They're all published in peer-reviewed journals, NASA technical reports, and aerospace engineering literature. They just rarely appear together in one place, which makes each one feel manageable in isolation. Together, they paint a picture that's significantly more sobering than most announcements convey.</p>
+ 
+      <p>SpaceX has announced Mars landing timelines several times. The dates keep shifting. That is not a project management failure. It is what happens when the physics of keeping humans alive on another planet collides with the reality of building the technology to do it.</p>
+ 
+      <p>None of the problems with Mars colonisation are secret. They are all published in peer-reviewed journals, NASA technical reports, and aerospace engineering literature. They just rarely appear together in one place, which makes each one feel manageable in isolation. Together, they paint a picture significantly more sobering than most public announcements convey.</p>
+ 
       <p>Here are the 13 engineering problems standing between us and a sustainable Mars colony, in rough order of how immediately they would kill you.</p>
-
+ 
       <h2>The Problems That Kill You in Minutes</h2>
+ 
       <h3>1. Atmospheric Pressure</h3>
-      <p>Mars has an atmosphere. It's just 0.6 percent as dense as Earth's at sea level. That's the equivalent of standing at 35 kilometers altitude on Earth. No human can survive unprotected. Every structure that humans inhabit must maintain roughly Earth-level internal pressure against a near-vacuum exterior, continuously, without failure.</p>
-      <p>Pressure differential engineering at this scale is solvable. We do it on the International Space Station. The ISS is roughly 900 cubic meters. A Mars colony capable of supporting hundreds of people and growing food would need to be orders of magnitude larger. Every weld, seal, and joint becomes a potential catastrophic failure point. And on Mars, repair supply chains take seven months minimum.</p>
+      <p>Mars has an atmosphere. It is just 0.6% as dense as Earth's at sea level, equivalent to standing at 35 kilometers altitude on Earth. No human survives unprotected. Every structure humans inhabit must maintain roughly Earth-level internal pressure against a near-vacuum exterior, continuously, without failure. Pressure differential engineering at this scale is solvable; the ISS demonstrates it at roughly 900 cubic meters. A colony supporting hundreds of people and growing food would need to be orders of magnitude larger, and every weld, seal, and joint becomes a potential catastrophic failure point where repair supplies take seven months minimum to arrive.</p>
+ 
       <h3>2. Oxygen Generation</h3>
-      <p>The Martian atmosphere is 95 percent carbon dioxide. MOXIE, the oxygen-generating experiment aboard the Perseverance rover, successfully produced oxygen from CO2 using electrolysis in a proof of concept. Scaling from a toaster-sized experiment to a system that supplies breathable air for a growing colony continuously is an unsolved engineering challenge at the required size and reliability level.</p>
+      <p>The Martian atmosphere is 95% carbon dioxide. MOXIE, the oxygen-generating experiment aboard the Perseverance rover, successfully produced oxygen from CO2 using solid oxide electrolysis in a proof of concept. Scaling from a toaster-sized experiment to a system that continuously supplies breathable air for a growing colony is an unsolved engineering challenge at the required size and reliability level.</p>
+ 
       <h3>3. Temperature Swings</h3>
       <p>Mars surface temperatures average around minus 60 degrees Celsius. Equatorial regions near midday can reach 20 degrees Celsius. At the poles and at night, temperatures drop to minus 125 degrees Celsius. Habitats must handle these swings without material fatigue, seal degradation, or thermal bridging that cracks structural components over years of cycling.</p>
-
+ 
       <h2>The Problems That Kill You in Days</h2>
+ 
       <h3>4. Water</h3>
-      <p>Mars has water ice, primarily at the poles and in subsurface deposits confirmed by radar. Mining, purifying, and distributing that water at scale requires infrastructure that doesn't exist and would need to be transported from Earth or manufactured on-site from materials not yet characterized in sufficient detail. A colony of 100 people needs roughly 50 to 100 liters of water per person per day for drinking, food production, and hygiene.</p>
+      <p>Mars has water ice, primarily at the poles and in subsurface deposits confirmed by radar. Mining, purifying, and distributing that water at scale requires infrastructure that does not exist and would need to be transported from Earth or manufactured on-site from materials not yet characterized in sufficient detail. A colony of 100 people needs roughly 50 to 100 liters of water per person per day for drinking, food production, and hygiene.</p>
+ 
       <h3>5. Food Production</h3>
-      <p>Mars soil, called regolith, contains perchlorates at levels toxic to humans and lacks the organic matter necessary for plant growth. Growing food in pressurized greenhouses using hydroponic or aeroponic systems avoids the soil problem but requires reliable power, precise temperature control, atmospheric management, and continuous water supply. A crop failure on Mars cannot be supplemented by emergency resupply within any useful timeframe.</p>
+      <p>Mars regolith contains perchlorates at levels toxic to humans and lacks the organic matter necessary for plant growth. Growing food in pressurized greenhouses using hydroponic or aeroponic systems avoids the soil problem but requires reliable power, precise temperature control, atmospheric management, and continuous water supply. A crop failure on Mars cannot be supplemented by emergency resupply within any useful timeframe.</p>
+ 
       <h3>6. Radiation</h3>
-      <p>Mars has no global magnetic field and a thin atmosphere, so both solar particle events and galactic cosmic rays reach the surface at levels estimated at 0.67 millisieverts per day, roughly equivalent to a full-body CT scan every five to six days. Over a two-year surface mission, a colonist would accumulate radiation exposure approaching established lifetime limits for current NASA standards.</p>
-      <p>The most credible mitigation is underground habitats or habitats covered by several meters of regolith. Building those is a separate large-scale engineering problem. Pharmaceutical countermeasures for chronic radiation exposure at this level don't currently exist.</p>
-
+      <p>Mars has no global magnetic field and a thin atmosphere, so solar particle events and galactic cosmic rays reach the surface at approximately 0.67 millisieverts per day, roughly equivalent to a full-body CT scan every five to six days. Over a two-year surface mission, a colonist would accumulate radiation exposure approaching established lifetime limits under current NASA standards. The most credible mitigation is underground habitats or structures covered by several meters of regolith. Building those is a separate large-scale engineering problem. Pharmaceutical countermeasures for this level of chronic radiation exposure do not currently exist.</p>
+ 
       <h2>The Problems That Kill You Over Years</h2>
+ 
       <h3>7. Bone Density and Muscle Loss</h3>
-      <p>Mars gravity is 38 percent of Earth's. Long-term habitation in reduced gravity causes measurable bone density loss and muscle atrophy even with aggressive exercise countermeasures, as demonstrated by astronauts on the ISS in microgravity. Mars gravity is better than zero but may still cause cumulative degradation over years. The threshold for safe long-term habitation in 0.38g is not known because no human has ever lived in it.</p>
+      <p>Mars gravity is 38% of Earth's. Long-term habitation in reduced gravity causes measurable bone density loss and muscle atrophy even with aggressive exercise countermeasures, as documented by ISS astronauts in microgravity. Mars gravity is better than zero but may still cause cumulative degradation over years. The detailed physiological effects documented in <a href="/article/what-happens-to-human-body-after-one-year-in-space">extended ISS missions</a> represent the best available data, but the threshold for safe long-term habitation in 0.38g is not known because no human has ever lived in it.</p>
+ 
       <h3>8. Psychological Isolation</h3>
-      <p>Communication delays between Mars and Earth range from 3 to 22 minutes one-way depending on orbital positions. That means no real-time conversation with anyone outside the colony. No immediate medical consultation. No crisis support that isn't self-contained. Studies of isolated Antarctic crews and submarine deployments are the closest analogues, and they consistently show that group psychological breakdown is a serious risk in confined, isolated teams over extended periods.</p>
+      <p>Communication delays between Mars and Earth range from 3 to 22 minutes one-way depending on orbital positions. No real-time conversation with anyone outside the colony. No immediate medical consultation. No crisis support that is not self-contained. Studies of isolated Antarctic crews and submarine deployments are the closest analogues, and they consistently show that group psychological breakdown is a serious risk in confined, isolated teams over extended periods.</p>
+ 
       <h3>9. Dust</h3>
-      <p>Martian dust is fine, electrostatically charged, and pervasive. Dust storms can cover the entire planet for months, cutting solar power generation to near zero and coating any surface, including solar panels, habitat windows, and equipment sensors. The 2018 global dust storm ended the Opportunity rover's mission. A colony that relies on solar power during a planet-wide dust event faces a serious energy crisis.</p>
-
+      <p>Martian dust is fine, electrostatically charged, and pervasive. Dust storms can cover the entire planet for months, cutting solar power generation to near zero and coating solar panels, habitat windows, and equipment sensors. The 2018 global dust storm ended the Opportunity rover's mission. A colony dependent on solar power during a planet-wide dust event faces an energy crisis with no external option.</p>
+ 
       <h2>The Infrastructure Problems</h2>
+ 
       <h3>10. Power</h3>
-      <p>A self-sustaining Mars colony needs reliable, high-output power that doesn't depend on sunlight. Nuclear fission is the most realistic option. NASA's Kilopower project has tested small fission reactors at the kilowatt scale. A colony needs megawatt-scale power. The regulatory, logistical, and engineering pathway from Kilopower to colony-scale nuclear power on Mars is long and not currently funded at the required level.</p>
+      <p>A self-sustaining Mars colony needs reliable, high-output power independent of sunlight availability. Nuclear fission is the most realistic option. NASA's Kilopower project has tested small fission reactors at the kilowatt scale. A colony needs megawatt-scale power. The regulatory, logistical, and engineering pathway from Kilopower to colony-scale nuclear power on Mars is long and not currently funded at the required level.</p>
+ 
       <h3>11. Manufacturing and Spare Parts</h3>
-      <p>Every piece of equipment on Mars will eventually break. Supply missions from Earth take seven to nine months and can only launch during specific orbital windows that occur roughly every 26 months. A colony cannot wait two years for a replacement part. It needs the capability to manufacture critical components on-site using local materials and transported feedstocks. In-situ resource utilization at this scale is being researched but is nowhere near demonstrated at colony-relevant capacity.</p>
+      <p>Every piece of equipment on Mars will eventually break. Supply missions take seven to nine months and can only launch during specific orbital windows occurring roughly every 26 months. A colony cannot wait two years for a replacement part. It needs the capability to manufacture critical components on-site using local materials and transported feedstocks. In-situ resource utilization at this scale is being researched but is nowhere near demonstrated at colony-relevant capacity.</p>
+ 
       <h3>12. Medical Care</h3>
-      <p>Surgery in reduced gravity with limited equipment, by personnel who may not be surgeons, in a facility that cannot transfer a patient to a better-equipped hospital, is a fundamentally different medical environment than anything on Earth. Training, equipment, pharmaceutical shelf life, and diagnostic capability all need to be self-contained and resilient to the kinds of emergencies that are statistically inevitable in a population of any size over years.</p>
+      <p>Surgery in reduced gravity with limited equipment, performed by personnel who may not be surgeons, in a facility that cannot transfer a patient to a better-equipped hospital, is a fundamentally different medical environment from anything on Earth. Training, equipment, pharmaceutical shelf life, and diagnostic capability all need to be self-contained and resilient to the emergencies that are statistically inevitable in any population over years. Context matters here: even Venus, which is far less habitable than Mars, illustrates how planetary environments set hard physical ceilings on what engineering can address. The <a href="/article/venus-would-kill-you-in-2-minutes-worse-than-mars">comparison with Venus</a> makes Mars's medical challenges look tractable by comparison.</p>
+ 
       <h3>13. Getting There</h3>
-      <p>The transit itself is roughly seven months in microgravity, with the radiation exposure that entails, followed by a high-velocity atmospheric entry into a thin Martian atmosphere that makes aerobraking less effective than on Earth. Landing large payloads on Mars is an unsolved engineering problem at the scale required for a colony. The largest object ever successfully landed on Mars is the Perseverance rover at about one metric ton. A crewed mission requires landing tens to hundreds of metric tons safely.</p>
-
+      <p>The transit itself is roughly seven months in microgravity, with the radiation exposure that entails, followed by a high-velocity atmospheric entry into a thin Martian atmosphere that makes aerobraking less effective than on Earth. Landing large payloads on Mars is an unsolved engineering problem at the scale required for a colony. The largest object ever successfully landed on Mars is the Perseverance rover at about one metric ton. A crewed mission requires landing tens to hundreds of metric tons safely. The same propulsion and large-payload landing capabilities that make this hard are why <a href="/article/artemis-iii-update-nasa-2026-moon-landing">the Artemis lunar program</a> is treating the Moon as a test and development environment for Starship before committing to Mars.</p>
+ 
       <table>
         <thead>
           <tr><th>Problem Category</th><th>Current Status</th><th>Estimated Readiness</th></tr>
@@ -3329,26 +3363,35 @@ export const articles: Article[] = [
           <tr><td>In-situ manufacturing</td><td>Early research</td><td>Far from colony-capable</td></tr>
         </tbody>
       </table>
-
+ 
       <h2>Conclusion</h2>
+ 
       <p>None of these problems are necessarily unsolvable. Human ingenuity has resolved more daunting challenges before. But they are simultaneously unsolved, and a viable Mars colony requires all of them to be solved at the same time, reliably, in an environment where failure means people die and help is seven months away.</p>
-      <p>The more interesting question isn't whether we'll go to Mars. It's whether we'll be honest about the timeline before we go. Optimistic announcements get funding and inspire engineers, which has real value. But the physics doesn't care about the announcement date. The 13 problems will still be there on launch day, and the colonists who face them would probably prefer that someone took them seriously first.</p>
-
+ 
+      <p>The more interesting question is not whether we will go to Mars. It is whether we will be honest about the timeline before we go. Optimistic announcements get funding and inspire engineers, which has real value. But the physics does not care about the announcement date. The 13 problems will still be there on launch day, and the colonists who face them would probably prefer that someone took them seriously first.</p>
+ 
       <h2>Frequently Asked Questions</h2>
+ 
       <h3>What is the biggest unsolved problem for Mars colonisation?</h3>
-      <p>Radiation exposure is arguably the most difficult because it requires either extensive underground construction or pharmaceutical solutions that don't exist. Unlike most other problems, it cannot be solved with engineering alone at current technology levels.</p>
+      <p>Radiation exposure is arguably the most difficult because it requires either extensive underground construction or pharmaceutical countermeasures that do not yet exist. Unlike most other problems, it cannot be resolved with incremental engineering at current technology levels.</p>
+ 
       <h3>How long does it take to travel to Mars?</h3>
-      <p>With current propulsion technology, a transit from Earth to Mars takes approximately seven to nine months depending on the launch window. Optimal launch windows occur roughly every 26 months when Earth and Mars are favorably aligned.</p>
+      <p>With current propulsion, a transit from Earth to Mars takes approximately seven to nine months depending on the launch window. Optimal launch windows occur roughly every 26 months when Earth and Mars are favorably aligned.</p>
+ 
       <h3>Can plants grow in Martian soil?</h3>
       <p>Not directly. Martian regolith contains perchlorates, which are toxic to plants and humans, and lacks organic matter. Any food production would require hydroponics, aeroponics, or heavily processed and supplemented regolith rather than raw Martian soil.</p>
+ 
       <h3>How much radiation would Mars colonists receive?</h3>
-      <p>Based on measurements from the Curiosity and Perseverance rovers, surface radiation on Mars is approximately 0.67 millisieverts per day. Over two years, that approaches the current career radiation limit for NASA astronauts, not counting the transit radiation exposure.</p>
+      <p>Based on measurements from Curiosity and Perseverance, surface radiation on Mars is approximately 0.67 millisieverts per day. Over two years, that approaches the current career radiation limit for NASA astronauts, not counting the transit radiation exposure accumulated during the journey.</p>
+ 
       <h3>Why can't we just use solar panels for power on Mars?</h3>
-      <p>Solar panels work on Mars at reduced efficiency due to greater distance from the Sun. The larger problem is Martian dust storms, which can cover the entire planet and block sunlight for months. A colony cannot be fully dependent on a power source that can drop to near zero for an extended, unpredictable period.</p>
+      <p>Solar panels work on Mars at reduced efficiency due to greater distance from the Sun. The larger problem is dust storms, which can cover the entire planet and block sunlight for months. A colony cannot depend on a power source that can drop to near zero for an extended, unpredictable period.</p>
+ 
       <h3>What is the Mars transit problem for human health?</h3>
-      <p>Seven months in microgravity causes bone density loss, muscle atrophy, fluid shifts in the body, and radiation exposure. Arriving on Mars already physically weakened and then facing the demands of setting up a habitat is a serious compounding challenge that current exercise and pharmaceutical countermeasures only partially address.</p>
+      <p>Seven months in microgravity causes bone density loss, muscle atrophy, fluid shifts, and radiation exposure. Arriving on Mars already physically weakened and then immediately beginning the demands of setting up a habitat is a serious compounding challenge that current countermeasures only partially address.</p>
+ 
       <h3>Is Elon Musk's Mars timeline realistic?</h3>
-      <p>Most aerospace engineers and NASA scientists who have commented publicly describe the timelines as optimistic by a significant margin. The technical problems are real and documented. The disagreement is not about whether those problems exist but about how quickly they can be solved with sufficient funding and engineering focus.</p>
+      <p>Most aerospace engineers and NASA scientists who have commented publicly describe the timelines as optimistic by a significant margin. The technical problems are real and documented. The disagreement is not about whether the problems exist, but about how quickly they can be solved with sufficient funding and focus.</p>
     `,
     coverImage: "/images/articles/mars-colonisation-engineering.jpg",
     category: "astronomy",
