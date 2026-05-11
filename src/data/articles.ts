@@ -3510,12 +3510,64 @@ export const articles: Article[] = [
   },
 ];
 
+const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
+
+const getPublishedTimestamp = (article: Article): number | null => {
+  const match = isoDatePattern.exec(article.publishedAt);
+
+  if (!match) {
+    return null;
+  }
+
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const timestamp = Date.UTC(year, month - 1, day);
+  const parsedDate = new Date(timestamp);
+  const isValidDate =
+    parsedDate.getUTCFullYear() === year &&
+    parsedDate.getUTCMonth() + 1 === month &&
+    parsedDate.getUTCDate() === day;
+
+  return isValidDate ? timestamp : null;
+};
+
+const sortArticlesByPublishedAt = (
+  items: Article[],
+  options: { excludeInvalid?: boolean } = {},
+): Article[] => {
+  const entries = items.map((article, index) => ({
+    article,
+    index,
+    timestamp: getPublishedTimestamp(article),
+  }));
+  const validEntries = entries.filter((entry) => entry.timestamp !== null);
+  const invalidEntries = options.excludeInvalid ? [] : entries.filter((entry) => entry.timestamp === null);
+
+  const sortedValidEntries = [...validEntries].sort((a, b) => {
+    const aTime = a.timestamp as number;
+    const bTime = b.timestamp as number;
+
+    if (aTime === bTime) {
+      return a.index - b.index;
+    }
+
+    return bTime - aTime;
+  });
+
+  return [...sortedValidEntries, ...invalidEntries].map((entry) => entry.article);
+};
+
 export function getArticlesByCategory(category: Category): Article[] {
-  return articles.filter((article) => article.category === category);
+  return sortArticlesByPublishedAt(articles.filter((article) => article.category === category));
 }
 
 export function getFeaturedArticles(): Article[] {
-  return articles.filter((article) => article.featured);
+  return sortArticlesByPublishedAt(articles.filter((article) => article.featured));
+}
+
+export function getEditorsPickArticles(limit = 6): Article[] {
+  return articles.filter((article) => article.editorsPick === true).slice(0, limit);
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {
@@ -3523,32 +3575,16 @@ export function getArticleBySlug(slug: string): Article | undefined {
 }
 
 export function getRelatedArticles(article: Article, limit = 3): Article[] {
-  return articles
-    .filter(
-      (a) =>
-        a.id !== article.id && (a.category === article.category || a.tags.some((tag) => article.tags.includes(tag))),
-    )
-    .slice(0, limit);
+  const related = articles.filter(
+    (a) =>
+      a.id !== article.id && (a.category === article.category || a.tags.some((tag) => article.tags.includes(tag))),
+  );
+
+  return sortArticlesByPublishedAt(related).slice(0, limit);
 }
 
 export function getLatestArticles(limit = 6): Article[] {
-  const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
-
-  return articles
-    .map((article, index) => {
-      const isIsoDate = isoDatePattern.test(article.publishedAt);
-      const timestamp = isIsoDate ? Date.parse(article.publishedAt) : Number.NaN;
-      return { article, index, timestamp };
-    })
-    .filter((entry) => !Number.isNaN(entry.timestamp))
-    .sort((a, b) => {
-      if (a.timestamp === b.timestamp) {
-        return a.index - b.index;
-      }
-      return b.timestamp - a.timestamp;
-    })
-    .slice(0, limit)
-    .map((entry) => entry.article);
+  return sortArticlesByPublishedAt(articles, { excludeInvalid: true }).slice(0, limit);
 }
 
 export function getAuthorById(id: string): Author | undefined {

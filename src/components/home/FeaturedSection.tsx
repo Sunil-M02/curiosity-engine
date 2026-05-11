@@ -4,14 +4,14 @@ import Autoplay from 'embla-carousel-autoplay';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
 import { format } from 'date-fns';
-import { articles, categoryInfo } from '@/data/articles';
+import { categoryInfo, getEditorsPickArticles } from '@/data/articles';
 import { OptimizedImage } from '@/components/ui/OptimizedImage';
 import { SectionHeading } from '@/components/home/SectionHeading';
 
 export function FeaturedSection() {
   // Editor's Picks shows only curated articles tagged with editorsPick, kept
   // disjoint from the Latest Articles section by curated selection.
-  const slides = articles.filter((article) => article.editorsPick === true).slice(0, 6);
+  const slides = getEditorsPickArticles(6);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, align: 'start', containScroll: 'trimSnaps', duration: 28 },
