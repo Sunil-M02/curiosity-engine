@@ -3519,10 +3519,9 @@ const getPublishedTimestamp = (article: Article): number | null => {
     return null;
   }
 
-  const [, yearString, monthString, dayString] = match;
-  const year = Number(yearString);
-  const month = Number(monthString);
-  const day = Number(dayString);
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
   const timestamp = Date.UTC(year, month - 1, day);
   const parsedDate = new Date(timestamp);
   const isValidDate =
@@ -3545,7 +3544,7 @@ const sortArticlesByPublishedAt = (
   const validEntries = entries.filter((entry) => entry.timestamp !== null);
   const invalidEntries = options.excludeInvalid ? [] : entries.filter((entry) => entry.timestamp === null);
 
-  const sortedValidEntries = validEntries.sort((a, b) => {
+  const sortedValidEntries = [...validEntries].sort((a, b) => {
     const aTime = a.timestamp as number;
     const bTime = b.timestamp as number;
 
