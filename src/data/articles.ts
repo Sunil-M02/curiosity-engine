@@ -3544,22 +3544,21 @@ const sortArticlesByPublishedAt = (
     index,
     timestamp: getPublishedTimestamp(article),
   }));
-  const filteredEntries = options.excludeInvalid
-    ? entries.filter((entry) => entry.timestamp !== null)
-    : entries;
+  const validEntries = entries.filter((entry) => entry.timestamp !== null);
+  const invalidEntries = options.excludeInvalid ? [] : entries.filter((entry) => entry.timestamp === null);
 
-  return filteredEntries
-    .sort((a, b) => {
-      const aTime = a.timestamp ?? Number.NEGATIVE_INFINITY;
-      const bTime = b.timestamp ?? Number.NEGATIVE_INFINITY;
+  const sortedValidEntries = validEntries.sort((a, b) => {
+    const aTime = a.timestamp ?? 0;
+    const bTime = b.timestamp ?? 0;
 
-      if (aTime === bTime) {
-        return a.index - b.index;
-      }
+    if (aTime === bTime) {
+      return a.index - b.index;
+    }
 
-      return bTime - aTime;
-    })
-    .map((entry) => entry.article);
+    return bTime - aTime;
+  });
+
+  return [...sortedValidEntries, ...invalidEntries].map((entry) => entry.article);
 };
 
 export function getArticlesByCategory(category: Category): Article[] {
