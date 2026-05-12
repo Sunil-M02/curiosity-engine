@@ -3631,9 +3631,9 @@ export const articles: Article[] = [
     slug: "ai-chip-arms-race-nvidia-near-monopoly-hardware",
     title: "The AI Chip Arms Race: Why NVIDIA Has a Near-Monopoly on AI Hardware",
     excerpt:
-      "NVIDIA controls roughly 80 to 90% of the AI chip market. This is not just about better GPUs. It is about a 20-year software strategy that made their hardware impossible to replace.",
+      "NVIDIA controls roughly 80 to 90% of the AI chip market. This is not just about better GPUs — it is about a 20-year software strategy that made their hardware impossible to replace.",
     metaDescription:
-      "NVIDIA controls roughly 80 to 90% of the AI chip market. This is not just about better GPUs. It is about a 20-year software strategy that made their hardware impossible to replace.",
+      "NVIDIA controls roughly 80 to 90% of the AI chip market. This is not just about better GPUs — it is about a 20-year software strategy that made their hardware impossible to replace.",
     content: `
       <p class="lead">Ask any AI research team what hardware they train their models on. The answer, almost universally, is NVIDIA. Not because they sat down and chose NVIDIA. Because they never seriously considered anything else.</p>
 
@@ -3943,7 +3943,7 @@ export const articles: Article[] = [
   {
     id: "quantum-computers-crack-every-password-timeline",
     slug: "quantum-computers-crack-every-password-earth-timeline",
-    title: "Quantum Computers Will Crack Every Password on Earth: Here's the Timeline",
+    title: "Quantum Computers Will Crack Every Password on Earth — Here's the Timeline",
     excerpt:
       "A sufficiently powerful quantum computer could break the encryption protecting every bank account, email, and government secret on Earth. Here is what the threat actually is, what the timeline looks like, and what is being done about it.",
     metaDescription:
