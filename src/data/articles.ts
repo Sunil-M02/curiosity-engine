@@ -3508,15 +3508,12 @@ export const articles: Article[] = [
     featured: true,
     tags: ["AI", "LLM", "Context Window", "Tokens", "Machine Learning"],
   },
-// ============================================================
-// CuriosityFields.com — New Articles Batch (May 2026)
-// 5 Articles: Technology, AI, Science, History, Future Innovation
-// Format matches existing articles.ts schema exactly
-// ============================================================
 
-import { authors } from "./authors";
-
-export const newArticles = [
+  // ============================================================
+  // CuriosityFields.com — New Articles Batch (May 2026)
+  // 5 Articles: Technology, AI, Science, History, Future Innovation
+  // Format matches existing articles.ts schema exactly
+  // ============================================================
 
   // ─────────────────────────────────────────────────────────────
   // ARTICLE 1 — TECHNOLOGY
