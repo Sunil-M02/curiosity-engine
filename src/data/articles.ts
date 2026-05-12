@@ -3573,7 +3573,7 @@ export const articles: Article[] = [
 
       <p>The blackout effectively created the modern framework for mandatory grid reliability standards in the United States. It took 55 million people losing power for Washington to make those rules enforceable. The story of how regulatory gaps allow infrastructure risk to accumulate is not unique to power grids. The <a href="https://www.curiosityfields.com/article/how-google-indexes-130-trillion-pages-crawling-architecture">architecture behind how Google indexes 130 trillion pages</a> offers a useful parallel: large-scale distributed systems require layered redundancy and active monitoring, not passive assumption that components will behave as designed.</p>
 
-      <h2>The Grid Is Still Fragile: Just Differently</h2>
+      <h2>The Grid Is Still Fragile, Just Differently</h2>
       <p>Twenty-three years after the 2003 blackout, the US grid is more monitored, more regulated, and better coordinated. Grid operators have improved training, built smarter software, and installed protective equipment. Regulators have created more stringent reliability rules. Phasor Measurement Units (PMUs), which were essentially absent from the grid in 2003, now provide real-time phase angle data across the Eastern Interconnection, the kind of data that might have flagged the instability hours before the cascade began.</p>
 
       <p>But new vulnerabilities have emerged. The rapid integration of renewable energy sources such as solar and wind introduces variability that legacy grid infrastructure was not designed to handle. Texas experienced a different but equally instructive grid failure in February 2021, when a polar vortex froze natural gas infrastructure that operators had assumed would never face such conditions.</p>
@@ -3769,7 +3769,7 @@ export const articles: Article[] = [
 
       <p>The Yamanaka factors are a set of four proteins that can reprogram adult cells back toward a stem-cell-like state, effectively pressing a biological reset button on epigenetic age. The challenge is doing this without losing the cell's identity entirely, which would risk tumor formation. Sinclair's work applied only three of the four factors to selectively restore epigenetic order without full reprogramming.</p>
 
-      <h2>What the Thermodynamic Research Actually Says and What It Does Not Say</h2>
+      <h2>What the Thermodynamic Research Actually Says and Does Not Say</h2>
       <p>It is important to be precise here. The entropy theory of ageing is a scientific framework with serious researchers behind it, published in journals like Nature Aging and Aging Cell, but it is not a settled consensus, and several significant questions remain open.</p>
 
       <p>Important issues for research on entropy and human ageing include the best methods for quantifying entropy and whether the development of entropy can be slowed or reversed in humans, identified explicitly in the 2025 Aging Cell review.</p>
@@ -3895,7 +3895,7 @@ export const articles: Article[] = [
 
       <p>The commercial internet as most people now experience it began accelerating in 1995, when the US government transferred control of the internet's backbone infrastructure to private companies and NSFNet (the academic backbone that had replaced ARPANET) was decommissioned. Within three years, commercial traffic on the internet exceeded academic and government traffic for the first time.</p>
 
-      <h2>Why No One Person Can Be Credited or Blamed</h2>
+      <h2>Why No One Person Can Be Credited nor Blamed</h2>
       <p>The internet exists because of at least a dozen critical contributions by different people working in different institutions across thirty years. Remove any one of them, including packet switching, TCP/IP, DNS, the World Wide Web, or open standards policy, and the internet as it exists today does not exist.</p>
 
       <p>This matters because of what it implies about credit, responsibility, and governance. Nobody owns the internet's architecture in the way that a company owns a product. Nobody can be held responsible for all of its consequences. Nobody can be petitioned to fix it. It is genuinely distributed in its history, infrastructure, and governance in a way that few human-built systems are.</p>
