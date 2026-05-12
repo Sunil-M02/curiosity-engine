@@ -3769,7 +3769,7 @@ export const articles: Article[] = [
 
       <p>The Yamanaka factors are a set of four proteins that can reprogram adult cells back toward a stem-cell-like state, effectively pressing a biological reset button on epigenetic age. The challenge is doing this without losing the cell's identity entirely, which would risk tumor formation. Sinclair's work applied only three of the four factors to selectively restore epigenetic order without full reprogramming.</p>
 
-      <h2>What the Thermodynamic Research Actually Says and What It Does Not</h2>
+      <h2>What the Thermodynamic Research Actually Says and What It Does Not Say</h2>
       <p>It is important to be precise here. The entropy theory of ageing is a scientific framework with serious researchers behind it, published in journals like Nature Aging and Aging Cell, but it is not a settled consensus, and several significant questions remain open.</p>
 
       <p>Important issues for research on entropy and human ageing include the best methods for quantifying entropy and whether the development of entropy can be slowed or reversed in humans, identified explicitly in the 2025 Aging Cell review.</p>
