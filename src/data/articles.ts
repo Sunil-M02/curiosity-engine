@@ -4196,7 +4196,7 @@ export const articles: Article[] = [
   readTime: 13,
   featured: false,
   tags: ["Science", "Virology", "Hantavirus", "Andes Virus", "Infectious Disease", "Emerging Pathogens", "Epidemiology"],
-};
+  },
   
 ];
 
