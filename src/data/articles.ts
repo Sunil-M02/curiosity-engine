@@ -4080,6 +4080,123 @@ export const articles: Article[] = [
     featured: true,
     tags: ["Quantum Computing", "Cybersecurity", "Encryption", "Post-Quantum Cryptography", "Future Technology", "NIST"],
   },
+
+  {
+  id: "andes-virus-only-hantavirus-human-to-human-transmission",
+  slug: "andes-virus-only-hantavirus-human-to-human-transmission",
+  title:
+    "Why the Andes Virus Is the Only Hantavirus That Spreads Between Humans — And Why Scientists Are Watching It Closely",
+  excerpt:
+    "Of more than 50 known hantaviruses, only one has ever been documented spreading directly between people. Here is what makes the Andes virus biologically different — and why its behavior matters far beyond South America.",
+  metaDescription:
+    "Of more than 50 known hantaviruses, only one has ever been documented spreading directly between people. Here is what makes the Andes virus biologically different — and why its behavior matters far beyond South America.",
+  content: `
+    <p class="lead">There are more than 50 known hantaviruses on Earth. Every single one of them is carried by rodents. Every single one of them can spill over into humans under the right conditions. And until 1996, every single one of them was considered a dead-end for human infection — meaning that once the virus entered a person, it could not use that person to reach the next one.</p>
+ 
+    <p>Then came Andes virus. Identified during a 1996 outbreak in Patagonia, Argentina, it broke the rule. It was the first hantavirus ever documented transmitting from one person to another. Nearly three decades later, it remains the only one.</p>
+ 
+    <p>In May 2026, the world got an unusually close look at what that means in practice, when a cluster of Andes virus infections emerged aboard the Dutch cruise ship MV Hondius, sickening at least nine confirmed passengers across multiple nationalities and killing three — triggering a WHO-coordinated international response. Understanding why this virus behaves differently from all others in its family requires going deeper than outbreak headlines.</p>
+ 
+    <h2>What Hantaviruses Are and Why They Normally Stay in Rodents</h2>
+    <p>Hantaviruses are enveloped, single-stranded RNA viruses in the family Hantaviridae. They have co-evolved with rodent host species over an estimated 20 million years, according to research published in Frontiers in Microbiology. This is not a brief or accidental relationship. It is an ancient, stable co-evolutionary partnership where the virus and its rodent reservoir have adapted to each other over geological timescales.</p>
+ 
+    <p>In rodents, hantavirus infection is persistent and asymptomatic. The animal carries the virus for life, shedding it in urine, feces, and saliva without ever becoming ill. This is the hallmark of a well-adapted host-pathogen relationship — the virus survives and spreads without killing its vehicle.</p>
+ 
+    <p>When a human inadvertently inhales aerosolized rodent excreta containing hantavirus particles — cleaning an infested barn, disturbing mouse nests in a cabin — the virus can infect lung endothelial cells and trigger a severe immune response. In the Americas, this manifests as Hantavirus Cardiopulmonary Syndrome (HCPS), a rapidly progressing condition that floods the lungs with fluid. The case fatality rate for Andes virus specifically runs at approximately 40%, according to the CDC. That figure can climb higher among elderly patients.</p>
+ 
+    <p>The critical point, historically, was that this transmission pathway was strictly one-directional: rodent to human. Humans were considered incidental, dead-end hosts. The virus could not replicate in a form capable of reaching the next person. This is true of Sin Nombre virus in North America, Hantaan virus in East Asia, and all other known hantaviruses. Except Andes.</p>
+ 
+    <h2>The 1996 Discovery That Changed Hantavirus Biology</h2>
+    <p>In 1996, an outbreak of Hantavirus Pulmonary Syndrome struck El Bolsón, a small city in the Patagonian region of southwest Argentina. What followed was not the typical scattered pattern of individual rodent-exposure cases. The outbreak involved 16 epidemiologically linked patients — a cluster pattern that epidemiologists immediately recognized as unusual for a disease that was supposed to spread only through environmental contact with infected rodents.</p>
+ 
+    <p>A detailed investigation, published over subsequent years in journals including Emerging Infectious Diseases and later confirmed in the New England Journal of Medicine, identified a key finding: after a single introduction of Andes virus from the rodent reservoir into the human population, transmission was driven by a small number of infected individuals who had close contact with others during the early prodromal phase of the disease.</p>
+ 
+    <p>The prodromal phase — the period before obvious respiratory symptoms appear — lasts roughly one to four weeks after exposure and presents with fever, headache, muscle pain, and fatigue. During this window, an infected person may feel ill but not critically so. They may still be interacting with family members and caregivers. And, it turns out, they may be shedding virus through saliva, nasal secretions, and respiratory droplets.</p>
+ 
+    <p>A 2020 study published in the New England Journal of Medicine analyzed a major outbreak in southern Argentina involving 29 HPS cases and 11 deaths, tracing transmission chains back to what the authors described as "super-spreaders" — three individuals whose attendance at crowded social gatherings during the prodromal phase drove the majority of secondary cases. Person-to-person transmission of a hantavirus, confirmed through full-length viral genome sequencing, was established beyond epidemiological doubt. The <a href="https://www.curiosityfields.com/article/history-of-pandemics-that-shaped-human-evolution">history of pandemics that shaped human evolution</a> provides useful context for how single transmission innovations in pathogens can reshape outbreak dynamics entirely.</p>
+ 
+    <h2>How Andes Virus Actually Moves Between People</h2>
+    <p>Pinpointing the precise physical mechanism of Andes virus person-to-person transmission has been one of the more technically demanding problems in hantavirus research. A 2019 study in Frontiers in Microbiology, using immunocytochemistry and electron microscopy on tissue samples from both infected rodents and fatal human HPS cases, produced important structural evidence.</p>
+ 
+    <p>The researchers found that in infected humans, Andes virus replicates in the alveolar epithelial cells of the lungs and in the secretory cells of the submandibular salivary glands. Virus particles were being discharged into the alveolar lumen — the airspace of the lungs — and were present in the salivary gland tissue. This provides a biological mechanism consistent with respiratory and salivary transmission between people: the virus is present in the fluid and particles that an infected person exhales, coughs, or produces in saliva.</p>
+ 
+    <p>Wikipedia's entry on Andes virus, drawing from documented outbreak cases, lists the confirmed transmission routes as direct physical contact, saliva, airborne droplets, breastmilk, mother-to-child placental transmission, and the digestive tract. Most transmission occurs during prolonged close contact — living with an infected person, caring for them during illness, or intimate contact.</p>
+ 
+    <p>What Andes virus does not do is spread casually through the air over distances the way measles or COVID-19 do. The WHO's assessment of the MV Hondius outbreak in May 2026 repeatedly emphasized that the risk to the general public remained low, and that transmission required close and prolonged contact. "This is not another COVID," WHO Director-General Tedros Adhanom Ghebreyesus stated during the Tenerife response on May 10, 2026.</p>
+ 
+    <p>The 2024 Lancet Infectious Diseases study, cited in the ECDC's rapid assessment of the MV Hondius outbreak, found that disease severity correlates with transmission risk — more severe cases show higher viral loads and broader viral shedding. This means the window of highest transmission risk overlaps with the period when an infected person is most visibly ill and most likely to be receiving close-contact care. The <a href="https://www.curiosityfields.com/article/placebo-effect-brain-chemistry-science-healing">immune and physiological response to severe illness</a> involves systemic inflammatory cascades that parallel the cytokine storm seen in Andes virus HCPS.</p>
+ 
+    <h2>Why Sin Nombre Virus Cannot Do What Andes Can</h2>
+    <p>Sin Nombre virus (SNV) is Andes virus's closest genetic relative in the hantavirus family. Both cause Hantavirus Cardiopulmonary Syndrome. Both have similar case fatality rates. Both are carried by Sigmodontinae rodents and both infect the pulmonary endothelium in humans with similar pathological profiles. Yet Sin Nombre has never been documented in person-to-person transmission despite decades of HCPS cases across the American Southwest.</p>
+ 
+    <p>This asymmetry is one of the most scientifically interesting puzzles in hantavirus research. The leading hypothesis centers on viral shedding characteristics. Research has shown that Andes virus is present in human salivary gland secretory cells in infected patients — a finding not replicated for Sin Nombre. This salivary gland tropism may be the key biological difference: Andes virus replicates in tissue that produces bodily secretions humans routinely exchange during close contact, while Sin Nombre does not appear to do so at detectable levels.</p>
+ 
+    <p>A 2023 study from the Robert Koch Institute in Berlin, published in CDC's Emerging Infectious Diseases journal, modeled Andes virus human-to-human transmission in Syrian hamsters — a species that uniquely develops HCPS-like disease after Andes virus infection. The researchers demonstrated that hamsters infected with Andes virus shed the virus efficiently and that contact animals became infected through horizontal transmission. This established an animal model for studying the transmission chain directly, something previously unavailable for this specific mechanism.</p>
+ 
+    <p>The genetic basis for why Andes specifically acquired this salivary-gland tropism, while genetically similar hantaviruses did not, remains an active area of investigation. It is among the more pressing open questions in emerging infectious disease research — not because Andes virus is currently pandemic-capable, but because understanding what specific genomic features confer human transmissibility in a hantavirus could be critical for surveillance if any other hantavirus ever develops similar properties.</p>
+ 
+    <h2>The MV Hondius Outbreak: What 2026 Revealed</h2>
+    <p>On May 2, 2026, the European Centre for Disease Prevention and Control (ECDC) was notified of a cluster of severe respiratory illness aboard MV Hondius, a Dutch-flagged expedition cruise ship that had departed Ushuaia, Argentina on April 1. The first case is believed to have onset around April 6, but confirmation of the Andes virus as the causative agent was not established until approximately April 24-25 — meaning passengers and crew interacted with infected individuals for roughly three weeks before full containment measures were implemented.</p>
+ 
+    <p>As of May 12, 2026, the WHO confirmed nine cases and two probable cases, with three deaths. Passengers represented 23 nationalities. Spain's health minister confirmed that initial genetic analyses ruled out relevant mutations — the virus matched known Andes variants with no evidence of enhanced transmissibility. "Investigation is helping to reconstruct how transmission occurs and to strengthen epidemiological monitoring," health minister Monica Garcia stated on May 10.</p>
+ 
+    <p>The WHO recommended a 42-day quarantine period for exposed passengers, reflecting the known incubation range of 9 to 40 days. The CDC classified the outbreak as a level 3 emergency response. As of May 12, confirmed cases were being managed in hospitals across South Africa, the Netherlands, Germany, France, Switzerland, Spain, and the United States.</p>
+ 
+    <p>A preliminary genomic analysis by the Pathoplexus team, published on virological.org using sequences from five patients across three countries, confirmed the Andes variant identity and showed no unexpected divergence. This rapid sequencing capacity — cross-continental genomic analysis within days of sample collection — represents a significant advance in outbreak response since the 1996 El Bolsón cluster.</p>
+ 
+    <p>The outbreak also exposed a genuine epidemiological gap: no recorded cases of Andes virus had previously originated in Ushuaia or the Tierra del Fuego region, which lies approximately 1,500 kilometers south of the known endemic range of Oligoryzomys longicaudatus. How and where the index patient acquired the infection remained under investigation at time of publication. This geographic ambiguity highlights a broader limitation in Andes virus surveillance — the rodent reservoir's distribution is not fully mapped, and ecological disruptions including bamboo flowering (linked to rodent population booms in Andean regions) can shift exposure risk in ways that existing surveillance does not always anticipate. Understanding how ecology drives infectious disease geography connects directly to the <a href="https://www.curiosityfields.com/article/5500-year-old-syphilis-skeleton-rewrote-disease-history">rewriting of disease history through new biological evidence</a> — both show how pathogens operate across geographic and temporal boundaries we have not fully mapped.</p>
+ 
+    <h2>Why There Is No Vaccine and What Scientists Are Building</h2>
+    <p>No approved vaccine exists for any hantavirus as of 2026. Treatment for Andes virus infection is supportive — oxygen supplementation, fluid management, and mechanical ventilation in severe cases. No antiviral has regulatory approval specifically for HCPS, though ribavirin has been used in some cases with limited evidence of benefit in the cardiopulmonary phase.</p>
+ 
+    <p>The Syrian hamster model developed at the Robert Koch Institute and used at institutions including the US Army Medical Research Institute of Infectious Diseases (USAMRIID) has been important for vaccine candidate testing. Several approaches are under investigation: DNA vaccines expressing ANDV glycoproteins, virus-like particle (VLP) vaccines, and monoclonal antibody therapies targeting the ANDV glycoprotein. A 2022 study demonstrated that passively transferred neutralizing antibodies could protect hamsters from lethal Andes virus challenge — a result that has encouraged monoclonal antibody development as a potential post-exposure prophylaxis.</p>
+ 
+    <p>The difficulty in vaccine development reflects a fundamental challenge with rare, high-fatality pathogens: clinical trials are logistically and ethically complex when the disease is both sporadic and severe. The Andes virus infects only hundreds of people per year in endemic regions under normal circumstances — insufficient to power a large efficacy trial through natural exposure alone. The MV Hondius outbreak created both urgency and a case for investment that rare-disease vaccine development rarely receives. The broader context of how biological research increasingly uses computational and molecular tools connects to the <a href="https://www.curiosityfields.com/article/crispr-gene-editing-transforming-medicine">CRISPR-based approaches transforming medicine</a>, some of which are being explored for rapid vaccine design against emerging pathogens.</p>
+ 
+    <h2>The Ecological Trigger: Rodents, Bamboo, and Climate</h2>
+    <p>Andes virus does not exist in isolation from its environment. Its primary reservoir, Oligoryzomys longicaudatus (the long-tailed pygmy rice rat), lives across rural Chile and Argentina in Andean and Patagonian ecosystems. The rodent's population density fluctuates significantly with food availability — and one of the most documented triggers of population booms is Chusquea bamboo flowering.</p>
+ 
+    <p>Chusquea bamboo species flower and seed in mass synchronization events every several decades. When they do, they generate enormous quantities of seeds, causing a sudden explosion in the rodent populations that feed on them. More rodents carrying Andes virus means more opportunities for human exposure. This phenomenon has been identified as a predictive factor in Andes virus spillover events in both Argentina and Chile.</p>
+ 
+    <p>Climate patterns also matter. La Nina conditions in South America tend to increase rainfall and vegetation productivity in Andean regions, which supports higher rodent densities. Surveillance systems that track both rodent population dynamics and weather patterns are now being used in Chile and Argentina to generate risk forecasts for HPS season — a model of ecological disease surveillance that has parallels in how the <a href="https://www.curiosityfields.com/article/what-happens-to-human-body-after-one-year-in-space">body's biological systems respond to environmental stress</a>, with cascading effects that can be anticipated from upstream signals.</p>
+ 
+    <h2>Conclusion</h2>
+    <p>Andes virus occupies a unique position in virology. It is the only hantavirus that has ever broken the rule that confined all members of its family to rodent-to-human transmission. The biological mechanism behind this — salivary gland tropism, efficient respiratory shedding during the prodromal phase, and replication in alveolar epithelial cells — gives it capabilities that its genetic relatives, including the closely related Sin Nombre virus, do not share.</p>
+ 
+    <p>The MV Hondius outbreak in 2026 demonstrated that Andes virus can travel far beyond Patagonia when an infected person boards a vehicle of international transport. It also demonstrated that modern outbreak response — rapid genomic sequencing, coordinated international health authorities, and proactive WHO engagement — has improved substantially since the first confirmed clusters in 1996.</p>
+ 
+    <p>What the outbreak did not change is the deeper biological question scientists continue to investigate: what specific genomic features allow Andes virus to replicate in human salivary tissue when no other hantavirus does? The answer matters not just for Andes, but for understanding what conditions could theoretically allow another hantavirus to acquire the same capability. That question is worth watching carefully.</p>
+ 
+    <h2>Frequently Asked Questions</h2>
+    <h3>Why is Andes virus the only hantavirus that spreads between humans?</h3>
+    <p>Andes virus replicates in the salivary glands and alveolar lung tissue of infected humans, enabling shedding through respiratory droplets and saliva during close contact. Other hantaviruses, including the closely related Sin Nombre virus, do not appear to replicate in salivary gland tissue, which is why they cannot pass between people. The exact genomic basis for this difference remains under active research.</p>
+ 
+    <h3>How does Andes virus spread from person to person?</h3>
+    <p>Person-to-person transmission of Andes virus occurs primarily through saliva, respiratory droplets, and direct physical contact during close and prolonged interaction — most commonly among household members or caregivers of someone infected during the prodromal phase. It has also been documented through breastmilk and mother-to-child placental transmission. Casual contact in public settings is not considered a meaningful transmission risk.</p>
+ 
+    <h3>What is the fatality rate of Andes virus infection?</h3>
+    <p>The case fatality rate for Andes virus Hantavirus Cardiopulmonary Syndrome is approximately 40%, according to the CDC. This figure can be higher in elderly patients. The disease progresses from a flu-like prodromal phase to sudden respiratory failure, and there is no approved antiviral treatment — care is supportive.</p>
+ 
+    <h3>What was the MV Hondius hantavirus outbreak?</h3>
+    <p>In April-May 2026, a cluster of Andes virus infections emerged on the Dutch cruise ship MV Hondius after it departed Ushuaia, Argentina. As of May 12, 2026, nine confirmed and two probable cases had been identified across passengers of 23 nationalities, with three deaths. The WHO coordinated an international response, and the ship docked in Tenerife, Spain for evacuation. The Andes variant was confirmed with no novel mutations detected.</p>
+ 
+    <h3>Where does Andes virus normally occur?</h3>
+    <p>Andes virus is endemic to Argentina and Chile, particularly in Andean and Patagonian regions where its primary rodent reservoir, Oligoryzomys longicaudatus (the long-tailed pygmy rice rat), is present. Human cases occur sporadically, with over 1,200 confirmed cases in Argentina since 1995. The endemic range is broadly between 35 and 50 degrees south latitude.</p>
+ 
+    <h3>Is there a vaccine for Andes virus?</h3>
+    <p>No approved vaccine exists for Andes virus or any other hantavirus as of 2026. Several candidates are in research and preclinical stages, including DNA vaccines, virus-like particle vaccines, and monoclonal antibody therapies. The Syrian hamster animal model, which uniquely reproduces human-like Andes virus disease, has been important for preclinical testing of these approaches.</p>
+ 
+    <h3>Could Andes virus cause a pandemic?</h3>
+    <p>Based on current evidence, Andes virus has limited pandemic potential. Transmission requires close and prolonged contact, the virus has not developed efficient airborne spread over distances, and genetic analyses of current strains show no mutations suggesting enhanced transmissibility. The WHO has repeatedly characterized the public risk as low. However, the fact that it is the only hantavirus capable of any human-to-human transmission makes ongoing surveillance scientifically important.</p>
+  `,
+  coverImage: "/images/articles/andes-virus-hantavirus-human-transmission.jpg",
+  category: "science",
+  author: authors[0],
+  publishedAt: "2026-05-13",
+  readTime: 13,
+  featured: false,
+  tags: ["Science", "Virology", "Hantavirus", "Andes Virus", "Infectious Disease", "Emerging Pathogens", "Epidemiology"],
+};
   
 ];
 
