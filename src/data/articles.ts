@@ -4085,7 +4085,7 @@ export const articles: Article[] = [
   id: "andes-virus-only-hantavirus-human-to-human-transmission",
   slug: "andes-virus-only-hantavirus-human-to-human-transmission",
   title:
-    "Why the Andes Virus Is the Only Hantavirus That Spreads Between Humans, and Why Scientists Are Watching It Closely",
+    "Why the Andes Virus Is the Only Hantavirus That Spreads Between Humans and Why Scientists Are Watching It Closely",
   excerpt:
     "Of more than 50 known hantaviruses, only one has ever been documented spreading directly between people. Here is what makes the Andes virus biologically different, and why its behavior matters far beyond South America.",
   metaDescription:
