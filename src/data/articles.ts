@@ -4256,8 +4256,14 @@ export function getFeaturedArticles(): Article[] {
   return sortArticlesByPublishedAt(articles.filter((article) => article.featured));
 }
 
+const editorsPickOverrides = new Set([
+  'woolly-mammoth-resurrection-crispr-de-extinction-biology',
+]);
+
 export function getEditorsPickArticles(limit = 6): Article[] {
-  return articles.filter((article) => article.editorsPick === true).slice(0, limit);
+  return articles
+    .filter((article) => article.editorsPick === true || editorsPickOverrides.has(article.slug))
+    .slice(0, limit);
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {
