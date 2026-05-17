@@ -12,6 +12,7 @@ export interface Article {
   id: string;
   slug: string;
   title: string;
+  metaTitle: string; // SEO meta title (50-55 chars max)
   excerpt: string;
   metaDescription: string; // SEO meta description (150-155 chars max)
   content: string;
@@ -112,10 +113,10 @@ export const articles: Article[] = [
     id: "1",
     slug: "the-quantum-revolution-reshaping-computing",
     title: "The Quantum Revolution: How Quantum Computing Is Reshaping Our Digital Future",
+    metaTitle: "Quantum Computing Explained: Risks, Uses, Timeline",
     excerpt:
       "Quantum computers are no longer science fiction. As tech giants race to achieve quantum supremacy, we explore what this means for cryptography, medicine, and beyond.",
-    metaDescription:
-      "Understand quantum computing, qubits, and quantum advantage—plus applications in drug discovery and finance, and why it could break today’s encryption.",
+    metaDescription: "Learn how quantum computing works, where qubits already beat classical systems, and why experts warn about encryption risk, post-quantum migration.",
     content: `
       <p class="lead">Quantum computing uses subatomic physics to solve problems classical computers cannot crack in any practical timeframe. Unlike conventional processors that work with bits (0 or 1), quantum computers use qubits that exist in multiple states at once, letting them evaluate vast numbers of possibilities simultaneously. This makes them uniquely suited to optimization, molecular simulation, and cryptographic problems and poses a direct threat to the encryption systems securing the internet today.</p>
 
@@ -204,10 +205,10 @@ export const articles: Article[] = [
     id: "2",
     slug: "james-webb-telescope-discoveries-changing-astronomy",
     title: "James Webb Telescope Discoveries That Are Changing Astronomy",
+    metaTitle: "James Webb Space Telescope Discoveries Explained",
     excerpt:
       "From uncovering unexpectedly mature early galaxies to decoding the atmospheres of distant exoplanets, the James Webb Space Telescope is transforming astronomy from theory-driven assumptions to data-driven reality. Here's how JWST is reshaping what we know about the universe.",
-    metaDescription:
-      "Explore JWST's groundbreaking discoveries: early galaxies, exoplanet atmospheres, and cosmic mysteries. See how the James Webb Space Telescope is rewriting cosmology.",
+    metaDescription: "Explore James Webb Space Telescope discoveries on early galaxies, exoplanet atmospheres, and cosmic evolution, with clear context on what JWST changed.",
     content: `
       <p class="lead">The James Webb Space Telescope (JWST) is the most powerful astronomical observatory ever built, observing the universe in infrared wavelengths that reveal objects invisible to Hubble. Since delivering its first science data in 2022, JWST has found early galaxies far larger and more chemically evolved than any model predicted, directly detected atmospheric molecules on planets outside our solar system, and exposed gaps in standard cosmological theory that researchers are still working to explain. It is not an upgrade to Hubble. It is a fundamentally different instrument answering questions that were previously unanswerable.</p>
  
@@ -298,10 +299,10 @@ export const articles: Article[] = [
     id: "3",
     slug: "artificial-general-intelligence-closer-than-expected",
     title: "Artificial General Intelligence: How Close Are We to Real Thinking Machines?",
+    metaTitle: "Artificial General Intelligence: How Close Is AGI?",
     excerpt:
       "Artificial General Intelligence (AGI) is intelligence that transfers across tasks the way humans do. In 2026 it does not exist yet, even as modern AI looks increasingly capable. This guide explains what AGI means, why progress feels fast, and what is still missing.",
-    metaDescription:
-      "Understand what AGI is, why current AI systems are not yet general, what capabilities are missing, and how to think about realistic timelines and risks.",
+    metaDescription: "Understand artificial general intelligence progress, key technical barriers, and expert forecasts so you can separate AGI hype from realistic timelines.",
     content: `
       <p class="lead">Artificial General Intelligence (AGI) is the idea of a system that can learn, reason, and transfer knowledge across any domain, not just one narrow task. In 2026, the direct answer is simple: AGI does not exist. If a system could learn a new domain the way a human does, without retraining, that would be AGI. Today’s frontier models can write, code, and analyze, but they remain statistical pattern engines without grounded understanding, reliable memory, or self-directed goals. This article explains what AGI actually means, why recent breakthroughs make it feel close, what is missing at the architectural level, and how to interpret timelines without hype.</p>
 
@@ -375,10 +376,10 @@ export const articles: Article[] = [
     id: "4",
     slug: "lost-library-of-alexandria-what-we-really-lost",
     title: "The Lost Library of Alexandria: What Ancient Knowledge Did Humanity Truly Lose?",
+    metaTitle: "Lost Library of Alexandria: Knowledge We May Have Lost",
     excerpt:
       "Discover the true history of the Library of Alexandria. Explore the specific works lost to time, debunk the myths of its destruction, and understand its impact on modern knowledge preservation.",
-    metaDescription:
-      "Uncover what was really lost when the Library of Alexandria fell. Explore the ancient texts, scientific works, and myths behind history's greatest tragedy.",
+    metaDescription: "Discover what the Lost Library of Alexandria likely contained, what was really destroyed, and how historians reconstruct ancient knowledge from surviving.",
         content: `
       <p class="lead">The Library of Alexandria did not burn in a single catastrophic fire. That version of the story, vivid and cinematically satisfying, is almost certainly a myth. What actually happened was slower and less dramatic: a great institution that housed hundreds of thousands of papyrus scrolls declined gradually over several centuries, damaged by multiple incidents, starved of funding, and ultimately overtaken by the political collapse of the civilization that built it. How much knowledge was truly lost is genuinely unknown, and the honest answer is more complicated than either the myth of total loss or the revisionist claim that the destruction was trivial.</p>
  
@@ -449,10 +450,10 @@ export const articles: Article[] = [
     id: "5",
     slug: "crispr-gene-editing-transforming-medicine",
     title: "CRISPR Gene Editing: How It's Transforming Medicine Right Now",
+    metaTitle: "CRISPR Gene Editing in Medicine: Breakthroughs Now",
     excerpt:
       "CRISPR gene editing has reached patients, with FDA-approved therapies for sickle cell disease and beta thalassemia leading the way. Learn how the technology works, where it is already used, and what delivery, safety, and ethics still need to solve.",
-    metaDescription:
-      "CRISPR gene editing is now used in FDA-approved therapies. Explore how it works, current medical uses, delivery challenges, and ethical boundaries.",
+    metaDescription: "See how CRISPR gene editing is changing medicine today, from rare disease therapies to cancer research, including risks, ethics, regulation, and what.",
     content: `
       <p class="lead">CRISPR is a programmable gene editing system that can cut DNA at a chosen sequence and let cells repair the break in a new way. It has already reached patients, with FDA-approved therapies for sickle cell disease and beta thalassemia proving that precise editing can treat real genetic disorders. The next phase targets cancer, eye and liver diseases, with delivery and safety as the main bottlenecks.</p>
 
@@ -508,10 +509,10 @@ export const articles: Article[] = [
     id: "6",
     slug: "sustainable-cities-2050-urban-innovation",
     title: "Sustainable Cities of 2050: The Urban Innovations Being Built Today",
+    metaTitle: "Sustainable Cities 2050: Urban Tech Being Built Now",
     excerpt:
       "By 2050, 70% of the world will live in cities. Discover the regenerative architecture, smart grids, and 15-minute mobility frameworks defining the future of urban living.",
-    metaDescription:
-      "Discover how sustainable cities of 2050 will work: regenerative architecture, smart grids, 15-minute neighborhoods, and urban innovations being built today.",
+    metaDescription: "Discover sustainable cities innovations already scaling now, from smart grids to low-carbon transport, and how urban design choices shape livability.",
     content: `
       <p class="lead">By 2050, the United Nations projects that nearly 70% of the global population will live in urban centers. That demographic shift presents a fundamental challenge: how do cities house billions of people without collapsing the planetary systems that support them? The answer being built right now moves beyond greenwashing toward regenerative urbanism, cities designed not just to reduce harm but to actively restore the environment. Sustainable urban innovation is not about constructing greener versions of old systems. It is about redesigning cities to function like efficient, resilient ecosystems where energy, water, transportation, and public services are interconnected and optimized for long-term stability.</p>
  
@@ -611,10 +612,10 @@ export const articles: Article[] = [
     id: "7",
     slug: "dark-matter-mystery-what-we-know",
     title: "The Dark Matter Mystery: What We Know and What We're Getting Wrong",
+    metaTitle: "Dark Matter Mystery: What Science Knows in 2026",
     excerpt:
       "It makes up 85% of the universe's mass, yet we've never detected it directly. The latest experiments and theories trying to solve physics' greatest puzzle.",
-    metaDescription:
-      "Explore the dark matter mystery: what scientists know, leading theories like WIMPs and axions, and why decades of experiments have found nothing so far.",
+    metaDescription: "Get a clear dark matter update on strongest evidence, leading theories, and why major experiments still disagree on detection, mass, and particle.",
     content: `
       <p class="lead">Dark matter is the most abundant form of matter in the universe, accounting for roughly 27% of the universe's total energy content and about 85% of all matter by mass, yet it has never been directly detected. Its existence is inferred entirely from gravitational effects: galaxies rotate at speeds that visible matter alone cannot explain, the universe's large-scale structure would not exist without it, and gravitational lensing bends light far more than the visible mass of galaxy clusters should allow. The evidence is overwhelming and consistent across multiple independent methods. What dark matter actually is remains completely unknown.</p>
  
@@ -685,10 +686,10 @@ export const articles: Article[] = [
     id: "9",
     slug: "openclaw-the-ai-agent-that-actually-does-things",
     title: "OpenClaw: The 'Eyes and Hands' AI Agent That Actually Does Your Work",
+    metaTitle: "OpenClaw AI Agent Review: Can It Do Real Work?",
     excerpt:
       "OpenClaw is a local-first, open-source AI agent that connects language models to your computer so they can execute real tasks. This guide explains how it works, why privacy matters, and how it differs from standard chatbots.",
-    metaDescription:
-      "Learn what OpenClaw is, how this local AI agent connects to your tools, and how to deploy it safely for real work.",
+    metaDescription: "Read an OpenClaw AI agent breakdown covering capabilities, real workflows, limits, and where autonomous desktop action beats chat-only tools.",
     content: `
       <p class="lead">OpenClaw is an open-source, local-first AI agent that lets a language model use your computer through chat apps. Instead of only answering questions, it can execute tasks by running commands, opening a browser, and interacting with files you explicitly allow. It connects to models like Claude and GPT through your own machine, turning chat messages into tool calls. The result is a system that behaves less like a chatbot and more like a digital operator. This article explains what OpenClaw is, how its gateway and skills work, why local execution improves privacy and control, and how to deploy it safely as a practical example of agentic AI.</p>
 
@@ -802,10 +803,10 @@ export const articles: Article[] = [
     id: "8",
     slug: "ancient-computers-antikythera-mechanism",
     title: "Ancient Computers: The Antikythera Mechanism and Lost Technology",
+    metaTitle: "Antikythera Mechanism: Ancient Computer Decoded",
     excerpt:
       "A 2,000-year-old device that predicted eclipses and tracked planets reveals ancient Greeks were far more advanced than we imagined.",
-    metaDescription:
-      "Discover the Antikythera Mechanism, a 2,000-year-old Greek computer that predicted eclipses, tracked planets, and reshapes the history of modern technology.",
+    metaDescription: "Learn how the Antikythera Mechanism worked as an ancient computer, what its gears predicted, and why this lost technology reshapes the history.",
         content: `
       <p class="lead">In 1901, sponge divers exploring a Roman-era shipwreck off the Greek island of Antikythera pulled a corroded bronze lump from the seafloor. It took over a century of X-ray imaging, computed tomography, and careful scholarship to understand what they had found: a hand-cranked mechanical computer, built around 100 BCE, capable of predicting solar and lunar eclipses, tracking the positions of the five planets known in antiquity, and displaying the four-year cycle of the Olympic Games. Nothing of comparable mechanical complexity appears in the historical record for another 1,400 years. The Antikythera Mechanism is not just an archaeological curiosity. It is evidence that the ancient world achieved a level of precision mechanical engineering whose loss we still cannot fully explain.</p>
  
@@ -879,10 +880,10 @@ export const articles: Article[] = [
     id: "artemis-3-2026-status-update",
     slug: "artemis-iii-update-nasa-2026-moon-landing",
     title: "Artemis III Update: NASA's 2026 Mission to Land Humans on the Moon",
+    metaTitle: "Artemis III Mission: NASA's 2026 Moon Landing Plan",
     excerpt:
       "NASA is preparing to return humans to the lunar surface for the first time in over 50 years. We break down the latest Artemis III mission status, the shift to a 2026/2027 timeline, and the technology powering our return to the Moon.",
-    metaDescription:
-      "Explore the latest Artemis III update and NASA's 2026-2027 Moon landing timeline, Starship HLS progress, lunar South Pole plans, and key mission objectives.",
+    metaDescription: "Get the latest Artemis III mission update on landing timeline, spacecraft readiness, mission risks, and what NASA's next human Moon mission means.",
     content: `
     <p class="lead">Artemis III is NASA's mission to land humans on the Moon for the first time since Apollo 17 in 1972. It will place the first woman and the first person of color on the lunar surface, using SpaceX's Starship as the Human Landing System (HLS). As of 2026, NASA is targeting a launch no earlier than late 2026, with a realistic planning window extending into 2027 or 2028. The mission architecture is substantially different from Apollo: instead of landing near the equator, Artemis III targets the lunar South Pole, where permanently shadowed craters contain water ice that could support long-term human presence and future propellant production.</p>
  
@@ -1002,10 +1003,10 @@ export const articles: Article[] = [
     id: "placebo-effect-brain-chemistry-healing",
     slug: "placebo-effect-brain-chemistry-science-healing",
     title: "The Science Behind the Placebo Effect: How Belief Literally Changes Your Brain Chemistry",
+    metaTitle: "Placebo Effect Science: Belief and Brain Chemistry",
     excerpt:
       "The placebo effect is measurable neurobiology, not fake healing. Belief and context can trigger dopamine, endorphins, and endocannabinoids that change pain, movement, and immune responses.",
-    metaDescription:
-      "Explore the neuroscience of the placebo effect and how belief triggers dopamine, endorphins, and endocannabinoids that alter real symptoms.",
+    metaDescription: "Understand placebo effect science with evidence on pain pathways, brain chemistry, and clinical outcomes so you can see when expectation measurably.",
     content: `
     <p class="lead">The placebo effect is a real biological response. When people expect relief, the brain releases its own painkillers and neuromodulators, which can reduce pain, improve movement in Parkinson's disease, and alter immune signaling even when the treatment is inert. Brain imaging confirms these changes, making the placebo effect a measurable part of physiology, not imagination.</p>
 
@@ -1147,10 +1148,10 @@ export const articles: Article[] = [
     id: "agentic-ai-rise-2026-autonomous-agents",
     slug: "2026-rise-of-agentic-ai-autonomous-agents-automation",
     title: "The 2026 Rise of Agentic AI: How Autonomous Agents Automate Work",
+    metaTitle: "Agentic AI in 2026: How Autonomous Agents Work",
     excerpt:
       "Agentic AI refers to autonomous software agents that plan and execute multi-step tasks. In 2026 these systems move beyond chatbots by using tools, memory, and workflows to automate work. This guide explains how they function, where they are used, and what risks remain.",
-    metaDescription:
-      "Discover how agentic AI and autonomous agents are transforming work in 2026, including definitions, use cases, risks, and best practices for safe adoption.",
+    metaDescription: "Explore the rise of agentic AI in 2026, including enterprise use cases, automation gains, safety controls, and where autonomous agents still fail.",
     content: `
 
   <p class="lead">Agentic AI refers to artificial intelligence systems that can plan, decide, and execute tasks independently toward a defined goal. Unlike traditional AI that waits for commands, agentic systems initiate actions, coordinate tools, and adapt strategies with minimal human input. In 2026, these agents connect large language models to tools, memory, and workflows, which moves AI from passive assistance to active operations. They can run continuously, coordinate multiple tools, and report results back for review. This shift is driving adoption in business operations, research, and personal productivity. This article defines agentic AI, explains how autonomous agents work, where they are already deployed, and what governance is required to keep them safe.</p>
@@ -1318,10 +1319,10 @@ export const articles: Article[] = [
     id: "the-end-of-passwords-2026",
     slug: "end-of-passwords-guide-passkeys-biometric-security",
     title: "The End of Passwords: A Guide to Passkeys and Biometric Security",
+    metaTitle: "Passkeys and Biometric Security: End of Passwords?",
     excerpt:
       "Passwords are reaching a breaking point in 2026. Discover how passkeys and advanced biometrics are eliminating phishing risks and replacing traditional logins with secure, device-based authentication.",
-    metaDescription:
-      "Explore the shift to passwordless security in 2026. Learn how passkeys work, the role of biometric authentication, and how to protect your digital identity without passwords.",
+    metaDescription: "Learn how passkeys and biometric security replace passwords, improve phishing resistance, and fit into real authentication stacks across iOS, Android.",
     content: `
     <p class="lead">Passkeys replace passwords with cryptographic key pairs stored on your device. When you log in, your device signs a challenge from the website using a private key that never leaves your hardware. The website verifies the signature using a public key it already holds. No shared secret is transmitted, which means phishing attacks and server-side credential breaches stop working. The technical standard behind passkeys, FIDO2/WebAuthn, is now supported by Apple, Google, Microsoft, and most major browsers as of 2024.</p>
 
@@ -1456,8 +1457,9 @@ export const articles: Article[] = [
     id: "rise-of-ai-scientists-2026",
     slug: "rise-of-ai-scientists-autonomous-research",
     title: "The Rise of AI Scientists: What Happens When AI Runs Its Own Experiments?",
+    metaTitle: "AI Scientists in 2026: Autonomous Research Is Here",
     excerpt: "In 2026, science is no longer a human-only endeavor. Explore the emergence of AI Scientists: autonomous systems capable of generating hypotheses, running experiments, and publishing papers with minimal human intervention.",
-    metaDescription: "Explore the rise of AI Scientists in 2026. Learn how autonomous AI agents like Sakana's AI Scientist and self-driving labs are redefining discovery, drug development, and the future of human research.",
+    metaDescription: "See how AI scientists run autonomous experiments, generate hypotheses, and accelerate discovery, plus where human oversight still determines research.",
     content: `
       <p class="lead">AI Scientists are autonomous agentic systems that integrate Large Language Models with laboratory automation to execute the entire scientific method end-to-end. By early 2026, these systems are no longer just research assistants. They generate hypotheses, design experiments, analyze data, and draft peer-reviewed manuscripts. While they currently excel in computational domains like machine learning and materials science, their ability to drive physical discoveries is expanding rapidly through self-driving laboratories. This shift represents the transition from AI-assisted science to agentic science, and it raises a fundamental question: what happens when the speed of discovery outpaces the human ability to verify it?</p>
  
@@ -1566,10 +1568,10 @@ export const articles: Article[] = [
     id: "5500-year-old-syphilis-skeleton-colombia",
     slug: "5500-year-old-syphilis-skeleton-rewrote-disease-history",
     title: "The 5,500-Year-Old Syphilis Skeleton That Rewrote Disease History",
+    metaTitle: "Ancient Syphilis Skeleton Rewrites Disease History",
     excerpt:
       "A single hunter-gatherer buried in a Colombian rock shelter 5,500 years ago has just overturned one of medicine's oldest debates. We break down what scientists found in the bones, why it changes everything we thought we knew about syphilis, and what it means for fighting the disease today.",
-    metaDescription:
-      "A 5,500-year-old skeleton from Colombia has yielded the oldest known genome of Treponema pallidum, the bacterium behind syphilis. Discover what this January 2026 Science discovery means for disease history, the Columbus debate, and modern public health.",
+    metaDescription: "Discover how a 5,500-year-old syphilis skeleton changed disease history, what ancient DNA revealed, and why transmission timelines now challenge old.",
         content: `
       <p class="lead">A 5,500-year-old skeleton buried in a Colombian rock shelter has provided the oldest genetic evidence of syphilis-related disease ever recovered. Published in the journal Science in January 2026, the discovery extends the known genetic record of Treponema pallidum, the bacterium behind syphilis, yaws, and bejel, by more than 3,000 years, and fundamentally complicates one of the most persistent debates in the history of infectious disease: whether syphilis traveled from the Americas to Europe with Columbus's returning crew in 1493, or whether it was already present in the Old World before contact.</p>
  
@@ -1637,10 +1639,10 @@ export const articles: Article[] = [
     id: "tardigrades-nuclear-radiation-2026",
     slug: "can-tardigrades-survive-nuclear-radiation-real-science",
     title: "Can Tardigrades Actually Survive Nuclear Radiation? The Real Science",
+    metaTitle: "Tardigrades and Radiation: What Science Shows",
     excerpt:
       "Tardigrades can survive extreme radiation, but only under specific conditions. Learn what the Dsup protein does, how DNA repair works in these animals, and where the myth goes too far.",
-    metaDescription:
-      "Can tardigrades survive nuclear radiation? Explore the real science behind their radiation resistance, Dsup protein, and biological limits.",
+    metaDescription: "Find out how tardigrades survive radiation, what lab data confirms, and where popular claims about nuclear-proof life exaggerate their real biological.",
     content: `
       <p class="lead">Tardigrades can survive radiation doses that would kill most animals, especially when they are in a dormant, dried state called a tun. Their resilience comes from DNA protection proteins and unusually fast repair pathways, not from invincibility. They are resistant to radiation, but they are not immune to heat, pressure, or direct blast forces.</p>
 
@@ -1697,10 +1699,10 @@ export const articles: Article[] = [
     id: "streaming-energy-cost-netflix-2026",
     slug: "hidden-energy-cost-streaming-netflix-episode",
     title: "The Hidden Energy Cost of Streaming a Single Netflix Episode",
+    metaTitle: "Streaming Energy Use: Hidden Cost of One Episode",
     excerpt:
       "A viral 2020 claim said 30 minutes of Netflix equaled driving 6 km — and it was wrong by a factor of 30. Here's the real, peer-reviewed breakdown of the data center, network, and device energy that actually powers your streaming session.",
-    metaDescription:
-      "How much energy does streaming Netflix actually use? Break down the real data center, network, and device energy cost of streaming one episode and what it means for carbon footprints.",
+    metaDescription: "Measure the streaming energy cost of a single episode across data centers, networks, and devices, with practical ways to reduce your digital carbon.",
     content: `
       <p class="lead">Streaming one hour of Netflix in HD consumes between 0.07 and 0.17 kilowatt-hours of electricity, depending primarily on your viewing device. A 2022 lifecycle analysis commissioned by Netflix and conducted by the Carbon Trust found that device energy dominates the total, accounting for over 70% of consumption in a typical viewing session. Data center and network transmission energy, the sources most people assume are the main culprits, are comparatively small. A viral 2020 claim that 30 minutes of Netflix produced emissions equivalent to driving 6 kilometers was wrong by a factor of roughly 30, the result of a methodological error that credited the entire energy cost of running fixed-line broadband networks to the data flowing through them.</p>
 
@@ -1767,10 +1769,10 @@ export const articles: Article[] = [
     id: "ai-language-models-false-facts-2026",
     slug: "why-ai-language-models-confidently-state-false-facts-mechanism",
     title: "Why AI Language Models Confidently State False Facts and How the Mechanism Works",
+    metaTitle: "AI Hallucinations Explained: Why Models Sound Certain",
     excerpt:
       "Large language models can cite papers that do not exist with perfect grammar and total confidence. The reason is architectural, not deception. This guide explains how token prediction creates hallucinations and why model confidence has no epistemic content.",
-    metaDescription:
-      "Learn why AI language models confidently state false information, how token prediction drives hallucinations, and why confidence is statistically generated rather than evidence-based.",
+    metaDescription: "Understand AI hallucinations at the mechanism level, why language models produce confident errors, and what evaluation and guardrails reduce false outputs.",
     content: `
       <p class="lead">Large language models are optimized to predict the next token, not to verify truth. That is why they can cite papers that do not exist while sounding confident and precise. The mechanism is statistical generation based on training data distributions, not deception or intent. This article explains how hallucinations form, why model confidence is not evidence, how context limits worsen errors, and which mitigation strategies like retrieval-augmented generation help but do not eliminate the problem. Understanding this mechanism is essential for anyone using LLMs in research, legal, or product settings, and it shows why human verification and tool-based grounding remain necessary.</p>
 
@@ -1846,10 +1848,10 @@ export const articles: Article[] = [
     id: "pandemics-shaped-human-evolution-2026",
     slug: "history-of-pandemics-that-shaped-human-evolution",
     title: "The History of Pandemics That Shaped Human Evolution",
+    metaTitle: "History of Pandemics: How Disease Shaped Humans",
     excerpt:
       "The Black Death didn't just kill a third of Europe; it rewrote the genome of the survivors. From sickle cell to CCR5-delta32, here's how pandemics have acted as among the most powerful selective forces in recorded human history.",
-    metaDescription:
-      "How did historical pandemics shape human evolution? Explore the genetic legacy of the Black Death, ancient malaria, and smallpox on modern human immune systems and DNA.",
+    metaDescription: "Trace the history of pandemics that changed human evolution, from pathogen pressures to genetic adaptation, and what past outbreaks teach modern public.",
         content: `
       <p class="lead">Pandemics do not just kill people. They reshape the genetic composition of surviving populations, leaving permanent marks in human DNA that researchers can now read thousands of years later. When geneticists sequenced the genomes of medieval Europeans buried in mass graves during the Black Death and compared them to pre-plague and post-plague populations, they found that the survivors were not genetically identical to those who died. Specific immune gene variants had become dramatically more common after the plague. Yersinia pestis, the bacterium that killed an estimated 30 to 60 percent of Europe's population between 1347 and 1351, acted as a selection event, changing the composition of the human immune system in ways that can be measured today.</p>
  
@@ -1922,10 +1924,10 @@ export const articles: Article[] = [
     id: "year-in-space-human-body-2026",
     slug: "what-happens-to-human-body-after-one-year-in-space",
     title: "What Really Happens to the Human Body After One Year in Space",
+    metaTitle: "One Year in Space: Effects on the Human Body",
     excerpt:
       "Scott Kelly came back from 340 days on the ISS two inches taller than his identical twin. Some of the changes reversed in days. Others hadn't fully reversed eighteen months later. Here's what the NASA Twin Study actually revealed about the body in microgravity.",
-    metaDescription:
-      "What does one year in space do to the human body? Explore the real science from NASA's Twin Study, covering bone loss, vision damage, gene expression, and what it means for Mars.",
+    metaDescription: "Learn what one year in space does to the human body, including muscle loss, bone density decline, immune shifts, and recovery challenges after Earth.",
     content: `
       <p class="lead">After 340 days aboard the International Space Station, astronaut Scott Kelly returned to Earth two inches taller than his identical twin brother Mark. Within two days, he had shrunk back to his normal height. Other changes took far longer. Some, documented in the full NASA Twin Study published in Science in 2019, had still not fully reversed eighteen months after landing. Space does not pause the human body. It actively reshapes it in ways that have direct consequences for every mission beyond low Earth orbit.</p>
  
@@ -2000,10 +2002,10 @@ export const articles: Article[] = [
     id: "ai-designs-its-successor-2026",
     slug: "what-happens-when-ai-can-design-its-own-successor",
     title: "What Happens When AI Can Design Its Own Successor",
+    metaTitle: "Recursive AI Design: When AI Builds Its Successor",
     excerpt:
       "In 2017, Google Brain let a system search for neural network architectures. It produced NASNet, better than anything human engineers had designed. Today, AI is increasingly designing AI. Here's where that road actually leads, and why interpretability is the bottleneck.",
-    metaDescription:
-      "What happens when AI can design its own AI successor? Explore neural architecture search, recursive self-improvement, AutoML, and the real technical and alignment challenges of AI-designed AI systems.",
+    metaDescription: "Explore recursive AI design and what happens when AI systems help create better models, including acceleration risks, governance gaps, and control.",
     content: `
       <p class="lead">In 2017, Google Brain researchers tasked a reinforcement learning system with designing neural network architectures for image classification. The system explored a search space of possible architectures automatically, evaluating candidates on a GPU cluster. After several days, it produced an architecture called NASNet. NASNet outperformed every architecture human engineers had designed up to that point. The researchers had not told the system what a convolutional neural network was. They had given it an objective and resources and let it search. That was Neural Architecture Search (NAS). What is happening now, and what the trajectory looks like over the next decade, involves considerably more than optimizing layer configurations.</p>
  
@@ -2080,10 +2082,10 @@ export const articles: Article[] = [
     id: "multitasking-neurologically-impossible",
     slug: "multitasking-neurologically-impossible-brain-task-switching",
     title: "Multitasking Is Neurologically Impossible: What Your Brain Is Actually Doing",
+    metaTitle: "Multitasking Myth: What Your Brain Is Really Doing",
     excerpt:
       "Multitasking is not parallel thinking. Your brain switches tasks in sequence, which costs time, accuracy, and energy.",
-    metaDescription:
-      "Multitasking is task switching, not parallel processing. Learn the neuroscience behind switch costs, attention limits, and productivity myths.",
+    metaDescription: "See why multitasking is neurologically limited, how task switching drains focus, and what neuroscience-backed habits improve attention, speed, and work.",
     content: `
       <p class="lead">Multitasking feels real, but the brain cannot run two conscious tasks at the same time. Instead it switches rapidly between tasks, and each switch burns time, glucose, and working memory. The result is slower performance, more errors, and a strong illusion of productivity.</p>
       <p>When you answer email while on a call, your prefrontal cortex is not running two streams in parallel. It is serially loading and unloading task rules, which is why the experience feels busy but the output declines.</p>
@@ -2161,10 +2163,10 @@ export const articles: Article[] = [
     id: "google-indexes-130-trillion-pages",
     slug: "how-google-indexes-130-trillion-pages-crawling-architecture",
     title: "How Google Actually Indexes 130 Trillion Pages: The Real Crawling Architecture",
+    metaTitle: "Google Indexing: How 130 Trillion Pages Get Found",
     excerpt:
       "Google doesn't search the internet in real time — it searches a pre-built copy of it. Here's how Googlebot, Caffeine, and distributed indexing actually work at scale.",
-    metaDescription:
-      "Google doesn't search the internet in real time — it searches a pre-built copy of it. Here's how Googlebot, Caffeine, and distributed indexing actually work at scale.",
+    metaDescription: "Understand Google indexing architecture, from crawl scheduling to rendering and canonical selection, with practical SEO implications for faster page.",
     content: `
       <p class="lead">When you type a search query, Google searches a pre-built copy of the internet, not the live web. That copy contains over 130 trillion individual pages stored across hundreds of thousands of servers globally. Building and maintaining it involves distributed crawl queues, probabilistic link scheduling, real-time indexing pipelines, and a rendering system that simulates a full browser to execute JavaScript. Your query returns in under 200 milliseconds because most of the work happened before you asked.</p>
 
@@ -2238,10 +2240,10 @@ export const articles: Article[] = [
     id: "social-feed-algorithm-ranking",
     slug: "how-social-feed-ranking-algorithm-works",
     title: "The Algorithm Knows You Better Than You Think: How Social Feed Ranking Works",
+    metaTitle: "Social Feed Algorithms: How Platforms Predict You",
     excerpt:
       "Social feed algorithms don't show you what's popular — they predict what will keep you watching. Here's the actual machine learning behind what you see and why.",
-    metaDescription:
-      "Social feed algorithms don't show you what's popular — they predict what will keep you watching. Here's the actual machine learning behind what you see and why.",
+    metaDescription: "Learn how social feed ranking algorithms score posts using engagement signals, dwell time, and personalization models that shape what billions see each.",
     content: `
       <p class="lead">Social feed algorithms are real-time prediction systems, not curation systems. The algorithm is not asking what is good content. It is asking: given everything known about this specific user at this specific moment, what item maximizes the probability they take the next desired action? The desired action varies by platform and context: completing a video, sharing to another app, saving a post, or simply not scrolling past. Every pause, every second of dwell time, every swipe is a labeled training example updating a machine learning model that will predict your next behavior.</p>
 
@@ -2319,10 +2321,10 @@ export const articles: Article[] = [
     id: "7-things-ai-cannot-do-2026",
     slug: "7-things-ai-cannot-do-in-2026",
     title: "The 7 Things AI Cannot Do in 2026 (Despite What You've Been Told)",
+    metaTitle: "What AI Cannot Do in 2026: 7 Hard Limits",
     excerpt:
       "AI can write code, pass the bar exam, and generate photorealistic video. But seven fundamental limitations remain in 2026 that no model has solved, and some may never be solved.",
-    metaDescription:
-      "AI can write code, pass the bar exam, and generate photorealistic video. But seven fundamental limitations remain in 2026 that no model has solved.",
+    metaDescription: "Get a reality check on what AI cannot do in 2026, with seven proven limits around reasoning, reliability, agency, and judgment that still require humans.",
     content: `
       <p class="lead">AI in 2026 can write code, generate video, and pass exams, but it still fails in seven predictable ways. These limits are structural properties of transformer-based systems: weak calibration, shallow causal models, finite context windows, brittle planning, limited grounding, shallow moral reasoning, and dependence on human expertise. Even the most capable frontier models share these gaps. Knowing these limits is essential for safe deployment and for understanding why AGI is still out of reach. Use this list as a reality check for policy, product, and personal use. It also links to deeper explanations of context and hallucination mechanisms. Treat each limitation as a design constraint, not a surprise.</p>
 
@@ -2393,10 +2395,10 @@ export const articles: Article[] = [
     id: "ai-context-problem-explained",
     slug: "ai-reads-every-word-but-understands-nothing-context-problem",
     title: "AI Reads Every Word But Understands Nothing: The Context Problem Explained",
+    metaTitle: "AI Context Problem: Why Models Miss Meaning",
     excerpt:
       "AI can process millions of tokens but still misses what you mean. The context problem explains why AI confidently gets things wrong and what it actually does instead of understanding.",
-    metaDescription:
-      "AI can process millions of tokens but still misses what you mean. The context problem explains why AI confidently gets things wrong and what it does instead of understanding.",
+    metaDescription: "Understand the AI context problem, why models process tokens without grounded understanding, and what context-window limits mean for real-world.",
     content: `
       <p class="lead">The context problem is the gap between processing text and understanding it. LLMs can read millions of tokens, but they still miss meaning, contradictions, and implications because they predict the next token rather than build a mental model. In practice, the model produces fluent text that feels coherent even when it is semantically off. This article explains why that happens, how context windows and attention limitations create lost-in-the-middle errors, and what workflows reduce risk. The goal is not to ban AI from complex documents, but to use it with calibrated expectations in high-stakes settings. Understanding this helps you design prompts and review workflows that keep AI useful without assuming comprehension.</p>
 
@@ -2467,10 +2469,10 @@ export const articles: Article[] = [
     id: "bronze-age-collapse-1200-bc",
     slug: "bronze-age-collapse-1200-bc-civilisation-vanished",
     title: "In 1200 BC, an Entire Civilisation Vanished in 50 Years and Historians Still Don't Know Why",
+    metaTitle: "Bronze Age Collapse Explained: Why Civilisations Fell",
     excerpt:
       "Around 1200 BC, virtually every major Bronze Age civilisation collapsed within decades. Palaces burned, trade ended, writing was lost. The cause remains history's greatest unsolved mystery.",
-    metaDescription:
-      "Around 1200 BC, virtually every major Bronze Age civilisation collapsed within decades. Palaces burned, trade ended, writing was lost. The cause remains history's greatest unsolved mystery.",
+    metaDescription: "Explore the Bronze Age collapse around 1200 BC, the leading theories behind rapid civilisation failure, and what archaeology says about systemic breakdown.",
         content: `
       <p class="lead">Around 1200 BCE, within roughly 50 years, nearly every major palace civilization in the Eastern Mediterranean simultaneously collapsed. The Hittite Empire, one of the great powers of the ancient world, disappeared entirely. Mycenaean Greece, with its multi-story palaces and literate administrative bureaucracy, collapsed so completely that Greeks of the classical period 700 years later had no idea their ancestors could read and write. International trade networks that had moved tin, copper, cedar, and grain across thousands of miles of sea routes ceased to function. Ugarit, the cosmopolitan Syrian trading city, was destroyed and never reoccupied. Historians call this the Bronze Age Collapse, and it remains one of the most debated catastrophes in ancient history because no single cause adequately explains the speed, the scale, and the comprehensiveness of what happened.</p>
  
@@ -2539,10 +2541,10 @@ export const articles: Article[] = [
     id: "black-holes-dont-suck-physics",
     slug: "black-holes-dont-suck-physics-of-orbiting-one",
     title: "Black Holes Don't Suck: The Physics of Why You're Safe Orbiting One",
+    metaTitle: "Black Holes and Gravity: Why Orbiting One Is Safe",
     excerpt:
       "Black holes don't vacuum up everything around them; they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
-    metaDescription:
-      "Black holes don't vacuum up everything around them. They follow the same gravity rules as any star of equal mass. Here's the real physics of orbital mechanics and tidal forces.",
+    metaDescription: "Learn black hole physics without hype: why black holes do not suck objects in, how stable orbits work, and what actually makes them dangerous near.",
     content: `
       <p class="lead">A black hole is not a cosmic vacuum cleaner. At any given distance, it exerts exactly the same gravitational force as a star of identical mass would at that same distance. If the Sun were replaced by a black hole of equal mass, Earth's orbit would not change by a single kilometer. The seasons, the year's length, the tides: nothing would change gravitationally. You would freeze without sunlight, but that is a radiation problem, not a gravity problem. What makes black holes genuinely dangerous has nothing to do with special gravitational suction and everything to do with how close you can get before ordinary orbital mechanics stops protecting you.</p>
  
@@ -2620,10 +2622,10 @@ export const articles: Article[] = [
     id: "venus-worse-target-than-mars",
     slug: "venus-would-kill-you-in-2-minutes-worse-than-mars",
     title: "Venus Would Kill You in 2 Minutes: Why It's a Worse Target Than Mars",
+    metaTitle: "Venus vs Mars: Why Venus Is Deadlier for Humans",
     excerpt:
       "Venus is closer to Earth and similar in size, yet it's arguably the most hostile planet in the solar system. Here's the actual science of why Venus is a worse colonization target than Mars.",
-    metaDescription:
-      "Venus is closer to Earth and similar in size, yet it's arguably the most hostile planet in the solar system. Here's the actual science of why Venus is a worse colonization target than Mars.",
+    metaDescription: "Compare Venus vs Mars using real planetary science on pressure, heat, atmosphere, and chemistry to see why Venus is far less viable for human exploration.",
     content: `
       <p class="lead">Venus is the closest planet to Earth and nearly identical in size and mass, yet it is the most hostile surface environment in the inner solar system. Surface temperature averages 465 degrees Celsius, hot enough to melt lead, with no variation between day and night or pole and equator. Atmospheric pressure at the surface is 92 times Earth's sea-level pressure, equivalent to being 900 meters underwater. The atmosphere is 96.5% carbon dioxide laced with clouds of sulfuric acid. Every spacecraft ever sent to the Venusian surface has been destroyed. The longest any probe survived was 127 minutes. An unprotected human would not last 2 minutes. Venus is not a harder version of Mars. It is a categorically different kind of hostile.</p>
  
@@ -2702,10 +2704,10 @@ export const articles: Article[] = [
     id: "woolly-mammoth-resurrection-crispr",
     slug: "woolly-mammoth-resurrection-crispr-de-extinction-biology",
     title: "The Woolly Mammoth Is Being Resurrected: Here's the Actual Biology Being Used",
+    metaTitle: "Woolly Mammoth De-Extinction: Biology Behind Revival",
     excerpt:
       "Colossal Biosciences is using CRISPR gene editing to resurrect the woolly mammoth. Here's exactly what they're doing, what they've achieved, and what 'resurrection' actually means in practice.",
-    metaDescription:
-      "Colossal Biosciences is using CRISPR gene editing to resurrect the woolly mammoth. Here's exactly what they're doing, what they've achieved, and what 'resurrection' actually means in practice.",
+    metaDescription: "Examine woolly mammoth de-extinction science, including CRISPR edits, surrogate strategy, ecological goals, and the core biological hurdles still.",
     content: `
       <p class="lead">Somewhere in Siberia, frozen in permafrost for up to 10,000 years, lie the preserved remains of woolly mammoths with intact DNA: a genetic blueprint for an animal that walked the Earth during the last ice age and vanished roughly 4,000 years ago. A team of geneticists in Boston is reading that blueprint and using it to modify a living elephant's genome, one gene edit at a time. The woolly mammoth is not being cloned. Jurassic Park-style revival from ancient DNA is not what is happening here. What is happening is more precise and, in some ways, more remarkable: scientists are using CRISPR gene editing to insert specific mammoth traits into the genome of the Asian elephant, the mammoth's closest living relative. The result, if it works, will not technically be a mammoth. It will be a new animal: a cold-adapted Asian elephant carrying the genetic signature of a species extinct since roughly 2000 BCE.</p>
  
@@ -2774,10 +2776,10 @@ export const articles: Article[] = [
     id: "traffic-light-timing-algorithms",
     slug: "traffic-light-timing-algorithms-400000-signals",
     title: "How Traffic Light Timing Algorithms Manage 400,000 Signals at Once",
+    metaTitle: "Traffic Light Algorithms: How Cities Reduce Congestion",
     excerpt:
       "Traffic light timing is no longer about fixed schedules. Learn how adaptive algorithms, AI, and real-time data now control hundreds of thousands of signals, and why it's still not perfect.",
-    metaDescription:
-      "Traffic light timing is no longer about fixed schedules. Learn how adaptive algorithms, AI, and real-time data now control hundreds of thousands of signals, and why it's still not perfect.",
+    metaDescription: "Discover how traffic light timing algorithms coordinate hundreds of thousands of signals, reduce delays, and adapt to real-time demand in modern cities.",
     content: `
       <p class="lead">Modern traffic signal control is a real-time optimization problem running across hundreds of thousands of intersections simultaneously. Fixed-time schedules, where lights cycled on predetermined intervals regardless of actual traffic conditions, were largely replaced in major urban networks by adaptive systems starting in the 1970s and 1980s. These systems use loop detectors embedded in road surfaces, video cameras, and radar sensors to measure real-time traffic volumes and queue lengths, then continuously adjust phase timings to minimize total network delay. The result is measurably shorter commutes and lower fuel consumption compared to fixed-time equivalents, with the caveat that the underlying optimization problem is computationally intractable at full network scale and all real systems solve approximations.</p>
 
@@ -2869,10 +2871,10 @@ export const articles: Article[] = [
     id: "food-tastes-different-at-altitude",
     slug: "why-food-tastes-different-at-35000-feet-flying-flavour-science",
     title: "Why Food Tastes Different at 35,000 Feet: The Science of Flying and Flavour",
+    metaTitle: "Why Food Tastes Different on Planes: Science Explained",
     excerpt:
       "Airline food tastes different because cabin pressure, low humidity, and noise blunt your senses. The science is about smell, saliva, and attention, not just recipe quality.",
-    metaDescription:
-      "Discover why food tastes different on planes. Cabin pressure, low humidity, and noise reduce smell and taste, changing flavour perception.",
+    metaDescription: "Learn why food tastes different at 35,000 feet, from low humidity and cabin pressure to noise effects, and how airlines design meals for in-flight flavor.",
     content: `
       <p class="lead">Food tastes different on planes because your sense of smell and taste are dulled at altitude. Cabin pressure causes mild nasal congestion, very low humidity dries out mucous membranes, and constant cabin noise shifts attention away from subtle flavours. The result is flatter sweetness and saltiness even when the recipe is unchanged.</p>
       <p>Airline catering is not always the culprit. Many carriers use professional kitchens and taste tests. The issue is that by the time the meal reaches your mouth, your sensory system has been recalibrated by the cabin environment.</p>
@@ -2951,10 +2953,10 @@ export const articles: Article[] = [
     id: "hyperscale-data-centres-power",
     slug: "hyperscale-data-centres-consuming-more-power-than-countries",
     title: "Hyperscale Data Centres Are Consuming More Power Than Entire Countries",
+    metaTitle: "Hyperscale Data Centres: The AI Power Demand Crisis",
     excerpt:
       "AI workloads are driving data centre power demand to levels that are straining national grids and rewriting energy policy. Here's what the numbers actually look like, and why it matters.",
-    metaDescription:
-      "AI workloads are driving data centre power demand to levels that are straining national grids and rewriting energy policy. Here's what the numbers actually look like, and why it matters.",
+    metaDescription: "Understand how hyperscale data centres consume power at country scale, why AI workloads accelerate demand, and which efficiency strategies can bend.",
     content: `
       <p class="lead">The internet has always needed power. But for most of its history, that demand grew gradually enough that utilities could absorb it without disruption. The infrastructure scaled alongside the need, and nobody outside the energy industry paid much attention. That arrangement is over. The explosion in AI model training and inference has sent data centre power demand on a trajectory that is forcing electricity grid operators, governments, and utilities into emergency planning mode. Some of the largest facilities being built now will consume more electricity than many small nations. The question of where that power comes from, and what it costs, has become one of the defining infrastructure problems of the decade.</p>
  
@@ -3053,10 +3055,10 @@ export const articles: Article[] = [
     id: "ancient-india-surgery-sushruta",
     slug: "ancient-india-surgery-sushruta-samhita-2600-years",
     title: "What Ancient India Knew About Surgery, 2,600 Years Before Modern Medicine",
+    metaTitle: "Ancient India Surgery: Sushruta Before Modern Medicine",
     excerpt:
       "The Sushruta Samhita describes rhinoplasty, cataract surgery, and 125 surgical instruments in detail, 600 BCE. What did this physician actually know, and how much have we underestimated him?",
-    metaDescription:
-      "The Sushruta Samhita describes rhinoplasty, cataract surgery, and 125 surgical instruments in detail, 600 BCE. What did this physician actually know, and how much have we underestimated him?",
+    metaDescription: "Explore ancient India surgery through the Sushruta Samhita, including early procedures, tools, and medical training that predate modern surgical systems.",
         content: `
       <p class="lead">A surgical technique described in detail in an ancient Indian text was not formally performed by Western medicine until 1794, and not widely adopted until the 19th century. The technique is nasal reconstruction surgery: taking a flap of skin from the patient's forehead, rotating it down over the nose, suturing it into position, and shaping it around a hollow tube placed in the nostrils to maintain the airway during healing. The text describing this procedure, the Sushruta Samhita, was composed by the physician Sushruta in what is now the Indian state of Uttar Pradesh, around 600 BCE. The gap between the technique's first documented description and its entry into Western surgical practice is approximately 2,400 years.</p>
  
@@ -3133,10 +3135,10 @@ export const articles: Article[] = [
     id: "animals-cavities-science",
     slug: "why-animals-dont-get-cavities-humans-do",
     title: "Why Animals Don't Get Cavities (And Humans Specifically Do)",
+    metaTitle: "Why Animals Rarely Get Cavities but Humans Do",
     excerpt:
       "Animals avoid cavities mostly because of diet and eating patterns. Humans created a perfect environment for decay through frequent sugars and refined carbohydrates.",
-    metaDescription:
-      "Learn why animals rarely get cavities and why humans do. Diet, eating frequency, saliva chemistry, and modern carbohydrates drive tooth decay.",
+    metaDescription: "Find out why animals rarely get cavities while humans do, with evidence on diet, oral microbiome, enamel exposure, and modern sugar-driven risk factors.",
     content: `
       <p class="lead">Animals avoid cavities mostly because they do not eat frequent, refined sugars. Humans do, which feeds acid producing bacteria and keeps mouth pH low for long stretches. Cavities are less about weak teeth and more about a modern diet applied to an ancient mouth.</p>
 
@@ -3217,10 +3219,10 @@ export const articles: Article[] = [
     id: "zero-history-mathematics",
     slug: "zero-most-dangerous-idea-in-history-10000-years",
     title: "Zero Was the Most Dangerous Idea in History: Why It Took 10,000 Years to Accept It",
+    metaTitle: "History of Zero: Why Math's Key Idea Took Millennia",
     excerpt:
       "Zero seems obvious now. It took humanity 10,000 years to accept it and people were imprisoned for defending it. Here's why nothing caused everything.",
-    metaDescription:
-      "Zero seems obvious now. It took humanity 10,000 years to accept it and people were imprisoned for defending it. Here's why nothing caused everything.",
+    metaDescription: "Discover the history of zero across civilizations, why acceptance took thousands of years, and how one mathematical idea transformed science, commerce.",
         content: `
       <p class="lead">Zero is one of the most consequential intellectual inventions in human history, and it took roughly 10,000 years from the development of the earliest counting systems to its full mathematical acceptance. The delay was not due to ignorance. It was due to the genuine philosophical difficulty of a number representing nothing, and the institutional resistance of mathematical and religious traditions that had no conceptual space for it. Zero did not arrive as a single invention. It was independently developed in at least three distinct civilizations, Mesopotamia, India, and Mesoamerica, and in each case it met resistance before integration. The version that reached modern mathematics came through India, passed through Islamic scholarship, and reached Europe via medieval translation programs. Even then, it was met with suspicion.</p>
  
@@ -3295,10 +3297,10 @@ export const articles: Article[] = [
     id: "mars-colonisation-engineering",
     slug: "13-engineering-problems-mars-colonisation-harder-than-told",
     title: "The 13 Engineering Problems That Make Mars Colonisation Harder Than You've Been Told",
+    metaTitle: "Mars Colonisation: 13 Engineering Barriers Explained",
     excerpt:
       "Mars colonisation faces 13 overlapping engineering problems that no current technology fully solves. Here's what the optimistic timelines consistently leave out.",
-    metaDescription:
-      "Mars colonisation faces 13 overlapping engineering problems that no current technology fully solves. Here's what the optimistic timelines consistently leave out.",
+    metaDescription: "See why Mars colonisation is harder than headlines suggest, with 13 engineering barriers spanning radiation, life support, logistics, energy.",
     content: `
       <h2>The Gap Between the Announcement and the Physics</h2>
  
@@ -3413,10 +3415,10 @@ export const articles: Article[] = [
     id: "ai-context-window",
     slug: "what-context-window-actually-means-ai-limit",
     title: "What \"Context Window\" Actually Means and Why It Limits Every AI You Use",
+    metaTitle: "AI Context Window Meaning: Limits Behind Every Model",
     excerpt:
       "The context window is the most important limit on what AI can and cannot do. Here's what it is, how it works, and why it matters for every AI conversation.",
-    metaDescription:
-      "The context window is the most important limit on what AI can and cannot do. Here's what it is, how it works, and why it matters for every AI conversation.",
+    metaDescription: "Learn what context window means in AI, why token limits constrain memory and reasoning, and how window size impacts quality, cost, latency and reliability.",
     content: `
       <p class="lead">A context window is the amount of text a language model can process in a single pass. It defines what the model can pay attention to and why it seems to forget earlier messages. Even with huge windows in 2026, attention still degrades and information falls out of view, which explains many failures in long conversations and document analysis. It also clarifies why larger windows do not guarantee better understanding and why workflow design matters. This guide explains what the context window contains, why the transformer architecture creates the limit, and how to work within it for research, editing, and long-form analysis.</p>
 
@@ -3522,10 +3524,10 @@ export const articles: Article[] = [
     id: "software-error-largest-blackout-us-history",
     slug: "software-error-largest-blackout-us-history",
     title: "The Software Error That Caused the Largest Blackout in US History",
+    metaTitle: "US Blackout of 2003: Software Error Chain Explained",
     excerpt:
       "On August 14, 2003, a single software bug at an Ohio utility silenced alarms, hid a failing grid, and plunged 55 million people into darkness. Here is exactly how it happened.",
-    metaDescription:
-      "On August 14, 2003, a single software bug at an Ohio utility silenced alarms, hid a failing grid, and plunged 55 million people into darkness. Here is exactly how it happened.",
+    metaDescription: "Break down the 2003 US blackout and the software error chain that cascaded grid failure, with engineering lessons for resilience and critical.",
     content: `
       <p class="lead">On the afternoon of August 14, 2003, a software bug inside a single Ohio power company's control room quietly stopped working. No alarm sounded. No warning flashed. Operators sat at their screens completely unaware that the grid beneath them was unraveling.</p>
 
@@ -3630,10 +3632,10 @@ export const articles: Article[] = [
     id: "ai-chip-arms-race-nvidia-near-monopoly",
     slug: "ai-chip-arms-race-nvidia-near-monopoly-hardware",
     title: "The AI Chip Arms Race: Why NVIDIA Has a Near-Monopoly on AI Hardware",
+    metaTitle: "AI Chip Arms Race: Why NVIDIA Dominates Hardware",
     excerpt:
       "NVIDIA controls roughly 80 to 90% of the AI chip market. This is not just about better GPUs — it is about a 20-year software strategy that made their hardware impossible to replace.",
-    metaDescription:
-      "NVIDIA controls roughly 80 to 90% of the AI chip market. This is not just about better GPUs — it is about a 20-year software strategy that made their hardware impossible to replace.",
+    metaDescription: "Analyze the AI chip arms race, why NVIDIA holds a near-monopoly, and what supply chains, CUDA lock-in, and new competitors mean for compute strategy.",
     content: `
       <p class="lead">Ask any AI research team what hardware they train their models on. The answer, almost universally, is NVIDIA. Not because they sat down and chose NVIDIA. Because they never seriously considered anything else.</p>
 
@@ -3729,10 +3731,10 @@ export const articles: Article[] = [
     id: "ageing-physics-problem-entropy-theory-cellular-decline",
     slug: "ageing-physics-problem-entropy-theory-cellular-decline",
     title: "Ageing Is a Physics Problem, Not Just Biology: The Entropy Theory of Cellular Decline",
+    metaTitle: "Ageing and Entropy: Physics Behind Cellular Decline",
     excerpt:
       "Scientists increasingly argue that ageing follows the Second Law of Thermodynamics. Here is what the entropy theory of cellular decline actually means, and why it changes how we think about growing old.",
-    metaDescription:
-      "Scientists increasingly argue that ageing follows the Second Law of Thermodynamics. Here is what the entropy theory of cellular decline actually means, and why it changes how we think about growing old.",
+    metaDescription: "Explore ageing as an entropy problem linking physics and biology, with evidence on cellular damage, repair limits, and what this model predicts.",
     content: `
       <p class="lead">Ageing has always been framed as a biological problem: cells wearing out, DNA mutating, organs deteriorating. But a growing body of research from physicists, geneticists, and systems biologists is reframing the question entirely. Ageing may be, at its core, a physics problem.</p>
 
@@ -3832,10 +3834,10 @@ export const articles: Article[] = [
     id: "nobody-invented-internet-distributed-history",
     slug: "nobody-invented-internet-distributed-history-biggest-network",
     title: "Nobody Invented the Internet: The Distributed History Behind the World's Biggest Network",
+    metaTitle: "Who Invented the Internet? The Distributed Real History",
     excerpt:
       "Everyone wants to credit a single inventor for the internet. The real story is more interesting: it was built by dozens of researchers over thirty years, with no single moment of invention and no single architect.",
-    metaDescription:
-      "Everyone wants to credit a single inventor for the internet. The real story is more interesting: it was built by dozens of researchers over thirty years, with no single moment of invention and no single architect.",
+    metaDescription: "Get the real history of who invented the internet, tracing distributed breakthroughs from packet switching to TCP/IP rather than a single inventor myth.",
     content: `
       <p class="lead">Ask someone who invented the internet and you will usually get one of two answers: Al Gore (which is a joke that became folklore) or Tim Berners-Lee (which is wrong but understandable). The real answer is genuinely more interesting: nobody invented the internet. It emerged from thirty years of overlapping contributions by dozens of scientists, engineers, and institutions, none of whom were trying to build what the internet eventually became.</p>
 
@@ -3944,10 +3946,10 @@ export const articles: Article[] = [
     id: "quantum-computers-crack-every-password-timeline",
     slug: "quantum-computers-crack-every-password-earth-timeline",
     title: "Quantum Computers Will Crack Every Password on Earth — Here's the Timeline",
+    metaTitle: "Will Quantum Computers Crack Passwords? Real Timeline",
     excerpt:
       "A sufficiently powerful quantum computer could break the encryption protecting every bank account, email, and government secret on Earth. Here is what the threat actually is, what the timeline looks like, and what is being done about it.",
-    metaDescription:
-      "A sufficiently powerful quantum computer could break the encryption protecting every bank account, email, and government secret on Earth. Here is what the threat actually is, what the timeline looks like, and what is being done about it.",
+    metaDescription: "Understand when quantum computers could break encryption, what timelines experts trust, and how post-quantum migration planning should start before crisis.",
     content: `
       <p class="lead">Every password you have ever set, every encrypted message you have ever sent, and every secure transaction you have ever made relies on a mathematical problem that classical computers find essentially impossible to solve: factoring very large numbers into their prime components. A sufficiently powerful quantum computer could solve that problem in hours. The encryption protecting your bank account, your medical records, and every government secret on Earth would become worthless.</p>
 
@@ -4086,10 +4088,10 @@ export const articles: Article[] = [
   slug: "andes-virus-only-hantavirus-human-to-human-transmission",
   title:
     "Why the Andes Virus Is the Only Hantavirus That Spreads Between Humans",
+  metaTitle: "Andes Virus Transmission: Why This Hantavirus Spreads",
   excerpt:
     "Of more than 50 known hantaviruses, only one has ever been documented spreading directly between people. Here is what makes the Andes virus biologically different, and why its behavior matters far beyond South America.",
-  metaDescription:
-    "Of more than 50 known hantaviruses, only one has ever been documented spreading directly between people. Here is what makes the Andes virus biologically different, and why its behavior matters far beyond South America.",
+  metaDescription: "Learn why Andes virus is the only hantavirus with proven human-to-human transmission, what outbreak data shows, and how risk differs from airborne.",
   content: `
     <p class="lead">There are more than 50 known hantaviruses on Earth. Every single one of them is carried by rodents. Every single one of them can spill over into humans under the right conditions. And until 1996, every single one of them was considered a dead-end for human infection, meaning that once the virus entered a person, it could not use that person to reach the next one.</p>
  
@@ -4203,10 +4205,10 @@ export const articles: Article[] = [
     slug: "why-paper-cuts-hurt-more-than-larger-wounds-nerve-density",
     title:
       "Why Paper Cuts Hurt More Than Larger Wounds: The Nerve Density Explanation",
+    metaTitle: "Why Paper Cuts Hurt So Much: Nerve Density Science",
     excerpt:
       "Of all the minor injuries a person can suffer, few produce as much disproportionate pain as a paper cut on the fingertip. The biology behind it is more interesting than you might expect.",
-    metaDescription:
-      "Paper cuts hurt more than deeper wounds because they slice through the fingertips\' densest nerve clusters without triggering the body\'s full pain-numbing response. Here\'s the biology behind it.",
+    metaDescription: "Understand why paper cuts hurt more than bigger wounds: fingertip nerve density, shallow tissue damage, sensitization, and constant re-irritation keep.",
     content: `
     <p class="lead">A tiny cut from a sheet of paper hurts more than most injuries. That's not your imagination. The fingertips contain some of the highest concentrations of nociceptors (sensory nerve endings that detect pain, pressure, and heat) anywhere in the human body. When a paper edge slices through this tissue, it cuts directly into this dense nerve bed while staying too shallow to trigger the body's strongest analgesic responses.</p>
     <p>The result is a wound that fires pain signals continuously, stays open in a mechanically active location, and gets re-irritated with every movement. It's not that the cut is serious. It's that your nervous system treats this specific type of injury in a way that amplifies the experience.</p>
@@ -4273,10 +4275,10 @@ export const articles: Article[] = [
     slug: "engineering-inside-modern-submarine-pressure-navigation-life-support",
     title:
       "The Engineering Inside a Modern Submarine: Pressure, Navigation, and Life Support",
+    metaTitle: "Modern Submarine Engineering: Pressure and Navigation",
     excerpt:
       "A modern submarine is one of the most complex machines ever built, designed to keep over a hundred people alive and operational for months in one of the most hostile environments on Earth. Here is how the engineering actually works.",
-    metaDescription:
-      "Modern submarines survive crushing pressure, navigate without GPS, and support human life for months at depth. Here\'s how the engineering actually works, system by system.",
+    metaDescription: "Explore modern submarine engineering, from pressure-hull physics to inertial navigation and life-support systems that keep crews operational for months.",
     content: `
     <p class="lead">A submarine is essentially a self-contained city that operates under thousands of tonnes of water pressure, with no access to the surface for months at a time. That's not an exaggeration. Virginia-class attack submarines, operated by the US Navy, carry crews of around 135 people, deploy for up to six months, generate their own oxygen, recycle their own air and water, and navigate without GPS or surface contact. The engineering that makes this possible is some of the most demanding ever applied to a mobile platform.</p>
     <p>This article breaks down how it actually works. Not the weapons or the missions, but the physics and systems that let a metal cylinder survive and function at depth.</p>
@@ -4351,10 +4353,10 @@ export const articles: Article[] = [
     slug: "civilisation-invented-wheel-not-used-transport-first",
     title:
       "The Civilisation That Invented the Wheel: And Why It Wasn\'t Used for Transport First",
+    metaTitle: "Wheel Invention History: Why Transport Came Later",
     excerpt:
       "The wheel did not arrive as a transportation breakthrough. It appeared first as a manufacturing tool, and the reasons it took centuries to move anything from one place to another reveal more about ancient engineering constraints than ancient intelligence.",
-    metaDescription:
-      "The wheel wasn\'t invented for transportation. It appeared in ancient Mesopotamia around 3500 BC as a pottery tool, and the physics and terrain of the ancient world explain exactly why it took centuries to roll anywhere.",
+    metaDescription: "Discover why the wheel was first used in pottery, not transport, and how roads, draft animals, and axle engineering determined when wheeled travel could.",
     content: `
     <p class="lead">The wheel is the most celebrated invention in human history. It was also, for a long time, useless for moving anything from one place to another. The oldest known wheel-and-axle device wasn't on a cart. It was a potter's wheel, found in evidence from ancient Mesopotamia (the region covering modern-day Iraq and Syria) dating to around 3500 BC. The same civilization that built some of the earliest cities and developed cuneiform writing figured out how to mount a disc on a rotating spindle for shaping clay long before anyone thought to attach wheels to a vehicle.</p>
     <p>Transportation use came later, and the delay wasn't an oversight. It was a consequence of terrain, infrastructure, animal availability, and the genuinely difficult engineering of making a wheel that could carry weight while rolling.</p>
