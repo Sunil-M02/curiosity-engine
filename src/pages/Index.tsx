@@ -33,8 +33,8 @@ const Index = () => {
   return (
     <Layout>
       <SEO
-        title="CuriosityFields - Where Curiosity Meets Discovery"
-        description="Explore the frontiers of science, technology, artificial intelligence, history, astronomy, and future innovation. Discover stories that expand your understanding of the world."
+        title="CuriosityFields — Where Curiosity Meets Discovery"
+        description="Explore science, technology, AI, history, astronomy, and future innovation. Stories that expand how you see the world."
         canonical="https://www.curiosityfields.com"
       />
 

@@ -9,8 +9,8 @@ const ContactThankYouPage = () => {
   return (
     <Layout>
       <SEO 
-        title="Message Sent - CuriosityFields" 
-        description="Thank you for contacting CuriosityFields." 
+        title="Message Sent" 
+        description="Thanks for contacting CuriosityFields. Our editorial team will review your message and respond within 24 to 48 hours." 
         robots="noindex, follow"
       />
       

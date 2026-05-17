@@ -1,0 +1,20 @@
+# CuriosityFields
+
+> A knowledge-first digital publication exploring science, technology, artificial intelligence, history, astronomy, and future innovation.
+
+CuriosityFields publishes long-form, editorially reviewed articles authored by the CuriosityFields Editorial Desk. Content is organized into six primary categories and updated regularly.
+
+## Pages
+
+- [Home](/): Featured stories and latest articles across all categories.
+- [Categories](/categories): Browse all topic hubs.
+- [About](/about): Editorial mission, standards, and team.
+- [Contact](/contact): Reach the editorial team.
+- [Write For Us](/write-for-us): Contributor guidelines and accepted topics.
+
+## Categories
+
+- [Science](/categories/science): Discoveries, biology, physics, and research.
+- [Technology](/categories/technology): Computing, infrastructure, and digital culture.
+- [Artificial Intelligence](/categories/artificial-intelligence): AI research, models, and societal impact.
+- [
