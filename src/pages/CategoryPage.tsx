@@ -30,6 +30,35 @@ const CategoryPage = () => {
     );
   }
 
+  const baseUrl = 'https://www.curiosityfields.com';
+  const collectionJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${info.name} Articles`,
+    description: info.description,
+    url: `${baseUrl}/categories/${category}`,
+    isPartOf: { '@type': 'WebSite', name: 'CuriosityFields', url: baseUrl },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: articles.length,
+      itemListElement: articles.map((a, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${baseUrl}/article/${a.slug}`,
+        name: a.title,
+      })),
+    },
+  };
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+      { '@type': 'ListItem', position: 2, name: 'Categories', item: `${baseUrl}/categories` },
+      { '@type': 'ListItem', position: 3, name: info.name, item: `${baseUrl}/categories/${category}` },
+    ],
+  };
+
   return (
     <Layout>
       <SEO
@@ -37,6 +66,8 @@ const CategoryPage = () => {
         description={info.description}
         canonical={`https://www.curiosityfields.com/categories/${category}`}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       
       <div className="container content-rail py-12 lg:py-20">
         <Breadcrumbs

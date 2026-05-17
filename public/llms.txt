@@ -1,0 +1,26 @@
+# CuriosityFields
+
+> A knowledge-first digital publication exploring science, technology, artificial intelligence, history, astronomy, and future innovation.
+
+CuriosityFields publishes long-form, editorially reviewed articles authored by the CuriosityFields Editorial Desk. Content is organized into six primary categories and updated regularly.
+
+## Pages
+
+- [Home](https://www.curiosityfields.com/): Featured stories and latest articles across all categories.
+- [Categories](https://www.curiosityfields.com/categories): Browse all topic hubs.
+- [About](https://www.curiosityfields.com/about): Editorial mission, standards, and team.
+- [Contact](https://www.curiosityfields.com/contact): Reach the editorial team.
+- [Write For Us](https://www.curiosityfields.com/write-for-us): Contributor guidelines and accepted topics.
+
+## Categories
+
+- [Science](https://www.curiosityfields.com/categories/science): Discoveries, biology, physics, and research.
+- [Technology](https://www.curiosityfields.com/categories/technology): Computing, infrastructure, and digital culture.
+- [Artificial Intelligence](https://www.curiosityfields.com/categories/artificial-intelligence): AI research, models, and societal impact.
+- [History](https://www.curiosityfields.com/categories/history): Civilisations, archaeology, and historical inflection points.
+- [Astronomy](https://www.curiosityfields.com/categories/astronomy): Cosmology, space exploration, and the universe.
+- [Future Innovation](https://www.curiosityfields.com/categories/future-innovation): Emerging tech and forward-looking science.
+
+## Optional
+
+- [Terms of Service](https://www.curiosityfields.com/terms): Site terms and content usage policy.

@@ -7,8 +7,8 @@ const TermsPage = () => {
   return (
     <Layout>
       <SEO
-        title="Terms of Service - CuriosityFields"
-        description="Read the terms of service for CuriosityFields."
+        title="Terms of Service"
+        description="Read the CuriosityFields terms of service covering content use, user conduct, intellectual property, and liability."
         canonical="https://www.curiosityfields.com/terms"
       />
 
