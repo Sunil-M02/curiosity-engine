@@ -4204,12 +4204,11 @@ export const articles: Article[] = [
     title:
       "Why Paper Cuts Hurt More Than Larger Wounds: The Nerve Density Explanation",
     excerpt:
-      "The fingertips contain some of the highest concentrations of nociceptors (sensory nerve endings that detect pain, pressure, and heat) anywhere in the human body. When a paper edge slices through this tissue, it cuts...",
+      "Of all the minor injuries a person can suffer, few produce as much disproportionate pain as a paper cut on the fingertip. The biology behind it is more interesting than you might expect.",
     metaDescription:
       "Paper cuts hurt more than deeper wounds because they slice through the fingertips\' densest nerve clusters without triggering the body\'s full pain-numbing response. Here\'s the biology behind it.",
     content: `
-    <h2>A tiny cut from a sheet of paper hurts more than most injuries. That's not your imagination.</h2>
-    <p class="lead">The fingertips contain some of the highest concentrations of nociceptors (sensory nerve endings that detect pain, pressure, and heat) anywhere in the human body. When a paper edge slices through this tissue, it cuts directly into this dense nerve bed while staying too shallow to trigger the body's strongest analgesic responses.</p>
+    <p class="lead">A tiny cut from a sheet of paper hurts more than most injuries. That's not your imagination. The fingertips contain some of the highest concentrations of nociceptors (sensory nerve endings that detect pain, pressure, and heat) anywhere in the human body. When a paper edge slices through this tissue, it cuts directly into this dense nerve bed while staying too shallow to trigger the body's strongest analgesic responses.</p>
     <p>The result is a wound that fires pain signals continuously, stays open in a mechanically active location, and gets re-irritated with every movement. It's not that the cut is serious. It's that your nervous system treats this specific type of injury in a way that amplifies the experience.</p>
     <h2>Why the Fingertips Are a Pain Hotspot</h2>
     <p>The human fingertip has roughly 2,500 mechanoreceptors per square centimeter, far more than the palm, forearm, or upper arm. This density exists for precision: it's what lets you feel the edge of a page, thread a needle, or sense temperature through a glass.</p>
@@ -4250,15 +4249,15 @@ export const articles: Article[] = [
     <p>Fingertips have an extremely high concentration of nerve endings called nociceptors. Paper cuts are too shallow to trigger the body's full pain-suppression response, so pain signals keep firing without being dampened.</p>
     <h3>Why do paper cuts sting so much with water or soap?</h3>
     <p>The cut leaves nerve endings sensitized and partially exposed. Soap and water chemically stimulate these already-activated nociceptors, which is why even mild contact feels like burning.</p>
-    <p><strong>Why don't paper cuts bleed much?</strong></p>
+    <h3>Why don't paper cuts bleed much?</h3>
     <p>Paper cuts are shallow enough to miss most blood vessels beneath the skin surface. Without sufficient bleeding, the wound doesn't clot and seal as quickly, which keeps nerve endings exposed longer.</p>
-    <p><strong>Do some people feel paper cut pain more than others?</strong></p>
+    <h3>Do some people feel paper cut pain more than others?</h3>
     <p>Yes. Pain sensitivity varies by individual based on nociceptor density, nervous system response, and prior sensitization. Genetics, stress levels, and hormonal factors all influence how intensely pain is perceived.</p>
-    <p><strong>Is there a better way to treat a paper cut than a regular bandage?</strong></p>
+    <h3>Is there a better way to treat a paper cut than a regular bandage?</h3>
     <p>Liquid bandage adhesives work particularly well for paper cuts. They seal the wound edge without the bulk of a physical bandage, reducing re-exposure of nerve endings during hand movement.</p>
-    <p><strong>Why do paper cuts feel worse when you notice them later?</strong></p>
+    <h3>Why do paper cuts feel worse when you notice them later?</h3>
     <p>The brain modulates pain based on attention and context. When you find the cut after the fact, you're giving it full attentional focus without the numbing startle response from the initial moment of injury, which can make it feel more intense.</p>
-    <p><strong>Can pressing around a paper cut reduce the pain?</strong></p>
+    <h3>Can pressing around a paper cut reduce the pain?</h3>
     <p>Yes, and there's a real mechanism behind it. Pressure stimulates competing nerve fibers that can partially "close the gate" on pain signals at the spinal cord, based on Gate Control Theory principles established by Melzack and Wall.</p>
   `,
     coverImage: "/images/articles/why-paper-cuts-hurt-more-nerve-density.jpg",
@@ -4275,12 +4274,11 @@ export const articles: Article[] = [
     title:
       "The Engineering Inside a Modern Submarine: Pressure, Navigation, and Life Support",
     excerpt:
-      "That's not an exaggeration. Virginia-class attack submarines, operated by the US Navy, carry crews of around 135 people, deploy for up to six months, generate their own oxygen, recycle their own air and water, and...",
+      "A modern submarine is one of the most complex machines ever built, designed to keep over a hundred people alive and operational for months in one of the most hostile environments on Earth. Here is how the engineering actually works.",
     metaDescription:
       "Modern submarines survive crushing pressure, navigate without GPS, and support human life for months at depth. Here\'s how the engineering actually works, system by system.",
     content: `
-    <h2>A submarine is essentially a self-contained city that operates under thousands of tonnes of water pressure, with no access to the surface for months at a time.</h2>
-    <p class="lead">That's not an exaggeration. Virginia-class attack submarines, operated by the US Navy, carry crews of around 135 people, deploy for up to six months, generate their own oxygen, recycle their own air and water, and navigate without GPS or surface contact. The engineering that makes this possible is some of the most demanding ever applied to a mobile platform.</p>
+    <p class="lead">A submarine is essentially a self-contained city that operates under thousands of tonnes of water pressure, with no access to the surface for months at a time. That's not an exaggeration. Virginia-class attack submarines, operated by the US Navy, carry crews of around 135 people, deploy for up to six months, generate their own oxygen, recycle their own air and water, and navigate without GPS or surface contact. The engineering that makes this possible is some of the most demanding ever applied to a mobile platform.</p>
     <p>This article breaks down how it actually works. Not the weapons or the missions, but the physics and systems that let a metal cylinder survive and function at depth.</p>
     <h2>The Pressure Problem: How a Hull Survives the Deep</h2>
     <p>Water pressure increases by approximately one atmosphere (about 14.7 psi) for every 10 meters of depth. At 300 meters (a moderate operational depth for modern attack submarines) the hull is under roughly 30 atmospheres of pressure, or about 440 pounds per square inch pushing inward on every exposed surface.</p>
@@ -4325,19 +4323,19 @@ export const articles: Article[] = [
     <p>Each system would be impressive in isolation. Together, they make something genuinely extraordinary: a machine that turns the deep ocean into inhabitable space.</p>
     <p>For readers interested in how other extreme engineering challenges are approached, including the infrastructure challenges of <a href="https://www.curiosityfields.com/article/sustainable-cities-2050-urban-innovation">building sustainable cities</a> or the computational demands of <a href="https://www.curiosityfields.com/article/how-google-indexes-130-trillion-pages-crawling-architecture">systems that index the web</a> -- the underlying principles of managing complexity through layered, redundant systems appear repeatedly across fields.</p>
     <h2>Frequently Asked Questions</h2>
-    <p><strong>How deep can a modern submarine go?</strong></p>
+    <h3>How deep can a modern submarine go?</h3>
     <p>US Navy attack submarines have operational depths generally reported as exceeding 240 meters, with test depths and crush depths classified. Most are built to withstand significantly more pressure than their operational maximum.</p>
-    <p><strong>How do submarines generate oxygen?</strong></p>
+    <h3>How do submarines generate oxygen?</h3>
     <p>They split seawater into hydrogen and oxygen through electrolysis. The oxygen feeds the crew's atmosphere; the hydrogen is vented overboard. This process runs continuously using power from the nuclear reactor.</p>
-    <p><strong>Why can't submarines use GPS?</strong></p>
+    <h3>Why can't submarines use GPS?</h3>
     <p>GPS radio signals cannot penetrate seawater at the frequencies they operate on. Submarines use inertial navigation systems, gyroscopes, and very low frequency radio to maintain position and receive limited communications.</p>
-    <p><strong>How long can a nuclear submarine stay underwater?</strong></p>
+    <h3>How long can a nuclear submarine stay underwater?</h3>
     <p>Theoretically indefinitely from a fuel standpoint. In practice, deployments are limited by food supply and crew endurance, typically 70 to 90 days for most patrols.</p>
-    <p><strong>How do submarines communicate with the surface?</strong></p>
+    <h3>How do submarines communicate with the surface?</h3>
     <p>Very low frequency (VLF) radio can penetrate seawater to limited depths. Submarines can also surface or extend an antenna mast to use satellite communications when security allows.</p>
-    <p><strong>What happens if the oxygen system fails on a submarine?</strong></p>
+    <h3>What happens if the oxygen system fails on a submarine?</h3>
     <p>Submarines carry backup lithium hydroxide canisters and compressed oxygen reserves for emergency use. Damage control training extensively covers atmospheric casualty scenarios, and crews drill these responses regularly.</p>
-    <p><strong>Are nuclear submarines silent?</strong></p>
+    <h3>Are nuclear submarines silent?</h3>
     <p>They are extremely quiet compared to surface ships, but not completely silent. The primary noise sources are the reactor coolant pumps, machinery vibration, and propeller cavitation. Anechoic tiles on the hull and vibration-isolated machinery mounts reduce acoustic signature substantially.</p>
   `,
     coverImage: "/images/articles/engineering-modern-submarine.jpg",
@@ -4354,12 +4352,11 @@ export const articles: Article[] = [
     title:
       "The Civilisation That Invented the Wheel: And Why It Wasn\'t Used for Transport First",
     excerpt:
-      "The oldest known wheel-and-axle device wasn't on a cart. It was a potter's wheel, found in evidence from ancient Mesopotamia (the region covering modern-day Iraq and Syria) dating to around 3500 BC. The same...",
+      "The wheel did not arrive as a transportation breakthrough. It appeared first as a manufacturing tool, and the reasons it took centuries to move anything from one place to another reveal more about ancient engineering constraints than ancient intelligence.",
     metaDescription:
       "The wheel wasn\'t invented for transportation. It appeared in ancient Mesopotamia around 3500 BC as a pottery tool, and the physics and terrain of the ancient world explain exactly why it took centuries to roll anywhere.",
     content: `
-    <h2>The wheel is the most celebrated invention in human history. It was also, for a long time, useless for moving anything from one place to another.</h2>
-    <p class="lead">The oldest known wheel-and-axle device wasn't on a cart. It was a potter's wheel, found in evidence from ancient Mesopotamia (the region covering modern-day Iraq and Syria) dating to around 3500 BC. The same civilization that built some of the earliest cities and developed cuneiform writing figured out how to mount a disc on a rotating spindle for shaping clay long before anyone thought to attach wheels to a vehicle.</p>
+    <p class="lead">The wheel is the most celebrated invention in human history. It was also, for a long time, useless for moving anything from one place to another. The oldest known wheel-and-axle device wasn't on a cart. It was a potter's wheel, found in evidence from ancient Mesopotamia (the region covering modern-day Iraq and Syria) dating to around 3500 BC. The same civilization that built some of the earliest cities and developed cuneiform writing figured out how to mount a disc on a rotating spindle for shaping clay long before anyone thought to attach wheels to a vehicle.</p>
     <p>Transportation use came later, and the delay wasn't an oversight. It was a consequence of terrain, infrastructure, animal availability, and the genuinely difficult engineering of making a wheel that could carry weight while rolling.</p>
     <h2>Who Actually Invented It?</h2>
     <p>The Sumerians of Mesopotamia are the best-supported candidate for inventing the wheel. Archaeological evidence from the site of Ur, one of the ancient world's earliest urban centers, shows wheeled vehicles in pictographic records dating to approximately 3200 BC. Similar evidence has been found in the Indus Valley and in eastern Europe at roughly comparable periods, which has led some historians to argue for independent invention rather than a single origin.</p>
@@ -4395,19 +4392,19 @@ export const articles: Article[] = [
     <p>The Sumerians didn't fail to use the wheel for transport because they didn't think of it. They used it where it worked first, in a stable environment, under light load, for a precise task. Transport came later because transport required solving a harder set of problems: roads, draft animals, load-bearing axle design, and the organizational capacity to maintain all of it.</p>
     <p>Understanding that gap between invention and adoption matters for evaluating technological history clearly. Most of what we call "breakthroughs" follow the same pattern. The idea arrives early; the conditions for its application take longer to assemble. That lesson applies as readily to <a href="https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation">the future of AI and autonomous systems</a> as it does to 3500 BC Mesopotamia.</p>
     <h2>Frequently Asked Questions</h2>
-    <p><strong>Who invented the wheel and when?</strong></p>
+    <h3>Who invented the wheel and when?</h3>
     <p>The oldest evidence points to the Sumerians of ancient Mesopotamia, with pottery wheels dating to around 3500 BC and wheeled vehicle pictographs from Ur around 3200 BC. Some historians argue for independent invention in the Indus Valley and eastern Europe around the same period.</p>
-    <p><strong>Why was the wheel used for pottery before transportation?</strong></p>
+    <h3>Why was the wheel used for pottery before transportation?</h3>
     <p>Pottery wheels are far simpler to engineer. They bear minimal load and only need rotational smoothness in one fixed position. Transport wheels must carry heavy, dynamic loads over variable terrain, which requires more sophisticated construction.</p>
-    <p><strong>Why didn't ancient Americans use wheels for transport?</strong></p>
+    <h3>Why didn't ancient Americans use wheels for transport?</h3>
     <p>Wheeled figures exist in Mesoamerican archaeology, so the concept was known. The barrier was ecological: large draft animals capable of pulling wheeled loads had gone extinct in the Americas by the end of the last ice age, leaving no practical animal power to make wheeled transport viable.</p>
-    <p><strong>What was the spoked wheel and why did it matter?</strong></p>
+    <h3>What was the spoked wheel and why did it matter?</h3>
     <p>The spoked wheel replaced the heavy solid-disc design with a lighter rim-and-spoke structure around 2000 BC. It dramatically reduced weight without sacrificing strength, making fast chariots possible and changing military strategy across the ancient world.</p>
-    <p><strong>Did the Romans invent roads to use wheels?</strong></p>
+    <h3>Did the Romans invent roads to use wheels?</h3>
     <p>The relationship was co-evolutionary. Wheeled transport needed flat, hard surfaces to work efficiently, and Roman road engineering was explicitly designed to support wheeled military and commercial traffic. Neither the roads nor the vehicles were independently sufficient.</p>
-    <p><strong>Could ancient people have invented the wheel earlier?</strong></p>
+    <h3>Could ancient people have invented the wheel earlier?</h3>
     <p>The technology may have been possible slightly earlier, but adoption required converging conditions: draft animal availability, terrain, social organization, and the ability to manufacture load-bearing axle-and-hub assemblies from available materials. The timing was constrained by all of these factors together.</p>
-    <p><strong>Was the wheel the most important ancient invention?</strong></p>
+    <h3>Was the wheel the most important ancient invention?</h3>
     <p>Historians debate this. Writing, irrigation systems, and metallurgy arguably had more immediate civilizational impact. The wheel's importance grew progressively as road infrastructure, animal domestication, and trade networks expanded to support it.</p>
   `,
     coverImage: "/images/articles/civilisation-invented-wheel.jpg",
