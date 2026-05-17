@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useEffect } from 'react';
 
 interface SEOProps {
   title: string;
@@ -31,6 +32,30 @@ export function SEO({
   
   // Compute robots meta - noIndex prop takes precedence, default to index, follow
   const robotsContent = noIndex ? 'noindex, follow' : (robots || 'index, follow');
+
+  useEffect(() => {
+    const syncMetaTag = (
+      selector: string,
+      attribute: 'name' | 'property',
+      identifier: string,
+      value: string,
+    ) => {
+      const tag = document.head.querySelector<HTMLMetaElement>(selector);
+      if (tag) {
+        tag.setAttribute('content', value);
+        return;
+      }
+
+      const newTag = document.createElement('meta');
+      newTag.setAttribute(attribute, identifier);
+      newTag.setAttribute('content', value);
+      document.head.appendChild(newTag);
+    };
+
+    syncMetaTag('meta[name="description"]', 'name', 'description', description);
+    syncMetaTag('meta[property="og:description"]', 'property', 'og:description', description);
+    syncMetaTag('meta[name="twitter:description"]', 'name', 'twitter:description', description);
+  }, [description]);
   
   return (
     <Helmet prioritizeSeoTags>

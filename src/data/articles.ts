@@ -806,7 +806,7 @@ export const articles: Article[] = [
     metaTitle: "Antikythera Mechanism: Ancient Computer Decoded",
     excerpt:
       "A 2,000-year-old device that predicted eclipses and tracked planets reveals ancient Greeks were far more advanced than we imagined.",
-    metaDescription: "Learn how the Antikythera Mechanism worked as an ancient computer, what its gears predicted, and why this lost technology reshapes the history.",
+    metaDescription: "Learn how the Antikythera Mechanism worked as an ancient computer, what its gears predicted, and why this lost technology reshapes ancient history.",
         content: `
       <p class="lead">In 1901, sponge divers exploring a Roman-era shipwreck off the Greek island of Antikythera pulled a corroded bronze lump from the seafloor. It took over a century of X-ray imaging, computed tomography, and careful scholarship to understand what they had found: a hand-cranked mechanical computer, built around 100 BCE, capable of predicting solar and lunar eclipses, tracking the positions of the five planets known in antiquity, and displaying the four-year cycle of the Olympic Games. Nothing of comparable mechanical complexity appears in the historical record for another 1,400 years. The Antikythera Mechanism is not just an archaeological curiosity. It is evidence that the ancient world achieved a level of precision mechanical engineering whose loss we still cannot fully explain.</p>
  
@@ -1571,7 +1571,7 @@ export const articles: Article[] = [
     metaTitle: "Ancient Syphilis Skeleton Rewrites Disease History",
     excerpt:
       "A single hunter-gatherer buried in a Colombian rock shelter 5,500 years ago has just overturned one of medicine's oldest debates. We break down what scientists found in the bones, why it changes everything we thought we knew about syphilis, and what it means for fighting the disease today.",
-    metaDescription: "Discover how a 5,500-year-old syphilis skeleton changed disease history, what ancient DNA revealed, and why transmission timelines now challenge old.",
+    metaDescription: "Discover how a 5,500-year-old syphilis skeleton changed disease history, what ancient DNA revealed, and why transmission timelines challenge old theories.",
         content: `
       <p class="lead">A 5,500-year-old skeleton buried in a Colombian rock shelter has provided the oldest genetic evidence of syphilis-related disease ever recovered. Published in the journal Science in January 2026, the discovery extends the known genetic record of Treponema pallidum, the bacterium behind syphilis, yaws, and bejel, by more than 3,000 years, and fundamentally complicates one of the most persistent debates in the history of infectious disease: whether syphilis traveled from the Americas to Europe with Columbus's returning crew in 1493, or whether it was already present in the Old World before contact.</p>
  
@@ -1851,7 +1851,7 @@ export const articles: Article[] = [
     metaTitle: "History of Pandemics: How Disease Shaped Humans",
     excerpt:
       "The Black Death didn't just kill a third of Europe; it rewrote the genome of the survivors. From sickle cell to CCR5-delta32, here's how pandemics have acted as among the most powerful selective forces in recorded human history.",
-    metaDescription: "Trace the history of pandemics that changed human evolution, from pathogen pressures to genetic adaptation, and what past outbreaks teach modern public.",
+    metaDescription: "Trace the history of pandemics that changed human evolution, from pathogen pressures to genetic adaptation, and what past outbreaks teach public health.",
         content: `
       <p class="lead">Pandemics do not just kill people. They reshape the genetic composition of surviving populations, leaving permanent marks in human DNA that researchers can now read thousands of years later. When geneticists sequenced the genomes of medieval Europeans buried in mass graves during the Black Death and compared them to pre-plague and post-plague populations, they found that the survivors were not genetically identical to those who died. Specific immune gene variants had become dramatically more common after the plague. Yersinia pestis, the bacterium that killed an estimated 30 to 60 percent of Europe's population between 1347 and 1351, acted as a selection event, changing the composition of the human immune system in ways that can be measured today.</p>
  
@@ -2166,7 +2166,7 @@ export const articles: Article[] = [
     metaTitle: "Google Indexing: How 130 Trillion Pages Get Found",
     excerpt:
       "Google doesn't search the internet in real time — it searches a pre-built copy of it. Here's how Googlebot, Caffeine, and distributed indexing actually work at scale.",
-    metaDescription: "Understand Google indexing architecture, from crawl scheduling to rendering and canonical selection, with practical SEO implications for faster page.",
+    metaDescription: "Understand Google indexing architecture, from crawl scheduling to rendering and canonical selection, with practical SEO implications for faster discovery.",
     content: `
       <p class="lead">When you type a search query, Google searches a pre-built copy of the internet, not the live web. That copy contains over 130 trillion individual pages stored across hundreds of thousands of servers globally. Building and maintaining it involves distributed crawl queues, probabilistic link scheduling, real-time indexing pipelines, and a rendering system that simulates a full browser to execute JavaScript. Your query returns in under 200 milliseconds because most of the work happened before you asked.</p>
 
@@ -2243,7 +2243,7 @@ export const articles: Article[] = [
     metaTitle: "Social Feed Algorithms: How Platforms Predict You",
     excerpt:
       "Social feed algorithms don't show you what's popular — they predict what will keep you watching. Here's the actual machine learning behind what you see and why.",
-    metaDescription: "Learn how social feed ranking algorithms score posts using engagement signals, dwell time, and personalization models that shape what billions see each.",
+    metaDescription: "Learn how social feed ranking algorithms score posts using engagement signals, dwell time, and personalization models that shape what billions see daily.",
     content: `
       <p class="lead">Social feed algorithms are real-time prediction systems, not curation systems. The algorithm is not asking what is good content. It is asking: given everything known about this specific user at this specific moment, what item maximizes the probability they take the next desired action? The desired action varies by platform and context: completing a video, sharing to another app, saving a post, or simply not scrolling past. Every pause, every second of dwell time, every swipe is a labeled training example updating a machine learning model that will predict your next behavior.</p>
 
@@ -2398,7 +2398,7 @@ export const articles: Article[] = [
     metaTitle: "AI Context Problem: Why Models Miss Meaning",
     excerpt:
       "AI can process millions of tokens but still misses what you mean. The context problem explains why AI confidently gets things wrong and what it actually does instead of understanding.",
-    metaDescription: "Understand the AI context problem, why models process tokens without grounded understanding, and what context-window limits mean for real-world.",
+    metaDescription: "Understand the AI context problem, why models process tokens without grounded understanding, and what context-window limits mean for reliability.",
     content: `
       <p class="lead">The context problem is the gap between processing text and understanding it. LLMs can read millions of tokens, but they still miss meaning, contradictions, and implications because they predict the next token rather than build a mental model. In practice, the model produces fluent text that feels coherent even when it is semantically off. This article explains why that happens, how context windows and attention limitations create lost-in-the-middle errors, and what workflows reduce risk. The goal is not to ban AI from complex documents, but to use it with calibrated expectations in high-stakes settings. Understanding this helps you design prompts and review workflows that keep AI useful without assuming comprehension.</p>
 
@@ -2544,7 +2544,7 @@ export const articles: Article[] = [
     metaTitle: "Black Holes and Gravity: Why Orbiting One Is Safe",
     excerpt:
       "Black holes don't vacuum up everything around them; they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
-    metaDescription: "Learn black hole physics without hype: why black holes do not suck objects in, how stable orbits work, and what actually makes them dangerous near.",
+    metaDescription: "Learn black hole physics without hype: why black holes do not suck objects in, how stable orbits work, and what actually makes them dangerous close up.",
     content: `
       <p class="lead">A black hole is not a cosmic vacuum cleaner. At any given distance, it exerts exactly the same gravitational force as a star of identical mass would at that same distance. If the Sun were replaced by a black hole of equal mass, Earth's orbit would not change by a single kilometer. The seasons, the year's length, the tides: nothing would change gravitationally. You would freeze without sunlight, but that is a radiation problem, not a gravity problem. What makes black holes genuinely dangerous has nothing to do with special gravitational suction and everything to do with how close you can get before ordinary orbital mechanics stops protecting you.</p>
  
@@ -2707,7 +2707,7 @@ export const articles: Article[] = [
     metaTitle: "Woolly Mammoth De-Extinction: Biology Behind Revival",
     excerpt:
       "Colossal Biosciences is using CRISPR gene editing to resurrect the woolly mammoth. Here's exactly what they're doing, what they've achieved, and what 'resurrection' actually means in practice.",
-    metaDescription: "Examine woolly mammoth de-extinction science, including CRISPR edits, surrogate strategy, ecological goals, and the core biological hurdles still.",
+    metaDescription: "Examine woolly mammoth de-extinction science, including CRISPR edits, surrogate strategy, ecological goals, and core biological hurdles still unresolved.",
     content: `
       <p class="lead">Somewhere in Siberia, frozen in permafrost for up to 10,000 years, lie the preserved remains of woolly mammoths with intact DNA: a genetic blueprint for an animal that walked the Earth during the last ice age and vanished roughly 4,000 years ago. A team of geneticists in Boston is reading that blueprint and using it to modify a living elephant's genome, one gene edit at a time. The woolly mammoth is not being cloned. Jurassic Park-style revival from ancient DNA is not what is happening here. What is happening is more precise and, in some ways, more remarkable: scientists are using CRISPR gene editing to insert specific mammoth traits into the genome of the Asian elephant, the mammoth's closest living relative. The result, if it works, will not technically be a mammoth. It will be a new animal: a cold-adapted Asian elephant carrying the genetic signature of a species extinct since roughly 2000 BCE.</p>
  
@@ -2956,7 +2956,7 @@ export const articles: Article[] = [
     metaTitle: "Hyperscale Data Centres: The AI Power Demand Crisis",
     excerpt:
       "AI workloads are driving data centre power demand to levels that are straining national grids and rewriting energy policy. Here's what the numbers actually look like, and why it matters.",
-    metaDescription: "Understand how hyperscale data centres consume power at country scale, why AI workloads accelerate demand, and which efficiency strategies can bend.",
+    metaDescription: "Understand how hyperscale data centres consume power at country scale, why AI workloads accelerate demand, and which efficiency strategies bend demand.",
     content: `
       <p class="lead">The internet has always needed power. But for most of its history, that demand grew gradually enough that utilities could absorb it without disruption. The infrastructure scaled alongside the need, and nobody outside the energy industry paid much attention. That arrangement is over. The explosion in AI model training and inference has sent data centre power demand on a trajectory that is forcing electricity grid operators, governments, and utilities into emergency planning mode. Some of the largest facilities being built now will consume more electricity than many small nations. The question of where that power comes from, and what it costs, has become one of the defining infrastructure problems of the decade.</p>
  
@@ -3527,7 +3527,7 @@ export const articles: Article[] = [
     metaTitle: "US Blackout of 2003: Software Error Chain Explained",
     excerpt:
       "On August 14, 2003, a single software bug at an Ohio utility silenced alarms, hid a failing grid, and plunged 55 million people into darkness. Here is exactly how it happened.",
-    metaDescription: "Break down the 2003 US blackout and the software error chain that cascaded grid failure, with engineering lessons for resilience and critical.",
+    metaDescription: "Break down the 2003 US blackout and the software error chain that cascaded grid failure, with engineering lessons for resilience and critical systems.",
     content: `
       <p class="lead">On the afternoon of August 14, 2003, a software bug inside a single Ohio power company's control room quietly stopped working. No alarm sounded. No warning flashed. Operators sat at their screens completely unaware that the grid beneath them was unraveling.</p>
 
