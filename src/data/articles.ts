@@ -379,7 +379,7 @@ export const articles: Article[] = [
     metaTitle: "Lost Library of Alexandria: Knowledge We May Have Lost",
     excerpt:
       "Discover the true history of the Library of Alexandria. Explore the specific works lost to time, debunk the myths of its destruction, and understand its impact on modern knowledge preservation.",
-    metaDescription: "Discover what the Lost Library of Alexandria likely contained, what was really destroyed, and how historians reconstruct ancient knowledge from surviving.",
+    metaDescription: "Discover what the Lost Library of Alexandria likely contained, what was truly destroyed, and how historians rebuild ancient knowledge from surviving texts.",
         content: `
       <p class="lead">The Library of Alexandria did not burn in a single catastrophic fire. That version of the story, vivid and cinematically satisfying, is almost certainly a myth. What actually happened was slower and less dramatic: a great institution that housed hundreds of thousands of papyrus scrolls declined gradually over several centuries, damaged by multiple incidents, starved of funding, and ultimately overtaken by the political collapse of the civilization that built it. How much knowledge was truly lost is genuinely unknown, and the honest answer is more complicated than either the myth of total loss or the revisionist claim that the destruction was trivial.</p>
  
@@ -453,7 +453,7 @@ export const articles: Article[] = [
     metaTitle: "CRISPR Gene Editing in Medicine: Breakthroughs Now",
     excerpt:
       "CRISPR gene editing has reached patients, with FDA-approved therapies for sickle cell disease and beta thalassemia leading the way. Learn how the technology works, where it is already used, and what delivery, safety, and ethics still need to solve.",
-    metaDescription: "See how CRISPR gene editing is changing medicine today, from rare disease therapies to cancer research, including risks, ethics, regulation, and what.",
+    metaDescription: "See how CRISPR gene editing is changing medicine, from rare disease therapies to cancer research, including risks, ethics, regulation, and next steps.",
     content: `
       <p class="lead">CRISPR is a programmable gene editing system that can cut DNA at a chosen sequence and let cells repair the break in a new way. It has already reached patients, with FDA-approved therapies for sickle cell disease and beta thalassemia proving that precise editing can treat real genetic disorders. The next phase targets cancer, eye and liver diseases, with delivery and safety as the main bottlenecks.</p>
 
@@ -1006,7 +1006,7 @@ export const articles: Article[] = [
     metaTitle: "Placebo Effect Science: Belief and Brain Chemistry",
     excerpt:
       "The placebo effect is measurable neurobiology, not fake healing. Belief and context can trigger dopamine, endorphins, and endocannabinoids that change pain, movement, and immune responses.",
-    metaDescription: "Understand placebo effect science with evidence on pain pathways, brain chemistry, and clinical outcomes so you can see when expectation measurably.",
+    metaDescription: "Understand placebo effect science with evidence on pain pathways, brain chemistry, and clinical outcomes so you can see when expectation changes outcomes.",
     content: `
     <p class="lead">The placebo effect is a real biological response. When people expect relief, the brain releases its own painkillers and neuromodulators, which can reduce pain, improve movement in Parkinson's disease, and alter immune signaling even when the treatment is inert. Brain imaging confirms these changes, making the placebo effect a measurable part of physiology, not imagination.</p>
 
@@ -1642,7 +1642,7 @@ export const articles: Article[] = [
     metaTitle: "Tardigrades and Radiation: What Science Shows",
     excerpt:
       "Tardigrades can survive extreme radiation, but only under specific conditions. Learn what the Dsup protein does, how DNA repair works in these animals, and where the myth goes too far.",
-    metaDescription: "Find out how tardigrades survive radiation, what lab data confirms, and where popular claims about nuclear-proof life exaggerate their real biological.",
+    metaDescription: "Find out how tardigrades survive radiation, what lab data confirms, and where claims about nuclear-proof life exaggerate their real biological limits.",
     content: `
       <p class="lead">Tardigrades can survive radiation doses that would kill most animals, especially when they are in a dormant, dried state called a tun. Their resilience comes from DNA protection proteins and unusually fast repair pathways, not from invincibility. They are resistant to radiation, but they are not immune to heat, pressure, or direct blast forces.</p>
 
@@ -4208,7 +4208,7 @@ export const articles: Article[] = [
     metaTitle: "Why Paper Cuts Hurt So Much: Nerve Density Science",
     excerpt:
       "Of all the minor injuries a person can suffer, few produce as much disproportionate pain as a paper cut on the fingertip. The biology behind it is more interesting than you might expect.",
-    metaDescription: "Understand why paper cuts hurt more than bigger wounds: fingertip nerve density, shallow tissue damage, sensitization, and constant re-irritation keep.",
+    metaDescription: "Understand why paper cuts hurt more than deep wounds: fingertip nerve density, shallow tissue damage, sensitization, and constant re-irritation drive pain.",
     content: `
     <p class="lead">A tiny cut from a sheet of paper hurts more than most injuries. That's not your imagination. The fingertips contain some of the highest concentrations of nociceptors (sensory nerve endings that detect pain, pressure, and heat) anywhere in the human body. When a paper edge slices through this tissue, it cuts directly into this dense nerve bed while staying too shallow to trigger the body's strongest analgesic responses.</p>
     <p>The result is a wound that fires pain signals continuously, stays open in a mechanically active location, and gets re-irritated with every movement. It's not that the cut is serious. It's that your nervous system treats this specific type of injury in a way that amplifies the experience.</p>
