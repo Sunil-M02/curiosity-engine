@@ -105,7 +105,7 @@ const ArticlePage = () => {
     <Layout>
       <ReadingProgress />
       <SEO
-        title={article.title}
+        title={article.metaTitle}
         description={article.metaDescription}
         canonical={`https://www.curiosityfields.com/article/${article.slug}`}
         type="article"
