@@ -4430,6 +4430,11 @@ export const articles: Article[] = [
     <p>What actually happens is that the Moon completes exactly one rotation on its own axis in the same time it takes to complete one orbit around Earth, roughly 27.3 days. The rotation and the orbit are synchronized so precisely that the same hemisphere always faces our planet.</p>
     <p>This synchronization did not happen by coincidence. It was caused by Earth's gravity, operating slowly over hundreds of millions of years, gradually slowing and reshaping the Moon's rotation until these two cycles locked into step. The process is called tidal locking, and it is one of the most common gravitational outcomes in the solar system.</p>
 
+    <h2>The Moon Is Not Stationary. It Is Perfectly Synchronized.</h2>
+    <p>The Moon does rotate. That surprises a lot of people who assume it must be frozen in place to always show us the same face.</p>
+    <p>What actually happens is that the Moon completes exactly one rotation on its own axis in the same time it takes to complete one orbit around Earth, roughly 27.3 days. The rotation and the orbit are synchronized so precisely that the same hemisphere always faces our planet.</p>
+    <p>This synchronization did not happen by coincidence. It was caused by Earth's gravity, operating slowly over hundreds of millions of years, gradually slowing and reshaping the Moon's rotation until these two cycles locked into step. The process is called tidal locking, and it is one of the most common gravitational outcomes in the solar system.</p>
+
     <h2>What Tidal Forces Actually Are</h2>
     <p>Gravity weakens with distance. This is straightforward to understand in the abstract, but it has a specific consequence that matters here: the side of an object closer to a gravitational source experiences a stronger pull than the far side.</p>
     <p>For a rigid steel ball, the difference would be negligible. For a body the size of the Moon, the difference is large enough to physically deform the rock. The side of the Moon facing Earth is pulled more strongly than the far side, and that differential pull stretches the Moon into a very slightly elongated shape, like a rugby ball with the long axis pointing toward Earth.</p>
@@ -4459,9 +4464,7 @@ export const articles: Article[] = [
 
     <h2>A Comparison: Tidal Locking States in the Solar System</h2>
     <table>
-      <thead>
-        <tr><th>Body</th><th>Locked To</th><th>Locking Type</th><th>Status</th></tr>
-      </thead>
+      <thead><tr><th>Body</th><th>Locked To</th><th>Locking Type</th><th>Status</th></tr></thead>
       <tbody>
         <tr><td>Moon</td><td>Earth</td><td>Synchronous</td><td>Fully locked</td></tr>
         <tr><td>Io</td><td>Jupiter</td><td>Synchronous</td><td>Fully locked</td></tr>
@@ -4518,6 +4521,11 @@ export const articles: Article[] = [
     <p>A real leaf takes sunlight, water, and carbon dioxide and turns them into chemical energy. No battery. No grid connection. No combustion. Just light hitting a surface and triggering a chain of electron transfers that store energy in molecular bonds.</p>
     <p>An artificial leaf does something similar but skips the glucose entirely. It splits water molecules using sunlight, releasing hydrogen gas on one side and oxygen on the other. That hydrogen is a clean fuel. Burn it or run it through a fuel cell, and the only byproduct is water vapor.</p>
 
+    <h2>A Plant Has Been Doing This for 3.8 Billion Years. Scientists Finally Copied It.</h2>
+    <p>A real leaf takes sunlight, water, and carbon dioxide and turns them into chemical energy. No battery. No grid connection. No combustion. Just light hitting a surface and triggering a chain of electron transfers that store energy in molecular bonds.</p>
+    <p>An artificial leaf does something similar but skips the glucose entirely. It splits water molecules using sunlight, releasing hydrogen gas on one side and oxygen on the other. That hydrogen is a clean fuel. Burn it or run it through a fuel cell, and the only byproduct is water vapor.</p>
+    <p>The concept is not new. Daniel Nocera's group at MIT demonstrated a working artificial leaf prototype in 2011. What has changed is how far the materials science and photocatalysis research have come since then, and how honest researchers now are about how far the technology still has to go.</p>
+
     <h2>What Is Photocatalysis and Why Does It Matter Here</h2>
     <p>Photocatalysis is the process where light activates a material to drive a chemical reaction that would not happen on its own at room temperature.</p>
     <p>In an artificial leaf, a light-absorbing semiconductor absorbs photons from sunlight. Those photons excite electrons, pushing them to higher energy states. Those energized electrons then drive two separate reactions: one that oxidizes water to release oxygen, another that reduces protons to form hydrogen gas.</p>
@@ -4526,20 +4534,24 @@ export const articles: Article[] = [
     <h2>The Chemistry Behind the Split</h2>
     <p>Natural photosynthesis in plants uses two linked protein complexes called Photosystem I and Photosystem II. Together, they absorb light and use that energy to strip electrons from water. The oxygen goes into the atmosphere. The electrons eventually reduce carbon dioxide into sugars.</p>
     <p>Artificial leaf designs borrow the same conceptual architecture, but replace biological proteins with inorganic semiconductors and metal catalysts.</p>
-    <p>The most studied materials include silicon for light absorption, cobalt and nickel oxides as catalysts for the oxygen-evolution reaction, and molybdenum sulfide or platinum for the hydrogen-evolution reaction.</p>
+    <p>The most studied materials include:</p>
+    <p>• Silicon for light absorption, similar to solar cells</p>
+    <p>• Cobalt and nickel oxides as catalysts for the oxygen-evolution reaction</p>
+    <p>• Molybdenum sulfide or platinum for the hydrogen-evolution reaction</p>
 
     <h2>Why Scalability Is the Hard Part</h2>
     <p>Lab efficiency numbers for artificial leaf devices can look impressive. Some experimental systems have achieved solar-to-hydrogen conversion efficiencies above 10%, which is competitive with some industrial hydrogen production routes.</p>
-    <p>But efficiency in a controlled lab environment and performance at industrial scale are different problems. The gap comes from material stability, catalyst cost, separation and collection, and land/water use.</p>
+    <p>But efficiency in a controlled lab environment and performance at industrial scale are different problems.</p>
+    <p>The gap between them comes from several directions at once: material stability, catalyst cost, separation and collection, and land and water use.</p>
 
     <h2>How This Fits Into the Broader Hydrogen Economy</h2>
-    <p>The urgency behind artificial leaf research comes partly from where hydrogen sits in the clean energy picture. An artificial leaf bypasses the electricity step entirely, which removes a conversion loss and potentially reduces costs.</p>
+    <p>The urgency behind artificial leaf research comes partly from where hydrogen sits in the clean energy picture. An artificial leaf bypasses the electricity step entirely. Sunlight drives the chemistry directly, which removes a conversion loss and potentially reduces costs.</p>
 
     <h2>Where the Research Frontier Is Now</h2>
     <p>Several research directions are producing genuinely interesting results: tandem absorbers, molecular catalysts, protective coatings, and biological-artificial hybrids.</p>
 
     <h2>What This Actually Means for the Future</h2>
-    <p>The artificial leaf is not going to solve the energy transition on its own. What it represents is a direct solar-to-fuel pathway that does not depend on large grid infrastructure.</p>
+    <p>The artificial leaf is not going to solve the energy transition on its own. What it represents is a direct solar-to-fuel pathway that does not depend on large grid infrastructure, expensive storage systems, or continuous electricity supply.</p>
 
     <h2>Conclusion</h2>
     <p>Artificial leaf technology works. The photocatalysis is real, the hydrogen production is real, and the efficiency numbers are improving steadily. What does not yet work is doing all of that cheaply, durably, and at the scale needed to matter in an energy system.</p>
@@ -4550,15 +4562,15 @@ export const articles: Article[] = [
     <h3>Is an artificial leaf the same as a solar panel?</h3>
     <p>No. A solar panel converts sunlight into electricity. An artificial leaf converts sunlight directly into chemical energy stored as hydrogen gas, skipping the electricity step entirely.</p>
     <h3>Who invented the artificial leaf?</h3>
-    <p>Daniel Nocera and his team at MIT demonstrated one of the first practical artificial leaf prototypes in 2011. Since then, many research groups globally have built on that work.</p>
+    <p>Daniel Nocera and his team at MIT demonstrated one of the first practical artificial leaf prototypes in 2011. Since then, many research groups globally have built on that work, including teams at Cambridge, Caltech, and Delft.</p>
     <h3>Why is making an artificial leaf difficult at scale?</h3>
     <p>The main challenges are material stability under prolonged outdoor conditions, the cost of catalysts that work efficiently, and the practical difficulty of collecting hydrogen gas from large surface areas without contamination.</p>
     <h3>Can an artificial leaf produce enough hydrogen to be useful?</h3>
     <p>Laboratory devices have achieved solar-to-hydrogen conversion efficiencies above 10%, which is competitive with some existing hydrogen production methods. Scaling that performance to real-world conditions is the remaining challenge.</p>
     <h3>Is artificial leaf technology better than electrolysis for green hydrogen?</h3>
-    <p>Potentially yes, because it converts sunlight to hydrogen directly without first generating electricity.</p>
+    <p>Potentially yes, because it converts sunlight to hydrogen directly without first generating electricity. This removes a conversion step and could reduce costs significantly if the materials challenges are solved.</p>
     <h3>When will artificial leaf technology be commercially available?</h3>
-    <p>No commercial products exist yet. Most researchers consider the technology to be at an early development stage comparable to solar cells in the early 1980s.</p>
+    <p>No commercial products exist yet. Most researchers consider the technology to be at an early development stage comparable to solar cells in the early 1980s. Commercial deployment could realistically begin in the 2030s depending on research progress.</p>
   `,
   coverImage: "/images/articles/artificial-leaf-hydrogen-fuel.jpg",
   category: "future-innovation",
