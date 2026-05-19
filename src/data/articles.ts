@@ -4498,7 +4498,7 @@ export const articles: Article[] = [
     <p>The near side has more large volcanic plains called maria, while the far side has a thicker crust and more heavily cratered terrain. The reason for this asymmetry is still an active research question in planetary science.</p>
   `,
   coverImage: "/images/articles/why-the-moon-always-shows-the-same-face.jpg",
-  category: "Astronomy & Space",
+  category: "astronomy",
   author: authors[0],
   publishedAt: "2026-05-18",
   readTime: 8,
@@ -4561,7 +4561,7 @@ export const articles: Article[] = [
     <p>No commercial products exist yet. Most researchers consider the technology to be at an early development stage comparable to solar cells in the early 1980s.</p>
   `,
   coverImage: "/images/articles/artificial-leaf-hydrogen-fuel.jpg",
-  category: "Future Innovation",
+  category: "future-innovation",
   author: authors[0],
   publishedAt: "2026-05-19",
   readTime: 8,
