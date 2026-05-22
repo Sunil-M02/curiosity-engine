@@ -4618,7 +4618,7 @@ export const articles: Article[] = [
   title: "The Living Robots Made From Frog Cells — Xenobots and Programmable Life",
   metaTitle: "Xenobots: The Living Robots Made From Frog Cells",
   excerpt: "Xenobots are living, self-organizing machines built from frog stem cells. Discover what they are, how they work, and why they matter for medicine and synthetic biology.",
-  metaDescription: "Xenobots are not robots in any traditional sense. They are living, self-organizing machines built from frog stem cells. Here is what they actually are, how they work, and why they matter for medicine and synthetic biology.",
+  metaDescription: "Xenobots are living machines made from frog stem cells. Discover how they move, self-replicate, and could transform medicine and synthetic biology.",
   content: `
     <p class="lead">Xenobots are not robots. They have no circuits, no motors, no software. They are clusters of living frog stem cells that self-organize into functional biological machines capable of movement, collective behavior, and even a crude form of self-replication. The name comes from <em>Xenopus laevis</em>, the African clawed frog whose embryonic cells were used to build the first ones in 2020.</p>
 
@@ -4736,7 +4736,7 @@ export const articles: Article[] = [
   title: "How Octopuses See Colour Despite Being Colourblind — The Skin Photoreceptor Discovery",
   metaTitle: "How Octopuses See Colour Despite Being Colourblind",
   excerpt: "Octopuses are colourblind yet match colours perfectly. The secret lies in their skin photoreceptors, pupil shape, and polarization vision.",
-  metaDescription: "Octopuses are colourblind by the standard definition, yet they match colours with extraordinary accuracy. The explanation involves photoreceptors in their skin, polarized light, and a sensory system unlike anything else in the animal kingdom.",
+  metaDescription: "Octopuses are colourblind yet match colours perfectly. Explore how skin photoreceptors, pupil shape, and polarized light enable their remarkable camouflage.",
   content: `
     <p class="lead">Octopuses are technically colourblind. Their eyes contain only one type of photoreceptor — a single opsin — which means they lack the comparative mechanism that colour vision requires. By every standard neurological definition, they should not be able to distinguish colours.</p>
 
@@ -4852,7 +4852,7 @@ export const articles: Article[] = [
   title: "The Plague That Killed 5 Million Romans — The Antonine Plague and Its Scientific Legacy",
   metaTitle: "The Antonine Plague: The Pandemic That Killed Millions of Romans",
   excerpt: "Between 165–180 CE, a devastating plague killed millions across the Roman Empire. Here's what we know about the Antonine Plague and its lasting impact.",
-  metaDescription: "Between 165 and 180 CE, an epidemic killed an estimated 5 to 10 million people across the Roman Empire. Here is what the Antonine Plague actually was, how it spread, what it did to Rome, and what it taught modern epidemiology.",
+  metaDescription: "The Antonine Plague (165-180 CE) killed millions across Rome. Discover its causes, impact on the empire, and lessons for modern epidemiology.",
   content: `
     <p class="lead">Between 165 and 180 CE, an epidemic tore through the Roman Empire and killed somewhere between 5 and 10 million people. No one knows the exact number. The demographic records of the ancient world were not built for precision. But the scale is beyond serious dispute: contemporary accounts describe entire towns emptied, army units reduced to fractions of their strength, and the emperor Marcus Aurelius writing his <em>Meditations</em> in part as a coping document for living through catastrophe.</p>
 
