@@ -366,4 +366,23 @@
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
+  
+  <url>
+  <loc>https://www.curiosityfields.com/article/xenobots-programmable-life-frog-cells-living-robots</loc>
+  <lastmod>2026-05-20</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/how-octopuses-see-colour-despite-being-colourblind-skin-photoreceptor-discovery</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/the-plague-that-killed-5-million-romans-antonine-plague-scientific-legacy</loc>
+  <lastmod>2026-05-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>
