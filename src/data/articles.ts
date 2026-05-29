@@ -5040,7 +5040,8 @@ export const articles: Article[] = [
       <p>As of 2024, JADES-GS-z14-0, detected by JWST, holds the record. It existed just 290 million years after the Big Bang, with a spectroscopic redshift of z=14.32.</p>
     `,
     coverImage: "/images/articles/why-all-telescopes-are-time-machines.jpg",
-    category: "Astronomy & Space",
+    category: "astronomy",
+    author: authors[0],
     publishedAt: "2026-05-28",
     readTime: 12,
     featured: false,
@@ -5139,7 +5140,8 @@ export const articles: Article[] = [
       <p>Common methods include the Political Compass Test, matched political question pair comparison, and correlation with public opinion survey data by demographic group. Results vary across methods but consistently show measurable asymmetries.</p>
     `,
     coverImage: "/images/articles/ai-political-biases.jpg",
-    category: "AI",
+    category: "artificial-intelligence",
+    author: authors[1],
     publishedAt: "2026-05-28",
     readTime: 11,
     featured: false,
@@ -5243,7 +5245,8 @@ export const articles: Article[] = [
       <p>The combination of healing speed, incomplete strength recovery, inability to handle macroscopic damage, and higher manufacturing cost relative to standard materials. For most applications, the economics only make sense when the cost of undetected or unrepaired failure is very high.</p>
     `,
     coverImage: "/images/articles/self-healing-materials.jpg",
-    category: "Technology",
+    category: "technology",
+    author: authors[1],
     publishedAt: "2026-05-28",
     readTime: 10,
     featured: false,
