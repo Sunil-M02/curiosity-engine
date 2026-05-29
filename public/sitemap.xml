@@ -385,4 +385,22 @@
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-light-travel-time</loc>
+  <lastmod>2026-05-25</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/why-ai-language-models-have-political-biases-training-data</loc>
+  <lastmod>2026-05-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/technology-behind-self-healing-materials-polymer-chains</loc>
+  <lastmod>2026-05-29</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>
