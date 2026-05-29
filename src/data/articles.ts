@@ -4973,7 +4973,7 @@ export const articles: Article[] = [
 
       <h2>From the Moon to the Observable Edge</h2>
       <p>The delay scales dramatically with distance. Here is what that looks like in practice:</p>
-      <table>
+      <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
         <thead>
           <tr><th>Object</th><th>Distance</th><th>Light Travel Time</th></tr>
         </thead>
@@ -4991,7 +4991,6 @@ export const articles: Article[] = [
       <p>When astronomers say deep space, they mean deep time. The further out you look, the further back you go.</p>
       <p>The observable universe extends roughly 46 billion light-years in every direction, accounting for cosmic expansion. The oldest light we can detect comes from about 380,000 years after the Big Bang, when the universe cooled enough to let photons travel freely. That light is now the Cosmic Microwave Background (CMB), a faint radio-frequency afterglow that covers the entire sky. It is a photograph of the infant universe taken 13.8 billion years ago.</p>
       <p>Every observation in astronomy is a fossil record. Galaxies as they were. Stars as they burned. Events that may have ended before the Earth formed. The night sky is not a real-time image of the universe. It is a layered archive of its history.</p>
-
       <h2>What the James Webb Space Telescope Actually Observes</h2>
       <p>The James Webb Space Telescope, launched in December 2021, was built specifically to see further back in time than any instrument before it. Its primary mission is to observe the first galaxies, which formed within the first billion years after the Big Bang.</p>
       <p>The <a href="https://www.curiosityfields.com/article/james-webb-telescope-discoveries-changing-astronomy">James Webb discoveries</a> have already pushed back what we thought we understood about early galaxy formation. JWST detected the galaxy JADES-GS-z14-0 in 2024, observing it as it existed just 290 million years after the Big Bang. That light has been traveling for 13.4 billion years to reach the telescope's 6.5-meter gold-coated mirror.</p>
