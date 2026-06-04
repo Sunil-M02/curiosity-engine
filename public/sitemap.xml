@@ -403,4 +403,28 @@
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/why-you-cant-stop-scrolling-dopamine-loops-brain</loc>
+  <lastmod>2026-05-31</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/how-airplane-wifi-works-satellite-architecture-35000-feet</loc>
+  <lastmod>2026-06-01</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/what-if-ageing-could-be-reversed-biology-longevity-research</loc>
+  <lastmod>2026-06-03</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/7-energy-sources-replace-oil-30-years</loc>
+  <lastmod>2026-06-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>
