@@ -5689,6 +5689,7 @@ export const articles: Article[] = [
   id: "alphafold-protein-folding-explained",
   slug: "alphafold-protein-folding-explained",
   title: "The AI That Predicted Protein Structures Unsolved for 50 Years — AlphaFold Explained",
+  metaTitle: "AlphaFold Explained: How AI Solved Protein Folding in Minutes",
   excerpt: "AlphaFold cracked a 50-year-old biology problem that had stumped every lab on earth, and it did it in minutes.",
   metaDescription: "AlphaFold solved protein folding in minutes — a problem that took labs years. Here's the mechanism, the Nobel Prize story, and why it changes medicine forever.",
   content: `
