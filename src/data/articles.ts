@@ -5713,7 +5713,7 @@ export const articles: Article[] = [
  
     <p>The result is predictions accurate to within about 1 angstrom (one ten-billionth of a metre) on benchmark tests. That is roughly the width of a single atom. For context, the experimental gold standard, X-ray crystallography, works at a similar resolution — but requires growing protein crystals, bombarding them with radiation, and months of analysis. AlphaFold does it faster than you can brew a cup of coffee.</p>
  
-    <p>Researchers working on <a href="https://www.curiosityfields.com/article/crispr-gene-editing-transforming-medicine">CRISPR gene editing</a> were among the first to benefit — using AlphaFold's protein maps to understand how editing machinery binds to target DNA sequences with far greater precision than before.</p>
+    <p>The implications for <a href="https://www.curiosityfields.com/article/crispr-gene-editing-transforming-medicine">CRISPR gene editing</a> became clear almost immediately — knowing the precise shape of editing proteins allowed researchers to understand exactly how Cas9 binds to its DNA targets, opening up new strategies for more accurate cuts.</p>
  
     <h2>The CASP Tournament That Changed Everything</h2>
  
@@ -5731,7 +5731,7 @@ export const articles: Article[] = [
  
     <p>In October 2024, Hassabis and Jumper were awarded the Nobel Prize in Chemistry. It was only the second time in history that a Nobel in Chemistry had gone to work done primarily using machine learning. The first was awarded the same week, to Geoffrey Hinton, in Physics.</p>
  
-    <p>The <a href="https://www.curiosityfields.com/article/rise-of-ai-scientists-autonomous-research">rise of AI scientists</a> doing genuine laboratory-level work is no longer a future scenario — AlphaFold is proof it has already begun.</p>
+    <p>AlphaFold did not arrive in isolation. It is part of a broader shift in how science is being done — one that the <a href="https://www.curiosityfields.com/article/rise-of-ai-scientists-autonomous-research">rise of AI scientists</a> has been quietly accelerating across genomics, materials discovery, and climate modelling over the same period.</p>
  
     <h2>What 200 Million Protein Structures Actually Unlocks</h2>
  
@@ -5791,7 +5791,7 @@ export const articles: Article[] = [
  
     <p>It is worth noting that AlphaFold's predictions are not always perfect, and the model itself provides confidence scores for each region of a prediction — meaning researchers know exactly where to trust the output and where to run experimental confirmation. The tool is not a replacement for wet lab biology. It is closer to a map that tells you which terrain is worth exploring.</p>
  
-    <p>This connects to a broader question the AI research community is actively debating: how far can <a href="https://www.curiosityfields.com/article/what-happens-when-ai-can-design-its-own-successor">AI systems extend their own scientific reach</a> before human researchers are no longer the primary actors in discovery?</p>
+    <p>What AlphaFold 3 will require at scale is compute infrastructure far beyond current norms — the same infrastructure pressure driving <a href="https://www.curiosityfields.com/article/what-happens-when-ai-can-design-its-own-successor">questions about what AI systems do when given the tools to improve themselves</a>, a design challenge the field has not yet resolved.</p>
  
     <h2>What the Competitors Miss — and Why This Matters</h2>
  
@@ -5799,9 +5799,9 @@ export const articles: Article[] = [
  
     <p>A researcher in a low-resource institution who identifies a promising drug target can now get structural data on the relevant proteins the same day, without applying for grants to fund crystallography time. The democratisation angle is not rhetorical: over a million users of the AlphaFold database come from countries that collectively had almost no representation in structural biology before 2021.</p>
  
-    <p>For anyone tracking what AI does to scientific inequality over the next decade, this is the most important protein folding story nobody is telling. The <a href="https://www.curiosityfields.com/article/artificial-general-intelligence-closer-than-expected">path toward more general AI capabilities</a> runs through exactly these kinds of domain-specific breakthroughs where the performance gap over human experts becomes undeniable.</p>
+    <p>For anyone tracking what AI does to scientific inequality over the next decade, this is the most important protein folding story nobody is telling. Whether that trajectory continues depends partly on compute — and on whether the hardware underneath it stays accessible, a question the <a href="https://www.curiosityfields.com/article/artificial-general-intelligence-closer-than-expected">path toward more general AI capabilities</a> is making increasingly urgent.</p>
  
-    <p>And if you want to understand the compute story underneath all of this, the <a href="https://www.curiosityfields.com/article/the-quantum-revolution-reshaping-computing">quantum computing revolution</a> being discussed in parallel is partly motivated by problems in molecular simulation that AlphaFold has now made even more urgent to solve.</p>
+    <p>And if you want to understand the compute story underneath all of this, molecular simulation problems that AlphaFold has now made urgent to solve are exactly why the <a href="https://www.curiosityfields.com/article/the-quantum-revolution-reshaping-computing">quantum computing revolution</a> has pharmaceutical and biotech firms paying close attention alongside governments.</p>
  
     <h2>Conclusion</h2>
  
