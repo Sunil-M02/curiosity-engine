@@ -32,7 +32,8 @@ export type Category =
   | "artificial-intelligence"
   | "history"
   | "astronomy"
-  | "future-innovation";
+  | "future-innovation"
+  | "psychology-mind";
 
 export const categoryInfo: Record<Category, { name: string; description: string; color: string }> = {
   science: {
@@ -70,6 +71,12 @@ export const categoryInfo: Record<Category, { name: string; description: string;
     description:
       "Discover emerging technologies and visionary ideas shaping tomorrow. Articles on innovation trends, futurism, and breakthrough technologies defining the next decade.",
     color: "#D4A843",
+  },
+  "psychology-mind": {
+    name: "Psychology & Mind",
+    description:
+      "Explore psychology, human behavior, cognitive science, mental models, decision making, emotions, memory, intelligence, consciousness, habits, and the science of the mind.",
+    color: "#C05ACF",
   },
 };
 
@@ -1128,7 +1135,7 @@ export const articles: Article[] = [
     <p>Placebo effects improve symptoms through positive expectation. Nocebo effects worsen symptoms through negative expectation. Both operate through similar neurobiological pathways but with opposite outcomes based on the valence of belief.</p>
   `,
     coverImage: "/images/articles/placebo-effect-brain.jpg",
-    category: "science",
+    category: "psychology-mind",
     author: authors[0],
     publishedAt: "2026-02-22",
     readTime: 8,
@@ -2152,7 +2159,7 @@ export const articles: Article[] = [
       <p>Yes. Switch cost increases with age, primarily due to reduced PFC efficiency and slower working memory loading. This is one reason deep, single-task focus becomes increasingly valuable as cognitive resources change over time.</p>
     `,
     coverImage: "/images/articles/multitasking-brain.jpg",
-    category: "science",
+    category: "psychology-mind",
     author: authors[0],
     publishedAt: "2026-04-22",
     readTime: 9,
@@ -5352,7 +5359,7 @@ export const articles: Article[] = [
     <p>The nucleus accumbens is a key node in the mesolimbic dopamine pathway, receiving input from the VTA and acting as an interface between motivation and motor action. It is the structure most directly implicated in converting dopaminergic signals into approach behavior — the neurological underpinning of why wanting something makes you reach for it.</p>
   `,
   coverImage: "/images/articles/dopamine-scrolling-brain.jpg",
-  category: "science",
+  category: "psychology-mind",
   author: authors[0],
   publishedAt: "2026-05-31",
   readTime: 10,
@@ -5900,14 +5907,29 @@ export function getFeaturedArticles(): Article[] {
   return sortArticlesByPublishedAt(articles.filter((article) => article.featured));
 }
 
-const editorsPickOverrides = new Set([
-  'woolly-mammoth-resurrection-crispr-de-extinction-biology',
-]);
-
 export function getEditorsPickArticles(limit = 6): Article[] {
-  return articles
-    .filter((article) => article.editorsPick === true || editorsPickOverrides.has(article.slug))
-    .slice(0, limit);
+  const curatedEditorsPickSlugs = [
+    "why-you-cant-stop-scrolling-dopamine-loops-brain",
+    "quantum-computers-crack-every-password-earth-timeline",
+    "james-webb-telescope-discoveries-changing-astronomy",
+    "lost-library-of-alexandria-what-we-really-lost",
+    "end-of-passwords-guide-passkeys-biometric-security",
+    "what-if-ageing-could-be-reversed-biology-longevity-research",
+  ];
+
+  const curatedArticles = curatedEditorsPickSlugs
+    .map((slug) => articles.find((article) => article.slug === slug))
+    .filter((article): article is Article => Boolean(article));
+
+  if (curatedArticles.length >= limit) {
+    return curatedArticles.slice(0, limit);
+  }
+
+  const fallbackArticles = sortArticlesByPublishedAt(
+    articles.filter((article) => article.editorsPick === true && !curatedEditorsPickSlugs.includes(article.slug)),
+  );
+
+  return [...curatedArticles, ...fallbackArticles].slice(0, limit);
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {

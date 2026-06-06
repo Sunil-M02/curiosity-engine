@@ -15,6 +15,7 @@ const categoryIcons: Record<Category, LucideIcon> = {
   history: Landmark,
   astronomy: Telescope,
   'future-innovation': Rocket,
+  'psychology-mind': Brain,
 };
 
 const CategoriesPage = () => {
@@ -22,7 +23,7 @@ const CategoriesPage = () => {
     <Layout>
       <SEO
         title="All Categories - CuriosityFields"
-        description="Explore all topics on CuriosityFields. From science and technology to history and space, find articles that fuel your curiosity."
+        description="Explore all topics on CuriosityFields, including Science, Technology, AI, Psychology & Mind, History, Astronomy, and Future Innovation."
         canonical="https://www.curiosityfields.com/categories"
       />
       
