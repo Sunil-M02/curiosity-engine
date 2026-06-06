@@ -450,7 +450,6 @@ export const articles: Article[] = [
     publishedAt: "2026-01-02",
     readTime: 6,
     featured: false,
-    editorsPick: true,
     tags: ["history", "ancient world", "libraries", "knowledge"],
   },
   {
@@ -879,7 +878,6 @@ export const articles: Article[] = [
     publishedAt: "2026-01-09",
     readTime: 6,
     featured: false,
-    editorsPick: true,
     tags: ["history", "technology", "ancient world", "archaeology"],
   },
 
@@ -1003,6 +1001,7 @@ export const articles: Article[] = [
     publishedAt: "2026-02-08",
     readTime: 9,
     featured: false,
+    editorsPick: true,
     tags: ["Artemis III", "NASA", "Moon Mission", "Space Exploration", "Lunar Landing"],
   },
 
@@ -1320,6 +1319,7 @@ export const articles: Article[] = [
     publishedAt: "2026-02-14",
     readTime: 8,
     featured: false,
+    editorsPick: true,
     tags: ["Agentic AI", "Autonomous Agents", "AI Automation", "Future of Work", "Artificial Intelligence"],
   },
   {
@@ -2541,7 +2541,6 @@ export const articles: Article[] = [
     publishedAt: "2026-04-27",
     readTime: 11,
     featured: false,
-    editorsPick: true,
     tags: ["Bronze Age", "Ancient History", "Mediterranean", "Civilizational Collapse", "Sea Peoples"],
   },
   {
@@ -3416,6 +3415,7 @@ export const articles: Article[] = [
     publishedAt: "2026-05-07",
     readTime: 12,
     featured: true,
+    editorsPick: true,
     tags: ["Mars", "Space Exploration", "Engineering", "NASA", "SpaceX"],
   },
   {
@@ -4275,6 +4275,7 @@ export const articles: Article[] = [
     publishedAt: "2026-05-15",
     readTime: 7,
     featured: false,
+  editorsPick: true,
     tags: ["Science", "Human Biology", "Pain", "Neuroscience", "Nociceptors", "Wound Healing"],
   },
   {
@@ -5563,7 +5564,6 @@ export const articles: Article[] = [
   publishedAt: "2026-06-03",
   readTime: 11,
   featured: true,
-  editorsPick: true,
   tags: ["longevity", "ageing", "senolytics", "epigenetics", "NAD+", "biology", "healthspan"],
 },
  
