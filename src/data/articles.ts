@@ -5909,12 +5909,12 @@ export function getFeaturedArticles(): Article[] {
 
 export function getEditorsPickArticles(limit = 6): Article[] {
   const curatedEditorsPickSlugs = [
-    "why-you-cant-stop-scrolling-dopamine-loops-brain",
-    "quantum-computers-crack-every-password-earth-timeline",
-    "james-webb-telescope-discoveries-changing-astronomy",
-    "lost-library-of-alexandria-what-we-really-lost",
-    "end-of-passwords-guide-passkeys-biometric-security",
-    "what-if-ageing-could-be-reversed-biology-longevity-research",
+    "why-paper-cuts-hurt-more-than-larger-wounds-nerve-density",
+    "dark-matter-mystery-what-we-know",
+    "artemis-iii-update-nasa-2026-moon-landing",
+    "placebo-effect-brain-chemistry-science-healing",
+    "2026-rise-of-agentic-ai-autonomous-agents-automation",
+    "13-engineering-problems-mars-colonisation-harder-than-told",
   ];
 
   const curatedArticles = curatedEditorsPickSlugs
