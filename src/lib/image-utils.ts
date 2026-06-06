@@ -8,7 +8,7 @@ export const categoryFallbackImages: Record<Category, string> = {
   'history': '/images/defaults/history.jpg',
   'astronomy': '/images/defaults/space.jpg',
   'future-innovation': '/images/defaults/future.jpg',
-  'psychology-mind': '/images/defaults/science.jpg',
+  'psychology-mind': '/images/defaults/future.jpg',
 };
 
 // Generic fallback for unknown categories (uses technology as a safe default)
