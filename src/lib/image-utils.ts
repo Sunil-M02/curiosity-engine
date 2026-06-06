@@ -8,6 +8,7 @@ export const categoryFallbackImages: Record<Category, string> = {
   'history': '/images/defaults/history.jpg',
   'astronomy': '/images/defaults/space.jpg',
   'future-innovation': '/images/defaults/future.jpg',
+  'psychology-mind': '/images/defaults/science.jpg',
 };
 
 // Generic fallback for unknown categories (uses technology as a safe default)
@@ -89,6 +90,7 @@ function getCategoryDisplayName(category: Category): string {
     'history': 'History',
     'astronomy': 'Space',
     'future-innovation': 'Innovation',
+    'psychology-mind': 'Psychology',
   };
   return categoryNames[category] || '';
 }

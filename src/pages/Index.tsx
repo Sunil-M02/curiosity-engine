@@ -12,7 +12,7 @@ const Index = () => {
     "@type": "WebSite",
     name: "CuriosityFields",
     description:
-      "A knowledge-first digital publication exploring science, technology, AI, history, astronomy, and future innovation.",
+      "A knowledge-first digital publication exploring science, technology, AI, psychology, history, astronomy, and future innovation.",
     url: "https://www.curiosityfields.com",
     potentialAction: {
       "@type": "SearchAction",
@@ -34,7 +34,7 @@ const Index = () => {
     <Layout>
       <SEO
         title="CuriosityFields — Where Curiosity Meets Discovery"
-        description="Explore science, technology, AI, history, astronomy, and future innovation. Stories that expand how you see the world."
+        description="Explore science, technology, AI, psychology, history, astronomy, and future innovation. Stories that expand how you see the world."
         canonical="https://www.curiosityfields.com"
       />
 
