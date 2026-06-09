@@ -120,10 +120,10 @@ export const articles: Article[] = [
     id: "1",
     slug: "the-quantum-revolution-reshaping-computing",
     title: "The Quantum Revolution: How Quantum Computing Is Reshaping Our Digital Future",
-    metaTitle: "Quantum Computing Explained: Risks, Uses, Timeline",
+    metaTitle: "How Quantum Computing Works: Qubits, Risks, and Timeline",
     excerpt:
       "Quantum computers are no longer science fiction. As tech giants race to achieve quantum supremacy, we explore what this means for cryptography, medicine, and beyond.",
-    metaDescription: "Learn how quantum computing works, where qubits already beat classical systems, and why experts warn about encryption risk, post-quantum migration.",
+    metaDescription: "Qubits exist in multiple states — IBM crossed the fault-tolerant threshold. Here's how quantum computing works and what encryption risk means for your data.",
     content: `
       <p class="lead">Quantum computing uses subatomic physics to solve problems classical computers cannot crack in any practical timeframe. Unlike conventional processors that work with bits (0 or 1), quantum computers use qubits that exist in multiple states at once, letting them evaluate vast numbers of possibilities simultaneously. This makes them uniquely suited to optimization, molecular simulation, and cryptographic problems and poses a direct threat to the encryption systems securing the internet today.</p>
 
@@ -212,10 +212,10 @@ export const articles: Article[] = [
     id: "2",
     slug: "james-webb-telescope-discoveries-changing-astronomy",
     title: "James Webb Telescope Discoveries That Are Changing Astronomy",
-    metaTitle: "James Webb Space Telescope Discoveries Explained",
+    metaTitle: "James Webb Telescope: What JWST Found About the Universe",
     excerpt:
       "From uncovering unexpectedly mature early galaxies to decoding the atmospheres of distant exoplanets, the James Webb Space Telescope is transforming astronomy from theory-driven assumptions to data-driven reality. Here's how JWST is reshaping what we know about the universe.",
-    metaDescription: "Explore James Webb Space Telescope discoveries on early galaxies, exoplanet atmospheres, and cosmic evolution, with clear context on what JWST changed.",
+    metaDescription: "James Webb found galaxies from 300M years after the Big Bang — earlier than any model predicted. Here are the discoveries that forced astronomers to rewrite the textbooks.",
     content: `
       <p class="lead">The James Webb Space Telescope (JWST) is the most powerful astronomical observatory ever built, observing the universe in infrared wavelengths that reveal objects invisible to Hubble. Since delivering its first science data in 2022, JWST has found early galaxies far larger and more chemically evolved than any model predicted, directly detected atmospheric molecules on planets outside our solar system, and exposed gaps in standard cosmological theory that researchers are still working to explain. It is not an upgrade to Hubble. It is a fundamentally different instrument answering questions that were previously unanswerable.</p>
  
