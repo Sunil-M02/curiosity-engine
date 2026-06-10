@@ -3149,7 +3149,7 @@ export const articles: Article[] = [
       <p class="lead">Animals avoid cavities mostly because they do not eat frequent, refined sugars. Humans do, which feeds acid producing bacteria and keeps mouth pH low for long stretches. Cavities are less about weak teeth and more about a modern diet applied to an ancient mouth.</p>
 
       <h2>How cavities form in the first place</h2>
-      <p>Tooth decay isn't about hygiene alone. It's a chemical war fought on your tooth surface every time you eat. The bacteria living in your mouth, particularly <strong>Streptococcus mutans</strong>, feed on the sugars you consume and produce lactic acid as a byproduct. That acid dissolves the mineral structure of tooth enamel over time. Do it enough, and you get a cavity.</p>
+      <p>Tooth decay isn't about hygiene alone. It is a chemical war fought on your tooth surface every time you eat. The bacteria living in your mouth, particularly <strong>Streptococcus mutans</strong>, feed on the sugars you consume and produce lactic acid as a byproduct. That acid dissolves the mineral structure of tooth enamel over time. Do it enough, and you get a cavity.</p>
       <p>Every animal has bacteria in its mouth. So why aren't wolves walking around with rotten teeth?</p>
       <p>The answer comes down to what those animals eat, how often they eat it, and what their saliva is designed to handle.</p>
 
