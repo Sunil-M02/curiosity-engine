@@ -1706,10 +1706,10 @@ export const articles: Article[] = [
     id: "streaming-energy-cost-netflix-2026",
     slug: "hidden-energy-cost-streaming-netflix-episode",
     title: "The Hidden Energy Cost of Streaming a Single Netflix Episode",
-    metaTitle: "Streaming Energy Use: Hidden Cost of One Episode",
+    metaTitle: "How Much Energy Does Streaming one Netflix Episode Actually Use?",
     excerpt:
       "A viral 2020 claim said 30 minutes of Netflix equaled driving 6 km — and it was wrong by a factor of 30. Here's the real, peer-reviewed breakdown of the data center, network, and device energy that actually powers your streaming session.",
-    metaDescription: "Measure the streaming energy cost of a single episode across data centers, networks, and devices, with practical ways to reduce your digital carbon.",
+    metaDescription: "One Netflix hour uses roughly 0.077 kWh — less than a lightbulb for the same time. Here's where the energy goes and why early estimates were wildly wrong.",
     content: `
       <p class="lead">Streaming one hour of Netflix in HD consumes between 0.07 and 0.17 kilowatt-hours of electricity, depending primarily on your viewing device. A 2022 lifecycle analysis commissioned by Netflix and conducted by the Carbon Trust found that device energy dominates the total, accounting for over 70% of consumption in a typical viewing session. Data center and network transmission energy, the sources most people assume are the main culprits, are comparatively small. A viral 2020 claim that 30 minutes of Netflix produced emissions equivalent to driving 6 kilometers was wrong by a factor of roughly 30, the result of a methodological error that credited the entire energy cost of running fixed-line broadband networks to the data flowing through them.</p>
 
@@ -1776,10 +1776,10 @@ export const articles: Article[] = [
     id: "ai-language-models-false-facts-2026",
     slug: "why-ai-language-models-confidently-state-false-facts-mechanism",
     title: "Why AI Language Models Confidently State False Facts and How the Mechanism Works",
-    metaTitle: "AI Hallucinations Explained: Why Models Sound Certain",
+    metaTitle: "Why AI Hallucinations Happen: The Mechanism Behind Errors",
     excerpt:
       "Large language models can cite papers that do not exist with perfect grammar and total confidence. The reason is architectural, not deception. This guide explains how token prediction creates hallucinations and why model confidence has no epistemic content.",
-    metaDescription: "Understand AI hallucinations at the mechanism level, why language models produce confident errors, and what evaluation and guardrails reduce false outputs.",
+    metaDescription: "AI models don't know when they're wrong — they predict the most likely next token, not the most accurate one. Here's the exact mechanism that makes hallucinations.",
     content: `
       <p class="lead">Large language models are optimized to predict the next token, not to verify truth. That is why they can cite papers that do not exist while sounding confident and precise. The mechanism is statistical generation based on training data distributions, not deception or intent. This article explains how hallucinations form, why model confidence is not evidence, how context limits worsen errors, and which mitigation strategies like retrieval-augmented generation help but do not eliminate the problem. Understanding this mechanism is essential for anyone using LLMs in research, legal, or product settings, and it shows why human verification and tool-based grounding remain necessary.</p>
 
@@ -1855,10 +1855,10 @@ export const articles: Article[] = [
     id: "pandemics-shaped-human-evolution-2026",
     slug: "history-of-pandemics-that-shaped-human-evolution",
     title: "The History of Pandemics That Shaped Human Evolution",
-    metaTitle: "History of Pandemics: How Disease Shaped Humans",
+    metaTitle: "History of Pandemics: How Disease Shaped Human Evolution",
     excerpt:
       "The Black Death didn't just kill a third of Europe; it rewrote the genome of the survivors. From sickle cell to CCR5-delta32, here's how pandemics have acted as among the most powerful selective forces in recorded human history.",
-    metaDescription: "Trace the history of pandemics that changed human evolution, from pathogen pressures to genetic adaptation, and what past outbreaks teach public health.",
+    metaDescription: "The Black Death killed 30-50% of Europe but left survivors more genetically resistant. Here's how five major pandemics permanently rewired human DNA and immune systems.",
         content: `
       <p class="lead">Pandemics do not just kill people. They reshape the genetic composition of surviving populations, leaving permanent marks in human DNA that researchers can now read thousands of years later. When geneticists sequenced the genomes of medieval Europeans buried in mass graves during the Black Death and compared them to pre-plague and post-plague populations, they found that the survivors were not genetically identical to those who died. Specific immune gene variants had become dramatically more common after the plague. Yersinia pestis, the bacterium that killed an estimated 30 to 60 percent of Europe's population between 1347 and 1351, acted as a selection event, changing the composition of the human immune system in ways that can be measured today.</p>
  
@@ -1931,10 +1931,10 @@ export const articles: Article[] = [
     id: "year-in-space-human-body-2026",
     slug: "what-happens-to-human-body-after-one-year-in-space",
     title: "What Really Happens to the Human Body After One Year in Space",
-    metaTitle: "One Year in Space: Effects on the Human Body",
+    metaTitle: "One Year in Space: What Happens to the Human Body and Why",
     excerpt:
       "Scott Kelly came back from 340 days on the ISS two inches taller than his identical twin. Some of the changes reversed in days. Others hadn't fully reversed eighteen months later. Here's what the NASA Twin Study actually revealed about the body in microgravity.",
-    metaDescription: "Learn what one year in space does to the human body, including muscle loss, bone density decline, immune shifts, and recovery challenges after Earth.",
+    metaDescription: "Astronauts lose up to 20% muscle mass and 1-2% bone density per month in orbit. Full recovery takes years. Here's what happens to every major body system after a year in space.",
     content: `
       <p class="lead">After 340 days aboard the International Space Station, astronaut Scott Kelly returned to Earth two inches taller than his identical twin brother Mark. Within two days, he had shrunk back to his normal height. Other changes took far longer. Some, documented in the full NASA Twin Study published in Science in 2019, had still not fully reversed eighteen months after landing. Space does not pause the human body. It actively reshapes it in ways that have direct consequences for every mission beyond low Earth orbit.</p>
  
@@ -2009,10 +2009,10 @@ export const articles: Article[] = [
     id: "ai-designs-its-successor-2026",
     slug: "what-happens-when-ai-can-design-its-own-successor",
     title: "What Happens When AI Can Design Its Own Successor",
-    metaTitle: "Recursive AI Design: When AI Builds Its Successor",
+    metaTitle: "What If AI Can Improve Itself? The Recursive Design Risk",
     excerpt:
       "In 2017, Google Brain let a system search for neural network architectures. It produced NASNet, better than anything human engineers had designed. Today, AI is increasingly designing AI. Here's where that road actually leads, and why interpretability is the bottleneck.",
-    metaDescription: "Explore recursive AI design and what happens when AI systems help create better models, including acceleration risks, governance gaps, and control.",
+    metaDescription: "If an AI redesigns its own architecture, improvement stops being bounded by human speed. Here's the mechanism, the current research, and why alignment researchers are alarmed.",
     content: `
       <p class="lead">In 2017, Google Brain researchers tasked a reinforcement learning system with designing neural network architectures for image classification. The system explored a search space of possible architectures automatically, evaluating candidates on a GPU cluster. After several days, it produced an architecture called NASNet. NASNet outperformed every architecture human engineers had designed up to that point. The researchers had not told the system what a convolutional neural network was. They had given it an objective and resources and let it search. That was Neural Architecture Search (NAS). What is happening now, and what the trajectory looks like over the next decade, involves considerably more than optimizing layer configurations.</p>
  
@@ -2089,10 +2089,10 @@ export const articles: Article[] = [
     id: "multitasking-neurologically-impossible",
     slug: "multitasking-neurologically-impossible-brain-task-switching",
     title: "Multitasking Is Neurologically Impossible: What Your Brain Is Actually Doing",
-    metaTitle: "Multitasking Myth: What Your Brain Is Really Doing",
+    metaTitle: "Why Multitasking Is a Myth: What Your Brain Actually Does",
     excerpt:
       "Multitasking is not parallel thinking. Your brain switches tasks in sequence, which costs time, accuracy, and energy.",
-    metaDescription: "See why multitasking is neurologically limited, how task switching drains focus, and what neuroscience-backed habits improve attention, speed, and work.",
+    metaDescription: "Your brain switches tasks every 200 milliseconds, losing 40% of productive capacity each time. Here's the neuroscience behind task-switching and what actually works instead.",
     content: `
       <p class="lead">Multitasking feels real, but the brain cannot run two conscious tasks at the same time. Instead it switches rapidly between tasks, and each switch burns time, glucose, and working memory. The result is slower performance, more errors, and a strong illusion of productivity.</p>
       <p>When you answer email while on a call, your prefrontal cortex is not running two streams in parallel. It is serially loading and unloading task rules, which is why the experience feels busy but the output declines.</p>
@@ -2170,10 +2170,10 @@ export const articles: Article[] = [
     id: "google-indexes-130-trillion-pages",
     slug: "how-google-indexes-130-trillion-pages-crawling-architecture",
     title: "How Google Actually Indexes 130 Trillion Pages: The Real Crawling Architecture",
-    metaTitle: "Google Indexing: How 130 Trillion Pages Get Found",
+    metaTitle: "How Google Indexes 130 Trillion Pages: Crawl Architecture",
     excerpt:
       "Google doesn't search the internet in real time — it searches a pre-built copy of it. Here's how Googlebot, Caffeine, and distributed indexing actually work at scale.",
-    metaDescription: "Understand Google indexing architecture, from crawl scheduling to rendering and canonical selection, with practical SEO implications for faster discovery.",
+    metaDescription: "Google's system decides which of 130 trillion pages get indexed - and most don't make it. Here's how Googlebot, rendering, canonicalisation, and indexing signals.",
     content: `
       <p class="lead">When you type a search query, Google searches a pre-built copy of the internet, not the live web. That copy contains over 130 trillion individual pages stored across hundreds of thousands of servers globally. Building and maintaining it involves distributed crawl queues, probabilistic link scheduling, real-time indexing pipelines, and a rendering system that simulates a full browser to execute JavaScript. Your query returns in under 200 milliseconds because most of the work happened before you asked.</p>
 
@@ -2247,10 +2247,10 @@ export const articles: Article[] = [
     id: "social-feed-algorithm-ranking",
     slug: "how-social-feed-ranking-algorithm-works",
     title: "The Algorithm Knows You Better Than You Think: How Social Feed Ranking Works",
-    metaTitle: "Social Feed Algorithms: How Platforms Predict You",
+    metaTitle: "How Social Media Feed Algorithms Rank Content - and Why",
     excerpt:
       "Social feed algorithms don't show you what's popular — they predict what will keep you watching. Here's the actual machine learning behind what you see and why.",
-    metaDescription: "Learn how social feed ranking algorithms score posts using engagement signals, dwell time, and personalization models that shape what billions see daily.",
+    metaDescription: "Meta, TikTok, and YouTube use different signals but share one goal: maximise time on-platform. Here's how each algorithm actually decides what appears in your feed.",
     content: `
       <p class="lead">Social feed algorithms are real-time prediction systems, not curation systems. The algorithm is not asking what is good content. It is asking: given everything known about this specific user at this specific moment, what item maximizes the probability they take the next desired action? The desired action varies by platform and context: completing a video, sharing to another app, saving a post, or simply not scrolling past. Every pause, every second of dwell time, every swipe is a labeled training example updating a machine learning model that will predict your next behavior.</p>
 
@@ -2328,10 +2328,10 @@ export const articles: Article[] = [
     id: "7-things-ai-cannot-do-2026",
     slug: "7-things-ai-cannot-do-in-2026",
     title: "The 7 Things AI Cannot Do in 2026 (Despite What You've Been Told)",
-    metaTitle: "What AI Cannot Do in 2026: 7 Hard Limits",
+    metaTitle: "7 Things AI Still Cannot Do in 2026: Hard Limits Explained",
     excerpt:
       "AI can write code, pass the bar exam, and generate photorealistic video. But seven fundamental limitations remain in 2026 that no model has solved, and some may never be solved.",
-    metaDescription: "Get a reality check on what AI cannot do in 2026, with seven proven limits around reasoning, reliability, agency, and judgment that still require humans.",
+    metaDescription: "AI still can't count objects reliably, hold consistent facts across long conversations, or solve novel physical problems. Here are 7 hard limits with clear evidence.",
     content: `
       <p class="lead">AI in 2026 can write code, generate video, and pass exams, but it still fails in seven predictable ways. These limits are structural properties of transformer-based systems: weak calibration, shallow causal models, finite context windows, brittle planning, limited grounding, shallow moral reasoning, and dependence on human expertise. Even the most capable frontier models share these gaps. Knowing these limits is essential for safe deployment and for understanding why AGI is still out of reach. Use this list as a reality check for policy, product, and personal use. It also links to deeper explanations of context and hallucination mechanisms. Treat each limitation as a design constraint, not a surprise.</p>
 
@@ -2402,10 +2402,10 @@ export const articles: Article[] = [
     id: "ai-context-problem-explained",
     slug: "ai-reads-every-word-but-understands-nothing-context-problem",
     title: "AI Reads Every Word But Understands Nothing: The Context Problem Explained",
-    metaTitle: "AI Context Problem: Why Models Miss Meaning",
+    metaTitle: "Why AI Reads Every Word But Understands Nothing: The Gap",
     excerpt:
       "AI can process millions of tokens but still misses what you mean. The context problem explains why AI confidently gets things wrong and what it actually does instead of understanding.",
-    metaDescription: "Understand the AI context problem, why models process tokens without grounded understanding, and what context-window limits mean for reliability.",
+    metaDescription: "An AI processes your full question with no concept of what words mean in the real world — it's pattern-matching, not comprehension. Here's why that distinction matters enormously.",
     content: `
       <p class="lead">The context problem is the gap between processing text and understanding it. LLMs can read millions of tokens, but they still miss meaning, contradictions, and implications because they predict the next token rather than build a mental model. In practice, the model produces fluent text that feels coherent even when it is semantically off. This article explains why that happens, how context windows and attention limitations create lost-in-the-middle errors, and what workflows reduce risk. The goal is not to ban AI from complex documents, but to use it with calibrated expectations in high-stakes settings. Understanding this helps you design prompts and review workflows that keep AI useful without assuming comprehension.</p>
 
@@ -2476,10 +2476,10 @@ export const articles: Article[] = [
     id: "bronze-age-collapse-1200-bc",
     slug: "bronze-age-collapse-1200-bc-civilisation-vanished",
     title: "In 1200 BC, an Entire Civilisation Vanished in 50 Years and Historians Still Don't Know Why",
-    metaTitle: "Bronze Age Collapse Explained: Why Civilisations Fell",
+    metaTitle: "The Bronze Age Collapse: Why Five Civilisations Vanished",
     excerpt:
       "Around 1200 BC, virtually every major Bronze Age civilisation collapsed within decades. Palaces burned, trade ended, writing was lost. The cause remains history's greatest unsolved mystery.",
-    metaDescription: "Explore the Bronze Age collapse around 1200 BC, the leading theories behind rapid civilisation failure, and what archaeology says about systemic breakdown.",
+    metaDescription: "Around 1200 BC, the Mycenaeans, Hittites, and three other civilisations collapsed within 50 years. Here's what archaeology, climate data, and Sea Peoples evidence actually shows.",
         content: `
       <p class="lead">Around 1200 BCE, within roughly 50 years, nearly every major palace civilization in the Eastern Mediterranean simultaneously collapsed. The Hittite Empire, one of the great powers of the ancient world, disappeared entirely. Mycenaean Greece, with its multi-story palaces and literate administrative bureaucracy, collapsed so completely that Greeks of the classical period 700 years later had no idea their ancestors could read and write. International trade networks that had moved tin, copper, cedar, and grain across thousands of miles of sea routes ceased to function. Ugarit, the cosmopolitan Syrian trading city, was destroyed and never reoccupied. Historians call this the Bronze Age Collapse, and it remains one of the most debated catastrophes in ancient history because no single cause adequately explains the speed, the scale, and the comprehensiveness of what happened.</p>
  
@@ -2547,10 +2547,10 @@ export const articles: Article[] = [
     id: "black-holes-dont-suck-physics",
     slug: "black-holes-dont-suck-physics-of-orbiting-one",
     title: "Black Holes Don't Suck: The Physics of Why You're Safe Orbiting One",
-    metaTitle: "Black Holes and Gravity: Why Orbiting One Is Safe",
+    metaTitle: "Black Holes Don't Suck: The Physics of Orbiting One Safely",
     excerpt:
       "Black holes don't vacuum up everything around them; they follow the same gravity rules as stars. Here's the real physics of orbital mechanics and why proximity, not mass, is what kills you.",
-    metaDescription: "Learn black hole physics without hype: why black holes do not suck objects in, how stable orbits work, and what actually makes them dangerous close up.",
+    metaDescription: "A black hole with the Sun's mass pulls identically to the Sun from a safe orbital distance. Here's the real physics of black holes, stable orbits, and what actually kills you.",
     content: `
       <p class="lead">A black hole is not a cosmic vacuum cleaner. At any given distance, it exerts exactly the same gravitational force as a star of identical mass would at that same distance. If the Sun were replaced by a black hole of equal mass, Earth's orbit would not change by a single kilometer. The seasons, the year's length, the tides: nothing would change gravitationally. You would freeze without sunlight, but that is a radiation problem, not a gravity problem. What makes black holes genuinely dangerous has nothing to do with special gravitational suction and everything to do with how close you can get before ordinary orbital mechanics stops protecting you.</p>
  
