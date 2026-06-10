@@ -1646,10 +1646,10 @@ export const articles: Article[] = [
     id: "tardigrades-nuclear-radiation-2026",
     slug: "can-tardigrades-survive-nuclear-radiation-real-science",
     title: "Can Tardigrades Actually Survive Nuclear Radiation? The Real Science",
-    metaTitle: "Tardigrades and Radiation: What Science Shows",
+    metaTitle: "Can Tardigrades Survive Nuclear Radiation?  What Science Actually Shows",
     excerpt:
       "Tardigrades can survive extreme radiation, but only under specific conditions. Learn what the Dsup protein does, how DNA repair works in these animals, and where the myth goes too far.",
-    metaDescription: "Find out how tardigrades survive radiation, what lab data confirms, and where claims about nuclear-proof life exaggerate their real biological limits.",
+    metaDescription: "Tardigrades survive 1,000x the radiation lethal to humans — but they're not indestructible. Here's what lab data shows and where popular claims exaggerate the biology.",
     content: `
       <p class="lead">Tardigrades can survive radiation doses that would kill most animals, especially when they are in a dormant, dried state called a tun. Their resilience comes from DNA protection proteins and unusually fast repair pathways, not from invincibility. They are resistant to radiation, but they are not immune to heat, pressure, or direct blast forces.</p>
 
