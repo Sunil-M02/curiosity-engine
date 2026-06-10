@@ -2628,10 +2628,10 @@ export const articles: Article[] = [
     id: "venus-worse-target-than-mars",
     slug: "venus-would-kill-you-in-2-minutes-worse-than-mars",
     title: "Venus Would Kill You in 2 Minutes: Why It's a Worse Target Than Mars",
-    metaTitle: "Venus vs Mars: Why Venus Is Deadlier for Humans",
+    metaTitle: "Why Venus Kills in Under 2 Minutes — and Mars Wouldn't Do",
     excerpt:
       "Venus is closer to Earth and similar in size, yet it's arguably the most hostile planet in the solar system. Here's the actual science of why Venus is a worse colonization target than Mars.",
-    metaDescription: "Compare Venus vs Mars using real planetary science on pressure, heat, atmosphere, and chemistry to see why Venus is far less viable for human exploration.",
+    metaDescription: "Venus has 90x Earth's atmospheric pressure, 465C surface heat, and sulphuric acid clouds. Mars is survivable in comparison - here's the full planetary lethality.",
     content: `
       <p class="lead">Venus is the closest planet to Earth and nearly identical in size and mass, yet it is the most hostile surface environment in the inner solar system. Surface temperature averages 465 degrees Celsius, hot enough to melt lead, with no variation between day and night or pole and equator. Atmospheric pressure at the surface is 92 times Earth's sea-level pressure, equivalent to being 900 meters underwater. The atmosphere is 96.5% carbon dioxide laced with clouds of sulfuric acid. Every spacecraft ever sent to the Venusian surface has been destroyed. The longest any probe survived was 127 minutes. An unprotected human would not last 2 minutes. Venus is not a harder version of Mars. It is a categorically different kind of hostile.</p>
  
@@ -2710,10 +2710,10 @@ export const articles: Article[] = [
     id: "woolly-mammoth-resurrection-crispr",
     slug: "woolly-mammoth-resurrection-crispr-de-extinction-biology",
     title: "The Woolly Mammoth Is Being Resurrected: Here's the Actual Biology Being Used",
-    metaTitle: "Woolly Mammoth De-Extinction: Biology Behind Revival",
+    metaTitle: "Woolly Mammoth De-Extinction: CRISPR and the 2028 Timeline",
     excerpt:
       "Colossal Biosciences is using CRISPR gene editing to resurrect the woolly mammoth. Here's exactly what they're doing, what they've achieved, and what 'resurrection' actually means in practice.",
-    metaDescription: "Examine woolly mammoth de-extinction science, including CRISPR edits, surrogate strategy, ecological goals, and core biological hurdles still unresolved.",
+    metaDescription: "Colossal Biosciences says a mammoth-elephant hybrid could walk by 2028. Here's the CRISPR editing strategy, the surrogate elephant plan, and the biological obstacles that remain.",
     content: `
       <p class="lead">Somewhere in Siberia, frozen in permafrost for up to 10,000 years, lie the preserved remains of woolly mammoths with intact DNA: a genetic blueprint for an animal that walked the Earth during the last ice age and vanished roughly 4,000 years ago. A team of geneticists in Boston is reading that blueprint and using it to modify a living elephant's genome, one gene edit at a time. The woolly mammoth is not being cloned. Jurassic Park-style revival from ancient DNA is not what is happening here. What is happening is more precise and, in some ways, more remarkable: scientists are using CRISPR gene editing to insert specific mammoth traits into the genome of the Asian elephant, the mammoth's closest living relative. The result, if it works, will not technically be a mammoth. It will be a new animal: a cold-adapted Asian elephant carrying the genetic signature of a species extinct since roughly 2000 BCE.</p>
  
@@ -2782,10 +2782,10 @@ export const articles: Article[] = [
     id: "traffic-light-timing-algorithms",
     slug: "traffic-light-timing-algorithms-400000-signals",
     title: "How Traffic Light Timing Algorithms Manage 400,000 Signals at Once",
-    metaTitle: "Traffic Light Algorithms: How Cities Reduce Congestion",
+    metaTitle: "How Traffic Light Timing Algorithms Work - and Why They Fail",
     excerpt:
       "Traffic light timing is no longer about fixed schedules. Learn how adaptive algorithms, AI, and real-time data now control hundreds of thousands of signals, and why it's still not perfect.",
-    metaDescription: "Discover how traffic light timing algorithms coordinate hundreds of thousands of signals, reduce delays, and adapt to real-time demand in modern cities.",
+    metaDescription: "AI traffic signals can reduce urban congestion by 30% — but most cities still use 1960s fixed timing. Here's how adaptive signal control works and why adoption is so slow.",
     content: `
       <p class="lead">Modern traffic signal control is a real-time optimization problem running across hundreds of thousands of intersections simultaneously. Fixed-time schedules, where lights cycled on predetermined intervals regardless of actual traffic conditions, were largely replaced in major urban networks by adaptive systems starting in the 1970s and 1980s. These systems use loop detectors embedded in road surfaces, video cameras, and radar sensors to measure real-time traffic volumes and queue lengths, then continuously adjust phase timings to minimize total network delay. The result is measurably shorter commutes and lower fuel consumption compared to fixed-time equivalents, with the caveat that the underlying optimization problem is computationally intractable at full network scale and all real systems solve approximations.</p>
 
@@ -2877,10 +2877,10 @@ export const articles: Article[] = [
     id: "food-tastes-different-at-altitude",
     slug: "why-food-tastes-different-at-35000-feet-flying-flavour-science",
     title: "Why Food Tastes Different at 35,000 Feet: The Science of Flying and Flavour",
-    metaTitle: "Why Food Tastes Different on Planes: Science Explained",
+    metaTitle: "Why Aeroplane Food Tastes Bland: The Cabin Pressure Science",
     excerpt:
       "Airline food tastes different because cabin pressure, low humidity, and noise blunt your senses. The science is about smell, saliva, and attention, not just recipe quality.",
-    metaDescription: "Learn why food tastes different at 35,000 feet, from low humidity and cabin pressure to noise effects, and how airlines design meals for in-flight flavor.",
+    metaDescription: "Low cabin humidity at 35,000 feet drops salt and sweet perception by up to 30%. Here's why airline food tastes different, what cabin noise does to flavour, and how Lufthansa tests for this.",
     content: `
       <p class="lead">Food tastes different on planes because your sense of smell and taste are dulled at altitude. Cabin pressure causes mild nasal congestion, very low humidity dries out mucous membranes, and constant cabin noise shifts attention away from subtle flavours. The result is flatter sweetness and saltiness even when the recipe is unchanged.</p>
       <p>Airline catering is not always the culprit. Many carriers use professional kitchens and taste tests. The issue is that by the time the meal reaches your mouth, your sensory system has been recalibrated by the cabin environment.</p>
@@ -2959,10 +2959,10 @@ export const articles: Article[] = [
     id: "hyperscale-data-centres-power",
     slug: "hyperscale-data-centres-consuming-more-power-than-countries",
     title: "Hyperscale Data Centres Are Consuming More Power Than Entire Countries",
-    metaTitle: "Hyperscale Data Centres: The AI Power Demand Crisis",
+    metaTitle: "How AI Data Centres Consume More Power Than Some Countries",
     excerpt:
       "AI workloads are driving data centre power demand to levels that are straining national grids and rewriting energy policy. Here's what the numbers actually look like, and why it matters.",
-    metaDescription: "Understand how hyperscale data centres consume power at country scale, why AI workloads accelerate demand, and which efficiency strategies bend demand.",
+    metaDescription: "A single hyperscale facility can draw more power than a small country. AI training made this a crisis — here's the scale, the water use, and what's being done.",
     content: `
       <p class="lead">The internet has always needed power. But for most of its history, that demand grew gradually enough that utilities could absorb it without disruption. The infrastructure scaled alongside the need, and nobody outside the energy industry paid much attention. That arrangement is over. The explosion in AI model training and inference has sent data centre power demand on a trajectory that is forcing electricity grid operators, governments, and utilities into emergency planning mode. Some of the largest facilities being built now will consume more electricity than many small nations. The question of where that power comes from, and what it costs, has become one of the defining infrastructure problems of the decade.</p>
  
@@ -3061,10 +3061,10 @@ export const articles: Article[] = [
     id: "ancient-india-surgery-sushruta",
     slug: "ancient-india-surgery-sushruta-samhita-2600-years",
     title: "What Ancient India Knew About Surgery, 2,600 Years Before Modern Medicine",
-    metaTitle: "Ancient India Surgery: Sushruta Before Modern Medicine",
+    metaTitle: "Sushruta: The Indian Surgeon Who Practised 2,600 Years Ago",
     excerpt:
       "The Sushruta Samhita describes rhinoplasty, cataract surgery, and 125 surgical instruments in detail, 600 BCE. What did this physician actually know, and how much have we underestimated him?",
-    metaDescription: "Explore ancient India surgery through the Sushruta Samhita, including early procedures, tools, and medical training that predate modern surgical systems.",
+    metaDescription: "The Sushruta Samhita described rhinoplasty, cataract surgery, and 300 surgical procedures around 600 BC - centuries before Western medicine claimed these techniques.",
         content: `
       <p class="lead">A surgical technique described in detail in an ancient Indian text was not formally performed by Western medicine until 1794, and not widely adopted until the 19th century. The technique is nasal reconstruction surgery: taking a flap of skin from the patient's forehead, rotating it down over the nose, suturing it into position, and shaping it around a hollow tube placed in the nostrils to maintain the airway during healing. The text describing this procedure, the Sushruta Samhita, was composed by the physician Sushruta in what is now the Indian state of Uttar Pradesh, around 600 BCE. The gap between the technique's first documented description and its entry into Western surgical practice is approximately 2,400 years.</p>
  
@@ -3141,10 +3141,10 @@ export const articles: Article[] = [
     id: "animals-cavities-science",
     slug: "why-animals-dont-get-cavities-humans-do",
     title: "Why Animals Don't Get Cavities (And Humans Specifically Do)",
-    metaTitle: "Why Animals Rarely Get Cavities but Humans Do",
+    metaTitle: "Why Animals Don't Get Cavities But Humans Do: The Science",
     excerpt:
       "Animals avoid cavities mostly because of diet and eating patterns. Humans created a perfect environment for decay through frequent sugars and refined carbohydrates.",
-    metaDescription: "Find out why animals rarely get cavities while humans do, with evidence on diet, oral microbiome, enamel exposure, and modern sugar-driven risk factors.",
+    metaDescription: "Wild animals almost never get cavities - and it's not about brushing. It's microbiome composition. Here's how cooked food and sugar permanently altered human oral biology.",
     content: `
       <p class="lead">Animals avoid cavities mostly because they do not eat frequent, refined sugars. Humans do, which feeds acid producing bacteria and keeps mouth pH low for long stretches. Cavities are less about weak teeth and more about a modern diet applied to an ancient mouth.</p>
 
