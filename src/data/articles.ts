@@ -3225,10 +3225,10 @@ export const articles: Article[] = [
     id: "zero-history-mathematics",
     slug: "zero-most-dangerous-idea-in-history-10000-years",
     title: "Zero Was the Most Dangerous Idea in History: Why It Took 10,000 Years to Accept It",
-    metaTitle: "History of Zero: Why Math's Key Idea Took Millennia",
+    metaTitle: "The History of Zero: Why It Took 10,000 Years to Invent",
     excerpt:
       "Zero seems obvious now. It took humanity 10,000 years to accept it and people were imprisoned for defending it. Here's why nothing caused everything.",
-    metaDescription: "Discover the history of zero across civilizations, why acceptance took thousands of years, and how one mathematical idea transformed science, commerce.",
+    metaDescription: "Zero was independently invented at least three times - civilisations that resisted it fell behind. This traces the full history of the world's most powerful number.",
         content: `
       <p class="lead">Zero is one of the most consequential intellectual inventions in human history, and it took roughly 10,000 years from the development of the earliest counting systems to its full mathematical acceptance. The delay was not due to ignorance. It was due to the genuine philosophical difficulty of a number representing nothing, and the institutional resistance of mathematical and religious traditions that had no conceptual space for it. Zero did not arrive as a single invention. It was independently developed in at least three distinct civilizations, Mesopotamia, India, and Mesoamerica, and in each case it met resistance before integration. The version that reached modern mathematics came through India, passed through Islamic scholarship, and reached Europe via medieval translation programs. Even then, it was met with suspicion.</p>
  
@@ -3306,7 +3306,7 @@ export const articles: Article[] = [
     metaTitle: "Mars Colonisation: 13 Engineering Barriers Explained",
     excerpt:
       "Mars colonisation faces 13 overlapping engineering problems that no current technology fully solves. Here's what the optimistic timelines consistently leave out.",
-    metaDescription: "See why Mars colonisation is harder than headlines suggest, with 13 engineering barriers spanning radiation, life support, logistics, energy.",
+    metaDescription: "Landing on Mars is the easy part. Radiation, perchlorate soil, and launch windows are 3 of 13 engineering barriers that make Musk's 2029 colonisation harder.",
     content: `
       <h2>The Gap Between the Announcement and the Physics</h2>
  
@@ -3422,10 +3422,10 @@ export const articles: Article[] = [
     id: "ai-context-window",
     slug: "what-context-window-actually-means-ai-limit",
     title: "What \"Context Window\" Actually Means and Why It Limits Every AI You Use",
-    metaTitle: "AI Context Window Meaning: Limits Behind Every Model",
+    metaTitle: "What Is a Context Window? The AI Memory Limit Explained",
     excerpt:
       "The context window is the most important limit on what AI can and cannot do. Here's what it is, how it works, and why it matters for every AI conversation.",
-    metaDescription: "Learn what context window means in AI, why token limits constrain memory and reasoning, and how window size impacts quality, cost, latency and reliability.",
+    metaDescription: "Context windows explain why AI models forget long conversations. A 128k token window holds roughly 96,000 words, and models degrade in quality as they fill up.",
     content: `
       <p class="lead">A context window is the amount of text a language model can process in a single pass. It defines what the model can pay attention to and why it seems to forget earlier messages. Even with huge windows in 2026, attention still degrades and information falls out of view, which explains many failures in long conversations and document analysis. It also clarifies why larger windows do not guarantee better understanding and why workflow design matters. This guide explains what the context window contains, why the transformer architecture creates the limit, and how to work within it for research, editing, and long-form analysis.</p>
 
@@ -3531,10 +3531,10 @@ export const articles: Article[] = [
     id: "software-error-largest-blackout-us-history",
     slug: "software-error-largest-blackout-us-history",
     title: "The Software Error That Caused the Largest Blackout in US History",
-    metaTitle: "US Blackout of 2003: Software Error Chain Explained",
+    metaTitle: "2003 US Blackout: How One Software Bug Cut Power to 50M",
     excerpt:
       "On August 14, 2003, a single software bug at an Ohio utility silenced alarms, hid a failing grid, and plunged 55 million people into darkness. Here is exactly how it happened.",
-    metaDescription: "Break down the 2003 US blackout and the software error chain that cascaded grid failure, with engineering lessons for resilience and critical systems.",
+    metaDescription: "A software alarm bug in Ohio cascaded into blackouts across 8 US states and Canada, cutting power to 50M people. Here's what changed in grid engineering afterward.",
     content: `
       <p class="lead">On the afternoon of August 14, 2003, a software bug inside a single Ohio power company's control room quietly stopped working. No alarm sounded. No warning flashed. Operators sat at their screens completely unaware that the grid beneath them was unraveling.</p>
 
@@ -3639,10 +3639,10 @@ export const articles: Article[] = [
     id: "ai-chip-arms-race-nvidia-near-monopoly",
     slug: "ai-chip-arms-race-nvidia-near-monopoly-hardware",
     title: "The AI Chip Arms Race: Why NVIDIA Has a Near-Monopoly on AI Hardware",
-    metaTitle: "AI Chip Arms Race: Why NVIDIA Dominates Hardware",
+    metaTitle: "AI Chip Arms Race: Why NVIDIA Controls 80% of the Market",
     excerpt:
       "NVIDIA controls roughly 80 to 90% of the AI chip market. This is not just about better GPUs — it is about a 20-year software strategy that made their hardware impossible to replace.",
-    metaDescription: "Analyze the AI chip arms race, why NVIDIA holds a near-monopoly, and what supply chains, CUDA lock-in, and new competitors mean for compute strategy.",
+    metaDescription: "NVIDIA's 80% AI chip share isn't built on chips alone. CUDA lock-in, software ecosystem depth, and supply chain control explain the moat. Here's how it works.",
     content: `
       <p class="lead">Ask any AI research team what hardware they train their models on. The answer, almost universally, is NVIDIA. Not because they sat down and chose NVIDIA. Because they never seriously considered anything else.</p>
 
@@ -3738,10 +3738,10 @@ export const articles: Article[] = [
     id: "ageing-physics-problem-entropy-theory-cellular-decline",
     slug: "ageing-physics-problem-entropy-theory-cellular-decline",
     title: "Ageing Is a Physics Problem, Not Just Biology: The Entropy Theory of Cellular Decline",
-    metaTitle: "Ageing and Entropy: Physics Behind Cellular Decline",
+    metaTitle: "Why Ageing Is an Entropy Problem: Physics of Cellular Decline",
     excerpt:
       "Scientists increasingly argue that ageing follows the Second Law of Thermodynamics. Here is what the entropy theory of cellular decline actually means, and why it changes how we think about growing old.",
-    metaDescription: "Explore ageing as an entropy problem linking physics and biology, with evidence on cellular damage, repair limits, and what this model predicts.",
+    metaDescription: "Every cell fights thermodynamic disorder - and loses at a measurable rate. Here's how the entropy model of ageing connects fundamental physics to biological decline.",
     content: `
       <p class="lead">Ageing has always been framed as a biological problem: cells wearing out, DNA mutating, organs deteriorating. But a growing body of research from physicists, geneticists, and systems biologists is reframing the question entirely. Ageing may be, at its core, a physics problem.</p>
 
