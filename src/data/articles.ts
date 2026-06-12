@@ -4429,9 +4429,9 @@ export const articles: Article[] = [
   id: "why-the-moon-always-shows-the-same-face-tidal-locking",
   slug: "why-the-moon-always-shows-the-same-face-the-physics-of-tidal-locking",
   title: "Why the Moon Always Shows the Same Face — The Physics of Tidal Locking",
-  metaTitle: "Why the Moon Always Shows the Same Face to Earth",
+  metaTitle: "Why the Moon Always Shows the Same Face: Tidal Locking Explained",
   excerpt: "The Moon does rotate. It just does so in perfect sync with its orbit around Earth. That synchronization was forced by gravity over hundreds of millions of years, and the same process is reshaping the Earth-Moon system right now.",
-  metaDescription: "The Moon always shows the same face because Earth's gravity reshaped it over millions of years. Discover the real orbital mechanics and physics behind tidal locking, and why it happens across the universe.",
+  metaDescription: "The Moon rotates once per orbit — not because it doesn't spin, but because Earth's gravity locked its rotation over billions of years. Here's how tidal locking works.",
   content: `
     <p class="lead">The Moon does rotate. That surprises a lot of people who assume it must be frozen in place to always show us the same face.</p>
     <p>What actually happens is that the Moon completes exactly one rotation on its own axis in the same time it takes to complete one orbit around Earth, roughly 27.3 days. The rotation and the orbit are synchronized so precisely that the same hemisphere always faces our planet.</p>
@@ -4529,9 +4529,9 @@ export const articles: Article[] = [
   id: "the-artificial-leaf-converts-sunlight-water-hydrogen-fuel",
   slug: "the-artificial-leaf-that-converts-sunlight-and-water-directly-into-hydrogen-fuel",
   title: "The Artificial Leaf That Converts Sunlight and Water Directly Into Hydrogen Fuel",
-  metaTitle: "Artificial Leaf: Turning Sunlight and Water Into Clean Hydrogen Fuel",
+  metaTitle: "Artificial Leaf Technology: Converting Sunlight Directly to Hydrogen",
   excerpt: "An artificial leaf splits water into hydrogen fuel using only sunlight. The photocatalysis is real, the efficiency numbers are improving, and the scalability challenge is a materials problem — not a physics one.",
-  metaDescription: "Artificial leaves use photocatalysis to split water into hydrogen fuel using sunlight alone. Discover how they mimic photosynthesis, what the real chemistry involves, and why scaling this technology is still a major challenge.",
+  metaDescription: "MIT and Cambridge built artificial leaves converting sunlight and water into hydrogen at 10% solar efficiency. Here's the photocatalysis mechanism and why scaling is hard.",
   content: `
     <p class="lead">A real leaf takes sunlight, water, and carbon dioxide and turns them into chemical energy. No battery. No grid connection. No combustion. Just light hitting a surface and triggering a chain of electron transfers that store energy in molecular bonds.</p>
     <p>An artificial leaf does something similar but skips the glucose entirely. It splits water molecules using sunlight, releasing hydrogen gas on one side and oxygen on the other. That hydrogen is a clean fuel. Burn it or run it through a fuel cell, and the only byproduct is water vapor.</p>
@@ -4625,7 +4625,7 @@ export const articles: Article[] = [
   title: "The Living Robots Made From Frog Cells — Xenobots and Programmable Life",
   metaTitle: "Xenobots: The Living Robots Made From Frog Cells",
   excerpt: "Xenobots are living, self-organizing machines built from frog stem cells. Discover what they are, how they work, and why they matter for medicine and synthetic biology.",
-  metaDescription: "Xenobots are living machines made from frog stem cells. Discover how they move, self-replicate, and could transform medicine and synthetic biology.",
+  metaDescription: "Xenobots are built from frog embryo cells — they move, self-heal, and build new Xenobots from surrounding cells. Biologists classify them as a new life form.",
   content: `
     <p class="lead">Xenobots are not robots. They have no circuits, no motors, no software. They are clusters of living frog stem cells that self-organize into functional biological machines capable of movement, collective behavior, and even a crude form of self-replication. The name comes from <em>Xenopus laevis</em>, the African clawed frog whose embryonic cells were used to build the first ones in 2020.</p>
 
@@ -4741,9 +4741,9 @@ export const articles: Article[] = [
   id: "octopus-skin-photoreceptors-colour-colourblind",
   slug: "how-octopuses-see-colour-despite-being-colourblind-skin-photoreceptor-discovery",
   title: "How Octopuses See Colour Despite Being Colourblind — The Skin Photoreceptor Discovery",
-  metaTitle: "How Octopuses See Colour Despite Being Colourblind",
+  metaTitle: "Octopuses Are Colourblind — So How Do They Match Colours?",
   excerpt: "Octopuses are colourblind yet match colours perfectly. The secret lies in their skin photoreceptors, pupil shape, and polarization vision.",
-  metaDescription: "Octopuses are colourblind yet match colours perfectly. Explore how skin photoreceptors, pupil shape, and polarized light enable their remarkable camouflage.",
+  metaDescription: "Octopuses have no colour-sensitive cone cells — yet match colours perfectly to fool predators. Here's how skin photoreceptors may be doing what eyes can not.",
   content: `
     <p class="lead">Octopuses are technically colourblind. Their eyes contain only one type of photoreceptor — a single opsin — which means they lack the comparative mechanism that colour vision requires. By every standard neurological definition, they should not be able to distinguish colours.</p>
 
@@ -4857,9 +4857,9 @@ export const articles: Article[] = [
   id: "antonine-plague-killed-five-million-romans-scientific-legacy",
   slug: "the-plague-that-killed-5-million-romans-antonine-plague-scientific-legacy",
   title: "The Plague That Killed 5 Million Romans — The Antonine Plague and Its Scientific Legacy",
-  metaTitle: "The Antonine Plague: The Pandemic That Killed Millions of Romans",
+  metaTitle: "The Antonine Plague: How a Pandemic Killed 5 Million Romans",
   excerpt: "Between 165–180 CE, a devastating plague killed millions across the Roman Empire. Here's what we know about the Antonine Plague and its lasting impact.",
-  metaDescription: "The Antonine Plague (165-180 CE) killed millions across Rome. Discover its causes, impact on the empire, and lessons for modern epidemiology.",
+  metaDescription: "The Antonine Plague killed up to 5 million Romans between 165-180 CE — historians link it to Rome's eventual decline. Here's the pathogen evidence, the spread and the consequences.",
   content: `
     <p class="lead">Between 165 and 180 CE, an epidemic tore through the Roman Empire and killed somewhere between 5 and 10 million people. No one knows the exact number. The demographic records of the ancient world were not built for precision. But the scale is beyond serious dispute: contemporary accounts describe entire towns emptied, army units reduced to fractions of their strength, and the emperor Marcus Aurelius writing his <em>Meditations</em> in part as a coping document for living through catastrophe.</p>
 
@@ -4965,9 +4965,9 @@ export const articles: Article[] = [
     id: "why-all-telescopes-are-time-machines-light-travel-time",
     slug: "why-all-telescopes-are-time-machines-light-travel-time",
     title: "Why All Telescopes Are Time Machines: What 'Looking Back in Time' Actually Means",
-    metaTitle: "Why All Telescopes Are Time Machines: Light Travel Time Explained",
+    metaTitle: "Why Every Telescope Is a Time Machine: Light Travel Time Explained",
     excerpt: "Every telescope shows you the past, not the present. Here's exactly what light-travel time means.",
-    metaDescription: "Every telescope shows you the past, not the present. Here's exactly what light-travel time means, how it scales from the Moon to the edge of the observable universe, and why you cannot see any star as it is right now.",
+    metaDescription: "The Sun appears as it was 8 minutes ago; Andromeda 2.5 million years ago. Here's why every telescope looks into the past and what this means for our understanding.",
     content: `
       <p class="lead">Every telescope is a time machine. Not metaphorically. When you point a telescope at a galaxy 12 billion light-years away, you are seeing light that left that galaxy 12 billion years ago. That galaxy might not exist anymore. The stars in it have lived and died. You are not observing the present universe. You are reading its history.</p>
       <p>This is not a popular-science simplification. It is a direct consequence of the finite speed of light: 299,792 kilometers per second. Fast by any human standard, but not instantaneous. And in a universe measured in billions of light-years, that delay adds up to something genuinely strange.</p>
@@ -5062,9 +5062,9 @@ export const articles: Article[] = [
     id: "why-ai-language-models-have-political-biases-training-data",
     slug: "why-ai-language-models-have-political-biases-training-data",
     title: "Why AI Language Models Have Political Biases: Where They Come From in Training Data",
-    metaTitle: "Why AI Language Models Have Political Biases",
+    metaTitle: "Why AI Language Models Have Political Biases: Who Decides?",
     excerpt: "AI language models develop political biases through training data, RLHF, and moderation systems.",
-    metaDescription: "AI language models develop political biases through training data distribution, RLHF reward signals, and moderation systems. Here is the actual mechanism, not the partisan argument about it.",
+    metaDescription: "AI models skew left or right based on training data and how human raters scored outputs. Here's the mechanism behind political bias in LLM and why it's hard to fix.",
     content: `
       <p class="lead">AI language models have political biases. This is not a partisan claim from either direction. Multiple research papers from Stanford, MIT, the University of Glasgow, and other institutions have measured systematic political lean in models from OpenAI, Google, and Meta. The question is not whether bias exists. The question is where it comes from and how it ends up in models that were never explicitly programmed with political opinions.</p>
       <p>The answer involves four distinct mechanisms, and none of them require anyone at an AI lab to have made a deliberate ideological choice.</p>
@@ -5162,9 +5162,9 @@ export const articles: Article[] = [
     id: "technology-behind-self-healing-materials-polymer-chains",
     slug: "technology-behind-self-healing-materials-polymer-chains",
     title: "The Technology Behind Self-Healing Materials: Polymer Chains That Repair Themselves",
-    metaTitle: "The Technology Behind Self-Healing Materials",
+    metaTitle: "Self-Healing Materials: How Polymer Chains Repair Themselves",
     excerpt: "Self-healing materials restore structural integrity using microcapsules, reversible bonds, and dynamic chemistry.",
-    metaDescription: "Self-healing materials restore structural integrity without human intervention using microcapsules, reversible polymer bonds, and dynamic covalent chemistry. Here is how each mechanism actually works and where these materials are already deployed.",
+    metaDescription: "Self-healing materials repair cracks in seconds using microcapsule agents — used in phone screens, aircraft coatings, and medical implants. Here's the polymer chemistry.",
     content: `
       <p class="lead">Self-healing materials are not science fiction. The first published research prototype appeared in 2001 at the University of Illinois, led by chemists Scott White and Nancy Sottos. Since then, materials that repair their own cracks have moved from laboratory curiosity to real-world deployment in automotive coatings, aerospace composites, consumer electronics, and infrastructure concrete.</p>
       <p>The basic principle is simple: embed or engineer a repair mechanism directly into the material so that damage triggers a response. The implementation is where it gets complicated. Different self-healing approaches work through completely different chemistry, with different tradeoffs in how many times a material can heal, how strong the repair is, and what scale of damage is actually recoverable.</p>
@@ -5268,7 +5268,7 @@ export const articles: Article[] = [
   excerpt:
     "Your phone is not addictive by accident. The dopamine loop driving endless scrolling is the same neural circuit that once kept your ancestors alive — and it has been deliberately engineered against you.",
   metaDescription:
-    "Dopamine doesn't cause pleasure. It causes wanting. That gap explains why you keep scrolling long after you stop enjoying it. The neuroscience explained.",
+    "Dopamine causes wanting, not pleasure — which is why you keep scrolling after you stop enjoying it. Here's the neuroscience and what actually helps you stop.",
   content: `
     <p class="lead">Dopamine does not make you feel good. That is the most important thing most articles about scrolling get wrong. Dopamine drives <em>wanting</em>, not pleasure. The neurotransmitter signals anticipated reward, not received reward, which is exactly why you keep swiping through content you don't even enjoy. Your brain is chasing a hit it never actually gets.</p>
  
@@ -5372,11 +5372,9 @@ export const articles: Article[] = [
   id: "how-airplane-wifi-works-satellite-architecture-35000-feet",
   slug: "how-airplane-wifi-works-satellite-architecture-35000-feet",
   title: "How Airplane Wi-Fi Works at 35,000 Feet — The Satellite Architecture Nobody Explains",
-  metaTitle: "How Airplane Wi-Fi Works: Satellite Architecture Explained",
-  excerpt:
-    "The Wi-Fi on your flight doesn't come from a cell tower below. It bounces through a satellite 35,786 kilometres above Earth and back in under a second. Here's the physics and engineering that makes it possible — and why it's still so slow.",
-  metaDescription:
-    "Airplane Wi-Fi bounces your data off a satellite 35,786km above Earth. Here's how GEO vs LEO systems compare and why Starlink is changing everything.",
+  metaTitle: "How Airplane Wi-Fi Works: GEO vs LEO vs Starlink Explained",
+  excerpt: "The Wi-Fi on your flight doesn't come from a cell tower below. It bounces through a satellite 35,786 kilometres above Earth and back in under a second. Here's the physics and engineering that makes it possible — and why it's still so slow.",
+  metaDescription: "Your in-flight Wi-Fi bounces off a satellite 35,786km above Earth and back in under a second. Here's how GEO vs LEO systems compare and why Starlink is changing everything.",
   content: `
     <p class="lead">Airplane Wi-Fi does not come from the ground. On most commercial flights, your data travels up to a satellite in orbit, is relayed to a ground station, routed through the internet, and bounced back the same way — all within a fraction of a second. The fact that this works at all, at 900 kilometres per hour through an aluminium tube, is a more interesting engineering story than most aviation coverage bothers to tell.</p>
  
@@ -5475,11 +5473,9 @@ export const articles: Article[] = [
   id: "what-if-ageing-could-be-reversed-biology-longevity-research",
   slug: "what-if-ageing-could-be-reversed-biology-longevity-research",
   title: "What If Ageing Could Be Reversed? The Biology of Longevity Research",
-  metaTitle: "Can Ageing Be Reversed? The Biology of Longevity Research",
-  excerpt:
-    "Ageing is not a countdown timer — it's a collection of biological processes that can each be individually targeted. Researchers are no longer asking whether ageing can be slowed. They're asking which mechanisms to attack first.",
-  metaDescription:
-    "Ageing is now a treatable condition, not an inevitability. Senolytics, epigenetic reprogramming, and NAD+ are in human trials. Here is what the science shows.",
+  metaTitle: "Can Ageing Be Reversed? Senolytics, Epigenetics, and Evidence",
+  excerpt: "Ageing is not a countdown timer — it's a collection of biological processes that can each be individually targeted. Researchers are no longer asking whether ageing can be slowed. They're asking which mechanisms to attack first.",
+  metaDescription: "Ageing is now a treatable condition, not an inevitability. Senolytics, epigenetic reprogramming, and NAD+ are in human trials. Here is what the science shows.",
   content: `
     <p class="lead">Ageing is not a single thing. It is at least nine distinct biological processes running simultaneously — each measurable, each partially understood, and each now being targeted by separate research programmes with clinical trial data behind them. The question has shifted from whether ageing can be interfered with to which mechanism to hit first, in what order, and whether the combination is safe.</p>
  
@@ -5571,11 +5567,9 @@ export const articles: Article[] = [
   id: "7-energy-sources-replace-oil-30-years",
   slug: "7-energy-sources-replace-oil-30-years",
   title: "7 Energy Sources That Could Replace Oil Within 30 Years",
-  metaTitle: "7 Energy Sources That Could Replace Oil in 30 Years",
-  excerpt:
-    "Oil won't be replaced by a single technology. It will be displaced by seven different ones, each targeting a different sector. The timeline depends not on invention but on cost curves, grid infrastructure, and political will.",
-  metaDescription:
-    "Solar, nuclear fusion, and green hydrogen are set to displace oil sector by sector. Here are the mechanisms, timelines, and scalability challenges explained.",
+  metaTitle: "7 Energy Sources Replacing Oil: Timelines, Costs, Barriers",
+  excerpt: "Oil won't be replaced by a single technology. It will be displaced by seven different ones, each targeting a different sector. The timeline depends not on invention but on cost curves, grid infrastructure, and political will.",
+  metaDescription: "Solar already beats oil on electricity cost. Batteries are winning in transport. Green hydrogen and fusion face harder timelines. Here's what replaces oil sector and when.",
   content: `
     <p class="lead">Oil will not be replaced. It will be disaggregated. Transportation, heating, industrial processes, and power generation each depend on oil for different reasons, and each will be displaced by a different technology on a different timeline. No single energy source wins. Seven of them carve up oil's role between them — and the most important one is probably not the one you'd guess.</p>
  
@@ -5695,10 +5689,9 @@ export const articles: Article[] = [
   id: "alphafold-protein-folding-explained",
   slug: "alphafold-protein-folding-explained",
   title: "The AI That Predicted Protein Structures Unsolved for 50 Years — AlphaFold Explained",
-  metaTitle: "AlphaFold Explained: How AI Solved Protein Folding in Minutes",
+  metaTitle: "AlphaFold Explained: How AI Solved a 50-Year Biology Problem",
   excerpt: "AlphaFold cracked a 50-year-old biology problem that had stumped every lab on earth, and it did it in minutes.",
- 
-  metaDescription: "AlphaFold solved protein folding in minutes, ending a 50-year biology challenge. Here is the mechanism, the Nobel Prize story, and what it changes in medicine.",
+ metaDescription: "AlphaFold solved protein folding in minutes—a challenge that took labs years. Here's how it works, its 2024 Nobel Prize story, and why 200M protein structures are free.",
  
   content: `
     <p class="lead">AlphaFold solved biology's protein folding problem in 2020 — a challenge scientists had been chasing since 1972. The AI, built by Google DeepMind, can predict the three-dimensional shape of a protein from nothing but its amino acid sequence, with accuracy that rivals years of laboratory work. It took minutes. The Nobel Committee gave it a Chemistry Prize in 2024. The scientific community is still catching up.</p>
