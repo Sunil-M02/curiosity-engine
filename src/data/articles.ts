@@ -4363,7 +4363,7 @@ export const articles: Article[] = [
     metaTitle: "Wheel Invention History: Why Transport Came Later",
     excerpt:
       "The wheel did not arrive as a transportation breakthrough. It appeared first as a manufacturing tool, and the reasons it took centuries to move anything from one place to another reveal more about ancient engineering constraints than ancient intelligence.",
-    metaDescription: "Discover why the wheel was first used in pottery, not transport, and how roads, draft animals, and axle engineering determined when wheeled travel could.",
+    metaDescription: "The wheel was invented around 3500 BC for pottery, not carts. Wheeled transport arrived 300 years later because roads and draft animals had to come first.",
     content: `
     <p class="lead">The wheel is the most celebrated invention in human history. It was also, for a long time, useless for moving anything from one place to another. The oldest known wheel-and-axle device wasn't on a cart. It was a potter's wheel, found in evidence from ancient Mesopotamia (the region covering modern-day Iraq and Syria) dating to around 3500 BC. The same civilization that built some of the earliest cities and developed cuneiform writing figured out how to mount a disc on a rotating spindle for shaping clay long before anyone thought to attach wheels to a vehicle.</p>
     <p>Transportation use came later, and the delay wasn't an oversight. It was a consequence of terrain, infrastructure, animal availability, and the genuinely difficult engineering of making a wheel that could carry weight while rolling.</p>
