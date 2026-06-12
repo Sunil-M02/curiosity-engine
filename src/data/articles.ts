@@ -3841,10 +3841,10 @@ export const articles: Article[] = [
     id: "nobody-invented-internet-distributed-history",
     slug: "nobody-invented-internet-distributed-history-biggest-network",
     title: "Nobody Invented the Internet: The Distributed History Behind the World's Biggest Network",
-    metaTitle: "Who Invented the Internet? The Distributed Real History",
+    metaTitle: "Who Really Invented the Internet? It Wasn't Just One Person",
     excerpt:
       "Everyone wants to credit a single inventor for the internet. The real story is more interesting: it was built by dozens of researchers over thirty years, with no single moment of invention and no single architect.",
-    metaDescription: "Get the real history of who invented the internet, tracing distributed breakthroughs from packet switching to TCP/IP rather than a single inventor myth.",
+    metaDescription: "The internet has no single inventor — Cerf, Kahn, Berners-Lee, and dozens of DARPA researchers built it across three decades. Here's who did what and when.",
     content: `
       <p class="lead">Ask someone who invented the internet and you will usually get one of two answers: Al Gore (which is a joke that became folklore) or Tim Berners-Lee (which is wrong but understandable). The real answer is genuinely more interesting: nobody invented the internet. It emerged from thirty years of overlapping contributions by dozens of scientists, engineers, and institutions, none of whom were trying to build what the internet eventually became.</p>
 
@@ -3953,10 +3953,10 @@ export const articles: Article[] = [
     id: "quantum-computers-crack-every-password-timeline",
     slug: "quantum-computers-crack-every-password-earth-timeline",
     title: "Quantum Computers Will Crack Every Password on Earth — Here's the Timeline",
-    metaTitle: "Will Quantum Computers Crack Passwords? Real Timeline",
+    metaTitle: "Will Quantum Computers Break Encryption? The Real Timeline",
     excerpt:
       "A sufficiently powerful quantum computer could break the encryption protecting every bank account, email, and government secret on Earth. Here is what the threat actually is, what the timeline looks like, and what is being done about it.",
-    metaDescription: "Understand when quantum computers could break encryption, what timelines experts trust, and how post-quantum migration planning should start before crisis.",
+    metaDescription: "Most experts place Q-Day when quantum computers crack RSA between 2030 and 2040. Here's what this means for your data and what post-quantum cryptography actually involves.",
     content: `
       <p class="lead">Every password you have ever set, every encrypted message you have ever sent, and every secure transaction you have ever made relies on a mathematical problem that classical computers find essentially impossible to solve: factoring very large numbers into their prime components. A sufficiently powerful quantum computer could solve that problem in hours. The encryption protecting your bank account, your medical records, and every government secret on Earth would become worthless.</p>
 
@@ -4095,10 +4095,10 @@ export const articles: Article[] = [
   slug: "andes-virus-only-hantavirus-human-to-human-transmission",
   title:
     "Why the Andes Virus Is the Only Hantavirus That Spreads Between Humans",
-  metaTitle: "Andes Virus Transmission: Why This Hantavirus Spreads",
+  metaTitle: "Andes Virus: The Only Hantavirus That Spreads Person to Person",
   excerpt:
     "Of more than 50 known hantaviruses, only one has ever been documented spreading directly between people. Here is what makes the Andes virus biologically different, and why its behavior matters far beyond South America.",
-  metaDescription: "Learn why Andes virus is the only hantavirus with proven human-to-human transmission, what outbreak data shows, and how risk differs from airborne.",
+  metaDescription: "Every other hantavirus needs rodent contact to spread. Andes virus is the only strain proven to pass directly between people. Here's the outbreak data and what makes it different.",
   content: `
     <p class="lead">There are more than 50 known hantaviruses on Earth. Every single one of them is carried by rodents. Every single one of them can spill over into humans under the right conditions. And until 1996, every single one of them was considered a dead-end for human infection, meaning that once the virus entered a person, it could not use that person to reach the next one.</p>
  
@@ -4210,12 +4210,11 @@ export const articles: Article[] = [
 {
     id: "why-paper-cuts-hurt-more-than-larger-wounds-nerve-density",
     slug: "why-paper-cuts-hurt-more-than-larger-wounds-nerve-density",
-    title:
-      "Why Paper Cuts Hurt More Than Larger Wounds: The Nerve Density Explanation",
-    metaTitle: "Why Paper Cuts Hurt So Much: Nerve Density Science",
+    title: "Why Paper Cuts Hurt More Than Larger Wounds: The Nerve Density Explanation",
+    metaTitle: "Why Paper Cuts Hurt So Much: Pain Receptors and Nerve Density",
     excerpt:
       "Of all the minor injuries a person can suffer, few produce as much disproportionate pain as a paper cut on the fingertip. The biology behind it is more interesting than you might expect.",
-    metaDescription: "Understand why paper cuts hurt more than deep wounds: fingertip nerve density, shallow tissue damage, sensitization, and constant re-irritation drive pain.",
+    metaDescription: "Fingertips contain more pain receptors per cm² than anywhere on the body and paper cuts penetrate at the precise depth. Here's the neuroscience of why they sting so much.",
     content: `
     <p class="lead">A tiny cut from a sheet of paper hurts more than most injuries. That's not your imagination. The fingertips contain some of the highest concentrations of nociceptors (sensory nerve endings that detect pain, pressure, and heat) anywhere in the human body. When a paper edge slices through this tissue, it cuts directly into this dense nerve bed while staying too shallow to trigger the body's strongest analgesic responses.</p>
     <p>The result is a wound that fires pain signals continuously, stays open in a mechanically active location, and gets re-irritated with every movement. It's not that the cut is serious. It's that your nervous system treats this specific type of injury in a way that amplifies the experience.</p>
@@ -4283,10 +4282,10 @@ export const articles: Article[] = [
     slug: "engineering-inside-modern-submarine-pressure-navigation-life-support",
     title:
       "The Engineering Inside a Modern Submarine: Pressure, Navigation, and Life Support",
-    metaTitle: "Modern Submarine Engineering: Pressure and Navigation",
+    metaTitle: "How Modern Submarines Work: Pressure, Navigation, Systems",
     excerpt:
       "A modern submarine is one of the most complex machines ever built, designed to keep over a hundred people alive and operational for months in one of the most hostile environments on Earth. Here is how the engineering actually works.",
-    metaDescription: "Explore modern submarine engineering, from pressure-hull physics to inertial navigation and life-support systems that keep crews operational for months.",
+    metaDescription: "A nuclear submarine operates where pressure exceeds 400 tonnes per square meter and navigates blind for months on gyroscopes alone. Here's how it all works.",
     content: `
     <p class="lead">A submarine is essentially a self-contained city that operates under thousands of tonnes of water pressure, with no access to the surface for months at a time. That's not an exaggeration. Virginia-class attack submarines, operated by the US Navy, carry crews of around 135 people, deploy for up to six months, generate their own oxygen, recycle their own air and water, and navigate without GPS or surface contact. The engineering that makes this possible is some of the most demanding ever applied to a mobile platform.</p>
     <p>This article breaks down how it actually works. Not the weapons or the missions, but the physics and systems that let a metal cylinder survive and function at depth.</p>
