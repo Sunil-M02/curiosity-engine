@@ -1,11 +1,9 @@
 # CuriosityFields
+> A knowledge-first digital publication exploring science, technology, artificial intelligence, history, astronomy, psychology, and future innovation through long-form, mechanism-level, editorially reviewed articles.
 
-> A knowledge-first digital publication exploring science, technology, artificial intelligence, history, astronomy, and future innovation.
+CuriosityFields publishes long-form articles authored and reviewed by the CuriosityFields Editorial Desk, citing named researchers, institutions, and peer-reviewed studies. Content spans seven primary categories and is updated multiple times per week. Last updated: 2026-06-15.
 
-CuriosityFields publishes long-form, editorially reviewed articles authored by the CuriosityFields Editorial Desk. Content is organized into six primary categories and updated regularly.
-
-## Pages
-
+## Core Pages
 - [Home](https://www.curiosityfields.com/): Featured stories and latest articles across all categories.
 - [Categories](https://www.curiosityfields.com/categories): Browse all topic hubs.
 - [About](https://www.curiosityfields.com/about): Editorial mission, standards, and team.
@@ -13,14 +11,51 @@ CuriosityFields publishes long-form, editorially reviewed articles authored by t
 - [Write For Us](https://www.curiosityfields.com/write-for-us): Contributor guidelines and accepted topics.
 
 ## Categories
+- [Artificial Intelligence](https://www.curiosityfields.com/categories/artificial-intelligence): AI models, agents, infrastructure, bias, and societal impact.
+- [Technology](https://www.curiosityfields.com/categories/technology): Computing, internet infrastructure, security, and digital systems.
+- [Science](https://www.curiosityfields.com/categories/science): Biology, genetics, physics, and emerging research.
+- [Astronomy](https://www.curiosityfields.com/categories/astronomy): Cosmology, space exploration, and astrophysics.
+- [History](https://www.curiosityfields.com/categories/history): Civilisations, archaeology, and historical turning points.
+- [Psychology & Mind](https://www.curiosityfields.com/categories/psychology-mind): Cognitive biases, neuroscience, and behavioral science.
+- [Future Innovation](https://www.curiosityfields.com/categories/future-innovation): Emerging technologies and forward-looking science.
 
-- [Science](https://www.curiosityfields.com/categories/science): Discoveries, biology, physics, and research.
-- [Technology](https://www.curiosityfields.com/categories/technology): Computing, infrastructure, and digital culture.
-- [Artificial Intelligence](https://www.curiosityfields.com/categories/artificial-intelligence): AI research, models, and societal impact.
-- [History](https://www.curiosityfields.com/categories/history): Civilisations, archaeology, and historical inflection points.
-- [Astronomy](https://www.curiosityfields.com/categories/astronomy): Cosmology, space exploration, and the universe.
-- [Future Innovation](https://www.curiosityfields.com/categories/future-innovation): Emerging tech and forward-looking science.
+## Cornerstone Articles: How Things Actually Work
+- [How AI language models confidently state false facts](https://www.curiosityfields.com/article/why-ai-language-models-confidently-state-false-facts-mechanism): The mechanism behind AI hallucination, explained.
+- [What a context window actually means in AI](https://www.curiosityfields.com/article/what-context-window-actually-means-ai-limit): Why AI models forget information mid-conversation.
+- [How social feed ranking algorithms work](https://www.curiosityfields.com/article/how-social-feed-ranking-algorithm-works): The mechanics behind what you see on social platforms.
+- [How Google indexes 130 trillion pages](https://www.curiosityfields.com/article/how-google-indexes-130-trillion-pages-crawling-architecture): The crawling architecture behind modern search.
+- [AlphaFold and the protein folding breakthrough](https://www.curiosityfields.com/article/alphafold-protein-folding-explained): How AI solved a 50-year biology problem.
+- [Why Incognito mode doesn't make you anonymous](https://www.curiosityfields.com/article/incognito-mode-doesnt-hide-you-online-privacy): What private browsing actually protects, and what it doesn't.
+
+## Cornerstone Articles: Space and the Universe
+- [James Webb Telescope discoveries changing astronomy](https://www.curiosityfields.com/article/james-webb-telescope-discoveries-changing-astronomy)
+- [The dark matter mystery, explained](https://www.curiosityfields.com/article/dark-matter-mystery-what-we-know)
+- [Why black holes don't "suck": the physics of orbiting one](https://www.curiosityfields.com/article/black-holes-dont-suck-physics-of-orbiting-one)
+- [10 most dangerous places in the universe](https://www.curiosityfields.com/article/most-dangerous-places-universe-earth-safety)
+- [Why all telescopes are time machines](https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-light-travel-time)
+
+## Cornerstone Articles: History and Civilization
+- [The Library of Alexandria: what we really lost](https://www.curiosityfields.com/article/lost-library-of-alexandria-what-we-really-lost)
+- [The Bronze Age collapse: how a civilisation vanished](https://www.curiosityfields.com/article/bronze-age-collapse-1200-bc-civilisation-vanished)
+- [The real reason the Titanic sank](https://www.curiosityfields.com/article/titanic-sinking-causes-beyond-iceberg)
+- [The 5,500-year-old syphilis skeleton that rewrote disease history](https://www.curiosityfields.com/article/5500-year-old-syphilis-skeleton-rewrote-disease-history)
+- [The Antikythera mechanism: ancient computing](https://www.curiosityfields.com/article/ancient-computers-antikythera-mechanism)
+
+## Cornerstone Articles: Mind and Behavior
+- [Confirmation bias and why your feed agrees with you](https://www.curiosityfields.com/article/confirmation-bias-news-feed-psychology)
+- [Why multitasking is neurologically impossible](https://www.curiosityfields.com/article/multitasking-neurologically-impossible-brain-task-switching)
+- [The dopamine loops behind scrolling](https://www.curiosityfields.com/article/why-you-cant-stop-scrolling-dopamine-loops-brain)
+- [The placebo effect and brain chemistry](https://www.curiosityfields.com/article/placebo-effect-brain-chemistry-science-healing)
+
+## Cornerstone Articles: Future and Emerging Tech
+- [The rise of agentic AI and autonomous agents](https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation)
+- [What happens when AI designs its own successor](https://www.curiosityfields.com/article/what-happens-when-ai-can-design-its-own-successor)
+- [Engineering problems in Mars colonisation](https://www.curiosityfields.com/article/13-engineering-problems-mars-colonisation-harder-than-told)
+- [The artificial leaf that converts sunlight into hydrogen fuel](https://www.curiosityfields.com/article/the-artificial-leaf-that-converts-sunlight-and-water-directly-into-hydrogen-fuel)
+- [7 energy sources that could replace oil in 30 years](https://www.curiosityfields.com/article/7-energy-sources-replace-oil-30-years)
+
+## All Articles
+- [Full article archive](https://www.curiosityfields.com/sitemap.xml): Complete, regularly updated list of all published articles with last-modified dates.
 
 ## Optional
-
 - [Terms of Service](https://www.curiosityfields.com/terms): Site terms and content usage policy.
