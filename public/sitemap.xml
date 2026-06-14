@@ -439,4 +439,28 @@
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://www.curiosityfields.com/article/incognito-mode-doesnt-hide-you-online-privacy</loc>
+  <lastmod>2026-06-07</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/titanic-sinking-causes-beyond-iceberg</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/most-dangerous-places-universe-earth-safety</loc>
+  <lastmod>2026-06-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/confirmation-bias-news-feed-psychology</loc>
+  <lastmod>2026-06-13</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>
