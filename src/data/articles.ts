@@ -4846,6 +4846,7 @@ export const articles: Article[] = [
   publishedAt: "2026-05-21",
   readTime: 8,
   featured: false,
+  tags: ["octopus", "cephalopods", "vision", "photoreceptors", "marine biology"],
 },
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -4957,6 +4958,7 @@ export const articles: Article[] = [
   publishedAt: "2026-05-22",
   readTime: 8,
   featured: false,
+  tags: ["Roman Empire", "Antonine Plague", "pandemic history", "Marcus Aurelius", "ancient disease"],
 },
 
 {
