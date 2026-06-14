@@ -4846,6 +4846,7 @@ export const articles: Article[] = [
   publishedAt: "2026-05-21",
   readTime: 8,
   featured: false,
+  tags: ["octopus", "cephalopods", "vision", "photoreceptors", "marine biology"],
 },
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -4957,6 +4958,7 @@ export const articles: Article[] = [
   publishedAt: "2026-05-22",
   readTime: 8,
   featured: false,
+  tags: ["Roman Empire", "Antonine Plague", "pandemic history", "Marcus Aurelius", "ancient disease"],
 },
 
 {
@@ -5836,6 +5838,7 @@ export const articles: Article[] = [
   publishedAt: "2026-06-05",
   readTime: 9,
   featured: false,
+  tags: ["AlphaFold", "AI", "protein folding", "DeepMind", "Nobel Prize", "biology"],
 },
   // ============================================================
   // 1. TECHNOLOGY - Incognito Mode Privacy Myth
@@ -5943,7 +5946,8 @@ export const articles: Article[] = [
 `,
     category: "technology",
     coverImage: "/images/articles/incognito-mode-doesnt-hide-you-online-privacy.jpg",
-    publishDate: "2026-06-07",
+    publishedAt: "2026-06-07",
+    tags: ["privacy", "incognito mode", "browser security", "online tracking", "VPN"],
     readTime: 8,
     author: authors[0],
     featured: false,
@@ -6052,7 +6056,8 @@ export const articles: Article[] = [
 `,
     category: "history",
     coverImage: "/images/articles/titanic-sinking-causes-beyond-iceberg.jpg",
-    publishDate: "2026-06-09",
+    publishedAt: "2026-06-09",
+    tags: ["Titanic", "maritime history", "shipwrecks", "1912", "engineering failure"],
     readTime: 9,
     author: authors[0],
     featured: false,
@@ -6188,7 +6193,8 @@ export const articles: Article[] = [
 `,
    category: "astronomy",
     coverImage: "/images/articles/most-dangerous-places-universe-earth-safety.jpg",
-    publishDate: "2026-06-11",
+    publishedAt: "2026-06-11",
+    tags: ["astronomy", "black holes", "supernova", "cosmic hazards", "universe"],
     readTime: 10,
     author: authors[0],
     featured: false, 
@@ -6299,7 +6305,8 @@ export const articles: Article[] = [
 `,
     category: "psychology-mind",
     coverImage: "/images/articles/confirmation-bias-news-feed-psychology.jpg",
-    publishDate: "2026-06-13",
+    publishedAt: "2026-06-13",
+    tags: ["confirmation bias", "psychology", "news feed", "cognitive bias", "media literacy"],
     readTime: 8,
     author: authors[0],
     featured: false,
