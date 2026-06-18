@@ -463,4 +463,28 @@
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/ancient-technologies-surprisingly-advanced-engineering</loc>
+  <lastmod>2026-06-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/holding-breath-4-minutes-body-effects</loc>
+  <lastmod>2026-06-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/ai-art-generators-dragons-explained</loc>
+  <lastmod>2026-06-17</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/enzyme-based-plastic-digestion-explained</loc>
+  <lastmod>2026-06-18</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>
