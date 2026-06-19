@@ -6726,6 +6726,7 @@ export const articles: Article[] = [
     category: "future-innovation",
     coverImage: "/images/articles/enzyme-plastic-digestion.jpg",
     publishedAt: "2026-06-18",
+    tags: ["plastic pollution", "enzymes", "recycling", "biotechnology", "sustainability"],
     readTime: 7,
     author: authors[3],
     featured: false,
@@ -6844,6 +6845,7 @@ export const articles: Article[] = [
   category: "astronomy",
   author: authors[0],
   publishedAt: "2026-06-19",
+  tags: ["Fermi paradox", "SETI", "extraterrestrial life", "Drake equation", "astronomy"],
   readTime: 9,
   featured: false,
 },
@@ -6935,9 +6937,12 @@ export function getArticleBySlug(slug: string): Article | undefined {
 }
 
 export function getRelatedArticles(article: Article, limit = 3): Article[] {
+  const articleTags = article.tags ?? [];
   const related = articles.filter(
     (a) =>
-      a.id !== article.id && (a.category === article.category || a.tags.some((tag) => article.tags.includes(tag))),
+      a.id !== article.id &&
+      (a.category === article.category ||
+        (a.tags ?? []).some((tag) => articleTags.includes(tag))),
   );
 
   return sortArticlesByPublishedAt(related).slice(0, limit);
