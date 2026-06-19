@@ -6935,9 +6935,12 @@ export function getArticleBySlug(slug: string): Article | undefined {
 }
 
 export function getRelatedArticles(article: Article, limit = 3): Article[] {
+  const articleTags = article.tags ?? [];
   const related = articles.filter(
     (a) =>
-      a.id !== article.id && (a.category === article.category || a.tags.some((tag) => article.tags.includes(tag))),
+      a.id !== article.id &&
+      (a.category === article.category ||
+        (a.tags ?? []).some((tag) => articleTags.includes(tag))),
   );
 
   return sortArticlesByPublishedAt(related).slice(0, limit);
