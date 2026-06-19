@@ -6843,7 +6843,7 @@ export const articles: Article[] = [
 `,
   coverImage: "/images/articles/fermi-paradox-solutions-explained.jpg",
   category: "astronomy",
-  author: authors[0],,
+  author: authors[0],
   publishedAt: "2025-06-19",
   readTime: 9,
   featured: false,
