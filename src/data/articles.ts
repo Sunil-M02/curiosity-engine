@@ -6734,7 +6734,7 @@ export const articles: Article[] = [
 {
   id: "fermi-paradox-solutions-explained",
   slug: "fermi-paradox-solutions-explained",
-  title: "The Fermi Paradox — Every Proposed Solution and Why They All Fail",
+  title: "The Fermi Paradox: Every Proposed Solution and Why They All Fail",
   metaTitle: "Fermi Paradox Theory: Why We Haven't Found Aliens",
   excerpt: "The universe is 13.8 billion years old, contains over 200 billion galaxies, and has produced exactly zero confirmed signals from alien civilizations. Every proposed explanation has a structural flaw that its own proponents admit.",
   metaDescription: "No alien signal has ever been confirmed. The Fermi Paradox asks why, and every proposed solution has a fatal flaw. Here is where the real science stands.",
