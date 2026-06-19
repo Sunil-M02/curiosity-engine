@@ -6847,11 +6847,7 @@ export const articles: Article[] = [
   publishedAt: "2025-06-19",
   readTime: 9,
   featured: false,
-};
-
-
-
-  
+},
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
