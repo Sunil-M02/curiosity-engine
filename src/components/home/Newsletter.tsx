@@ -104,7 +104,7 @@ export function Newsletter() {
               Stay Curious
             </h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-8">
-              Join over 10,000 readers who receive our weekly digest of the most fascinating 
+              Join over readers who receive our weekly digest of the most fascinating 
               discoveries in science, technology, and beyond.
             </p>
             
