@@ -7022,7 +7022,7 @@ content: `
  `,
   coverImage: "/images/articles/ai-vs-human-creativity-science.jpg",
   category: "artificial-intelligence",
-  author: authors[0],,
+  author: authors[0],
   publishedAt: "2026-06-21",
   readTime: 6,
   featured: false,  
