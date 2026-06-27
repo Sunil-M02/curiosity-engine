@@ -7358,6 +7358,7 @@ category: "psychology-mind",
 author: authors[0],
 publishedDate: "2026-06-26",
 readTime: 7,
+featured: false,
 tags: ["Sleep", "Sleep Debt", "Brain Health", "Psychology", "Metabolism"],  
 },
 
@@ -7424,12 +7425,14 @@ tags: ["Sleep", "Sleep Debt", "Brain Health", "Psychology", "Metabolism"],
 <h3>Are researchers studying enhanced salinity tolerance in fish?</h3>
 <p>Yes. Researchers studying euryhaline species like tilapia have identified specific gill transporter genes that shift expression with salinity. CRISPR-based studies are mapping these transitions at the molecular level, though practical applications remain early-stage.</p>
 `,
+  coverImage: "/images/articles/why-saltwater-freshwater-fish-cant-swap-habitats.jpg",
   category: "science",
   author: authors[0],
   publishedDate: "2026-06-27",
   readTime: 6,
+  featured: false,
   tags: ["Science", "Biology", "Marine Life", "Evolution", "Osmoregulation"],
-  coverImage: "/images/articles/why-saltwater-freshwater-fish-cant-swap-habitats.jpg",
+  
 },  
 ];
 
