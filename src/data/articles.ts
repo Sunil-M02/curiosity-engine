@@ -7356,7 +7356,7 @@ content: `
 coverImage: "/images/articles/sleep-debt-weekend-recovery-science.jpg",    
 category: "psychology-mind",
 author: authors[0],
-publishedDate: "2026-06-26",
+publishedAt: "2026-06-26",
 readTime: 7,
 featured: false,
 tags: ["Sleep", "Sleep Debt", "Brain Health", "Psychology", "Metabolism"],  
@@ -7428,12 +7428,11 @@ tags: ["Sleep", "Sleep Debt", "Brain Health", "Psychology", "Metabolism"],
   coverImage: "/images/articles/why-saltwater-freshwater-fish-cant-swap-habitats.jpg",
   category: "science",
   author: authors[0],
-  publishedDate: "2026-06-27",
+  publishedAt: "2026-06-27",
   readTime: 6,
   featured: false,
   tags: ["Science", "Biology", "Marine Life", "Evolution", "Osmoregulation"],
-  
-},  
+  },  
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
