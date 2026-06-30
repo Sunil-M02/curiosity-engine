@@ -7432,7 +7432,109 @@ tags: ["Sleep", "Sleep Debt", "Brain Health", "Psychology", "Metabolism"],
   readTime: 6,
   featured: false,
   tags: ["Science", "Biology", "Marine Life", "Evolution", "Osmoregulation"],
-  },  
+  },
+
+  {
+    id: "wegener-continental-drift-ignored-prediction",
+    slug: "alfred-wegener-continental-drift-ignored-prediction",
+    title: "The Scientist Who Solved the Future — but Nobody Believed Him",
+    metaTitle: "Wegener's Continental Drift Theory Nobody Believed",
+    excerpt: "In 1912, a German meteorologist stood before the world's leading geologists and told them the continents were moving. They called it fairy tale science. He was right.",
+    metaDescription: "Alfred Wegener predicted continental drift in 1912 and was called a crank. Decades later, his rejected idea became the foundation of modern earth science.",
+    
+    content: `<p class="lead">In 1912, a German meteorologist stood before the world's leading geologists and told them the ground beneath their feet was moving. Not slowly wobbling. Moving. Drifting across the globe at the speed a fingernail grows. Alfred Wegener called it continental drift.</p>
+ 
+<p>They called it fairy tale science. One critic dismissed his evidence as "geopoetry." His discipline, meteorology, made him easy to ignore. Geologists wanted a geologist, not a weather man with radical ideas about rocks.</p>
+ 
+<p>He died on a Greenland ice sheet in 1930 before anyone believed him. Thirty years later, his theory became the bedrock of modern geology.</p>
+ 
+<h2>The Man Who Read the Map Wrong Side Up</h2>
+ 
+<p>Alfred Wegener was not the first person to notice that South America and Africa look like puzzle pieces. Flemish cartographer Abraham Ortelius noted it in 1596. What separated Wegener was evidence.</p>
+ 
+<p>Starting in 1912, he assembled a case from multiple lines: identical fossils found on opposite sides of the Atlantic, matching rock formations in Brazil and West Africa, glacial striations in what are now tropical zones, and coal deposits in Antarctica. He argued this could only make sense if the continents had once been a single landmass he called Pangaea, Greek for "all land."</p>
+ 
+<p>The <a href="https://www.curiosityfields.com/article/lost-library-of-alexandria-what-we-really-lost">Library of Alexandria</a> follows a similar pattern: evidence exists, the person assembling it lacks institutional standing, and the field moves on without them.</p>
+ 
+<h2>Why the Scientific Community Rejected Him</h2>
+ 
+<p>The rejection was not irrational. Wegener's biggest problem was mechanism. He could show the continents fit together. He could not explain what engine on Earth was capable of shoving billion-tonne landmasses through solid oceanic crust.</p>
+ 
+<p>His proposed mechanisms, centrifugal force from Earth's rotation and gravitational tidal pull from the Moon, were calculated and shown to be far too weak. Physicists were right to reject those specific explanations. Where the community went wrong was throwing out the observation with the mechanism.</p>
+ 
+<p>In 1926, the American Association of Petroleum Geologists held a symposium specifically to evaluate his claims and voted overwhelmingly against continental drift.</p>
+ 
+<h2>The Evidence That Vindicated Him</h2>
+ 
+<p>The vindication came from the ocean floor, a place Wegener never studied.</p>
+ 
+<p>In the 1950s, Princeton geologist Harry Hess developed the theory of seafloor spreading. Surveys of the Mid-Atlantic Ridge showed that new oceanic crust continuously forms along underwater mountain chains and spreads outward, pushing the continents apart. This was the mechanism Wegener lacked, convection currents in Earth's mantle driven by radioactive decay.</p>
+ 
+<p>Cambridge scientists in the early 1950s then found that magnetic stripes on the seafloor are symmetrical on either side of mid-ocean ridges, a fingerprint of spreading that matched Wegener's predictions. By the mid-1960s, plate tectonics was scientific consensus.</p>
+ 
+<p><a href="https://www.curiosityfields.com/article/ancient-india-surgery-sushruta-samhita-2600-years">Ancient Indian surgery</a> suffered a similar delay: correct techniques documented 2,600 years ago, ignored by Western medicine for centuries because they arrived from an unfamiliar tradition.</p>
+ 
+<h2>What Wegener Got Right, and What He Got Wrong</h2>
+ 
+<p>Wegener's core claim, that continents move and were once joined, was exactly right. Modern GPS confirms that North America and Europe are currently separating at roughly 2.5 centimetres per year, precisely the timescale his geological evidence implied.</p>
+ 
+<p>Where he erred was in proposing that continents plow directly through oceanic crust. They do not. Both continents and ocean floors sit on tectonic plates that slide over the semi-molten asthenosphere beneath them.</p>
+ 
+<p>Wegener's observations were correct even when his mechanism was wrong. A theory that fails to explain the how is not automatically wrong about the what.</p>
+ 
+<h2>The Institutional Bias Nobody Talks About</h2>
+ 
+<p>The Wegener story is usually told as a lone genius versus closed minds. That framing is incomplete.</p>
+ 
+<p>Wegener had genuine supporters. British geologist Arthur Holmes proposed mantle convection in 1931, and South African geologist Alexander du Toit published matching Gondwana evidence in 1937. The theory was accepted earlier in the Southern Hemisphere, where the physical evidence was more visible, than in North American departments.</p>
+ 
+<p>What the conventional narrative skips is professional gatekeeping. Wegener was a meteorologist publishing outside his training. The 1926 AAPG symposium invited no supporters of continental drift to present.</p>
+ 
+<p>This echoes <a href="https://www.curiosityfields.com/article/ancient-computers-antikythera-mechanism">ancient computer history</a>, where the Antikythera mechanism sat in an Athens museum for decades before anyone took seriously the idea that ancient Greeks had built a functioning astronomical calculator.</p>
+ 
+<h2>The Lesson Science Still Has Not Fully Learned</h2>
+ 
+<p>Wegener's case illustrates the difference between an idea being wrong and an idea being premature. His evidence was real. His conclusion was correct. The field lacked the tools to confirm the mechanism for another four decades.</p>
+ 
+<p>In 2023, Katalin Karikó and Drew Weissman received the Nobel Prize in Physiology or Medicine for mRNA research that Karikó had been demoted for pursuing in the 1990s. Chandrasekhar's black hole mass limits were ridiculed by Arthur Eddington in 1935 and vindicated in 1972.</p>
+ 
+<p>The number zero, once <a href="https://www.curiosityfields.com/article/zero-most-dangerous-idea-in-history-10000-years">banned by medieval merchants</a> as philosophically dangerous, became the foundation of every calculation we make. Premature ideas and wrong ideas look identical until the confirming mechanism arrives.</p>
+ 
+<p>Wegener froze to death at 50 on the Greenland ice sheet, resupplying a weather station. His body was found the following spring. The continents kept moving, right on schedule.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Why was Alfred Wegener's continental drift theory rejected?</h3>
+<p>Wegener could not provide a credible mechanism for how continents moved. His proposed forces, centrifugal pull and lunar gravity, were mathematically insufficient. Without a plausible engine, most geologists dismissed the theory despite its strong observational evidence.</p>
+ 
+<h3>When was Alfred Wegener proven right?</h3>
+<p>By the mid-1960s, seafloor spreading and paleomagnetism provided the mechanism Wegener lacked. Plate tectonics became scientific consensus around 1967 to 1968, nearly 40 years after his death.</p>
+ 
+<h3>What evidence did Wegener use for continental drift?</h3>
+<p>Wegener assembled four main evidence types: matching coastline shapes, identical fossils on opposite sides of the Atlantic, matching rock formations in Brazil and West Africa, and glacial deposits in now-tropical regions indicating the continents had been at different latitudes.</p>
+ 
+<h3>Is continental drift the same as plate tectonics?</h3>
+<p>Continental drift was Wegener's original observation that continents had moved. Plate tectonics is the complete theory developed in the 1960s that explains the mechanism, crustal plates moving over the mantle. Continental drift is now understood as a consequence of plate tectonics.</p>
+ 
+<h3>What did Wegener get wrong about continental drift?</h3>
+<p>Wegener incorrectly proposed that continents plow through oceanic crust directly. The accurate model shows both continents and ocean floors sit on tectonic plates moving together, driven by mantle convection rather than the forces Wegener originally suggested.</p>
+ 
+<h3>Who proposed the idea of continental drift before Wegener?</h3>
+<p>Flemish cartographer Abraham Ortelius noted the Africa-South America coastline fit in 1596. Wegener was the first to assemble geological, paleontological, and climatological evidence into a testable published hypothesis in 1912.</p>
+ 
+<h3>Could Wegener's theory have been accepted sooner?</h3>
+<p>Possibly. Arthur Holmes proposed mantle convection in 1931, one year after Wegener's death. Had he lived to collaborate with Holmes, acceptance might have arrived a decade earlier. The social structure of science delayed it as much as the absence of confirming evidence.</p>`,
+  
+    coverImage: "/images/articles/alfred-wegener-continental-drift-ignored-prediction.jpg",
+    category: "history",
+    author: authors[0],
+    publishedAt: "2026-06-30",
+    readTime: 7,
+    featured: false,
+    tags: ["History", "Science", "Alfred Wegener", "Continental Drift", "Plate Tectonics", "Geology", "Scientific Discovery"],
+  
+  },
+  
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
