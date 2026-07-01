@@ -7604,7 +7604,7 @@ tags: ["Sleep", "Sleep Debt", "Brain Health", "Psychology", "Metabolism"],
 <p>Researchers are actively split. Some argue scale and better training data will close the gap; others argue common sense requires embodied experience in the physical world that text-only training can't provide. As of 2026, no model has been shown to reliably match human-level common-sense reasoning across novel situations.</p>`,
  
   coverImage: "/images/articles/ai-chess-champions-simple-jokes.jpg",
-  category: "AI",
+  category: "artificial-intelligence",
   author: authors[0],
   publishedAt: "2026-07-01",
   readTime: 8,
