@@ -685,7 +685,6 @@ export const articles: Article[] = [
     publishedAt: "2026-01-07",
     readTime: 9,
     featured: false,
-    editorsPick: true,
     tags: ["astronomy", "physics", "dark matter", "universe"],
   },
   {
@@ -1001,7 +1000,6 @@ export const articles: Article[] = [
     publishedAt: "2026-02-08",
     readTime: 9,
     featured: false,
-    editorsPick: true,
     tags: ["Artemis III", "NASA", "Moon Mission", "Space Exploration", "Lunar Landing"],
   },
 
@@ -1319,7 +1317,6 @@ export const articles: Article[] = [
     publishedAt: "2026-02-14",
     readTime: 8,
     featured: false,
-    editorsPick: true,
     tags: ["Agentic AI", "Autonomous Agents", "AI Automation", "Future of Work", "Artificial Intelligence"],
   },
   {
@@ -3415,7 +3412,6 @@ export const articles: Article[] = [
     publishedAt: "2026-05-07",
     readTime: 12,
     featured: true,
-    editorsPick: true,
     tags: ["Mars", "Space Exploration", "Engineering", "NASA", "SpaceX"],
   },
   {
@@ -4847,6 +4843,7 @@ export const articles: Article[] = [
   readTime: 8,
   featured: false,
   tags: ["octopus", "cephalopods", "vision", "photoreceptors", "marine biology"],
+  editorsPick: true,
 },
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -5053,6 +5050,7 @@ export const articles: Article[] = [
     readTime: 12,
     featured: false,
     tags: ["telescopes", "light travel time", "james webb", "cosmology", "redshift"],
+  editorsPick: true,
   },
 
   // ─────────────────────────────────────────────
@@ -5951,6 +5949,7 @@ export const articles: Article[] = [
     readTime: 8,
     author: authors[0],
     featured: false,
+    editorsPick: true,
   },
 
   // ============================================================
@@ -6533,6 +6532,7 @@ export const articles: Article[] = [
     readTime: 8,
     author: authors[0],
     featured: false,
+    editorsPick: true
   },
   {
     id: "ai-art-generators-dragon-mechanism-explained",
@@ -6848,6 +6848,7 @@ export const articles: Article[] = [
   tags: ["Fermi paradox", "SETI", "extraterrestrial life", "Drake equation", "astronomy"],
   readTime: 9,
   featured: false,
+  editorsPick: true,
 },
 
 {
@@ -7819,11 +7820,12 @@ export function getFeaturedArticles(): Article[] {
 export function getEditorsPickArticles(limit = 6): Article[] {
   const curatedEditorsPickSlugs = [
     "why-paper-cuts-hurt-more-than-larger-wounds-nerve-density",
-    "dark-matter-mystery-what-we-know",
-    "artemis-iii-update-nasa-2026-moon-landing",
+    "fermi-paradox-solutions-explained",
+    "holding-breath-4-minutes-body-effects",
+    "incognito-mode-doesnt-hide-you-online-privacy",
     "placebo-effect-brain-chemistry-science-healing",
-    "2026-rise-of-agentic-ai-autonomous-agents-automation",
-    "13-engineering-problems-mars-colonisation-harder-than-told",
+    "why-all-telescopes-are-time-machines-light-travel-time",
+    "how-octopuses-see-colour-despite-being-colourblind-skin-photoreceptor-discovery",
   ];
 
   const curatedArticles = curatedEditorsPickSlugs
