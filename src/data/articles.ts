@@ -7817,7 +7817,7 @@ export function getFeaturedArticles(): Article[] {
   return sortArticlesByPublishedAt(articles.filter((article) => article.featured));
 }
 
-export function getEditorsPickArticles(limit = 7): Article[] {
+export function getEditorsPickArticles(limit = 8): Article[] {
   const curatedEditorsPickSlugs = [
     "why-paper-cuts-hurt-more-than-larger-wounds-nerve-density",
     "fermi-paradox-solutions-explained",
