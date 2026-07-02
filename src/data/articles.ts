@@ -1137,7 +1137,6 @@ export const articles: Article[] = [
     publishedAt: "2026-02-22",
     readTime: 8,
     featured: false,
-    editorsPick: true,
     tags: [
       "Placebo Effect",
       "Neuroscience",
@@ -7817,13 +7816,12 @@ export function getFeaturedArticles(): Article[] {
   return sortArticlesByPublishedAt(articles.filter((article) => article.featured));
 }
 
-export function getEditorsPickArticles(limit = 8): Article[] {
+export function getEditorsPickArticles(limit = 6): Article[] {
   const curatedEditorsPickSlugs = [
     "why-paper-cuts-hurt-more-than-larger-wounds-nerve-density",
     "fermi-paradox-solutions-explained",
     "holding-breath-4-minutes-body-effects",
     "incognito-mode-doesnt-hide-you-online-privacy",
-    "placebo-effect-brain-chemistry-science-healing",
     "why-all-telescopes-are-time-machines-light-travel-time",
     "how-octopuses-see-colour-despite-being-colourblind-skin-photoreceptor-discovery",
   ];
