@@ -7960,7 +7960,7 @@ content: `
     <h3>Do artists and mathematicians use different parts of the brain?</h3>
     <p>Both groups use networks spanning both hemispheres. fMRI studies consistently show complex creative and analytical tasks recruit regions from both sides working together.</p>
   `,
-  coverImage: "/images/covers/left-brain-right-brain-myth-neuroscience.jpg",
+  coverImage: "/images/articles/left-brain-right-brain-myth-neuroscience.jpg",
   category: "science",
   author: authors[0],
   publishedAt: "2026-07-05",
