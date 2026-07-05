@@ -565,4 +565,10 @@
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/left-brain-right-brain-myth-neuroscience</loc>
+  <lastmod>2026-07-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>
