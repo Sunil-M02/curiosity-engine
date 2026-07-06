@@ -7968,6 +7968,136 @@ content: `
   featured: false,
   tags: ["neuroscience", "brain myths", "psychology", "left brain right brain", "lateralization", "Roger Sperry"],
 },
+
+  {
+  id: "why-ai-doesnt-understand-human-laughter",
+  slug: "why-ai-doesnt-understand-human-laughter",
+  title: "AI Still Doesn't Truly Understand Why Humans Laugh",
+  metaTitle: "Why AI Doesn't Truly Understand Human Laughter Yet",
+  excerpt: "Most human laughter isn't about jokes at all, and that's the exact layer of humor current AI models can rank but can't actually grasp.",
+  metaDescription: "AI can score funny captions but still misses why humans really laugh. Most laughter isn't about jokes, it's a social bonding signal AI can't replicate.",
+  content: `
+    <p>AI can now rank which of two New Yorker cartoon captions is funnier with real accuracy. It still doesn't know why you laughed at your friend's text this morning, and that gap is the whole story. Most human laughter has nothing to do with jokes at all, and that's exactly the part large language models can't reach.</p>
+
+    <p>Researcher Robert Provine spent years recording thousands of real conversations and found something that upends the usual assumption: most laughter follows ordinary statements like "I'll see you guys later," not punchlines. Laughter is a social signal first, a joke response second. That single fact reframes what "AI understands humor" would even mean.</p>
+
+    <h2>Why Ranking Jokes Isn't the Same as Understanding Them</h2>
+    <p>Researchers Jack Hessel and colleagues built a benchmark called the New Yorker Caption Contest to test whether models could identify the funnier of two captions and explain the joke. Models perform decently at the ranking task using statistical pattern matching over word choice and structure, which sounds like comprehension but isn't quite the same thing.</p>
+    <p>Where performance drops is explanation and generation. A 2025 benchmark called HumorBench, built by Reuben Narad and colleagues at the University of Wisconsin, found that even strong reasoning models lag well behind humans once a joke requires connecting an incongruity to real-world social consequence rather than surface wordplay. The gap widens further when a chatbot tries actual creative comedy writing rather than ranking someone else's joke, a distinction covered in more depth when comparing <a href="/article/ai-vs-human-creativity-science">AI vs human creativity</a> on open-ended tasks.</p>
+
+    <h2>The Theory That Explains the Gap: Benign Violation</h2>
+    <p>Psychologists Peter McGraw and Caleb Warren developed Benign Violation Theory, which states something is funny only when it's perceived as a violation of some norm and simultaneously safe. A stubbed toe is funny in a cartoon because the viewer knows, at a felt level, that it hurts a little and not a lot.</p>
+    <p>That calibration is embodied. It comes from having a body that can be hurt and a nervous system that tracks how much. Text-only models never had either, so they can learn the pattern of what humans call funny without ever holding the felt sense of "safe enough to laugh at." It's a limitation closely related to how a fixed <a href="/article/what-context-window-actually-means-ai-limit">context window</a> shapes what a model can actually track about a conversation's stakes.</p>
+
+    <h2>What Multimodal Models Actually Learn From Laughter Videos</h2>
+    <p>Datasets like SMILE, built by Lee Hyun and colleagues to pair video with laughter annotations, let models associate visual and audio cues with humor labels. This teaches correlation between facial expression and a laughter tag, not the social function laughter is serving in that moment.</p>
+    <p>Provine's research is the missing piece here. Laughter frequently marks group bonding, easing tension, or signaling agreement, entirely separate from anything resembling a joke. A model trained to detect laughter learns a surface signal disconnected from the social calculation that produced it, the same shallow-pattern trap that shows up whenever an AI reads every word yet misses what it actually means.</p>
+
+    <h2>Why Chatbots Sound Funnier Than They Are</h2>
+    <p>Large language models are trained on enormous volumes of human-written jokes, sitcom scripts, and comedy writing, so they reproduce comedic structure fluently: setup, misdirection, punchline. Fluent structure reads as competence, which is why a chatbot's one-liner can land better than its actual comprehension would predict.</p>
+    <p>This is the same mechanism behind AI <a href="/article/why-ai-language-models-confidently-state-false-facts-mechanism">confidently stating wrong facts</a> as if they were certain: pattern fluency outrunning grounded understanding. The model has seen thousands of examples of the shape of a joke without ever needing to feel why the shape works on a person.</p>
+
+    <h2>Where Current Research Draws the Line</h2>
+    <p>A 2023 study by Yuyan Chen and colleagues testing pre-trained language models on humor recognition across languages found consistent weakness on culturally embedded jokes that depend on shared, unstated context between speakers, exactly the kind of context a model has never lived inside.</p>
+    <p>As of 2026, no published benchmark has closed this gap for generation, only for recognition and ranking. Researchers surveying the field describe humor as one of the more durable tests of whether a model has real-world grounding rather than pure text prediction, and it belongs on any honest rundown of <a href="/article/7-things-ai-cannot-do-in-2026">things AI still cannot do</a>.</p>
+
+    <h2>What This Means for How You Use AI Right Now</h2>
+    <p>If a chatbot's joke lands, it's reflecting patterns from millions of writers back at you, not tracking your specific social context the way a friend would. That's fine for lightweight banter and genuinely useful for brainstorming variations on a pun. It's a poor substitute for reading whether a joke will actually hurt someone at the table.</p>
+    <p>The practical test: ask whether the humor requires knowing your specific relationships, timing, or shared history. If yes, that's precisely where current models are weakest, regardless of how confident the output sounds. A model can imitate the shape of an inside joke, but it can't feel the years of shared context that make one land.</p>
+    <p>This matters more as chatbots get folded into group chats, customer service, and casual daily use. The failure mode isn't a bad joke, it's a joke that misjudges the room because there was never a room to read in the first place.</p>
+
+    <h2>Conclusion</h2>
+    <p>The question was never really whether AI can tell a joke. It's whether anything without a body, a stake in being embarrassed, or a history of laughing with specific people can ever fully model why we laugh at all, or whether humor stays one of the last things language alone can't teach.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <h3>Can AI understand jokes?</h3>
+    <p>AI can rank and reproduce comedic structure with real accuracy, but research on Benign Violation Theory suggests true understanding requires embodied context current models don't have.</p>
+    <h3>Why is most human laughter not about jokes?</h3>
+    <p>Researcher Robert Provine's conversation studies found most laughter follows ordinary statements, functioning as a social bonding signal rather than a response to humor.</p>
+    <h3>What is Benign Violation Theory?</h3>
+    <p>It's the idea, from psychologists Peter McGraw and Caleb Warren, that something is funny only when perceived as both a norm violation and safe at the same time.</p>
+    <h3>Do AI chatbots actually get why something is funny?</h3>
+    <p>Not reliably. Studies like HumorBench show models can rank humor but struggle to explain or generate jokes requiring social or cultural context.</p>
+    <h3>Why do AI jokes sometimes fall flat?</h3>
+    <p>Models learn the surface structure of jokes from training data without the embodied sense of what makes a violation feel safe rather than genuinely upsetting.</p>
+    <h3>Is this the same reason AI states wrong facts confidently?</h3>
+    <p>Yes, both stem from fluent pattern reproduction outrunning grounded understanding of what the pattern actually means.</p>
+  `,
+  coverImage: "/images/articles/why-ai-doesnt-understand-human-laughter.jpg",
+  category: "artificial-intelligence",
+  author: authors[0],
+  publishedAt: "2026-07-06",
+  readTime: 6,
+  featured: false,
+  tags: ["artificial intelligence", "humor", "psychology", "LLM limitations", "machine learning"],
+},
+
+{
+  id: "history-textbook-lies-myths-debunked",
+  slug: "history-textbook-lies-myths-debunked",
+  title: "The 10 Biggest Lies History Textbooks Still Tell (And What Really Happened)",
+  metaTitle: "10 Biggest History Textbook Lies, Finally Debunked",
+  excerpt: "Napoleon's height, Marie Antoinette's most famous quote, and Einstein's grades are all wrong in the same predictable way. Here's what actually happened.",
+  metaDescription: "Napoleon wasn't short, Vikings wore no horns, Einstein never failed math. Ten history textbook lies historians have finally debunked, with real evidence.",
+  content: `
+    <p>Marie Antoinette never said "let them eat cake." Napoleon wasn't short. Medieval Europeans didn't think the Earth was flat. Textbooks and pop culture keep repeating these anyway, and once you see how each myth actually started, you start noticing the same pattern everywhere history gets taught: a good story outran a boring correction.</p>
+
+    <h2>1. Marie Antoinette Never Said "Let Them Eat Cake"</h2>
+    <p>The line first appears in philosopher Jean-Jacques Rousseau's 1765 memoir Confessions, attributed to an unnamed "great princess," years before Marie Antoinette even arrived in France as a teenager. Historians now believe the quote more plausibly traces to Maria Theresa, wife of Louis XIV, who lived roughly a century earlier. The attribution to Antoinette hardened only after her execution, when revolutionary propaganda needed a villain who embodied royal indifference to hunger.</p>
+
+    <h2>2. Napoleon Wasn't Actually Short</h2>
+    <p>Napoleon Bonaparte stood about 5 feet 7 inches by modern measurement, roughly average height for a Frenchman of his era. The myth comes from a unit mix-up: his height was recorded in French inches, which run longer than English ones, and British cartoonist James Gillray's caricatures exaggerated the "short tyrant" image for wartime propaganda during the Napoleonic Wars. The nickname stuck decades after the measurement error was corrected by historians.</p>
+
+    <h2>3. Medieval Europeans Didn't Believe in a Flat Earth</h2>
+    <p>Historian Jeffrey Burton Russell traced this myth to 19th-century author Washington Irving, whose fictionalized Columbus biography invented a scene of church scholars insisting the Earth was flat. Educated Europeans had accepted a spherical Earth since Greek astronomer Eratosthenes calculated its circumference around 240 BCE using shadow measurements between two cities. Medieval debates about Columbus concerned the size of the ocean, not the shape of the planet, a distinction as old as the ancient world's own reckoning with <a href="/article/zero-most-dangerous-idea-in-history-10000-years">the most dangerous idea</a> in mathematics, zero.</p>
+
+    <h2>4. Vikings Never Wore Horned Helmets</h2>
+    <p>Every surviving Viking-age helmet, including the well-preserved Gjermundbu helmet found in Norway, shows no horns whatsoever, and archaeologists have found no evidence Norse warriors ever wore them in battle. The image originated with 19th-century costume designer Carl Emil Doepler, who added horns to Viking costumes for an 1876 production of Wagner's Ring Cycle. Opera audiences loved the visual drama, and it fossilized into the default Viking image within a single generation.</p>
+
+    <h2>5. Einstein Never Failed Math</h2>
+    <p>Albert Einstein's actual school records show top marks in mathematics and physics throughout his education, well above the required standard. The myth likely grew from a misunderstanding of the Swiss grading scale he used at one school, where a 6 meant excellent and a 1 meant poor, the reverse of systems many people assumed applied across Europe. Einstein reportedly found the rumor amusing enough to joke about it later in life.</p>
+
+    <h2>6. The Emancipation Proclamation Didn't Free Everyone</h2>
+    <p>Abraham Lincoln's 1863 proclamation applied only to enslaved people in Confederate states actively in rebellion against the Union. It did not free enslaved people in border states like Kentucky, Missouri, Maryland, and Delaware, where slavery remained fully legal under federal law. Full abolition across the United States didn't arrive until the 13th Amendment passed in December 1865, nearly three years after the proclamation.</p>
+
+    <h2>7. George Washington's Teeth Weren't Wooden</h2>
+    <p>Washington's dentures were made from a combination of human teeth, cow and hippopotamus ivory, and metal wiring, a standard construction method for wealthy patients of the era. Mount Vernon's own historical dental records confirm this material breakdown in detail. The wood myth likely began because ivory discolors and stains with age, taking on a grain-like appearance that resembles timber to a casual observer, the same kind of visual misreading that clouds <a href="/article/lost-library-of-alexandria-what-we-really-lost">what we actually lost</a> when the Library of Alexandria burned.</p>
+
+    <h2>8. The Great Wall of China Isn't Visible From Space With the Naked Eye</h2>
+    <p>Multiple astronauts, including China's own Yang Liwei in 2003, have confirmed the wall isn't distinguishable from low Earth orbit without magnification, since its width is comparable to a highway and its color blends into surrounding terrain. The claim likely spread because the Wall genuinely is one of the more remarkable feats of pre-modern engineering, a category that includes plenty of <a href="/article/ancient-technologies-surprisingly-advanced-engineering">ancient technology</a> that was surprisingly advanced for its time.</p>
+
+    <h2>9. Ergot Poisoning Didn't Cause the Salem Witch Trials</h2>
+    <p>A 1976 theory by psychologist Linnda Caporael proposed that hallucinogenic ergot fungus growing on rye bread caused the 1692 accusations in Salem Village. Historian Mary Beth Norton, author of In the Devil's Snare, and other scholars have since rejected this explanation, pointing out it doesn't account for the specific pattern of who was accused or the social and political tensions actually driving the crisis, the same kind of oversimplified villain that shows up whenever <a href="/article/history-of-pandemics-that-shaped-human-evolution">plagues that shaped history</a> get flattened into a single tidy cause.</p>
+
+    <h2>10. Medieval People Didn't Typically Die at 30</h2>
+    <p>The often-cited "average lifespan of 30" is skewed heavily by high infant and child mortality, not by adults dying young across the board. Demographic research on medieval England shows a person who survived to age 21 could expect to live into their sixties, sometimes beyond. It's a statistical distortion that shows up constantly whenever raw historical averages get quoted without context, the same trap that muddies popular retellings of <a href="/article/titanic-sinking-causes-beyond-iceberg">disasters like the Titanic</a>.</p>
+
+    <h2>Conclusion</h2>
+    <p>Every myth on this list survived because it was simpler, funnier, or more useful to someone than the truth. That's not a flaw unique to history class, it's how any story spreads once it stops needing to be checked against a source. The real skill isn't memorizing corrections, it's noticing when an explanation feels a little too tidy.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <h3>Did Marie Antoinette really say "let them eat cake"?</h3>
+    <p>No. The quote appears in Rousseau's Confessions years before she arrived in France and was retroactively attached to her after her execution.</p>
+    <h3>Was Napoleon actually short?</h3>
+    <p>No, he stood about 5 feet 7 inches, average for the period. The myth came from a French-to-English inch conversion error and British wartime propaganda.</p>
+    <h3>Did medieval people believe the Earth was flat?</h3>
+    <p>No. Educated Europeans had accepted a spherical Earth since ancient Greek astronomers calculated its circumference around 240 BCE.</p>
+    <h3>Did Vikings really wear horned helmets?</h3>
+    <p>No surviving Viking helmet has horns. The image was invented by a 19th-century opera costume designer for a Wagner production.</p>
+    <h3>Did the Emancipation Proclamation free all enslaved people?</h3>
+    <p>No, it only applied to Confederate states in rebellion. Slavery remained legal in Union border states until the 13th Amendment in 1865.</p>
+    <h3>Can the Great Wall of China be seen from space?</h3>
+    <p>Not with the naked eye. Astronauts, including China's Yang Liwei, have confirmed it isn't distinguishable from low Earth orbit without magnification.</p>
+  `,
+  coverImage: "/images/articles/history-textbook-lies-myths-debunked.jpg",
+  category: "history",
+  author: authors[0],
+  publishedAt: "2026-07-06",
+  readTime: 6,
+  featured: false,
+  tags: ["history", "myths", "misconceptions", "education", "historical facts"],
+},
+  
   
 ];
 
