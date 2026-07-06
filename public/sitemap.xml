@@ -571,4 +571,16 @@
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/why-ai-doesnt-understand-human-laughter</loc>
+  <lastmod>2026-07-06</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/history-textbook-lies-myths-debunked</loc>
+  <lastmod>2026-07-06</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>
