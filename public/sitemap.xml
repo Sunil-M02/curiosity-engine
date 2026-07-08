@@ -595,4 +595,16 @@
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/big-bang-explosion-myth-space-expansion</loc>
+  <lastmod>2026-07-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/why-certainty-feels-strongest-knowing-least</loc>
+  <lastmod>2026-07-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>
