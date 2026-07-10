@@ -8565,7 +8565,7 @@ content: `
   publishedAt: "2026-07-10", // TODO: replace with actual publish date
   readTime: 7,
   featured: false,
-  tags: ["Iron Pillar of Delhi", "ancient metallurgy", "rust resistance", "wrought iron", "Gupta empire", "corrosion science", "ancient Indian technology", "materials science],
+  tags: ["Iron Pillar of Delhi", "ancient metallurgy", "rust resistance", "wrought iron", "Gupta empire", "corrosion science", "ancient Indian technology", "materials science"],
 },
 
   {
