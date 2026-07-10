@@ -8485,14 +8485,12 @@ content: `
 },
 
 {
-  id: 0, // TODO: verify against current max id
+  id: "iron-pillar-delhi-rust-resistance-explained", // TODO: verify against current max id
   slug: "iron-pillar-delhi-rust-resistance-explained",
   title: "1,600-Year-Old Iron Pillar That Still Refuses to Rust",
-  
   excerpt: "IIT Kanpur cracked the 1,600-year mystery behind Delhi's rust-free Iron Pillar, and the answer has nothing to do with ancient magic.",
   metaTitle: "Iron Pillar of Delhi: Why 1,600 Years Brought No Rust",
   metaDescription: "Delhi's 1,600-year-old Iron Pillar has never rusted despite monsoons. IIT Kanpur scientists found the real reason: a hidden phosphorus shield, not magic.",
-  
   content: `
 <p>The Iron Pillar of Delhi has stood in the Qutb complex for over 1,600 years without a single patch of rust. Metallurgists at IIT Kanpur traced the reason to phosphorus, not magic. The pillar's wrought iron holds close to 1% phosphorus, far more than the iron used in most modern construction.</p>
 
@@ -8561,24 +8559,17 @@ content: `
 <p>Only partly. Dry climate helps the protective layer stabilize, but iron without high phosphorus still rusts in dry conditions elsewhere, so climate supports the effect rather than causing it.</p>
   `,
 
-  coverImage: "/images/covers/iron-pillar-delhi-rust-resistance-explained.jpg", // TODO: create and upload
+  coverImage: "/images/articles/iron-pillar-delhi-rust-resistance-explained.jpg", // TODO: create and upload
   category: "history", // TODO: verify casing against live array
   author: authors[0],
   publishedAt: "2026-07-10", // TODO: replace with actual publish date
   readTime: 7,
   featured: false,
-  tags: ["Iron Pillar of Delhi",
-  "ancient metallurgy",
-  "rust resistance",
-  "wrought iron",
-  "Gupta empire",
-  "corrosion science",
-  "ancient Indian technology",
-  "materials science"],
+  tags: ["Iron Pillar of Delhi", "ancient metallurgy", "rust resistance", "wrought iron", "Gupta empire", "corrosion science", "ancient Indian technology", "materials science],
 },
 
   {
-  id: 0, // TODO: verify against current max id
+  id: "india-population-ai-training-data", // TODO: verify against current max id
   slug: "india-population-ai-training-data",
   title: "India's Massive Population Is Quietly Reshaping the Future of AI Training Data",
   excerpt: "India has 1.4 billion people and 22 languages most AI models barely understand. Here's how that gap is being closed, and why it matters globally.",
@@ -8647,20 +8638,13 @@ content: `
 <h3>Does more training data alone fix AI performance in Indian languages?</h3>
 <p>No. Data volume matters, but compute access, evaluation benchmarks, and human review all have to scale together, which is why India's AI Mission is investing in GPUs alongside language datasets.</p>
   `,
-coverImage: "/images/covers/india-population-ai-training-data.jpg",
+coverImage: "/images/articles/india-population-ai-training-data.jpg",
 category: "artificial-intelligence",
   publishedAt: "2026-07-10",
    author: authors[0], 
   readTime: 7,
   featured: false,
-  tags: [""AI training data",
-  "India AI",
-  "low-resource languages",
-  "Bhashini",
-  "AI4Bharat",
-  "Sarvam AI",
-  "multilingual AI",
-  "India AI Mission"], 
+  tags: ["AI training data", "India AI", "low-resource languages", "Bhashini", "AI4Bharat", "Sarvam AI", "multilingual AI", "India AI Mission"], 
 },
   
 ];
