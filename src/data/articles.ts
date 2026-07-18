@@ -9024,6 +9024,202 @@ category: "artificial-intelligence",
   featured: false,
   tags: ["Psychology", "Cognitive Bias", "Halo Effect", "Social Psychology", "Perception"] // TODO Sunil: verify tag casing/taxonomy
 },
+
+{
+  id: "crying-movies-emotional-intelligence-science",
+  slug: "crying-movies-emotional-intelligence-science",
+  title: "Crying at Films Is a Sign of High Emotional Intelligence, Not Weakness",
+  metaTitle: "Why Crying at Movies Signals Emotional Intelligence",
+  excerpt: "New research reveals what actually happens in your brain during a tearjerker, and why crying says more about empathy than most articles claim.",
+  metaDescription: "Crying at movies isn't oversensitivity. Tilburg University research links real tears to empathy, oxytocin surges, and true emotional intelligence today.",
+  content: `
+<p>Crying during a film is not a loss of control. It is a measurable neurological and hormonal response tied to empathy, social bonding, and emotional regulation, three core pillars of emotional intelligence. Research from Tilburg University shows criers process emotional information more deeply than people who stay dry eyed.</p>
+
+<p>Here is the sentence worth remembering: your tears during a fictional scene are your brain treating an actor's grief as if it happened to someone you actually know.</p>
+
+<p>That reaction is not oversensitivity. It is a highly tuned social alarm system doing exactly what evolution built it to do, and the science behind it is stranger and more specific than the "crying equals empathy" headlines suggest.</p>
+
+<h2>What Happens in Your Brain During a Tearjerker Scene</h2>
+
+<p>When a character on screen breaks down, your brain's mirror neuron system activates as though you were living the moment yourself. These neurons, first documented in macaque monkeys in the early 1990s by neuroscientist Giacomo Rizzolatti's team at the University of Parma, fire both when you act and when you watch someone else act.</p>
+
+<p>Neuroeconomist Paul Zak, who directs the Center for Neuroeconomics Studies at Claremont Graduate University, has measured oxytocin surges in people watching emotionally structured narratives. Zak's research links this hormone to trust, attention, and the drive to help others, which is why a well built story can trigger real tears over people who do not exist.</p>
+
+<p>This is not random <a href="/article/why-you-cant-stop-scrolling-dopamine-loops-brain">brain chemistry</a> noise. It is a coordinated response involving the amygdala, the prefrontal cortex, and the autonomic nervous system, all reacting to a threat or loss cue your brain treats as socially real, even while you know it is fiction.</p>
+
+<h2>The Study Everyone Cites, and What It Actually Measured</h2>
+
+<p>Most articles claiming crying at movies proves high emotional intelligence point to a vague "2016 study" that does not check out under scrutiny. The real, verifiable research is more careful, and more interesting.</p>
+
+<p>In 2015, psychologist Asmir Gračanin and colleagues at Tilburg University, working under longtime crying researcher Ad Vingerhoets, filmed 60 participants watching the tearjerkers La Vita è Bella and Hachi: A Dog's Tale. Twenty eight people cried. Their mood did not improve immediately. It dropped, then recovered to baseline within 90 minutes.</p>
+
+<p>This built on earlier work by Lauren Bylsma, Vingerhoets, and colleagues, published in the Journal of Research in Personality in 2011, which tracked 1,004 real crying episodes and found relief was not automatic. It depended on whether the person felt supported afterward, not on the act of crying itself.</p>
+
+<h2>Why "Crying Means High EQ" Is an Oversimplification</h2>
+
+<p>Emotional intelligence, as defined by psychologist Daniel Goleman, includes self awareness, self regulation, motivation, empathy, and social skill. Crying at a film mainly touches one piece: empathic responsiveness. Reducing it to a single trait score repeats the same flattening that turns real neuroscience into tidy <a href="/article/left-brain-right-brain-myth-neuroscience">brain myths</a>.</p>
+
+<p>A 2023 study in Frontiers in Psychology by Amanda McQuarrie and colleagues at the University of Manitoba found that sensory processing sensitivity, not emotional intelligence broadly, predicted stronger emotional reactions to film clips. People high in this trait felt more, across a wider range of emotions, whether or not they scored higher on empathy measures.</p>
+
+<p>The popular version of this claim strips out that nuance. Crying is one data point about emotional openness. It is not a certificate of high EQ on its own.</p>
+
+<h2>What Non-Criers Are Actually Doing Differently</h2>
+
+<p>Dry eyes during a sad film do not signal coldness. The same 2023 research found that people scoring higher on alexithymia, a difficulty identifying and describing one's own emotions, felt a wider range of feelings while watching films but showed lower scores on other oriented empathy measures.</p>
+
+<p>Neurologist Michael Trimble, author of Why Humans Like to Cry, argues emotional tears likely evolved alongside language and complex social bonding, uniquely in humans. Some people process the same scene cognitively rather than viscerally. They register the sadness without the bodily cascade of tears.</p>
+
+<p>Social conditioning plays a role too. Men report crying less at films on average, not because they feel less, but because expectation shapes the body the same way it does in <a href="/article/nocebo-effect-mind-body-sickness">nocebo effect research</a>, and cultural norms teach suppression early. Suppressing an emotion is different from not having it.</p>
+
+<h2>Suppressing Tears Versus Regulating Them</h2>
+
+<p>Emotional regulation, a genuine component of emotional intelligence, is not the same as suppression. Regulation means feeling an emotion and choosing how to express it. Suppression means blocking the feeling before it surfaces, which research consistently links to higher stress markers and weaker memory for the emotional event.</p>
+
+<p>A person who cries openly at a film and a person who feels the same internal pull but chooses not to cry in a public theater can both be regulating well. The problem is habitual suppression, not the absence of visible tears in one sitting.</p>
+
+<h2>How to Read Your Own Reaction Without Overclaiming It</h2>
+
+<p>If you cry easily at films, it likely means you have strong narrative transportation, the psychological term for how fully you get absorbed into a story. That trait correlates with empathy but is not identical to it, and it says nothing about how you handle conflict outside a dark theater.</p>
+
+<p>If you rarely cry, check whether you still register the sadness cognitively. Feeling the weight of a scene without tears is a different processing style, not a deficit.</p>
+
+<p>No single validated test uses crying frequency alone as a stand-in for emotional intelligence. Articles claiming otherwise oversimplify the same <a href="/article/placebo-effect-brain-chemistry-science-healing">brain chemistry research</a> they cite as proof.</p>
+
+<h2>The Bigger Picture</h2>
+
+<p>Tears at a film are a window into how deeply your brain simulates other minds, not a scoreboard. The honest version of this science, drawn from Tilburg University and decades of crying research, is less flattering than "you're just built different" but more useful.</p>
+
+<p>It tells you something specific about how you process narrative and connection. That is a more grounded takeaway than a tidy compliment, and it holds up better than the casual claims that started this whole conversation.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Does crying at movies mean I have high emotional intelligence?</h3>
+<p>Not on its own. It reflects empathic responsiveness and narrative transportation, which are only two components of the broader emotional intelligence model defined by psychologist Daniel Goleman.</p>
+
+<h3>Why do some people never cry during sad movies?</h3>
+<p>Research on alexithymia and sensory processing sensitivity shows some people process film sadness cognitively rather than physically. This is a different processing style, not reduced empathy.</p>
+
+<h3>Does crying during a movie actually make you feel better?</h3>
+<p>Not immediately. A 2015 Tilburg University study found mood dipped right after crying and only returned to baseline about 90 minutes later.</p>
+
+<h3>Is it true men cry less at films than women?</h3>
+<p>Self reported crying frequency is generally lower in men, but researchers attribute much of the gap to social conditioning around emotional suppression rather than a biological difference in feeling.</p>
+
+<h3>What part of the brain controls crying at emotional scenes?</h3>
+<p>The mirror neuron system, the amygdala, and the prefrontal cortex coordinate the response, while oxytocin release, studied by neuroeconomist Paul Zak, intensifies feelings of connection to the story.</p>
+
+<h3>Is suppressing tears during a movie unhealthy?</h3>
+<p>Occasional suppression in public is normal. Habitual suppression of emotional responses is linked to higher stress markers, while regulation, feeling the emotion and choosing its expression, is considered healthier.</p>
+  `,
+  coverImage: "/images/articles/crying-movies-emotional-intelligence-science.jpg",
+  category: "science",
+  author: authors[0],
+  publishedAt: "2026-07-18",
+  readTime: 6,
+  featured: false,
+  tags: ["Psychology", "Emotional Intelligence", "Neuroscience", "Crying", "Empathy"],
+},
+
+{
+  id: "autonomous-weapons-ai-target-selection",
+  slug: "autonomous-weapons-ai-target-selection",
+  title: "Weapons That Can Choose Their Own Targets Are No Longer Science Fiction",
+  metaTitle: "Autonomous Weapons That Pick Targets: 2026 Reality",
+  excerpt: "A UN investigation confirmed an autonomous drone hunted human targets years ago. Here is how lethal autonomous weapons actually work today.",
+  metaDescription: "AI weapons already choose targets without a human involved. A UN report confirms Kargu-2 drones did this in Libya, and 2026 treaty talks race to catch up.",
+  content: `
+<p>Weapons that select their own targets without a human pressing the final trigger are already deployed, not decades away. A UN Panel of Experts reported in March 2021 that a Turkish made Kargu-2 drone hunted retreating fighters in Libya using onboard image recognition, with no data link to an operator.</p>
+
+<p>Here is the sentence that should stop you: the machine did not wait for permission because it was built specifically not to need it.</p>
+
+<p>This is the story of how that happened, why more than 120 countries now want it banned, and why the technology outran the treaty meant to control it.</p>
+
+<h2>What Actually Counts as an Autonomous Weapon</h2>
+
+<p>Not every drone strike involves a robot making the kill decision. Cruise missiles and remotely piloted drones still rely on a human choosing the target. Computer scientist Stuart Russell of UC Berkeley draws the legal line precisely: a lethal autonomous weapon locates, selects, and engages a target without human intervention at that final step.</p>
+
+<p>That distinction matters because most headlines blur these two very different categories together carelessly. A Predator drone flown remotely by a pilot sitting in Nevada is not autonomous, even if it flies itself between preset waypoints on the way to the target area.</p>
+
+<p>A Kargu-2 or Israel's Harop, a loitering munition that circles a designated area and destroys radar emitters it identifies entirely on its own, both qualify because the machine, not a person, runs the <a href="/article/2026-rise-of-agentic-ai-autonomous-agents-automation">autonomous decision systems</a> that make the final targeting call.</p>
+
+<h2>The Weapon That Made This Real: Kargu-2 in Libya</h2>
+
+<p>The Kargu-2, built by Turkish defense firm STM, is a compact rotary wing loitering munition designed specifically for tactical strike missions. According to the UN Panel of Experts on Libya, forces aligned with the Government of National Accord used Kargu-2 units against retreating Haftar affiliated fighters in 2020.</p>
+
+<p>The panel's report describes a system "programmed to attack targets without requiring data connectivity between the operator and the munition," what military analysts call a true fire, forget, and find capability.</p>
+
+<p>The report stopped short of confirming a human death from autonomous engagement, but researchers at West Point's Lieber Institute call it the first documented military use of an autonomous weapon against personnel.</p>
+
+<p>By January 2026, Turkish forces had moved well past isolated field use of a single unit. STM conducted a live fire test involving 20 Kargu units operating together as a coordinated swarm, navigating and striking without a centralized human command node during the engagement itself, according to defense industry reporting.</p>
+
+<h2>It Is Not Just One Country's Drone</h2>
+
+<p>Israel's Harop loitering munition can search a designated area for radar signatures, identify a match, and strike without prior intelligence on the exact target location, exposing the same real world <a href="/article/ai-reads-every-word-but-understands-nothing-context-problem">context problem</a> that limits other AI systems.</p>
+
+<p>In the Russia-Ukraine war, waves of Shahed-136 drones have flown autonomous routes into Ukrainian power infrastructure, though as of 2026 human operators still appear to control final strike decisions in most documented cases.</p>
+
+<p>Russia's Marker ground robot entered serial production in 2025 with drone swarm and anti-tank missile capability built in. The pattern is consistent across every major military power: sensor processing and autonomous decision systems are replacing the human in the targeting loop faster than international law can define what should replace it.</p>
+
+<h2>Why the United Nations Has Not Banned This Yet</h2>
+
+<p>The Convention on Certain Conventional Weapons, the treaty body handling this issue since 2014, operates entirely by consensus. Any single member state can block a binding rule. According to arms control researchers, the United States, Russia, India, and Israel have used that veto power for a decade to prevent a treaty from moving forward.</p>
+
+<p>UN Secretary General António Guterres called autonomous weapons "morally repugnant" and set a 2026 deadline for states to conclude a binding instrument. On December 1, 2025, the UN General Assembly adopted a resolution reaffirming that any weapon unable to comply with international humanitarian law must not be used.</p>
+
+<p>Human Rights Watch reports more than 120 countries now back treaty negotiations, but the CCW's consensus rule means that support alone is not enough to pass one.</p>
+
+<h2>The Core Fight: What Counts as "Meaningful Human Control"</h2>
+
+<p>Nearly every state formally agrees weapons need some meaningful <a href="/article/7-things-ai-cannot-do-in-2026">human oversight</a>, given how much current systems still get wrong. Almost none agree on what that oversight should actually look like in practice.</p>
+
+<p>Austria's proposed two tier framework, backed by 27 co-sponsoring states, would prohibit systems that cannot comply with the law of armed conflict and regulate everything else.</p>
+
+<p>The unresolved question is whether a commander approving a target category in advance counts as meaningful control, or whether a human must evaluate each individual strike.</p>
+
+<p>Researchers studying the 1988 USS Vincennes incident, where a naval crew shot down Iran Air Flight 655 after over-trusting an automated targeting system, point to a documented risk: a human "in the loop" can rubber-stamp machine output under time pressure without truly evaluating it.</p>
+
+<h2>What This Means for the Next Few Years</h2>
+
+<p>The CCW's Group of Governmental Experts mandate runs through the Seventh Review Conference in 2026, widely seen as the last realistic chance to launch binding negotiations before individual states simply build and field these systems on their own terms.</p>
+
+<p>If talks stall, existing humanitarian law remains the only constraint, and it was not written with self-targeting weapons in mind.</p>
+
+<p>Military adoption is not waiting for permission. Nations watching Turkey's swarm tests and Russia's Marker production are weighing the same tradeoff: a decisive edge in the <a href="/article/ai-chip-arms-race-nvidia-near-monopoly-hardware">hardware race</a> against a norm that, once broken by a major power, tends to spread to everyone else.</p>
+
+<h2>The Uncomfortable Bottom Line</h2>
+
+<p>This is not a hypothetical about future battlefields. Autonomous target selection has already been used against human beings, documented by UN investigators, defended by the country that built it, and repeated at larger scale five years later.</p>
+
+<p>The treaty meant to prevent this remains stuck in consensus based negotiations while deployment accelerates. Whatever rules eventually emerge will be written after the technology, not before it, and that order of operations should concern anyone who assumed this was still science fiction.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are autonomous weapons actually being used right now?</h3>
+<p>Yes. A UN Panel of Experts documented Kargu-2 drone use against fighters in Libya in 2020, and Turkey conducted a coordinated 20 unit swarm live fire test in January 2026.</p>
+
+<h3>What is the difference between a drone strike and an autonomous weapon?</h3>
+<p>A drone strike typically involves a human operator choosing the target. An autonomous weapon, as defined by researcher Stuart Russell, locates, selects, and engages a target without a human making that final decision.</p>
+
+<h3>Is there an international law banning killer robots?</h3>
+<p>Not yet. The UN Secretary General has called for a binding treaty by 2026, and over 120 countries support negotiations, but the Convention on Certain Conventional Weapons requires consensus, and a handful of states have blocked progress.</p>
+
+<h3>Which countries oppose a treaty on autonomous weapons?</h3>
+<p>Arms control researchers identify the United States, Russia, India, and Israel as the states most consistently blocking consensus on a binding instrument within CCW negotiations.</p>
+
+<h3>What does "meaningful human control" mean in this debate?</h3>
+<p>It refers to how much direct human judgment must occur before a weapon can fire. States disagree on whether approving a target category in advance counts, or whether every individual strike needs live human evaluation.</p>
+
+<h3>Could an autonomous weapon accidentally target the wrong person?</h3>
+<p>Yes, this is a central concern. Researchers point to incidents like the 1988 USS Vincennes shootdown of Iran Air Flight 655 as evidence that automated systems and over-trusting operators can produce fatal misidentification.</p>
+  `,
+  coverImage: "images/articles/autonomous-weapons-ai-target-selection.jpg",
+  category: "artificial-intelligence",
+  author: authors[0],
+  publishedAt: "2026-07-18",
+  readTime: 6",
+  featured: false,
+  tags: ["Autonomous Weapons", "AI Ethics", "Military Technology", "Lethal Autonomous Weapons Systems", "AI Policy"], // TODO: verify casing/taxonomy against live array
+},
   
 ];
 
