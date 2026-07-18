@@ -9212,7 +9212,7 @@ category: "artificial-intelligence",
 <h3>Could an autonomous weapon accidentally target the wrong person?</h3>
 <p>Yes, this is a central concern. Researchers point to incidents like the 1988 USS Vincennes shootdown of Iran Air Flight 655 as evidence that automated systems and over-trusting operators can produce fatal misidentification.</p>
   `,
-  coverImage: "images/articles/autonomous-weapons-ai-target-selection.jpg",
+  coverImage: "/images/articles/autonomous-weapons-ai-target-selection.jpg",
   category: "artificial-intelligence",
   author: authors[0],
   publishedAt: "2026-07-18",
