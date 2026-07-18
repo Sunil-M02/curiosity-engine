@@ -649,4 +649,16 @@
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/crying-movies-emotional-intelligence-science</loc>
+  <lastmod>2026-07-18</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/autonomous-weapons-ai-target-selection</loc>
+  <lastmod>2026-07-18</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
 </urlset>
