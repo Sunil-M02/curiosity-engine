@@ -8937,7 +8937,7 @@ category: "artificial-intelligence",
   publishedAt: "2026-07-16", // TODO Sunil: set actual publish date
   readTime: 6,
   featured: false,
-  tags: ["Astronomy", "Black Holes", "Neutron Stars", "Astrophysics", "Space"] // TODO Sunil: verify tag casing/taxonomy
+  tags: ["Astronomy", "Black Holes", "Neutron Stars", "Astrophysics", "Space"], // TODO Sunil: verify tag casing/taxonomy
 },
  
 // ARTICLE 2 — Psychology & Mind
@@ -9016,13 +9016,13 @@ category: "artificial-intelligence",
 <p>Researchers flagged classroom implications, since teachers forming quick impressions of student ability may be especially susceptible, which can shape academic expectations unfairly.</p>
  
   `,
-  coverImage: "/images/articles/attractive-people-judged-smarter-halo-effect.jpg", // TODO Sunil: upload
-  category: "psychology-mind", // TODO Sunil: verify exact casing against live array
+  coverImage: "/images/articles/attractive-people-judged-smarter-halo-effect.jpg", 
+  category: "psychology-mind", 
   author: authors[0],
-  publishedAt: "2026-07-16", // TODO Sunil: set actual publish date
+  publishedAt: "2026-07-16", 
   readTime: 6,
   featured: false,
-  tags: ["Psychology", "Cognitive Bias", "Halo Effect", "Social Psychology", "Perception"] // TODO Sunil: verify tag casing/taxonomy
+  tags: ["Psychology", "Cognitive Bias", "Halo Effect", "Social Psychology", "Perception"], 
 },
 
 {
@@ -9218,7 +9218,7 @@ category: "artificial-intelligence",
   publishedAt: "2026-07-18",
   readTime: 6",
   featured: false,
-  tags: ["Autonomous Weapons", "AI Ethics", "Military Technology", "Lethal Autonomous Weapons Systems", "AI Policy"], // TODO: verify casing/taxonomy against live array
+  tags: ["Autonomous Weapons", "AI Ethics", "Military Technology", "Lethal Autonomous Weapons Systems", "AI Policy"],
 },
   
 ];
