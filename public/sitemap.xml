@@ -661,4 +661,16 @@
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/aryabhata-earth-rotation-calculation</loc>
+  <lastmod>2026-07-19</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/floating-cities-engineering-explained</loc>
+  <lastmod>2026-07-19</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
 </urlset>
