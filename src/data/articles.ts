@@ -9444,6 +9444,172 @@ category: "artificial-intelligence",
   featured: false,
   tags: ["Floating Cities", "Future Innovation", "Climate Adaptation", "Sustainable Architecture", "Ocean Engineering"], // MANUAL: verify casing/taxonomy
 },
+
+{
+  id: 0, // TODO: set to current array max + 1
+  slug: "kavach-technology-indian-railways-safety",
+  title: "The Technology That Keeps One of the World's Largest Railway Systems Moving Every Day",
+  metaTitle: "How Kavach Technology Protects Indian Railways Daily",
+  excerpt: "No dispatcher tracks 25,000 trains by sight. Track circuits, interlocking logic, and Kavach's automatic braking are the layered system that actually keeps Indian Railways collision-free.",
+  metaDescription: "23 million people ride Indian Railways daily. Track circuits, interlocking, and Kavach's auto-braking explain how 25,000 daily trains avoid collisions.",
+  content: `
+
+<p>Indian Railways moves roughly 23 million passengers and runs close to 25,000 trains every single day, more people than the entire population of Australia. No human dispatcher tracks that many trains by sight.</p>
+
+<p>The network stays safe through a layered stack of track circuits, axle counters, interlocking logic, and an indigenous automatic train protection system called Kavach. Most explanations stop at "signals turn red." The real mechanism is a chain of machines checking each other, with humans as the final override rather than the first line of defense.</p>
+
+<h2>Why 25,000 Daily Trains Cannot Run on Human Judgment Alone</h2>
+<p>A loco pilot travelling at 130 km/h covers more than two football fields every second. Reaction time alone makes visual signal-spotting unreliable at that speed, especially in fog across northern India in winter.</p>
+<p>Indian Railways operates over 68,000 route kilometres and 7,325 stations, carrying a record 7.41 billion passenger journeys in the 2025-26 financial year. At that density, safety cannot depend on any single driver noticing a red light in time.</p>
+<p>It has to depend on the track itself reporting where every train sits, continuously, whether or not a human happens to be watching that section at that moment.</p>
+<p><a href="/article/traffic-light-timing-algorithms-400000-signals">Traffic signal networks</a> face a similar coordination problem at road junctions, though with far less at stake if one light mistimes by a second.</p>
+
+<h2>How the Track Reports Every Train's Position in Real Time</h2>
+<p>Track circuits pass a small electric current through the rails of each block section. A train's own axles short that current, and the resulting drop tells the signalling system the block is occupied.</p>
+<p>Newer and busier sections increasingly use axle counters instead. These count wheels entering and leaving a section and flag a mismatch instantly, which matters on long sections where a faint track circuit signal can be unreliable.</p>
+<p>Indian Railways has deployed more than 15,000 axle counters across block and station sections nationwide. Neither device asks a human to confirm anything before the system reacts. The track effectively watches itself.</p>
+
+<h2>Interlocking Makes the Wrong Move Physically Impossible</h2>
+<p>Detecting a train is only half the problem. Interlocking is the logic layer that refuses to set a signal to green if doing so would send two trains into the same section.</p>
+<p>It also blocks a route through any switch that is already committed to a different movement elsewhere on the same station layout. Electronic interlocking has replaced most of the old mechanical lever frames at stations across the network.</p>
+<p>Under the absolute block system, a second train cannot be authorised into a section until the first has cleared it, plus a mandatory overlap of roughly 150 metres. The interlocking does not warn a driver about a conflict. It prevents the conflicting signal from ever showing green.</p>
+<p><a href="/article/how-upi-payments-actually-work">UPI's real-time authentication layer</a> solves a related problem in payments, checking millions of transactions instantly so no two ever claim the same funds.</p>
+
+<h2>Kavach: The Layer That Watches the Driver, Not Just the Track</h2>
+<p>Signals and interlocking still assume the driver reads and obeys every aspect correctly. Kavach, developed indigenously by India's Research Designs and Standards Organisation, closes that specific gap.</p>
+<p>It is built to Safety Integrity Level 4, the same rigor used in nuclear and aviation safety-critical software. Kavach also uses direct radio communication between locomotives, so two trains can detect each other's presence before either driver sees a physical signal.</p>
+<p>If a driver overshoots a stop signal or exceeds the permitted speed, Kavach applies the brakes automatically, without waiting for a manual response. India built this domestically after an earlier attempt to import Europe's ETCS Level 2 stalled over vendor cost, and Kavach now covers more than 3,000 route kilometres.</p>
+
+<h2>What Actually Happens When Two Trains Get Too Close</h2>
+<p>Picture a freight train running late on a single line while a passenger express approaches the same block section from behind schedule pressure. The axle counter reports the block as occupied, and interlocking withholds a clear signal for the express.</p>
+<p>The express driver sees red well before reaching the occupied section. If that driver were to misjudge braking distance and pass the signal anyway, Kavach's onboard unit, already in radio contact with the section ahead, triggers an automatic brake application before human reaction time even becomes a factor.</p>
+<p>Three independent systems, track detection, interlocking, and Kavach, would each have to fail in sequence for a collision to actually occur. That layering, not any single clever device, is what makes operating at this scale survivable.</p>
+<p><a href="/article/hyperscale-data-centres-consuming-more-power-than-countries">Hyperscale data centres</a> face a comparable scaling problem, needing redundant power and cooling layers just to stay online without interruption.</p>
+
+<h2>The Part of the System That Still Depends on People</h2>
+<p>None of this removes humans from the loop entirely. Control room operators still reroute trains manually during disruptions like a signal fault or an unscheduled halt, judgment calls no algorithm currently makes alone.</p>
+<p>Weather adds a variable no sensor fully solves either. Heavy monsoon rain around Mumbai or dense winter fog across the Gangetic plain can cut visibility for drivers and even interfere with radio-based communication between locomotives.</p>
+<p>This is one reason the Kavach rollout has deliberately and visibly prioritised fog-prone, high-density corridors first rather than trying to cover the entire 68,000-kilometre network end to end in a single pass.</p>
+<p>Field staff still inspect track and signalling hardware on fixed schedules, since sensors can fail silently without an eye on the physical equipment itself. Kavach itself is only commissioned on a few thousand of the network's 68,000-plus route kilometres so far.</p>
+<p>Independent safety audits add a further check before any new interlocking or signalling upgrade is allowed to go live on a running section.</p>
+<p>A single software error once triggered <a href="/article/software-error-largest-blackout-us-history">one of the largest blackouts in US history</a>, a reminder that even carefully layered systems share hidden points of failure.</p>
+<p>That means most of the system still relies on trained drivers correctly reading colour-light signals under the older layers of protection alone. Expanding Kavach nationwide is explicitly a multi-year construction and testing programme, not a switch that gets flipped once.</p>
+<p>The everyday experience of catching a train obscures how much silent machinery makes that ride possible. Track circuits, interlocking, and Kavach were each built to compensate for a specific way humans fail: missed signals, misjudged distances, delayed reactions under pressure.</p>
+<p>As Kavach coverage expands past its current 3,000 route kilometres, the more interesting question isn't whether Indian Railways can keep moving more passengers each year. It's how much redundancy a network this size can keep adding before the next layer runs into a failure mode no machine has been built to catch yet.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What is Kavach in Indian Railways?</h3>
+<p>Kavach is an indigenous automatic train protection system that brakes automatically if a driver misses a stop signal or overspeeds. It communicates directly between locomotives over radio, adding a safety layer independent of the driver.</p>
+
+<h3>How does Indian Railways prevent train collisions?</h3>
+<p>Three layered systems handle it: track circuits or axle counters detect a train's position, interlocking blocks conflicting signals, and Kavach intervenes if a driver still misses one. Each layer catches failures in the one before it.</p>
+
+<h3>What is the difference between a track circuit and an axle counter?</h3>
+<p>A track circuit detects a train through its axles interrupting current in the rails. An axle counter counts wheels entering and leaving a section instead, making it more reliable on longer sections.</p>
+
+<h3>Why did India build Kavach instead of using Europe's ETCS system?</h3>
+<p>Indian Railways initially planned Europe's ETCS Level 2 on pilot routes, but the project stalled over high vendor costs. Railways then developed Kavach domestically through RDSO as a cheaper, India-specific alternative.</p>
+
+<h3>How many trains does Indian Railways run every day?</h3>
+<p>Indian Railways runs close to 25,000 trains daily across more than 68,000 route kilometres, carrying a record 7.41 billion passenger journeys in 2025-26.</p>
+
+<h3>Is Kavach available across the entire Indian Railways network?</h3>
+<p>No. As of 2025-26, Kavach covers a little over 3,000 route kilometres, a small fraction of the total network, with expansion planned as a multi-year programme.</p>
+
+<h3>Can a train collision still happen despite these systems?</h3>
+<p>It remains possible if multiple layers fail at once, or where Kavach isn't yet installed and a driver misreads a signal. Railways treats each incident as grounds for adding redundancy, not proof the approach failed.</p>
+  `,
+  coverImage: "/images/articles/kavach-technology-indian-railways-safety.jpg", // TODO: upload cover image
+  category: "technology", // TODO: verify exact casing against live category array
+  author: authors[0],
+  publishedAt: "2026-07-21", // TODO: set actual publish date
+  readTime: 7,
+  featured: false,
+  tags: ["Indian Railways", "Kavach", "Railway Safety", "Transportation Technology", "Signalling Systems"], // TODO: verify casing/taxonomy against live tags array
+},
+
+// ---------- ARTICLE 2: Psychology & Mind ----------
+
+{
+  id: 0, // TODO: set to current array max + 1
+  slug: "illusion-of-explanatory-depth-explained",
+  title: "The More You Know, the Harder It Becomes to Explain Simple Things",
+  metaTitle: "Illusion of Explanatory Depth: Why Knowledge Backfires",
+  excerpt: "Confidence about how something works collapses the moment you're asked to actually explain it. Yale's Rozenblit and Keil traced why understanding and explaining are separate skills.",
+  metaDescription: "You can ride a bicycle every day but likely still can't explain exactly how it balances. A 2002 Yale study shows why knowing more makes explaining harder.",
+  content: `
+
+<p>You can ride a bicycle without falling. Ask yourself why it doesn't tip over, and the confident answer most people give turns out to be wrong. Psychologists call this gap the illusion of explanatory depth, and it gets worse, not better, the more someone actually knows about a topic.</p>
+<p>Yale researchers Leonid Rozenblit and Frank Keil first measured it in 2002 using everyday mechanical objects. Their finding still holds: understanding something well enough to use it and understanding it well enough to explain it are two different skills, and most people confuse the first for the second.</p>
+
+<h2>Why You Can Ride a Bike but Can't Explain How It Balances</h2>
+<p>Ask someone to rate, on a scale of one to seven, how well they understand how a bicycle stays upright. Most people confidently answer five or six before they've said a single sentence about it.</p>
+<p>Then ask them to actually write out the mechanism, step by step, the way they'd explain it to a curious ten-year-old. Rozenblit and Keil found that self-rated understanding drops sharply right after this attempt, for zippers, toilets, and cylinder locks as much as bicycles.</p>
+<p>Nothing about the bicycle changed between the two questions. What changed was the person's access to their own ignorance, which the act of explaining suddenly exposed.</p>
+<p>The <a href="The <a href="/article/dunning-kruger-effect-confidence-psychology">Dunning-Kruger effect</a> describes a related but different pattern, where people with the least skill at something are often the most confident of all.">Dunning-Kruger effect describes a related but different pattern, where people with the least skill at something are often the most confident of all.</a></p>
+
+<h2>The Study That Proves Confidence Collapses the Moment You Try</h2>
+<p>Rozenblit and Keil ran this pattern across dozens of household devices participants used daily. Ratings of understanding were consistently high before an explanation attempt and consistently lower afterward, across nearly every device tested.</p>
+<p>Critically, the drop didn't happen when people were asked to simply recall a fact, or list the object's parts. It only appeared when they had to trace the causal chain: what pushes what, in what order, to produce the outcome.</p>
+<p>That distinction matters. Familiarity with an object's name and appearance builds a false sense of mechanistic understanding, and only the act of tracing cause and effect reveals the difference.</p>
+
+<h2>The Curse of Knowledge: Once You Know, You Can't Unknow</h2>
+<p>A related effect explains why experts often struggle to teach. Stanford researcher Elizabeth Newton ran a study in 1990 where "tappers" tapped out the rhythm of a well-known song and "listeners" tried to name it.</p>
+<p>Tappers predicted listeners would guess correctly about half the time. The actual success rate was roughly 2.5 percent. Tappers could hear the melody clearly in their own heads, so the silence on the listener's end felt inexplicable to them.</p>
+<p>Economists Colin Camerer, George Loewenstein, and Martin Weber named this the curse of knowledge in 1989. Once you know something, it becomes strikingly hard to reconstruct what it felt like not to know it.</p>
+<p><a href="<a href="/article/confirmation-bias-news-feed-psychology">Confirmation bias</a> runs on a similar blind spot">Confirmation bias runs on a similar blind spot</a>, filtering new information through what someone already believes is obviously true.</p>
+
+<h2>Why This Isn't the Same as the Dunning-Kruger Effect</h2>
+<p>It's tempting to lump this together with simple overconfidence, but the two describe different failures. Dunning-Kruger, from Justin Kruger and David Dunning's 1999 Cornell study, is about incompetent people overrating their skill because they lack the competence to spot their own errors.</p>
+<p>The illusion of explanatory depth is different. It shows up in people who genuinely do understand a topic reasonably well, not just the unskilled. Genuine competence at using something is simply a poor predictor of competence at explaining it causally.</p>
+<p>That's a sharper and, frankly, more useful distinction than the confidence-versus-knowledge framing most summaries default to.</p>
+
+<h2>Why Real Experts Make the Worst Teachers Sometimes</h2>
+<p>Organizational researcher Pamela Hinds tested this directly in 1999. She asked people with varying levels of expertise to predict how long a novice would take to complete an unfamiliar task.</p>
+<p>Experts consistently underestimated how long novices would need, more so than intermediate users did, and this bias persisted even after Hinds tried several methods to correct it. Expertise itself seemed to be the obstacle, not a lack of trying.</p>
+<p>The likely reason is that experts have compressed years of small steps into a single fluent motion, and reconstructing those steps for someone else takes deliberate, uncomfortable effort.</p>
+<p><a href="<a href="/article/why-ai-language-models-confidently-state-false-facts-mechanism">Large language models</a> run into a version of this too">Large language models run into a version of this too</a>, stating incorrect answers with the same fluent confidence as correct ones, since fluency and accuracy get generated by different parts of the process.</p>
+
+<h2>A Two-Minute Test That Exposes Your Own Blind Spots</h2>
+<p>Pick anything at all you'd say you understand well: how a refrigerator cools, how interest compounds, how your own job actually works day to day. Rate your understanding from one to seven before you start.</p>
+<p>Then write a plain explanation for a bright, patient twelve-year-old, out loud or on paper, without skipping any step just because it "obviously" follows from the one before it. Most people stall within the first three steps of trying.</p>
+<p>Try it right now with something ordinary and familiar, like why bread rises or why ice floats on water. Most people reach for a single word like yeast or density and stop there immediately, mistaking the label itself for the actual underlying mechanism.</p>
+<p>The stall usually happens at the exact step that felt most obvious a minute earlier, which is precisely why the gap goes unnoticed until someone finally forces the explanation out loud, word by word, in front of another person.</p>
+<p><a href="<a href="/article/why-certainty-feels-strongest-knowing-least">Certainty about a topic</a> often feels strongest">Certainty about a topic often feels strongest</a> exactly when someone's grasp of the underlying mechanism is weakest, a related pattern worth noticing in yourself before you notice it in anyone else.</p>
+<p>That stall point is the real measure of understanding, not the confident number you gave at the start. Teachers call this the Feynman technique, though Rozenblit and Keil's data is what actually explains why it works.</p>
+<p>None of this means expertise is fake or that confident people are lying to themselves on purpose. It means fluent use of knowledge and the ability to explain that knowledge causally are stored and tested differently by the brain.</p>
+<p>The next time you feel certain you understand something, try explaining it to someone with zero context before you trust that certainty. The gap you find there is usually the most interesting part of what you actually know.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What is the illusion of explanatory depth?</h3>
+<p>It's the tendency to overestimate how well you understand something until you're asked to explain the mechanism step by step. Confidence typically drops once you actually attempt the explanation.</p>
+
+<h3>Who discovered the illusion of explanatory depth?</h3>
+<p>Yale psychologists Leonid Rozenblit and Frank Keil documented it in a 2002 study using everyday objects like bicycles, zippers, and toilets. Their finding is still the reference point for this research area.</p>
+
+<h3>Is the illusion of explanatory depth the same as the Dunning-Kruger effect?</h3>
+<p>No. Dunning-Kruger involves unskilled people overrating their ability, while the illusion of explanatory depth shows up even in people who understand a topic reasonably well by ordinary standards.</p>
+
+<h3>What is the curse of knowledge?</h3>
+<p>It's the difficulty experts have imagining what it's like not to know something they already understand well. Economists Colin Camerer, George Loewenstein, and Martin Weber named the concept in 1989.</p>
+
+<h3>Why do experts sometimes explain things poorly?</h3>
+<p>Research by Pamela Hinds found experts consistently underestimate how long novices need to learn a task, likely because expertise compresses many small steps into one fluent, hard-to-unpack motion.</p>
+
+<h3>How can I test my own understanding of something?</h3>
+<p>Try explaining it in plain language to someone with no background knowledge, without skipping steps that feel obvious. Where you get stuck is usually where your real understanding ends.</p>
+
+<h3>Does this illusion apply to abstract ideas or only physical objects?</h3>
+<p>Rozenblit and Keil tested mechanical devices, but later research extended the pattern to policies, procedures, and abstract systems. The same gap between using and explaining shows up in each case.</p>
+  `,
+  coverImage: "/images/articles/illusion-of-explanatory-depth-explained.jpg", // TODO: upload cover image
+  category: "psychology-mind", // TODO: verify exact casing against live category array
+  author: authors[0],
+  publishedAt: "2026-07-21", // TODO: set actual publish date
+  readTime: 6,
+  featured: false,
+  tags: ["Psychology", "Cognitive Bias", "Illusion of Explanatory Depth", "Curse of Knowledge", "Dunning-Kruger Effect"], // TODO: verify casing/taxonomy against live tags array
+},
   
 ];
 
