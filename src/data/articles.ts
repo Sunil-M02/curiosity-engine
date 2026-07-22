@@ -9610,6 +9610,148 @@ category: "artificial-intelligence",
   featured: false,
   tags: ["Psychology", "Cognitive Bias", "Illusion of Explanatory Depth", "Curse of Knowledge", "Dunning-Kruger Effect"], // TODO: verify casing/taxonomy against live tags array
 },
+  {
+  id: 999, // MANUAL: set against current array max
+  slug: "radio-telescope-reveals-hidden-galaxies-dust",
+  title: "The Radio Telescope That Can See Galaxies Invisible to Optical Telescopes",
+  metaTitle: "Radio Telescopes Reveal Galaxies Hidden From Optical", // 52 chars
+  excerpt: "About half of the universe's starlight never reaches an optical lens. Radio astronomy is how scientists are finally mapping the galaxies dust hides.",
+  metaDescription: "A single radio telescope reveals galaxies completely invisible to Hubble and JWST, hidden behind thick clouds of cosmic dust across the entire universe.", // 152 chars
+  content: `
+    <p>A single radio telescope can find galaxies that Hubble and even the James Webb Space Telescope never see. The reason is dust, not distance. Roughly half the starlight in the universe never escapes its home galaxy, absorbed by clouds of cosmic dust before it reaches any optical lens.</p>
+    <p>Radio waves pass straight through that dust. In 2021, astronomers at the University of Copenhagen used the ALMA radio array in Chile to spot two galaxies sitting beside targets Hubble had already photographed, invisible in every optical image. This isn't a rare glitch. It's a structural blind spot four centuries old.</p>
+
+    <h2>Why Cosmic Dust Blinds Every Optical Telescope</h2>
+    <p>Dust grains scattered through a galaxy absorb short visible wavelengths and re-emit that energy as infrared heat. From an optical telescope's point of view, the light simply vanishes. Astronomers estimate close to half of all starlight in the universe is processed this way before it ever reaches a detector.</p>
+    <p>Pascal Oesch of the Cosmic Dawn Center at the Niels Bohr Institute confirmed this directly in 2021. His team found two galaxies sitting right beside targets the Hubble Space Telescope had already imaged. Both neighbors were completely absent from the optical data, hidden behind their own dust.</p>
+    <p>The missing galaxies weren't faint or distant beyond Hubble's reach. They were bright enough to matter, just wrapped in a wavelength Hubble cannot read. That gap in the record is exactly what radio instruments are built to close.</p>
+
+    <h2>How Radio Waves Slip Through Where Light Cannot</h2>
+    <p>The <a href="/article/james-webb-telescope-discoveries-changing-astronomy">James Webb Space Telescope</a> solves part of this problem by reading infrared light, which passes through dust more easily than visible light. But radio waves go further still. Their wavelengths stretch from centimeters to meters, far larger than the microscopic dust grains that block starlight.</p>
+    <p>Because radio wavelengths dwarf the size of dust particles, the grains barely interact with them. The waves pass through largely undisturbed, arriving at a receiver on Earth as if the dust cloud were never there at all.</p>
+    <p>The Square Kilometre Array Observatory notes that radio telescopes also detect neutral hydrogen gas directly, the raw material stars are built from, emitting at a specific frequency of 1420 megahertz regardless of how much dust surrounds it.</p>
+
+    <h2>The Square Kilometre Array Is Mapping What Optical Astronomy Missed</h2>
+    <p>Understanding <a href="/article/why-all-telescopes-are-time-machines-light-travel-time">light travel time</a> matters here, because the deeper astronomers look, the more dust-obscured galaxies pile up unseen. The Square Kilometre Array, now under construction across South Africa and Australia, is designed to close that gap at a scale no previous instrument has attempted.</p>
+    <p>SKA-Mid in South Africa and SKA-Low in Australia together form the largest radio telescope ever built, with construction running from 2021 through 2028 under current planning. A second, more sensitive phase is expected after 2028.</p>
+    <p>The project's core survey goal is to detect the 21-centimeter hydrogen emission line from roughly a billion galaxies across three-quarters of the sky, reaching back to a redshift of about 2, a census optical catalogs cannot match.</p>
+
+    <h2>A Quarter of the Sky Was Hidden by Our Own Galaxy</h2>
+    <p>Mapping <a href="/article/dark-matter-mystery-what-we-know">dark matter distribution</a> accurately requires knowing where every galaxy actually sits, but roughly 25 percent of the extragalactic sky is blocked by the dust and crowded starfields of the Milky Way itself, a region astronomers call the Zone of Avoidance.</p>
+    <p>Optical and infrared surveys have chipped away at this zone for decades but cannot fully penetrate it. The Dwingeloo Obscured Galaxies Survey used a 25-meter radio dish alongside the Westerbork array to complete a northern-sky search through exactly this blind spot.</p>
+    <p>Only radio surveys have consistently revealed galaxies hiding directly behind our own galactic disk. Closing that final quarter of the sky matters for tracing how large-scale structure, and the dark matter scaffolding beneath it, actually connects across the universe.</p>
+
+    <h2>Why a Complete Galaxy Census Changes the Bigger Picture</h2>
+    <p>Radio instruments already work alongside detectors built for <a href="/article/neutron-star-merger-kilonova-gold-explained">neutron star mergers</a> and other multi-wavelength events, proving that no single part of the spectrum tells the full story of the universe. Optical astronomy alone was always going to undercount what's out there.</p>
+    <p>A 2026 review describing the planned AtLAST submillimeter telescope put a number on the blind spot: current instruments, including ALMA, capture only narrow patches of sky at a time, missing the wider dust-obscured population entirely.</p>
+    <p>Every galaxy missing from the census skews estimates of star formation history, cosmic structure, and how much ordinary matter the universe actually contains, not just where it happens to be located.</p>
+
+    <h2>Conclusion</h2>
+    <p>The universe was never actually dark in those dusty regions. It only looked that way because humans built telescopes tuned to the one narrow slice of light our eyes can see. Radio astronomy doesn't discover new physics so much as it removes a two-hundred-year-old assumption, that if a galaxy can't be photographed, it probably isn't there. As instruments like the Square Kilometre Array come fully online, the working assumption may flip entirely: every patch of apparently empty sky could be hiding something dust simply hasn't let anyone see yet.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <h3>Why can radio telescopes see galaxies that optical telescopes can't?</h3>
+    <p>Radio wavelengths are far larger than the dust grains that block visible light, so they pass through dust clouds largely undisturbed. Optical light gets absorbed and re-emitted as infrared, making dust-wrapped galaxies invisible to instruments like Hubble.</p>
+    
+    <h3>What is the Square Kilometre Array?</h3>
+    <p>The Square Kilometre Array is a next-generation radio telescope project split across South Africa (SKA-Mid) and Australia (SKA-Low), under construction since 2021. It aims to detect the 21-centimeter hydrogen signal from roughly a billion galaxies.</p>
+    
+    <h3>What is the Zone of Avoidance?</h3>
+    <p>The Zone of Avoidance is the roughly 25 percent of the extragalactic sky blocked by the dust and stars of the Milky Way itself. Radio surveys, including the Dwingeloo Obscured Galaxies Survey, are the main way astronomers have mapped galaxies hiding behind it.</p>
+    
+    <h3>Do radio telescopes replace optical telescopes like Hubble or JWST?</h3>
+    <p>No, they complement each other. Optical and infrared telescopes capture detail and color that radio instruments cannot, while radio telescopes reveal galaxies and gas that dust makes invisible to the others.</p>
+    
+    <h3>How much of the universe's light is blocked by dust?</h3>
+    <p>Researchers estimate close to half of all starlight in the universe is absorbed by cosmic dust before reaching any telescope. That fraction is even higher in dense star-forming regions.</p>
+    
+    <h3>When will the Square Kilometre Array be fully operational?</h3>
+    <p>The first construction phase is planned to run from 2021 through 2028, with a more sensitive second phase expected afterward. Some early science observations are already underway as sections of the array come online.</p>
+  `,
+  coverImage: "/images/articles/radio-telescope-reveals-hidden-galaxies-dust.jpg", // MANUAL: upload, slug-named
+  category: "astronomy", // MANUAL: verify exact casing vs live array
+  author: authors[0],
+  publishedAt: "2026-07-22", // MANUAL: set date
+  readTime: 6,
+  featured: false,
+  tags: ["Radio Astronomy", "Square Kilometre Array", "Galaxies", "ALMA"], // MANUAL: verify casing/taxonomy
+},
+
+  {
+  id: 1000, // MANUAL: set against current array max
+  slug: "ai-accuracy-paradox-healthcare-risk",
+  title: "A 99% Accurate AI Can Still Be Dangerous in Healthcare",
+  metaTitle: "Why a 99% Accurate AI Can Fail in Healthcare", // 44 chars
+  excerpt: "High accuracy scores hide a statistical trap. When a disease is rare, even a 99 percent accurate AI model produces more wrong alerts than right ones.",
+  metaDescription: "A 99% accurate AI tool sounds flawless, but in real hospitals it can generate more false alarms than correct diagnoses, real-world FDA device data shows.", // 153 chars
+  content: `
+    <p>A 99 percent accurate AI can still be wrong more often than it's right, and the reason has nothing to do with bad engineering. It comes down to how rare the disease is that the AI is screening for. When a condition affects only a small fraction of patients, even a highly accurate model drowns in false alarms.</p>
+    <p>This is not hypothetical. A 2021 emergency room deployment of a stroke-detection algorithm scored 100 percent sensitivity and 92 percent specificity, numbers that sound close to perfect, yet two out of every three positive alerts it generated were wrong.</p>
+
+    <h2>What "99% Accurate" Actually Means</h2>
+    <p>Accuracy in AI usually refers to two separate numbers: sensitivity, how often the model correctly flags a real case, and specificity, how often it correctly clears a healthy patient. A tool can score 99 percent on both and still perform poorly once it meets real-world disease rates.</p>
+    <p>The missing variable is prevalence, the actual share of patients who have the condition. Sensitivity and specificity describe the test in isolation. They say nothing about what a positive result means once prevalence enters the picture.</p>
+    <p>That gap between a lab-reported accuracy score and real clinical usefulness is what researchers call the accuracy paradox, first formally described in false-positive analyses conducted by NASA before it became a recognized concept in medicine.</p>
+
+    <h2>The Base Rate Math That Breaks Intuition</h2>
+    <p>Picture a disease that affects 1 in 1,000 people, tested with a tool that is 99 percent accurate on both sensitivity and specificity. Out of 10,000 patients, 10 actually have the disease, and roughly 100 healthy patients will still test positive by error.</p>
+    <ul>
+      <li>10 true positives: patients who have the disease and test positive</li>
+      <li>About 100 false positives: healthy patients incorrectly flagged</li>
+      <li>Roughly 9 percent chance a positive result actually means disease</li>
+    </ul>
+    <p>Out of roughly 109 positive results, only about 9 are correct. A test built at 99 percent accuracy ends up right about disease presence only 8 to 9 percent of the time it flags someone, because false positives from the healthy majority overwhelm true positives from the rare group.</p>
+
+    <h2>Real Hospitals Are Already Seeing the Gap</h2>
+    <p>The same confidence problem behind AI systems that <a href="/article/why-ai-language-models-confidently-state-false-facts-mechanism">confidently state false information</a> shows up here in a different form. A large-vessel-occlusion stroke detector deployed in a hospital emergency department in September 2021 produced a false discovery rate of 67 percent despite matching its manufacturer's accuracy claims.</p>
+    <p>Radiologists at the hospital eventually stopped trusting the tool and pulled it from clinical use, not because it was miscalibrated but because nobody had translated its lab accuracy into what it would actually mean for their specific patient population.</p>
+    <p>A 2026 medRxiv analysis of FDA-authorized radiology AI devices found the same pattern repeating across multiple approved tools, arguing that sensitivity and specificity numbers alone consistently fail to predict real clinical performance.</p>
+
+    <h2>Why Doctors Trust the Number More Than They Should</h2>
+    <p>Doctors aren't immune to the <a href="/article/7-things-ai-cannot-do-in-2026">current limitations of AI</a> shaping their own judgment. A study of 257 medical students at a major Chinese teaching hospital found that when AI explanations accompanied a diagnosis, physicians updated their trust as if the system were 88.2 percent accurate when it was actually right only 73 percent of the time.</p>
+    <p>Even when the AI was wrong, doctors still rated it 79.2 percent accurate, nearly 6 points above the truth. A well-written explanation made bad advice more persuasive, not less, regardless of whether the underlying diagnosis was correct.</p>
+    <p>That miscalibration compounds the base rate problem. A confident, well-explained false positive is harder to override than a blunt one, even though the underlying math hasn't changed at all.</p>
+
+    <h2>Where This Kind of AI Genuinely Works</h2>
+    <p>Not every medical AI application runs into this trap. Tools built for <a href="/article/alphafold-protein-folding-explained">protein structure predictions</a>, like AlphaFold, operate on stable molecular physics rather than shifting disease prevalence, so their accuracy translates cleanly from the lab into practical use.</p>
+    <p>The difference is the base rate. Structural biology problems don't have a healthy majority skewing results the way rare-disease screening does. Diagnostic AI is most dangerous exactly where the target condition is uncommon and the stakes of a wrong flag are high.</p>
+    <p>This is why the same accuracy score can be a triumph in one medical AI application and a liability in another, depending entirely on what the tool is being asked to detect.</p>
+
+    <h2>What Would Actually Fix It</h2>
+    <p>Part of the fix is dismantling the <a href="/article/illusion-of-explanatory-depth-explained">illusion of understanding</a> that a single accuracy number creates. Researchers behind the 2026 false-positive paradox study argue hospitals should be shown the false discovery rate and false omission rate for their own patient population, not the manufacturer's lab figures.</p>
+    <p>Layered review helps too. Routing medium-confidence AI results, roughly 70 to 90 percent, to a specialist for a second look reduces both false positives and false negatives without discarding the tool's speed advantage entirely.</p>
+    <p>None of this requires better AI. It requires hospitals to stop reading a sensitivity number as a promise and start asking what it means for the specific disease, in the specific population, they're actually screening.</p>
+
+    <h2>Conclusion</h2>
+    <p>A 99 percent accurate AI is not lying about its own performance. It is answering a narrower question than the one doctors assume it's answering. The model is describing its behavior in a lab, not predicting the odds for the specific patient sitting in front of a specific clinician. Until hospitals demand prevalence-adjusted numbers instead of manufacturer accuracy claims, the most dangerous AI tool in healthcare won't be the one that's wrong. It will be the one that's right often enough to be trusted blindly.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <h3>Can a 99% accurate AI still be wrong most of the time?</h3>
+    <p>Yes, when the condition it's screening for is rare. A worked example with a 1-in-1,000 disease rate shows a 99 percent accurate test is right only about 8 to 9 percent of the time it flags someone positive.</p>
+    
+    <h3>What is the accuracy paradox in medical AI?</h3>
+    <p>The accuracy paradox describes a tool that scores well on sensitivity and specificity in the lab but generates unexpectedly high false positive rates in real clinical use. It happens because lab accuracy numbers ignore how common the target condition actually is.</p>
+    
+    <h3>Why did a hospital stop using an FDA-approved stroke detection AI?</h3>
+    <p>A large-vessel-occlusion detector deployed in 2021 had a 67 percent false discovery rate despite meeting its manufacturer's accuracy claims. Radiologists lost trust in the tool once real patient data revealed how often its positive alerts were wrong.</p>
+    
+    <h3>Does explaining an AI's reasoning make doctors trust it more?</h3>
+    <p>Yes, and not always for the right reasons. A study of medical students found explanations increased trust regardless of whether the AI's underlying diagnosis was correct, inflating perceived accuracy by 6 to 15 percentage points.</p>
+    
+    <h3>Is all medical AI affected by the base rate problem?</h3>
+    <p>No, tools built for stable, well-defined problems like protein structure prediction aren't affected the same way. The base rate problem mainly threatens diagnostic tools screening for uncommon conditions.</p>
+    
+    <h3>What should hospitals ask AI vendors before adopting a diagnostic tool?</h3>
+    <p>Hospitals should request the false discovery rate and false omission rate calculated for their own patient population, not just the manufacturer's lab sensitivity and specificity. Those numbers reveal what a positive result actually means in practice.</p>
+  `,
+  coverImage: "/images/articles/ai-accuracy-paradox-healthcare-risk.jpg", // MANUAL: upload, slug-named
+  category: "artificial-intelligence", // MANUAL: verify exact casing vs live array
+  author: authors[0],
+  publishedAt: "2026-07-22", // MANUAL: set date
+  readTime: 7,
+  featured: false,
+  tags: ["AI in Healthcare", "Base Rate Fallacy", "Medical AI", "FDA"], // MANUAL: verify casing/taxonomy
+},
   
 ];
 
