@@ -697,4 +697,16 @@
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/why-bees-build-hexagons-honeycomb-geometry</loc>
+  <lastmod>2026-07-23</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/hydrogen-storage-bottleneck-explained</loc>
+  <lastmod>2026-07-23</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+</url>
 </urlset>
