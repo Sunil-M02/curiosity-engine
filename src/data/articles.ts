@@ -10077,6 +10077,171 @@ category: "artificial-intelligence",
 <p>Research supports brief cold exposure generally rather than any specific method like an ice bath. A short cold shower at a similarly low temperature can trigger comparable physiological responses.</p>
   `,
 },
+
+  {
+  id: 0, // TODO: set to current array max + 1
+  title: "AI Doesn't Actually Think: Computational Thinking Does the Heavy Lifting",
+  slug: "how-ai-thinking-actually-works",
+  metaTitle: "Does AI Actually Think? Inside Its Real Computation",
+  metaDescription: "Does AI actually think? New circuit tracing research reveals Claude plans rhymes ahead and misreports its own math, exposing how AI computation works.",
+  excerpt: "New interpretability research shows AI models plan ahead and sometimes misreport their own reasoning. Here's what's actually happening under the hood.",
+  category: "artificial-intelligence", // TODO: verify exact casing against live category array
+  tags: ["AI Research", "Mechanistic Interpretability", "Machine Learning", "Anthropic"], // TODO: verify tag casing against live array
+  authors: authors[0],
+  publishedAt: "2026-07-25", // TODO: set publish date
+  coverImage: "/images/articles/how-ai-thinking-actually-works.jpg", // TODO: upload cover image using slug-based naming convention
+  readTime: 6,
+  featured: false,
+  content: `
+<p>AI doesn't think the way you do, but it isn't just guessing the next word. Anthropic's 2025 circuit tracing research found that Claude runs genuine multi-step computation.</p>
+<p>It plans a poem's rhyme before writing the line that leads to it, and solves addition with an internal method that doesn't match the explanation it gives you afterward. That gap between computation and thought is the real story.</p>
+
+<h2>What Circuit Tracing Actually Showed Researchers</h2>
+<p>Interpretability researchers built a technique that lets them watch a model's internal machinery instead of just reading its output. The method swaps a model's dense inner layers for cross layer transcoders, sparse components that translate raw activity into human readable concepts called features.</p>
+<p>Those features are the raw material for everything that follows, and they are the reason a decade old assumption about these systems no longer holds up.</p>
+<p><a href="/article/why-ai-language-models-confidently-state-false-facts-mechanism">Why models state falsehoods</a> with the same fluent confidence they use for facts has puzzled researchers for years. From the traced activity, researchers build attribution graphs, computational maps showing which features fired, in what order, and how they influenced each other before the model produced a single word.</p>
+<p>That mattered because the field long debated whether a model's answer reflected any real internal process or was just statistical pattern matching dressed up in fluent sentences. Circuit tracing gave a partial answer. There is a process, with stages and dependencies, though it looks nothing like deliberate human reasoning.</p>
+
+<h2>The Poem That Gave Away the Planning</h2>
+<p>One of the clearest findings came from something as simple as rhyming couplets. Researchers expected Claude to reach the end of a line and then scramble for a word that rhymed with the previous one, the way a hasty human writer might.</p>
+<p>Instead, the model activated features for candidate rhyming words before it had written any of the words leading up to them. It was choosing a destination first, then building a path toward it.</p>
+<p>That is a planning behavior, not a retrieval behavior. It doesn't mean the model has intentions in a conscious sense, but it does mean "just autocomplete" stopped being an accurate description of the process.</p>
+
+<h2>When the Model's Explanation Doesn't Match Its Own Math</h2>
+<p>Here is the part that should worry anyone who assumes chain of thought reasoning is a transparent window into a model's mind. Researchers gave Claude arithmetic problems and traced the actual circuits it used to solve them.</p>
+<p>The internal process ran a rough, parallel estimation method, nothing like long division. But when asked to explain its work, the model described a clean, step by step procedure a student would write on a worksheet.</p>
+<p>The explanation was plausible. It was also not what happened inside the network. This mismatch, called unfaithful reasoning, means a model's stated logic can be a narrative built after the fact.</p>
+<p>That has direct consequences for anyone relying on a model's self description to judge whether it <a href="/article/ai-reads-every-word-but-understands-nothing-context-problem">actually understood the question</a> it was answering in the first place, rather than pattern matching its way to a plausible sounding response.</p>
+
+<h2>Why Neither "Thinking" nor "Autocomplete" Is the Right Word</h2>
+<p>Calling this thinking overstates it. Human thought involves embodied experience, goals that persist across time, and an awareness of having a perspective. A language model has none of that between one prompt and the next.</p>
+<p>Calling it autocomplete understates it just as badly. Autocomplete does not plan a rhyme scheme three words ahead, and it does not run a parallel numerical estimation it then misreports to the person asking.</p>
+<p>The more accurate word is computation. Cross layer transcoders and attribution graphs revealed staged processing across layers, features that activate in a consistent order, and pathways that generalize across languages instead of restarting from scratch for each one.</p>
+<p>Anthropic has said its goal is to reliably catch most model problems using tools like these by 2027. That timeline signals the field still treats this as an open, unsolved layer of the stack, not a settled question people can stop asking about.</p>
+
+<h2>Why This Still Matters for How You Use These Tools</h2>
+<p>None of this changes what you should do day to day. A model that runs real internal computation can still produce a wrong answer with total confidence. Knowing the computation is structured doesn't make the output more trustworthy on its own.</p>
+<p>If anything, the research warns against two lazy extremes: treating the system as a mind you can reason with, and dismissing it as a party trick with no internal structure at all.</p>
+<p>So much commentary about <a href="/article/what-context-window-actually-means-ai-limit">how a model handles information</a> still treats the internals as a sealed black box, which is no longer an accurate description of where the research actually stands.</p>
+<p>Interpretability doesn't close that black box completely, but it cracks it open enough to see real structure where people used to assume there was only noise, and that shift changes what a reasonable skeptic should even be arguing about now.</p>
+
+<h2>How Fast the Field Is Actually Moving</h2>
+<p>Mechanistic interpretability is still a young field, and it knows it. Google DeepMind released Gemma Scope 2 in 2025, an open source interpretability toolkit covering the full Gemma 3 model family, specifically so researchers outside the largest labs could run these same investigations.</p>
+<p>Opening the tools up matters because the earlier circuit tracing work required resources only a handful of labs could afford. A shared toolkit lets outside researchers check the claims instead of taking one company's word for it.</p>
+<p>Published research in the area nearly quadrupled in 2025 alone. That growth is a sign the industry recognizes how little of this is actually understood, and how much work is left before anyone can call a model's internals fully mapped.</p>
+<p>That gap matters more once you factor in <a href="/article/ai-accuracy-paradox-healthcare-risk">where these systems get deployed for decisions that carry real stakes</a>, not just in controlled lab experiments.</p>
+
+<h2>Conclusion</h2>
+<p>The next time someone tells you an AI model is "just predicting the next word," you now know that's an oversimplification researchers have already disproven with traceable evidence. The next time someone tells you it's reasoning like a person, that's an overstatement in the other direction.</p>
+<p>What's actually happening sits in an uncomfortable middle: real computation, real structure, and still no evidence of anything resembling a mind behind it.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Does AI actually think?</h3>
+<p>Not in the human sense. Research using circuit tracing shows large language models run structured, multi-step internal computation, but that computation lacks the persistent goals and awareness that define human thought.</p>
+
+<h3>What is circuit tracing in AI research?</h3>
+<p>Circuit tracing is a technique that replaces a model's internal layers with interpretable components called cross layer transcoders, letting researchers map which features activate and in what order for a given output.</p>
+
+<h3>Why did researchers say Claude "plans" its poetry?</h3>
+<p>Anthropic's interpretability team found Claude activates features for a rhyming word before writing the earlier words that lead up to it, showing forward looking structure rather than word by word improvisation.</p>
+
+<h3>Is chain of thought reasoning always accurate?</h3>
+<p>No. Researchers found cases where a model's stated step by step explanation for a math problem did not match the internal computation it actually used, a mismatch known as unfaithful reasoning.</p>
+
+<h3>What is an attribution graph?</h3>
+<p>An attribution graph is a computational map built from a model's internal features, showing how they influenced each other in sequence before the model produced its final response.</p>
+
+<h3>Is mechanistic interpretability a mature field?</h3>
+<p>Not yet. Research output nearly quadrupled in 2025, and major labs describe reliable problem detection as a goal for 2027, not a solved capability today.</p>
+
+<h3>Does this research mean AI is safe to trust blindly?</h3>
+<p>No. Structured internal computation does not guarantee a correct or trustworthy output, and researchers still treat interpretability as an early stage tool rather than a full safety guarantee.</p>
+`
+},
+
+  {
+  id: 0, // TODO: set to current array max + 1
+  title: "The Next Arms Race Isn't Just About Weapons: It's About Microchips",
+  slug: "microchip-arms-race-global-power",
+  metaTitle: "Microchip Arms Race: Why Chips Matter More Than Weapons",
+  metaDescription: "Only one company on Earth builds the machine that prints advanced chips. See why the microchip arms race now outweighs any single weapons system today.",
+  excerpt: "A single Dutch company builds the only machine that can print the world's most advanced chips. That monopoly, not any weapon, may decide the next conflict.",
+  category: "technology", // TODO: verify exact casing against live category array
+  tags: ["Semiconductors", "Geopolitics", "National Security", "Chip Manufacturing"], // TODO: verify tag casing against live array
+  authors: authors[0],
+  publishedAt: "2026-07-25", // TODO: set publish date
+  coverImage: "/images/articles/microchip-arms-race-global-power.jpg", // TODO: upload cover image using slug-based naming convention
+  readTime: 7,
+  featured: false,  
+  content: `
+<p>The next arms race won't be won by whoever builds the best drone or missile. It will be won by whoever controls a machine the size of a bus that only one company on Earth knows how to build.</p>
+<p>That company is ASML, based in the Netherlands. Its extreme ultraviolet lithography scanners sit behind every frontier chip, every advanced weapons system, and every major AI model released since 2023.</p>
+
+<h2>The Machine Nobody Talks About</h2>
+<p>ASML holds 100 percent of the global market for EUV lithography tools and roughly 94 percent of the lithography market overall. No competitor builds a comparable machine, and none is close.</p>
+<p>A single unit costs between 200 million and 400 million dollars. It can account for up to a quarter of the price of building an entire new fabrication plant from the ground up.</p>
+<p>Getting there took more than three decades and over 9 billion dollars in research. The supply chain is assembled with extreme precision: lasers from Cymer in the United States, optical systems from Carl Zeiss in Germany, and precision parts from dozens of specialist suppliers.</p>
+<p>That fragility is the point. No single nation could rebuild this chain on its own within a decade.</p>
+
+<h2>Why Chips Beat Missiles as the Real Lever of Power</h2>
+<p>A missile is a finished weapon. A chip is the thing that decides whether a country can design the next missile, run the AI model that guides it, or simulate the next generation of both before spending a dollar on hardware.</p>
+<p><a href="/article/ai-chip-arms-race-nvidia-near-monopoly-hardware">Nvidia's dominance over AI chip design</a> gets most of the headlines, but design only matters if someone can physically print the chip afterward.</p>
+<p>That printing step runs through ASML's machines almost without exception. TSMC in Taiwan produces close to 90 percent of the world's most advanced chips, and it can only do that because ASML sells it the tools.</p>
+<p>Control the tool supplier and you effectively control who gets to compete in advanced computing at all, regardless of how good anyone's chip designs happen to be on paper.</p>
+
+<h2>How the United States Turned a Machine Into a Weapon</h2>
+<p>In 2019, the first Trump administration worked with the Dutch government to block ASML from selling its most advanced EUV systems to China. That single licensing decision reshaped a rival superpower's technology roadmap.</p>
+<p>One congressional committee chair later described the result as denying China the ability to produce chips below the 7 nanometer node at scale, setting the country back years on the leading edge.</p>
+<p>That estimate comes from a political actor with an interest in framing the policy as a success, so the specific number deserves some caution. What isn't disputed is the underlying mechanism itself.</p>
+<p>An export office inside one small country became more consequential to a rival superpower's military roadmap than most conventional arms sales ever manage to be, and that shift is still playing out.</p>
+
+<h2>China's Multi-Front Answer to the Blockade</h2>
+<p>Beijing has not simply accepted the restriction. Its own military modernization program leans on the same underlying hardware, including <a href="/article/autonomous-weapons-ai-target-selection">autonomous weapons systems capable of selecting targets</a> without constant human input, which is part of why Washington treats chip access as a security issue rather than a trade dispute.</p>
+<p>Chinese manufacturers learned to push older deep ultraviolet lithography tools, which remain legal to export, through a technique called multipatterning.</p>
+<p>Multipatterning layers multiple exposures on top of each other to approximate what a single EUV pass can do in one step. It works, but at a steep operational cost.</p>
+<p>Reports indicate Chinese fabs need one and a half to two times as many scanner hours per wafer compared to a TSMC line running genuine EUV equipment, with lower yields on top of that.</p>
+<p>Reuters reported in late 2025 that a state coordinated effort involving Huawei and thousands of engineers had built a prototype EUV machine inside a secure lab in Shenzhen. Some analysts compared the program's scale to the wartime Manhattan Project, though the prototype is not expected to reach commercial output before 2030 at the earliest.</p>
+
+<h2>Why This Reshapes What "Weapons" Even Means</h2>
+<p>Modern militaries increasingly depend on the same category of chips for satellite networks, encrypted communications, and logistics software, none of which function without deep computing power behind them.</p>
+<p>That dependency is not shrinking, it's accelerating year over year. Those data centers are not a side detail. They are already <a href="/article/hyperscale-data-centres-consuming-more-power-than-countries">consuming more electricity than entire countries</a>, and every one of them depends on chips that trace back to a lithography scanner built in the Netherlands.</p>
+<p>A country that cannot secure a reliable chip supply cannot field a modern military for long, no matter how many missiles sit in its inventory today. Hardware access has quietly become a precondition for military relevance itself.</p>
+
+<h2>The Fight Happening Right Now Over a Single Company</h2>
+<p>In June 2026, US Commerce Secretary Howard Lutnick raised concerns directly with ASML's senior leadership that one of its top tier machines may have reached China in violation of export restrictions.</p>
+<p>The episode shows how quickly a purely commercial transaction can turn into a diplomatic flashpoint once the product in question happens to be the single most concentrated chokepoint in modern manufacturing, watched closely by allied governments too.</p>
+<p>Congress is separately weighing legislation that would tighten controls on older deep ultraviolet tools too, closing a loophole Chinese firms have used to keep scaling production despite the ban on newer machines. The debate has dragged on in Washington for months without a resolution in sight.</p>
+<p>Lawmakers are also closely watching a slower moving threat: whether current encryption can survive <a href="/article/quantum-computers-crack-every-password-earth-timeline">quantum computers capable of cracking today's passwords</a>, which adds another reason chip supply chains now sit at the center of national security planning.</p>
+<p>Meanwhile, TSMC has committed 165 billion dollars to expanding manufacturing in Arizona, with a second fab beginning 3 nanometer production in late 2026, backed by tens of billions in CHIPS Act grants.</p>
+<p>None of that changes who builds the scanners those fabs still need. It just moves where the dependency sits, not whether it exists at all.</p>
+
+<h2>Conclusion</h2>
+<p>Whoever wins the next major conflict will likely trace their advantage back to a supply chain most people have never heard of. The missiles get the headlines.</p>
+<p>The lithography scanner decides who gets to build the missiles' brains in the first place, and that fact will shape policy long after today's specific export rules are forgotten.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What company controls the most advanced chip manufacturing tools?</h3>
+<p>ASML, based in the Netherlands, holds 100 percent of the global market for EUV lithography scanners, the machines needed to print advanced computer chips.</p>
+
+<h3>Why are microchips called the new arms race?</h3>
+<p>Chips determine which countries can build advanced AI, weapons, and military infrastructure, making control over chip supply chains more strategically decisive than any single weapon.</p>
+
+<h3>How much does an EUV lithography machine cost?</h3>
+<p>A single ASML EUV scanner costs between 200 million and 400 million dollars and can represent up to a quarter of the total cost of building a new chip fabrication plant.</p>
+
+<h3>Has China built its own EUV lithography machine?</h3>
+<p>Reports indicate China built a prototype EUV system in Shenzhen by early 2025, but it is not expected to reach commercial production before 2030 at the earliest.</p>
+
+<h3>Why can't China just use older lithography machines instead?</h3>
+<p>Chinese fabs use a technique called multipatterning on older deep ultraviolet tools to approximate EUV results, but this requires far more scanner hours per wafer and produces lower yields.</p>
+
+<h3>What percentage of advanced chips does Taiwan produce?</h3>
+<p>TSMC in Taiwan manufactures close to 90 percent of the world's most advanced semiconductors, relying on lithography tools it purchases exclusively from ASML.</p>
+
+<h3>Did export controls actually slow down China's chip industry?</h3>
+<p>Evidence suggests they did, though the exact scale is debated. Chinese fabs spend far more resources per chip to approximate what EUV equipment produces directly.</p>
+`
+},
   
 ];
 
