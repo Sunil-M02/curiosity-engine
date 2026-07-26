@@ -10242,6 +10242,173 @@ category: "artificial-intelligence",
 <p>Evidence suggests they did, though the exact scale is debated. Chinese fabs spend far more resources per chip to approximate what EUV equipment produces directly.</p>
 `
 },
+
+  // ============================================
+// ARTICLE 1 — Astronomy
+// ============================================
+{
+  id: 0, // TODO: set to current max id in array + 1
+  title: "Astronauts Don't Carry Ordinary Tools: Here's What They Actually Use",
+  slug: "astronaut-tools-spacewalk-engineering",
+  category: "astronomy", // TODO: verify exact casing against live category array
+  tags: ["Astronaut Tools", "NASA Engineering", "Spacewalks", "Space Technology"], // TODO: verify casing against live tag taxonomy
+  excerpt: "NASA rebuilt every wrench, drill, and glove from zero because vacuum welds metal shut and boils lubricant away. Here is the engineering behind astronaut tools.",
+  metaTitle: "Astronaut Tools NASA Had to Reinvent From Scratch",
+  metaDescription: "Astronaut tools fail instantly in vacuum without redesign. Discover why NASA rebuilds every drill, wrench, and glove from scratch just to survive space.",
+  coverImage: "/images/articles/astronaut-tools-spacewalk-engineering.jpg", // TODO: upload cover image, slug-based naming
+  publishedAt: "2026-07-26", // TODO: set actual publish date
+  authors: authors[0],
+  readTime: 6,
+  featured: false,
+  content: `
+<p>Astronauts do not pack a toolbox from the local hardware store. Every wrench, drill, and glove they carry into orbit gets rebuilt from scratch for a place where metal welds itself shut and oil turns to gas within minutes.</p>
+<p>NASA calls this discipline EVA tool engineering, built purely because ordinary tools fail fast in vacuum. Every design choice below solves one specific way space tries to disable an astronaut's hands.</p>
+
+<h2>Why an Ordinary Wrench Would Kill a Spacewalk</h2>
+<p>Drop two clean metal surfaces together on Earth and a thin oxide layer keeps them apart. Remove that layer in the vacuum of space and the atoms bond directly to each other.</p>
+<p>Engineers call this cold welding, and it can permanently fuse an ordinary steel bolt to its socket without any heat involved. A regular power drill also depends on air and standard lubricant to keep its motor cool.</p>
+<p>In vacuum, most lubricants boil away almost instantly. The same ultraviolet radiation that damages exposed skin also degrades plastics and seals within hours of direct exposure.</p>
+
+<h2>The Pistol Grip Tool NASA Rebuilt From Zero</h2>
+<p>NASA's answer is the Pistol Grip Tool, a cordless drill built by Swales Aerospace that has driven bolts on the Hubble Space Telescope and the space station since the late 1990s.</p>
+<p>That screen displays torque settings from under one foot pound up to 38 foot pounds, with speeds between 5 and 60 RPM, all programmed before the astronaut leaves the airlock.</p>
+<p>Astronaut Joe Tanner fought a stripped bolt during a 2007 truss installation using this drill's torque control and his own patience, later telling Smithsonian Air and Space Magazine that one failed bolt could have ended the mission.</p>
+
+<h2>Gloves Engineered Around a Painful Design Problem</h2>
+<p>Spacesuit gloves are not soft leather. They are pressurized balloons of layered latex, fabric, and foil that resist the astronaut's grip on every motion, a resistance engineers measure as torque at the knuckle.</p>
+<p><a href="/article/what-happens-to-human-body-after-one-year-in-space">Extended time in space</a> changes how the body handles even routine hand tasks. Fluid shifts and reduced grip strength mean a job that takes ten minutes on Earth can stretch to forty minutes in orbit, according to NASA flight surgeons who track crew performance.</p>
+<p>A 2022 study in Textile and Leather Review documented that sustained pressure on the fingertips inside these gloves causes onycholysis. That condition separates the fingernail from the nail bed, and some veteran spacewalkers experience it after repeated missions.</p>
+<p>NASA's newer Space Suit RoboGlove uses small robotic actuators to absorb part of that gripping force so fingers do not fight the suit alone for six or seven hours straight during a single excursion outside the station.</p>
+
+<h2>Every Tool Is Tethered Like It Is Money</h2>
+<p>A dropped bolt on a garage floor is an annoyance. During a spacewalk, that same bolt becomes untracked orbital debris moving at roughly 28,000 kilometers per hour, fast enough to damage a spacecraft later.</p>
+<p>Every tool astronauts carry attaches to a metal bracket called a mini workstation strapped across the chest. Any loose fastener gets captured in a small drawstring bag rather than released into open space.</p>
+<p>NASA astronaut Loral O'Hara has described the setup as closer to a climber's gear rack than a typical toolbox. The entire system runs on one unbending rule: nothing leaves an astronaut's hand unless it is tethered first.</p>
+<p><a href="/article/engineering-inside-modern-submarine-pressure-navigation-life-support">Modern submarine engineering</a> follows a strikingly similar rule, since both environments demand systems that keep humans alive inside a hostile boundary with zero margin for a dropped tool, a leak, or a single missed step underwater or in orbit.</p>
+
+<h2>Training for Space Happens Underwater First</h2>
+<p>Before any astronaut touches a real Pistol Grip Tool in orbit, they rehearse the same motions inside NASA's Neutral Buoyancy Laboratory, a 6.2 million gallon pool in Houston holding a full scale mockup of the space station.</p>
+<p>A single training run in that pool can last six hours, matching the length of a real spacewalk almost exactly in total duration, since NASA has learned that shorter rehearsals fail to reveal fatigue problems that only surface late in a task.</p>
+<p>Engineers build that fatigue curve directly into every EVA timeline long before a mission ever launches, because a task rehearsed at normal speed on Earth almost never survives contact with a pressurized glove in real conditions.</p>
+<p>Divers assist every underwater session, adjusting weights on the suit so it neither sinks nor floats, since neutral buoyancy only approximates true weightlessness and still cannot fully replicate the total absence of gravity found in orbit.</p>
+
+<h2>What Changes for the Moon and Mars</h2>
+<p><a href="/article/artemis-iii-update-nasa-2026-moon-landing">Artemis III mission</a> crews now rehearse lunar surface tools inside this same underwater facility, since buoyancy training remains the closest simulation NASA has for the slow, deliberate motion astronauts will need on the lunar surface.</p>
+<p>Lunar dust poses a problem Apollo astronauts only partially solved. Jagged, glass sharp regolith particles cling to fabric through static charge and chew through glove joints faster than any orbital tool used aboard the space station was ever built to withstand.</p>
+<p>NASA's newer xEMU lunar suit design adds sealed bearings at the wrist and glove interface specifically to keep that abrasive dust from working its way into moving joints during repeated moonwalks across several years of repeated lunar surface missions.</p>
+<p>Apollo 17 commander Gene Cernan reported dust clogging his suit's wrist bearings within three days on the surface back in December 1972, a failure engineers still study closely while designing seals for the longer Artemis surface missions ahead.</p>
+<p>NASA has since tested electrodynamic dust shields that use an oscillating electric field to lift charged regolith particles off a surface entirely, a technology now being adapted specifically for glove joints and suit zippers ahead of Artemis surface missions where dust exposure will last for weeks rather than mere days.</p>
+<p><a href="/article/13-engineering-problems-mars-colonisation-harder-than-told">Mars colonization engineering</a> pushes cold vacuum tool design to its harshest extreme yet, since a crew years from resupply cannot afford to lose a single wrench to carelessness.</p>
+<p>A cold, thin Martian atmosphere behaves nothing like the hard vacuum of low Earth orbit, forcing entirely new seals, lubricants, and torque calculations for gear that must keep working for years without a single resupply flight.</p>
+
+<h2>The Real Lesson Behind the Toolbox</h2>
+<p>Every wrench, glove, and drill in a spacewalker's kit exists because engineers refused to assume anything built for Earth would survive somewhere else. That same instinct now shapes tools meant for lunar dust and thin Martian air, years before a single boot lands there.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What tools do astronauts actually use in space?</h3>
+<p>Astronauts mainly use the Pistol Grip Tool, a programmable cordless drill, plus torque limited wrenches and tethered hand tools built for pressurized gloves.</p>
+
+<h3>Why can't astronauts use normal power tools in space?</h3>
+<p>Ordinary tools rely on lubricants that boil away in vacuum and metal parts that cold weld together once their oxide layer is gone, so hardware store tools would seize within minutes.</p>
+
+<h3>What is cold welding in space?</h3>
+<p>Cold welding happens when two clean metal surfaces touch in vacuum with no oxide layer between them, causing the atoms to bond permanently into one solid piece.</p>
+
+<h3>How much does a NASA spacewalk tool cost?</h3>
+<p>Individual EVA tools like the Pistol Grip Tool cost well into six figures once custom engineering, radiation testing, and glove compatible design are factored in.</p>
+
+<h3>Why do astronauts get fingernail damage from spacesuit gloves?</h3>
+<p>Sustained pressure at the fingertips inside pressurized gloves can cause onycholysis, a documented condition where repeated strain separates the fingernail from the nail bed.</p>
+
+<h3>How do astronauts train to use tools before a spacewalk?</h3>
+<p>They rehearse every tool motion underwater in NASA's Neutral Buoyancy Laboratory, a giant pool with a full scale station mockup simulating slow microgravity movement.</p>
+
+<h3>Will astronauts need new tools for Mars missions?</h3>
+<p>Yes, Mars requires tools engineered for abrasive dust and a thin cold atmosphere very different from the hard vacuum tools were originally built to survive.</p>
+  `
+},
+
+// ============================================
+// ARTICLE 2 — Future Innovation
+// ============================================
+{
+  id: 0, // TODO: set to current max id in array + 1
+  title: "Quantum Teleportation Is Real: Just Not the Way Science Fiction Promised",
+  slug: "quantum-teleportation-explained-real-science",
+  category: "future-innovation", // TODO: verify exact casing against live category array
+  tags: ["Quantum Teleportation", "Quantum Internet", "Quantum Computing", "Entanglement"], // TODO: verify casing against live tag taxonomy
+  excerpt: "Berlin just proved quantum teleportation works on ordinary fiber. Here is what actually gets sent, and why science fiction got the speed part wrong.",
+  metaTitle: "Quantum Teleportation Explained: What Actually Moves",
+  metaDescription: "Quantum teleportation is real and proven on live Berlin commercial fiber in 2026, but it moves quantum data, not matter, and never breaks light speed.",
+  coverImage: "/images/articles/quantum-teleportation-explained-real-science.jpg", // TODO: upload cover image, slug-based naming
+  publishedAt: "2026-07-26", // TODO: set actual publish date
+  authors: authors[0],
+  readTime: 6,
+  featured: false,
+  content: `
+<p>Quantum teleportation is real, and physicists have now demonstrated it across live commercial internet cables in Berlin. But nothing resembling a Star Trek transporter is involved, since no matter, no atom, and no physical object ever moves.</p>
+<p>What actually happens is stranger and, in a practical sense, more useful than science fiction ever imagined. This is what gets teleported, how the trick works, and why it still respects the speed of light.</p>
+
+<h2>What Actually Gets Teleported</h2>
+<p>Nothing physical moves in quantum teleportation. No atom, no photon, and no particle of matter crosses the distance between two points. What transfers instead is a quantum state, the exact set of properties describing a single particle.</p>
+<p>Physicists Charles Bennett and five colleagues first proposed this in a 1993 paper, describing a protocol that destroys the original state at the sending location the instant it recreates that same state somewhere else.</p>
+<p>Nothing is cloned and nothing is copied. The original particle's state is erased the moment the new one appears, a rule enforced by the no cloning theorem that governs every quantum system in physics.</p>
+<p><a href="/article/the-quantum-revolution-reshaping-computing">Quantum computing power</a> gets most of the headlines, but teleportation is a separate application built for communication rather than raw calculation, and the distinction matters more than most coverage of the field explains.</p>
+
+<h2>The Trick Behind It: Entanglement, Explained Simply</h2>
+<p>Two particles can become entangled, meaning a measurement on one instantly correlates with a measurement on the other, no matter how far apart they sit. Physicists prepare an entangled pair and send one half to each location.</p>
+<p>The sender then performs a joint measurement between their entangled particle and the particle carrying the state they want to send. That measurement produces a result which travels to the receiver through an ordinary communication channel.</p>
+<p>Only after the receiver applies a correction based on that classical result does their particle become an exact copy of the original state. Skip that final step and the receiver holds nothing but random noise.</p>
+<p>In September 2025, a research team finally solved a decades old problem by identifying the elusive W state of quantum entanglement, a three particle configuration that opens new paths toward more reliable teleportation protocols.</p>
+
+<h2>No, It Is Not Faster Than Light</h2>
+<p>Science fiction usually shows teleportation as instant travel across any distance, but the physics forbids exactly that. The correction step above requires a normal signal traveling through fiber optic cable or free space at light speed at most, the same physical limit that governs every existing telecommunications network on Earth.</p>
+<p>Prof Jim Al-Khalili told BBC Science Focus that entangled particles quickly become entangled with everything else along their path, which is precisely why teleportation through busy telecom fiber seemed impossible under normal laboratory conditions until researchers proved otherwise in a live metropolitan network.</p>
+<p><a href="/article/quantum-computers-crack-every-password-earth-timeline">Breaking encryption</a> with a large scale quantum computer remains years away, and this speed limit is exactly why. Without the classical signal, a receiver cannot know which correction to apply, so no usable information exceeds light speed.</p>
+
+<h2>Berlin's Fiber Network Just Proved It Works</h2>
+<p>In January 2026, Deutsche Telekom's T-Labs and the Brooklyn based company Qunnect achieved quantum teleportation across 30 kilometers of live commercial fiber running through Berlin, alongside ordinary internet traffic on the same cables.</p>
+<p>Telekom board member Abdu Mudesir called the network quantum ready, noting the demonstration used the company's existing metro fiber infrastructure rather than any purpose built experimental cable laid specifically and expensively for this particular test.</p>
+<p>This built on a Northwestern University demonstration months earlier that sent entangled photons through a busy Chicago area fiber route while regular data kept flowing beside it, proving the two very different signal types can coexist on the exact same shared fiber infrastructure without interference.</p>
+<p>Separately, physicists teleported quantum information between photons generated by two entirely different quantum dots in late 2025, a milestone that matters because a real world quantum network needs devices built by different manufacturers and research groups to talk to each other reliably.</p>
+
+<h2>Why This Matters for a Future Quantum Internet</h2>
+<p><a href="/article/end-of-passwords-guide-passkeys-biometric-security">Password security systems</a> built today already anticipate this shift, since standards bodies are pushing quantum resistant encryption years ahead of any working large scale quantum computer actually arriving on the market.</p>
+<p>A fully functioning global quantum internet would eventually link research labs, banks, hospitals, and government agencies through teleported quantum states rather than classical bits, creating channels where interception physically disturbs the signal itself instead of merely risking silent detection at some later point.</p>
+<p>Quantum repeaters sit at the center of this plan, since photons gradually lose their fragile quantum state over sufficiently long fiber runs and need intermediate relay stations capable of refreshing entanglement without ever measuring the fragile quantum information directly, since any direct measurement would destroy it instantly.</p>
+
+<h2>The Long Road From Lab Bench to Everyday Use</h2>
+<p>German researchers reported teleportation accuracy of 72 percent in their fiber based demonstration, comfortably above the 67 percent threshold needed to prove the result is genuinely quantum rather than an ordinary data transfer.</p>
+<p>That success still only happened a handful of times per hour, and the equipment required cooling to nearly minus 267 degrees Celsius, conditions far from anything resembling a consumer device, a home router, or an office server rack today.</p>
+<p><a href="/article/hyperscale-data-centres-consuming-more-power-than-countries">Hyperscale data center power</a> demand already strains electrical grids today, and a global network of quantum repeaters running near absolute zero would add an entirely new category of infrastructure cost on top of that existing strain.</p>
+<p>Verizon and Penn engineers separately connected a quantum network to a live fiber route in 2025 using a silicon chip that speaks the same protocols as the ordinary internet, another sign this technology is edging toward real infrastructure rather than staying confined to isolated lab benches.</p>
+
+<h2>What This Means Going Forward</h2>
+<p>Quantum teleportation is real, repeatable, and now proven outside a laboratory on ordinary commercial infrastructure. It simply moves information rather than matter, and it does so no faster than a fiber optic cable already allows every single day.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Is quantum teleportation actually real?</h3>
+<p>Yes, physicists have demonstrated it repeatedly, including a January 2026 test across 30 kilometers of live commercial fiber in Berlin. It transfers quantum information, not physical matter.</p>
+
+<h3>Does quantum teleportation move matter from one place to another?</h3>
+<p>No. It transfers a quantum state describing a particle's properties, while the original particle's state is destroyed the instant the new one is created elsewhere.</p>
+
+<h3>Is quantum teleportation faster than light?</h3>
+<p>No. It requires a classical signal sent through normal channels at light speed at most, so it cannot transmit usable information any faster than existing telecommunications infrastructure allows.</p>
+
+<h3>What is quantum entanglement?</h3>
+<p>Entanglement is a correlation between two particles where measuring one instantly affects the predicted outcome of measuring the other, regardless of the physical distance separating them.</p>
+
+<h3>What is quantum teleportation used for?</h3>
+<p>It underpins proposed quantum internet infrastructure, enabling secure communication where any eavesdropping attempt physically disturbs the transmitted signal and gets detected immediately.</p>
+
+<h3>When will quantum teleportation reach everyday devices?</h3>
+<p>Not soon. Current demonstrations require cooling near minus 267 degrees Celsius and only succeed a handful of times per hour, far from consumer ready technology.</p>
+
+<h3>Who first proposed quantum teleportation?</h3>
+<p>Physicist Charles Bennett and five colleagues proposed the theoretical protocol in a 1993 paper, decades before any real world fiber network demonstration existed.</p>
+  `
+},
   
 ];
 
