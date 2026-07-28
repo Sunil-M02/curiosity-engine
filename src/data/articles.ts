@@ -10578,6 +10578,168 @@ category: "artificial-intelligence",
 <p>Trace a repeated claim back to its original source before accepting or sharing it, since something being widely repeated is not the same as something being verified.</p>
   `
 },
+
+  {
+  id: 0, // TODO: set to current array max + 1
+  title: "Gravity Was Described Centuries Before Newton Changed History",
+  slug: "gravity-before-newton-history",
+  category: "history", // TODO: verify exact casing against live array
+  tags: ["Gravity", "Isaac Newton", "History of Science", "Ancient India"], // TODO: verify casing against live tag taxonomy
+  authors: authors[0],
+  excerpt: "Long before Newton, Indian astronomers described gravity as attraction. What his 1687 law actually proved was something different, and more powerful.",
+  metaTitle: "Gravity Was Described Centuries Before Newton Was Born",
+  metaDescription: "Brahmagupta described gravity as attraction in 628 CE, centuries before Newton. Discover what his 1687 law actually proved that earlier scholars could not.",
+  publishedAt: "2026-07-28", // TODO: set publish date
+  coverImage: "/images/articles/gravity-before-newton-history", // TODO: upload, slug-based filename
+  readTime: 6,
+  featured: false,
+  content: `
+<p>Isaac Newton did not discover that objects fall or that the earth pulls things toward it. Astronomers in India described that exact idea more than a thousand years before he was born. What Newton actually did was turn a loose observation into a provable, universal law, and that distinction changes the whole story.</p>
+
+<h2>What Brahmagupta Actually Wrote About Falling Objects</h2>
+<p>In 628 CE, the mathematician Brahmagupta wrote the Brahmasphutasiddhanta, a text on astronomy and arithmetic. He stated that bodies fall toward the earth because it is in the nature of the earth to attract them, comparing that pull to how water naturally flows downhill.</p>
+<p>That sentence is startling to read today. It treats attraction as a property of the earth itself, not divine will, which was the standard explanation across most of the ancient world. Brahmagupta also argued the earth was spherical and calculated its circumference at roughly 36,000 kilometers.</p>
+
+<h2>The Sanskrit Term for Gravity Bhaskara II Coined</h2>
+<p><a href="/article/aryabhata-earth-rotation-calculation">Aryabhata's rotation calculations</a> from the 5th century gave later Indian astronomers a foundation to build on. Bhaskara II, working around 1150 CE, went further than Brahmagupta and gave the concept its own name.</p>
+<p>In his treatise Siddhanta Shiromani, written in 1150 CE, he used the term gurutvakarshanam, meaning attraction by weight. He wrote that the earth's force of attraction also holds the sun, moon, and planets in their orbits, a description of one universal force acting on both earthly and celestial bodies.</p>
+<p>Bhaskara II never expressed this as a formula. There was no equation linking force to mass or distance, and no way to predict how strong the pull would be between two specific bodies, or how it would change at greater heights. The insight stayed a correct intuition without a testable structure behind it.</p>
+
+<h2>Why Aristotle and Islamic Scholars Also Got There First</h2>
+<p>Indian astronomers were not working in isolation on this question. The same pattern repeats across cultures with no contact with each other.</p>
+<p>Aristotle, writing in the 4th century BCE, proposed that heavy objects move toward the center of the universe because that is their natural place, a view that dominated European thought for nearly two thousand years.</p>
+<p><a href="/article/ancient-technologies-surprisingly-advanced-engineering">Ancient scientific instruments</a> built during the Islamic Golden Age extended this line of thinking. Scholars including al-Biruni and al-Khazini studied how weight changes with distance from the earth's center, work that fed directly into later gravitational thinking.</p>
+<p>Al-Biruni measured the earth's radius with striking accuracy using trigonometry and mountain observations in what is now Pakistan, a calculation historians still cite as remarkably precise for the 11th century.</p>
+<p>None of these thinkers, across three civilizations and over a thousand years of combined scholarship, connected their observations to planetary motion with a working equation. They noticed the pattern. Nobody had yet built the machine that could predict it.</p>
+
+<h2>What Newton Actually Added That Nobody Else Had</h2>
+<p>Newton published Philosophiae Naturalis Principia Mathematica in 1687, and its core achievement had nothing to do with noticing that things fall. Johannes Kepler had already shown, decades earlier, that planets move in ellipses using data collected by the astronomer Tycho Brahe.</p>
+<p>Newton's contribution was showing that one force, decreasing with the square of the distance between two objects, could mathematically produce every one of Kepler's planetary paths. He did this using calculus, a mathematical toolkit he had to invent for the purpose.</p>
+<p>The force pulling an apple down and the force holding the moon in orbit were the same force, governed by the same equation, applying equally to any two masses anywhere in the universe.</p>
+<p>That unification was the real breakthrough. Before Principia, it was not widely accepted that physics on earth followed the same rules as physics in the heavens. Newton gave scientists a formula precise enough to locate an undiscovered planet, which is exactly how Neptune was found in 1846.</p>
+
+<h2>The Robert Hooke Priority Dispute</h2>
+<p>Newton's own story includes an <a href="/article/alfred-wegener-continental-drift-ignored-prediction">ignored scientific prediction</a> dispute of its own. Robert Hooke, a rival of Newton, claimed credit for the inverse square idea after Principia's publication, pointing to a 1679 letter describing a force weakening with distance.</p>
+<p>Newton never fully credited Hooke, and the dispute turned bitter enough that Newton later stripped most references to Hooke from later editions of his work.</p>
+<p>Historians generally credit Hooke with a genuine but unproven guess, not the mathematical proof linking that force to elliptical orbits that Newton supplied. The two men never fully reconciled after that, and most of Hooke's original papers and instruments were lost after his death in 1703.</p>
+
+<h2>Why the India Discovered Gravity First Claim Oversimplifies History</h2>
+<p>The claim that India discovered gravity before Newton flattens a complicated story into a single winner, the way most viral history claims do. Brahmagupta and Bhaskara II described attraction toward the earth centuries earlier, and that deserves more recognition than it gets in most science classrooms.</p>
+<p>But discovering that objects attract each other and proving a universal, quantitative law describing exactly how they attract are different achievements. Several civilizations reached the first insight independently. Only Newton, building on Kepler's data, reached the second. This kind of <a href="/article/history-textbook-lies-myths-debunked">textbook oversimplification</a> erases what made 1687 matter.</p>
+
+<h2>What This History Teaches About How Science Progresses</h2>
+<p>Correct ideas can sit unused for a thousand years if nobody connects them to a testable structure. Brahmagupta, Bhaskara II, al-Biruni, and Hooke all touched pieces of the same truth without assembling the complete framework.</p>
+<p>Science rarely advances through one lightning bolt of insight from an isolated genius. It advances when someone has the mathematical tools, the accumulated data, and the persistence to turn scattered correct guesses into a law that makes falsifiable predictions.</p>
+
+<h2>Conclusion</h2>
+<p>The apple story oversimplifies something more interesting than a lone genius having a sudden idea. Gravity as a concept was noticed, named, and half described by multiple civilizations over roughly two thousand years before Newton was born.</p>
+<p>What happened in 1687 was the moment a scattered, ancient intuition finally became a law precise enough to send a spacecraft to Jupiter.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Did Indians discover gravity before Newton?</h3>
+<p>Indian astronomers described gravity as an attractive force centuries before Newton, most notably Brahmagupta in 628 CE and Bhaskara II around 1150 CE. Newton's distinct contribution was a mathematical, universal law rather than the basic observation itself.</p>
+
+<h3>Who first used the word for gravity in Sanskrit?</h3>
+<p>Bhaskara II coined the term gurutvakarshanam in his 12th century treatise Siddhanta Shiromani, describing it as the earth's force of attraction that also holds celestial bodies in orbit.</p>
+
+<h3>What did Newton actually discover about gravity?</h3>
+<p>Newton showed mathematically that one force, weakening with the square of distance, explains both falling objects on earth and orbiting planets, unifying terrestrial and celestial motion under a single testable law.</p>
+
+<h3>Did Aristotle believe in gravity?</h3>
+<p>Aristotle proposed that heavy objects move toward the universe's center because that is their natural resting place, a qualitative idea that shaped European thought for nearly two thousand years before Newton.</p>
+
+<h3>What was the dispute between Newton and Robert Hooke about?</h3>
+<p>Hooke claimed he had proposed the inverse square relationship before Newton published it in 1687. Most historians credit Hooke with a guess but credit Newton with the mathematical proof linking that force to elliptical orbits.</p>
+
+<h3>How accurate was Brahmagupta's calculation of the earth's size?</h3>
+<p>Brahmagupta estimated the earth's circumference at approximately 36,000 kilometers in the 7th century, reasonably close to the modern measurement of about 40,075 kilometers given the tools available to him.</p>
+
+<h3>Why do we still credit Newton if others came first?</h3>
+<p>Newton is credited because he transformed a widely shared but untested intuition into a quantitative, predictive law, one precise enough to later locate Neptune and guide modern spaceflight calculations.</p>
+`
+},
+
+  {
+  id: 0, // TODO: set to current array max + 1
+  title: "The Internet's Most Critical Infrastructure Is Hidden Under the Ocean",
+  slug: "undersea-internet-cables-carrying-global-data",
+  category: "technology", // TODO: verify exact casing against live array
+  tags: ["Internet Infrastructure", "Undersea Cables", "Telecommunications"], // TODO: verify casing against live tag taxonomy
+  authors: authors[0],
+  excerpt: "The internet runs on glass fiber lying on the seafloor, maintained by a shrinking fleet of aging ships. Here's why almost nobody notices until one snaps.",
+  metaTitle: "Undersea Internet Cables Carry 99% of World Data Now",
+  metaDescription: "Roughly 600 fiber cables on the seafloor carry 99% of global internet traffic, yet fewer than 25 aging repair ships worldwide can fix one when it breaks.",
+  publishedAt: "2028-07-28", // TODO: set publish date
+  coverImage: "/images/articles/undersea-internet-cables-carrying-global-data", // TODO: upload, slug-based filename
+  readTime: 7,
+  featured: false, 
+  content: `
+<p>Almost every email, video call, and international payment travels through a wire thinner than a garden hose, lying on the ocean floor. Roughly 99 percent of intercontinental internet traffic moves through submarine cables, not satellites. Fewer than 25 specialized ships worldwide can repair one when it breaks.</p>
+
+<h2>How Much of the Internet Actually Runs Through the Ocean Floor</h2>
+<p>Around 600 submarine cables currently stretch across the world's seabeds, according to industry tracker TeleGeography, carrying financial transactions, cloud computing traffic, and government communications between continents. Satellites handle a small fraction of that load.</p>
+<p>Satellites remain useful for remote coverage but far too limited in bandwidth for the volume modern data centers push every second, which is why fiber stays the backbone even as satellite constellations expand.</p>
+<p>Each cable is a bundle of hair thin glass fibers wrapped in layers of steel and polyethylene, no wider than a household hose in open ocean sections. Near shore, where fishing and anchors pose a bigger threat, the same cable gets extra armored layers for protection.</p>
+
+<h2>Why a Single Ship Anchor Can Cut Off a Country</h2>
+<p><a href="/article/nobody-invented-internet-distributed-history-biggest-network">The internet's distributed origins</a> were designed to survive nuclear war, yet its physical backbone remains surprisingly fragile in the water. Around 200 cable faults are reported globally every year, most caused by dragging anchors and bottom trawling fishing gear rather than sabotage.</p>
+<p>A single severed cable rarely disconnects a well connected country, since traffic simply reroutes through other lines automatically within seconds. But nations linked by only one or two cables can lose most of their international bandwidth in minutes, which has happened repeatedly to island nations and conflict zones in recent years.</p>
+
+<h2>The Aging Fleet That Keeps the World Online</h2>
+<p>Repairing a cable is not simple. A specialized ship must locate the fault, often in water thousands of meters deep, hook the cable with a grapnel, haul it to the surface, splice in a new segment, and test it before lowering it back down.</p>
+<p>A 2026 report from TeleGeography and Infra Analytics found the global cable ship fleet, currently around 62 vessels, is aging fast. By 2040, close to half of those ships will have reached the end of their working life, even as total cable length grows by roughly 48 percent.</p>
+<p>The same report estimated the industry needs close to 3 billion dollars in new investment just to keep repair capacity at its current level. Fewer than 1,000 people worldwide are trained to perform this specific repair work, a bottleneck that gets little public attention outside the industry itself.</p>
+
+<h2>Why Undersea Cables Have Become a Geopolitical Flashpoint</h2>
+<p>The <a href="/article/microchip-arms-race-global-power">global computing race</a> has made the physical routes carrying that computation newly strategic in ways few people outside telecom and defense circles track closely. The International Cable Protection Committee has documented rising concern over deliberate cable damage near contested waters, distinct from the routine accidental faults caused by fishing.</p>
+<p>The United Nations Convention on the Law of the Sea encourages countries to criminalize intentional cable damage, but enforcement across the open ocean remains genuinely difficult in practice.</p>
+<p>An anchor dragged across a cable can look identical to an accident even when it is not, and investigators often have no reliable, verifiable way to prove intent from seafloor evidence alone.</p>
+<p>That ambiguity makes attribution slow and disputes hard to resolve, which is part of why several governments have begun deploying naval patrols specifically to monitor cable routes near their coastlines, treating the seabed as a zone worth defending like territorial waters or airspace.</p>
+<p>Insurance costs for cable operators have risen accordingly in several high risk corridors near contested maritime borders.</p>
+
+<h2>What Data Centers Have to Do With Cables on the Seafloor</h2>
+<p>Demand for undersea capacity has shifted in the last few years, and the reason traces back to a different kind of infrastructure entirely. <a href="/article/hyperscale-data-centres-consuming-more-power-than-countries">Hyperscale data centers</a> are now driving most of the new demand for undersea capacity.</p>
+<p>Large cloud and AI companies increasingly fund and own cable routes directly rather than leasing space from telecom carriers, a shift that changes who controls internet chokepoints.</p>
+<p>This matters because a handful of private companies now have outsized influence over which regions get fast, reliable connections first. A country left off a new cable route can face higher latency and higher bandwidth costs for a decade or more.</p>
+
+<h2>How a Cable Actually Gets Fixed at Sea</h2>
+<p>Crews on repair ships often work without their own internet access in the deepest parts of the ocean, a strange irony given their job. Locating the exact break point can take several attempts, sometimes more than a dozen, using sonar and remotely operated vehicles to scan the seafloor.</p>
+<p>Once retrieved, the two damaged ends are cleaned, spliced together with new fiber under careful tension, tested for signal loss, and coated before being lowered back to the seabed. One repair can take days or weeks depending on depth and weather.</p>
+
+<h2>Why This Infrastructure Rarely Makes the News</h2>
+<p>Most people never think about submarine cables because the system is engineered to fail quietly. Traffic reroutes around damaged sections so fast that ordinary users rarely notice, which is exactly why the maintenance funding gap has stayed invisible for so long.</p>
+<p>The internet's <a href="/article/internet-military-experiment-not-nuclear-proof">original military origins</a> promised a network able to survive catastrophic damage, and in a sense the modern cable system delivers on that promise even as its maintenance budget quietly falls behind.</p>
+<p>That invisibility is starting to change as reports on the aging repair fleet reach policymakers, and as more governments treat cable routes as infrastructure worth protecting the same way they protect ports, airports, and power grids.</p>
+
+<h2>Conclusion</h2>
+<p>The cloud is not really a cloud. It is glass fiber on the ocean floor, maintained by a few dozen aging ships and fewer than a thousand trained specialists.</p>
+<p>The next time a video call loads instantly from another continent, that speed is riding on infrastructure most of the internet's users will never see or think about.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How much of internet traffic goes through undersea cables?</h3>
+<p>Approximately 99 percent of intercontinental internet traffic travels through submarine cables rather than satellites, according to industry data from TeleGeography and the International Telecommunication Union.</p>
+
+<h3>How many submarine cables exist today?</h3>
+<p>Around 600 submarine cable systems are currently active or planned worldwide, connecting continents and carrying the bulk of global financial, cloud, and communications traffic.</p>
+
+<h3>What usually damages undersea cables?</h3>
+<p>Most damage comes from ship anchors and bottom trawling fishing gear, not sabotage. The International Cable Protection Committee reports roughly 200 cable faults globally each year from these routine causes.</p>
+
+<h3>How long does it take to repair a broken cable?</h3>
+<p>Repairs typically take a few days to several weeks, depending on ocean depth, weather conditions, and how many attempts it takes to locate and retrieve the damaged section.</p>
+
+<h3>How many ships can repair undersea cables?</h3>
+<p>Fewer than 25 specialized cable repair ships operate worldwide, and close to half of the global fleet is expected to reach the end of its service life by 2040.</p>
+
+<h3>Are undersea cables at risk from sabotage?</h3>
+<p>Deliberate damage has become a growing concern near contested waters, though most reported faults still trace back to accidental anchor drags and fishing activity rather than intentional attacks.</p>
+
+<h3>Why don't satellites replace undersea cables?</h3>
+<p>Satellites carry a small fraction of global data because their bandwidth and latency cannot match fiber optic cable, making them a backup option rather than a realistic replacement for undersea infrastructure.</p>
+`
+},
   
 ];
 
