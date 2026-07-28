@@ -10590,7 +10590,7 @@ category: "artificial-intelligence",
   metaTitle: "Gravity Was Described Centuries Before Newton Was Born",
   metaDescription: "Brahmagupta described gravity as attraction in 628 CE, centuries before Newton. Discover what his 1687 law actually proved that earlier scholars could not.",
   publishedAt: "2026-07-28", // TODO: set publish date
-  coverImage: "/images/articles/gravity-before-newton-history", // TODO: upload, slug-based filename
+  coverImage: "/images/articles/gravity-before-newton-history.jpg", // TODO: upload, slug-based filename
   readTime: 6,
   featured: false,
   content: `
@@ -10671,7 +10671,7 @@ category: "artificial-intelligence",
   metaTitle: "Undersea Internet Cables Carry 99% of World Data Now",
   metaDescription: "Roughly 600 fiber cables on the seafloor carry 99% of global internet traffic, yet fewer than 25 aging repair ships worldwide can fix one when it breaks.",
   publishedAt: "2028-07-28", // TODO: set publish date
-  coverImage: "/images/articles/undersea-internet-cables-carrying-global-data", // TODO: upload, slug-based filename
+  coverImage: "/images/articles/undersea-internet-cables-carrying-global-data.jpg", // TODO: upload, slug-based filename
   readTime: 7,
   featured: false, 
   content: `
