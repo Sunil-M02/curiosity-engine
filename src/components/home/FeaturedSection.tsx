@@ -11,7 +11,7 @@ import { SectionHeading } from '@/components/home/SectionHeading';
 export function FeaturedSection() {
   // Editor's Picks shows only curated articles tagged with editorsPick, kept
   // disjoint from the Latest Articles section by curated selection.
-  const slides = getEditorsPickArticles(6);
+  const slides = getEditorsPickArticles(7);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, align: 'start', containScroll: 'trimSnaps', duration: 28 },
