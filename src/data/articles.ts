@@ -5360,7 +5360,7 @@ export const articles: Article[] = [
   author: authors[0],
   publishedAt: "2026-05-31",
   readTime: 10,
-  featured: true,
+  featured: false,
   tags: ["dopamine", "neuroscience", "social media", "brain", "addiction", "scrolling"],
 },
  
@@ -10172,7 +10172,7 @@ category: "artificial-intelligence",
   publishedAt: "2026-07-25", // TODO: set publish date
   coverImage: "/images/articles/microchip-arms-race-global-power.jpg", // TODO: upload cover image using slug-based naming convention
   readTime: 7,
-  featured: false,  
+  featured: true,  
   content: `
 <p>The next arms race won't be won by whoever builds the best drone or missile. It will be won by whoever controls a machine the size of a bus that only one company on Earth knows how to build.</p>
 <p>That company is ASML, based in the Netherlands. Its extreme ultraviolet lithography scanners sit behind every frontier chip, every advanced weapons system, and every major AI model released since 2023.</p>
