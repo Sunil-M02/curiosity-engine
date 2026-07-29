@@ -10670,7 +10670,7 @@ category: "artificial-intelligence",
   excerpt: "The internet runs on glass fiber lying on the seafloor, maintained by a shrinking fleet of aging ships. Here's why almost nobody notices until one snaps.",
   metaTitle: "Undersea Internet Cables Carry 99% of World Data Now",
   metaDescription: "Roughly 600 fiber cables on the seafloor carry 99% of global internet traffic, yet fewer than 25 aging repair ships worldwide can fix one when it breaks.",
-  publishedAt: "2028-07-28", // TODO: set publish date
+  publishedAt: "2026-07-28", // TODO: set publish date
   coverImage: "/images/articles/undersea-internet-cables-carrying-global-data.jpg", // TODO: upload, slug-based filename
   readTime: 7,
   featured: false, 
