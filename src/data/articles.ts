@@ -11084,7 +11084,7 @@ category: "artificial-intelligence",
   metaTitle: "The Tiny Bacteria That Actually Produce Earth's Oxygen", // 54 chars
   metaDescription: "One microscopic ocean bacterium produces a fifth of Earth's oxygen. See the science behind it, and why the '10:1 gut bacteria' myth was wrong all along.", // 152 chars
   coverImage: "/images/articles/ocean-bacteria-produce-earths-oxygen.jpg", // TODO: generate/upload, slug-based naming
-  publishedAt: "2026-01-08", // TODO: set publish date
+  publishedAt: "2026-08-01", // TODO: set publish date
   readTime: 7,
   authors: authors[0],
   featured: false,
