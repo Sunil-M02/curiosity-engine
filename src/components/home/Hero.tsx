@@ -11,7 +11,7 @@ const ParticleField = lazy(() =>
 
 export function Hero() {
   const heroArticle =
-    articles.find((a) => a.slug === 'why-you-cant-stop-scrolling-dopamine-loops-brain') ||
+    articles.find((a) => a.slug === 'microchip-arms-race-global-power') ||
     getLatestArticles(1)[0];
   const featuredColor = heroArticle ? categoryInfo[heroArticle.category].color : '#D4A843';
 
