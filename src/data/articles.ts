@@ -11235,7 +11235,158 @@ category: "artificial-intelligence",
 <p>Potentially, in the future. Tor developers are already testing post-quantum cryptographic algorithms to prepare for that eventual risk before it becomes practical.</p>
   `
 },
-  
+
+  {
+  id: 0, // TODO: set to current array max + 1
+  title: "Ancient Engineers Moved Stones Weighing Hundreds of Tons Without Modern Machines",
+  slug: "how-ancient-engineers-moved-massive-stone-blocks",
+  excerpt: "Three ancient civilizations independently solved the same transport problem using nothing but sand, rope, and leverage. Here is the physics behind it, verified by 2014 and 2025 research.",
+  metaTitle: "How Ancient Engineers Moved 1,650-Ton Stones by Hand", // 52 characters
+  metaDescription: "Wet sand, levers, and center-of-mass rocking explain how Egypt, Baalbek, and Easter Island moved stones up to 1,650 tons without cranes or lost technology.", // 155 characters
+  category: "history", // TODO: verify casing against live category array
+  tags: ["Ancient Engineering", "Archaeology", "Egypt", "Physics History"], // TODO: verify tag casing against live array
+  coverImage: "/images/articles/how-ancient-engineers-moved-massive-stone-blocks.jpg", // TODO: generate/upload cover image using slug-based naming convention
+  publishedAt: "2026-08-03", // TODO: set publish date
+  author: authors[0],
+  readTime: 6,
+  featured: false,
+  content: `
+<p>Ancient builders raised stones weighing between 100 and 1,650 tons without cranes, engines, or metal pulleys. They did it by exploiting three physics principles engineers still rely on today: cutting friction, distributing force through leverage, and shifting an object's center of mass. Egyptian workers wetted desert sand to drag pyramid blocks. Roman-era masons rolled 800-ton limestone trilithons toward Baalbek on wooden tracks. Rapa Nui islanders "walked" their moai statues upright using rope and rhythm instead of dragging them flat. None of it required lost technology. It required close observation of how materials behave under load, and the patience to test what actually worked.</p>
+
+<h2>The Real Problem Was Never Strength. It Was Friction.</h2>
+<p>Moving a multi-ton block is not primarily a muscle problem. It is a friction problem, and dry sand is one of the worst surfaces for sliding a heavy sledge across. In 2014, physicists led by Daniel Bonn at the University of Amsterdam tested this directly by pulling small sledges across trays of sand.</p>
+<p>Their results, published in Physical Review Letters, showed that adding water equal to just 2 to 5 percent of the sand's volume created capillary bridges between grains. Those bridges stiffened the sand and stopped it from piling up in front of the sledge, cutting the required pulling force by roughly half.</p>
+<p>A wall painting from the tomb of Djehutihotep, dated to around 1900 BC, shows a worker pouring water directly in front of a sledge hauling a large statue, with 172 men pulling the ropes. The Egyptians had already discovered the trick by trial and observation, long before anyone could explain the physics behind it.</p>
+
+<h2>Baalbek's 1,650-Ton Puzzle: Rollers, Levers, and a Downhill Advantage</h2>
+<p>Lebanon's Baalbek complex holds some of the largest worked stones on Earth. The Trilithon blocks weigh 800 to 1,000 tons each, and a nearby unfinished monolith, the so-called Forgotten Stone, is estimated at 1,650 tons.</p>
+<p>Archaeologists have found a detail that rarely makes the popular retelling: the quarry sits about 800 meters from the temple site and slightly higher in elevation. Movers likely did not need to lift the stones uphill.</p>
+<p>Gravity did part of the work. Workers mainly had to control the descent using wooden rollers, packed earthen ramps, and levers, the same lever-and-fulcrum logic later formalized in <a href="/article/gravity-before-newton-history">pre-Newtonian physics</a> across the ancient world.</p>
+<p>A 1977 study by French engineer Jean-Pierre Adam calculated that a 557-ton block could be moved using capstans, pulley blocks, and around 512 workers in coordinated pulling teams. That scales roughly with what Baalbek's larger stones required, though final placement onto raised platforms remains unresolved.</p>
+
+<h2>Why the Moai of Easter Island "Walked" Instead of Being Dragged</h2>
+<p>For decades, the leading theory held that Rapa Nui islanders felled trees to use as rollers, dragging moai statues horizontally across the island. Islander oral tradition told a different story: the statues "walked" to their platforms.</p>
+<p>A 2025 study in the Journal of Archaeological Science, led by Carl Lipo of Binghamton University and Terry Hunt of the University of Arizona, analyzed 962 moai statues found along transport roads.</p>
+<p>Those road statues consistently share a wide D-shaped base and a forward lean of 6 to 15 degrees. The proportions are not decorative. They are what make the rocking motion physically possible.</p>
+<p>The team tested the idea with a 4.35-ton replica moai, moving it 100 meters in 40 minutes using just 18 people and three ropes to rock it side to side in a zigzag walk. Once the statue started rocking, workers reported pulling with a single arm, since momentum did most of the remaining work.</p>
+
+<h2>The Common Thread Across Three Civilizations</h2>
+<p>Egypt, Baalbek, and Rapa Nui never shared a technology exchange, yet each culture arrived at the same underlying insight: change how a heavy object interacts with the ground rather than trying to overpower its weight.</p>
+<p>That same insight drives <a href="/article/civilisation-invented-wheel-not-used-transport-first">the wheel's earliest transport uses</a>, and it resurfaces across other <a href="/article/ancient-technologies-surprisingly-advanced-engineering">early engineering solutions</a> built without metal machinery.</p>
+<p>What separates these three cases from myth is documentation. Egyptian tomb art shows the water trick in progress. Baalbek's quarry still holds a stone frozen mid-transport. Rapa Nui's toppled road statues preserve the exact lean angle their movers relied on. The physics is testable because the evidence survived.</p>
+
+<h2>What Modern Engineers Still Cannot Fully Explain</h2>
+<p>Getting an 800-ton block moving is one problem. Setting it precisely onto a wall twenty feet up, with joints too tight for a knife blade, is another. Modern cranes rated above 500 tons would strain to place Baalbek's largest stones, and no ancient lifting mechanism has ever been recovered on site.</p>
+<p>Researchers generally agree that some combination of earthen ramps, timber cribbing, and coordinated levering raised the blocks incrementally, inch by inch, rather than in a single lift. The final placement method remains the least understood part of the entire process, and current evidence cannot fully close that gap.</p>
+
+<h2>Why the "Impossible Without Aliens" Myth Persists</h2>
+<p>Claims about lost technology or extraterrestrial help tend to fill exactly the gaps described above, treating unresolved details as proof of impossibility. Reviewing <a href="/article/history-textbook-lies-myths-debunked">common myths that popular history keeps repeating</a> shows the same pattern: a real gap in the record gets replaced with a dramatic explanation instead of a provisional one.</p>
+<p>The physics recovered so far, wet sand, leverage, rolling, and rocking, already accounts for the vast majority of what these sites required. What is missing is not a hidden civilization. It is the specific sequence of steps that left no physical trace behind.</p>
+
+<h2>The Bottom Line</h2>
+<p>None of these three civilizations needed machinery that has since been lost. They needed sharp observation of how sand, wood, and stone actually behave under load, and the discipline to repeat what worked at enormous scale across decades of construction. The open questions that remain, particularly how the heaviest Baalbek blocks were finally lifted into place, are engineering puzzles rather than evidence of vanished technology. Modern archaeologists are still testing theories the same way the ancients likely did: by building a scale model, loading it, and simply trying it.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How did ancient Egyptians move pyramid stones without wheels?</h3>
+<p>They dragged stones on wooden sledges and wetted the sand ahead of the sledge, which cut the required pulling force by about half, according to 2014 physics research from the University of Amsterdam.</p>
+
+<h3>How much do the largest stones at Baalbek weigh?</h3>
+<p>The largest is an unfinished block known as the Forgotten Stone, estimated at around 1,650 tons, making it one of the heaviest stones ever quarried by humans.</p>
+
+<h3>Did Easter Island statues really walk?</h3>
+<p>Yes. A 2025 study found their D-shaped bases and forward lean were designed for a rocking, walking motion using ropes, not for being dragged flat on rollers.</p>
+
+<h3>How many people did it take to move a moai statue?</h3>
+<p>Researchers moved a 4.35-ton replica moai 100 meters in 40 minutes using only 18 people and three ropes.</p>
+
+<h3>Were levers and rollers used at every ancient construction site?</h3>
+<p>Not identically. Egypt relied heavily on wet sand friction reduction, while Baalbek's builders combined rollers, levers, and a downhill quarry grade.</p>
+
+<h3>Is there proof ancient people used lost or advanced technology?</h3>
+<p>No verified archaeological evidence supports lost advanced technology. Wet sand, leverage, rollers, and center-of-mass rocking account for the transport methods documented so far.</p>
+
+<h3>What part of ancient megalith construction is still unexplained?</h3>
+<p>How workers lifted Baalbek's 800-ton trilithon blocks roughly twenty feet up and fitted them with near-seamless precision remains the least understood step.</p>
+`
+},
+
+{
+  id: 0, // TODO: set to current array max + 1
+  title: "Humanoid Robots Are Leaving the Lab. What Happens When They Enter the Workplace?",
+  slug: "humanoid-robots-in-the-workplace-2026",
+  excerpt: "Behind the viral robot demos is a smaller, stranger reality: a handful of humanoid robots doing real, narrow, supervised work while safety rules race to catch up.",
+  metaTitle: "Humanoid Robots at Work in 2026: What's Really True", // 51 characters
+  metaDescription: "Tesla Optimus, Figure AI, and Boston Dynamics Atlas are entering real workplaces in 2026. See verified data behind the hype, the jobs, and safety rules.", // 152 characters
+  category: "future-innovation", // TODO: verify casing against live category array
+  tags: ["Humanoid Robots", "Automation", "Future of Work", "Robotics"], // TODO: verify tag casing against live array
+  coverImage: "/images/articles/humanoid-robots-in-the-workplace-2026.jpg", // TODO: generate/upload cover image using slug-based naming convention
+  publishedAt: "2026-08-03", // TODO: set publish date
+  author: authors[0],
+  readTime: 6,
+  featured: false,
+  content: `<p>Humanoid robots are already clocking real shifts. Figure AI's robots logged more than 1,250 operating hours at BMW's Spartanburg plant, hitting 99 percent placement accuracy while helping build over 30,000 vehicles. That is genuinely new. What has not happened is the thing the marketing implies: a general-purpose humanoid worker that needs no human supervision. Tesla's Elon Musk himself admitted in early 2026 that Optimus units are "not in usage in our factories in a material way." The workplace transition underway right now is real, bounded, and slower than the headlines suggest.</p>
+
+<h2>What Is Actually Deployed in 2026, Not What Is Announced</h2>
+<p>Separating verified deployment from press-release numbers matters here. Figure AI's Figure 02 completed an eleven-month pilot at BMW, logging 1,250-plus hours, loading over 90,000 sheet-metal parts, and holding above 99 percent placement accuracy on an 84-second cycle time.</p>
+<p>Agility Robotics' Digit is doing paid commercial work too, handling totes and material movement at a GXO Logistics warehouse and, since February 2026, under a signed commercial contract with Toyota Motor Manufacturing Canada following a successful year-long pilot program. Boston Dynamics' electric Atlas is running structured pilots inside Hyundai facilities.</p>
+<p>Tesla presents the sharpest contrast to those verified numbers. Independent trackers have cited figures near 50,000 cumulative Optimus units, but Tesla has never published an audited production count, and Musk confirmed on a Q4 2025 earnings call that current units serve data collection, not productive factory work.</p>
+
+<h2>Why Bipedal Robots, Not Wheeled Ones, Are the Target</h2>
+<p>The logic is architectural, not aesthetic. Doorways, stairs, tool handles, workbenches, and vehicle interiors were all built for two-armed, two-legged workers. A wheeled robot needs a retrofitted facility. A humanoid one, in theory, does not.</p>
+<p>That is also why the earliest paying deployments cluster in automotive and logistics: structured, repetitive tasks in facilities already built around human dimensions, which shortens the gap between a demo and a dependable shift, a pattern that mirrors <a href="/article/2026-rise-of-agentic-ai-autonomous-agents-automation">how autonomous software agents scaled fastest inside narrow, well-defined workflows first</a>.</p>
+
+<h2>The Skill That Actually Changed: Learning From Watching, Not Programming</h2>
+<p>What separates 2026's robots from earlier humanoid prototypes is not better hydraulics. It is how they learn tasks. Tesla trains Optimus using motion-capture data collected from human workers, then distills it into a neural policy through imitation learning.</p>
+<p>Figure's robots can receive a spoken instruction, plan the motion sequence, and verbally confirm the action before executing it. That shift, from custom programming taking weeks to demonstration data taking hours, is the real engineering unlock behind 2026's deployments, more than any single hardware upgrade.</p>
+
+<h2>What the Job Numbers Actually Say</h2>
+<p>Morgan Stanley's often-cited 62.7 million figure is not a 2026 forecast. It is the bank's cumulative estimate of US jobs substituted by humanoid robots by 2050, across 831 occupations.</p>
+<p>The firm explicitly states this does not mean 62.7 million people become jobless. It counts substituted tasks and roles over a 25-year horizon, absorbed gradually as robots become cheaper and more capable in narrow domains.</p>
+<p>The World Economic Forum's 2025 Future of Jobs report projects 92 million roles displaced by 2030 alongside 170 million created, a net gain of roughly 78 million jobs globally, though 41 percent of employers surveyed still plan headcount reductions at the individual site level.</p>
+<p>The International Labour Organization's 2026 review of automation's measured impact found that large-scale displacement so far remains limited, and that reported productivity gains have not yet translated broadly into changed output, earnings, or employment figures.</p>
+<p>Physical labor substitution is modeled from around 2028 onward. Office-based task substitution is not expected to register meaningfully until the 2040s, a timeline that tracks closely with <a href="/article/artificial-general-intelligence-closer-than-expected">how researchers currently frame general AI capability timelines</a>, since both depend on similar reasoning and planning advances.</p>
+
+<h2>What These Robots Still Cannot Do</h2>
+<p>Every verified 2026 deployment shares a limit: structured environments. Figure's BMW robots place parts to five-millimeter precision on a fixed 84-second cycle. Digit handles totes along defined warehouse paths. None currently operate reliably in genuinely unstructured settings without a human supervising the exception cases.</p>
+<p>That gap matters more than the headline unit counts. A robot that can sort battery cells on a Gigafactory line is not the same system as one that can safely improvise around an unpredictable job site or a cluttered retail floor.</p>
+
+<h2>Safety Rules Are Still Catching Up</h2>
+<p>No dedicated humanoid-robot safety standard exists yet. OSHA currently applies its General Duty Clause alongside ANSI/A3 R15.06-2025 and references ISO 10218, the existing industrial robot safety standard, plus ISO/TS 15066 for shared human-robot workspaces.</p>
+<p>A dedicated humanoid standard, ISO 25785-1, remains a working draft, with publication expected in 2026 or 2027. Until it lands, compliance gaps carry real financial risk.</p>
+<p>One Midwest manufacturer was fined over $107,000 across seven robots for missing documented energy-control procedures. Unexpected activation already accounts for more than 60 percent of documented robot-related workplace injuries, according to a 2024 analysis of OSHA severe injury reports.</p>
+
+<h2>What This Means for Anyone Planning Around It</h2>
+<p>The realistic near-term pattern is augmentation inside narrow, structured tasks, not blanket replacement across an entire workforce. Companies without genuinely repetitive, high-volume, well-defined work have little reason to deploy a $20,000 to $30,000 humanoid robot in 2026, since <a href="/article/ai-chip-arms-race-nvidia-near-monopoly-hardware">the compute and hardware costs behind these systems</a> still favor large-scale operators first.</p>
+<p>Workers in structured manufacturing and warehouse roles are the most exposed group over the next several years. Everyone else has more runway than the announcement cycle implies, and the honest 2026 baseline is a few hundred verified, productive units worldwide, not the tens of thousands frequently claimed.</p>
+
+<h2>The Bottom Line</h2>
+<p>The humanoid robots working real shifts today are doing narrow, supervised, structured tasks, not the general-purpose labor the marketing promises. Figure's BMW pilot and Agility's Toyota contract are genuine commercial milestones. Tesla's Optimus, by its own CEO's account, is not one yet. The technology curve is moving quickly. The safety and labor frameworks meant to govern it are still being written, which is the part of this transition worth watching most closely.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are humanoid robots actually working in factories right now?</h3>
+<p>Yes, in narrow cases. Figure AI's robots logged 1,250-plus verified hours at BMW, and Agility Robotics' Digit works paid commercial shifts at Toyota and GXO Logistics facilities.</p>
+
+<h3>Is Tesla's Optimus doing real factory work in 2026?</h3>
+<p>Not yet in a material way. Elon Musk confirmed on Tesla's Q4 2025 earnings call that Optimus units are currently used for data collection rather than productive tasks.</p>
+
+<h3>How many jobs will humanoid robots actually displace?</h3>
+<p>Morgan Stanley's 62.7 million figure is a cumulative US estimate through 2050, not a near-term forecast, and the firm explicitly says it does not mean that many people go jobless.</p>
+
+<h3>Do safety regulations exist specifically for humanoid robots?</h3>
+<p>Not yet. Regulators currently apply existing industrial robot standards like ISO 10218, while a dedicated humanoid standard, ISO 25785-1, remains an unpublished working draft.</p>
+
+<h3>What tasks can humanoid robots reliably do today?</h3>
+<p>Structured, repetitive tasks such as parts handling, sorting, tote movement, and quality inspection in controlled factory or warehouse settings, generally with a human supervising at the exception points.</p>
+
+<h3>How much does a humanoid robot cost in 2026?</h3>
+<p>Tesla has publicly targeted a $20,000 to $30,000 price per unit at scale, though that target price point assumes a production volume the company has not yet actually reached.</p>
+
+<h3>Which company has the strongest verified humanoid robot deployment?</h3>
+<p>Figure AI currently has the clearest evidence, with a paying external customer in BMW, and a completed eleven-month pilot backed by independently reported operating hours and placement-accuracy metrics.</p>
+`
+},  
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
