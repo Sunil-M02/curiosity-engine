@@ -11486,7 +11486,7 @@ category: "artificial-intelligence",
   metaTitle: "Why Losing $100 Feels Worse Than Winning $100 Does", // 50 chars
   metaDescription: "Kahneman and Tversky found losses feel about twice as powerful as equal gains. Here is the brain science behind loss aversion and its contested 2.25 ratio.", // 155 chars
   authors: authors[0],
-  publishedAt: "2026-08-03", // TODO: set publish date
+  publishedAt: "2026-08-04", // TODO: set publish date
   coverImage: "/images/articles/why-losing-money-hurts-more-than-winning.jpg", // TODO: generate/upload, slug-based naming
   readTime: 8,
   featured: false,
