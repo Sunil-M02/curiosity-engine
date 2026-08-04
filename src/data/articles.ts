@@ -11386,7 +11386,183 @@ category: "artificial-intelligence",
 <h3>Which company has the strongest verified humanoid robot deployment?</h3>
 <p>Figure AI currently has the clearest evidence, with a paying external customer in BMW, and a completed eleven-month pilot backed by independently reported operating hours and placement-accuracy metrics.</p>
 `
-},  
+},
+
+{
+  id: 0, // TODO: set to current array max + 1
+  title: "The Hardest Problem in AI May Be Teaching Machines to Know When They Don't Know",
+  slug: "why-ai-cant-tell-you-when-it-doesnt-know",
+  category: "artificial-intelligence", // TODO: verify exact casing against live array
+  tags: ["AI Hallucination", "Machine Learning", "AI Calibration", "OpenAI Research"], // TODO: verify casing against live tag array
+  excerpt: "OpenAI just proved something counterintuitive: a language model that never hallucinates mathematically cannot be well calibrated. Here's why 'I don't know' is the hardest sentence in AI.",
+  metaTitle: "The Hardest Problem in AI: Teaching Machines Doubt", // 50 chars
+  metaDescription: "A 2025 OpenAI paper proved hallucination-free AI models can't be calibrated. Here is why teaching machines genuine uncertainty is harder than teaching facts.", // 154 chars
+  authors: authors[1],
+  publishedAt: "2026-08-04", // TODO: set publish date
+  coverImage: "/images/articles/why-ai-cant-tell-you-when-it-doesnt-know.jpg", // TODO: generate/upload, slug-based naming
+  readTime: 8,
+  featured: false,
+
+  content: `
+<p>Large language models cannot reliably tell you when they do not know something, and new research shows this is not a bug that better training will quietly fix. A 2025 OpenAI and Georgia Tech paper proved mathematically that a model which never hallucinates cannot also be well calibrated under current training methods.</p>
+<p>The stakes go beyond trivia errors. A confidently wrong answer in medicine, law, or finance can cause real harm, and the gap between sounding certain and being correct is exactly where that harm lives.</p>
+<p>Understanding why this problem resists easy fixes means looking past the usual explanation of "bad training data" and into the math of how language models are built and graded in the first place.</p>
+
+<h2>Why Generating a Wrong Answer Is Easier Than Admitting You Don't Know</h2>
+<p>Researchers Adam Kalai, Ofir Nachum, Santosh Vempala, and Edwin Zhang formalized a key asymmetry: generating a correct answer is fundamentally harder than verifying whether an answer is correct. Their proof shows the generative error rate must be at least twice the classification error rate for the same task.</p>
+<p>That bound matters because it means hallucination is not simply a symptom of insufficient data or scale. Even with a flawless training set and unlimited compute, a model trained to predict the next word will sometimes produce a false but statistically plausible statement, because plausibility and truth are not the same optimization target.</p>
+<p>Cross-entropy training, the standard objective behind most language models, rewards a model for matching the overall shape of its training data. It does not directly reward the model for saying "I don't know" when a fact falls outside what it actually learned.</p>
+<p>Calibration, in this framework, is the property of a model's confidence scores accurately reflecting its real odds of being right. The paper shows that pursuit of raw accuracy actively works against that property, not alongside it.</p>
+
+<h2>Small Models Can Know Their Limits Better Than Bigger Ones</h2>
+<p>One of the paper's more counterintuitive findings involves scale. A small model asked a question in a language it has never seen, such as Te Reo Māori, can simply answer "I don't know," because it has no relevant knowledge to weigh against.</p>
+<p>A larger model that has absorbed fragments of that language faces a harder internal calculation. It must estimate how confident to be about partial, patchy knowledge, and that estimation task is computationally more demanding than blank refusal.</p>
+<p>Avoiding hallucination, in other words, is not purely a function of model size or intelligence. Sometimes knowing less makes honesty easier, while knowing a little makes overconfidence more tempting.</p>
+<p>This reframes a common assumption. The path to trustworthy AI is not simply "make it smarter." It requires a model to accurately track the boundary of its own knowledge, a skill distinct from raw capability.</p>
+
+<h2>The Real Reason Models Keep Guessing: Evaluations Punish Honesty</h2>
+<p><a href="/article/why-ai-language-models-confidently-state-false-facts-mechanism">The mechanism behind confident false statements</a> only tells half the story. The other half is structural: nearly every major benchmark used to rank language models scores answers as simply right or wrong, with zero credit for a truthful "I don't know."</p>
+<p>Under that grading scheme, guessing is statistically the better strategy. A model that always guesses when uncertain will score higher on accuracy leaderboards than one that abstains, even though the guessing model is objectively less trustworthy in practice.</p>
+<p>The OpenAI researchers call this an evaluation problem as much as a technical one. Hundreds of accuracy-based benchmarks currently dominate how models are compared and marketed, and every one of them implicitly punishes calibrated humility.</p>
+<p>A single well-designed hallucination eval cannot fix this on its own, because it competes against the sheer weight of existing leaderboards that reward confident guessing over honest restraint.</p>
+
+<h2>How Researchers Measure What a Model Doesn't Know</h2>
+<p>Detecting a model's genuine uncertainty after the fact is its own research problem. In 2024, Oxford researcher Sebastian Farquhar and colleagues published a method in Nature called semantic entropy, which estimates uncertainty by generating several answers to the same question and clustering them by meaning rather than exact wording.</p>
+<p>If a model produces many phrasings that all mean the same thing, its uncertainty is low. If its answers scatter across contradictory meanings, semantic entropy is high, flagging a likely hallucination even when no ground-truth answer is available for comparison.</p>
+<p>The original method is computationally expensive, since it requires sampling a model many times per question. Follow-up work introduced semantic entropy probes, which approximate the same signal from a model's internal hidden states in a single forward pass, cutting that overhead dramatically.</p>
+<p><a href="/article/how-ai-thinking-actually-works">How transformer models actually process language</a> internally is part of what makes these newer probing techniques possible at all. They read uncertainty signals directly out of the model's own internal representations, rather than sampling its output repeatedly.</p>
+
+<h2>Why This Isn't Just an Engineering Fix</h2>
+<p>Solving calibration is described by its own researchers as a socio-technical problem, not a purely mathematical one. A better detection method, on its own, does not change what gets rewarded downstream.</p>
+<p>Even a technically perfect calibration method changes nothing if the benchmarks that define industry success keep rewarding accuracy alone. The incentive structure sits upstream of any single model's training run.</p>
+<p>That creates a coordination problem no single lab can solve alone. Getting AI labs, benchmark maintainers, and enterprise buyers to jointly value calibrated humility over headline accuracy scores means changing how the field keeps score, not patching one training run.</p>
+<p>The psychology of overconfidence in humans offers an odd parallel here: people with the least expertise often express the most certainty. Language models trained on human text inherit a version of that same pattern by statistical association.</p>
+<p>That inheritance is not humanlike self-awareness. It is a statistical echo of how confidently humans themselves tend to write about things they only partly understand.</p>
+
+<h2>What Changes When AI Finally Learns to Say It Doesn't Know</h2>
+<p>These are not abstract stakes confined to research papers. They show up wherever a fluent answer gets treated as a settled fact without anyone checking twice.</p>
+<p><a href="/article/ai-accuracy-paradox-healthcare-risk">The accuracy paradox in medical AI</a> shows exactly what is at stake here. A diagnostic model that is right 95 percent of the time but never flags its own uncertain 5 percent is more dangerous in a clinical setting than a slightly less accurate model that reliably says "I'm not sure, please verify."</p>
+<p>Calibrated uncertainty would let a doctor, lawyer, or engineer know precisely when to trust an AI output outright and when to double-check it, turning a black box into a collaborator with a measurable confidence level attached to its work.</p>
+<p>A contract-review tool that flags an ambiguous clause as low-confidence, rather than silently guessing at its meaning, changes how a lawyer actually works alongside the tool day to day. Small, calibrated signals like that compound across thousands of queries into genuinely different working habits.</p>
+<p>None of this requires the model to become more capable in the raw sense. It requires the model to become more honest about the edges of what it already knows, which is a narrower and arguably harder target than raw intelligence.</p>
+<p>That distinction between capability and honesty is easy to state and difficult to build, which is exactly why it remains one of the field's most stubborn open problems today.</p>
+<p><a href="/article/illusion-of-explanatory-depth-explained">The illusion of understanding something you don't</a> is a distinctly human bias. Current AI systems risk manufacturing a machine version of the same illusion at scale, projecting fluency as if it were knowledge.</p>
+
+<p>None of this makes today's AI systems less useful. It does mean the fluent, confident tone of a chatbot answer carries less epistemic weight than it appears to on the surface.</p>
+<p>The path forward, according to the researchers behind this work, runs through rewriting how the entire field measures success, not through a single clever training trick. Until benchmarks reward "I don't know" as often as they reward a lucky guess, confident wrongness will remain a rational strategy for any model trying to win the leaderboard.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why can't AI models just say "I don't know" more often?</h3>
+<p>Current benchmarks score answers as simply right or wrong, giving no credit for an honest "I don't know." This makes guessing the statistically better strategy for scoring well, even though it produces less trustworthy answers.</p>
+
+<h3>Is AI hallucination a training data problem?</h3>
+<p>Not primarily. A 2025 OpenAI and Georgia Tech paper proved that even with flawless training data, the cross-entropy objective used to train language models makes some hallucination mathematically unavoidable.</p>
+
+<h3>Do bigger AI models hallucinate less than smaller ones?</h3>
+<p>Not necessarily. Research shows a small model with no relevant knowledge can simply abstain, while a larger model with partial knowledge faces a harder confidence-estimation task that can lead to more overconfident guessing.</p>
+
+<h3>What is semantic entropy in AI research?</h3>
+<p>Semantic entropy is a 2024 Nature-published method that estimates a model's uncertainty by generating multiple answers and clustering them by meaning. Scattered, contradictory meanings signal a likely hallucination.</p>
+
+<h3>Can AI hallucinations ever be fully eliminated?</h3>
+<p>Current theoretical work suggests full elimination is unlikely under existing training objectives, since some guessing is mathematically built in. Researchers instead focus on calibration, so models signal uncertainty rather than eliminating errors outright.</p>
+
+<h3>Why does this matter for AI used in healthcare or law?</h3>
+<p>A confidently wrong answer in a high-stakes field can cause real harm. Calibrated uncertainty would let professionals know when to trust an AI output directly and when to verify it manually.</p>
+
+<h3>What would actually fix AI overconfidence?</h3>
+<p>Researchers argue the fix is largely structural: rewriting industry benchmarks to reward honest uncertainty as neutral rather than penalizing it as a wrong answer, alongside continued technical work on uncertainty detection.</p>
+`
+},
+
+{
+  id: 0, // TODO: set to current array max + 1
+  title: "Losing $100 Feels More Powerful Than Winning $100",
+  slug: "why-losing-money-hurts-more-than-winning",
+  category: "psychology-mind", // TODO: verify exact casing against live array
+  tags: ["Loss Aversion", "Behavioral Economics", "Prospect Theory", "Decision Psychology"], // TODO: verify casing against live tag array
+  excerpt: "Kahneman and Tversky's most famous finding says losses hurt about twice as much as equal gains feel good. Brain scans reveal it's not fear driving that gap, and the exact ratio is now contested.",
+  metaTitle: "Why Losing $100 Feels Worse Than Winning $100 Does", // 50 chars
+  metaDescription: "Kahneman and Tversky found losses feel about twice as powerful as equal gains. Here is the brain science behind loss aversion and its contested 2.25 ratio.", // 155 chars
+  authors: authors[0],
+  publishedAt: "2026-08-03", // TODO: set publish date
+  coverImage: "/images/articles/why-losing-money-hurts-more-than-winning.jpg", // TODO: generate/upload, slug-based naming
+  readTime: 8,
+  featured: false,
+
+  content: `
+<p>Losing $100 hurts roughly twice as much as winning $100 feels good. This asymmetry, called loss aversion, was first measured by psychologists Daniel Kahneman and Amos Tversky and remains one of the most replicated findings in behavioral science, even as newer research questions exactly how universal that "twice as much" really is.</p>
+<p>The effect explains why people reject fair coin-flip bets, hold onto losing stocks too long, and feel a sharper sting from a parking ticket than the pleasure of finding the same amount of cash on the sidewalk.</p>
+<p>What is less commonly understood is where this asymmetry actually comes from in the brain, and how confidently the famous 2-to-1 ratio really holds up under closer scrutiny.</p>
+
+<h2>The 1979 Paper That Discovered Losses Loom Larger</h2>
+<p>Kahneman and Tversky introduced loss aversion in their 1979 paper "Prospect Theory: An Analysis of Decision under Risk," published in the journal Econometrica. It became one of the most cited papers in the social sciences.</p>
+<p>Their central claim broke from classical economics. Traditional theory assumed people evaluate outcomes based on final wealth, treating a gain and an equivalent loss as mirror images of the same magnitude.</p>
+<p>Prospect theory proposed something different: people evaluate outcomes as changes from a reference point, not as absolute wealth. Whether a result registers as a gain or a loss depends entirely on what it is compared against.</p>
+<p>The theory's value function plots subjective value against objective gains and losses. That curve is concave for gains, meaning each additional dollar of profit matters slightly less than the last, and convex for losses, meaning early losses sting disproportionately hard.</p>
+<p>Critically, the curve is steeper on the loss side than the gain side. That steeper slope below the reference point is loss aversion itself, the mathematical signature of losses simply mattering more.</p>
+
+<h2>Where the 2.25 Ratio Actually Comes From</h2>
+<p>The famous "twice as powerful" figure did not appear in the original 1979 paper, which established the qualitative pattern without pinning down an exact number. Kahneman and Tversky only turned to measuring the ratio directly in a 1992 follow-up study.</p>
+<p>That 1992 paper, along with related work by Redelmeier and Tversky the same year, estimated a loss aversion coefficient of about 2.25. In practical terms, a person would need a roughly 50 percent chance of winning about $225 to accept an even bet risking $100.</p>
+<p>Later meta-analyses complicate that tidy number. A 2024 meta-analysis of risky-choice studies found the coefficient varies considerably across experiments, with some finding weak loss aversion and others finding none at all, depending on stakes, framing, and how the underlying gamble is presented to participants.</p>
+<p>The direction of the effect is far better established than its exact size. Losses consistently outweigh equivalent gains in the research record. Precisely how much they outweigh them turns out to depend heavily on context.</p>
+
+<h2>What Happens in the Brain When You Lose Money</h2>
+<p><a href="/article/deadline-stress-brain-survival-response">The amygdala's threat-response circuitry</a> is the intuitive place to look for a "loss alarm," given its established role in processing fear and danger. A landmark 2007 Science study by Sabrina Tom, Craig Fox, Christopher Trepel, and Russell Poldrack tested that assumption directly using fMRI.</p>
+<p>Participants decided whether to accept or reject gambles offering a 50/50 chance of winning or losing money while researchers scanned their brains. The result overturned the obvious prediction.</p>
+<p>Loss aversion did not show up as extra activity in fear-related regions like the amygdala. Instead, the same reward-sensitive regions that lit up more as potential gains grew, including the ventral striatum, simply showed decreasing activity as potential losses grew larger.</p>
+<p>In other words, the brain does not appear to sound a distinct alarm for losses. It turns down the same reward signal it uses for gains, more sharply than it turns up for equivalent winnings. Individual differences in how sharply that signal dropped predicted each participant's real behavioral loss aversion.</p>
+<p>That finding reframes what loss aversion actually is neurologically. It looks less like fear overriding reward, and more like one shared valuation system that simply weights losses more heavily than gains within its own normal operation.</p>
+
+<h2>Is the "Losses Hurt Twice as Much" Number Overstated?</h2>
+<p>A vocal strand of behavioral economics research has pushed back on treating 2.25 as a fixed law of human psychology. Researcher Eyal Yechiam has argued the earliest evidence for loss aversion was thinner and more context-dependent than its later fame suggests.</p>
+<p><a href="/article/confirmation-bias-news-feed-psychology">Confirmation bias in how people process information</a> may partly explain why the striking 2x figure spread so widely while more modest or null replications received far less attention in both academic citation and popular coverage.</p>
+<p>A large 2022 replication effort published in Nature Human Behaviour tested Kahneman and Tversky's original 1979 findings across 19 countries and 13 languages. It reported roughly 90 percent replication on the core theoretical contrasts underlying prospect theory.</p>
+<p>Some individual effects came back weaker than in 1979, though the researchers attributed part of that gap to easier access to more varied participant pools today than in the original small samples, not necessarily a flaw in the underlying theory.</p>
+
+<h2>Why This Bias Shows Up Across Cultures and Species</h2>
+<p>Loss aversion is not confined to WEIRD populations, the shorthand researchers use for Western, educated, industrialized, rich, and democratic samples that dominate much of psychology research. It has been documented in indigenous hunter-gatherer communities and in children as young as five.</p>
+<p>Researchers Keith Chen, Venkat Lakshminarayanan, and Laurie Santos found something similar in capuchin monkeys trained to trade tokens for food. The monkeys showed the same aversion to losses relative to gains that humans display, despite having no concept of money, framing, or economic theory.</p>
+<p><a href="/article/dunning-kruger-effect-confidence-psychology">Confidence miscalibration research</a> shows a related pattern: cognitive biases that show up this consistently across species and cultures usually point to something built into shared evolutionary machinery, not a quirk of any one culture's upbringing or economic system.</p>
+<p>An asymmetry this old, evolutionarily speaking, likely conferred a real survival advantage. An ancestor who weighted the risk of losing scarce food or safety more heavily than the promise of an equivalent gain was, on average, making the safer bet across a lifetime of repeated decisions.</p>
+
+<h2>How Loss Aversion Quietly Shapes Everyday Decisions</h2>
+<p>That evolutionary logic still plays out in decisions that have nothing to do with survival. Framing the same fact as a loss or a gain changes decisions even when the underlying numbers are identical.</p>
+<p>A medical outcome described as "95 percent survival" gets a different reaction than the same statistic framed as "5 percent mortality," despite conveying exactly the same information. Doctors, marketers, and policymakers exploit this framing effect constantly, sometimes deliberately and sometimes without realizing it.</p>
+<p>Subscription services lean on the same asymmetry when they emphasize what a customer will "lose" by canceling rather than what they gained by signing up in the first place, since loss framing tends to be the more persuasive of the two.</p>
+<p><a href="/article/nocebo-effect-mind-body-sickness">The nocebo effect</a> runs on a related asymmetry, where the expectation of harm produces measurably worse outcomes than neutral expectation, another case where the mind weights negative possibilities more heavily than equivalent positive ones.</p>
+<p>Investors show a well-documented version of this pattern by holding onto losing stocks far longer than winning ones, hoping to avoid locking in a loss, even when the numbers clearly favor selling. Negotiators who frame a concession as "the other side's loss" rather than "your gain" often provoke stronger resistance for the identical trade-off.</p>
+
+<p>The precise multiplier attached to loss aversion may keep shifting as research methods improve, but the underlying asymmetry itself has proven remarkably durable across four decades of scrutiny.</p>
+<p>Understanding that a $100 loss simply registers more forcefully than a $100 gain will not make the sting disappear. It does explain why so many everyday financial and emotional decisions tilt toward caution that classical economic theory never predicted.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why does losing money feel worse than gaining the same amount?</h3>
+<p>Psychologists call this loss aversion, first documented by Daniel Kahneman and Amos Tversky. Brain imaging research shows losses trigger a sharper drop in the same reward-related circuitry that gains activate, rather than a separate fear response.</p>
+
+<h3>Is the loss aversion ratio really 2 to 1?</h3>
+<p>Kahneman and Tversky's 1992 estimate put the ratio at roughly 2.25 to 1, but later meta-analyses show it varies widely by context, with some studies finding a much weaker effect or none at all.</p>
+
+<h3>Does loss aversion happen in animals too?</h3>
+<p>Yes. Research on capuchin monkeys trained to trade tokens for food found the same aversion to losses relative to gains seen in humans, suggesting deep evolutionary roots.</p>
+
+<h3>Does the brain have a special circuit for processing losses?</h3>
+<p>No. A 2007 Science study found loss aversion comes from decreased activity in the same reward-sensitive regions activated by gains, not from a distinct fear-processing alarm system like the amygdala.</p>
+
+<h3>Can people learn to overcome loss aversion?</h3>
+<p>Research on experienced traders suggests that treating each decision as one of many, rather than in isolation, can measurably reduce loss aversion's influence on individual choices.</p>
+
+<h3>Does loss aversion replicate across different cultures?</h3>
+<p>A 2022 study testing the original 1979 findings across 19 countries reported about 90 percent replication of the core theoretical patterns, though the exact size of the effect varied by sample.</p>
+
+<h3>How does loss aversion affect investing decisions?</h3>
+<p>Investors often hold onto losing stocks longer than winning ones to avoid formally realizing a loss, even when selling would be the more rational financial choice.</p>
+`
+},
+  
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
