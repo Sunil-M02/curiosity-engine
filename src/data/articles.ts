@@ -11646,7 +11646,7 @@ category: "artificial-intelligence",
   id: 0, // TODO: set to current array max + 1
   title: "GPS Satellites Need Einstein's Relativity for Your Maps to Work Correctly",
   slug: "gps-relativity-einstein-atomic-clock-explained",
-  category: "Technology", // TODO: verify casing against live array
+  category: "technology", // TODO: verify casing against live array
   tags: ["GPS", "Relativity", "Einstein", "Satellites", "Physics"], // TODO: verify casing against live array
   excerpt: "GPS satellites carry clocks deliberately mistuned before launch, because Einstein's relativity speeds them up once they reach orbit.",
   metaTitle: "GPS Relativity Explained: How Satellites Stay Accurate",
@@ -11656,7 +11656,6 @@ category: "artificial-intelligence",
   authors: authors[0],  
   readTime: 6,
   featured: false,  
-    
   content: `
 <p>Every GPS satellite carries an atomic clock deliberately built to run at the wrong speed on the ground. Once it reaches orbit, Einstein's relativity speeds it up by about 38 microseconds a day. Left uncorrected, that drift would push your phone's location off by roughly 10 kilometers within 24 hours.</p>
 <p>Modern navigation depends on physics most people associate with black holes and time travel, quietly running in the background every time a map app draws a blue dot on the screen.</p>
@@ -11713,8 +11712,7 @@ category: "artificial-intelligence",
 
 <h3>Was the GPS relativistic correction actually tested before launch?</h3>
 <p>Yes. The 1977 Navigation Technology Satellite 2 ran for about three weeks without the correction to confirm the predicted drift matched Einstein's equations before engineers activated the fix.</p>
-
-  `
+`
 },
   
 ];
