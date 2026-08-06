@@ -11714,6 +11714,89 @@ category: "artificial-intelligence",
 <p>Yes. The 1977 Navigation Technology Satellite 2 ran for about three weeks without the correction to confirm the predicted drift matched Einstein's equations before engineers activated the fix.</p>
 `
 },
+
+  {
+  id: 0, // TODO: set to current articles array max id + 1
+  title: "Earthquakes Can Change the Length of a Day by Tiny Amounts",
+  slug: "earthquake-effect-on-earth-rotation-speed",
+  metaTitle: "How Earthquakes Change Earth's Rotation and Day Length", // 54 chars
+  metaDescription: "Massive earthquakes redistribute Earth's mass and briefly speed up its spin, shortening the day by microseconds. See the real NASA figures behind it here.", // 154 chars
+  excerpt: "NASA geophysicist Richard Gross has calculated exactly how many microseconds earthquakes like Sumatra, Chile, and Japan's Tohoku shaved off Earth's day.",
+  category: "future-innovation", // TODO: verify exact casing against live categories array
+  tags: ["Earthquakes", "Earth Rotation", "NASA", "Geophysics", "Physics"], // TODO: verify tag casing against live tags array
+  authors: authors[0], // TODO: confirm author field/value used elsewhere in article.ts
+  publishedAt: "2026-08-06", // TODO: set publish date
+  coverImage: "/images/articles/earthquake-effect-on-earth-rotation-speed.jpg", // TODO: confirm slug-based naming convention and upload actual asset
+  readTime: 7,
+  featured: false,  
+  content: `
+<p>A magnitude 9 earthquake can shorten a single Earth day by a few millionths of a second. NASA geophysicist Richard Gross reached that conclusion after the 2004 Sumatra earthquake, the 2010 Chile earthquake, and the 2011 Tohoku earthquake in Japan all measurably nudged the planet's spin.</p>
+<p>The mechanism is the same physics that makes a figure skater spin faster when pulling their arms inward. A massive quake redistributes rock inside the planet, changing how fast Earth rotates, in a way scientists can calculate to the microsecond.</p>
+
+<h2>Why a Megaquake Barely Touches Your Clock</h2>
+<p>Only the largest earthquakes register at all, and even then the change is minuscule. The 2011 Tohoku earthquake, a magnitude 9.0 event off the coast of Japan, ranks as the fifth largest earthquake recorded since 1900. According to Gross at NASA's Jet Propulsion Laboratory, it shortened the length of day by about 1.8 microseconds.</p>
+<p>That figure was refined from an initial 1.6 microsecond estimate once better fault-slip data came in. A microsecond is one millionth of a second, a change no personal clock would ever register without a research-grade timing network behind it.</p>
+
+<h2>The Physics: How Moving Mass Speeds Up Earth's Spin</h2>
+<p>Earth's rotation follows conservation of angular momentum, the same rule that governs a spinning skater. Pull the arms toward the body and rotation speeds up, because mass has moved closer to the axis. Extend the arms and rotation slows.</p>
+<p>Earth behaves the same way, just with rock instead of limbs. During a large subduction earthquake, one tectonic plate lurches beneath another, and rock along the fault shifts within seconds. Historians trace early quantitative attempts to measure <a href="/article/aryabhata-earth-rotation-calculation">Earth's rotation</a> back over a thousand years, long before anyone grasped the mechanism behind sudden changes like these.</p>
+<p>When enough mass moves closer to Earth's rotation axis, the planet's moment of inertia decreases. By conservation of angular momentum, the spin rate ticks up in response, shaving a sliver off the length of the day.</p>
+
+<h2>The Numbers: Sumatra, Chile, and Japan Compared</h2>
+<p>The largest confirmed effect on record comes not from a recent quake but from the 1960 Valdivia earthquake in Chile, magnitude 9.5 and still the most powerful earthquake ever instrumentally recorded.</p>
+<p>Geophysicists Benjamin Fong Chao and Richard Gross later estimated the Valdivia quake shortened the day by roughly 8.0 microseconds, the largest single-event change on record. The 2004 Sumatra-Andaman earthquake, magnitude 9.1, produced the next largest effect.</p>
+<p>NASA's initial 2005 estimate put the Sumatra shortening at 2.68 microseconds, later revised to 6.8 microseconds using refined fault-slip data, the figure JPL now cites for comparison.</p>
+<p>The 2010 Chile earthquake, magnitude 8.8, shortened the day by about 1.26 microseconds and shifted Earth's figure axis by roughly 8 centimeters, a shift small enough that only specialized instruments can detect it.</p>
+
+<h2>Figure Axis vs Rotation Axis: A Persistent Mix-Up</h2>
+<p>Headlines after the 2011 Japan earthquake claimed the quake shifted Earth's axis by 17 centimeters, and that is technically true, but the phrase invites confusion. Gross was describing the figure axis, the axis around which Earth's mass is balanced, not the spin axis Earth rotates around.</p>
+<p>The two axes are offset by about 10 meters and behave differently. Moving the figure axis makes the planet wobble slightly as it spins, similar to a top with extra weight added off center.</p>
+<p>It does not tilt Earth in space or point the North Pole somewhere new. Only external forces, chiefly the gravitational pull of the sun and moon, can do that.</p>
+
+<h2>Why Some Quakes Shorten the Day and Others Do Nothing</h2>
+<p>Direction and depth decide the outcome. A megathrust quake with strong vertical slip, where one plate rides up over another, moves mass in a pattern that shortens the day. Strike-slip faults that shear sideways barely register.</p>
+<p>The July 2025 magnitude 8.8 earthquake off Kamchatka, among the ten largest instrumentally recorded, illustrates the scale problem well. Despite its size, no rotation figure comparable to the Sumatra or Tohoku calculations had been published as of this writing, a reminder that these numbers take careful modeling, not a quick estimate.</p>
+
+<h2>How Scientists Actually Catch a Microsecond</h2>
+<p>Detecting a change smaller than a heartbeat requires the International Earth Rotation and Reference Systems Service, which combines interferometry, satellite laser ranging, and GPS tracking to monitor Earth's orientation continuously.</p>
+<p>That same infrastructure keeps global navigation running. The <a href="/article/gps-relativity-einstein-atomic-clock-explained">atomic clock precision</a> built into GPS satellites depends on knowing Earth's rotation rate accurately, because even tiny timing errors translate into real positioning errors on the ground.</p>
+<p>Geophysicists rarely observe an earthquake's rotational signal directly in the raw data. Instead, they model the expected change from seismic fault-slip measurements, then compare that prediction against a much noisier real-world record already dominated by weather and ocean currents.</p>
+<p>These same measurements feed into decisions about leap seconds, the occasional one-second adjustments added to civil time to keep clocks aligned with Earth's actual, slightly irregular spin.</p>
+<p>Earthquakes large enough to matter here are rare. Only a handful of magnitude 8.5 or greater events occur globally each decade, which is why Sumatra, Chile, and Japan keep reappearing in every rotation study.</p>
+<p>The predicted change from any single quake is a theoretical calculation, not a direct observation, and it stays buried inside a much larger global rotation record already dominated by everyday wind and ocean circulation patterns worldwide.</p>
+
+<h2>Bigger Than Earthquakes: What Really Controls Earth's Spin</h2>
+<p>Earthquakes make headlines because the change is sudden, but they are minor contributors next to slower planetary forces working continuously in the background.</p>
+<p>The moon's gravity, responsible for <a href="/article/why-the-moon-always-shows-the-same-face-the-physics-of-tidal-locking">tidal locking</a> between Earth and its own satellite, also drags on Earth's oceans through tidal friction. That friction alone lengthens the day by roughly 1.7 milliseconds per century, thousands of times larger than any single earthquake's effect.</p>
+<p>Melting ice sheets now rival that long-term trend. A 2024 study by Scripps geophysicist Duncan Agnew, published in Nature, found that meltwater flowing from Greenland and Antarctica has shifted mass toward the equator enough to partly offset acceleration from Earth's liquid core, which has been quietly speeding up rotation for decades.</p>
+<p>That offset is delaying an unprecedented negative leap second, previously expected around 2026, out to roughly 2029. It is a rare case of melting ice canceling out a separate rotational trend rather than adding to it.</p>
+<p>The comparison matters because it shows climate processes now rival tectonics and ocean tides in shaping the length of a day over time, something no single earthquake, however powerful, comes close to achieving on its own.</p>
+<p>Even a full Three Gorges Dam reservoir, by NASA's own comparison, would lengthen the day by about 0.06 microseconds simply by holding 40 cubic kilometers of water at a distance from Earth's axis. Centuries before any of this was measurable, philosophers were already refining <a href="/article/gravity-before-newton-history">early ideas about gravity</a> that eventually made such precise calculations possible.</p>
+
+<h2>Conclusion</h2>
+<p>Earthquakes really do change how fast Earth spins, but the shift lives entirely in the realm of scientific instruments, not human experience. A day shortened by a few millionths of a second will never affect a commute, a meeting, or a sunset.</p>
+<p>What the numbers reveal is how tightly connected Earth's solid interior, oceans, ice, and rotation truly are. The same conservation law that speeds up a figure skater governs an entire planet, and every redistribution of mass leaves a measurable, if invisible, mark on the length of a day.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Does an earthquake actually change how long a day is?</h3>
+<p>Yes, but only by millionths of a second, caused by Earth's mass shifting during the quake rather than any outside force.</p>
+
+<h3>Can a person ever feel or measure this change with a normal clock?</h3>
+<p>No. The shift is far smaller than any wristwatch or ordinary atomic clock in daily use could detect without a dedicated monitoring network.</p>
+
+<h3>Why do some earthquakes shorten the day while others do almost nothing?</h3>
+<p>It depends on the fault slip. Megathrust quakes with strong vertical motion redistribute mass toward the axis, while sideways strike-slip quakes barely move mass at all.</p>
+
+<h3>What is the difference between Earth's figure axis and its rotation axis?</h3>
+<p>The rotation axis is what Earth spins around, while the figure axis is the axis its mass is balanced on. Earthquakes can shift the figure axis without tilting the rotation axis in space.</p>
+
+<h3>Which earthquake caused the biggest known change in day length?</h3>
+<p>The 1960 magnitude 9.5 Valdivia earthquake in Chile, the most powerful ever recorded, is estimated to have shortened the day by about 8.0 microseconds.</p>
+
+<h3>Do earthquakes matter more than other causes of Earth's changing spin?</h3>
+<p>No. Tidal friction from the moon and, more recently, melting polar ice sheets have a far larger long-term effect than any single earthquake.</p>`,
+},
   
 ];
 
