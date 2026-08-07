@@ -11885,6 +11885,84 @@ category: "artificial-intelligence",
 <h3>Will solid-state batteries make current EVs obsolete?</h3>
 <p>Not immediately. Mass-market solid-state vehicles are unlikely before 2030, so lithium-ion EVs bought today will remain functional and supported for years before the shift happens.</p>`,
 },
+
+   {
+  id: "0", // TODO: set to current array max + 1 (verify against live array before merge)
+  title: "The Revolt of 1857 Was Far More Complex Than a Single Uprising",
+  slug: "1857-revolt-india-not-single-sepoy-mutiny",
+  category: "history", // TODO: verify exact casing against live category array
+  tags: ["Indian History", "Colonial India", "1857 Revolt", "British Raj"], // TODO: verify casing against live tag array
+  excerpt: "Textbooks call it one uprising. In reality the 1857 Revolt was a Bengal army mutiny, a separate civilian rebellion over land and taxes, and a century of historians disputing its name.",
+  metaTitle: "1857 Revolt in India: More Than a Single Sepoy Mutiny",
+  metaDescription: "The 1857 Revolt hit mainly the Bengal army, not the whole nation. Learn why Madras and Bombay stayed calm and why historians still debate its true name.",
+  author: authors[0],
+  publishedAt: "2026-08-08", // TODO: confirm publish date
+  coverImage: "/images/articles/1857-revolt-india-not-single-sepoy-mutiny.jpg", // TODO: source cover image
+  readTime: 7,
+  featured: false,
+  content: `
+<p class="lead">The Revolt of 1857 is often taught as a single sepoy mutiny that swept across India. It was not. The uprising was confined mostly to the Bengal army, ran alongside a separate civilian rebellion of peasants and landholders, and remains split among historians who cannot agree on what to even call it.</p>
+ 
+<p>Three regions of India stayed almost entirely calm. Two different populations rebelled for two very different reasons. Historians writing about the same eighteen months have used four distinct names for it: mutiny, rebellion, civil uprising, and war of independence. That disagreement is not academic hairsplitting. It reflects a genuinely fractured event.</p>
+ 
+<p>Understanding 1857 accurately means separating three things that get flattened into one story: which soldiers actually revolted, which civilians joined them and why, and how the label historians choose changes what the revolt is remembered as.</p>
+ 
+<h2>The Revolt Was a Bengal Army Problem, Not an India-Wide One</h2>
+<p>British India's forces were split into three presidency armies: Bengal, Bombay, and Madras. Only the Bengal army mutinied in significant numbers. The Madras army recorded no mutinies at all, and the Bombay army saw just three among its 29 regiments.</p>
+<p>The Bengal army recruited heavily from high-caste Hindus in Awadh and Bihar, a policy that gave it a uniform religious and social character the other two armies never had. That homogeneity meant a single grievance, like the greased cartridges for the new Enfield rifle, could spread through Bengal's ranks in weeks.</p>
+<p>Punjab told an almost opposite story. Sikh regiments and Punjabi soldiers, only recently defeated by the British in the Anglo-Sikh Wars, actively helped suppress the revolt rather than join it, partly out of rivalry with the Bengal army's high-caste sepoys.</p>
+ 
+<h2>Sepoys Were Not the Only Rebels</h2>
+<p>Framing 1857 purely as a mutiny erases the second rebellion happening alongside it. In Awadh, recently annexed by Governor-General Dalhousie in 1856 under the Doctrine of Lapse, taluqdars, landholders, and peasants rose up independently of the sepoys, often for entirely different reasons.</p>
+<p>Dalhousie's annexation policy had already stripped several Indian rulers of their states when they died without a biological heir, alarming princely families well before a single cartridge sparked unrest at Meerut. Much like <a href="/article/ashoka-kalinga-war-peace-transformation">the aftermath of the Kalinga war</a> centuries earlier, conquest in Awadh forced a ruling power to reconsider how it governed conquered territory.</p>
+<p>The British response moved toward tighter administrative control rather than the restraint Ashoka later chose, but both events show how a single conquest can reshape governing philosophy for generations, not just for the territory directly involved.</p>
+<p>New land revenue rules under the British had also stripped many taluqdars of hereditary rights, pushing them toward the rebels even though they had no direct connection to the army's grievances. Peasants joined for their own reasons tied to tax burden and lost land titles, not religious insult over rifle cartridges.</p>
+ 
+<h2>One Event, Four Competing Names</h2>
+<p>British colonial writers like Sir John Seeley dismissed 1857 as a narrow "Sepoy Mutiny" with no popular backing and no coherent purpose. That framing survived in Western textbooks for over a century, flattening a multi-layered rebellion into a single barracks dispute.</p>
+<p>V.D. Savarkar's 1909 book gave it an entirely different identity, calling it India's "First War of Independence," a label treating the revolt as a coordinated national uprising against colonial rule. This reading still shapes how the event gets taught across much of India today, even where the record is thinner.</p>
+<p>Historian R.C. Majumdar rejected both extremes. He argued the revolt was neither fully national nor a coherent war of independence, pointing out that large parts of the country, and large sections of the population within rebelling regions, never rose at all.</p>
+<p>These disagreements are not just labeling disputes. Similar myth-versus-record gaps run through <a href="/article/history-textbook-lies-myths-debunked">popular history taught in classrooms</a>, where a clean national narrative often survives long after evidence complicates it.</p>
+<p>This is exactly the kind of flattening that shows up across historical narratives more broadly, similar to how the sinking of the <a href="/article/titanic-sinking-causes-beyond-iceberg">Titanic gets reduced to a single iceberg</a> when engineering failures, delayed warnings, and lifeboat shortages all played a role. A single label rarely survives contact with the full record.</p>
+<p>Historian S.N. Sen offered a middle reading: the revolt began as a fight tied to religion and military grievance, then evolved into something closer to a war for independence as it spread. That evolution across the eighteen months is part of why no single label captures the whole event accurately.</p>
+ 
+<h2>Why No Single Cause Explains 1857</h2>
+<p>Historians researching large collapses in other eras run into the same pattern. The <a href="/article/bronze-age-collapse-1200-bc-civilisation-vanished">Bronze Age collapse around 1200 BC</a> was once blamed on a single invading force, until later research revealed drought, famine, and trade disruption acting together. The Revolt of 1857 resists a single trigger for the same structural reason.</p>
+<p>Religious anxiety over the cartridges lit the fuse. Land revenue reforms, the Doctrine of Lapse, and economic strain under Company rule supplied the fuel that had been building for years.</p>
+<p>Removing any one factor changes the shape of the outbreak but does not remove the underlying tension. Revolt somewhere in North India by 1857 was close to inevitable, even if the exact trigger had been different.</p>
+ 
+<h2>What Changed After the Revolt Was Crushed</h2>
+<p>The British government dissolved the East India Company in 1858 and transferred direct control of India to the Crown, ending over a century of Company rule. Queen Victoria's proclamation promised religious noninterference, an attempt to defuse exactly the anxiety that had triggered the cartridge controversy.</p>
+<p>Military reorganization followed quickly. The ratio of British to Indian soldiers was deliberately increased, and army recruitment shifted away from the homogeneous high-caste Bengal model toward regiments mixed by caste, region, and religion to prevent future unified mutinies.</p>
+<p>Infrastructure investment accelerated too. Railway expansion across North India sped up considerably after 1858, driven partly by the lesson that troops needed to reach rebellious regions faster than 1857 had allowed, a priority that still shapes <a href="/article/kavach-technology-indian-railways-safety">how Indian Railways approaches safety and control today</a>.</p>
+ 
+<p>The Revolt of 1857 was never one uprising wearing different masks. It was a military mutiny confined mostly to Bengal, a separate civilian rebellion over land and taxation, and a century-long argument among historians about what to call the whole affair.</p>
+<p>Treating it as a single event erases exactly what makes it worth studying: how a religious spark, a land policy, and an army's caste composition combined to produce something no single explanation covers.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Was the Revolt of 1857 only a sepoy mutiny?</h3>
+<p>No. While it began as a mutiny in the Bengal army, it ran alongside a separate civilian rebellion of peasants, landholders, and taluqdars in Awadh and central India who had their own grievances over land and taxation.</p>
+ 
+<h3>Which parts of India did not join the revolt?</h3>
+<p>The Madras army recorded no mutinies, the Bombay army saw only three among 29 regiments, and Punjab's recently defeated Sikh regiments largely sided with the British and helped suppress the uprising.</p>
+ 
+<h3>Why do historians disagree on what to call the revolt?</h3>
+<p>British colonial historians labeled it a narrow Sepoy Mutiny, Indian nationalist V.D. Savarkar called it the First War of Independence, and later historians like R.C. Majumdar rejected both extremes as inaccurate given how unevenly the country actually rebelled.</p>
+ 
+<h3>What was the Doctrine of Lapse?</h3>
+<p>It was a British East India Company policy under Governor-General Dalhousie that allowed the Company to annex princely states whose rulers died without a biological heir, a practice that alienated Indian royal families well before 1857.</p>
+ 
+<h3>Did the greased cartridges alone cause the revolt?</h3>
+<p>No. The Enfield rifle cartridges were the immediate spark, but land revenue changes, the Doctrine of Lapse, and long-standing economic grievances had already built the tension that made a wider uprising likely.</p>
+ 
+<h3>What changed in how Britain governed India after 1858?</h3>
+<p>The Crown replaced the East India Company as India's direct ruler, the army was reorganized to mix castes and regions within regiments, and railway expansion accelerated to allow faster troop movement across the country.</p>
+ 
+<h3>Is calling it the First War of Independence historically accurate?</h3>
+<p>It captures the scale of civilian participation in some regions but overstates the case nationally, since large parts of India, including the south and Punjab, never rose against British rule during 1857.</p>
+  `
+},
   
 ];
 
