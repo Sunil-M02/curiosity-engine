@@ -11722,7 +11722,7 @@ category: "artificial-intelligence",
   metaTitle: "How Earthquakes Change Earth's Rotation and Day Length", // 54 chars
   metaDescription: "Massive earthquakes redistribute Earth's mass and briefly speed up its spin, shortening the day by microseconds. See the real NASA figures behind it here.", // 154 chars
   excerpt: "NASA geophysicist Richard Gross has calculated exactly how many microseconds earthquakes like Sumatra, Chile, and Japan's Tohoku shaved off Earth's day.",
-  category: "future-innovation", // TODO: verify exact casing against live categories array
+  category: "science", // TODO: verify exact casing against live categories array
   tags: ["Earthquakes", "Earth Rotation", "NASA", "Geophysics", "Physics"], // TODO: verify tag casing against live tags array
   authors: authors[0], // TODO: confirm author field/value used elsewhere in article.ts
   publishedAt: "2026-08-06", // TODO: set publish date
