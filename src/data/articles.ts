@@ -11896,7 +11896,7 @@ category: "artificial-intelligence",
   metaTitle: "1857 Revolt in India: More Than a Single Sepoy Mutiny",
   metaDescription: "The 1857 Revolt hit mainly the Bengal army, not the whole nation. Learn why Madras and Bombay stayed calm and why historians still debate its true name.",
   author: authors[0],
-  publishedAt: "2026-08-08", // TODO: confirm publish date
+  publishedAt: "2026-08-07", // TODO: confirm publish date
   coverImage: "/images/articles/1857-revolt-india-not-single-sepoy-mutiny.jpg", // TODO: source cover image
   readTime: 7,
   featured: false,
