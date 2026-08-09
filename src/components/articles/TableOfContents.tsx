@@ -116,10 +116,10 @@ export function TableOfContents({ items, className }: TableOfContentsProps) {
         </nav>
       </details>
 
-      <aside className="hidden xl:block">
+      <aside className="hidden xl:block sticky top-28 self-start border-r border-border/60">
         <nav
           aria-label="Table of contents"
-          className="sticky top-28 max-h-[calc(100vh-8rem)] overflow-y-auto pr-2"
+          className="max-h-[calc(100vh-8rem)] overflow-y-auto pr-2"
         >
           <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             On this page
