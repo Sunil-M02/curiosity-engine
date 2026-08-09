@@ -116,17 +116,18 @@ export function TableOfContents({ items, className }: TableOfContentsProps) {
         </nav>
       </details>
 
-      <aside className="hidden xl:block sticky top-28 self-start border-r border-border/60">
-        <nav
-          aria-label="Table of contents"
-          className="max-h-[calc(100vh-8rem)] overflow-y-auto pr-2"
-        >
-          <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            On this page
-          </p>
-          {navList}
-        </nav>
-      </aside>
+      <aside className="hidden xl:block sticky top-28 self-start h-fit border-r border-border/60">
+  <nav
+    aria-label="Table of contents"
+    className="pr-4"
+  >
+    <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+      On this page
+    </p>
+
+    {navList}
+  </nav>
+</aside>
     </div>
   );
 }
