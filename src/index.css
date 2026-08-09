@@ -80,6 +80,7 @@
     --sidebar-accent-foreground: 40 20% 90%;
     --sidebar-border: 222 25% 18%;
     --sidebar-ring: 38 92% 55%;
+    --article-anchor-offset: 7rem;
   }
 
   .light {
@@ -234,7 +235,7 @@
       font-weight: 600;
       line-height: 1.3;
       margin-top: 2.5rem;
-      scroll-margin-top: 7rem;
+      scroll-margin-top: var(--article-anchor-offset);
       border-left: 3px solid #D4A843;
       padding-left: 0.85rem;
     }
@@ -245,7 +246,7 @@
       font-size: 20px;
       font-weight: 500;
       line-height: 1.3;
-      scroll-margin-top: 7rem;
+      scroll-margin-top: var(--article-anchor-offset);
     }
 
     p {

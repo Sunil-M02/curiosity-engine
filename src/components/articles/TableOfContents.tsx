@@ -8,6 +8,26 @@ interface TableOfContentsProps {
   className?: string;
 }
 
+const DEFAULT_SCROLL_OFFSET_PX = 112;
+const ARTICLE_ANCHOR_OFFSET_VAR = '--article-anchor-offset';
+const OBSERVER_BOTTOM_ROOT_MARGIN = '-65%';
+
+const getScrollOffsetPx = () => {
+  const rawOffset = getComputedStyle(document.documentElement).getPropertyValue(ARTICLE_ANCHOR_OFFSET_VAR).trim();
+  if (!rawOffset) return DEFAULT_SCROLL_OFFSET_PX;
+
+  if (rawOffset.endsWith('rem')) {
+    const remValue = Number.parseFloat(rawOffset);
+    if (Number.isFinite(remValue)) {
+      const rootFontSize = Number.parseFloat(getComputedStyle(document.documentElement).fontSize);
+      return remValue * (Number.isFinite(rootFontSize) ? rootFontSize : 16);
+    }
+  }
+
+  const pxValue = Number.parseFloat(rawOffset);
+  return Number.isFinite(pxValue) ? pxValue : DEFAULT_SCROLL_OFFSET_PX;
+};
+
 export function TableOfContents({ items, className }: TableOfContentsProps) {
   const [activeId, setActiveId] = useState<string>(items[0]?.id ?? '');
 
@@ -26,9 +46,10 @@ export function TableOfContents({ items, className }: TableOfContentsProps) {
 
     if (!headings.length) return;
 
+    const scrollOffset = getScrollOffsetPx();
+
     const updateActiveHeading = () => {
-      const offset = 120;
-      const passed = headings.filter((heading) => heading.getBoundingClientRect().top - offset <= 0);
+      const passed = headings.filter((heading) => heading.getBoundingClientRect().top - scrollOffset <= 0);
       const nextActive = passed.length ? passed[passed.length - 1].id : headings[0].id;
       setActiveId(nextActive);
     };
@@ -37,7 +58,7 @@ export function TableOfContents({ items, className }: TableOfContentsProps) {
       () => updateActiveHeading(),
       {
         root: null,
-        rootMargin: '-110px 0px -65% 0px',
+        rootMargin: `${-scrollOffset}px 0px ${OBSERVER_BOTTOM_ROOT_MARGIN} 0px`,
         threshold: [0, 0.5, 1],
       }
     );
@@ -49,6 +70,10 @@ export function TableOfContents({ items, className }: TableOfContentsProps) {
   }, [headingIds]);
 
   const handleNavigate = (event: MouseEvent<HTMLAnchorElement>, id: string) => {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+
     const heading = document.getElementById(id);
     if (!heading) return;
 
