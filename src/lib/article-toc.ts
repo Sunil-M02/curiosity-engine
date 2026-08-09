@@ -28,6 +28,12 @@ const getUniqueId = (baseSlug: string, slugCounts: Map<string, number>) => {
   return seen === 0 ? safeBase : `${safeBase}-${seen + 1}`;
 };
 
+const isFaqContainerHeading = (heading: Element) =>
+  Boolean(heading.closest('[id*="faq" i], [class*="faq" i]'));
+
+const isFaqQuestionHeading = (heading: HTMLHeadingElement) =>
+  heading.tagName === 'H3' && /\?\s*$/.test((heading.textContent ?? '').replace(/\s+/g, ' ').trim());
+
 export const buildArticleToc = (content: string): ArticleTocResult => {
   if (typeof window === 'undefined') {
     return { contentHtml: content, tocItems: [], eligibleH2Count: 0 };
@@ -43,9 +49,31 @@ export const buildArticleToc = (content: string): ArticleTocResult => {
 
   const slugCounts = new Map<string, number>();
   const tocItems: TocItem[] = [];
-  const headings = root.querySelectorAll('h2, h3');
+  const headings = Array.from(root.querySelectorAll('h2, h3')) as HTMLHeadingElement[];
+  const faqQuestionHeadings = new Set<HTMLHeadingElement>();
   let currentH2Seen = false;
   let eligibleH2Count = 0;
+
+  headings.forEach((heading, index) => {
+    if (heading.tagName !== 'H2') return;
+
+    const siblingH3Headings: HTMLHeadingElement[] = [];
+    for (let i = index + 1; i < headings.length && headings[i].tagName !== 'H2'; i += 1) {
+      if (headings[i].tagName === 'H3') {
+        siblingH3Headings.push(headings[i]);
+      }
+    }
+
+    if (!siblingH3Headings.length) return;
+
+    const isFaqBlock =
+      isFaqContainerHeading(heading) ||
+      (siblingH3Headings.length >= 2 && siblingH3Headings.every((siblingH3) => isFaqQuestionHeading(siblingH3)));
+
+    if (!isFaqBlock) return;
+
+    siblingH3Headings.forEach((faqHeading) => faqQuestionHeadings.add(faqHeading));
+  });
 
   headings.forEach((heading) => {
     const rawText = heading.textContent ?? '';
@@ -65,6 +93,10 @@ export const buildArticleToc = (content: string): ArticleTocResult => {
     if (level === 2) {
       currentH2Seen = true;
       eligibleH2Count += 1;
+    }
+
+    if (faqQuestionHeadings.has(heading)) {
+      return;
     }
 
     tocItems.push({ id, text, level });
