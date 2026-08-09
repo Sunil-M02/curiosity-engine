@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Clock, Calendar, Share2 } from 'lucide-react';
 import { format } from 'date-fns';
@@ -8,14 +8,21 @@ import { SEO } from '@/components/seo/SEO';
 import { Breadcrumbs } from '@/components/navigation/Breadcrumbs';
 import { ArticleCard } from '@/components/articles/ArticleCard';
 import { ReadingProgress } from '@/components/articles/ReadingProgress';
+import { TableOfContents } from '@/components/articles/TableOfContents';
 import { Button } from '@/components/ui/button';
 import { getArticleBySlug, getRelatedArticles, categoryInfo } from '@/data/articles';
 import { OptimizedImage } from '@/components/ui/OptimizedImage';
+import { buildArticleToc } from '@/lib/article-toc';
 
 const ArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = getArticleBySlug(slug || '');
   const contentRef = useRef<HTMLDivElement>(null);
+  const articleContent = useMemo(
+    () => (article ? buildArticleToc(article.content) : { contentHtml: '', tocItems: [], eligibleH2Count: 0 }),
+    [article]
+  );
+  const showToc = articleContent.eligibleH2Count >= 4;
 
   useEffect(() => {
     if (!contentRef.current || !article) return;
@@ -271,47 +278,53 @@ const ArticlePage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="max-w-3xl mx-auto"
+            className={showToc ? 'max-w-6xl mx-auto' : 'max-w-3xl mx-auto'}
           >
-            <div
-              ref={contentRef}
-              className="article-content"
-              dangerouslySetInnerHTML={{ __html: article.content }}
-            />
+            <div className={showToc ? 'xl:grid xl:grid-cols-[220px_minmax(0,1fr)] xl:gap-12 xl:items-start' : ''}>
+              {showToc && <TableOfContents items={articleContent.tocItems} className="mb-8 xl:mb-0" />}
 
-            {/* Tags */}
-            <div className="mt-12 pt-8 border-t border-border/50">
-              <h3 className="font-display text-lg font-semibold text-foreground mb-4">
-                Tags
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {article.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-sm"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
+              <div className="min-w-0">
+                <div
+                  ref={contentRef}
+                  className="article-content"
+                  dangerouslySetInnerHTML={{ __html: articleContent.contentHtml }}
+                />
 
-            {/* Publisher Attribution */}
-            <div className="mt-12 p-6 rounded-2xl bg-card border border-border/50">
-              <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <span className="text-primary font-display font-bold text-2xl">CF</span>
+                {/* Tags */}
+                <div className="max-w-[680px] mx-auto mt-12 pt-8 border-t border-border/50">
+                  <h3 className="font-display text-lg font-semibold text-foreground mb-4">
+                    Tags
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {article.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-sm"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-                <div>
-                  <p className="text-muted-foreground text-sm mb-1">Published by</p>
-                  <h4 className="font-display text-xl font-semibold text-foreground mb-1">
-                    CuriosityFields Editorial
-                  </h4>
-                  <p className="text-primary text-sm mb-2">The CuriosityFields Team</p>
-                  <p className="text-muted-foreground text-sm">
-                    CuriosityFields is a knowledge-first digital publication focused on science, technology, 
-                    artificial intelligence, history, astronomy, and future innovation.
-                  </p>
+
+                {/* Publisher Attribution */}
+                <div className="max-w-[680px] mx-auto mt-12 p-6 rounded-2xl bg-card border border-border/50">
+                  <div className="flex items-start gap-4">
+                    <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <span className="text-primary font-display font-bold text-2xl">CF</span>
+                    </div>
+                    <div>
+                      <p className="text-muted-foreground text-sm mb-1">Published by</p>
+                      <h4 className="font-display text-xl font-semibold text-foreground mb-1">
+                        CuriosityFields Editorial
+                      </h4>
+                      <p className="text-primary text-sm mb-2">The CuriosityFields Team</p>
+                      <p className="text-muted-foreground text-sm">
+                        CuriosityFields is a knowledge-first digital publication focused on science, technology, 
+                        artificial intelligence, history, astronomy, and future innovation.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
