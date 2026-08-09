@@ -872,4 +872,17 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/himalayan-internet-engineering-challenges-fiber-satellite</loc>
+  <lastmod>2026-08-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/long-period-radio-transients-unexplained-signals</loc>
+  <lastmod>2026-08-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  
 </urlset>
