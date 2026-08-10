@@ -884,5 +884,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
-  
+  <url>
+  <loc>https://www.curiosityfields.com/article/deep-sea-life-without-sunlight-chemosynthesis</loc>
+  <lastmod>2026-08-10</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/what-happened-to-the-dinosaur-killing-asteroid</loc>
+  <lastmod>2026-08-10</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
