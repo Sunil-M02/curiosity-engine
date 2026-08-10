@@ -12415,6 +12415,140 @@ category: "artificial-intelligence",
 <p>Geophysicists located the structure in the late 1970s while prospecting for oil, but it was only confirmed as an impact crater in 1990 after rock samples showed shock deformation.</p>
   `,
 },
+
+// ============================================================
+// ARTICLE 1
+// ============================================================
+{
+  id: 0, // TODO: set to current array max + 1
+  title: "Space-Based Solar Power Could Collect Energy Even When Earth Is Dark",
+  slug: "space-based-solar-power-collect-energy-earth-dark",
+  metaTitle: "Space-Based Solar Power: Energy Even When Earth Is Dark", // 55 chars
+  metaDescription: "Space-based solar power collects sunlight in orbit nearly year-round. Learn how microwave beaming, rectennas, and launch costs shape its 2026 timeline.", // 151 chars
+  excerpt: "A panel in geostationary orbit sees the sun almost all year. Here's how space-based solar power actually collects that energy and beams it back down.",
+  category: "future-innovation", // TODO: verify casing against live array
+  tags: ["space-based-solar-power", "renewable-energy", "orbital-technology", "wireless-power-transmission"], // TODO: verify casing/format against live array
+  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  publishedAt: "2026-08-11", // TODO: set publish date
+  coverImage: "/images/articles/space-based-solar-power-collect-energy-earth-dark.jpg", // TODO: upload cover image, slug-based filename
+  readTime: 8,
+  featured: false,
+  
+  content: `<p>A solar panel in geostationary orbit sees the sun for about 99 percent of the year, compared with roughly 20 to 25 percent capacity on the best ground-based sites. That gap is why space-based solar power has moved from a 1970s thought experiment into active hardware programs at Caltech, JAXA, the European Space Agency, and a handful of private companies. The panels do not need to dodge clouds, night, or the seasons the way rooftop solar does. The catch was never collecting the energy. It was getting it back down.</p>
+
+<h2>Why Ground-Based Solar Loses So Much Sunlight</h2>
+<p>A rooftop panel spends roughly half its life in darkness and loses more output to clouds, dust, low winter sun angles, and the atmosphere itself, which absorbs and scatters close to 30 percent of incoming solar radiation before it reaches the ground, according to the U.S. Department of Energy. Stack those losses together and a typical solar farm converts sunlight into usable electricity only 20 to 25 percent of the hours in a year, a figure engineers call the capacity factor.</p>
+<p>Space removes almost every one of those penalties. Above the <a href="/article/why-satellites-dont-fall-earth">atmosphere</a>, a collector receives sunlight at close to its full intensity, undiminished by cloud cover or dust, and does not lose output to a low winter sun angle.</p>
+
+<h2>How a Panel in Geostationary Orbit Sees Nearly Nonstop Sun</h2>
+<p>A satellite parked in geostationary orbit, roughly 35,786 kilometers above the equator, orbits Earth at the same rate the planet spins, so it holds a fixed position relative to the ground below. From that altitude, Earth's shadow is narrow enough that the satellite spends the overwhelming majority of the year in continuous daylight.</p>
+<p>The exception is real and worth naming precisely, because it separates an accurate claim from an exaggerated one. Twice a year, for about six weeks around each equinox, geostationary satellites pass through Earth's shadow daily, an event operators call eclipse season. NOAA and CelesTrak data on operational geostationary spacecraft show these eclipses last up to roughly 70 to 72 minutes at their longest point, then shrink back to zero as the season ends. Outside those two windows, the satellite sees unbroken sunlight.</p>
+
+<h2>Turning Sunlight Into a Beam You Can Aim</h2>
+<p>The mechanism that makes space-based solar power usable is wireless power transmission, not the solar collection itself, which uses the same photovoltaic principle as rooftop panels. Onboard electronics convert the direct current from solar cells into microwaves, typically around 2.45 GHz, a frequency chosen partly because it passes through clouds and rain with minimal loss.</p>
+<p>That microwave beam is aimed at a fixed ground <a href="/article/hyperscale-data-centres-consuming-more-power-than-countries">receiving station</a> called a rectenna, an antenna array built specifically to convert microwaves back into usable electricity. In 2023, Caltech's Space Solar Power Demonstrator became the first spacecraft to wirelessly transmit detectable power from orbit to a receiver on Earth, a proof of concept rather than a power plant, but a functional one. Japan's JAXA followed with the OHISAMA mission, demonstrating a one-kilowatt orbit-to-ground microwave transmission to a receiving site near Yokohama.</p>
+
+<h2>The Ground Infrastructure Nobody Pictures When They Imagine This</h2>
+<p>Beaming gigawatts from orbit means building rectenna farms spanning an estimated 5 to 10 square kilometers, sized deliberately to keep microwave density low and within existing safety limits set by regulators such as the FCC. That land footprint is the tradeoff few popular explanations mention: the orbital hardware shrinks the space problem, but it relocates a large chunk of the infrastructure problem to the ground.</p>
+<p>Laser-based transmission, an alternative some programs are testing, needs a far smaller receiver, sometimes under 100 square meters, which makes it attractive for remote sites or disaster response, though it is more sensitive to weather than microwaves are.</p>
+
+<h2>What Is Actually Holding This Back</h2>
+<p>The single biggest barrier has always been launch cost, not physics. Lifting the tons of solar array and structural mass needed for a gigawatt-scale station used to make the economics impossible. That calculus is shifting as SpaceX's Starship pushes toward launch costs in the range of 100 to 200 dollars per kilogram to low Earth orbit, a fraction of historical prices.</p>
+<p>Even with cheaper launches, assembling kilometer-scale structures in orbit, keeping them pointed accurately at both the sun and a fixed ground target, and managing decades of radiation and micrometeorite exposure remain unsolved engineering problems rather than demonstrated ones. The European Space Agency's SOLARIS program and the U.S. Air Force Research Laboratory's Arachne project are both feasibility and demonstration efforts, not commercial deployments.</p>
+
+<h2>Who Is Actually Building This Right Now</h2>
+<p>The current wave of activity spans public agencies and private startups working in parallel. Caltech, JAXA, and the European Space Agency are running government-funded demonstrations, while companies including Aetherflux, Virtus Solis, and Star Catcher Industries are racing to build commercial hardware around the same core architecture. China's Bishan project has taken a different approach, building a two-kilometer ground-based test array to validate the transmission physics before committing to an orbital launch.</p>
+<p>The overlap between military and civilian interest is notable too. The U.S. Air Force Research Laboratory sees space-based power as a way to supply forward operating bases without vulnerable fuel convoys, a use case where cost per watt matters far less than reliability.</p>
+
+<h2>When This Might Actually Power a Grid</h2>
+<p>Realistic timelines from researchers and agency assessments point to further orbital demonstrations through the late 2020s, with gigawatt-scale stations, if they happen at all, unlikely before the mid-2030s. NASA's Office of Technology, Policy, and Strategy has published assessments treating space-based solar power as a serious option worth continued study rather than a settled bet, citing both the falling cost of access to orbit and the still-unresolved question of whether the economics beat terrestrial solar paired with <a href="/article/solid-state-battery-ev-real-timeline">grid-scale batteries</a> once storage costs keep falling.</p>
+<p>That comparison matters more than the orbital physics. Ground solar plus storage is already commercial and improving every year, while space-based solar power is still proving its transmission hardware works at meaningful scale over distances measured in tens of thousands of kilometers rather than the short hops tested so far.</p>
+<p>The technology's advantage was never raw efficiency per panel. It is that a collector in orbit never has to wait for the sun to come back, and that single property is what keeps agencies and investors funding a technology that spent the better part of six decades as a thought experiment.</p>
+<p>Whether it reaches commercial scale will likely be decided less by physics than by economics, in the same way <a href="/article/fusion-reactor-net-energy-gain">fusion power</a> has spent decades proving the concept works before the harder question of cost ever gets settled.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Does space-based solar power collect energy 24 hours a day?</h3>
+<p>Nearly so. A geostationary satellite sees sunlight about 99 percent of the year, with brief daily eclipses of up to roughly 70 minutes only during two six-week windows around the equinoxes.</p>
+
+<h3>Is beaming microwave energy from space to Earth safe?</h3>
+<p>Current designs keep microwave density at the ground receiver well below FCC exposure limits by spreading the beam across a large rectenna area rather than concentrating it.</p>
+
+<h3>Why hasn't space-based solar power been built already?</h3>
+<p>Launch costs made lifting kilometer-scale hardware into orbit economically unworkable until reusable rockets like Starship began pushing costs toward roughly 100 to 200 dollars per kilogram.</p>
+
+<h3>How is this different from a normal solar panel?</h3>
+<p>The panel technology is nearly identical. The difference is the wireless transmission system, the microwave or laser link that gets the electricity from orbit down to a ground receiver.</p>
+
+<h3>When could this realistically supply a power grid?</h3>
+<p>Agency and industry assessments generally point to continued orbital demonstrations through the late 2020s, with gigawatt-scale stations not expected before the mid-2030s at the earliest.</p>
+`
+},
+
+// ============================================================
+// ARTICLE 2
+// ============================================================
+{
+  id: 0, // TODO: set to current array max + 1
+  title: "Giving AI More Data Can Actually Make It Less Reliable",
+  slug: "more-ai-training-data-makes-models-less-reliable",
+  metaTitle: "Why More AI Training Data Can Make Models Less Reliable", // 55 chars
+  metaDescription: "More AI training data does not always mean better results. Discover model collapse, the 2024 Nature study, and why data quality now beats data volume.", // 150 chars
+  excerpt: "Bigger datasets used to mean better AI. A 2024 Nature study shows why more data can now make models less reliable instead of more capable.",
+  category: "artificial-intelligence", // TODO: verify casing against live array
+  tags: ["artificial-intelligence", "model-collapse", "machine-learning", "ai-training-data"], // TODO: verify casing/format against live array
+  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  publishedAt: "2026-08-11", // TODO: set publish date
+  coverImage: "/images/articles/more-ai-training-data-makes-models-less-reliable.jpg", // TODO: upload cover image, slug-based filename
+  readTime: 7,
+  
+content: `
+<p>Feeding a language model more training data does not automatically make it smarter. Past a certain point, adding more data, especially uncurated or AI-generated data, can degrade a model's outputs rather than improve them. A 2024 study published in Nature by researchers at Oxford and Cambridge documented a specific failure mode behind this, called model collapse, and it has reshaped how labs think about scaling.</p>
+
+<h2>The Scaling Law Everyone Assumed Would Hold Forever</h2>
+<p>The idea that bigger datasets reliably produce better models comes from scaling laws, relationships researchers established showing that model performance improves predictably as parameters and training tokens increase. That pattern held from GPT-3 onward and became the industry's default growth strategy: more data, more compute, better results.</p>
+<p>The assumption baked into that strategy was that additional data resembled the data before it, meaning real, diverse, human-generated text and images. Once a model has already absorbed a broad, high-quality sample of a domain, extra data that is noisy, redundant, or synthetic contributes confusion rather than new signal, which is why the returns on pure scale have visibly slowed since 2024.</p>
+
+<h2>What Model Collapse Actually Is</h2>
+<p>Model collapse is a degenerative process where an AI system trained on data generated by earlier AI systems gradually loses touch with the true, original distribution of human-produced content. Researcher Ilia Shumailov and colleagues at Oxford, Cambridge, and Imperial College London formalized the mechanism in a 2024 Nature paper, testing it across <a href="/article/how-ai-thinking-actually-works">large language models</a>, variational autoencoders, and Gaussian mixture models.</p>
+<p>Their experiments showed collapse happens in two stages. Early collapse loses rare, unusual examples first, the tail end of the data distribution, because a model is statistically less likely to reproduce something it saw only once. Late collapse is worse: the outputs converge toward a narrow, repetitive average, and by later generations, unrelated gibberish can appear, since the fine distinctions that separated correct answers from wrong ones have been averaged away.</p>
+<p>The team ran this on a small language model fine-tuned on Wikipedia text, then fed each new generation's output back in as the next generation's training data. Perplexity, a measure of how well a model predicts real text, climbed by 20 to 28 points across generations trained purely on synthetic output, a clear numeric signature of the model drifting away from coherent, accurate language.</p>
+
+<h2>Why This Matters More in 2026 Than It Did in 2023</h2>
+<p>The web itself has changed in a way that feeds this problem directly. A widely cited estimate found that by April 2025, roughly 74 percent of newly created webpages already contained some AI-generated text, which means models trained on fresh web scrapes are increasingly training on the outputs of earlier models rather than on original human writing.</p>
+<p>That creates a feedback loop distinct from ordinary <a href="/article/india-population-ai-training-data">AI training data</a> shortages. It is not that the internet is running out of text. It is that a growing share of new text was written by a machine, and training on it recursively without careful filtering is what triggers the collapse Shumailov's team measured in a laboratory setting.</p>
+
+<h2>Reliability Problems That Look Like Something Else</h2>
+<p>Model collapse is one mechanism, but it is not the only way more data can hurt a model's reliability rather than help it. A model trained on stale or outdated data drifts from present-day facts in ways that are invisible unless someone checks, since fluent phrasing gives no clue that the underlying information is five years old.</p>
+<p>Separately, indiscriminately adding low-quality or duplicated data dilutes the signal a model needs to generalize well, a distinct problem from collapse but one that produces a similar symptom. The result reads as fluent and authoritative while being subtly incorrect in ways that need real domain expertise to catch, which is part of why a model can be <a href="/article/why-ai-language-models-confidently-state-false-facts-mechanism">confidently wrong</a> about a fact it never had solid grounds to state.</p>
+
+<h2>What Labs Are Doing Instead of Just Scaling Up</h2>
+<p>The practical response has been a shift from data volume to data curation. Research through late 2025 and into 2026 has consistently shown that rigorous deduplication, filtering, and domain-specific annotation deliver more performance per training dollar than scaling raw dataset size, and that gap has widened as easily available high-quality text has become scarcer.</p>
+<p>Later research, including work by Gerstgrasser and colleagues, found that collapse can be slowed or avoided when labs keep accumulating genuine human-generated data alongside synthetic data rather than replacing it, though this does not fully solve the underlying problem. Detecting and filtering machine-generated text before it enters a training set has become an active research area for exactly this reason, since prevention is proving more tractable than reversing collapse after it happens.</p>
+
+<h2>Why a Model Can Sound Certain and Still Be Wrong</h2>
+<p>None of this is helped by the fact that these systems are not built to flag their own uncertainty by default. A model trained on degraded or thinning data still produces the same confident sentence structure it always has, because fluency and accuracy are generated by different parts of the process. The tone of an answer says nothing about how well-supported it actually was by real training examples, which is a separate problem from data volume but compounds it. It is one reason researchers studying <a href="/article/why-ai-cant-tell-you-when-it-doesnt-know">AI hallucination</a> describe confidence and correctness as two things that can drift apart without any external sign.</p>
+
+<h2>What This Means for Anyone Using AI Tools Right Now</h2>
+<p>None of this means today's models are collapsing. Frontier labs actively monitor for it and mix in curated, verified data specifically to avoid it. What it does mean is that the assumption "more data equals a better model" no longer holds without qualification, and a model's confident tone is not evidence that a claim rests on solid training data. The next leap in AI capability is more likely to come from smarter data curation and architecture than from simply feeding models a larger pile of the internet.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is AI model collapse?</h3>
+<p>It is a degenerative process where a model trained repeatedly on AI-generated data gradually loses rare, accurate patterns and drifts toward bland, sometimes nonsensical, average outputs.</p>
+
+<h3>Does adding more training data always improve an AI model?</h3>
+<p>No. Past a certain point, additional data that is noisy, redundant, or AI-generated can reduce reliability instead of improving it.</p>
+
+<h3>Can model collapse be prevented?</h3>
+<p>Research suggests it can be slowed by mixing genuine human-generated data alongside synthetic data and by filtering out machine-generated text before training, though it has not been fully solved.</p>
+
+<h3>Is the internet running out of data for AI training?</h3>
+<p>High-quality, original human text is becoming scarcer relative to demand, and researchers have projected a shortage before 2026 if current data-hungry training trends continue.</p>
+
+<h3>Should I trust an AI answer just because it sounds confident?</h3>
+<p>No. A model's fluent, confident tone reflects its language patterns, not whether the underlying training data actually supported that specific claim.</p>`
+},
   
 ];
 
