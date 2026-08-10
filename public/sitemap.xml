@@ -896,4 +896,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/space-based-solar-power-collect-energy-earth-dark</loc>
+  <lastmod>2026-08-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/more-ai-training-data-makes-models-less-reliable</loc>
+  <lastmod>2026-08-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
