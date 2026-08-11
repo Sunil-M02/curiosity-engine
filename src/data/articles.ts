@@ -12501,7 +12501,7 @@ category: "artificial-intelligence",
   publishedAt: "2026-08-11", // TODO: set publish date
   coverImage: "/images/articles/more-ai-training-data-makes-models-less-reliable.jpg", // TODO: upload cover image, slug-based filename
   readTime: 7,
-  
+  featured: false,
 content: `
 <p>Feeding a language model more training data does not automatically make it smarter. Past a certain point, adding more data, especially uncurated or AI-generated data, can degrade a model's outputs rather than improve them. A 2024 study published in Nature by researchers at Oxford and Cambridge documented a specific failure mode behind this, called model collapse, and it has reshaped how labs think about scaling.</p>
 
@@ -12548,6 +12548,79 @@ content: `
 
 <h3>Should I trust an AI answer just because it sounds confident?</h3>
 <p>No. A model's fluent, confident tone reflects its language patterns, not whether the underlying training data actually supported that specific claim.</p>`
+},
+
+  {
+  id: 0,
+  title: "A Total Solar Eclipse Crosses the Arctic and Europe This Month, and Here's the Physics",
+  slug: "total-solar-eclipse-2026-arctic-europe-path-physics",
+  category: "astronomy",
+  tags: ["Solar Eclipse", "Astronomy", "NASA", "Orbital Mechanics", "Space"],
+  excerpt: "On August 12, 2026 a total solar eclipse crosses the Arctic, Greenland, Iceland and Spain, the first mainland Europe has seen since 1999. Here is the orbital geometry that makes its path look backward, why totality never lasts long, and exactly when and where to see it.",
+  metaTitle: "Total Solar Eclipse August 12, 2026: Path & Physics",
+  metaDescription: "A total solar eclipse sweeps over the Arctic, Greenland, Iceland and Spain on August 12, 2026. Here's the orbital physics behind its strange backward path.",
+  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  publishedAt: "2026-08-11", // TODO: set publish date
+  coverImage: "/images/articles/total-solar-eclipse-2026-arctic-europe-path-physics.jpg", // TODO: upload cover image, slug-based filename
+  readTime: 6,
+  featured: false,
+  content: `
+  
+<p>A total solar eclipse sweeps across the Arctic and into mainland Europe on August 12, 2026, the first time the continent has seen one since 1999. The Moon's shadow starts over northern Siberia, arcs across Greenland and Iceland, then reaches northern Spain and a sliver of Portugal near sunset.</p>
+
+<p>Totality lasts up to 2 minutes and 18 seconds at its longest point. What makes this eclipse unusual is not just where it happens, but how its path looks on a map. It appears to bend backward, as if the shadow briefly reverses direction. It does not.</p>
+
+<h2>Why the Path Looks Like It Moves Backward</h2>
+<p>Every total solar eclipse travels west to east across Earth's surface, without exception, because the Moon orbits in that direction faster than Earth rotates beneath it. The Moon crosses space at roughly 2,300 miles per hour, more than double the roughly 1,000 mile per hour spin near the equator.</p>
+<p>On August 12, the eclipse crosses near the North Pole, where flat map projections badly distort direction. NASA's Scientific Visualization Studio explains the path also carries a strong north-south component, produced by the tilt of Earth's axis and the Moon's orbital plane.</p>
+<p>Combined with <a href="/article/earthquake-effect-on-earth-rotation-speed">Earth's rotation</a>, the umbra's eastward motion during the first half of its journey is effectively canceled out on the map, even though the shadow itself never changes direction. The apparent backward loop is a cartographic illusion, the same kind of distortion that makes Greenland look larger than Africa on a classroom map.</p>
+
+<h2>The Umbra and Penumbra: Two Very Different Shadows</h2>
+<p>A solar eclipse happens when the Moon passes directly between Earth and the Sun, and its shadow has two distinct parts. The umbra is the small, dark inner cone where the Sun's disk is completely blocked. Anyone standing inside it experiences totality.</p>
+<p>The penumbra is the much larger, lighter outer shadow, where only part of the Sun is covered and observers see a partial eclipse instead. For this eclipse, the umbra is a narrow band only a few hundred kilometers wide, racing across the Arctic before slowing near Spain.</p>
+<p>Everyone outside that band, including most of the United Kingdom, Ireland, and parts of the northern United States and Canada, will see a partial eclipse rather than full darkness. The UK will see roughly 89 to 96 percent of the Sun covered depending on location.</p>
+
+<h2>What You Will Actually See, Second by Second</h2>
+<p>As totality approaches, the thinning crescent of Sun starts to break apart along the Moon's jagged edge. Sunlight squeezes through lunar valleys and around mountain peaks, creating a scattered string of bright points called Baily's beads, named for astronomer Francis Baily, who explained the effect in 1836.</p>
+<p>Within seconds, all but one bead fades, leaving a single blazing point of light ringed by the pale glow of the solar corona. This is the diamond ring effect, and it signals that totality is only moments away.</p>
+<p>Once the disk is fully covered, the sky darkens enough to reveal the <a href="/article/why-all-telescopes-are-time-machines-light-travel-time">solar corona</a>, the Sun's outer atmosphere, normally drowned out by the Sun's own glare. This is the only moment when it is safe to remove eclipse glasses and look directly at the Sun.</p>
+
+<h2>Why Totality Never Lasts Very Long</h2>
+<p>Total solar eclipses are brief because of an almost accidental coincidence. The Sun is about 400 times wider than the Moon, but it also sits roughly 400 times farther from Earth, so the two objects appear almost exactly the same size in our sky.</p>
+<p>That near match lets the Moon just barely cover the Sun's disk, but only along a narrow strip of Earth and only as long as the <a href="/article/why-satellites-dont-fall-earth">Moon's shadow cone</a> reaches the ground. This eclipse has a high gamma value, meaning the shadow stays close to Earth's edge for its whole path.</p>
+<p>That geometry keeps the Sun low on the horizon everywhere along the route and shortens totality compared with eclipses crossing nearer the equator. The Sun never climbs higher than about 23 degrees above the horizon along this eclipse's track, giving it a low, golden light.</p>
+
+<h2>Where and When to See It</h2>
+<p>Totality begins near midnight local solar time over uninhabited Siberian tundra, where the sun technically never fully sets in mid-August at that latitude. The shadow then crosses a remote stretch of northeastern Greenland before reaching Iceland.</p>
+<p>Totality hits Reykjavik at roughly 17:48 UTC and lasts close to a minute. From there the umbra races across the North Atlantic and enters mainland Spain shortly before 18:30 UTC, arriving so close to sunset that observers there will watch the eclipsed Sun sink toward the horizon.</p>
+<p>Spain and a small corner of northern Portugal are the only places on the European mainland that will see full totality, making this the first mainland European total eclipse since 1999.</p>
+<p>Everyone else across Europe, plus parts of northwest Africa and the northern edges of the US and Canada, will see a partial eclipse instead, with coverage depending on distance from the path's center line.</p>
+
+<h2>Why Total Eclipses Over Populated Regions Are So Rare</h2>
+<p>From any single fixed spot on Earth, a total solar eclipse is visible on average only once every 375 years, because the umbra is such a narrow ribbon compared with the planet's surface, and most of it falls across ocean rather than land.</p>
+<p>Spain's total eclipse in 2026 breaks a drought stretching back to 1999, and the streak will not last. A total eclipse crosses Spain, northern Africa, and the Middle East again on August 2, 2027, followed by an annular eclipse over Portugal and Spain on January 26, 2028.</p>
+<p>NASA and other space agencies track these alignments years in advance, the same orbital precision that underpins current lunar mission planning.</p>
+<p>The reason eclipses cluster and then vanish for years comes down to the tilt between the <a href="/article/why-the-moon-always-shows-the-same-face-the-physics-of-tidal-locking">Moon's orbital path</a> and Earth's path around the Sun. That five-degree tilt means precise alignment only happens at specific orbital nodes, roughly twice a year, within a narrow strip of the globe.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How long does the August 12, 2026 eclipse last?</h3>
+<p>Totality lasts up to 2 minutes and 18 seconds at its longest point along the centerline, though most locations in Iceland and Spain will see closer to 1 to 2 minutes.</p>
+
+<h3>Can people in the UK or US see this eclipse?</h3>
+<p>The UK will see a strong partial eclipse with 89 to 96 percent of the Sun covered, and the northernmost parts of the US and Canada will see a smaller partial eclipse, but neither will experience full totality.</p>
+
+<h3>Why is the Spain eclipse called a golden hour eclipse?</h3>
+<p>Totality reaches Spain shortly before sunset, so the Sun sits low on the horizon and totality happens in warm, low-angle light rather than in overhead darkness.</p>
+
+<h3>What is the difference between the umbra and the penumbra?</h3>
+<p>The umbra is the narrow, fully dark inner shadow where a total eclipse is visible, while the penumbra is the much wider outer shadow where only a partial eclipse occurs.</p>
+
+<h3>Is it safe to look at the eclipse without glasses?</h3>
+<p>Eclipse glasses are required during every partial phase, and it is only safe to remove them during the brief window of full totality when the Sun's disk is completely covered.</p>
+
+<h3>When is the next total solar eclipse after this one?</h3>
+<p>The next total solar eclipse occurs on August 2, 2027, crossing Spain, northern Africa, and the Middle East, followed by an annular eclipse over Spain and Portugal on January 26, 2028.</p>
+`
 },
   
 ];
