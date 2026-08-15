@@ -12928,6 +12928,162 @@ content: `
 <p>Dragline silk can lose some tensile strength and undergo a process called supercontraction when soaked in water, shrinking and softening, a limitation researchers are still studying.</p>
   `
 },
+
+{
+  id: 0, // TODO: set to current articles.ts array max id + 1
+  title: "Gaganyaan's First Uncrewed Test Flight Is India's Rehearsal for Human Spaceflight",
+  slug: "gaganyaan-g1-uncrewed-test-flight-isro",
+  metaTitle: "Gaganyaan G1: ISRO's Uncrewed Test Before Astronauts", // 52 chars
+  metaDescription: "Gaganyaan G1 flies a robot, not a human, to prove ISRO's HLVM3 rocket and life support systems before Indian astronauts launch. Here is what it must prove.", // 155 chars
+  excerpt: "Before any Indian astronaut reaches orbit, ISRO has to prove the Gaganyaan rocket, life support system, and escape hardware work by flying them uncrewed first.",
+  category: "astronomy", // TODO: verify exact casing against live category array
+  tags: ["Gaganyaan", "ISRO", "India Space Program", "Human Spaceflight", "HLVM3", "Vyommitra"], // TODO: verify casing/format against live tags array
+  authors: authors[0], // TODO: confirm field name is 'author' not 'authors' against live schema
+  publishedAt: "2026-08-15", // TODO: set manually
+  coverImage: "/images/articles/gaganyaan-g1-uncrewed-test-flight-isro.jpg", // TODO: upload; confirm naming convention
+  readTime: 6,
+  featured: false,
+  content: `
+<p>Gaganyaan-1, or G1, is the uncrewed flight ISRO must fly before it risks a single astronaut in orbit. The mission carries no human crew at all. Instead it flies Vyommitra, a half-humanoid robot built to sit in the crew seat, read instrument panels, and report back exactly what a human body would experience during ascent, orbit, and re-entry. As of August 2026, ISRO Chairman V Narayanan has targeted a late-2026 launch, though the date has already slipped from an earlier December 2025 target. Here is what G1 actually has to prove before three Indian Air Force pilots fly for real.</p>
+
+<h2>Why an Uncrewed Flight Comes Before a Crewed One</h2>
+<p>India has launched hundreds of satellites, but none of them needed to come back alive. Gaganyaan is different because it must return a pressurized capsule and its occupants safely through re-entry, a discipline satellite work never demanded.</p>
+<p>Human-rating a rocket means proving every system that could kill a crew member has a backup, tested under real flight loads rather than simulated ones, the same discipline NASA is repeating with <a href="/article/artemis-iii-update-nasa-2026-moon-landing">Artemis III's own timeline</a> before astronauts return to the Moon.</p>
+<p>Three uncrewed missions, G1, G2, and G3, are planned in sequence, each carrying Vyommitra, before the first crewed flight, H1, which is now targeted for 2027 or later.</p>
+
+<h2>What Vyommitra Is Actually Measuring</h2>
+<p>Vyommitra is not a passenger for show. The half-humanoid robot can speak with ground controllers, read cabin instrument panels, and physically operate switches inside the crew module, standing in for tasks a human astronaut would need to perform during a real flight.</p>
+<p>Its more important job is monitoring cabin conditions. Gaganyaan's Environmental Control and Life Support System, or ECLSS, has to hold cabin temperature between roughly 20 and 26 degrees Celsius and humidity between 30 and 70 percent for the entire flight, figures Vyommitra's own sensors will confirm under real orbital conditions, not a ground simulator.</p>
+<p>The system supplies oxygen from onboard tanks and removes carbon dioxide using lithium hydroxide canisters replaced roughly every 20 to 24 hours, a maintenance rhythm timed against actual crew breathing rates rather than a rough estimate.</p>
+<p>Unchecked buildup in a sealed cabin can cause hypercapnia, a condition bringing headaches, dizziness, and impaired thinking if the removal cycle falls behind schedule.</p>
+<p>This is the same kind of <a href="/article/engineering-inside-modern-submarine-pressure-navigation-life-support">pressurized life support engineering</a> that keeps any sealed human environment survivable, whether the vehicle is orbiting far above Earth or submerged deep beneath its oceans, and both fields borrow heavily from each other's failure data and near-miss reports.</p>
+
+<h2>The Rocket That Has to Carry People</h2>
+<p>G1 flies on the HLVM3, a human-rated version of ISRO's existing LVM3 launch vehicle, modified with added redundancy and stronger safety margins than normal satellite launches require. Engineers have nicknamed it Bahubali, after the powerful figure in Indian mythology and film, a nod to the extra structural muscle the human-rated design carries into every stage.</p>
+<p>The vehicle combines twin HS200 solid strap-on boosters, an upgraded L110 liquid core stage, and a single C32 cryogenic upper stage carrying roughly 32 tonnes of propellant across the entire ascent profile.</p>
+<p>Each stage has its own separate qualification process, carefully layered on top of the standard LVM3 testing this rocket already passed for uncrewed satellite launches over the past decade of operational flights.</p>
+<p>A crewed Gaganyaan flight will carry three astronauts to a roughly 400 kilometer low Earth orbit for about three days before returning safely to Earth, close enough that basic orbital mechanics still apply the same way <a href="/article/why-satellites-dont-fall-earth">satellites stay aloft</a>.</p>
+<p>G1's job is proving that this exact vehicle and capsule combination can survive that full trip safely without any crew aboard for the first time.</p>
+
+<h2>The Escape System G1 Still Has to Prove</h2>
+<p>If the rocket fails during ascent, the Crew Escape System has to pull the capsule clear and bring it down safely, a sequence tested entirely separately from the orbital flight itself and its own dedicated qualification program.</p>
+<p>In October 2023, the TV-D1 test flight demonstrated this abort at an altitude of 11.7 kilometers and roughly Mach 1.2, successfully separating the capsule for a parachute landing in the Bay of Bengal, where an Indian Navy recovery team retrieved it soon after splashdown.</p>
+<p>A follow-up mission, TV-D2, is scheduled to expand that tested abort envelope to different flight conditions before G1 itself launches. The capsule's re-entry relies on a ten-parachute system deploying in stages, engineered with enough redundancy that even two of the three main canopies are sufficient for a safe splashdown.</p>
+<p>Two Integrated Air Drop Tests, IADT-01 and IADT-02, separately validated the capsule's deceleration hardware using simulated crew modules dropped from aircraft instead of launched on a rocket.</p>
+<p>That layered, backup-upon-backup approach mirrors the redundancy philosophy behind <a href="/article/kavach-technology-indian-railways-safety">Kavach's train safety system</a>, another Indian engineering program built around the assumption that a single safeguard is never enough.</p>
+
+<h2>Why the Launch Date Keeps Moving</h2>
+<p>G1 was publicly targeted for December 2025, then pushed to Q1 2026, and Narayanan said on 27 June 2026 that ISRO was now working toward a launch by the end of the year. That is not evidence of a program in trouble.</p>
+<p>Human-rating is a fundamentally slower discipline than satellite work, precisely because a single missed failure mode has irreversible consequences. ISRO has completed ground milestones through the summer, including a SOLVE test on 3 July 2026 and crew module systems validation on 12 July 2026, both feeding into the eventual G1 launch decision.</p>
+<p>The four Indian Air Force pilots selected for the eventual crewed flight, Prasanth Balakrishnan Nair, Ajit Krishnan, Angad Pratap, and Shubhanshu Shukla, have already completed training in Russia and continue mission-specific preparation in India while G1's hardware finishes qualification.</p>
+
+<h2>What Success Actually Unlocks</h2>
+<p>A successful G1 does not put an Indian astronaut in orbit. It clears the HLVM3, the ECLSS, and the escape and recovery chain for the next uncrewed flight, G2, which is expected to repeat the validation with additional flight conditions before G3 and then the crewed H1 mission.</p>
+<p>The program's stated horizon extends past Gaganyaan itself, toward the Bharatiya Antariksh Station targeted for 2035, which would depend on the same human-rated launch and life support systems G1 is built to prove work as designed.</p>
+
+<h2>Conclusion</h2>
+<p>G1 will not carry a single human being, and that is exactly the point. Every system a real astronaut would depend on to breathe, to escape a failing rocket, and to come home alive gets tested first on a robot that cannot be harmed by a design flaw. When ISRO finally clears G1 for a crewed flight, it will be because a machine already proved the hardware would have kept a person alive.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the difference between Gaganyaan G1 and the crewed Gaganyaan mission?</h3>
+<p>G1 is an uncrewed test flight carrying only the robot Vyommitra to validate hardware, while the crewed mission, H1, will carry three Indian Air Force pilots into orbit only after G1, G2, and G3 succeed.</p>
+
+<h3>When is the Gaganyaan G1 launch date?</h3>
+<p>As of August 2026, ISRO has targeted a launch by the end of 2026, though the date has already shifted more than once and remains officially unconfirmed.</p>
+
+<h3>What does Vyommitra actually do during the flight?</h3>
+<p>Vyommitra monitors cabin life support conditions, reads instrument panels, and can speak with ground controllers, simulating tasks a human astronaut would need to perform in the same seat.</p>
+
+<h3>Why is the HLVM3 different from ISRO's regular LVM3 rocket?</h3>
+<p>The HLVM3 is a human-rated variant built with additional redundancy and safety margins, including a Crew Escape System that a standard satellite-launching LVM3 does not carry.</p>
+
+<h3>What happens if the rocket fails during a crewed launch?</h3>
+<p>The Crew Escape System fires dedicated motors to pull the capsule away from the failing rocket, a sequence already demonstrated in the 2023 TV-D1 abort test and being expanded by TV-D2.</p>
+
+<h3>When will India fly its first crewed spaceflight?</h3>
+<p>The crewed Gaganyaan mission, H1, is currently targeted for 2027 or later, depending on the results of the G1 through G3 uncrewed test flights.</p>`,
+},
+  
+{
+  id: 0, // TODO: set to current articles.ts array max id + 1
+  title: "Retrieval-Augmented Generation Lets AI Models Cite Sources Instead of Guessing",
+  slug: "retrieval-augmented-generation-rag-explained",
+  metaTitle: "Retrieval-Augmented Generation: How AI Cites Facts", // 50 chars
+  metaDescription: "Retrieval-Augmented Generation lets AI models pull real documents before answering, cutting the fabricated citations behind 1,600+ court sanctions in 2026.", // 155 chars
+  excerpt: "Retrieval-Augmented Generation changes how AI models answer questions by forcing them to pull real documents first, turning an unverifiable guess into a traceable, checkable claim.",
+  category: "artificial-intelligence", // TODO: verify exact casing against live category array
+  tags: ["AI", "Retrieval-Augmented Generation", "RAG", "AI Hallucination", "LLM", "Machine Learning"], // TODO: verify casing/format against live tags array
+  authors: authors[0], // TODO: confirm field name is 'author' not 'authors' against live schema
+  publishedAt: "2026-08-15", // TODO: set manually
+  coverImage: "/images/articles/retrieval-augmented-generation-rag-explained.jpg", // TODO: upload; confirm naming convention
+  readTime: 7,
+  featured: false,
+  content: `
+<p>Retrieval-Augmented Generation, or RAG, stops an AI model from answering purely out of memory. Instead of guessing from patterns learned during training, the model first pulls relevant documents from an external source, then writes its answer using that retrieved text as grounding. This single architectural choice explains why some AI tools can name the exact clause, ruling, or paper behind a claim, while others just sound confident and turn out to be wrong. As of July 2026, courts worldwide have logged more than 1,600 cases of lawyers submitting fabricated AI citations. Here is how the fix actually works, and where it still breaks.</p>
+
+<h2>What Retrieval-Augmented Generation Actually Does</h2>
+<p>A standard large language model answers from parametric memory. Every fact it produces comes from patterns baked into billions of weights during training, with no live connection to any document. It cannot point to a source, only a statistical impression of one.</p>
+<p>RAG changes that by adding a second, external memory the model can search at the moment of answering. Researchers Patrick Lewis at Facebook AI Research introduced the architecture in a 2020 NeurIPS paper, pairing a language model with a retriever that pulls passages from an outside corpus before generation begins.</p>
+<p>The practical effect is a traceable output. If a RAG system says a contract clause caps liability at a fixed amount, it can show the retrieved paragraph that says so, instead of reconstructing the number from training-time statistics.</p>
+
+<h2>How the Retrieval Pipeline Works, Step by Step</h2>
+<p>Think of RAG as a research assistant instead of memory alone. The assistant does not answer from recollection. It walks to the shelf, pulls the file, and reads it before speaking.</p>
+<p>In practice, a query becomes a numerical embedding, compared against a vector database of chunked documents to find semantically similar passages. Many systems also run a keyword search in parallel, merging both result sets using reciprocal rank fusion.</p>
+<p>A reranking model then scores the merged candidates and keeps only the five to ten most relevant chunks, discarding the noisy middle of the list. Skipping this reranking step is a common cause of retrieval finding the right answer while the model still gets the response wrong.</p>
+<p>Only after this filtering does the language model generate its answer, conditioned on the surviving chunks and instructed to cite them. The result is a response built from retrieved text rather than reconstructed from memory alone.</p>
+
+<h2>Why Ungrounded Models Guess With Total Confidence</h2>
+<p>Without retrieval, a model cannot distinguish a fact it learned precisely from one it is statistically extrapolating. Both feel identical inside the network, so both arrive in the same confident tone. Researchers have traced this exact mechanism in models that <a href="/article/why-ai-language-models-confidently-state-false-facts-mechanism">confidently state false facts</a>, where training rewards a plausible guess over honest uncertainty.</p>
+<p>RAG does not repair that incentive. It gives the model something concrete to lean on, so a fabricated answer becomes harder to produce once real source text sits inside the window.</p>
+
+<h2>The Real Cost of Ungrounded Answers, Measured in Court Sanctions</h2>
+<p>The clearest evidence of what happens without retrieval grounding comes from law, where citations are checkable. In June 2023, two New York lawyers were sanctioned in Mata v. Avianca for filing a brief with six fictitious cases invented by ChatGPT, drawing a five thousand dollar penalty treated as a one-off embarrassment.</p>
+<p>It was not one-off. Damien Charlotin of HEC Paris's Smart Law Hub maintains a public database of these incidents, which held roughly 200 cases in mid-2025 and had grown to 1,668 worldwide by July 2026.</p>
+<p>Sanctions have scaled with the volume. Courts imposed over 145,000 dollars in penalties in Q1 2026 alone, and Stanford RegLab researchers found paid legal tools without proper grounding still hallucinate on 17 to 34 percent of queries.</p>
+
+<h2>Where RAG Still Falls Short</h2>
+<p>Retrieval only helps if the right document exists in the index and gets found. A poorly chunked knowledge base, a stale index, or a query phrased differently than the source can leave the retriever empty-handed, and the model may fill that gap anyway.</p>
+<p>There is also a hard ceiling on how much retrieved material a model can use. That limit is set by <a href="/article/what-context-window-actually-means-ai-limit">the context window</a>, the fixed budget of text a model holds at once, and too many retrieved chunks can bury the relevant passage in noise.</p>
+<p>Retrieval cannot repair a reasoning error either. If the model misreads a retrieved clause, citing that source does not make the conclusion correct. It only makes the mistake easier to trace and catch.</p>
+<p>Retrieval also adds latency and infrastructure cost a purely parametric answer does not carry. Every query now triggers an embedding lookup, a rerank pass, and a larger prompt sent through the pipeline, a tradeoff most teams accept for a traceable answer over a faster, unverifiable one that nobody can double-check.</p>
+
+<h2>RAG Compared With Fine-Tuning and Bigger Context Windows</h2>
+<p>Three different fixes get discussed for the same underlying problem, and they are not interchangeable, even though teams frequently reach for the wrong one first. Fine-tuning retrains the model's weights on new data, which is expensive, slow to update, and still produces answers without a checkable source attached.</p>
+<p>Simply expanding the context window and pasting in more raw, unfiltered documents avoids retraining but runs straight into the very same noise problem retrieval was originally built to solve in the first place. Piling on <a href="/article/more-ai-training-data-makes-models-less-reliable">more training data</a> does not make a model more reliable once real signal gets diluted by sheer volume.</p>
+<p>RAG sits between the two. It updates instantly when documents change, scales to knowledge bases far larger than any context window, and ties every claim back to a passage a person can open and check.</p>
+
+<h2>Why a Human Still Has to Check the Citation</h2>
+<p>Retrieval gives a model something to cite, but citing a source is not the same as reading it correctly. A retrieved paragraph can still be misquoted, taken out of context, or applied to a question it never actually addressed.</p>
+<p>The finished output will still look properly sourced to a reader skimming it quickly, which is exactly what makes this failure mode easy to miss without a second check.</p>
+<p>That gap matters most in fields where a wrong citation carries a real penalty, from a court sanction to a misapplied clinical guideline, and it is exactly where verification habits still lag well behind adoption speed across most teams building on these systems today.</p>
+<p>Serious deployments treat RAG output as a lead worth checking, not a finished answer. A well-built system also always has to admit clearly when it can <a href="/article/why-ai-cant-tell-you-when-it-doesnt-know">find no match</a> instead of guessing anyway. The citation shortens verification. It does not remove it.</p>
+
+<h2>Conclusion</h2>
+<p>RAG does not make an AI model incapable of error. What it does is convert an unverifiable guess into a checkable claim, tied to a document a person can actually open and read. That shift, from trust me to here is where I found it, is what separates a tool suitable for legal, medical, or financial questions from one that merely sounds authoritative. As courts keep logging fabricated citations, the systems still answering from memory alone are the ones building that tally.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Does RAG completely eliminate AI hallucinations?</h3>
+<p>No. It reduces ungrounded guessing by supplying real source text, but the model can still misread a retrieved passage or fail when the retriever returns nothing relevant.</p>
+
+<h3>Is RAG the same thing as fine-tuning?</h3>
+<p>No. Fine-tuning permanently updates a model's internal weights on new data, while RAG retrieves external documents at answer time without changing the model itself.</p>
+
+<h3>Can any AI model use RAG?</h3>
+<p>Most modern large language models can be paired with a retrieval pipeline, since RAG is an architecture built around the model rather than a change to the model's internal weights.</p>
+
+<h3>Why do RAG systems sometimes cite the wrong source?</h3>
+<p>This usually happens when the reranking step lets noisy or loosely related passages through, or when the retriever misses a better-matching document that was phrased differently.</p>
+
+<h3>What is a vector database in a RAG pipeline?</h3>
+<p>It is a storage system that holds document chunks as numerical embeddings, allowing the retriever to find passages that are semantically similar to a query rather than just keyword matches.</p>
+
+<h3>Do consumer tools like ChatGPT or Gemini use RAG?</h3>
+<p>Yes, when they browse the web or search a connected document, that live lookup step is a form of retrieval-augmented generation layered on top of the base model.</p>`,
+},
+ 
+
   
 ];
 
