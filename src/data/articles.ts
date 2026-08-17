@@ -13247,6 +13247,176 @@ content: `
 <p>Converting light to electricity and back limits speed and adds failure points, while erbium-doped amplifiers boost the signal as pure light, which is faster and simpler to keep reliable for decades.</p>
 `
 },
+
+  {
+  id: 0, // MANUAL: set against current array max
+  slug: "sunk-cost-fallacy-psychology-failing-decisions",
+  title: "The Sunk Cost Fallacy Keeps People Investing in Failing Decisions",
+  metaTitle: "Sunk Cost Fallacy: Why People Keep Failing Decisions", // 52 chars
+  excerpt: "Most people quit a bad decision too late, and it's rarely about the decision itself. A 2018 study on mice, rats, and humans shows why sunk costs are so hard to walk away from.",
+  metaDescription: "The sunk cost fallacy explains why people keep funding failing decisions, and new 2025 research questions how this classic psychology bias really works.", // 152 chars
+  content: `
+    <p>Most people who abandon a failing plan do it too late, and the reason usually has nothing to do with the plan itself. It's the money, time, or effort already spent that keeps them going, a pattern psychologists call the sunk cost fallacy.</p>
+    <p>A 2018 study found the same behavior in mice, rats, and humans, which suggests this isn't a glitch in modern reasoning. It may be older than reasoning itself, wired into how brains everywhere decide when to quit.</p>
+
+    <h2>What Actually Counts as a Sunk Cost</h2>
+    <p>A sunk cost is any resource already spent that cannot be recovered no matter what you choose next. The money paid for a concert ticket, the years spent on a failing degree, the funding poured into a stalled project: none of it comes back.</p>
+    <p>That's true whether you continue or stop, and no future decision can retroactively change it. The only thing left to weigh is what happens from this point forward.</p>
+    <p>Rational choice theory says only future costs and benefits should guide the next decision. In practice, people weigh the past investment as if it were still on the table, treating money already gone as a reason to spend more.</p>
+    <p>Economist Richard Thaler formalized this gap between rational models and real behavior in 1980. His work built on research that later fed into Daniel Kahneman and Amos Tversky's prospect theory, which showed people feel losses more sharply than equivalent gains.</p>
+
+    <h2>The 1985 Study That Gave the Bias Its Name</h2>
+    <p>Psychologists Hal Arkes and Catherine Blumer ran the study that made the sunk cost effect a formal concept. In their best-known scenario, participants imagined buying a $100 ski trip to Michigan, then a $50 trip to Wisconsin they expected to enjoy more.</p>
+    <p>Both trips fell on the same weekend, and only one ticket could be used. Most participants chose the worse trip anyway, reasoning that skipping the pricier ticket would waste more money overall.</p>
+    <p>Arkes and Blumer traced this to what they called the don't waste rule, a social norm against appearing wasteful that people apply even when nobody else is watching. The same researchers ran a field test at an Ohio University theater.</p>
+    <p>Some patrons received full-price season tickets, others received a discount, with equal access to every performance. Full-price ticket holders attended noticeably more plays across the season on average, showing the bias playing out in real theater seats rather than a hypothetical survey scenario dreamed up in a lab.</p>
+
+    <h2>The Bias Shows Up in Mice and Rats, Not Just People</h2>
+    <p>In 2018, a University of Minnesota team led by neuroscientist Brian Sweis tested mice, rats, and humans on parallel versions of a foraging task, publishing the results in the journal Science. Rodents chased flavored food pellets through a maze of timed feeding stations.</p>
+    <p>Human subjects, meanwhile, hunted for entertaining videos under a limited time budget. All three species showed the same pattern once they committed time to waiting for a reward, they grew less willing to walk away, even as the wait became clearly unproductive.</p>
+    <p>Senior author David Redish concluded that sensitivity to sunk time appears conserved across species. That points toward a <a href="/article/dunning-kruger-effect-confidence-psychology">shared cognitive bias</a> rooted in old decision-making circuitry, not a uniquely human failure of logic layered on top of modern life.</p>
+    <p>The rodents had no language, no social image to protect, and no spreadsheet of past spending, yet they still hesitated to abandon a bad wait once they were already committed to it. That timing detail turned out to matter most: the hesitation only appeared after the initial commitment, not before it, in every species tested.</p>
+
+    <h2>Why the Brain Falls for It</h2>
+    <p>Two forces seem to drive the pattern in humans specifically, on top of whatever older mechanism the rodent studies point to. The first is loss aversion, the tendency to feel a loss roughly twice as intensely as an equivalent gain.</p>
+    <p>That makes walking away from a sunk investment feel like actively losing it, rather than simply not gaining more later, even though the two outcomes leave a person with the same balance sheet.</p>
+    <p>The second force is image and self-protection, the discomfort of admitting that earlier effort was wasted, especially in front of other people who watched the original decision get made.</p>
+    <p>A 2020 study in Frontiers in Psychology tested this directly, tying the two forces together with real data instead of just theory. People scoring higher on <a href="/article/why-losing-money-hurts-more-than-winning">loss aversion measures</a> were also more prone to the sunk cost effect for money invested.</p>
+    <p>The pattern was weaker and less consistent for time or effort spent. The researchers noted this split matters for anyone designing a workplace policy around the bias, since a rule built for money may not transfer cleanly to hours logged on a doomed project.</p>
+
+    <h2>Researchers Are Now Questioning How Solid the Bias Really Is</h2>
+    <p>Here is what most articles on this topic skip entirely, and it complicates the tidy story told so far. The 2018 mice-and-rats study, widely cited as proof the bias is built into animal brains, has since been formally challenged by other scientists working from the same published dataset.</p>
+    <p>A 2022 paper in the Proceedings of the National Academy of Sciences argued the original result could reflect a statistical artifact called attrition bias, not genuine sunk cost sensitivity. The authors built a model reproducing the same behavior without invoking sunk costs at all.</p>
+    <p>A separate 2025 study from the University of Wrocław went further, testing the classic vignettes researchers have relied on for four decades, including Arkes and Blumer's own scenarios. It found these vignettes often fail to reliably measure the same underlying trait between sessions.</p>
+    <p>That raises real questions about what decades of sunk cost <a href="/article/confirmation-bias-news-feed-psychology">research on cognitive bias</a> actually captured. The bias itself is not in serious doubt, but the tools used to measure it are proving shakier than most textbooks suggest.</p>
+    <p>None of this means people are free of the trap. It means science is still sorting out exactly how it works and how consistently it shows up from one person, and one study, to the next.</p>
+
+    <h2>How to Actually Catch Yourself Doing It</h2>
+    <p>The fix researchers keep landing on is a single reframe, one simple enough to run through in the middle of an argument or a budget meeting. Ask what you would choose if you were starting today with zero prior investment, knowing only the current costs and the current odds of success.</p>
+    <p>If the answer is no, the money or time already spent should not change it, however strongly it feels like it should. This reframe works better in private decisions than group ones, where the stakes of admitting a mistake feel higher.</p>
+    <p>Reversing course in a group can look like admitting a public mistake, which is one reason overconfidence and sunk cost thinking often travel together inside failing projects.</p>
+    <p>Naming the decision as a sunk cost out loud, before discussing next steps, appears to weaken its pull in several debiasing studies built on Arkes and Blumer's <a href="/article/illusion-of-explanatory-depth-explained">original psychological framework</a> from the 1980s.</p>
+
+    <h2>Conclusion</h2>
+    <p>The sunk cost fallacy survives because it disguises itself as loyalty, discipline, or simple thrift, not as an error. What the newest research adds isn't a bigger warning about the bias.</p>
+    <p>It's a more honest picture of it: real, measurable in decisions from theater tickets to corporate budgets, yet less mechanically simple than the tidy lab stories suggest.</p>
+    <p>The next time a bad investment feels too far along to quit, remember that the money already gone is the one number that should carry no weight at all.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>What is the sunk cost fallacy in simple terms?</h3>
+    <p>It's the tendency to keep investing in a decision because of money, time, or effort already spent, even when the current evidence says stopping would be smarter. The past cost cannot be recovered either way, so it shouldn't affect the choice.</p>
+
+    <h3>Is the sunk cost fallacy the same as loss aversion?</h3>
+    <p>They're related but not identical. Loss aversion is the broader tendency to feel losses more strongly than equivalent gains, and researchers believe it partly explains why sunk costs feel so hard to walk away from.</p>
+
+    <h3>Do animals really experience the sunk cost fallacy?</h3>
+    <p>A 2018 Science study found mice, rats, and humans all showed increased persistence after investing time in a task. That finding has since been challenged by researchers who argue it may reflect a statistical artifact rather than true sunk cost sensitivity.</p>
+
+    <h3>Why do businesses keep funding failing projects?</h3>
+    <p>Escalation of commitment, the organizational version of the sunk cost fallacy, often stems from managers not wanting to admit a prior investment failed, especially when their own reputation is tied to the original decision.</p>
+
+    <h3>What is the best way to avoid the sunk cost fallacy?</h3>
+    <p>Evaluate the decision as if starting fresh today, using only current costs and expected future outcomes. If the past investment were zero, would you still choose this path.</p>
+
+    <h3>Does time count as a sunk cost the same way money does?</h3>
+    <p>Not always as strongly. Research on investment type suggests the sunk cost effect is more consistent and better documented for money than for time or effort, where results across studies have been mixed.</p>
+
+  `,
+  coverImage: "/images/articles/sunk-cost-fallacy-psychology-failing-decisions.jpg", // TODO: upload cover image
+  category: "psychology-mind", // TODO: verify exact casing against live category array
+  author: authors[0], // TODO: confirm author vs authors field against live schema
+  publishedAt: "2026-08-17", // TODO: set actual publish date
+  readTime: 6,
+  featured: false,
+  tags: ["Psychology", "Cognitive Bias", "Sunk Cost Fallacy", "Loss Aversion", "Decision Making"], // TODO: verify casing/taxonomy against live tags array
+},
+
+  {
+  id: 0, // MANUAL: set against current array max
+  slug: "chola-dynasty-naval-empire-srivijaya-invasion",
+  title: "India's Chola Dynasty Built a Naval Empire That Reached Southeast Asia",
+  metaTitle: "India Chola Dynasty: The 1025 Naval Invasion Explained", // 54 chars
+  excerpt: "In 1025 CE, a South Indian king sent a war fleet 2,400 kilometers across the Bay of Bengal and struck an empire that controlled the world's most valuable trade strait.",
+  metaDescription: "How the Chola dynasty built a naval empire, crossed the Bay of Bengal, and struck Srivijaya in 1025 CE, backed by historical evidence and inscriptions.", // 151 chars
+  content: `
+    <p>In 1025 CE, a South Indian king sent a war fleet across the Bay of Bengal and struck ports more than 2,400 kilometers from home. Rajendra Chola I's navy sacked the port city of Kadaram in modern Malaysia and captured a rival king there.</p>
+    <p>It remains the only long-distance overseas naval campaign recorded from South Asia in that era, a single strike that still shapes how historians think about premodern Indian sea power.</p>
+    <p>The Chola dynasty ran this maritime power for roughly three centuries from the Coromandel Coast, and the story behind that single expedition reveals how a land-based Tamil kingdom became a naval force capable of reaching Sumatra, Malaysia, and southern Thailand.</p>
+
+    <h2>Who the Cholas Were Before They Went to Sea</h2>
+    <p>The Chola dynasty ruled from the Coromandel Coast of what is now Tamil Nadu, rising to regional dominance under Raja Raja Chola I in the late 10th century.</p>
+    <p>His son, Rajendra Chola I, inherited an empire already controlling Sri Lanka and much of southern India, along with a navy built primarily to move troops between the mainland and the island rather than to fight open-ocean battles.</p>
+    <p>By the early 11th century, the Cholas were the dominant power in South India, and their merchants had built trading relationships stretching toward China's Song dynasty. That commercial ambition, more than any territorial hunger, is what eventually pulled the empire out to sea, first through trade missions and only later through warships.</p>
+    <p>This wasn't India's first experience with organized long-distance trade. Centuries earlier, the <a href="/article/indus-valley-standardized-weights-before-coinage">Indus Valley civilization</a> had already standardized weights and measures to keep commerce consistent across distant settlements, a tradition of structured trade infrastructure that Chola merchants inherited in spirit if not in direct lineage.</p>
+    <p>That older habit of standardization is part of why Tamil merchant guilds could later operate with the same consistency across ports thousands of kilometers apart, from the Coromandel Coast all the way to Sumatra.</p>
+    <p>Trade, not conquest, was always the Chola engine, and the 1025 fleet was ultimately built to protect that engine rather than to expand Chola territory for its own sake. Understanding that distinction changes how the entire expedition should be read.</p>
+
+    <h2>The 1025 CE Expedition That Crossed the Bay of Bengal</h2>
+    <p>Rajendra Chola's fleet targeted Srivijaya, a maritime empire that controlled the Strait of Malacca and the Sunda Strait, the two narrow chokepoints any ship traveling between India and China had to pass through, then and for centuries afterward, making it the single most valuable trade corridor in maritime Asia.</p>
+    <p>Srivijaya and the Cholas had been on friendly terms for decades before the attack, exchanging monks, monasteries, and diplomatic gestures rather than warships, which is part of why historians still call the raid such an unusual and surprising break from that pattern.</p>
+    <p>According to <a href="/article/history-textbook-lies-myths-debunked">stone inscriptions</a> at Thanjavur, the Chola fleet struck a dozen or more Srivijayan cities and ports, seizing the Vidhyadhara-torana, a jeweled ceremonial gateway, and capturing King Sangrama Vijayottunggavarman. The Sailendra dynasty that had ruled Srivijaya never fully recovered its former authority afterward.</p>
+    <p>Contemporary Song dynasty records from China also note a rise in diplomatic missions from the "Zhu-lian" kingdom, the Chinese name for the Cholas, in the years following the raid.</p>
+    <p>That's an independent trail of evidence that the campaign genuinely reordered regional trade rather than existing only in Tamil court poetry, exactly the kind of cross-checking historians look for when a single dynasty's own inscriptions might otherwise be dismissed as self-congratulatory.</p>
+    <p>Rajendra Chola did not try to hold the conquered territory. He destroyed Srivijaya's military capacity, reinstalled a friendlier ruler, and sailed home, a pattern historians now describe as closer to a punitive raid for trade leverage than a colonizing invasion.</p>
+    <p>That restraint stands out against how most premodern conquerors behaved after winning a war. Rajendra wanted the trade route open, not a distant province to govern from thousands of kilometers away.</p>
+
+    <h2>How Chola Ships Were Actually Built</h2>
+    <p>No complete Chola-era ship has survived, so what is known comes from temple carvings, inscriptions, and comparisons with later traditional vessels built along the same coast today. Shipwrights are believed to have used <a href="/article/ancient-technologies-surprisingly-advanced-engineering">stitched-plank construction</a>, sewing hull planks together with coir rope rather than iron nails.</p>
+    <p>That stitching gave the hull flexibility to absorb ocean swells without cracking, an advantage over rigid nailed construction on long open-water voyages.</p>
+    <p>Builders favored dense local hardwoods such as teak and jackfruit, paired with square sails and steering oars rather than a rear rudder, a rigging style suited to the monsoon winds that governed when any fleet could safely sail east.</p>
+    <p>In 2022, the Indian Navy commissioned a modern reconstruction of a stitched ship based on this same tradition, working entirely from two-dimensional artwork since no physical blueprint from the period exists.</p>
+    <p>That reconstruction effort shows how much of Chola maritime engineering still has to be inferred rather than measured directly, decades of naval architecture guesswork condensed into a single working replica launched for public sea trials.</p>
+
+    <h2>Why Rajendra Chola Really Attacked Srivijaya</h2>
+    <p>Historians disagree on the exact trigger behind the campaign. K.A. Nilakanta Sastri, the scholar whose work still anchors most modern Chola history, suggested Srivijaya may have obstructed Chola trade routes toward China, or that Rajendra simply wanted to extend his conquests overseas for prestige and add luster to an already dominant reign.</p>
+    <p>A more recent scholarly reading, however, points to <a href="/article/ashoka-kalinga-war-peace-transformation">regional power politics</a> rather than pure commerce alone. Khmer king Suryavarman I reportedly sought Chola support against a rival kingdom allied with Srivijaya.</p>
+    <p>That means the naval strike may have doubled as a favor to a diplomatic partner as much as a trade dispute, a kind of alliance-driven warfare with parallels elsewhere in Indian history, where wars framed as conquest were sometimes fought on behalf of a third party's interests.</p>
+    <p>Either explanation points to the same underlying fact: this was a war fought for market access and political leverage, not territorial expansion, an approach unusual enough in Indian history that historians still single it out as an exception.</p>
+
+    <h2>The Merchant Guilds That Made the Empire Work</h2>
+    <p>Chola trade ran through organized merchant guilds, most notably the Ainnurruvar and the Manigramam, groups powerful enough to maintain their own armed escorts and negotiate directly with foreign rulers. These guilds expanded into Southeast Asian ports well before and after Rajendra's expedition.</p>
+    <p>Their activity is documented in inscriptions found as far as Sumatra and Thailand, evidence that Chola commercial reach extended well beyond what any single military campaign achieved. The 1025 raid cleared a trade bottleneck; the guilds are what actually built the long-term economic relationship with Southeast Asia, one that outlasted the dynasty itself by centuries.</p>
+
+    <h2>Historians Still Dispute How This Naval Empire Actually Fought</h2>
+    <p>This is the part most popular retellings skip entirely, preferring the clean version where a fleet sails out and wins. Historian George W. Spencer argued that the Thanjavur inscriptions describing Chola naval victories read as court rhetoric, poetic and formulaic, and cannot on their own confirm that organized naval battles took place exactly as described.</p>
+    <p>Scholar R.C. Majumdar countered decades earlier that the sheer level of geographic and political detail in the inscriptions goes well beyond what court poets typically invented.</p>
+    <p>He argued the expedition's outline is historically reliable even if individual flourishes are exaggerated, and that debate over how literally to read Chola inscriptions remains unresolved among specialists studying the period even now.</p>
+    <p>The debate resurfaced publicly around the expedition's thousand-year anniversary in 2025, when commentators pushed back against framing a punitive raid, one that disrupted centuries of largely peaceful India-Southeast Asia trade and religious exchange, as a straightforward moment of civilizational triumph.</p>
+
+    <h2>Conclusion</h2>
+    <p>The Chola naval expedition of 1025 stands out precisely because it was so rare. Indian dynasties before and after mostly projected power over land, not water, which is what makes Rajendra Chola's fleet crossing the Bay of Bengal such an unusual data point in South Asian history.</p>
+    <p>What endured longer than the raid itself was the trade network the Cholas' merchant guilds built around it, a maritime commercial reach that shaped Southeast Asian ports for generations after the ships that struck Kadaram had long sailed home.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>Who was Rajendra Chola I?</h3>
+    <p>Rajendra Chola I was the Chola emperor who ruled South India in the early 11th century and led the 1025 CE naval expedition against the Srivijaya empire in maritime Southeast Asia.</p>
+
+    <h3>Why did the Cholas attack Srivijaya?</h3>
+    <p>Historians point to a mix of trade disputes over control of the Strait of Malacca and regional diplomacy, including a possible request for help from the Khmer Empire against a Srivijaya-aligned rival.</p>
+
+    <h3>Did the Cholas colonize Southeast Asia after the invasion?</h3>
+    <p>No. Rajendra Chola destroyed Srivijaya's military capacity, installed a friendlier ruler, and returned to India rather than occupying the conquered territory long term.</p>
+
+    <h3>What were Chola ships made of?</h3>
+    <p>Evidence suggests Chola shipbuilders used stitched-plank construction, sewing hull planks together with coir rope, and built with hardwoods such as teak and jackfruit for flexibility on long voyages.</p>
+
+    <h3>Is there solid proof the Chola naval battles happened as described?</h3>
+    <p>Historians disagree. Some argue the Thanjavur inscriptions are largely reliable court records, while others say their poetic language makes it impossible to confirm exact battle details.</p>
+
+    <h3>What lasting impact did the Chola expedition have on Southeast Asia?</h3>
+    <p>Beyond the immediate raid, Chola merchant guilds expanded trade and cultural links across the region for generations, spreading Tamil commercial networks, scripts, and religious influence.</p>
+
+  `,
+  coverImage: "/images/articles/chola-dynasty-naval-empire-srivijaya-invasion.jpg", // TODO: upload cover image
+  category: "history", // TODO: verify exact casing against live category array
+  author: authors[0], // TODO: confirm author vs authors field against live schema
+  publishedAt: "2026-08-17", // TODO: set actual publish date
+  readTime: 7,
+  featured: false,
+  tags: ["History", "Chola Dynasty", "Naval History", "Ancient India", "Southeast Asia"], // TODO: verify casing/taxonomy against live tags array
+},
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
