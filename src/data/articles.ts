@@ -13493,7 +13493,7 @@ content: `
   coverImage: "/images/articles/wood-wide-web-mycelium-networks-evidence-gap.jpg", // MANUAL: upload, slug-named
   category: "science", // MANUAL: verify exact casing vs live array (confirmed: "science")
   author: authors[0], // MANUAL: confirm which author index
-  publishedAt: "", // MANUAL: set date
+  publishedAt: "2026-08-18", // MANUAL: set date
   readTime: 7,
   featured: false,
   tags: ["Mycorrhizal Networks", "Forest Ecology", "Suzanne Simard", "Science Myths"], // MANUAL: verify casing/taxonomy
