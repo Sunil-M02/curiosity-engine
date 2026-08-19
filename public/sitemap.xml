@@ -986,4 +986,15 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/dark-energy-weakening-desi-evidence-explained</loc>
+  <lastmod>2026-08-19</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url><url>
+  <loc>https://www.curiosityfields.com/article/browser-fingerprinting-tracking-cookies-incognito</loc>
+  <lastmod>2026-08-19</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
