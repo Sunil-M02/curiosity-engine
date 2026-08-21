@@ -1010,4 +1010,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+   <url>
+  <loc>https://www.curiosityfields.com/article/actions-speak-louder-than-words-psychology-study</loc>
+  <lastmod>2026-08-21</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+   <url>
+  <loc>https://www.curiosityfields.com/article/ai-automating-tasks-not-entire-jobs-2026</loc>
+  <lastmod>2026-08-21</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
