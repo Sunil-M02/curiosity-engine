@@ -14090,7 +14090,7 @@ content: `
   tags: ["artificial intelligence", "AI automation", "future of work", "artificial-intelligence", "labor market"],
   author: authors[1], // TODO confirm: Marcus Chen, Technology Correspondent
   coverImage: "/images/articles/ai-automating-tasks-not-entire-jobs-2026.jpg", // TODO: create and upload
-  publishedAt: "2026-08-22", // TODO: set publish date
+  publishedAt: "2026-08-21", // TODO: set publish date
   readTime: 6,
   featured: false,
   editorsPick: false, // TODO confirm
