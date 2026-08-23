@@ -1034,4 +1034,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/saturn-rings-age-younger-than-dinosaurs-disappearing</loc>
+  <lastmod>2026-08-23</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/anthrobots-human-cells-self-assembling-living-machines</loc>
+  <lastmod>2026-08-23</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
