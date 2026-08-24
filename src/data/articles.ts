@@ -14546,7 +14546,7 @@ content: `
   tags: ["small language models", "SLM", "AI efficiency", "Phi-4", "agentic AI"],
   author: authors[1], // TODO confirm: Marcus Chen, Technology Correspondent
   coverImage: "/images/articles/small-language-models-vs-large-ai-2026.jpg", // TODO: create and upload
-  publishedAt: "2026-08-23", // TODO: set actual publish date
+  publishedAt: "2026-08-24", // TODO: set actual publish date
   readTime: 6,
   featured: false,
   editorsPick: false, // TODO confirm
