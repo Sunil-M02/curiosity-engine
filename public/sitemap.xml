@@ -1046,4 +1046,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/saraswati-river-ghaggar-hakra-geology-debate</loc>
+  <lastmod>2026-08-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/small-language-models-vs-large-ai-2026</loc>
+  <lastmod>2026-08-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
