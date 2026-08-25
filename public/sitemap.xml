@@ -1058,4 +1058,17 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/music-memory-recall-neuroscience-explained</loc>
+  <lastmod>2026-08-25</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/how-phones-track-location-without-gps</loc>
+  <lastmod>2026-08-25</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  
 </urlset>
