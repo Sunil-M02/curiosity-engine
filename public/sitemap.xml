@@ -1070,5 +1070,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
-  
+  <url>
+  <loc>https://www.curiosityfields.com/article/does-fasting-trigger-autophagy-human-studies</loc>
+  <lastmod>2026-08-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/mof-atmospheric-water-harvesting-desert-air-explained</loc>
+  <lastmod>2026-08-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
