@@ -1082,4 +1082,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/are-wormholes-real-einstein-equations-explained</loc>
+  <lastmod>2026-08-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained</loc>
+  <lastmod>2026-08-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
