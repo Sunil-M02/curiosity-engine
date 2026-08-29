@@ -15309,6 +15309,159 @@ content: `
   editorsPick: false, // TODO: confirm
   tags: ["Water Scarcity", "Global Resources", "Water Bankruptcy", "Climate Economics", "Future Innovation"], // TODO: verify casing/taxonomy against live tags array
 },
+
+  {
+  id: "is-glass-a-liquid-why-old-windows-sag", // slug-as-id per confirmed live schema convention
+  slug: "is-glass-a-liquid-why-old-windows-sag",
+  title: "Glass Is Not a Slow-Moving Liquid, and the Real Reason Windows Sag Is Different",
+  metaTitle: "Is Glass a Liquid? The Truth About Sagging Windows", // 50 chars
+  excerpt: "Cathedral windows really are thicker at the bottom, but centuries of physics research prove glass never flowed to cause it. Here is the manufacturing story behind the myth, and the real reason windows sag today.",
+  metaDescription: "Glass is not a liquid. Learn the real physics behind sagging cathedral windows, why modern glass panes bow, and the science that finally settled the myth.", // 154 chars, distinct from excerpt
+  content: `
+  <p>Glass is not a liquid, slow-moving or otherwise. It is an amorphous solid, and the thick lower edges on centuries-old cathedral windows come from how medieval glassmakers cut and installed their panes, not from gravity pulling molecules downward over time.</p>
+  <p>That distinction matters, because modern glass genuinely does sag under specific conditions, just not the one the myth describes. The confusion has survived textbooks and tour guides for decades. Understanding why physicists finally put a number on it, and what actually makes glass move today, reveals more about materials than the myth ever did.</p>
+
+  <h2>The Cathedral Windows That Started It All</h2>
+  <p>Stained glass panels in cathedrals across Europe, including famous windows at Chartres and Sainte-Chapelle, are often visibly thicker at the bottom than at the top. Tour guides have repeated the same explanation for generations: glass is a supercooled liquid, and gravity has made it ooze downward like architectural honey.</p>
+  <p>Materials scientist Edgar Zanotto of the Federal University of São Carlos in Brazil first heard the claim as a student and assumed it was a local myth, until he found the same story repeated in textbooks across other countries. That repetition is what pushed him to run the numbers.</p>
+
+  <h2>What Glass Actually Is</h2>
+  <p>Ordinary solids, like ice or quartz, have atoms locked into a repeating crystal lattice. Glass never crystallizes. Its atoms freeze into a disordered arrangement that looks structurally more like a liquid than a solid, which is why chemists call it an amorphous solid rather than a true crystal.</p>
+  <p>That description is accurate, and it is also the root of the confusion. Calling something supercooled invites people to picture it behaving like a liquid.</p>
+  <p>At room temperature, though, its atoms are locked in place on any timescale a human could observe. The same disordered, glassy state shows up in <a href="https://www.curiosityfields.com/article/technology-behind-self-healing-materials-polymer-chains">certain self-repairing polymer chains</a>, where structure, not crystallinity, determines behavior.</p>
+
+  <h2>The Math That Ends the Debate</h2>
+  <p>In a 1998 paper in the American Journal of Physics, Zanotto calculated the viscosity of medieval and modern window glass and estimated how long visible flow would take at room temperature. His result: well beyond the age of the universe, on the order of 10^32 years for typical window glass to change at all.</p>
+  <p>A 2018 follow-up in the Journal of the American Ceramic Society sharpened the picture. Researchers Ozgur Gulbiten and John Mauro worked from the chemical composition of glass panes at Westminster Abbey, installed in 1268.</p>
+  <p>They calculated the glass would flow at most one nanometer over a billion years, a rate no instrument on Earth could distinguish from zero.</p>
+
+  <h2>So Why Are Old Windows Thicker at the Bottom?</h2>
+  <p>The real answer sits in the workshop, not in physics. Medieval glassmakers used the crown process: a glassblower spun a molten globe into a flat disk using centrifugal force, then cut panes from it.</p>
+  <p>That disk was never uniform, coming out thinner at the edges and thicker near the center, where the punty rod had been attached. Glaziers cutting panes from it ended up with pieces that tapered from one edge to the other.</p>
+  <p>Placing the heavier edge at the bottom made a window more stable and less likely to crack during handling. Corning Museum of Glass researchers have documented this installation choice directly, the same practical judgment behind <a href="https://www.curiosityfields.com/article/how-ancient-engineers-moved-massive-stone-blocks">how ancient builders handled heavy, unevenly weighted materials</a> long before written engineering standards existed.</p>
+  <p>The same trial-and-error logic shaped <a href="https://www.curiosityfields.com/article/iron-pillar-delhi-rust-resistance-explained">other durable pre-modern materials</a> that still puzzle conservators today.</p>
+
+  <h2>The Real Reason Modern Windows Actually Sag</h2>
+  <p>Here is where the myth and reality genuinely diverge. Modern double and triple-pane windows, known as insulated glass units, can visibly bow or pillow inward or outward, and it has nothing to do with glass viscosity. It comes from gas trapped in the sealed cavity between panes.</p>
+  <p>An insulated glass unit is sealed at a specific temperature and elevation. When outdoor temperature, pressure, or elevation changes afterward, the trapped gas expands or contracts.</p>
+  <p>That creates a pressure imbalance between the cavity and outside air, pushing the flexible panes to bow toward or away from each other, an effect glazing engineers call pillowing.</p>
+  <p>Unlike the cathedral myth, pillowing is measurable within days of a strong weather front, not over geological time. It follows <a href="https://www.curiosityfields.com/article/gravity-before-newton-history">the same basic mechanical principles</a> that governed physics long before anyone understood atomic structure, and it shares nothing with the amorphous structure people blame for medieval sagging.</p>
+
+  <h2>Why the Myth Still Persists</h2>
+  <p>Part of the appeal is that glass really is strange. Its disordered structure means researchers still debate exactly how to define the glass transition, the point where a cooling liquid becomes rigid enough to call solid.</p>
+  <p>That open question gets misread as evidence the "is glass solid" debate remains unsettled, when the flow calculations closed the observable-timescale question decades ago.</p>
+  <p>The same instinct that assumes visible thickness differences must mean movement over time shows up whenever people misread <a href="https://www.curiosityfields.com/article/ageing-physics-problem-entropy-theory-cellular-decline">slow molecular-level processes</a> as something dramatic on a human timescale.</p>
+  <p>Materials like <a href="https://www.curiosityfields.com/article/spider-silk-stronger-than-steel-molecular-bond">spider silk's molecular bonds</a> show the opposite pattern, disordered at one scale and remarkably stable at another. The same physics that keeps <a href="https://www.curiosityfields.com/article/why-satellites-dont-fall-earth">satellites from falling out of orbit</a> gets misread just as often when people trust intuition over calculation.</p>
+
+  <h2>Conclusion</h2>
+  <p>Old cathedral windows are thicker at the bottom because medieval glassmakers cut imperfect panes and installers oriented the heavy edge downward for stability, not because glass has spent eight centuries quietly dripping. The molecules in your window are, for all practical purposes, frozen in place.</p>
+  <p>What does move, and measurably, is the trapped gas inside modern insulated windows responding to weather and elevation, the actual mechanism behind visible pillowing today. The next time someone repeats the cathedral story, the more interesting fact is the one they left out.</p>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>Is glass technically a liquid?</h3>
+  <p>No. Glass is an amorphous solid, meaning its atoms are arranged without the repeating pattern found in crystals, but it behaves mechanically as a rigid solid at room temperature.</p>
+
+  <h3>Why are medieval cathedral windows thicker at the bottom?</h3>
+  <p>Glassmakers used the crown process, which produced panes that tapered in thickness, and installers placed the heavier edge at the bottom for stability during handling.</p>
+
+  <h3>How long would it actually take glass to flow at room temperature?</h3>
+  <p>Calculations published in the Journal of the American Ceramic Society estimate typical window glass would flow roughly one nanometer over a billion years, far too slow to measure.</p>
+
+  <h3>Why do modern double-pane windows sometimes bow or look distorted?</h3>
+  <p>This is called pillowing, caused by trapped gas expanding or contracting inside the sealed cavity as temperature, elevation, or atmospheric pressure changes after installation.</p>
+
+  <h3>What is the difference between an amorphous solid and a crystal?</h3>
+  <p>A crystal has atoms arranged in a repeating, ordered lattice, while an amorphous solid like glass has atoms frozen into a disordered arrangement without long-range order.</p>
+
+  <h3>Does glass ever flow under any conditions?</h3>
+  <p>Yes, but only at significantly elevated temperatures, generally above 350 degrees Celsius, where it becomes soft enough for glassblowers and manufacturers to reshape it.</p>
+  `,
+  coverImage: "/images/articles/is-glass-a-liquid-why-old-windows-sag.jpg", // TODO: create and upload, slug-based filename convention
+  category: "science",
+  author: authors[0], // Dr. Elena Vasquez — matches confirmed live convention: 19/19 recent "science" entries use authors[0]
+  publishedAt: "2026-08-30", // TODO: set actual publish date
+  readTime: 6,
+  featured: false,
+  editorsPick: false, // TODO: confirm
+  tags: ["Glass Physics", "Amorphous Solids", "Materials Science", "Science Myths", "Cathedral Windows"], // TODO: verify casing/taxonomy against live tags array
+},
+
+  {
+  id: "ai-voice-cloning-scam-calls-explained", // slug-as-id per confirmed live schema convention
+  slug: "ai-voice-cloning-scam-calls-explained",
+  title: "AI Voice Cloning Needs Just Seconds of Audio, Which Is Why Scam Calls Changed",
+  metaTitle: "AI Voice Cloning: How Scammers Clone Voices in Seconds", // 54 chars
+  excerpt: "A three-second audio clip is all it takes to clone a voice convincingly enough to fool your own family. Here is how the technology works, why scam calls exploded, and what actually stops them.",
+  metaDescription: "Just 3 seconds of audio can clone a voice with 85% accuracy. See how AI voice cloning works, why scam calls surged 442%, and how to protect your family.", // 152 chars, distinct from excerpt
+  content: `
+  <p>AI voice cloning needs about three seconds of someone's voice to produce a clone that convinces most listeners, according to research McAfee published in 2025. That single fact rewired how phone scams work.</p>
+  <p>A caller no longer has to imitate your grandson's voice. Software builds it for them, using clips lifted from a birthday video, a voicemail greeting, or a public social media post.</p>
+  <p>Vishing, or voice phishing, surged 442 percent in 2025 as cloning tools became fast, cheap, and accurate enough to fool the person who knows that voice best.</p>
+  <p>Understanding how a few seconds of audio becomes a working impersonation explains why old advice about trusting a familiar voice no longer holds, and why the fix has less to do with better hearing than better verification habits.</p>
+
+  <h2>How Three Seconds of Audio Becomes a Working Clone</h2>
+  <p>Modern voice cloning runs on zero-shot text-to-speech systems, models trained once on tens of thousands of hours of speech from thousands of speakers, then pointed at a short new sample at the moment of use. Microsoft's VALL-E, introduced in 2023, reframed voice cloning as a language modeling problem.</p>
+  <p>It converts a few seconds of reference audio into discrete tokens, then predicts new tokens carrying the same vocal identity while saying entirely new words, trained on roughly 60,000 hours of speech.</p>
+  <p>A speaker encoder converts the clip into a speaker embedding, a compact numerical fingerprint of pitch, formants, and rhythm that the system uses to color new, generated speech in that person's voice.</p>
+  <p>Because the system never retrains on that specific voice, it generates a convincing clone in the time it takes to process the audio, not the hours of fine-tuning older cloning methods required. That speed is what makes real-time impersonation on a live call possible.</p>
+
+  <h2>Where Scammers Actually Get the Audio</h2>
+  <p>Attackers rarely need direct access to a target. Public social media videos, YouTube interviews, webinar recordings, voicemail greetings, and old family clips all supply usable samples.</p>
+  <p>Executives and public-facing employees face elevated risk simply because their voices circulate more widely online, a dynamic security researchers now treat like <a href="https://www.curiosityfields.com/article/smartphone-data-collection-app-privacy">other forms of unintentional data exposure</a> from everyday app use.</p>
+  <p>The harvesting-to-call pipeline moves fast. Researchers tracking elderly-targeted scams found the average gap between collecting a voice sample and placing a fraudulent call is about 48 hours.</p>
+  <p>The resulting scam call lasts under four minutes on average, just long enough to manufacture panic before a target can verify anything, since scripted urgency, not audio quality, does most of the persuasive work once the voice already sounds right.</p>
+
+  <h2>Why Scam Calls Changed So Quickly</h2>
+  <p>Vectra AI's 2026 threat research found AI-powered scams surged 1,210 percent in 2025, with voice cloning ranked among the top enterprise fraud risks. Deepfake fraud attempts overall rose more than 2,000 percent across the last three years, now appearing in roughly one of every fifteen detected fraud cases.</p>
+  <p>The economics explain the surge. Cloning once required studio-quality recordings and technical skill.</p>
+  <p>Zero-shot systems collapsed that barrier to a few seconds of public audio and a free or low-cost tool, the same accessibility curve that made <a href="https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained">other AI-enabled attack methods</a> spread faster than defenders could patch for them.</p>
+  <p>That same low barrier has pushed criminals toward <a href="https://www.curiosityfields.com/article/credit-card-tokenization-network-tokens">payment fraud techniques</a> that pair a convincing cloned voice with a stolen card number or a compromised bank login.</p>
+
+  <h2>The Human Cost, in Numbers</h2>
+  <p>Roughly one in four American adults reported encountering an AI-cloned voice call in the past year, according to Hiya's State of the Call 2026 report. Among people who engaged with the caller, 77 percent ended up losing money, with individual losses ranging from a few hundred dollars to as much as $15,000 in documented cases.</p>
+  <p>Confidence does not protect people either. McAfee found 70 percent of respondents were not confident they could tell a cloned voice from a real one.</p>
+  <p>Academic studies in 2026 found some participants were more confident in wrong guesses than correct ones when judging AI-generated call audio, a pattern that echoes how people misjudge <a href="https://www.curiosityfields.com/article/how-ai-thinking-actually-works">what AI systems are actually doing</a> behind a convincing output. That overconfidence is precisely why training people to "listen harder" has largely failed as a defense strategy.</p>
+
+  <h2>What Regulators and Detection Tools Are Doing About It</h2>
+  <p>The FCC confirmed in 2024 that AI-generated voices used in robocalls fall under the Telephone Consumer Protection Act, requiring prior consent from call recipients. That rule followed a widely publicized incident in which robocalls used a cloned voice of President Biden to discourage New Hampshire primary voters, resulting in a proposed $6 million FCC fine.</p>
+  <p>The FTC's Voice Cloning Challenge, launched to solicit anti-fraud tools, selected winning proposals covering real-time liveness detection and audio watermarking that authenticates a recording's human origin at creation.</p>
+  <p>None of these tools are deployed widely enough yet to catch every call, which is why <a href="https://www.curiosityfields.com/article/why-ai-cant-tell-you-when-it-doesnt-know">systems that cannot flag their own uncertainty</a> remain a genuine detection gap.</p>
+  <p>A verbal codeword shared privately among family members, similar in spirit to how <a href="https://www.curiosityfields.com/article/onion-routing-hides-identity-online">layered identity protections</a> work online, still outperforms most software defenses available to consumers today.</p>
+
+  <h2>Conclusion</h2>
+  <p>Three seconds of audio, a public clip most people upload without thinking twice, is now enough to build a voice that fools most listeners. That gap between how cheap cloning became and how slowly detection tools caught up is what actually changed scam calls, not the underlying technology alone.</p>
+  <p>A private family codeword, a policy of hanging up and calling back on a known number, and healthy skepticism toward any urgent financial request still beat every detection tool available to consumers today.</p>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>How much audio does it take to clone someone's voice?</h3>
+  <p>Around three seconds of audio can produce a voice clone with roughly 85 percent accuracy, according to McAfee research, though higher-quality clones use 30 seconds to a few minutes of source audio.</p>
+
+  <h3>Where do scammers get voice samples?</h3>
+  <p>Common sources include social media videos, YouTube content, voicemail greetings, webinar recordings, and any other public audio featuring the target's voice.</p>
+
+  <h3>Can people reliably tell a cloned voice from a real one?</h3>
+  <p>No. Surveys found 70 percent of people were not confident they could distinguish a cloned voice, and studies show some people are more confident when they guess wrong.</p>
+
+  <h3>Are AI voice cloning robocalls illegal in the United States?</h3>
+  <p>Yes. The FCC confirmed in 2024 that AI-generated voices used in robocalls fall under the Telephone Consumer Protection Act and require prior consent from the recipient.</p>
+
+  <h3>What can someone do to protect against a voice cloning scam?</h3>
+  <p>Agree on a private family codeword in advance, hang up and call the person back on a known number, and treat any urgent request for money with skepticism regardless of how convincing the voice sounds.</p>
+
+  <h3>What happens if a scammer gets past voice-based authentication?</h3>
+  <p>Voice-based authentication for banking and other services becomes a genuine vulnerability, which is why the FTC has pushed for liveness detection and audio watermarking as additional safeguards beyond voice alone.</p>
+  `,
+  coverImage: "/images/articles/ai-voice-cloning-scam-calls-explained.jpg", // TODO: create and upload, slug-based filename convention
+  category: "artificial-intelligence",
+  author: authors[1], // Marcus Chen, Technology Correspondent — FLAGGED: recent artificial-intelligence entries are mixed (authors[0] and authors[1]); chosen for AI-security subject fit, please confirm before publishing
+  publishedAt: "2026-08-30", // TODO: set actual publish date
+  readTime: 6,
+  featured: false,
+  editorsPick: false, // TODO: confirm
+  tags: ["AI Voice Cloning", "Vishing Scams", "Deepfake Fraud", "AI Security", "Voice Phishing"], // TODO: verify casing/taxonomy against live tags array
+},
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
