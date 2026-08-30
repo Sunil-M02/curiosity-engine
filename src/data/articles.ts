@@ -1696,6 +1696,7 @@ export const articles: Article[] = [
     publishedAt: "2026-04-04",
     readTime: 9,
     featured: false,
+    editorsPick: true,
     tags: ["Tardigrades", "Radiation Biology", "Extremophiles", "DNA Repair", "Astrobiology"],
   },
   {
@@ -1766,6 +1767,7 @@ export const articles: Article[] = [
     publishedAt: "2026-04-08",
     readTime: 8,
     featured: false,
+    editorsPick: true,
     tags: ["Streaming", "Energy", "Data Centers", "Carbon Footprint", "Digital Infrastructure"],
   },
   {
@@ -2535,8 +2537,9 @@ export const articles: Article[] = [
     category: "history",
     author: authors[2],
     publishedAt: "2026-04-27",
-    readTime: 11,
+    readTime: 10,
     featured: false,
+    editorsPick: true,
     tags: ["Bronze Age", "Ancient History", "Mediterranean", "Civilizational Collapse", "Sea Peoples"],
   },
   {
@@ -4417,6 +4420,7 @@ export const articles: Article[] = [
     publishedAt: "2026-05-17",
     readTime: 7,
     featured: false,
+    editorsPick: true,
     tags: ["History", "Ancient Civilisations", "Invention", "Mesopotamia", "Sumerians", "Technology Adoption"],
   },
 
@@ -5556,6 +5560,7 @@ export const articles: Article[] = [
   publishedAt: "2026-06-03",
   readTime: 11,
   featured: true,
+  editorsPick: true,
   tags: ["longevity", "ageing", "senolytics", "epigenetics", "NAD+", "biology", "healthspan"],
 },
  
@@ -5835,6 +5840,7 @@ export const articles: Article[] = [
   publishedAt: "2026-06-05",
   readTime: 9,
   featured: false,
+  editorsPick: true,
   tags: ["AlphaFold", "AI", "protein folding", "DeepMind", "Nobel Prize", "biology"],
 },
   // ============================================================
@@ -6729,6 +6735,7 @@ export const articles: Article[] = [
     readTime: 7,
     author: authors[3],
     featured: false,
+    editorsPick: true,
   },
 
 {
@@ -15522,12 +15529,13 @@ export function getFeaturedArticles(): Article[] {
 
 export function getEditorsPickArticles(limit = 7): Article[] {
   const curatedEditorsPickSlugs = [
-    "why-paper-cuts-hurt-more-than-larger-wounds-nerve-density",
-    "fermi-paradox-solutions-explained",
-    "holding-breath-4-minutes-body-effects",
-    "incognito-mode-doesnt-hide-you-online-privacy",
-    "why-all-telescopes-are-time-machines-light-travel-time",
-    "how-octopuses-see-colour-despite-being-colourblind-skin-photoreceptor-discovery",
+    "what-if-ageing-could-be-reversed-biology-longevity-research",
+    "bronze-age-collapse-1200-bc-civilisation-vanished",
+    "hidden-energy-cost-streaming-netflix-episode",
+    "alphafold-protein-folding-explained",
+    "can-tardigrades-survive-nuclear-radiation-real-science",
+    "ai-art-generators-dragons-explained"
+    "civilisation-invented-wheel-not-used-transport-first"
   ];
 
   const curatedArticles = curatedEditorsPickSlugs
