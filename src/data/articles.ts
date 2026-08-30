@@ -15534,8 +15534,8 @@ export function getEditorsPickArticles(limit = 7): Article[] {
     "hidden-energy-cost-streaming-netflix-episode",
     "alphafold-protein-folding-explained",
     "can-tardigrades-survive-nuclear-radiation-real-science",
-    "ai-art-generators-dragons-explained"
-    "civilisation-invented-wheel-not-used-transport-first"
+    "ai-art-generators-dragons-explained",
+    "civilisation-invented-wheel-not-used-transport-first",
   ];
 
   const curatedArticles = curatedEditorsPickSlugs
