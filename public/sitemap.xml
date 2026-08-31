@@ -1142,4 +1142,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/india-green-revolution-food-importer-to-grain-surplus</loc>
+  <lastmod>2026-09-01</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/carbon-capture-industrial-manufacturing-decarbonization</loc>
+  <lastmod>2026-09-01</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
