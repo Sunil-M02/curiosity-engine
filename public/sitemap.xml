@@ -1178,4 +1178,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/pulsar-timing-array-gravitational-wave-background</loc>
+  <lastmod>2026-09-04</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/femtophotography-camera-see-light-move-slow-motion</loc>
+  <lastmod>2026-09-04</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
