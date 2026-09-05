@@ -1190,4 +1190,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/roopkund-skeleton-lake-dna-mystery-explained</loc>
+  <lastmod>2026-09-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/golden-gate-claude-ai-feature-steering-explained</loc>
+  <lastmod>2026-09-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
