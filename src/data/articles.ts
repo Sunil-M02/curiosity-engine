@@ -16265,7 +16265,7 @@ content: `
   metaDescription: "Roopkund Lake's 'skeleton' mystery isn't one hailstorm. DNA study reveals two death events 1,000 years apart, with one group resembling modern Greeks.", // 150 chars, distinct from excerpt
   category: "history",
   author: authors[0], // TODO CONFIRM: live-file recent history entries default to authors[0] (Dr. Elena Vasquez), not authors[2] (Sarah Williams, History Editor) as prior sessions assumed — flagging this schema drift explicitly
-  coverImage: "/images/articles/roopkund-skeleton-lake-dna-mystery-explained.jpg", // TODO: create and upload, slug-based filename convention
+  coverImage: "/images/articles/roopkund-excavation.jpg", // TODO: create and upload, slug-based filename convention
   publishedAt: "2026-09-05", // TODO: set actual publish date before merging
   readTime: 7,
   featured: false, // TODO: confirm
@@ -16348,7 +16348,7 @@ content: `
   metaDescription: "Anthropic clamped a single internal feature and Claude 3 called itself the Golden Gate Bridge, a real look at how AI feature steering exposes safety risks.", // 155 chars, distinct from excerpt
   category: "artificial-intelligence",
   author: authors[1], // TODO CONFIRM: artificial-intelligence category is genuinely mixed authors[0]/authors[1] in the live file; authors[1] (Marcus Chen, Technology Correspondent) chosen for topic fit — please verify before publishing
-  coverImage: "/images/articles/golden-gate-claude-ai-feature-steering-explained.jpg", // TODO: create and upload, slug-based filename convention
+  coverImage: "/images/articles/golden-gate-neural-overlay.jpg", // TODO: create and upload, slug-based filename convention
   publishedAt: "2026-09-05", // TODO: set actual publish date before merging
   readTime: 7,
   featured: false, // TODO: confirm
