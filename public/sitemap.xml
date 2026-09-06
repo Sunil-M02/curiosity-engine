@@ -1202,4 +1202,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/why-walking-through-doorways-makes-you-forget</loc>
+  <lastmod>2026-09-06</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/how-microphones-steal-passwords-keystroke-sounds</loc>
+  <lastmod>2026-09-06</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
