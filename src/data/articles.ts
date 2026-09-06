@@ -16420,6 +16420,178 @@ content: `
 <p>Feature based analysis has informed bias and safety research at Anthropic, though direct feature clamping in the Golden Gate Claude style remains primarily a research technique rather than a standard production tool.</p>
 `,
 },
+
+  {
+  id: "why-walking-through-doorways-makes-you-forget", // slug-as-id per current live schema convention
+  slug: "why-walking-through-doorways-makes-you-forget",
+  title: "The Doorway Effect: Why Walking into Another Room Makes You Forget Why You're There",
+  metaTitle: "Doorway Effect: Why Walking In Makes You Forget Things", // 54 chars
+  excerpt: "Notre Dame psychologist Gabriel Radvansky proved that crossing a doorway wipes short-term memory more than distance or time ever could. Here's the event-boundary science behind it, and the one trick that actually stops it.",
+  metaDescription: "Notre Dame research proves the doorway effect is real: crossing a threshold disrupts recall more than time or distance. Here is why, and how to stop it.", // 152 chars, distinct from excerpt
+  category: "psychology-mind",
+  author: authors[0], // Dr. Elena Vasquez — matches current live-file convention for psychology-mind (confirmed consistent across last 6+ entries)
+  coverImage: "/images/articles/subtle-memory-overlay.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-09-06", // TODO: set actual publish date before merging
+  readTime: 7,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["doorway effect", "memory", "cognitive psychology", "working memory", "event cognition", "neuroscience"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">You walk into the kitchen with a clear purpose and stand there blank. This is the doorway effect, and it is not a sign of a bad memory. Psychologist Gabriel Radvansky at the University of Notre Dame found that crossing a doorway disrupts recall more than moving the same distance within one room.</p>
+
+<p>Most people assume they forgot because they got distracted or waited too long. Radvansky's research points somewhere else. The room change itself does the damage, independent of distraction or delay, because the brain treats a doorway as a boundary between two separate mental episodes.</p>
+
+<h2>What the Doorway Effect Actually Is</h2>
+<p>The doorway effect, also called the location updating effect, is a measurable drop in memory that happens specifically when someone crosses a threshold between rooms. Radvansky and colleagues Sabine Krawietz and Andrea Tamplin demonstrated this with a simple task involving virtual objects.</p>
+<p>Participants picked up a virtual object, carried it either across a room or through a doorway into a new one, then were tested on what they had just been holding a moment earlier.</p>
+<p>Crossing the doorway hurt recall far more than covering the same physical distance inside a single room. The object had not changed. Only the room changed, and that alone disrupted memory access.</p>
+
+<h2>The Notre Dame Experiments That Ruled Out the Obvious Explanations</h2>
+<p>A skeptic's first objection is reasonable: maybe a doorway just takes longer to cross, giving more time for a memory to fade. Radvansky's team tested this directly, controlling for distance and travel time across three experiments, two virtual and one in a real building.</p>
+<p>The pattern held every time. Only the doorway crossing predicted the memory decline, pointing toward something in how the brain organizes experience rather than ordinary forgetting over time.</p>
+<p>The most telling experiment sent participants through a second doorway back into the original room where they had first picked up an object. If the doorway effect were simply about mismatched surroundings, walking back into that original context should have restored the memory. It did not, which ruled out the simplest explanation.</p>
+
+<h2>Event Boundaries: How the Brain Files Experience Into Chapters</h2>
+<p>Radvansky's explanation rests on event cognition theory, the idea that people do not experience life as one continuous stream. The brain instead segments ongoing experience into discrete units called event models, roughly comparable to chapters in a book. Each model holds the people, objects, goals, and spatial layout relevant to whatever is happening right now.</p>
+<p>A doorway acts as a natural boundary marker between event models, similar to the mental reload that happens during <a href="https://www.curiosityfields.com/article/multitasking-neurologically-impossible-brain-task-switching">rapid task switching</a>. Crossing into a new room signals that the current chapter has ended, so the brain updates its working model of the situation and archives the previous one for later, less convenient retrieval.</p>
+<p>That archiving is efficient most of the time. It clears mental clutter you no longer need, the way closing a finished browser tab frees up space on a crowded screen. The cost only appears when the information you actually needed happened to be tied to the chapter that just closed.</p>
+
+<h2>Why Walking Back Doesn't Undo the Forgetting</h2>
+<p>The return-to-original-room experiment is the detail that competing explanations tend to skip, and it is the strongest evidence against a simple context-cue theory. Once an event boundary closes a mental chapter, walking back into the same physical space does not automatically reopen it. <span class="source-badge">Peer-Reviewed Source: Quarterly Journal of Experimental Psychology, 2011</span></p>
+<p>This tells researchers that the doorway effect is not primarily a retrieval-cue problem, where being surrounded by the original sights would jog memory back into place. It behaves more like a filing problem, where the information has already moved into a less accessible part of memory rather than merely losing its surrounding cues.</p>
+<p>That distinction has practical weight. A retrieval-cue problem could be fixed by recreating the original scene. A filing problem means the information needs a completely different kind of prompt to surface again, which is exactly what later research on practical fixes went on to test.</p>
+
+<h2>Cognitive Load Makes the Effect Worse</h2>
+<p>The doorway effect does not hit everyone equally hard in every situation. Working memory, the limited mental workspace holding whatever you are actively thinking about, has a small and fixed capacity. When that capacity is already stretched thin, an event boundary has more room to erase something before it gets properly stored.</p>
+<p>This is why the effect feels sharper during a hectic morning or a <a href="https://www.curiosityfields.com/article/deadline-stress-brain-survival-response">high pressure deadline</a>. Stress and multitasking both consume working memory resources, leaving less capacity to protect an intention against the disruption of a room change.</p>
+<p>A calm walk to another room rarely wipes a thought out the way a mid-argument dash across the house does, because there is more spare working memory capacity available to hold the intention steady through the transition.</p>
+<p>Older adults show a somewhat stronger version of the same effect in laboratory testing, consistent with general age-related declines in working memory capacity rather than any special vulnerability tied to doorways themselves as physical objects, according to Radvansky's later published follow-up work.</p>
+
+<h2>This Is Normal Cognition, Not a Warning Sign</h2>
+<p>An occasional doorway-induced blank is not evidence of a memory disorder. Event model updating is a standard feature of how healthy brains manage information, and Radvansky's original participants were college students with no cognitive impairment whatsoever.</p>
+<p>The same mechanism shows up in dementia research too, though there it interacts with broader impairments in a way that makes transitions between spaces especially disorienting for patients navigating unfamiliar or changing environments.</p>
+<p>People sometimes assume the forgetting must reflect something serious simply because it feels so total in the moment it happens. That assumption echoes a broader tendency toward <a href="https://www.curiosityfields.com/article/illusion-of-explanatory-depth-explained">overestimating self-understanding</a>, the sense that we grasp our own minds better than the evidence actually supports.</p>
+<p>Frequent, severe, or rapidly worsening memory problems still deserve a doctor's attention. One blank spot after crossing a threshold, on its own, almost never does, no matter how disorienting it feels in that instant.</p>
+
+<h2>How to Actually Interrupt the Effect</h2>
+<p>Because the mechanism is a boundary problem rather than a fading problem, the most effective fixes target the moment of transition itself rather than trying to concentrate harder once the blank spot has already set in.</p>
+<p>Saying your intention out loud right before walking through the doorway gives the brain a verbal anchor that survives the event model update better than a silent thought does.</p>
+<p>Physical reminders work for the same underlying reason. A sticky note, a phone alarm, or simply carrying the object that prompted the trip all bypass the need to retrieve the intention from memory in the first place, sidestepping the filing problem entirely rather than fighting it head on.</p>
+<p>None of these tricks require extra willpower or better concentration. They simply route around the exact point where the brain's filing system tends to drop the ball during a room change.</p>
+<p>This same logic explains why writing something down beats trying to out-focus a <a href="https://www.curiosityfields.com/article/why-you-cant-stop-scrolling-dopamine-loops-brain">distraction driven habit</a> through willpower alone. If a thought vanishes the moment you cross a threshold, the fix is removing the need to retrieve it, not trying to remember harder.</p>
+
+<h2>Conclusion</h2>
+<p>The doorway effect exists because the brain files experience into manageable chapters, and a doorway is one of its clearest signals that a new chapter has begun. That filing system helps far more than it hurts, clearing finished business so the next room gets full attention.</p>
+<p>The next time you blank out mid-stride, the honest explanation is not carelessness. It is a well-documented feature of how memory organizes itself around space, one your ancestors relied on long before doorways came with hinges.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is the doorway effect a real scientific phenomenon?</h3>
+<p>Yes. Gabriel Radvansky's team at the University of Notre Dame documented it across multiple virtual and real-world experiments published in the Quarterly Journal of Experimental Psychology.</p>
+
+<h3>Why does walking through a doorway cause forgetting?</h3>
+<p>Doorways act as event boundaries that prompt the brain to close one mental model of a situation and open a new one, archiving information tied to the room just left.</p>
+
+<h3>Does going back to the original room bring the memory back?</h3>
+<p>Usually not. Notre Dame experiments found that returning to the room where a thought first occurred did not restore recall, showing the effect is not just about mismatched surroundings.</p>
+
+<h3>Does the doorway effect mean something is wrong with my memory?</h3>
+<p>No. It is a normal byproduct of how healthy brains organize experience into segments, and it shows up even in young, cognitively unimpaired adults.</p>
+
+<h3>Does stress make the doorway effect worse?</h3>
+<p>Yes. Stress and multitasking both use up working memory capacity, leaving less room to protect a thought against the disruption caused by an event boundary.</p>
+
+<h3>What is the best way to stop forgetting things after changing rooms?</h3>
+<p>Say your intention out loud before crossing the threshold, or use a physical cue like a note or alarm, since both bypass the need to retrieve the thought from memory.</p>
+`,
+},
+
+  {
+  id: "how-microphones-steal-passwords-keystroke-sounds", // slug-as-id per current live schema convention
+  slug: "how-microphones-steal-passwords-keystroke-sounds",
+  title: "Listening to Keystrokes: How Microphones Can Steal Passwords by Sound Alone",
+  metaTitle: "Can Hackers Steal Your Password From Keystroke Sounds?", // 54 chars
+  excerpt: "A 2023 deep learning model identified laptop keystrokes from sound alone with 95 percent accuracy, and 93 percent through a live Zoom call. No malware required, just a nearby microphone.",
+  metaDescription: "A 2023 study proves microphones decode passwords from typing sounds with 95 percent accuracy, even on Zoom calls. Here is how the acoustic attack works.", // 152 chars, distinct from excerpt
+  category: "technology",
+  author: authors[0], // TODO CONFIRM: technology category is genuinely mixed authors[0]/authors[1] in the live file; authors[0] (Dr. Elena Vasquez) chosen to match the two most recent technology entries — please verify before publishing
+  coverImage: "/images/articles/macro-typing-spectrogram.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-09-06", // TODO: set actual publish date before merging
+  readTime: 7,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["acoustic side channel", "cybersecurity", "deep learning", "password security", "keystroke inference", "privacy"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">A microphone sitting near your laptop can guess what you just typed with startling accuracy, no keylogger required. Researchers trained a deep learning model that identified individual keystrokes from sound alone with 95 percent accuracy, and 93 percent even when the audio came through a live Zoom call.</p>
+
+<p>No malware touched the victim's laptop in either case. The attack worked entirely from outside the machine, using a sound every key press already makes, captured by a device the victim never suspected was listening for anything unusual.</p>
+
+<h2>Why Every Key Sounds Slightly Different</h2>
+<p>Keyboards are not acoustically uniform. Each key sits at a distinct position on the internal plate, and the plate resonates differently depending on distance from the microphone, the mechanical hinge under that key, and how close the strike lands to the plate's edges.</p>
+<p>Those differences show up as tiny variations in frequency, timing, and volume between one key and the next. Human ears cannot reliably separate them, but a model trained to compare thousands of spectrograms can, turning generic clacking into a distinguishable acoustic fingerprint per key.</p>
+
+<h2>The 2023 Study That Pushed Accuracy Past 90 Percent</h2>
+<p>Joshua Harrison, Ehsan Toreini, and Maryam Mehrnezhad published the attack in a 2023 paper for the IEEE European Symposium on Security and Privacy Workshops, working across Durham University, the University of Surrey, and Royal Holloway.</p>
+<p>They pressed each of 36 keys on a MacBook Pro 25 times using different fingers and pressure levels, then fed the recordings into a CoAtNet image classification model originally built for photographs rather than sound.</p>
+<p>The team converted each keystroke's audio into a spectrogram, a visual map of frequency against time, and let the model treat keystroke identification as an ordinary image recognition problem instead of a purely acoustic one.</p>
+<p>That reframing worked well. Nearby phone recordings produced 95 percent accuracy per keystroke. Recordings pulled from a live video call still reached 93 percent, despite Zoom's built in noise suppression actively working against the attack the entire time.</p>
+
+<h2>This Threat Is Two Decades Old, Not New</h2>
+<p>Deep learning made the attack dramatically more practical, but acoustic keystroke leakage was documented long before smartphones carried decent microphones. In 2005, UC Berkeley researchers Li Zhuang, Feng Zhou, and J.D. Tygar recovered up to 96 percent of typed characters from a 10 minute recording, without needing any labeled training sample at all.</p>
+<p>Their method leaned on English language statistics instead of raw sound matching alone. Because certain letter pairs occur far more often than others, a hidden Markov model could correct acoustic guesses using grammar and spelling patterns, the same trick autocomplete uses to guess your next word.</p>
+<p>That older technique cracked 90 percent of five character passwords in fewer than 20 guessed attempts, which shows the vulnerability was never limited to whichever machine learning architecture happened to be fashionable in a given decade.</p>
+
+<h2>What the Attack Actually Needs to Work</h2>
+<p>A working acoustic attack needs three things: a nearby microphone, enough training audio tied to the target's specific keyboard model, and typing that lasts long enough to build a reliable pattern.</p>
+<p>The training data does not need to be secretly gathered from the victim directly. Publicly available recordings of the same keyboard model, sourced the same way a researcher might use <a href="https://www.curiosityfields.com/article/browser-fingerprinting-tracking-cookies-incognito">device fingerprinting techniques</a> to profile hardware, work as fair substitutes according to the Harrison team's published results.</p>
+<p>This is exactly why coffee shops, shared offices, and recorded video calls raise more realistic exposure than most people assume, since the attacker rarely needs physical access to the victim's device at all, only proximity to a working microphone at the right moment.</p>
+<p>A phone left face down on a nearby table during a meeting, a laptop microphone active during a group call, or a smart speaker sitting on a desk all qualify as sufficient hardware, which is a far lower bar than most security advice assumes when discussing this category of threat.</p>
+
+<h2>Why Video Calls Make This Worse, Not Better</h2>
+<p>It seems reasonable to assume Zoom's noise suppression would erase the faint clicking sounds a keyboard makes while someone is on a call. The 2023 results say otherwise. <span class="source-badge">Preferred Source: Harrison, Toreini, Mehrnezhad, IEEE EuroS&amp;PW, 2023</span></p>
+<p>Zoom's filters are tuned to remove background noise that sounds random, not necessarily patterns that repeat with clear, key-specific timing signatures baked into every strike.</p>
+<p>Because keystrokes have a sharp, structured acoustic shape rather than a random hiss, enough of that structure survives compression and filtering for a trained classifier to still separate individual keys from the surrounding call audio.</p>
+<p>This overlaps with a wider pattern of <a href="https://www.curiosityfields.com/article/smartphone-data-collection-app-privacy">everyday data collection</a> most people never fully audit, where a device already listening for one purpose quietly becomes useful for something else entirely.</p>
+
+<h2>This Is Not the First Time Acoustic Emanations Mattered</h2>
+<p>This pattern is far from unique to keyboards, and it has a long paper trail once you look for it in the security literature.</p>
+<p>Sound based side channel attacks predate keyboards entirely. Declassified United States government documents describe acoustic emanations as a security concern as early as 1982, under a program known by the codename TEMPEST, long before deep learning existed as a practical tool for anything.</p>
+<p>TEMPEST studied unintentional electromagnetic and acoustic signals leaking from ordinary office equipment, decades before anyone imagined a smartphone microphone would become the tool of choice for the same basic idea.</p>
+<p>Cryptographers have also shown that even the physical clatter of an Enigma rotor machine during World War Two carried faint acoustic clues about which rotor settings were in use, an early hint that mechanical sound and secret information were never as separate as most people casually assumed.</p>
+<p>Security researchers have separately demonstrated related attacks against mechanical printers, smartphone touchscreens, and even the physical clicks of rotor based cipher machines used before computers existed, an echo of the same underlying concern now driving voice based scam calls built on <a href="https://www.curiosityfields.com/article/ai-voice-cloning-scam-calls-explained">cloned voice audio</a>.</p>
+
+<h2>Practical Ways to Reduce the Risk</h2>
+<p>Mechanical keyboard enthusiasts are, unfortunately, at meaningfully higher acoustic risk than typists using shallow membrane laptop keyboards, since louder, more distinct clicks are exactly what these classifiers are trained to separate cleanly from background noise.</p>
+<p>Playing background music or white noise near a laptop microphone measurably degrades classifier accuracy in published testing, and typing with irregular rhythm or varied finger pressure introduces noise these models struggle to average out cleanly over a short recording session.</p>
+<p>None of these countermeasures require replacing hardware or learning new habits overnight. A phone left across the room during a sensitive call, or a fan running quietly nearby, already shifts the odds meaningfully against a would-be listener trying to isolate one clean recording from ambient clutter.</p>
+<p>Enterprises handling especially sensitive typed data have also started treating shared meeting rooms and open plan offices as acoustic risk zones worth auditing, alongside the more familiar checklist of screen privacy filters and locked device policies already in place across most large organizations today, well before anyone specifically mentions passwords out loud in the room.</p>
+<p>For sensitive information specifically, switching briefly to an on-screen virtual keyboard, a physical hardware security token, or even a modern <a href="https://www.curiosityfields.com/article/end-of-passwords-guide-passkeys-biometric-security">passkey based login</a> removes the acoustic signal from the equation entirely, since nothing gets physically struck for a microphone anywhere nearby to capture in the first place.</p>
+
+<h2>Conclusion</h2>
+<p>A keyboard's sound was never designed to be private, and for two decades researchers have quietly proven that fact using tools ranging from statistical language models to modern image classifiers borrowed from computer vision.</p>
+<p>The newest results simply confirm that deep learning made an old side channel faster and more reliable, not that a fundamentally new vulnerability appeared overnight. Treating a keyboard's sound like a screen someone could glance at over your shoulder is now a reasonable precaution.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can microphones really steal passwords from typing sounds?</h3>
+<p>Yes. A 2023 study achieved 95 percent per-keystroke accuracy from phone recordings and 93 percent from Zoom call audio using a deep learning image classifier trained on keystroke spectrograms.</p>
+
+<h3>Does this attack require installing malware on my computer?</h3>
+<p>No. The microphone can belong to a nearby phone, laptop, or the device running a video call, meaning no software needs to run on the target machine at all.</p>
+
+<h3>Are mechanical keyboards more vulnerable than laptop keyboards?</h3>
+<p>Generally yes. Louder, more mechanically distinct keys produce clearer acoustic signatures, which makes classification easier compared with quieter, shallow-travel membrane keyboards.</p>
+
+<h3>Can background noise actually stop this kind of attack?</h3>
+<p>It helps. Music or white noise near the microphone measurably reduces classifier accuracy in published research, though it does not guarantee complete protection.</p>
+
+<h3>Is this a brand new security threat in 2026?</h3>
+<p>No. Acoustic keystroke leakage was documented as far back as 2004, and government interest in acoustic emanations dates to declassified TEMPEST research from the 1980s.</p>
+
+<h3>What is the simplest way to protect sensitive typing?</h3>
+<p>Use a passkey, hardware token, or on-screen keyboard for sensitive logins, since none of these produce the physical key strikes a microphone needs to analyze.</p>
+`,
+},
   
 ];
 
