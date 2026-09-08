@@ -1226,4 +1226,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/gpt-6-astra-agi-claim-explained</loc>
+  <lastmod>2026-09-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/saturn-great-white-spot-storm-cycle-explained</loc>
+  <lastmod>2026-09-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
