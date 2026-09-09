@@ -1238,4 +1238,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/bgp-hijacking-route-leak-financial-traffic-explained</loc>
+  <lastmod>2026-09-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/dholavira-flash-flood-reservoirs-ancient-water-engineering</loc>
+  <lastmod>2026-09-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
