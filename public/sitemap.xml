@@ -1250,4 +1250,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/choice-overload-effect-psychology-explained</loc>
+  <lastmod>2026-09-10</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/electrocaloric-cooling-air-conditioner-no-refrigerant</loc>
+  <lastmod>2026-09-10</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
