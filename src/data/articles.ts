@@ -17252,6 +17252,177 @@ content: `
 
 `,
 },
+
+// ============================================================
+// NEW ARTICLES - 2 production-ready entries for articles.ts
+// Generated per Curiosity Fields pipeline. Insert into the
+// `articles` array. Schema, author, and link-format conventions
+// confirmed against the live file as of this session.
+// ============================================================
+
+{
+  id: "quantum-superposition-particles-exist-at-once", // slug-as-id per current live schema convention
+  slug: "quantum-superposition-particles-exist-at-once",
+  title: "Quantum Mechanics Allows Particles to Exist in Multiple States at Once",
+  metaTitle: "Quantum Superposition: How Particles Exist at Once", // 50 chars
+  excerpt: "A record-breaking 2026 experiment pushed quantum superposition into sodium clusters heavier than many proteins, showing how close physicists are to finding where quantum weirdness ends.", // distinct from metaDescription
+  metaDescription: "Quantum superposition lets particles exist in multiple states at once. See the 2026 record experiment and why encryption, GPS, computing depend on it.", // 150 chars, distinct from excerpt
+  category: "science", // confirmed valid Category value against live schema
+  author: authors[0], // Dr. Elena Vasquez, matches confirmed live convention: recent "science" entries use authors[0]
+  coverImage: "/images/articles/quantum-double-slit-experiment.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-09-11", // TODO: set actual publish date before merging
+  readTime: 7,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Quantum Superposition", "Quantum Physics", "Quantum Computing", "Particle Physics", "Science"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+  <p class="lead">A single particle can genuinely exist in more than one state at the same time, a property physicists call superposition. An electron can behave as if it passes through two slits simultaneously, and an atom can occupy two energy levels at once, right up until the moment something measures it and forces a single outcome.</p>
+  
+  <h2>What "Multiple States at Once" Actually Means</h2>
+  <p>Superposition does not mean a particle is secretly in one place while pretending to be in two. Quantum mechanics describes every particle with a wavefunction, a mathematical object that assigns a probability amplitude to each possible outcome.</p>
+  <p>Before measurement, all of those amplitudes are simultaneously real. They combine to produce interference effects that no single, definite classical state could ever explain, which is how physicists know superposition is more than a gap in what we happen to know.</p>
+  <p>A useful comparison is a coin spinning in the air. It is not secretly heads or secretly tails while spinning, its physical state genuinely includes both possibilities until it lands. A quantum particle behaves the same way, except the spinning never stops on its own.</p>
+  
+  <h2>The Double-Slit Experiment That Proved It</h2>
+  <p>Fire single electrons at a barrier with two narrow slits, one electron at a time, and the pattern that builds up on the detector behind it still shows interference, the signature of a wave crossing both slits at once.</p>
+  <p>Block one slit and the interference pattern disappears immediately, replaced by a simple clump that matches ordinary classical expectations for particles traveling one path at a time. That single change reveals how fragile superposition really is.</p>
+  <p>The result rules out the idea that each electron secretly picks one slit in advance. Its wavefunction genuinely spreads across both paths, interferes with itself, and only resolves into a single dot once a detector forces a measurement. Physicists have repeated this with photons, atoms, and large molecules with identical results.</p>
+  
+  <h2>Why a Chair Never Shows Up in Two Places at Once</h2>
+  <p>If electrons can be in two places simultaneously, a natural question follows: why can't a chair, a cat, or a coin do the same thing in front of you? The answer is a process called decoherence, not a size limit written into the laws of physics themselves.</p>
+  <p>Any object made of trillions of particles constantly collides with air molecules, stray photons, and background vibrations. Each collision leaks a tiny bit of information about the object's position out into its surroundings, whether anyone is deliberately watching or not.</p>
+  <p>Once enough information has leaked out, the different possible states stop interfering with each other. The object then behaves as though it had already settled on one outcome, even though nothing about the underlying physics has actually switched off.</p>
+  <p>Decoherence happens almost instantly for anything larger than a molecule. That speed is exactly why superposition stays invisible in daily life, even for objects sitting perfectly still in a quiet room, surrounded by air molecules no one ever notices moving.</p>
+  
+  <h2>Physicists Just Broke the Size Record for Superposition</h2>
+  <p>In February 2026, a team led by Sebastian Pedalino at the University of Vienna, working alongside researchers at the University of Duisburg-Essen, pushed the size limit of observed superposition further than any previous experiment had managed.</p>
+  <p>They generated clusters of roughly 7,000 sodium atoms, each cluster about 8 nanometers wide, and sent them through a laser interferometer built from three separate gratings. The clusters interfered with themselves across separations of 133 nanometers, a spread more than fifteen times their own width.</p>
+  <p><span class="source-badge">Primary Source: Pedalino, S. et al., "Matter-wave interference of a native superposition of molecular fragments," Nature 649, 866-870, 2026</span> At more than 170,000 atomic mass units, the clusters were already heavier than many proteins, with quantum behavior persisting up to roughly 200,000 atomic mass units, a mass comparable to a small virus.</p>
+  <p>Reaching that scale required cooling the beam to 77 kelvin inside an ultra-high vacuum chamber before it ever reached the gratings. That level of isolation is what let the clusters survive long enough to interfere, since even a single stray collision along the way would have destroyed the pattern entirely.</p>
+  
+  <h2>From Strange Physics to Real Technology</h2>
+  <p>Superposition is not just a laboratory curiosity confined to physics papers. Every <a href="https://www.curiosityfields.com/article/the-quantum-revolution-reshaping-computing">quantum computer</a> built so far relies on qubits held in superposition, since a processor that represents every possible input simultaneously can explore many calculation paths before a final measurement collapses it to one answer.</p>
+  <p>A classical bit can only ever be a 0 or a 1 at any given moment, one value at a time, full stop, with nothing in between those two options under any circumstances. A qubit held in superposition instead behaves like a weighted mixture of both values simultaneously.</p>
+  <p>That mixture is what gives certain quantum algorithms their dramatic speed advantage over classical hardware, because a well-designed algorithm can make the many overlapping possibilities interfere with each other in a way that boosts the correct answer and cancels out the wrong ones before a final measurement is even taken.</p>
+  <p>Engineers still have to fight decoherence to keep that advantage, since a qubit that loses its superposition mid-calculation produces a useless answer. Current quantum processors run colder than deep space to slow that process down long enough to finish.</p>
+  <p>That same fragile advantage already worries cryptographers and security agencies. A sufficiently large superposition-based processor could someday factor huge numbers fast enough to threaten today's most common <a href="https://www.curiosityfields.com/article/quantum-computers-crack-every-password-earth-timeline">encryption standards</a>, which is why governments are already funding replacement algorithms years ahead of that becoming practical.</p>
+  <p>Anyone who stores data meant to stay private for decades faces the same clock. Intelligence agencies openly discuss "harvest now, decrypt later" strategies, capturing encrypted traffic today purely to unlock it once a large enough superposition-based processor eventually exists somewhere down the line.</p>
+  <p>Standards bodies are not waiting around for that day to arrive. The US National Institute of Standards and Technology finalized its first post-quantum encryption standards in 2024, built on math that stays hard even for a computer running on superposition rather than ordinary bits.</p>
+  <p>Superposition also powers precision sensors well beyond code-breaking headlines, detecting gravitational and magnetic changes far too small for any classical instrument to register at all.</p>
+  <p>Superposition also underlies some of today's most precise timekeeping instruments, far beyond computing altogether. Inside an <a href="https://www.curiosityfields.com/article/gps-relativity-einstein-atomic-clock-explained">atomic clock</a>, atoms held in a superposition of two energy states provide the steady oscillation that global satellite navigation quietly depends on every single day, everywhere on the planet.</p>
+  
+  <h2>The Debate Physicists Still Haven't Settled</h2>
+  <p>Physicists agree completely on the mathematics of superposition, yet they still disagree sharply on what it actually means about reality. In a 2025 Nature survey of researchers, only 4 percent favored collapse theories.</p>
+  <p>Collapse theories propose that superposition physically breaks down past some size threshold, rather than merely becoming undetectable through decoherence as described earlier. Most respondents instead favored either the Copenhagen interpretation, where measurement genuinely produces one random outcome, or the many-worlds interpretation, where every outcome occurs in its own separate branch of reality.</p>
+  <p>Choosing between these interpretations has no effect on any calculation a physicist actually performs, which is part of why the debate has run for a century without resolving. Every version of the mathematics predicts identical, testable outcomes for any experiment run so far, including the 2026 sodium cluster result described above.</p>
+  <p>No experiment has yet distinguished cleanly between these competing views of what superposition ultimately means. That open question is part of why pushing superposition toward ever larger objects matters so much, in the same way that confirming <a href="https://www.curiosityfields.com/article/why-astronauts-age-slower-time-dilation-explained">relativistic time dilation</a> at extreme scales once settled a separate century-old argument about how nature actually behaves.</p>
+  
+  <h2>Conclusion</h2>
+  <p>Superposition is not a metaphor or a rounding error in quantum theory. It is a measured, repeatable feature of how particles genuinely behave before observation forces a single outcome, confirmed again by the 2026 sodium cluster experiment at a scale once assumed firmly classical.</p>
+  <p>Where the size limit for superposition actually sits, if one exists at all, remains one of the most consequential open questions in physics, with direct implications for quantum computing, precision sensing, and where the quantum world quietly gives way to the classical one.</p>
+  
+  <h2>Frequently Asked Questions</h2>
+  
+  <h3>What is quantum superposition in simple terms?</h3>
+  <p>It is the ability of a quantum particle, like an electron or atom, to exist in a combination of two or more possible states simultaneously until a measurement forces it into one definite state.</p>
+  
+  <h3>Is a particle really in two places at once, or does it just look that way?</h3>
+  <p>Current evidence says it genuinely is, since interference patterns only appear when both possibilities are physically real and interacting, not when a particle secretly picks one path in advance.</p>
+  
+  <h3>Why can't ordinary objects like a coffee cup be in superposition?</h3>
+  <p>They technically are, but decoherence from constant collisions with air and light destroys the effect almost instantly for anything made of trillions of particles, making it unobservable at everyday scales.</p>
+  
+  <h3>What is the biggest object ever placed into a superposition?</h3>
+  <p>As of 2026, sodium clusters of roughly 7,000 atoms, around 170,000 atomic mass units, hold the record for a spatial superposition observed through matter-wave interference.</p>
+  
+  <h3>Does quantum superposition have real-world applications?</h3>
+  <p>Yes. Quantum computers, atomic clocks, and quantum sensors all rely on superposition, and improving control over it directly drives progress in each of those technologies.</p>
+  
+  <h3>What happens when a superposition is measured?</h3>
+  <p>The wavefunction collapses, meaning the particle is found in exactly one of its possible states, with the probability of each outcome set by the amplitudes present before measurement.</p>
+
+`,
+},
+
+{
+  id: "iss-deorbit-timeline-nasa-retirement-plan", // slug-as-id per current live schema convention
+  slug: "iss-deorbit-timeline-nasa-retirement-plan",
+  title: "The International Space Station Is Approaching the End of Its Historic Mission",
+  metaTitle: "ISS Deorbit Timeline: NASA's 2028-2031 Retirement Plan", // 54 chars
+  excerpt: "A June 2026 GAO report reveals NASA's precise phased plan to retire the ISS, from atmospheric lowering in 2028 to a final burn near Point Nemo, and the commercial station gap nobody has resolved.", // distinct from metaDescription
+  metaDescription: "NASA's ISS deorbit plan runs from 2028 to a final burn near Point Nemo in 2030-2031. See the GAO's exact timeline and the commercial station gap risk.", // 150 chars, distinct from excerpt
+  category: "astronomy", // confirmed valid Category value against live schema
+  author: authors[0], // Dr. Elena Vasquez, matches confirmed live convention: recent "astronomy" entries use authors[0]
+  coverImage: "/images/articles/iss-final-descent.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-09-11", // TODO: set actual publish date before merging
+  readTime: 6,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["International Space Station", "ISS Deorbit", "NASA", "Space Stations", "Astronomy"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+  <p class="lead">NASA plans to deorbit the International Space Station in a controlled sequence stretching from early 2028 to late 2030 or early 2031, ending 25 years of continuous human presence in low Earth orbit unless a commercial station is ready to carry that streak forward without a gap.</p>
+  
+  <h2>The Exact Timeline NASA Has Now Committed To</h2>
+  <p>A June 2026 Government Accountability Office report lays out the plan in more precise phases than NASA had previously confirmed publicly. In early to mid-2028, the ISS will begin descending through a combination of natural atmospheric drag and deliberate re-entry maneuvers carried out by the station's Russian segment.</p>
+  <p>In mid-2029, NASA plans to launch the US Deorbit Vehicle and attach it to the station, a heavily modified SpaceX Dragon carrying dozens of extra Draco engines. Then, at the end of 2030 or in early 2031, that vehicle will fire a final sustained burn.</p>
+  <p>That burn will push the roughly 430-tonne station through the atmosphere toward a remote stretch of the South Pacific Ocean, ending its flight in the same general region where past large spacecraft reentries have been deliberately aimed.</p>
+  <p>NASA still holds one formal decision point before any of that becomes irreversible. In 2027, the agency will assess whether to proceed with the deorbit or extend ISS operations further, a choice the GAO report frames as genuinely open rather than a formality.</p>
+  
+  <h2>Why the Station Is Retiring At All</h2>
+  <p>The ISS is not being abandoned because it is broken. NASA's most recent structural health analyses give the agency high confidence the station can safely operate through 2028, with another full assessment planned for later in 2026 covering the years beyond that date.</p>
+  <p>NASA officials have said the ISS could plausibly keep flying into the late 2030s or even 2040 if that became necessary. The real pressure comes from age itself: the station has now operated for well over the 15 years it was originally designed and tested for, making parts and repairs progressively harder to source.</p>
+  <p><span class="source-badge">Primary Source: US Government Accountability Office, "Low-Earth Orbit: NASA Faces Impending Decisions for Replacing International Space Station with Commercial Stations," GAO-26-107805, June 17, 2026</span> A 2024 NASA Inspector General report separately warned that suppliers are already scaling back production of components the ISS still depends on.</p>
+  
+  <h2>The Cracks Nobody Can Fully Explain Yet</h2>
+  <p>Concern has grown around the Russian-built Zvezda service module, where engineers have tracked persistent, slow-growing cracks and repeated small air leaks for several years running. Roscosmos and NASA both monitor the affected area closely, and neither agency has stopped station operations because of it.</p>
+  <p>The leaks remain small enough that station air handling comfortably compensates, and no analysis to date has concluded the structure poses an immediate safety risk. Even so, the cracking is one more sign of a spacecraft aging well past the operational lifetime its original 1998 to 2011 construction schedule ever assumed.</p>
+  
+  <h2>What Happens to the Astronauts Living There Right Now</h2>
+  <p>Crew rotations continue on a normal schedule through the transition years, with NASA astronauts flying up on <a href="https://www.curiosityfields.com/article/astronaut-tools-spacewalk-engineering">spacewalk-ready Dragon capsules</a> and returning roughly every six months as they have for years now.</p>
+  <p>Nothing about daily station life changes in the near term. Crews still run science experiments, conduct spacewalks, and maintain hardware exactly as before, right up until the final crew departs shortly before deorbit maneuvers formally begin in 2028.</p>
+  <p>Maintaining that pace requires four to five cargo missions every year just to keep the station stocked and fueled, a cadence NASA and its partners will need to sustain right through the final descent phase rather than easing off early.</p>
+  <p>Researchers are meanwhile racing to finish long-duration studies before the station closes, including work on how bodies cope with <a href="https://www.curiosityfields.com/article/what-happens-to-human-body-after-one-year-in-space">extended stays in microgravity</a>, since data like that becomes far harder to collect once no permanently crewed orbital laboratory exists to gather it.</p>
+  
+  <h2>Why NASA Isn't Simply Letting It Fall</h2>
+  <p>At 430 tonnes, the ISS is roughly three times the mass of Russia's Mir station, which itself required a controlled 2001 deorbit specifically because an uncontrolled reentry risked scattering debris across populated areas below its unpredictable path.</p>
+  <p>China's smaller Tiangong-1 station offered a preview of what NASA is trying to avoid entirely. That roughly 8,500 kilogram station reentered uncontrolled in 2018 after ground controllers lost the ability to command it, though it ultimately broke up safely over the Pacific.</p>
+  <p>A structure this large cannot be trusted to atmospheric drag alone, the same physics that keeps working satellites aloft until <a href="https://www.curiosityfields.com/article/why-satellites-dont-fall-earth">orbital decay</a> eventually pulls them back down toward Earth. NASA's plan instead targets the remote waters near Point Nemo, the point in the ocean farthest from any inhabited land on the planet.</p>
+  <p>Most of the station is expected to burn up during reentry, but denser structural components, including parts of the truss and pressurized modules, are expected to survive long enough to reach the ocean surface intact.</p>
+  <p>Environmental researchers have already raised questions about the long-term impact of repeatedly dumping large spacecraft into the same patch of remote ocean, a debate that will likely intensify as more retired stations follow the same disposal route in future decades.</p>
+  
+  <h2>The Risk Nobody Has Fully Solved: What Replaces It</h2>
+  <p>NASA's stated goal is a seamless handoff to one or more commercially owned stations, funded through its Commercial LEO Development Program and built by companies including Axiom Space, Vast, Voyager Space, and Blue Origin's Orbital Reef partnership.</p>
+  <p>The GAO report is blunt about the risk: NASA has identified factors that could create a gap in continuous human presence in low Earth orbit, but as of June 2026 the agency still has not formally assessed how likely that gap is or how long it might last.</p>
+  <p>NASA's own commercial station target calls for a crewed demonstration of at least four astronauts for 30 days by no later than 2030, the same year the ISS is currently scheduled to close. If a demonstration slips even briefly, the overlap NASA is counting on could vanish entirely.</p>
+  <p>A gap would not just be symbolic. Since the first crew arrived aboard the ISS in November 2000, there has never been a day without at least one human living off the surface of the Earth.</p>
+  <p>Other nations are building their own paths to orbit regardless of what happens to the ISS, including <a href="https://www.curiosityfields.com/article/gaganyaan-g1-uncrewed-test-flight-isro">India's crewed program</a>, which could eventually help extend that unbroken streak even if America's own commercial stations slip past their target dates.</p>
+  
+  <h2>Conclusion</h2>
+  <p>The International Space Station's ending is not a single dramatic event but a carefully staged retirement, beginning with atmospheric lowering in 2028 and closing with a final controlled burn near the end of 2030 or in early 2031.</p>
+  <p>What happens in between matters more than the burn itself. Whether America keeps a continuous human foothold in low Earth orbit depends on commercial stations reaching readiness on a schedule NASA's own watchdog says it has not yet confirmed is realistic.</p>
+  
+  <h2>Frequently Asked Questions</h2>
+  
+  <h3>When exactly will the ISS be deorbited?</h3>
+  <p>NASA's current plan has the station beginning to descend in early to mid-2028, with a final controlled reentry burn near Point Nemo in the South Pacific at the end of 2030 or in early 2031.</p>
+  
+  <h3>Is the ISS being retired because it is unsafe?</h3>
+  <p>No. NASA has high confidence the station can safely operate through 2028 and possibly much longer, but its age makes maintenance progressively harder and more expensive to sustain.</p>
+  
+  <h3>What is the US Deorbit Vehicle?</h3>
+  <p>It is a heavily modified SpaceX Dragon spacecraft carrying dozens of additional engines, built specifically to dock with the ISS and steer its final descent into the ocean.</p>
+  
+  <h3>Will humans lose continuous presence in space after the ISS closes?</h3>
+  <p>Only if commercial replacement stations are not ready in time, a gap NASA's oversight watchdog has flagged as a real risk it has not yet formally assessed.</p>
+  
+  <h3>What will happen to the debris from the ISS reentry?</h3>
+  <p>Most of the station will burn up in the atmosphere, but denser surviving fragments are expected to fall into a remote, uninhabited stretch of the South Pacific Ocean near Point Nemo.</p>
+  
+  <h3>Could NASA decide to keep flying the ISS past 2030 instead?</h3>
+  <p>Yes. NASA has a formal decision point in 2027 to either proceed with deorbit or extend station operations, and officials have said an extension into the late 2030s remains technically possible.</p>
+
+`,
+},
   
 ];
 
