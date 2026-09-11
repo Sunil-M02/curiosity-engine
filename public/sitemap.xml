@@ -1262,4 +1262,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/quantum-superposition-particles-exist-at-once</loc>
+  <lastmod>2026-09-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/iss-deorbit-timeline-nasa-retirement-plan</loc>
+  <lastmod>2026-09-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
