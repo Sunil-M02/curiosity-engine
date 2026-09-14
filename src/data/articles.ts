@@ -17598,7 +17598,7 @@ content: `
   category: "technology", // confirmed valid Category value against live schema
   author: authors[1], // Marcus Chen, Technology Correspondent — matches confirmed live convention: recent "technology" entries dominantly use authors[1]. TODO CONFIRM before publishing (live file shows some drift toward authors[0]).
   coverImage: "/images/articles/fingertip-silicon-chip.jpg", // TODO: create and upload, slug-based filename convention
-  publishedAt: "2026-09-12", // TODO: set actual publish date before merging
+  publishedAt: "2026-09-14", // TODO: set actual publish date before merging
   readTime: 7,
   featured: false, // TODO: confirm
   editorsPick: false, // TODO: confirm
@@ -17679,7 +17679,7 @@ content: `
   category: "future-innovation", // confirmed valid Category value against live schema
   author: authors[0], // Dr. Elena Vasquez — matches dominant live convention for "future-innovation" category (majority of recent entries use authors[0] despite James Okonkwo/authors[3] being the nominal Innovation Editor). TODO CONFIRM before publishing per house rule on author drift.
   coverImage: "/images/articles/sodium-ion-battery-cost-parity-lithium-2026.jpg", // TODO: create and upload, slug-based filename convention
-  publishedAt: "2026-09-12", // TODO: set actual publish date before merging
+  publishedAt: "2026-09-14", // TODO: set actual publish date before merging
   readTime: 7,
   featured: false, // TODO: confirm
   editorsPick: false, // TODO: confirm
