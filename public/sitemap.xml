@@ -1286,4 +1286,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/how-modern-chips-pack-billions-of-transistors</loc>
+  <lastmod>2026-09-14</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/sodium-ion-battery-cost-parity-lithium-2026</loc>
+  <lastmod>2026-09-14</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
