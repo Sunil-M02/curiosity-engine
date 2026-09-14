@@ -17597,7 +17597,7 @@ content: `
   metaDescription: "Modern 2nm chips pack over 300 billion transistors with GAAFET nanosheets and EUV lithography. Here is the real manufacturing physics behind the number.", // 152 chars, distinct from excerpt
   category: "technology", // confirmed valid Category value against live schema
   author: authors[1], // Marcus Chen, Technology Correspondent — matches confirmed live convention: recent "technology" entries dominantly use authors[1]. TODO CONFIRM before publishing (live file shows some drift toward authors[0]).
-  coverImage: "/images/articles/how-modern-chips-pack-billions-of-transistors.jpg", // TODO: create and upload, slug-based filename convention
+  coverImage: "/images/articles/fingertip-silicon-chip.jpg", // TODO: create and upload, slug-based filename convention
   publishedAt: "2026-09-12", // TODO: set actual publish date before merging
   readTime: 7,
   featured: false, // TODO: confirm
