@@ -1310,4 +1310,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/quantum-measurement-problem-observer-effect-explained</loc>
+  <lastmod>2026-09-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/darwin-evolution-theory-without-genetics-mendel</loc>
+  <lastmod>2026-09-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
