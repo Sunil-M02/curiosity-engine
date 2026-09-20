@@ -18417,6 +18417,135 @@ content: `
 `,
 },
 
+{
+  id: "blindsight-explained-cortically-blind-vision-science",
+  slug: "blindsight-explained-cortically-blind-vision-science",
+  title: "Cortically Blind Patients Can Still Catch a Ball They Insist They Cannot See, And It Is Rewriting How Vision Works",
+  metaTitle: "Blindsight Explained: Seeing Without Knowing You See", // 52 chars
+  excerpt: "A man who is completely cortically blind can still hit a ball thrown at him, on the first try, while swearing under testing that he saw nothing at all. This is blindsight, and it splits vision into two separate brain systems.", // 231 chars, distinct from metaDescription
+  metaDescription: "Cortically blind patients can catch a thrown ball they never consciously see. Here is the brain pathway behind blindsight and what it means for vision.", // 151 chars, distinct from excerpt
+  category: "psychology-mind",
+  author: authors[0], // TODO CONFIRM correct author for psychology-mind / neuroscience content before publishing
+  coverImage: "/images/articles/blindsight-explained-cortically-blind-vision-science.jpg", // TODO: create and upload
+  publishedAt: "2026-09-20", // TODO: set actual publish date before merging
+  readTime: 7,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Blindsight", "Neuroscience", "Vision Science", "Psychology", "Consciousness"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">Some people who are completely cortically blind, unable to consciously see light, shape, or motion, can still catch a ball thrown directly at them. They do not learn this skill after the injury. They do it immediately, while insisting on every test that they saw nothing at all. This is blindsight, and it exists because damage to the primary visual cortex does not shut off vision itself. It only shuts off the awareness of seeing. A second, older visual pathway keeps processing what the eyes take in and keeps feeding it to the brain regions that control movement, entirely outside consciousness. Blindsight forces a distinction most people never think to make: seeing and knowing that you see are handled by different parts of the brain.</p>
+
+<h2>What "Cortically Blind" Actually Means</h2>
+<p>Cortical blindness happens when the primary visual cortex, also called V1 or the striate cortex, is damaged or disconnected, usually by a stroke, a traumatic injury, or surgery. The eyes and optic nerves can be completely healthy. The person still reports total blindness in the affected part of their visual field, because the final processing stage that turns raw visual signals into conscious sight is gone.</p>
+<p>What clinicians did not expect, when the phenomenon was first documented in the 1970s, was that some of these patients could still respond accurately to things placed in their supposedly blind field, despite denying any awareness of them.</p>
+
+<h2>The Man Who Swore He Never Saw the Ball</h2>
+<p>One of the clearest documented cases involves a patient known as JK, described in a 2024 case report in Frontiers in Neurology. After a car accident in November 2009, JK could not distinguish light from dark in either eye during standard clinical testing.</p>
+<p><span class="source-badge">Primary Source: Frontiers in Neurology, "Functional blindsight and its diagnosis," 2024</span> Before the accident JK had been an athlete, and after it he retained the ability to hit a ball in handball and baseball and to catch a thrown Frisbee, which initially raised suspicion he was faking his blindness rather than genuinely losing it.</p>
+<p>Formal testing over the following decade confirmed the blindness was real, not fraud. Unusually, repeated 3T MRI scans found no detectable lesion in JK's striate cortex at all, an anomaly compared with almost every other documented blindsight case, where a visible lesion is the norm rather than the exception.</p>
+
+<h2>Not Every Case of Blindsight Looks the Same</h2>
+<p>The term itself dates to a 1974 paper by psychologist Lawrence Weiskrantz, describing a patient known as DB, who could point to and discriminate visual targets placed in his blind field far better than chance, while insisting on every trial that he was only guessing. That case established what is now called Type 1 blindsight: accurate visual response with zero reported awareness.</p>
+<p>Type 2 blindsight is different. Some patients report a vague, non-visual sense that something changed or moved in the blind field, without ever forming an actual picture of it. This gap between accuracy and confidence is a reminder that <a href="https://www.curiosityfields.com/article/multitasking-neurologically-impossible-brain-task-switching">the brain routinely runs processes its owner has no direct access to</a>, whether that is visual signals bypassing awareness or attention switching faster than anyone notices.</p>
+
+<h2>Walking Through a Room You Cannot See</h2>
+<p>A separate case, a physician known in the literature as TN, lost both primary visual cortices to consecutive strokes and reported complete blindness on every standard test. In a filmed 2008 demonstration published in Current Biology, TN was asked to walk down a corridor that researchers had deliberately cluttered with boxes, chairs, and a bin.</p>
+<p>He navigated the entire course without a single collision, weaving around every obstacle, despite having no reported visual experience of any of them. It is one of the most striking public demonstrations of blindsight on record, because a corridor full of moving hazards is a much harder task than reacting to a single stationary point of light.</p>
+
+<h2>The Backup Pathway Where Blindsight Actually Lives</h2>
+<p>Human vision does not run through a single wire from eye to awareness. A second, evolutionarily older route carries signals from the retina to the superior colliculus, then to a brain region called the pulvinar, then onward to extrastriate visual areas, bypassing the primary visual cortex entirely.</p>
+<p>For decades this pathway was proposed as the source of blindsight based on correlation alone. A 2019 study in Nature Communications tested it directly in monkeys with V1 lesions. Researchers selectively blocked the connection between the superior colliculus and the ventrolateral pulvinar and found that visually guided eye movements into the blind field broke down, confirming the pathway does not just accompany blindsight, it causes it.</p>
+<p>That same unconscious routing is part of why <a href="https://www.curiosityfields.com/article/brain-chips-paralysis-movement-restoration">neural interfaces built to restore movement after paralysis</a> can sometimes bypass damaged circuits rather than repair them directly, since the brain has more than one route to the same outcome.</p>
+
+<h2>Why This Rewrites the Line Between Seeing and Knowing</h2>
+<p>Blindsight is not extra vision or a hidden superpower. It shows that conscious visual experience is a distinct, later layer built on top of raw visual processing, not identical to it. The processing can survive intact while the awareness layer on top of it is destroyed, and the two rarely get studied as separate systems because in healthy vision they are inseparable.</p>
+<p>This is why blindsight keeps showing up in consciousness research well outside ophthalmology. It is one of the cleanest natural experiments demonstrating that <a href="https://www.curiosityfields.com/article/left-brain-right-brain-myth-neuroscience">popular models of how the brain divides its labor</a> are usually cruder than the underlying neuroscience.</p>
+
+<h2>Conclusion</h2>
+<p>A cortically blind patient catching a ball he swears he never saw is not a trick of willpower or a misdiagnosis. It is the visible edge of a visual system split into two working parts, one that processes the world and one that knows it is doing so. Rehabilitation researchers are now testing whether deliberately training the unconscious pathway can expand a patient's functional vision, even without restoring awareness, which would turn a strange laboratory finding into an actual clinical tool.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is blindsight in simple terms?</h3>
+<p>Blindsight is the ability to respond accurately to things in a part of the visual field a person cannot consciously see, caused by damage to the primary visual cortex while a second, unconscious visual pathway keeps functioning.</p>
+
+<h3>Can blindsight be trained or improved?</h3>
+<p>Some studies suggest structured visual training can expand what a cortically blind field can discriminate, but this remains an active area of research rather than a standard clinical treatment.</p>
+
+<h3>Is blindsight the same as being partially sighted?</h3>
+<p>No. Partial sight involves reduced but conscious vision, while blindsight involves zero conscious visual experience in the affected field despite measurable, accurate visual responses.</p>
+
+<h3>Does everyone with a damaged visual cortex develop blindsight?</h3>
+<p>No. Documented blindsight cases are rare, and most people with V1 damage do not show reliable unconscious visual responses, which is part of why each new case gets studied so closely.</p>
+
+<h3>What part of the brain makes blindsight possible?</h3>
+<p>A pathway running from the retina through the superior colliculus and the pulvinar to extrastriate visual cortex, which bypasses the damaged primary visual cortex entirely.</p>
+`,
+},
+{
+  id: "neanderthal-burial-fire-chemistry-evidence-explained",
+  slug: "neanderthal-burial-fire-chemistry-evidence-explained",
+  title: "Neanderthals Deliberately Buried Their Dead and Mastered Fire Chemistry Long Before Meeting Sapiens",
+  metaTitle: "Did Neanderthals Bury Their Dead? The Real Evidence", // 51 chars
+  excerpt: "The famous flower burial at Shanidar Cave turned out to be far shakier than the story most people know. Newer excavation still shows Neanderthals dug graves on purpose, and lit fires with a mineral chemistry trick sapiens would not master for millennia.", // 259 chars, distinct from metaDescription
+  metaDescription: "Evidence from Shanidar Cave shows Neanderthals deliberately buried their dead and even started fires with a manganese chemistry trick 50,000 years ago.", // 151 chars, distinct from excerpt
+  category: "history",
+  author: authors[0], // TODO CONFIRM correct author for history / archaeology content before publishing
+  coverImage: "/images/articles/neanderthal-burial-fire-chemistry-evidence-explained.jpg", // TODO: create and upload
+  publishedAt: "2026-09-20", // TODO: set actual publish date before merging
+  readTime: 8,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Neanderthals", "Archaeology", "Human Evolution", "Ancient History", "Paleoanthropology"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">At least some Neanderthals buried their dead on purpose. That conclusion comes from an excavated grave cut deliberately into a cave floor, not from the famous flower story most people have heard, which has not held up well under later scrutiny. Separately, and just as significant, Neanderthals in what is now France were grinding a mineral called manganese dioxide to make fire more efficiently, tens of thousands of years before Homo sapiens ever reached the same region. Neither behavior was copied from modern humans. Both point to a species solving hard survival problems entirely on its own.</p>
+
+<h2>The Flower Burial That Made Headlines, Then Fell Apart</h2>
+<p>In the early 1960s, archaeologist Ralph Solecki excavated a Neanderthal skeleton at Shanidar Cave in Iraqi Kurdistan, known as Shanidar IV, and found clusters of flower pollen in the surrounding sediment. Solecki concluded the body had been laid on a bed of flowers, and the so called "flower burial" became one of the most cited symbols of Neanderthal compassion for decades, appearing in textbooks as proof of ritual and emotional depth.</p>
+<p>That specific interpretation has since been seriously challenged. Later researchers proposed the pollen could have been introduced by burrowing rodents or bees rather than deliberate human placement, and the flower narrative is now treated by most specialists as unproven rather than confirmed.</p>
+
+<h2>What the 2020 Excavation Actually Confirmed</h2>
+<p>The discredited flowers do not mean the burial claim collapsed with them. New excavation at Shanidar Cave uncovered the articulated upper body of an adult Neanderthal, named Shanidar Z, close to the original flower burial location, the first fully articulated Neanderthal find at the site in over a generation.</p>
+<p><span class="source-badge">Primary Source: Pomeroy et al., "New Neanderthal remains associated with the flower burial at Shanidar Cave," Antiquity, 2020</span> The researchers found the body had been placed into a hollowed out scrape cut into the cave floor, with a distinctive rock positioned beside it that did not match the pattern of other rockfall debris nearby. Taken together, the team concluded this was a strong case for deliberate burial in a deliberately cut feature, not a body left where it happened to fall.</p>
+
+<h2>Burial Does Not Automatically Mean Ritual</h2>
+<p>It is tempting to treat "deliberate burial" and "symbolic ritual" as the same finding, but researchers are careful to separate them. A body can be buried for entirely practical reasons, to keep scavengers and smell away from a living space, without implying belief in an afterlife or organized mourning.</p>
+<p>One newer theory, discussed in a 2024 National Geographic piece on Levant burial sites, suggests some early burials functioned as territorial markers, a way of signaling a group's claim on a location, rather than purely emotional acts. This is exactly the kind of nuance that gets flattened in <a href="https://www.curiosityfields.com/article/history-textbook-lies-myths-debunked">simplified textbook retellings of prehistoric behavior</a>, where one vivid detail like flowers ends up carrying more certainty than the evidence supports.</p>
+
+<h2>The Chemistry Trick That Predates Modern Humans in Europe</h2>
+<p>At Pech-de-l'Azé I, a cave site in the Dordogne region of southwestern France occupied by Neanderthals roughly 50,000 years ago, archaeologists recovered hundreds of small black mineral blocks long assumed to be pigment for body decoration. <a href="https://www.curiosityfields.com/article/iron-pillar-delhi-rust-resistance-explained">Ancient material chemistry is frequently underestimated</a> until someone actually tests it, and this case was no exception.</p>
+<p>A 2016 study in Scientific Reports found the blocks were mainly manganese dioxide, and combustion experiments showed that ground manganese dioxide lowers wood's auto-ignition temperature and speeds up char combustion. Researchers noted that if Neanderthals simply wanted black pigment, soot and charcoal were already sitting right next to every hearth, making the extra effort of quarrying and grinding manganese dioxide hard to explain unless it served a different purpose. Scratch marks on the blocks and their proximity to fire pits at the site support the fire-making explanation over the pigment-only one.</p>
+
+<h2>Why the Timeline Is the Real Surprise</h2>
+<p>Homo sapiens did not reach Europe until roughly 45,000 years ago. The manganese dioxide fire-making evidence at Pech-de-l'Azé dates to about 50,000 years ago, and the oldest Shanidar burial evidence stretches back as far as 70,000 years. Both behaviors were already established before Neanderthals and sapiens ever shared the same landscape.</p>
+<p>That timing matters more than either discovery alone. It rules out the once-common assumption that Neanderthals only picked up "advanced" behaviors by copying modern humans, similar to how <a href="https://www.curiosityfields.com/article/how-ancient-engineers-moved-massive-stone-blocks">other ancient engineering feats once credited to later civilizations</a> keep turning out to be older and more independently invented than assumed.</p>
+
+<h2>What Remains Genuinely Unsettled</h2>
+<p>None of this closes the debate over Neanderthal cognition. Archaeologists still disagree on how much burial evidence implies abstract or symbolic thought versus practical problem-solving, and the field has been burned before by over-interpreting a single striking detail, exactly what happened with the flower burial.</p>
+<p>Skeletal evidence in general has a track record of getting reinterpreted once better tools arrive, as seen when <a href="https://www.curiosityfields.com/article/roopkund-skeleton-lake-dna-mystery-explained">genetic analysis rewrote the accepted story behind a mysterious skeleton lake</a>. Neanderthal archaeology is working through a similar correction, trading a tidy, sentimental narrative for a messier but better supported one.</p>
+
+<h2>Conclusion</h2>
+<p>The story readers already know, flowers laid over a grieving Neanderthal, is weaker than it once seemed. The story the evidence actually supports is arguably more impressive: a species that dug intentional graves and independently worked out applied chemistry to make fire more reliably, decades of research apart from any contact with modern humans. Neither finding proves Neanderthals thought exactly like sapiens did. Both make it much harder to keep calling them the primitive cousin.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Did Neanderthals really bury their dead with flowers?</h3>
+<p>That specific claim, based on pollen found at Shanidar Cave in the 1960s, is now contested, with researchers proposing the pollen may have come from burrowing animals or bees rather than deliberate placement.</p>
+
+<h3>What is the strongest evidence Neanderthals buried their dead on purpose?</h3>
+<p>The 2020 discovery of Shanidar Z, an articulated Neanderthal body found placed in a scrape deliberately cut into the cave floor, is considered the strongest current evidence for intentional burial.</p>
+
+<h3>How did Neanderthals actually start fires?</h3>
+<p>Evidence from Pech-de-l'Azé I in France shows Neanderthals ground manganese dioxide into powder, which lowers wood's ignition temperature and made starting fires easier and more reliable.</p>
+
+<h3>Did Neanderthals learn burial or fire chemistry from Homo sapiens?</h3>
+<p>No. Both behaviors date to before Homo sapiens reached Europe roughly 45,000 years ago, so they developed independently within Neanderthal populations.</p>
+
+<h3>Were Neanderthals as intelligent as modern humans?</h3>
+<p>This is still debated. Evidence shows sophisticated problem-solving and planning, but whether Neanderthal burial reflects the same symbolic or ritual thinking seen in modern humans remains an open question among researchers.</p>
+`,
+},
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
