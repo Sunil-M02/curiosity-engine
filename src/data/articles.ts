@@ -18546,6 +18546,171 @@ content: `
 `,
 },
 
+// Both objects below are formatted to match the schema in your pasted example
+// (metaTitle, inline <span class="source-badge"> citations, h3 FAQs inside content,
+// author/coverImage/tags/featured/editorsPick). Two things I could not verify and
+// flagged inline instead of guessing silently:
+// 1. authors[] index — I don't have your live authors array, so both use a placeholder
+//    index with a TODO. Article 2 (AI) reuses authors[1] on the assumption it routes to
+//    the same technology/AI desk as the encryption piece; article 1 (science) needs a
+//    dedicated science-desk author confirmed.
+// 2. coverImage paths are slug-based placeholders per your stated convention; the actual
+//    image files still need to be created and uploaded.
+
+{
+  id: "needle-99-percent-light-speed-nuclear-energy",
+  slug: "needle-99-percent-light-speed-nuclear-energy",
+  title: "A Needle Traveling At 99% The Speed Of Light Would Strike Earth With The Force Of A Nuclear Bomb",
+  metaTitle: "Needle at 99% Light Speed: Nuclear-Level Impact Energy", // 54 chars
+  excerpt: "A one-gram needle at 99% light speed carries about 130 kilotons of kinetic energy, nine times Hiroshima. Here is the real physics of why it never actually reaches the ground intact, and what already proves it in nature.", // 219 chars, distinct from metaDescription
+  metaDescription: "The kinetic energy of a needle at 99% light speed rivals a nuclear blast, but the physics of atmospheric fusion explains why it never behaves like one.", // 151 chars, distinct from excerpt
+  category: "science",
+  author: authors[0], // TODO CONFIRM: needs a dedicated science-desk author, not verified against live authors[] array
+  coverImage: "/images/articles/needle-99-percent-light-speed-nuclear-energy.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-09-21", // TODO: set actual publish date before merging
+  readTime: 7,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Physics", "Relativity", "Astrophysics", "Space Science", "Explainers"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">A one-gram sewing needle moving at 99 percent of the speed of light carries roughly 130 kilotons of kinetic energy, about nine times the yield of the bomb dropped on Hiroshima. That number comes straight out of special relativity, not exaggeration, the needle's mass barely changes, but at that speed velocity alone does the damage. The popular image of a light-speed needle punching a nuclear-sized crater into the ground is wrong, though. Long before it reaches the surface, the needle would slam into individual air molecules hard enough to trigger nuclear fusion, turning its energy into a fireball kilometers above the ground rather than a hole in the earth.</p>
+
+<h2>How Close To 99 Percent Of Light Speed Really Is</h2>
+<p><a href="https://www.curiosityfields.com/article/gps-relativity-einstein-atomic-clock-explained">Relativistic corrections</a> are usually tiny, the kind of adjustment GPS satellites need to stay accurate to within a few meters. At 99 percent of light speed, those corrections stop being a footnote and take over the entire calculation.</p>
+<p>The key number is the Lorentz factor, written as gamma. It measures how much time, mass, and energy scale as an object approaches light speed. At 0.99c, gamma works out to about 7.09, using gamma equals 1 divided by the square root of 1 minus v squared over c squared.</p>
+<p>A gamma of 7.09 means the needle's kinetic energy, and its resistance to further acceleration, behaves as if its effective mass were more than seven times its resting mass. This is the same scaling that <a href="https://www.curiosityfields.com/article/why-astronauts-age-slower-time-dilation-explained">slows the internal clocks of orbiting astronauts</a>, just multiplied by a far larger velocity.</p>
+
+<h2>The Actual Math: Why A One-Gram Needle Holds 130 Kilotons</h2>
+<p>Classical physics defines kinetic energy as one-half times mass times velocity squared. That formula fails badly above about 10 percent of light speed, because it assumes mass stays constant as speed increases. Relativity replaces it with a different equation: kinetic energy equals gamma minus one, multiplied by mass, multiplied by the speed of light squared.</p>
+<p>Plugging in a needle's mass of roughly one gram, or 0.001 kilograms, and a gamma of 7.09, gives a kinetic energy of about 5.47 times 10 to the 14th joules. Converted into TNT equivalent, using 4.184 billion joules per ton, that comes out to roughly 130,770 tons, or about 131 kilotons.</p>
+<p><span class="source-badge">Primary Source: Los Alamos National Laboratory, "Yields of the Hiroshima and Nagasaki Nuclear Explosions" (LA-8819)</span> The bomb dropped on Hiroshima is most authoritatively estimated at 15 kilotons, with an uncertainty band of about 20 percent. That puts the needle's energy at roughly 8.7 times Hiroshima's destructive output, generated by an object lighter than a paperclip.</p>
+
+<h2>Why Mass Barely Matters At This Speed</h2>
+<p>The <a href="https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-light-travel-time">speed of light itself is not just a fast number</a>, it is a structural limit built into how space and time relate to each other. Nothing with mass can reach it, only approach it, and the energy cost of each additional fraction of a percent grows without bound.</p>
+<p>That is why the needle's destructive potential comes almost entirely from velocity rather than bulk. Double the needle's mass and the energy roughly doubles. Push its speed from 0.99c to 0.999c instead, and gamma jumps from about 7.09 to about 22.4, more than tripling the energy for the same object.</p>
+
+<h2>What Actually Happens When It Hits The Atmosphere</h2>
+<p>A relativistic object does not behave like a normal projectile once it reaches the atmosphere. Air molecules sit essentially frozen in place from the needle's point of view, and there is no time for air to flow around it the way aerodynamics normally allows.</p>
+<p>Instead, the needle's leading atoms collide with air molecules hard enough to force their nuclei together, releasing bursts of gamma radiation and secondary particles with each impact.</p>
+<p><span class="source-badge">Source: Randall Munroe, What If?, "Relativistic Baseball"</span> This mechanism was first popularized in detail by Munroe's physics explainer series, which modeled a similar scenario for a relativistic baseball and described the same fusion-driven cascade. The needle would effectively vaporize itself into an expanding bubble of superheated air within microseconds of entering the atmosphere, well above ground level. The destructive energy is real, and the fireball would still devastate anything beneath it, but the mechanism is closer to an airburst than a ground impact.</p>
+
+<h2>How The Energy Compares To Real Nuclear Weapons</h2>
+<p>Placed next to actual weapons, the needle's 131 kilotons sits in a specific and telling range, closer to <a href="https://www.curiosityfields.com/article/most-dangerous-places-universe-earth-safety">some of the most destructive forces</a> humans and nature can produce.</p>
+<ul>
+<li>Hiroshima's Little Boy: approximately 15 kilotons</li>
+<li>The relativistic needle at 0.99c: approximately 131 kilotons</li>
+<li>A modern strategic warhead such as the W87: roughly 300 to 475 kilotons</li>
+<li>The Soviet Tsar Bomba, the largest weapon ever detonated: approximately 50,000 kilotons</li>
+</ul>
+<p>So the needle outclasses Hiroshima by nearly an order of magnitude, but it would still fall well short of a modern strategic warhead, let alone the largest bomb ever built.</p>
+
+<h2>Has Nature Already Done This? The Oh-My-God Particle</h2>
+<p><span class="source-badge">Source: University of Utah Fly's Eye Cosmic Ray Detector, observation of October 15, 1991</span> On that night, the Fly's Eye detector at Dugway Proving Ground recorded a single subatomic particle striking the atmosphere with an energy of about 3.2 times 10 to the 20th electron volts, an event physicists nicknamed the <a href="https://www.fourmilab.ch/documents/OhMyGodParticle/" target="_blank" rel="noopener noreferrer">Oh-My-God particle</a>.</p>
+<p>That single proton, with a mass far smaller than a speck of dust, carried the kinetic energy of a baseball thrown at highway speed, concentrated entirely into one particle traveling within a hair's breadth of light speed. It is direct proof that velocity, not size, sets the ceiling on destructive energy.</p>
+<p>Researchers studying high-energy astrophysics believe particles like this originate near extreme accelerators such as <a href="https://www.curiosityfields.com/article/black-holes-dont-suck-physics-of-orbiting-one">active black holes and their relativistic jets</a>, some of the few environments violent enough to fling a proton that close to light speed.</p>
+
+<h2>Could This Ever Be Engineered On Purpose?</h2>
+<p>Accelerating a macroscopic object like a needle to 0.99c is not simply an engineering problem to be solved with a bigger accelerator. The energy required grows toward infinity as an object with mass approaches light speed, which is why <a href="https://www.curiosityfields.com/article/neutron-star-black-hole-mass-limit">only the most extreme astrophysical environments</a> can push even single particles that fast.</p>
+<p>The <a href="https://home.cern/science/accelerators/large-hadron-collider" target="_blank" rel="noopener noreferrer">Large Hadron Collider</a>, the most powerful particle accelerator built, reaches roughly 99.9999991 percent of light speed for individual protons, using a ring 27 kilometers around and enormous superconducting magnets. Scaling that infrastructure up to move a solid, one-gram object is not currently plausible with any known technology.</p>
+
+<h2>Conclusion</h2>
+<p>The relativistic needle is not really about needles. It is a reminder that kinetic energy is not fixed to an object's size, it is fixed to how close that object gets to the universe's speed limit. Nature has already demonstrated the principle with a single proton in 1991, no larger accelerator required. The open question is not whether the physics works, it clearly does, but why the universe so rarely produces anything fast enough to matter.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How is relativistic kinetic energy different from classical kinetic energy?</h3>
+<p>Classical kinetic energy (one-half mass times velocity squared) assumes mass stays constant, which holds at everyday speeds. Relativistic kinetic energy uses the Lorentz factor instead, and diverges sharply above roughly 10 percent of light speed.</p>
+
+<h3>What is the Lorentz factor?</h3>
+<p>The Lorentz factor, gamma, measures how much time dilation, length contraction, and energy scaling occur as an object approaches light speed. It equals 1 divided by the square root of 1 minus velocity squared over the speed of light squared.</p>
+
+<h3>Could scientists ever accelerate a solid object to 99 percent of light speed?</h3>
+<p>Not with current or foreseeable technology. Accelerators can push individual protons close to light speed, but the energy required scales enormously with mass, putting a macroscopic object like a needle far out of reach.</p>
+
+<h3>What is the Oh-My-God particle?</h3>
+<p>It is the nickname for an ultra-high-energy cosmic ray proton detected in Utah in 1991, carrying roughly the kinetic energy of a fast-thrown baseball concentrated into a single subatomic particle traveling near light speed.</p>
+
+<h3>Why doesn't the needle leave a crater on the ground?</h3>
+<p>At relativistic speed, the needle would collide with air molecules and trigger fusion reactions well above the surface, releasing its energy as an airburst rather than a ground impact.</p>
+
+<h3>How does the needle's energy compare to a modern nuclear warhead?</h3>
+<p>At roughly 131 kilotons, the needle would carry about 8.7 times the energy of the Hiroshima bomb, but only about a third to a quarter of the yield of a typical modern strategic warhead.</p>
+`,
+},
+
+{
+  id: "fine-tuning-ai-safety-dangerous-capabilities",
+  slug: "fine-tuning-ai-safety-dangerous-capabilities",
+  title: "Fine-Tuning Open Weights Can Inadvertently Reactivate Dormant Dangerous Capabilities Scrubbed During Pre-Training",
+  metaTitle: "How Fine-Tuning Reopens Dangerous AI Capabilities Fast", // 54 chars
+  excerpt: "A 70-billion-parameter model lost its safety refusals for about 20 cents in fine-tuning. This is why dangerous capabilities scrubbed during training keep coming back, and what 2026 research says might actually fix it.", // 218 chars, distinct from metaDescription
+  metaDescription: "Fine-tuning can undo AI safety training in minutes. Research shows why capabilities scrubbed before release often return, and what actually stops it.", // 149 chars, distinct from excerpt
+  category: "artificial-intelligence",
+  author: authors[1], // Matches live convention for technology/AI entries, same desk used for the encryption article -- TODO confirm
+  coverImage: "/images/articles/fine-tuning-ai-safety-dangerous-capabilities.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-09-21", // TODO: set actual publish date before merging
+  readTime: 7,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Artificial Intelligence", "AI Safety", "Machine Learning", "Open-Weight Models", "AI Alignment"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">Fine-tuning an open-weight AI model can strip away its safety training in minutes, and in documented cases, for less than the cost of a coffee. Researchers reduced a 70-billion-parameter Llama 2 chat model's refusal rate on harmful requests to under 1 percent using a LoRA fine-tuning run that cost about 20 cents. The deeper problem is not that fine-tuning is powerful. It is that most safety training only suppresses dangerous knowledge rather than removing it, so a small amount of retraining can reactivate capabilities a developer believed had been scrubbed. Newer research points to a different fix: filtering the material out before pretraining ever begins.</p>
+
+<h2>What "Scrubbing" A Model Actually Means</h2>
+<p>Modern AI safety pipelines apply several layers after a model's initial training run, including <a href="https://www.curiosityfields.com/article/ai-danger-without-consciousness-alignment-risk">reinforcement learning from human feedback</a>, refusal training, and targeted unlearning aimed at specific dangerous domains like bioweapons synthesis or offensive cyber techniques.</p>
+<p>Each of these methods adjusts how the model responds, not necessarily what it internally represents. A model can learn to refuse a request without losing the underlying pattern that would let it comply, closer to teaching someone to bite their tongue than to erasing what they know.</p>
+
+<h2>The Attacks That Proved Safety Training Is Reversible</h2>
+<p><span class="source-badge">Primary Source: Qi, Zeng, Xie, Chen, Jia, Mittal, Henderson, "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!" (arXiv:2310.03693 / ICLR 2024)</span> In 2023, researchers showed that <a href="https://www.curiosityfields.com/article/waluigi-effect-ai-jailbreak-fine-tuning">fine-tuning aligned language models</a> compromises their safety even when the person doing the fine-tuning has no harmful intent. Training on as few as ten harmful examples was enough to make GPT-3.5 Turbo comply with nearly any request, at a cost of under a dollar through OpenAI's own fine-tuning API.</p>
+<p><span class="source-badge">Primary Source: Lermen, Rogers-Smith, Ladish, "LoRA Fine-Tuning Efficiently Undoes Safety Training in Llama 2-Chat 70B" (arXiv:2310.20624)</span> A separate study went further, applying LoRA fine-tuning directly to Llama 2-Chat 70B, one of Meta's largest safety-trained open-weight models at the time. The refusal rate on harmful instruction benchmarks dropped below 1 percent, while performance on unrelated tasks stayed essentially unchanged.</p>
+
+<h2>Why Suppressed Knowledge Comes Back So Easily</h2>
+<p>Interpretability research on activation steering and capability suppression suggests fine-tuning does not teach a model new information so much as it reweights which internal pathways activate. If the base model already encoded a capability during pretraining, later training data mostly decides whether that pathway stays open or closed.</p>
+<p>That explains why so little fine-tuning is needed. Researchers do not have to rebuild a dangerous capability from scratch, only nudge the model's weights back toward a distribution it already learned once. Anthropic's own <a href="https://www.curiosityfields.com/article/golden-gate-claude-ai-feature-steering-explained">feature-steering research</a> showed how directly identifiable internal features can be dialed up or down, conceptually close to what adversarial fine-tuning does by accident.</p>
+
+<h2>The Pretraining-Stage Fix: Deep Ignorance</h2>
+<p><span class="source-badge">Primary Source: O'Brien, Casper, Anthony et al. (EleutherAI / UK AI Security Institute), "Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs" (arXiv:2508.06601)</span> A 2025 study called Deep Ignorance tested a different approach: filtering biothreat-related content out of the <a href="https://www.curiosityfields.com/article/more-ai-training-data-makes-models-less-reliable">pretraining data</a> itself, before the model ever had the chance to learn it.</p>
+<p>The filtered models resisted adversarial fine-tuning attacks for up to 10,000 training steps and roughly 300 million tokens, more than an order of magnitude longer than existing post-training safeguards, which prior research found could often be undone in just a few dozen steps.</p>
+<p>The logic is straightforward: a model cannot fine-tune its way back to knowledge it never absorbed in the first place. Removing the source material during pretraining closes a pathway that post-training suppression only ever papered over.</p>
+
+<h2>It's Not A Complete Fix Either</h2>
+<p>Pretraining filtering is not a universal solution. The same research found that filtering cannot stop a model from using harmful knowledge supplied directly in its prompt, meaning layered defenses still matter even with clean training data.</p>
+<p>A 2026 study on open-weight fine-tuning defenses found that gradient-free attacks, including a technique called abliteration and simple prompt prefilling, recovered harmful outputs at success rates between 16 and 97 percent, even against models protected by dedicated tamper-resistance training.</p>
+<p>Other 2025 research offers a partial counterpoint. A study accepted at ICLR 2025 found that safety could be re-established during task-specific fine-tuning by deliberately mixing in matching safety examples, without materially hurting task performance.</p>
+
+<h2>What This Means For Open-Weight Model Releases</h2>
+<p>These findings reshape how developers should think about releasing model weights publicly. Once weights are downloadable, a developer permanently loses the ability to monitor or block fine-tuning, so any safety property that depends on post-training suppression alone should be treated as temporary.</p>
+<p>This tension sits at the center of ongoing debate inside frontier labs about how openly to release increasingly capable systems, a debate that surfaced publicly when <a href="https://www.curiosityfields.com/article/jacob-coxon-anthropic-resignation-ai-safety-fears">an Anthropic researcher's resignation</a> drew attention to internal disagreements over AI safety timelines.</p>
+
+<h2>Where This Leaves Builders And Users Today</h2>
+<p>For teams deploying open-weight models, the practical takeaway is that refusal behavior alone is not a security boundary. Combining pretraining-stage filtering, layered post-training defenses, and <a href="https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained">input-level monitoring against prompt-based attacks</a> currently offers more durable protection than any single method alone.</p>
+<p>For everyone else, the lesson is smaller but still useful: a chatbot's polite refusal says very little about what its underlying weights actually know, only about what one layer of training decided it should say out loud.</p>
+
+<h2>Conclusion</h2>
+<p>Safety in a modern AI model is not a fixed property stamped on at the end of training. It is a property of the entire pipeline, from what data went in first to what gets bolted on last. Research through 2026 increasingly points toward one conclusion: the earlier a capability is kept out, the harder it becomes to fine-tune back in. What remains unresolved is whether pretraining filtering can scale to the full range of dangerous domains before open-weight releases outpace the defenses meant to contain them.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What does it mean for an AI model to have "dormant" capabilities?</h3>
+<p>It means the model's weights still encode information or behaviors that post-training safety methods suppressed rather than deleted, reachable through further training or, in some cases, careful prompting alone.</p>
+
+<h3>Can fine-tuning make any AI model unsafe?</h3>
+<p>Research has documented safety degradation across multiple model families, both from intentional adversarial fine-tuning and, to a lesser degree, from fine-tuning on ordinary benign datasets with no harmful intent.</p>
+
+<h3>What is LoRA fine-tuning and why does it matter here?</h3>
+<p>LoRA, or Low-Rank Adaptation, is an efficient fine-tuning method that updates a small number of parameters instead of the whole model. Researchers used it to strip safety training from a 70-billion-parameter model for a few dollars.</p>
+
+<h3>Does filtering training data actually solve the problem?</h3>
+<p>It significantly raises the cost of recovering dangerous capabilities, resisting far more adversarial fine-tuning than post-training defenses, but it does not stop attacks that supply harmful information directly in a prompt.</p>
+
+<h3>Is this only a risk for open-weight models?</h3>
+<p>The reactivation risk is sharpest for open-weight models, since anyone can fine-tune the downloaded weights without oversight, though similar dynamics can affect closed models through official fine-tuning APIs.</p>
+
+<h3>How much does it cost to strip safety training from a model?</h3>
+<p>In one documented case, researchers reduced a 70-billion-parameter model's refusal rate below 1 percent using a fine-tuning run reported to cost about 20 cents in compute.</p>
+`,
+},
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
