@@ -39,7 +39,7 @@ export const categoryInfo: Record<Category, { name: string; description: string;
   science: {
     name: "Science",
     description:
-      "Discover groundbreaking science articles on physics, biology, chemistry, and research breakthroughs. Explore how scientific discoveries shape our understanding of the world.",
+      "Understand the science behind the world—from physics and biology to the brain, Earth, and the strange phenomena researchers are still trying to explain.",
     color: "#4A9E6B",
   },
   technology: {
@@ -51,32 +51,32 @@ export const categoryInfo: Record<Category, { name: string; description: string;
   "artificial-intelligence": {
     name: "Artificial Intelligence",
     description:
-      "Explore AI articles on machine learning, neural networks, ChatGPT, and intelligent systems. In-depth analysis of how artificial intelligence is transforming industries.",
+      "Understand how artificial intelligence actually works, where it fails, and how AI agents, models, chips, and research are changing what machines can do.",
     color: "#9B6DD4",
   },
   history: {
     name: "History",
     description:
-      "Journey through human history with articles on ancient civilizations, historical events, and the people who shaped our world. Discover stories from the past.",
+      "Explore the evidence behind civilizations, ancient technologies, forgotten events, and historical mysteries—and separate what we know from what we assume.",
     color: "#C4783A",
   },
   astronomy: {
     name: "Astronomy & Space",
     description:
-      "Explore the cosmos with articles on planets, stars, galaxies, NASA missions, and space exploration. Your guide to the mysteries of the universe.",
+      "Understand the universe through astronomy, space missions, planets, black holes, galaxies, and the physics behind the discoveries changing our view of space.",
     color: "#4AA8C4",
   },
   "future-innovation": {
     name: "Future Innovation",
     description:
-      "Discover emerging technologies and visionary ideas shaping tomorrow. Articles on innovation trends, futurism, and breakthrough technologies defining the next decade.",
+      "Explore emerging technologies, energy systems, biotechnology, materials, and engineering ideas moving from research toward the real world.",
     color: "#D4A843",
   },
   "psychology-mind": {
     name: "Psychology & Mind",
     description:
-      "Explore psychology, human behavior, cognitive science, mental models, decision making, emotions, memory, intelligence, consciousness, habits, and the science of the mind.",
-    color: "#C05ACF",
+      "Explore how the brain shapes memory, perception, decisions, emotions, behavior, and our experience of reality.",
+    color: "#ff75b5",
   },
 };
 
