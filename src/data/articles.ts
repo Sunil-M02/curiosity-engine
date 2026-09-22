@@ -45,7 +45,7 @@ export const categoryInfo: Record<Category, { name: string; description: string;
   technology: {
     name: "Technology",
     description:
-      "Stay updated with the latest technology news, computing innovations, and engineering breakthroughs. Expert analysis on digital trends shaping our future.",
+      "Understand the hidden systems behind the technology you use every day—from the internet and smartphones to chips, cybersecurity, networks, and emerging engineering.",
     color: "#4A7EC7",
   },
   "artificial-intelligence": {
