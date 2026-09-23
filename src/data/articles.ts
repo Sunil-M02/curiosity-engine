@@ -16784,7 +16784,7 @@ content: `
     coverImage: "/images/articles/gpt-6-astra-agi-claim-explained.jpg", // TODO: create and upload, slug-based filename convention
     publishedAt: "2026-09-08", // TODO: set actual publish date before merging
     readTime: 7,
-    featured: false, // TODO: confirm
+    featured: true, // TODO: confirm
     editorsPick: false, // TODO: confirm
     tags: ["gpt-6-astra", "agi-debate", "openai", "arc-agi-benchmark", "artificial-general-intelligence"], // TODO: verify tag casing against live tag taxonomy array
     content: `
