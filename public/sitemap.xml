@@ -1382,4 +1382,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/asteroid-belt-mostly-empty-space-explained</loc>
+  <lastmod>2026-09-23</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/spice-trade-colonial-history-world-map</loc>
+  <lastmod>2026-09-23</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
