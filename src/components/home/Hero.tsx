@@ -11,7 +11,7 @@ const ParticleField = lazy(() =>
 
 export function Hero() {
   const heroArticle =
-    articles.find((a) => a.slug === 'microchip-arms-race-global-power') ||
+    articles.find((a) => a.slug === 'gpt-6-astra-agi-claim-explained') ||
     getLatestArticles(1)[0];
   const featuredColor = heroArticle ? categoryInfo[heroArticle.category].color : '#D4A843';
 
