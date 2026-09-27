@@ -1394,4 +1394,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/catastrophic-forgetting-ai-explained-why-models-forget</loc>
+  <lastmod>2026-09-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/rubber-hand-illusion-explained-body-ownership-brain</loc>
+  <lastmod>2026-09-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
