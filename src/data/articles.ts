@@ -18985,6 +18985,145 @@ content: `
 
 },
 
+{
+  id: "catastrophic-forgetting-ai-explained-why-models-forget",
+  slug: "catastrophic-forgetting-ai-explained-why-models-forget",
+  title: "Catastrophic Forgetting: Why Teaching AI New Tricks Erases Old Memory",
+  metaTitle: "Catastrophic Forgetting: Why AI Forgets Old Skills", // 50 chars
+  excerpt: "A neural network can lose almost everything it learned the moment it starts on something new, a failure psychologists first documented in 1989. Here is why AI trades old skills for new ones, and what actually helps.", // 215 chars, distinct from metaDescription
+  metaDescription: "Catastrophic forgetting explains why AI models lose old skills the moment they learn something new. See the causes and the fixes researchers use right now.", // 155 chars, distinct from excerpt
+  category: "artificial-intelligence",
+  author: authors[0], // TODO CONFIRM: needs an AI/ML-desk author, not verified against your live authors[] array
+  coverImage: "/images/articles/catastrophic-forgetting-ai-explained-why-models-forget.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-09-27", // TODO: set actual publish date before merging
+  readTime: 6,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Artificial Intelligence", "Machine Learning", "Neural Networks", "AI Explainers", "AI Safety"], // TODO: verify tag casing against your live tag taxonomy array
+  content: `
+<p class="lead">Catastrophic forgetting is what happens when a neural network learns a new task and, as a direct side effect, loses most of what it already knew how to do. It isn't a bug or a training mistake. It comes from how these networks store knowledge, as one shared set of weights rather than separate compartments for separate skills. Psychologists first documented the problem in 1989, and it still shapes how carefully AI teams can update a model without quietly breaking something that used to work.</p>
+
+<h2>What Catastrophic Forgetting Actually Means</h2>
+<p>Catastrophic forgetting is the sudden, near-total loss of a neural network's earlier abilities once it trains on a new task, even a task that has nothing to do with the old one. <a href="https://www.curiosityfields.com/article/how-ai-thinking-actually-works">Understanding how a neural network stores information in the first place</a> makes this easier to follow: knowledge lives as numeric weights spread across the entire model, not as labeled files that can be added or removed one at a time.</p>
+<p><span class="source-badge">Source: McCloskey & Cohen, "Catastrophic Interference in Connectionist Networks," Psychology of Learning and Motivation, 1989</span> Psychologists Michael McCloskey and Neal Cohen demonstrated this in 1989 by training a small network on simple sums like 1+1 and 1+2, then teaching it 2+1 and 2+2. The network's grip on the earlier sums collapsed almost immediately, a result so much worse than typical human forgetting that the researchers called it "catastrophic."</p>
+
+<h2>Why One Set Of Weights Can't Hold Two Skills At Once</h2>
+<p>The mechanism is straightforward once it's spelled out. Training a network means nudging its weights through gradient descent so its errors on the current task shrink. Nothing in that process tells the network to protect weights that mattered for a task it learned earlier and isn't currently practicing.</p>
+<p>In a densely connected network, two different tasks usually rely on overlapping weights. An update that helps the new task has no built-in way to avoid pushing those shared weights away from the values that made the earlier task work. Researchers describe this trade-off as the stability-plasticity dilemma: a network sensitive enough to learn quickly is, by that same mechanism, unstable enough to forget quickly.</p>
+
+<h2>The Brain Solves This With Two Memory Systems, Most AI Has One</h2>
+<p>Human brains face the identical structural problem and mostly avoid it, which is part of why McCloskey and Cohen's result looked so strange at the time. The leading explanation is a 1995 framework called complementary learning systems, developed by James McClelland, Bruce McNaughton, and Randall O'Reilly.</p>
+<p><span class="source-badge">Source: McClelland, McNaughton & O'Reilly, "Why There Are Complementary Learning Systems in the Hippocampus and Neocortex," Psychological Review, 1995</span> The theory holds that the hippocampus stores new experiences quickly and temporarily, while the neocortex absorbs that information slowly, often replaying it during sleep, so new memories get woven into existing knowledge instead of overwriting it. Most artificial neural networks skip this two-system split entirely, which is exactly why retraining one network on a new task can be so destructive.</p>
+
+<h2>The Fixes Researchers Use, From Elastic Weight Consolidation To Replay</h2>
+<p>The most cited attempt to reduce this problem is <a href="https://deepmind.google/discover/blog/enabling-continual-learning-in-neural-networks/" target="_blank" rel="noopener noreferrer">elastic weight consolidation</a>, introduced by a DeepMind team led by James Kirkpatrick in 2017. <span class="source-badge">Source: Kirkpatrick et al., "Overcoming Catastrophic Forgetting in Neural Networks," PNAS, 2017</span> It works by calculating, right after training on one task, exactly which weights mattered most to that task, using a statistical measure called Fisher information.</p>
+<p>When the network then learns a second task, those important weights get penalized for drifting too far from their earlier values, acting like a spring that resists change without locking the weight in place completely. The trade-off is real: protect too many weights and the network struggles to learn anything new; protect too few and forgetting creeps back in anyway.</p>
+<p>A second widely used approach, called replay, mixes a sample of old training data back in alongside the new data so the network keeps practicing the earlier task while learning the current one. Some production systems sidestep the problem differently, using <a href="https://www.curiosityfields.com/article/retrieval-augmented-generation-rag-explained">retrieval-augmented generation</a> to keep facts outside the model's weights entirely rather than trying to make the weights remember everything.</p>
+
+<h2>Why Bigger Language Models Forget More, Not Less</h2>
+<p>It would be reasonable to assume larger, more capable language models handle this better than small ones do. The evidence points the other way. <span class="source-badge">Source: Luo et al., "An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning," arXiv, 2025</span> A 2025 study testing models between 1 billion and 7 billion parameters found forgetting generally got worse, not better, as model size increased.</p>
+<p>The same study found decoder-only architectures, the design behind most modern chat-style models, held on to more of their original knowledge than encoder-decoder models did across repeated fine-tuning. Picking between architectures here carries the same kind of trade-off <a href="https://www.curiosityfields.com/article/small-language-models-vs-large-ai-2026">choosing between a small and a large model</a> involves for cost, speed, and reliability.</p>
+
+<h2>What This Means For The AI Tools People Use Every Day</h2>
+<p>Every time a company fine-tunes a deployed model, whether to add a skill, remove a behavior, or tighten safety, it risks quietly eroding something the model already did well. <span class="source-badge">Source: Qi et al., "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!", ICLR, 2024</span> Researchers have shown that fine-tuning can weaken a model's safety training without anyone intending that outcome, which is why teams studying <a href="https://www.curiosityfields.com/article/fine-tuning-ai-safety-dangerous-capabilities">how fine-tuning affects model safety</a> treat every retraining pass as a controlled risk rather than a routine update.</p>
+<p>It's also part of why <a href="https://www.curiosityfields.com/article/waluigi-effect-ai-jailbreak-fine-tuning">unexpected behavior showing up after fine-tuning</a> keeps turning up in AI safety research. A model is never simply gaining a new skill during an update; it is always trading away some of its earlier shape to make room for it.</p>
+
+<h2>Conclusion</h2>
+<p>Catastrophic forgetting isn't a problem AI researchers are close to eliminating, and it may never fully disappear, since it's baked into how weight-based learning works. What has changed is the honesty around it: teams now measure forgetting deliberately, weigh it against the benefit of an update, and increasingly borrow ideas from neuroscience to slow it down. The real question isn't whether a model will forget something, it always will to some degree, but how much forgetting a given update is actually worth.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is catastrophic forgetting in simple terms?</h3>
+<p>It's when a neural network learns something new and, as a side effect, loses most of what it previously knew how to do. This happens because the old and new knowledge share the same weights.</p>
+
+<h3>Does catastrophic forgetting affect tools like ChatGPT or Claude?</h3>
+<p>Any model that gets fine-tuned or retrained after its initial training run carries some risk of forgetting parts of its earlier training. Companies test for this before releasing updates, though it's rarely eliminated completely.</p>
+
+<h3>Can catastrophic forgetting be fixed completely?</h3>
+<p>No method solves it completely yet. Techniques like elastic weight consolidation and replay reduce forgetting but trade off against how quickly the model can pick up new tasks.</p>
+
+<h3>Why don't humans forget this way when they learn something new?</h3>
+<p>Human brains rely on two separate memory systems, the hippocampus for fast new learning and the neocortex for slow, structured long-term storage, an arrangement most single-network AI models don't replicate.</p>
+
+<h3>Does a model's size make forgetting worse?</h3>
+<p>A 2025 study of models between 1 billion and 7 billion parameters found forgetting tended to intensify as model size increased, the opposite of what many researchers expected.</p>
+
+<h3>What is elastic weight consolidation?</h3>
+<p>It's a 2017 technique that protects the weights most important to a previously learned task by penalizing large changes to them while a new task is being learned.</p>
+`,
+},
+
+{
+  id: "rubber-hand-illusion-explained-body-ownership-brain",
+  slug: "rubber-hand-illusion-explained-body-ownership-brain",
+  title: "Tapping A Plastic Arm Synchronously Tricks The Brain In Minutes",
+  metaTitle: "Rubber Hand Illusion: How Your Brain Adopts a Fake Hand", // 55 chars
+  excerpt: "Stroke a hidden real hand and a visible rubber one at exactly the same time, and within about a minute the brain starts treating the fake hand as part of the body. Neuroscientists have mapped the exact mechanism, and it says something surprising about how fragile the sense of self really is.", // 292 chars, distinct from metaDescription
+  metaDescription: "The rubber hand illusion tricks your brain into feeling a fake hand is real after about a minute of synchronized touch. Here is the neuroscience behind it.", // 155 chars, distinct from excerpt
+  category: "psychology-mind",
+  author: authors[0], // TODO CONFIRM: needs a psychology/neuroscience-desk author, not verified against your live authors[] array
+  coverImage: "/images/articles/rubber-hand-illusion-explained-body-ownership-brain.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-09-27", // TODO: set actual publish date before merging
+  readTime: 7,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Psychology", "Neuroscience", "Cognitive Science", "Body Ownership", "Explainers"], // TODO: verify tag casing against your live tag taxonomy array
+  content: `
+<p class="lead">The rubber hand illusion is a classic psychology experiment where a person watches a fake hand being stroked in sync with their own hidden real hand, and within about a minute their brain starts treating the fake hand as part of their body. It sounds like a magic trick, but it's a well-replicated demonstration of how the brain builds the feeling of "this is my body" from moment-to-moment sensory evidence rather than fixed certainty.</p>
+
+<h2>What The Rubber Hand Illusion Actually Shows</h2>
+<p>The illusion shows that a sense of body ownership is not automatic or fixed. It's constructed live by the brain, and it can be redirected onto an object that isn't part of the body at all if the sensory evidence lines up convincingly enough.</p>
+<p><span class="source-badge">Source: Botvinick & Cohen, "Rubber Hands 'Feel' Touch That Eyes See," Nature, 1998</span> Psychologists Matthew Botvinick and Jonathan Cohen first published the effect in Nature in 1998. Participants watched a rubber hand being stroked with a paintbrush while their own hidden hand was stroked at the same time and in the same spot, and most began to feel the touch as coming from the rubber hand itself.</p>
+
+<h2>The Setup: How Scientists Trigger It In A Lab</h2>
+<p>The classic version places a realistic rubber hand on a table in front of a participant, positioned where a real hand would naturally rest. A screen hides the participant's actual hand from view, and an experimenter strokes both hands with identical paintbrush movements, matched in timing and location.</p>
+<p>Ownership typically kicks in within one to two minutes of synchronous stroking, though some participants report it in under 30 seconds. The moment the stroking becomes asynchronous, touching the rubber hand and the real hand at different times or spots, the illusion collapses almost immediately, which is what lets researchers prove synchrony itself is doing the work rather than suggestion alone.</p>
+
+<h2>Proprioceptive Drift: The Measurable Proof It Isn't Just A Feeling</h2>
+<p>Subjective reports are useful but easy to dismiss as suggestion, so researchers built an objective test. Before and after the stroking, participants point to where they believe their hidden real hand is located without looking at it.</p>
+<p><span class="source-badge">Source: Tsakiris & Haggard, "The Rubber Hand Illusion Revisited," Journal of Experimental Psychology: Human Perception and Performance, 2005</span> After a successful illusion, that pointing estimate shifts measurably toward the rubber hand's actual position, a phenomenon called proprioceptive drift. The size of the drift tracks how strong the reported illusion is, and it reliably shows up after synchronous stroking but not after asynchronous stroking, which rules out simple guesswork.</p>
+
+<h2>Inside The Brain: What Brain Scans Show Happening</h2>
+<p><span class="source-badge">Source: Ehrsson, Spence & Passingham, "That's My Hand! Activity in Premotor Cortex Reflects Feeling of Ownership of a Limb," Science, 2004</span> Neuroscientist Henrik Ehrsson and colleagues scanned participants' brains during the illusion using fMRI in 2004. Ownership of the rubber hand tracked with increased activity in the premotor cortex, a brain region normally involved in planning movement rather than storing static body maps.</p>
+<p>The strength of each participant's illusion correlated directly with how much premotor and cerebellar activity the scan picked up. That finding suggests the felt sense of "this belongs to me" is generated where the brain plans and predicts bodily action, not in a separate module dedicated purely to body recognition. Related work on <a href="https://www.curiosityfields.com/article/left-brain-right-brain-myth-neuroscience">how specific brain regions actually divide up cognitive labor</a> tells a similar story: ownership isn't localized the way popular accounts of the brain often assume.</p>
+
+<h2>Why Synchrony Is Everything: The Multisensory Rule Behind The Trick</h2>
+<p>The illusion depends on the brain resolving a conflict between three sensory channels at once: vision showing touch on the rubber hand, touch felt on the real hidden hand, and proprioception reporting where the real hand actually is. When the timing and location of the visual and tactile signals match closely enough, the brain's most efficient explanation is that they share one source, and it reassigns ownership accordingly rather than treating them as two separate events.</p>
+<p>This kind of trade-off shows up elsewhere in how perception gets built from incomplete or conflicting signals, similar in spirit to how <a href="https://www.curiosityfields.com/article/blindsight-explained-cortically-blind-vision-science">the brain can act on visual information a person insists they cannot consciously see</a>. In both cases, the brain commits to a working model of reality before that model is fully verified, then corrects course only when better evidence arrives.</p>
+
+<h2>From Lab Curiosity To Prosthetics And Pain Research</h2>
+<p><span class="source-badge">Source: Ehrsson et al., "Upper Limb Amputees Can Be Induced to Experience a Rubber Hand as Their Own," Brain, 2008</span> In 2008, Ehrsson's team showed the illusion also works on upper-limb amputees, who reported the rubber hand felt like their own missing limb under the same synchronous stroking setup. That result matters directly for prosthetic design, since <a href="https://www.curiosityfields.com/article/brain-chips-paralysis-movement-restoration">restoring a working relationship between the brain and a replacement limb</a> depends partly on getting the brain to accept the device as genuinely part of the body, not just a tool strapped to it.</p>
+<p>The same paradigm has been adapted to study conditions where body ownership misfires on its own, without any rubber hand involved, including <a href="https://www.curiosityfields.com/article/alien-hand-syndrome-real-causes-types-treatment">disorders where a person's own limb starts feeling like it belongs to someone else</a>. Comparing an experimentally induced illusion with a naturally occurring one gives researchers a rare way to study the same malfunction from two directions at once.</p>
+
+<h2>What The Illusion Reveals About The Feeling Of Self</h2>
+<p>The rubber hand illusion is often introduced as a party trick, but its real significance is what it says about the brain's default assumptions. The sense of owning a body isn't verified against some fixed internal record of what a person's hand looks like; it's inferred fresh, moment to moment, from whichever sensory evidence currently fits together best.</p>
+<p>That inference process runs constantly and mostly invisibly, the same way <a href="https://www.curiosityfields.com/article/why-walking-through-doorways-makes-you-forget">the brain quietly resets its working model of a situation</a> when the surrounding context changes. Body ownership just happens to be one of the few places where researchers can deliberately hijack that process with nothing more than two paintbrushes and a fake hand.</p>
+
+<h2>Conclusion</h2>
+<p>A rubber hand becoming "yours" in under two minutes isn't a parlor trick so much as a demonstration of how provisional the feeling of embodiment really is. The brain isn't checking a fixed record of what belongs to it; it's running a constant, correctable best guess built from vision, touch, and position sense. That same mechanism now informs how engineers design prosthetics and how clinicians study disorders where the feeling of ownership breaks down on its own.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How long does the rubber hand illusion take to work?</h3>
+<p>Most participants report the illusion setting in within one to two minutes of synchronous stroking, and some feel it in under 30 seconds. It fades within tens of seconds once the stroking stops.</p>
+
+<h3>Does the rubber hand illusion work on everyone?</h3>
+<p>Most people experience some version of it, though the strength varies from person to person. It reliably fails under asynchronous stroking, which is the control condition researchers use to confirm synchrony is what drives the effect.</p>
+
+<h3>What is proprioceptive drift?</h3>
+<p>It's the measurable shift in where a person believes their hidden real hand is located, moving toward the rubber hand's actual position after the illusion takes hold. Researchers use it as an objective stand-in for the subjective feeling of ownership.</p>
+
+<h3>Can the rubber hand illusion cause a real physical reaction?</h3>
+<p>Yes. Threatening the rubber hand with a needle or knife after the illusion is induced produces measurable skin conductance changes and anxiety-related brain activity, the same physiological signature seen when a real hand is threatened.</p>
+
+<h3>Does this illusion have real medical applications?</h3>
+<p>It has informed prosthetic design by showing what sensory conditions help a device feel like part of the body, and it has been adapted to study disorders involving disrupted body ownership.</p>
+
+<h3>What part of the brain creates the illusion?</h3>
+<p>Brain imaging links it most closely to the premotor cortex, along with the intraparietal cortex and cerebellum, regions involved in planning movement and integrating multiple senses rather than a single dedicated "body recognition" area.</p>
+`,
+},
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
