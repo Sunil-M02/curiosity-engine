@@ -52,17 +52,35 @@ const CategoryPage = () => {
       <div className="container content-rail py-10 sm:py-12 lg:py-20">
         <Breadcrumbs items={[{ label: 'Categories', href: '/categories' }, { label: info.name }]} />
 
-        <motion.header initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }} className="mb-12 lg:mb-14">
-          <div className="inline-block w-12 h-1.5 rounded-full mb-5" style={{ backgroundColor: info.color }} />
-          <h1 className="font-display text-4xl sm:text-5xl font-semibold text-foreground mb-4">{info.name}</h1>
-          <p className="text-muted-foreground text-lg max-w-3xl leading-relaxed">{info.description}</p>
-          <div className="mt-5 flex items-center gap-6 text-sm text-muted-foreground">
-            <span>{articles.length} articles</span><span>{clusters.length} knowledge hubs</span>
-          </div>
-        </motion.header>
+        <section className="relative mb-14 lg:mb-16 overflow-hidden rounded-[2rem] border border-border/50 bg-card/30">
+          {featuredClusterArticle && (
+            <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
+              <OptimizedImage
+                src={featuredClusterArticle.coverImage}
+                alt=""
+                category={featuredClusterArticle.category}
+                articleTitle={featuredClusterArticle.title}
+                lazy={false}
+                className="w-full h-full object-cover opacity-20 blur-[1px] scale-105"
+                sizes="100vw"
+              />
+              <div className="absolute inset-0 bg-[linear-gradient(180deg,hsl(222_47%_6%_/_0.72)_0%,hsl(222_47%_6%_/_0.88)_52%,hsl(222_47%_6%_/_0.98)_100%)]" />
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_18%,hsl(38_92%_55%_/_0.10),transparent_34%)]" />
+            </div>
+          )}
+
+          <div className="relative p-6 sm:p-8 lg:p-10">
+            <motion.header initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }} className="mb-10 lg:mb-12">
+              <div className="inline-block w-12 h-1.5 rounded-full mb-5" style={{ backgroundColor: info.color }} />
+              <h1 className="font-display text-4xl sm:text-5xl font-semibold text-foreground mb-4">{info.name}</h1>
+              <p className="text-muted-foreground text-lg max-w-3xl leading-relaxed">{info.description}</p>
+              <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
+                <span>{articles.length} articles</span><span>{clusters.length} knowledge hubs</span>
+              </div>
+            </motion.header>
 
         {featuredCluster && featuredClusterArticle && (
-          <section className="mb-14 lg:mb-16" aria-labelledby="featured-topic-heading">
+          <section aria-labelledby="featured-topic-heading">
             <div className="flex items-end justify-between gap-4 mb-6">
               <div><p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary mb-2">Start here</p><h2 id="featured-topic-heading" className="font-display text-2xl sm:text-3xl font-semibold">{featuredCluster.name}</h2></div>
               <Link to={`/topics/${featuredCluster.slug}`} className="inline-flex items-center gap-2 text-sm text-primary">Explore hub <ArrowRight className="w-4 h-4" /></Link>
@@ -81,6 +99,8 @@ const CategoryPage = () => {
             </Link>
           </section>
         )}
+          </div>
+        </section>
 
         {clusters.length > 0 && (
           <section className="mb-14 lg:mb-16" aria-labelledby="topic-clusters-heading">
