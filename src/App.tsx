@@ -8,8 +8,8 @@ import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import CategoryPage from "./pages/CategoryPage";
 import CategoriesPage from "./pages/CategoriesPage";
+import GuidesPage from "./pages/GuidesPage";
 import ArticlePage from "./pages/ArticlePage";
-// AuthorPage removed - brand-led editorial model (no individual authors)
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ContactThankYouPage from "./pages/ContactThankYouPage";
@@ -22,7 +22,6 @@ import { SmoothScroll } from "./components/effects/SmoothScroll";
 
 const queryClient = new QueryClient();
 
-// 301-style client redirect for legacy /category/:slug -> /categories/:slug
 const CategoryRedirect = () => {
   const { slug } = useParams<{ slug: string }>();
   return <Navigate to={`/categories/${slug}`} replace />;
@@ -39,19 +38,11 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/categories" element={<CategoriesPage />} />
+            <Route path="/guides" element={<GuidesPage />} />
             <Route path="/categories/:slug" element={<CategoryPage />} />
-            {/* Legacy redirect: /category/:slug -> /categories/:slug */}
             <Route path="/category/:slug" element={<CategoryRedirect />} />
             <Route path="/article/:slug" element={<ArticlePage />} />
-            <Route
-              path="/topics/:slug"
-              element={
-                <Suspense fallback={<div className="container content-rail py-20" aria-hidden="true" />}>
-                  <TopicClusterPage />
-                </Suspense>
-              }
-            />
-            {/* Author routes removed - brand-led editorial model */}
+            <Route path="/topics/:slug" element={<Suspense fallback={<div className="container content-rail py-20" aria-hidden="true" />}><TopicClusterPage /></Suspense>} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/contact/thank-you" element={<ContactThankYouPage />} />
