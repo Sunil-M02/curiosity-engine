@@ -85,7 +85,10 @@ export function Header() {
                       <ChevronDown className="w-4 h-4" />
                     </button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent align="center" className="w-48">
+                  <DropdownMenuContent align="center" className="w-56">
+                    <DropdownMenuItem asChild>
+                      <Link to="/guides" className="w-full font-medium">Knowledge Hubs</Link>
+                    </DropdownMenuItem>
                     {categories.map((category) => (
                       <DropdownMenuItem key={category} asChild>
                         <Link to={`/categories/${category}`} className="w-full">
@@ -184,7 +187,15 @@ export function Header() {
                 ))}
 
                 <div className="mt-4 pt-4 border-t border-border/50">
-                  <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2 px-4">Topics</p>
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2 px-4">Explore</p>
+                  <Link
+                    to="/guides"
+                    style={{ fontSize: '18px', padding: '14px 16px' }}
+                    className="block rounded-lg text-primary font-medium hover:bg-secondary/60 transition-colors"
+                  >
+                    Knowledge Hubs
+                  </Link>
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground mt-4 mb-2 px-4">Categories</p>
                   {categories.map((category) => (
                     <Link
                       key={category}
