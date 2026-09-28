@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { categoryInfo, type Category } from '@/data/articles';
+import { getTopicClustersByCategory } from '@/data/topicClusters';
 import { useRef, useCallback } from 'react';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { SectionHeading } from '@/components/home/SectionHeading';
@@ -11,6 +12,7 @@ const categories = Object.keys(categoryInfo) as Category[];
 // 3D Topic Card component
 function TopicCard({ category, index }: { category: Category; index: number }) {
   const info = categoryInfo[category];
+  const keyClusters = getTopicClustersByCategory(category).slice(0, 2);
   const isMobile = useIsMobile();
   const cardRef = useRef<HTMLDivElement>(null);
   
@@ -75,6 +77,19 @@ function TopicCard({ category, index }: { category: Category; index: number }) {
           {info.description}
         </p>
         
+        {keyClusters.length > 0 && (
+          <div className="mb-5 flex flex-wrap gap-2" aria-label="Key topics">
+            {keyClusters.map((cluster) => (
+              <span
+                key={cluster.slug}
+                className="rounded-full border border-border/60 bg-background/40 px-2.5 py-1 text-[11px] font-medium text-muted-foreground"
+              >
+                {cluster.name}
+              </span>
+            ))}
+          </div>
+        )}
+
         <span className="inline-flex items-center gap-2 text-primary text-sm font-semibold">
           Explore articles
           <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />

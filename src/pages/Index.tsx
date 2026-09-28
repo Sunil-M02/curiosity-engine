@@ -5,6 +5,10 @@ import { FeaturedSection } from "@/components/home/FeaturedSection";
 import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { LatestArticles } from "@/components/home/LatestArticles";
 import { Newsletter } from "@/components/home/Newsletter";
+import { lazy, Suspense } from "react";
+
+// Keep the cluster guide below the fold in a separate chunk so it does not compete with LCP.
+const FeaturedTopicGuide = lazy(() => import("@/components/home/FeaturedTopicGuide").then((m) => ({ default: m.FeaturedTopicGuide })));
 
 const Index = () => {
   const jsonLd = {
@@ -45,6 +49,9 @@ const Index = () => {
       <div className="space-y-20">
         <FeaturedSection />
         <CategoryGrid />
+        <Suspense fallback={null}>
+          <FeaturedTopicGuide />
+        </Suspense>
         <LatestArticles />
         <Newsletter />
       </div>
