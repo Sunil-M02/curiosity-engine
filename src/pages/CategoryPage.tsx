@@ -8,6 +8,7 @@ import { ArticleCard } from '@/components/articles/ArticleCard';
 import { getArticlesByCategory, categoryInfo, type Category } from '@/data/articles';
 import { getTopicClustersByCategory, getClusterFeaturedArticle } from '@/data/topicClusters';
 import { TopicClusterCard } from '@/components/topics/TopicClusterCard';
+import { OptimizedImage } from '@/components/ui/OptimizedImage';
 
 const CategoryPage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -133,12 +134,13 @@ const CategoryPage = () => {
               className="group grid grid-cols-1 md:grid-cols-[0.85fr_1.15fr] overflow-hidden rounded-2xl border border-border/50 bg-card/70 hover:border-primary/35 transition-[border-color,background-color] duration-300"
             >
               <div className="relative aspect-[16/9] md:aspect-auto min-h-[230px] overflow-hidden">
-                <img
+                <OptimizedImage
                   src={featuredClusterArticle.coverImage}
                   alt={featuredClusterArticle.title}
-                  loading="lazy"
-                  decoding="async"
+                  articleTitle={featuredClusterArticle.title}
+                  category={featuredClusterArticle.category}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                  sizes="(max-width: 768px) 100vw, 40vw"
                 />
               </div>
               <div className="p-6 sm:p-8 lg:p-10 flex flex-col justify-center">
