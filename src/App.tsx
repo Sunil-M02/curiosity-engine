@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -15,6 +16,8 @@ import ContactThankYouPage from "./pages/ContactThankYouPage";
 import TermsPage from "./pages/TermsPage";
 import WriteForUsPage from "./pages/WriteForUsPage";
 import NotFound from "./pages/NotFound";
+
+const TopicClusterPage = lazy(() => import("./pages/TopicClusterPage"));
 import { SmoothScroll } from "./components/effects/SmoothScroll";
 
 const queryClient = new QueryClient();
@@ -40,6 +43,14 @@ const App = () => (
             {/* Legacy redirect: /category/:slug -> /categories/:slug */}
             <Route path="/category/:slug" element={<CategoryRedirect />} />
             <Route path="/article/:slug" element={<ArticlePage />} />
+            <Route
+              path="/topics/:slug"
+              element={
+                <Suspense fallback={<div className="container content-rail py-20" aria-hidden="true" />}>
+                  <TopicClusterPage />
+                </Suspense>
+              }
+            />
             {/* Author routes removed - brand-led editorial model */}
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
