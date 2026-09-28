@@ -3,98 +3,83 @@ import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { categoryInfo, type Category } from '@/data/articles';
 import { getTopicClustersByCategory } from '@/data/topicClusters';
+import { getTopicClusterIcon } from '@/data/topicClusterIcons';
 import { useRef, useCallback } from 'react';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { SectionHeading } from '@/components/home/SectionHeading';
 
 const categories = Object.keys(categoryInfo) as Category[];
 
-// 3D Topic Card component
 function TopicCard({ category, index }: { category: Category; index: number }) {
   const info = categoryInfo[category];
   const keyClusters = getTopicClustersByCategory(category).slice(0, 2);
   const isMobile = useIsMobile();
   const cardRef = useRef<HTMLDivElement>(null);
-  
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const springConfig = { damping: 25, stiffness: 300 };
-  const rotateX = useSpring(useTransform(y, [-0.5, 0.5], [5, -5]), springConfig);
-  const rotateY = useSpring(useTransform(x, [-0.5, 0.5], [-5, 5]), springConfig);
-  
+  const rotateX = useSpring(useTransform(y, [-0.5, 0.5], [4, -4]), springConfig);
+  const rotateY = useSpring(useTransform(x, [-0.5, 0.5], [-4, 4]), springConfig);
+
   const handleMouseMove = useCallback((event: React.MouseEvent<HTMLDivElement>) => {
     if (isMobile || !cardRef.current) return;
     const rect = cardRef.current.getBoundingClientRect();
-    const centerX = rect.left + rect.width / 2;
-    const centerY = rect.top + rect.height / 2;
-    x.set((event.clientX - centerX) / rect.width);
-    y.set((event.clientY - centerY) / rect.height);
+    x.set((event.clientX - (rect.left + rect.width / 2)) / rect.width);
+    y.set((event.clientY - (rect.top + rect.height / 2)) / rect.height);
   }, [isMobile, x, y]);
-  
-  const handleMouseLeave = useCallback(() => {
-    x.set(0);
-    y.set(0);
-  }, [x, y]);
-  
-  const prefersReducedMotion = typeof window !== 'undefined' 
-    && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  
+
+  const handleMouseLeave = useCallback(() => { x.set(0); y.set(0); }, [x, y]);
+  const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const enable3D = !isMobile && !prefersReducedMotion;
-  
+
   return (
     <motion.div
       ref={cardRef}
-      initial={{ opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
+      transition={{ duration: 0.45, delay: index * 0.08 }}
       style={enable3D ? { rotateX, rotateY, transformStyle: 'preserve-3d', perspective: 1000 } : undefined}
       onMouseMove={enable3D ? handleMouseMove : undefined}
       onMouseLeave={enable3D ? handleMouseLeave : undefined}
     >
-      <Link
-        to={`/categories/${category}`}
-        className="group block p-6 lg:p-7 rounded-2xl bg-card/90 border border-border/70 transition-all duration-300 hover:-translate-y-1.5 hover:border-primary/50 hover:shadow-[0_0_40px_hsl(var(--primary)/0.25)] backdrop-blur-sm"
+      <div
+        className="p-6 lg:p-7 rounded-2xl bg-card/90 border border-border/70 backdrop-blur-sm"
+        style={{ borderTopColor: info.color, borderTopWidth: '2px' }}
       >
-        <div
-          className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-all duration-300 group-hover:scale-110"
-          style={{ backgroundColor: `${info.color}25` }}
-        >
-          <div
-            className="w-7 h-7 rounded-lg transition-all duration-300 group-hover:shadow-[0_0_20px_var(--category-color)]"
-            style={{ 
-              backgroundColor: info.color,
-              ['--category-color' as string]: info.color,
-            }}
-          />
-        </div>
-        
-        <h3 className="font-display text-xl lg:text-2xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors duration-200">
-          {info.name}
-        </h3>
-        
-        <p className="text-muted-foreground text-sm mb-5 line-clamp-2 leading-relaxed">
-          {info.description}
-        </p>
-        
+        <Link to={`/categories/${category}`} className="group block">
+          <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-5" style={{ backgroundColor: `${info.color}20` }}>
+            <span className="w-6 h-6 rounded-lg" style={{ backgroundColor: info.color }} />
+          </div>
+          <h3 className="font-display text-xl lg:text-2xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+            {info.name}
+          </h3>
+          <p className="text-muted-foreground text-sm mb-5 line-clamp-2 leading-relaxed">{info.description}</p>
+        </Link>
+
         {keyClusters.length > 0 && (
-          <div className="mb-5 flex flex-wrap gap-2" aria-label="Key topics">
-            {keyClusters.map((cluster) => (
-              <span
-                key={cluster.slug}
-                className="rounded-full border border-border/60 bg-background/40 px-2.5 py-1 text-[11px] font-medium text-muted-foreground"
-              >
-                {cluster.name}
-              </span>
-            ))}
+          <div className="mb-5 space-y-2" aria-label={`${info.name} knowledge hubs`}>
+            {keyClusters.map((cluster) => {
+              const Icon = getTopicClusterIcon(cluster.slug);
+              return (
+                <Link
+                  key={cluster.slug}
+                  to={`/topics/${cluster.slug}`}
+                  className="flex items-center gap-2 rounded-lg border border-border/60 bg-background/30 px-3 py-2 text-xs text-muted-foreground hover:text-foreground hover:border-primary/35 transition-colors"
+                >
+                  <Icon className="w-3.5 h-3.5 shrink-0" style={{ color: info.color }} aria-hidden="true" />
+                  <span className="truncate">{cluster.name}</span>
+                  <ArrowRight className="w-3.5 h-3.5 ml-auto shrink-0" aria-hidden="true" />
+                </Link>
+              );
+            })}
           </div>
         )}
 
-        <span className="inline-flex items-center gap-2 text-primary text-sm font-semibold">
-          Explore articles
-          <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
-        </span>
-      </Link>
+        <Link to={`/categories/${category}`} className="inline-flex items-center gap-2 text-primary text-sm font-semibold">
+          Explore category <ArrowRight className="w-4 h-4" />
+        </Link>
+      </div>
     </motion.div>
   );
 }
@@ -102,26 +87,23 @@ function TopicCard({ category, index }: { category: Category; index: number }) {
 export function CategoryGrid() {
   return (
     <section className="py-14 lg:py-20 relative overflow-hidden">
-      {/* Distinct section background with stronger separation */}
       <div className="absolute inset-0 bg-gradient-to-br from-card via-secondary/50 to-card pointer-events-none" />
-      {/* Top border accent */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
-      {/* Bottom border accent */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
-      {/* Subtle ambient glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
-      
+
       <div className="container content-rail relative z-10">
         <SectionHeading
-          eyebrow="Knowledge Hubs"
+          eyebrow="Explore"
           title="Explore by Topic"
-          description="Curated deep-dives into the subjects that fuel curiosity."
+          description="Choose a broad subject, or jump directly into a connected knowledge hub."
         />
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
-          {categories.map((category, index) => (
-            <TopicCard key={category} category={category} index={index} />
-          ))}
+          {categories.map((category, index) => <TopicCard key={category} category={category} index={index} />)}
+        </div>
+        <div className="mt-8 text-center">
+          <Link to="/guides" className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline underline-offset-4">
+            Explore all knowledge hubs <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </div>
     </section>
