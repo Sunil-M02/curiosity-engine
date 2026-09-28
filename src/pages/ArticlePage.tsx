@@ -13,6 +13,7 @@ import { Button } from '@/components/ui/button';
 import { getArticleBySlug, getRelatedArticles, categoryInfo } from '@/data/articles';
 import { OptimizedImage } from '@/components/ui/OptimizedImage';
 import { buildArticleToc } from '@/lib/article-toc';
+import { getArticleCluster } from '@/data/topicClusters';
 
 const ArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -82,6 +83,7 @@ const ArticlePage = () => {
 
   const relatedArticles = getRelatedArticles(article);
   const categoryColor = categoryInfo[article.category].color;
+  const articleCluster = getArticleCluster(article);
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -158,7 +160,7 @@ const ArticlePage = () => {
               ]}
             />
 
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex flex-wrap items-center gap-3 mb-6">
               <Link
                 to={`/categories/${article.category}`}
                 className="px-3 py-1 rounded-full text-sm font-medium transition-opacity hover:opacity-80"
@@ -170,6 +172,14 @@ const ArticlePage = () => {
                 <Clock className="w-4 h-4" />
                 {article.readTime} min read
               </span>
+              {articleCluster && (
+                <Link
+                  to={`/topics/${articleCluster.slug}`}
+                  className="text-xs font-medium text-primary hover:underline underline-offset-4"
+                >
+                  Part of: {articleCluster.name}
+                </Link>
+              )}
             </div>
 
             <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground leading-tight mb-6">
