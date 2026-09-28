@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
@@ -12,13 +12,16 @@ import { OptimizedImage } from '@/components/ui/OptimizedImage';
 
 const CategoryPage = () => {
   const { slug } = useParams<{ slug: string }>();
+  const [searchParams] = useSearchParams();
+  const showAll = searchParams.get('view') === 'all';
   const category = slug as Category;
   const info = categoryInfo[category];
   const articles = getArticlesByCategory(category);
   const clusters = getTopicClustersByCategory(category);
   const featuredCluster = clusters[0];
   const featuredClusterArticle = featuredCluster ? getClusterFeaturedArticle(featuredCluster) : undefined;
-  const latestArticles = [...articles].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).slice(0, 6);
+  const latestArticles = [...articles].sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+  const visibleArticles = showAll ? latestArticles : latestArticles.slice(0, 6);
 
   if (!info) {
     return <Layout><div className="container content-rail py-20 text-center"><h1 className="font-display text-4xl font-semibold mb-4">Category Not Found</h1><Link to="/" className="text-primary hover:underline">Return to Homepage</Link></div></Layout>;
@@ -98,9 +101,9 @@ const CategoryPage = () => {
             <span className="text-xs text-muted-foreground">{articles.length} total</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {latestArticles.map((article, index) => <ArticleCard key={article.id} article={article} index={index} />)}
+            {visibleArticles.map((article, index) => <ArticleCard key={article.id} article={article} index={index} />)}
           </div>
-          {articles.length > latestArticles.length && (
+          {!showAll && articles.length > visibleArticles.length && (
             <div className="mt-8 text-center">
               <Link to={`/categories/${category}?view=all`} className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline underline-offset-4">
                 View all {info.name} articles <ArrowRight className="w-4 h-4" />
