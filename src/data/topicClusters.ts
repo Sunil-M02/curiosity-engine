@@ -276,8 +276,17 @@ export const getClusterArticles = (cluster: TopicClusterDefinition): Article[] =
   const keywords = cluster.keywords.map(normalize);
   return articles.filter((article) => {
     if (article.category !== cluster.category) return false;
+
+    // Prefer explicit article tags. Title/excerpt matching is a fallback for
+    // descriptive phrases, while short/generic terms are never substring-matched.
     const tags = article.tags.map(normalize);
-    return tags.some((tag) => keywords.some((keyword) => tag === keyword || tag.includes(keyword) || keyword.includes(tag)));
+    const searchableText = normalize(`${article.title} ${article.excerpt}`);
+
+    return keywords.some((keyword) => {
+      if (tags.includes(keyword)) return true;
+      if (keyword.length < 5) return false;
+      return searchableText.includes(keyword);
+    });
   });
 };
 
