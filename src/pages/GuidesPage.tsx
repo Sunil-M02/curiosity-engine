@@ -22,14 +22,22 @@ const GuidesPage = () => {
       <div className="container content-rail py-12 lg:py-20">
         <Breadcrumbs items={[{ label: 'Knowledge Hubs' }]} />
 
-        <header className="text-center max-w-3xl mx-auto mb-14 lg:mb-18">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary mb-3">Follow connected ideas</p>
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold text-foreground mb-5">
-            Explore Knowledge Hubs
-          </h1>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Start with a broad guide, understand the core idea, and then go deeper through related articles.
-          </p>
+        <header className="max-w-4xl mx-auto mb-14 lg:mb-18">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 border-b border-border/60 pb-8">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary mb-3">Follow connected ideas</p>
+              <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-semibold text-foreground mb-4">
+                Knowledge Hubs
+              </h1>
+              <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl">
+                Start with a connected subject, build the core understanding, and then follow the ideas deeper.
+              </p>
+            </div>
+            <div className="shrink-0 rounded-xl border border-border/60 bg-card/50 px-4 py-3 text-sm text-muted-foreground">
+              <span className="block text-foreground font-semibold">{clusters.length} hubs</span>
+              <span>{categories.length} topics</span>
+            </div>
+          </div>
         </header>
 
         <div className="space-y-16">
@@ -42,11 +50,14 @@ const GuidesPage = () => {
                 <div className="flex items-end justify-between gap-4 mb-6">
                   <div>
                     <p className="text-xs uppercase tracking-[0.2em] mb-2" style={{ color: categoryInfo[category].color }}>
-                      {categoryInfo[category].name}
+                      Topic
                     </p>
-                    <h2 id={`${category}-hubs`} className="font-display text-2xl sm:text-3xl font-semibold text-foreground">
-                      Knowledge Hubs
-                    </h2>
+                    <div className="flex items-center gap-3">
+                      <h2 id={`${category}-hubs`} className="font-display text-2xl sm:text-3xl font-semibold text-foreground">
+                        {categoryInfo[category].name}
+                      </h2>
+                      <span className="text-xs text-muted-foreground">{categoryClusters.length} hubs</span>
+                    </div>
                   </div>
                   <Link to={`/categories/${category}`} className="hidden sm:inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary">
                     Explore category <ArrowRight className="w-4 h-4" />
