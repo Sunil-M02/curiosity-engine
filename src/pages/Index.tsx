@@ -48,10 +48,10 @@ const Index = () => {
       <Hero />
       <div className="space-y-20">
         <FeaturedSection />
-        <CategoryGrid />
         <Suspense fallback={null}>
           <FeaturedTopicGuide />
         </Suspense>
+        <CategoryGrid />
         <LatestArticles />
         <Newsletter />
       </div>
