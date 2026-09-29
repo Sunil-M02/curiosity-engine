@@ -16,7 +16,7 @@ export function Hero() {
   const featuredColor = heroArticle ? categoryInfo[heroArticle.category].color : '#D4A843';
 
   return (
-    <section className="relative min-h-[80vh] flex items-center overflow-hidden">
+    <section className="relative min-h-[68vh] lg:min-h-[72vh] flex items-center overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-card via-background to-background" />
 
@@ -49,7 +49,7 @@ export function Hero() {
         }}
       />
 
-      <div className="container content-rail relative z-10 py-20 lg:py-28">
+      <div className="container content-rail relative z-10 py-16 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* LEFT — copy */}
           <motion.div
@@ -81,23 +81,16 @@ export function Hero() {
             </h1>
 
             <p className="text-muted-foreground text-lg lg:text-xl max-w-xl mb-10 leading-relaxed">
-              From quantum breakthroughs to distant galaxies, we turn complex
-              ideas into stories that expand how you think.
+              From quantum breakthroughs to distant galaxies, we turn complex ideas into clear, evidence-led stories that expand how you think.
             </p>
 
-            <div className="flex items-center gap-6">
+            <div className="flex items-center">
               <Link
                 to="/categories"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground text-sm font-semibold transition-all duration-200 hover:bg-primary/90 hover:gap-3"
               >
                 Explore Topics
                 <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link
-                to="#featured"
-                className="text-sm text-foreground/70 hover:text-foreground transition-colors border-b border-foreground/30 hover:border-foreground pb-1"
-              >
-                Read featured
               </Link>
             </div>
           </motion.div>
