@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useEffect, useMemo, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, BookOpen, Calendar, Clock, Share2, Sparkles } from 'lucide-react';
+import { ArrowRight, Calendar, Clock, Share2 } from 'lucide-react';
 import { format } from 'date-fns';
 import { Layout } from '@/components/layout/Layout';
 import { SEO } from '@/components/seo/SEO';
@@ -280,33 +280,6 @@ const ArticlePage = () => {
               </div>
             </div>
 
-            {/* Quick orientation */}
-            <div className="article-orientation mt-8 rounded-2xl border border-border/60 bg-card/90 backdrop-blur-sm p-5 sm:p-6 shadow-[0_12px_40px_hsl(222_47%_0%_/_0.28)]">
-              <div className="flex items-center gap-2 mb-3">
-                <Sparkles className="w-4 h-4 text-primary" />
-                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary">
-                  At a glance
-                </p>
-              </div>
-              <p className="text-base sm:text-lg leading-relaxed text-foreground/90">
-                {article.excerpt}
-              </p>
-              <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-muted-foreground">
-                <span className="inline-flex items-center gap-2">
-                  <BookOpen className="w-4 h-4 text-primary" />
-                  {article.readTime} min read
-                </span>
-                {articleContent.tocItems.length > 0 && (
-                  <a
-                    href="#article-content"
-                    className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
-                  >
-                    See what's covered
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </a>
-                )}
-              </div>
-            </div>
           </motion.div>
         </div>
 
