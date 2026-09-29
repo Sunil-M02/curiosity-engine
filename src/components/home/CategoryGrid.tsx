@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { categoryInfo, type Category } from '@/data/articles';
 import { getTopicClustersByCategory } from '@/data/topicClusters';
-import { getTopicClusterIcon } from '@/data/topicClusterIcons';
 import { SectionHeading } from '@/components/home/SectionHeading';
 
 const categories = Object.keys(categoryInfo) as Category[];
