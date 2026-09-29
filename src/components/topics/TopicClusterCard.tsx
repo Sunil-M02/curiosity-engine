@@ -48,7 +48,7 @@ export function TopicClusterCard({ cluster, href, compact = false }: TopicCluste
 
       <div className="mt-4 flex items-center justify-between gap-3 text-xs font-medium text-muted-foreground">
         <span>{cluster.articles.length} {cluster.articles.length === 1 ? 'article' : 'articles'}</span>
-        <span className="text-primary opacity-0 group-hover:opacity-100 transition-opacity">Explore</span>
+        <span className="text-primary">Explore hub</span>
       </div>
     </Link>
   );
