@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useEffect, useMemo, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Clock, Calendar, Share2 } from 'lucide-react';
+import { ArrowRight, BookOpen, Calendar, Clock, Share2, Sparkles } from 'lucide-react';
 import { format } from 'date-fns';
 import { Layout } from '@/components/layout/Layout';
 import { SEO } from '@/components/seo/SEO';
@@ -133,7 +133,7 @@ const ArticlePage = () => {
 
       <article>
         {/* Hero Section */}
-        <div className="relative h-[50vh] lg:h-[70vh] overflow-hidden">
+        <div className="relative h-[42vh] min-h-[320px] lg:h-[58vh] lg:min-h-[520px] overflow-hidden">
           <OptimizedImage
             src={article.coverImage}
             alt={article.title}
@@ -146,12 +146,12 @@ const ArticlePage = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
         </div>
 
-        <div className="container content-rail relative -mt-40 lg:-mt-60 z-10">
+        <div className="container content-rail relative -mt-28 sm:-mt-36 lg:-mt-48 z-10">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-4xl mx-auto"
+            className="max-w-5xl mx-auto"
           >
             <Breadcrumbs
               items={[
@@ -279,18 +279,46 @@ const ArticlePage = () => {
                 </Button>
               </div>
             </div>
+
+            {/* Quick orientation */}
+            <div className="article-orientation mt-8 rounded-2xl border border-border/60 bg-card/90 backdrop-blur-sm p-5 sm:p-6 shadow-[0_12px_40px_hsl(222_47%_0%_/_0.28)]">
+              <div className="flex items-center gap-2 mb-3">
+                <Sparkles className="w-4 h-4 text-primary" />
+                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary">
+                  At a glance
+                </p>
+              </div>
+              <p className="text-base sm:text-lg leading-relaxed text-foreground/90">
+                {article.excerpt}
+              </p>
+              <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-muted-foreground">
+                <span className="inline-flex items-center gap-2">
+                  <BookOpen className="w-4 h-4 text-primary" />
+                  {article.readTime} min read
+                </span>
+                {articleContent.tocItems.length > 0 && (
+                  <a
+                    href="#article-content"
+                    className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
+                  >
+                    See what's covered
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </a>
+                )}
+              </div>
+            </div>
           </motion.div>
         </div>
 
         {/* Article Content */}
-        <div className="container content-rail py-12">
+        <div id="article-content" className="container content-rail py-14 lg:py-20 scroll-mt-24">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className={showToc ? 'max-w-6xl mx-auto' : 'max-w-3xl mx-auto'}
+            className={showToc ? 'max-w-7xl mx-auto' : 'max-w-3xl mx-auto'}
           >
-            <div className={showToc ? 'xl:grid xl:grid-cols-[220px_minmax(0,1fr)] xl:gap-12 xl:items-start' : ''}>
+            <div className={showToc ? 'xl:grid xl:grid-cols-[220px_minmax(0,720px)] xl:gap-14 xl:items-start xl:justify-center' : ''}>
               {showToc && <TableOfContents items={articleContent.tocItems} className="mb-8 xl:mb-0" />}
 
               <div className="min-w-0">
@@ -341,21 +369,57 @@ const ArticlePage = () => {
           </motion.div>
         </div>
 
-        {/* Related Articles */}
-        {relatedArticles.length > 0 && (
-          <section className="bg-card/30 py-16 lg:py-24">
-            <div className="container content-rail">
-              <h2 className="font-display text-2xl lg:text-3xl font-semibold text-foreground mb-8">
-                Related Articles
-              </h2>
+        {/* Continue Exploring */}
+        <section className="border-t border-border/60 bg-card/20 py-16 lg:py-24">
+          <div className="container content-rail">
+            <div className="max-w-7xl mx-auto">
+              {articleCluster && (
+                <Link
+                  to={`/topics/${articleCluster.slug}`}
+                  className="group mb-10 block rounded-2xl border border-primary/20 bg-primary/5 p-6 sm:p-8 transition-colors hover:border-primary/40"
+                >
+                  <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-primary mb-2">
+                        Continue with this Knowledge Hub
+                      </p>
+                      <h2 className="font-display text-2xl lg:text-3xl font-semibold text-foreground">
+                        {articleCluster.name}
+                      </h2>
+                      <p className="mt-2 max-w-2xl text-muted-foreground">
+                        Explore connected articles that build a broader understanding of this topic.
+                      </p>
+                    </div>
+                    <span className="inline-flex shrink-0 items-center gap-2 text-sm font-semibold text-primary">
+                      Explore hub
+                      <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                    </span>
+                  </div>
+                </Link>
+              )}
+
+              {relatedArticles.length > 0 && (
+                <>
+                  <div className="flex items-end justify-between gap-4 mb-8">
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground mb-2">
+                        Keep exploring
+                      </p>
+                      <h2 className="font-display text-2xl lg:text-3xl font-semibold text-foreground">
+                        Related Articles
+                      </h2>
+                    </div>
+                  </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
                 {relatedArticles.map((article, index) => (
                   <ArticleCard key={article.id} article={article} index={index} />
                 ))}
-              </div>
+                  </div>
+                </>
+              )}
             </div>
-          </section>
-        )}
+          </div>
+        </section>
       </article>
     </Layout>
   );
