@@ -43,7 +43,8 @@ const TopicClusterPage = () => {
   const category = categoryInfo[cluster.category];
   const Icon = getTopicClusterIcon(cluster.slug);
   const relatedClusters = getActiveTopicClusters().filter((item) => item.category === cluster.category && item.slug !== cluster.slug).slice(0, 4);
-  const keyIdeas = Array.from(new Map(cluster.keywords.map((keyword) => [keyword.toLowerCase(), keyword])).values()).slice(0, 6);
+  const keyIdeas = Array.from(new Map(cluster.keywords.map((keyword) => [keyword.toLowerCase(), keyword])).values());
+  const keyIdeasGridCols = keyIdeas.length <= 4 ? 'grid-cols-1' : keyIdeas.length <= 8 ? 'grid-cols-1 sm:grid-cols-2' : keyIdeas.length <= 12 ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4';
   const baseUrl = 'https://www.curiosityfields.com';
 
   return (
@@ -94,7 +95,7 @@ const TopicClusterPage = () => {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary mb-2">Knowledge Hub</p>
             <h2 id="cluster-learn-heading" className="font-display text-2xl sm:text-3xl font-semibold">Key Ideas</h2>
           </div>
-          <div className="max-w-5xl border-t border-border/50 grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10">
+          <div className={`max-w-6xl border-t border-border/50 grid ${keyIdeasGridCols} sm:gap-x-8 lg:gap-x-10`}>
             {keyIdeas.map((keyword) => (
               <div key={keyword} className="flex items-center gap-3 py-3.5 sm:py-4 border-b border-border/50 text-sm sm:text-base text-foreground/85">
                 <CheckCircle2 className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
