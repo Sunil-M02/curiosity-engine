@@ -9,6 +9,27 @@ import { getActiveTopicClusters, getClusterBySlug, getClusterFeaturedArticle } f
 import { categoryInfo } from '@/data/articles';
 import { getTopicClusterIcon } from '@/data/topicClusterIcons';
 
+const formatKeyIdea = (keyword: string) => {
+  const acronyms: Record<string, string> = {
+    ai: 'AI',
+    api: 'API',
+    gpt: 'GPT',
+    llm: 'LLM',
+    llms: 'LLMs',
+    seo: 'SEO',
+    geo: 'GEO',
+  };
+
+  return keyword
+    .trim()
+    .split(/\s+/)
+    .map((word) => {
+      const normalized = word.toLowerCase();
+      return acronyms[normalized] ?? (normalized.charAt(0).toUpperCase() + normalized.slice(1));
+    })
+    .join(' ');
+};
+
 const TopicClusterPage = () => {
   const { slug } = useParams<{ slug: string }>();
   const cluster = slug ? getClusterBySlug(slug) : undefined;
@@ -22,6 +43,7 @@ const TopicClusterPage = () => {
   const category = categoryInfo[cluster.category];
   const Icon = getTopicClusterIcon(cluster.slug);
   const relatedClusters = getActiveTopicClusters().filter((item) => item.category === cluster.category && item.slug !== cluster.slug).slice(0, 4);
+  const keyIdeas = Array.from(new Map(cluster.keywords.map((keyword) => [keyword.toLowerCase(), keyword])).values()).slice(0, 6);
   const baseUrl = 'https://www.curiosityfields.com';
 
   return (
@@ -67,16 +89,16 @@ const TopicClusterPage = () => {
           </section>
         )}
 
-        <section className="mb-14 lg:mb-18" aria-labelledby="cluster-learn-heading">
-          <div className="mb-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary mb-2">The ideas inside this hub</p>
-            <h2 id="cluster-learn-heading" className="font-display text-2xl sm:text-3xl font-semibold">Key ideas</h2>
+        <section className="mb-12 lg:mb-16" aria-labelledby="cluster-learn-heading">
+          <div className="mb-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary mb-2">Knowledge Hub</p>
+            <h2 id="cluster-learn-heading" className="font-display text-2xl sm:text-3xl font-semibold">Key Ideas</h2>
           </div>
-          <div className="max-w-4xl border-y border-border/50 divide-y divide-border/50">
-            {cluster.keywords.slice(0, 8).map((keyword) => (
-              <div key={keyword} className="flex items-center gap-3 py-4 text-sm sm:text-base text-foreground/85">
+          <div className="max-w-5xl border-t border-border/50 grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10">
+            {keyIdeas.map((keyword) => (
+              <div key={keyword} className="flex items-center gap-3 py-3.5 sm:py-4 border-b border-border/50 text-sm sm:text-base text-foreground/85">
                 <CheckCircle2 className="w-4 h-4 text-primary shrink-0" aria-hidden="true" />
-                <span>{keyword}</span>
+                <span>{formatKeyIdea(keyword)}</span>
               </div>
             ))}
           </div>
