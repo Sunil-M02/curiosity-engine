@@ -19282,7 +19282,7 @@ content: `
   readTime: 6,
   featured: false, // TODO: confirm
   editorsPick: false, // TODO: confirm
-  tags: ["Electric Vehicles", "Future Innovation", "Wireless Charging", "Infrastructure", "Explainers"], // TODO: verify tag casing against live tag taxonomy
+  tags: ["Electric Vehicles", "Future Innovation", "Wireless Charging", "Infrastructure", "Emerging Technologies"], // TODO: verify tag casing against live tag taxonomy
   content: `
 <p class="lead">Electric roads can charge vehicles while they drive, and pilots in Sweden, Germany and the United States have shown it works on public roads, on stretches from a few hundred meters to about two kilometers. Power reaches the vehicle through overhead wires, metal rails in the pavement, or copper coils buried under it. The physics works. The bill is the problem. In December 2024, Sweden's Transport Administration advised against a large national network after years of testing, because costs looked too high for the benefits. Electric roads are proven technology without proven economics.</p>
 
