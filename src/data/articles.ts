@@ -19268,8 +19268,6 @@ content: `
 `,
 },
 
-<<<<<<< HEAD
-=======
 {
   id: "electric-roads-charge-ev-while-driving-explained",
   slug: "electric-roads-charge-ev-while-driving-explained",
