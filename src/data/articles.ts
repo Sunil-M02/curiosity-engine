@@ -19268,6 +19268,159 @@ content: `
 `,
 },
 
+<<<<<<< HEAD
+=======
+{
+  id: "electric-roads-charge-ev-while-driving-explained",
+  slug: "electric-roads-charge-ev-while-driving-explained",
+  title: "Electric Roads Could Charge Vehicles While They Are Moving",
+  metaTitle: "Electric Roads: Can EVs Charge While Driving in 2026?",
+  excerpt: "Pilots in Detroit, Sweden and Germany prove power can reach a moving vehicle. The harder question is cost, standards and whether faster batteries make the whole idea unnecessary.",
+  metaDescription: "Electric roads can charge EVs while they drive. See how wireless charging roads work, what they cost per kilometer, and why Sweden paused its rollout.",
+  category: "future-innovation",
+  author: authors[0], // TODO CONFIRM: author not verified against live authors[] array
+  coverImage: "/images/articles/electric-roads-charge-ev.jpg", // TODO: create and upload
+  publishedAt: "2026-10-01", // TODO: set actual publish date before merging
+  readTime: 6,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Electric Vehicles", "Future Innovation", "Wireless Charging", "Infrastructure", "Explainers"], // TODO: verify tag casing against live tag taxonomy
+  content: `
+<p class="lead">Electric roads can charge vehicles while they drive, and pilots in Sweden, Germany and the United States have shown it works on public roads, on stretches from a few hundred meters to about two kilometers. Power reaches the vehicle through overhead wires, metal rails in the pavement, or copper coils buried under it. The physics works. The bill is the problem. In December 2024, Sweden's Transport Administration advised against a large national network after years of testing, because costs looked too high for the benefits. Electric roads are proven technology without proven economics.</p>
+
+<h2>Can An Electric Road Really Charge A Moving Vehicle?</h2>
+<p>Yes, on demonstration roads. Electric road systems (ERS) deliver power to a vehicle in motion, and equipped buses, trucks and cars have used them in Sweden, Germany and the United States. No country has built one at scale. A peer-reviewed cost analysis noted that ERS had only been tested on short tracks of around 2 kilometers.</p>
+<p><span class="source-badge">Source: "Large-scale implementation of electric road systems: Associated costs and the impact on CO2 emissions," Taylor and Francis Online, 2019</span> The appeal is a smaller battery. A truck or bus that collects power on the move carries fewer kilowatt-hours on board, which lowers vehicle cost and weight. Only vehicles with a compatible pickup or receiver draw power. Everyone else drives on an ordinary road.</p>
+
+<h2>How Do Electric Roads Send Power To A Moving Vehicle?</h2>
+<p>Three designs compete. Overhead lines work like a tram: a pantograph on the truck touches wires above the lane. Conductive rails sit in or on the pavement and energize one short segment at a time under an equipped vehicle. Inductive systems bury copper coils that create a magnetic field, and a receiver under the vehicle converts it to current.</p>
+<p>Power per vehicle separates them. Sweden's Transport Administration (Trafikverket) reported these figures in its 2021 assessment of the systems it tested:</p>
+<ul>
+<li>Overhead wires (Siemens eHighway): about 650 kW</li>
+<li>In-road rail (Elways): about 200 kW</li>
+<li>On-road rail (Elonroad): about 150 kW</li>
+<li>Inductive coils (Electreon): about 25 kW</li>
+</ul>
+<p>Those numbers decide who can use which system. A French ministry working group recommended around 400 kW for a 44-ton truck holding 90 km/h on a 2 percent grade. A 25 kW coil is well short of that, so inductive roads currently suit buses and cars better than heavy freight.</p>
+
+<h2>Where Are Electric Roads Already Operating?</h2>
+<p>In Detroit, the Michigan Department of Transportation and Electreon fitted a <a href="https://www.michigan.gov/mdot/travel/mobility/initiatives/wireless-charging-roadway" target="_blank" rel="noopener noreferrer">quarter-mile of 14th Street</a> with coils that charge equipped vehicles as they drive. In November 2024, the pilot added a UPS delivery step van built by Xos that charges en route, at static stops and overnight.</p>
+<p>Sweden tested 2 kilometers of overhead wire on the E16 from 2016 and a conductive rail near Arlanda airport from 2017 to 2019. A 2023 German test used a 200-meter strip of transmitters. A bus collected 64.3 percent of the power emitted, and installation proved complex and costly, according to a 2024 IEEE conference paper by Wendt and colleagues.</p>
+<p>Florida's Central Florida Expressway Authority planned a three-quarter-mile wireless pilot inside a 1.6-mile segment of State Road 516, with construction due to begin in 2026. Current construction status was not confirmed in the sources reviewed.</p>
+
+<h2>What Does An Electric Road Cost, And Why Did Sweden Pause?</h2>
+<p>Estimates vary widely. A 2021 study in Transportation Research Part C assumed about 2.5 million euros per kilometer of electric road, covering both directions. A <a href="https://iopscience.iop.org/article/10.1088/2634-4505/ad3576" target="_blank" rel="noopener noreferrer">literature review on IOPscience</a> put published figures at 1.1 to 1.65 million euros per kilometer and direction, plus roughly 2 percent of the investment each year for operation.</p>
+<p>Sweden hit the cost wall first. Trafikverket planned the country's first permanent electric road on the E20 between Hallsberg and Örebro, then paused procurement because the budget was not enough.</p>
+<p>In December 2024 it advised the government not to plan a large build-out, citing likely low utilization, a heavy-truck fleet that is partly international, and funding that did not fit the national plan.</p>
+<p>A <a href="https://www.sverigesradio.se/artikel/tvarstopp-for-sveriges-forsta-elvag-uppmanas-att-sluta-satsa" target="_blank" rel="noopener noreferrer">Swedish Radio report</a> confirmed the pause. The agency said it would wait for the next national plan, due in 2026. As of October 2026, no confirmed restart was found in the sources reviewed.</p>
+
+<h2>Do Faster Batteries Make Electric Roads Unnecessary?</h2>
+<p>Better batteries are the biggest rival. Advances such as <a href="https://www.curiosityfields.com/article/solid-state-battery-ev-real-timeline">solid-state cells</a> promise more range per kilogram, and a Trafikverket planner told Swedish media that fast battery progress had reduced the need for electric roads.</p>
+<p>Charging speed is rising too. <a href="https://electrek.co/2026/09/30/chinas-2250kw-chargers-are-already-in-service-while-us-thinks-about-750kw-next-year" target="_blank" rel="noopener noreferrer">Electrek reported on September 30, 2026</a> that Geely's 2.2-megawatt chargers are in service in five Chinese cities, and Geely says they can charge an EV in under five minutes. The power is shared by two heads, so each car draws a little over 1 MW.</p>
+<p>Cheaper chemistries such as <a href="https://www.curiosityfields.com/article/sodium-ion-battery-cost-parity-lithium-2026">sodium-ion batteries</a> narrow the gap further. An overview by the engineering consultancy WSP notes that simulated willingness to pay for electric roads falls over time, because the value of battery savings shrinks as batteries get cheaper.</p>
+
+<h2>What Would Have To Change For Electric Roads To Scale?</h2>
+<p>Electric roads need a shared standard, a cross-border market and a clear price per kilometer. The Swedish-German CollERS 2 project advised Sweden to pick one heavy-truck technology with several suppliers, coordinated with German and French decisions. Trafikverket's own analysis found a Swedish-only network hard to justify, which is why a larger market matters.</p>
+<p>Electric roads also compete with every other plan to <a href="https://www.curiosityfields.com/article/7-energy-sources-replace-oil-30-years">replace oil</a> in freight. The winner will be whichever option delivers the lowest cost per tonne-kilometer, and that comparison keeps moving as chargers and batteries improve.</p>
+<p>Hydrogen trucks face their own obstacle in <a href="https://www.curiosityfields.com/article/hydrogen-storage-bottleneck-explained">hydrogen storage</a>, so the freight decision is still open. The number to watch is utilization: how many equipped vehicles actually use pilot roads every day.</p>
+
+<h2>Conclusion</h2>
+<p>Electric roads are closer to a proven engineering concept than a proven business case. The pilots show that power can reach a moving vehicle, but the power levels, the costs and the rapid progress of batteries and chargers keep the case unsettled. The evidence to watch is not another short test strip. It is how many vehicles use a pilot road each day, and whether governments will share one standard across borders.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can electric cars charge while driving today?</h3>
+<p>Yes, but only on pilot roads and only with a compatible receiver or pickup fitted. No public network exists.</p>
+
+<h3>How much does an electric road cost per kilometer?</h3>
+<p>Published estimates run from about 1.1 to 2.5 million euros per kilometer, depending on direction and assumptions. Swedish procurement ran over budget.</p>
+
+<h3>Are wireless charging roads safe for pedestrians?</h3>
+<p>Designs energize only short segments under an approved vehicle, according to Electreon and the Michigan Department of Transportation. Independent long-term safety data from large networks does not yet exist.</p>
+
+<h3>Why did Sweden pause its electric road plans?</h3>
+<p>Trafikverket found the budget insufficient and later advised against a large build-out. It cited low expected utilization, funding limits and progress in batteries.</p>
+
+<h3>Do electric roads work for heavy trucks?</h3>
+<p>Overhead and rail systems deliver 150 to 650 kW per vehicle in Swedish tests. Inductive systems delivered about 25 kW, which is low for heavy freight.</p>
+`,
+},
+
+
+{
+  id: "mauryan-empire-administration-system-explained",
+  slug: "mauryan-empire-administration-system-explained",
+  title: "The Mauryan Empire Built One of Ancient India's Largest Administrative Systems",
+  metaTitle: "Mauryan Empire Administration: How It Really Worked",
+  excerpt: "Royal governors in regional centers, inspectors on five-year tours and boards running the capital. Here is which parts of Mauryan government the evidence truly supports, and which it does not.",
+  metaDescription: "How did the Mauryan Empire rule so much land? Compare Ashoka's edicts, Megasthenes and the Arthashastra to see what historians can actually prove today.",
+  category: "history",
+  author: authors[0], // TODO CONFIRM: author not verified against live authors[] array
+  coverImage: "/images/articles/mauryan-empire-administration-system.jpg", // TODO: create and upload
+  publishedAt: "2026-10-02", // TODO: set actual publish date before merging
+  readTime: 6,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Ancient India", "Mauryan Empire", "History", "Ashoka", "Explainers"], // TODO: verify tag casing against live tag taxonomy
+  content: `
+<p class="lead">The Mauryan Empire (c. 321 to 185 BCE) governed much of the Indian subcontinent from Pataliputra through royal governors in regional centers, traveling inspectors, district officers, city boards and state storehouses. That is what the surviving evidence supports, and it is less than popular retellings claim. Nobody has found a payroll, so the size of the system is inferred from its reach. The Arthashastra, often called the empire's rulebook, may be centuries younger than Chandragupta. The best evidence comes from three witnesses that disagree in tone: Ashoka's own edicts, a Greek ambassador's lost account, and administrative inscriptions.</p>
+
+<h2>How Was The Mauryan Empire Actually Governed?</h2>
+<p>From Pataliputra, near modern Patna, the Mauryan state ran a layered system. Ashoka's edicts name Taxila, Ujjain, Tosali and Suvarnagiri as bases of royal governors, and historians usually read them as provincial capitals. A prince, called a kumara, ruled each as the king's representative. Below them sat district and inspection officers.</p>
+<p>Scale is easier to show than to count. Edicts survive at sites as far apart as Kandahar in Afghanistan and Brahmagiri in Karnataka, and the population of Mauryan-era South Asia has been estimated at 15 to 30 million. No surviving document gives a headcount of officials, so "one of the largest" describes the territory managed, not a measured payroll.</p>
+
+<h2>What Do Ashoka's Edicts Reveal About Mauryan Officials?</h2>
+<p>Ashoka issued his edicts after the <a href="https://www.curiosityfields.com/article/ashoka-kalinga-war-peace-transformation">Kalinga war</a>, and parts of them read as administrative orders. In Rock Edict 3, he instructs the yuktas, rajjukas and pradesikas to go on inspection tours every five years. In Rock Edict 5, he says dhamma mahamattas were first appointed thirteen years after his coronation.</p>
+<p><span class="source-badge">Primary Source: Ashoka's Major Rock Edicts, translated by S. Dhammika</span> The edict adds that these officers worked among Greeks, Kambojas, Gandharas and other peoples on the western borders. The full text is available in the <a href="https://www.livius.org/sources/content/ashoka-s-rock-edicts/" target="_blank" rel="noopener noreferrer">Livius.org translation</a>.</p>
+<p>That gives historians a rare thing: an emperor describing his own bureaucracy. It also has limits. The translator notes that the exact duties of the yuktas, rajjukas and pradesikas are unknown.</p>
+
+<h2>What Did The Greek Ambassador Megasthenes Report?</h2>
+<p>Megasthenes, an envoy of Seleucus I, visited Chandragupta's court. His book Indica is lost, and later writers such as Strabo and Arrian preserved fragments. He described Pataliputra as a timber-walled city with 64 gates and 570 towers.</p>
+<p>He also reported a municipal commission of 30 officials in six boards of five, covering crafts, foreigners, births and deaths, trade, manufactured goods and sales tax. A parallel army commission had six boards for infantry, cavalry, chariots, elephants, the navy and supply.</p>
+<p><a href="https://www.curiosityfields.com/article/indus-valley-standardized-weights-before-coinage">Standardized weights</a> were not new to South Asia. Indus cities used them well over a thousand years earlier, so a board policing trade was plausibly building on an old commercial habit. Scholars caution that Indica survives only in quotations, and the attribution of some passages is disputed.</p>
+
+<h2>Why The Arthashastra Is Not A Mauryan Organization Chart</h2>
+<p>The Arthashastra, attributed to Kautilya or Chanakya, is a manual of statecraft, and modern scholarship doubts that it records Mauryan practice directly. Patrick Olivelle has argued for composition around 50 to 125 CE, with a further redaction around 300 CE, built on earlier treatises from the 2nd century BCE to the 1st century CE. R. P. Kangle defended a genuine Mauryan core.</p>
+<p>Many study guides still date the text to Chandragupta's reign, a pattern common enough to sit beside other <a href="https://www.curiosityfields.com/article/history-textbook-lies-myths-debunked">textbook myths</a>. The safer reading treats it as a picture of an ideal state, with departments, superintendents and inspection regimes.</p>
+<p>Where it matches the edicts or Megasthenes, as with inspectors and spies, it gains weight. Where it stands alone, it is evidence for ideas, not proof of Mauryan practice.</p>
+
+<h2>Did The Mauryan State Run Famine Relief?</h2>
+<p>Two inscriptions suggest state storage and relief. The Mahasthan stone inscription from Bangladesh, which most scholars consider Mauryan, orders a storehouse stocked with grain, oil, coins and cowrie shells to help distressed people. The stock is a snapshot of <a href="https://www.curiosityfields.com/article/history-of-money-barter-myth-debt-to-digital-currency">early money</a> in eastern India.</p>
+<p>The Sohgaura copper plate from Uttar Pradesh records an order from the mahamatras of Savatthi for two storehouses, with grain not to be withheld in drought. Scholars have dated it from pre-Ashokan to post-Mauryan times. If both are Mauryan, they show the same relief idea roughly 600 kilometers apart.</p>
+<p>Megasthenes claimed India had no famines, yet these records imply scarcity did happen. Foreign observers often saw a polished surface, which is another reason to weigh each source against the others.</p>
+
+<h2>What Can Historians Say With Confidence?</h2>
+<p>Each source supports a different layer, with its own limit:</p>
+<ul>
+<li>Ashoka's edicts (contemporary, self-reported): regional governors, five-year inspection tours, dhamma mahamattas. Limit: duties are not spelled out.</li>
+<li>Megasthenes (foreign eyewitness, fragmentary): Pataliputra's walls and city and army boards. Limit: survives only through later writers.</li>
+<li>Mahasthan and Sohgaura inscriptions: state storehouses and relief. Limit: dating and Mauryan attribution are debated.</li>
+<li>Arthashastra (later, idealized text): detailed departments and superintendents. Limit: date and link to Mauryan practice are contested.</li>
+</ul>
+<p>Overlaps raise confidence. Ashoka's edicts show officials inspecting districts, Megasthenes reports an extensive network of spies, and the Arthashastra gives surveillance heavy attention. Three different kinds of source point toward a state that watched its own officials, though none of them measures how well that worked.</p>
+
+<h2>Conclusion</h2>
+<p>The Mauryan administration was real, wide and layered, but it reaches us through uneven evidence, and that uncertainty is part of the story. Ashoka's edicts show governors and inspectors, Megasthenes shows a capital run by boards, and two inscriptions hint at state storehouses. The Arthashastra adds a richer picture that may belong to later centuries. The better question is not how big the bureaucracy was, but which parts of it can actually be documented.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Who founded the Mauryan Empire?</h3>
+<p>Chandragupta Maurya founded it around 321 BCE, taking Pataliputra from the Nanda dynasty of Magadha. Ashoka, his grandson, ruled from about 268 to 232 BCE.</p>
+
+<h3>What was the capital of the Mauryan Empire?</h3>
+<p>Pataliputra, near modern Patna in Bihar. Megasthenes described it as a large timber-walled city.</p>
+
+<h3>Who wrote the Arthashastra, and when?</h3>
+<p>Tradition credits Kautilya, also called Chanakya. Scholars disagree: Olivelle argues for roughly 50 to 125 CE with later revision, while Kangle defended a Mauryan-era core.</p>
+
+<h3>What were mahamattas in Ashoka's administration?</h3>
+<p>Mahamattas were high-ranking officers. Ashoka says he created dhamma mahamattas thirteen years after his coronation to work among all sects and border peoples.</p>
+
+<h3>How many provinces did the Mauryan Empire have?</h3>
+<p>The edicts name four regional centers: Taxila, Ujjain, Tosali and Suvarnagiri. Some accounts add Pataliputra as a fifth, so sources vary.</p>
+`,
+},
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
