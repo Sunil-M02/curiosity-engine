@@ -19355,7 +19355,7 @@ content: `
   category: "history",
   author: authors[0], // TODO CONFIRM: author not verified against live authors[] array
   coverImage: "/images/articles/mauryan-empire-administration-system.jpg", // TODO: create and upload
-  publishedAt: "2026-10-02", // TODO: set actual publish date before merging
+  publishedAt: "2026-10-01", // TODO: set actual publish date before merging
   readTime: 6,
   featured: false, // TODO: confirm
   editorsPick: false, // TODO: confirm
