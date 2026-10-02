@@ -19419,6 +19419,142 @@ content: `
 `,
 },
 
+{
+  id: "nasa-roman-space-telescope-22-year-lifespan",
+  slug: "nasa-roman-space-telescope-22-year-lifespan",
+  title: "NASA's New Space Telescope Could Keep Working for More Than Two Decades",
+  metaTitle: "Roman Space Telescope Could Last 22 Years, NASA Says", // 52 chars
+  excerpt: "A precise burn and a lighter-than-planned launch left NASA's Roman Space Telescope with fuel for at least 22 years. Here is how the math works, and what could still cut it short.",
+  metaDescription: "NASA says the Roman Space Telescope has fuel for 22 years, more than double the plan. See where the extra years came from and why fuel isn't lifespan.", // ~151 chars
+  category: "astronomy",
+  author: authors[0], // TODO CONFIRM: needs astronomy/science-desk author, not verified against live authors[] array
+  coverImage: "/images/articles/nasa-roman-space-telescope-22-year-lifespan.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-10-02", // TODO: set actual publish date before merging
+  readTime: 6,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Astronomy", "Space Telescopes", "NASA", "Dark Energy", "Space Science"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">NASA's Nancy Grace Roman Space Telescope now carries enough propellant for at least 22 years of potential science operations, more than double the 10 years it was designed around. NASA reported the figure on September 14, 2026, two weeks after Roman launched on a SpaceX Falcon Heavy. The gain comes from fuel, not new hardware: a nearly perfect first course correction, extra propellant loaded because the observatory launched light, and savings NASA still expects from its remaining maneuvers. Twenty-two years is a fuel ceiling, and a telescope can run short of other things first.</p>
+ 
+<h2>What Did NASA Actually Say About Roman's Lifespan?</h2>
+<p><span class="source-badge">Source: NASA Science, Roman mission blog, September 14, 2026</span> Roman was designed for a five-year primary mission plus a five-year extended mission, which gave it a 10-year fuel budget. Goddard Space Flight Center director Jamie Dunn said, "Roman has fuel for at least 22 years of potential science operations." Read the last three words carefully.</p>
+<p>NASA calls fuel the observatory's primary consumable resource, so every pound saved turns directly into possible observing time. The agency is describing potential years of operation. It is not promising that every other part of the spacecraft will last that long.</p>
+ 
+<h2>Where Do the Extra 12 Years Come From?</h2>
+<p>NASA's <a href="https://science.nasa.gov/blogs/roman/2026/09/14/fuel-savings-double-potential-lifetime-for-nasas-roman-mission/" target="_blank" rel="noopener noreferrer">accounting</a> has three pieces, each worth roughly four years on top of the original 10.</p>
+<ul>
+<li>First burn, August 31: executed with more than 99 percent accuracy, it used about 40 pounds (18 kilograms) of fuel against a 441-pound (200-kilogram) budget. That adds about four years.</li>
+<li>Extra fuel at launch: planners budgeted for a maximum mass of 21,605 pounds (9,800 kilograms), but Roman weighed 17,760 pounds (8,056 kilograms). The tanks were filled to capacity, adding about four years.</li>
+<li>Second burn and orbital insertion: expected to be small and cheap, adding about four more years if projections hold.</li>
+</ul>
+<p>Alison Rao, Roman's propulsion lead at NASA Goddard, explained the logic. Fuel is budgeted against a conservative maximum mass so the mission never comes up short. Because the real spacecraft came in lighter, the team could fill the tanks completely instead of loading only what the 10-year requirement needed.</p>
+<p>Timing matters too. Randy Kimble, Webb's integration, test and commissioning project scientist, wrote in 2021 that the earlier a mid-course correction is made, the less propellant it requires. Roman's first burn came the day after launch, so it was made about as early as practical.</p>
+<p>Now check the arithmetic. Two of the three gains are already banked. The last four years are a forecast, and as of NASA's September 14 update, the second burn and orbital insertion were still ahead.</p>
+ 
+<h2>Why Does Fuel Decide How Long Roman Can Work?</h2>
+<p>A one-way <a href="https://www.curiosityfields.com/article/mars-earth-communication-delay-explained">communication delay</a> of about five seconds will separate Roman from mission controllers once it reaches the Sun-Earth L2 point, roughly 1.5 million kilometers from Earth. NASA expects orbital insertion about 100 days after launch, around early December 2026.</p>
+<p>Nothing out there is free. A spacecraft near L2 needs small, regular thruster burns to hold its position, and for Roman those station-keeping burns come roughly every 28 days. Each one spends propellant, which is why fuel works as the clock on the mission.</p>
+ 
+<h2>Is 22 Years of Fuel the Same as 22 Years of Science?</h2>
+<p>No, and that gap is where the real uncertainty lives. Fuel says nothing about whether detectors, electronics, and moving parts keep working, or whether funding gets approved year after year. Hubble shows how much those factors matter. Astronauts made <a href="https://www.curiosityfields.com/article/astronaut-tools-spacewalk-engineering">spacewalks</a> to upgrade and repair it across five visits, and it still observes decades after its 1990 launch.</p>
+<p><span class="source-badge">Source: Technology.org and Popular Science reporting on the Roman announcement</span> Roman got a limited version of that option. Planners prioritized refueling early, so it carries a grapple fixture, reference points for a servicer's final approach, and a fuel port covered by blanketing with magnetic closures that a robot can open. No servicing spacecraft today can reach L2, and robotic servicing at that distance does not yet exist.</p>
+ 
+<h2>Is This the Same Windfall Webb Got?</h2>
+<p>The <a href="https://www.curiosityfields.com/article/james-webb-telescope-discoveries-changing-astronomy">James Webb Space Telescope</a> got a similar surprise in December 2021. After a precise Ariane 5 launch and efficient early corrections, <a href="https://science.nasa.gov/blogs/webb/2021/12/29/nasa-says-webbs-excess-fuel-likely-to-extend-its-lifetime-expectations" target="_blank" rel="noopener noreferrer">NASA said</a> Webb had propellant for significantly more than 10 years, and <a href="https://www.esa.int/Science_Exploration/Space_Science/Webb/One_year_ago_a_perfect_launch_for_the_James_Webb_Space_Telescope" target="_blank" rel="noopener noreferrer">ESA later described</a> enough fuel to keep it running for 20.</p>
+<p>Roman's version has a twist. Part of its gain comes from a lower launch mass, and unlike Webb, it was designed to be serviced in space. That does not make a refuel likely. It does keep open a door Webb does not have.</p>
+ 
+<h2>What Could Roman Do With the Extra Years?</h2>
+<p>Roman's headline goal is testing how <a href="https://www.curiosityfields.com/article/dark-energy-weakening-desi-evidence-explained">dark energy</a> drives the accelerating expansion of the universe. <a href="https://science.nasa.gov/mission/roman-space-telescope/" target="_blank" rel="noopener noreferrer">NASA says</a> its field of view is at least 100 times larger than Hubble's, and it could measure light from a billion galaxies over its lifetime. It will also hunt for exoplanets by the thousands.</p>
+<p><a href="https://www.curiosityfields.com/article/dark-matter-mystery-what-we-know">Dark matter</a> is the other major target, listed alongside dark energy and exoplanets among the questions Roman is meant to help settle. Because of <a href="https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-light-travel-time">light travel time</a>, each galaxy in those surveys appears as it was when its light left, so wide maps double as snapshots of different cosmic eras.</p>
+<p>More years should help most with surveys that watch for change, such as stellar explosions, because repeat visits to the same patch of sky show what brightens, fades, or moves. That is an inference from how those surveys work, not a NASA forecast.</p>
+ 
+<h2>Conclusion</h2>
+<p>Roman's 22 years is best read as a fuel gauge. Eight of the 12 added years are already banked, and the rest depends on a small second burn and a clean orbital insertion. After that, the limit shifts from propellant to hardware health, budgets, and whether anyone builds a servicer that can reach L2. The next real test arrives in early December, when Roman is due to settle into its orbit.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>When will Roman reach its final orbit?</h3>
+<p>NASA expects orbital insertion at L2 about 100 days after the August 30, 2026 launch, around early December. Once there, it needs station-keeping burns roughly every 28 days.</p>
+ 
+<h3>What happens when Roman runs out of fuel?</h3>
+<p>NASA describes fuel as Roman's primary consumable, and without station-keeping burns the observatory would be expected to drift from its operating orbit. That would end science observations unless a servicer arrived first.</p>
+ 
+<h3>How is Roman different from the Webb telescope?</h3>
+<p>Webb is built for deep, detailed looks at small patches of sky, while Roman is a survey telescope with a field of view at least 100 times larger than Hubble's. Roman is also designed to be serviceable in space, which Webb is not.</p>
+ 
+<h3>Who was Nancy Grace Roman?</h3>
+<p>She was NASA's first chief astronomer, known as the "Mother of Hubble" for her role in creating the Hubble Space Telescope. NASA named the observatory in her honor.</p>
+`,
+},
+ 
+{
+  id: "judging-own-mistakes-vs-others-actor-observer-bias",
+  slug: "judging-own-mistakes-vs-others-actor-observer-bias",
+  title: "People Judge Their Own Mistakes Differently From the Same Mistakes in Others",
+  metaTitle: "Why We Judge Our Own Mistakes Differently Than Others", // 53 chars
+  excerpt: "We do not simply excuse ourselves and blame everyone else. Experiments show people can be lenient or brutal with their own errors, and the swing depends on how close the mistake feels.",
+  metaDescription: "Why do we excuse our own mistakes but judge others, or the reverse? Actor-observer bias research shows the answer depends on how close the mistake feels.", // ~150 chars
+  category: "psychology-mind",
+  author: authors[0], // TODO CONFIRM: needs psychology/science-desk author, not verified against live authors[] array
+  coverImage: "/images/articles/judging-own-mistakes-vs-others-actor-observer-bias.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-10-02", // TODO: set actual publish date before merging
+  readTime: 6,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Psychology", "Cognitive Bias", "Self-Compassion", "Social Psychology", "Explainers"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">People judge their own mistakes from the inside and other people's mistakes from the outside, so the same error earns two different verdicts. The popular version says we always let ourselves off the hook. The evidence is messier. A meta-analysis of 173 studies found the classic excuse-yourself pattern is close to zero overall, and other experiments show people can be harsher on their own slips than on a stranger's. Which way the judgment tilts depends on what is being judged, who is judging, and how psychologically close the mistake feels.</p>
+ 
+<h2>What Is the Actor-Observer Asymmetry, and Does It Hold Up?</h2>
+<p>In 1971, Edward Jones and Richard Nisbett proposed that people explain their own behavior with the situation and other people's behavior with personality. You are late because traffic was terrible. A colleague is late because they are disorganized.</p>
+<p>That tidy story did not survive a large test. <a href="https://doi.org/10.1037/0033-2909.132.6.895" target="_blank" rel="noopener noreferrer">Bertram Malle's 2006 meta-analysis</a> of 173 studies in Psychological Bulletin found average effect sizes between d = -0.016 and d = 0.095, which is negligible. The asymmetry did appear for negative events (d = 0.241) and reversed for positive ones (d = -0.158). That valence split may reflect a self-serving tilt rather than a pure difference in perspective.</p>
+<p>Malle also found that the classic pattern showed up mainly under specific conditions, such as hypothetical events, highly idiosyncratic actors, intimate observers, or free-response explanations. In other words, the effect depends heavily on how a study is built, which is a reason to distrust the one-line version.</p>
+ 
+<h2>Why Do People Give Themselves Credit for Good Intentions?</h2>
+<p>Observers usually let <a href="https://www.curiosityfields.com/article/actions-speak-louder-than-words-psychology-study">actions speak louder</a> than intentions, and actors do the opposite. <a href="https://doi.org/10.1177/0146167203259932" target="_blank" rel="noopener noreferrer">Justin Kruger and Thomas Gilovich</a> found in 2004 that people gave themselves more credit for their intentions than they gave others for theirs. That difference led people to rate themselves more favorably than they rated others.</p>
+<p>A strong <a href="https://www.curiosityfields.com/article/why-certainty-feels-strongest-knowing-least">feeling of certainty</a> about your own motives is not proof you read them correctly. Still, a mistake you made while meaning well feels half-forgiven before you have thought about it. Someone else's identical mistake arrives with no such context.</p>
+<p>The <a href="https://www.curiosityfields.com/article/dunning-kruger-effect-confidence-psychology">Dunning-Kruger effect</a> adds a related caution: people with the weakest skills in an area often cannot see their own errors. The inside view is vivid, but it is not complete.</p>
+ 
+<h2>Is Going Easy on Ourselves an Effortful Choice?</h2>
+<p><span class="source-badge">Source: Valdesolo and DeSteno, Journal of Experimental Social Psychology, 2008</span> Piercarlo Valdesolo and David DeSteno tested this with moral hypocrisy. Participants who broke a fairness norm rated their own violation as significantly more fair than the same violation committed by someone else, a large effect (d = 0.95).</p>
+<p>Then the researchers added cognitive load, asking people to hold a string of digits in memory while they judged. The double standard disappeared. Under load, participants rated their own violation as unfair as the same act by another person, which suggests the leniency took deliberate mental work rather than being an automatic reaction.</p>
+<p><a href="https://www.curiosityfields.com/article/confirmation-bias-news-feed-psychology">Confirmation bias</a> likely helps keep such excuses alive, because once you decide your slip was an exception, you notice evidence that fits. The studies above did not test that link, so treat it as a plausible amplifier, not a finding.</p>
+ 
+<h2>Why Are People Sometimes Harsher on Themselves?</h2>
+<p>Because leniency is only half the picture. In 2018, Anna Bruk, Sabine Scholl, and Herbert Bless reported the <a href="https://doi.org/10.1037/pspa0000120" target="_blank" rel="noopener noreferrer">beautiful mess effect</a>. People judged showing vulnerability, a category that includes admitting a mistake or asking for help, more positively when someone else did it than when they did it themselves.</p>
+<p>Their explanation draws on construal level theory. In a vulnerable moment, your mental picture is concrete and dominated by what could go wrong. Watching someone else, the picture is more abstract, and the courage stands out. A 2022 follow-up found that higher self-compassion shrank the gap.</p>
+ 
+<h2>What Explains Both the Leniency and the Harshness?</h2>
+<p>Psychological distance offers a unifying idea. Think of a camera. Your own mistake is shot in close-up, where your intentions, circumstances, and fear of exposure fill the frame. Someone else's mistake is a wide shot, where mostly the outcome and the person fit. Which close-up details dominate decides whether you reach for an excuse or for dread.</p>
+<p>That is an interpretation that fits the findings above. No single experiment tests all of them together.</p>
+<p>The <a href="https://www.curiosityfields.com/article/sunk-cost-fallacy-psychology-failing-decisions">sunk cost fallacy</a> is a familiar example. A friend's failing project often looks obviously worth abandoning, while your own feels one more push from working.</p>
+<p><a href="https://doi.org/10.1177/0956797614535400" target="_blank" rel="noopener noreferrer">Igor Grossmann and Ethan Kross</a> tested a version of this called Solomon's paradox. Across three experiments with 693 participants, people reasoned more wisely about another person's problems than their own, showing more awareness of the limits of their knowledge, more openness to compromise, and more attention to other perspectives.</p>
+ 
+<h2>How Can You Judge Your Own Mistakes More Like an Outsider?</h2>
+<p>Self-distancing worked in those same experiments. When participants thought through their problem from a third-person perspective, the gap in wise reasoning disappeared. A common adaptation is to describe your mistake as if it happened to someone else, or to ask what you would tell a friend.</p>
+<p>Distance does not mean going easy. In four experiments, <a href="https://doi.org/10.1177/0146167212445599" target="_blank" rel="noopener noreferrer">Juliana Breines and Serena Chen</a> found that people who responded to failure with self-compassion were more motivated to improve than people given other responses, such as a self-esteem boost or positive distraction. The effect appeared across personal weaknesses, moral transgressions, and test performance.</p>
+<p>Limits apply. Many of these studies use hypothetical scenarios or short lab tasks, so how strongly the effects carry into daily life is not well established.</p>
+ 
+<h2>Conclusion</h2>
+<p>You are not simply easy or hard on yourself. You judge from wherever the evidence feels most vivid, and from inside your own head that means intentions, circumstances, and fear of exposure. The research points to changing the vantage point, then adding compassion so scrutiny leads to improvement instead of retreat. The next time a mistake replays in your head, try telling it in the third person first, then decide how you would respond if it belonged to someone you respect.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Is actor-observer bias the same as the fundamental attribution error?</h3>
+<p>Not exactly. The fundamental attribution error is the tendency to overweight personality when explaining other people's behavior, while actor-observer asymmetry compares how people explain their own behavior with how they explain others'.</p>
+ 
+<h3>Why am I harder on myself than on other people?</h3>
+<p>Your own mistake is usually represented in concrete, emotionally vivid detail, while someone else's is represented more abstractly. Studies of showing vulnerability found people judged their own displays more negatively than others', and self-compassion reduced that gap.</p>
+ 
+<h3>Is being harsh on yourself a good way to improve?</h3>
+<p>The evidence points the other way. In four experiments, people who responded to failure with self-compassion were more motivated to improve than those given a self-esteem boost or a distraction.</p>
+ 
+<h3>Does self-distancing really change how people reason about their own problems?</h3>
+<p>In three experiments with 693 participants, taking a third-person perspective eliminated the gap in wise reasoning between self and others. The studies measured reasoning, so they do not prove the same change in everyday behavior.</p>
+`,
+},
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
