@@ -1442,4 +1442,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/ai-scientist-self-driving-lab-experiments-explained</loc>
+  <lastmod>2026-10-03</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/quantum-error-correction-decoding-bottleneck-explained</loc>
+  <lastmod>2026-10-03</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
