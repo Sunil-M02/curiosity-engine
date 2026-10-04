@@ -19636,8 +19636,7 @@ content: `
   readTime: 7,
   featured: false, // TODO: confirm
   editorsPick: false, // TODO: confirm
-  tags: ["Quantum Computing", "Quantum Error Correction", "Computer Hardware", "Technology", "Explainers"    "Computing & Semiconductors",
-], // TODO: verify tag casing against live tag taxonomy array
+  tags: ["Quantum Computing", "Quantum Error Correction", "Computer Hardware", "Technology", "Explainers"], // TODO: verify tag casing against live tag taxonomy array
   content: `
 <p class="lead">The hardest problem in quantum computing is no longer only the qubits. In 2024, Google showed that adding qubits can shrink errors exponentially, but a classical computer must decode the error signals about every microsecond, or the backlog slows the machine exponentially. Qubit counts grab headlines, yet the classical electronics around them decide how fast a useful machine can run. That decoding loop, plus the wiring and heat needed to control thousands of qubits, now sets the pace. IBM, Riverlane, and IonQ are all racing to speed it up, under very different test conditions.</p>
  
@@ -19714,8 +19713,7 @@ content: `
       "hot springs",
       "Lassen Volcanic National Park",
       "astrobiology",
-        "Biology & Life",
-],
+    ],
     content: `
 <p>A newly described amoeba, <em>Incendiamoeba cascadensis</em>, divides in water as hot as 63°C (145°F). That is the highest temperature at which any eukaryote, a cell with a nucleus and internal compartments, has been shown to reproduce. Syracuse University researchers found it in an unremarkable stream in Lassen Volcanic National Park, California, and described it in <a href="https://doi.org/10.1016/j.cell.2026.08.043" target="_blank" rel="noopener noreferrer">Cell</a> on September 22, 2026.</p>
 <p>For decades, about 60°C looked like a wall for complex cells. This organism, nicknamed the fire amoeba, grew straight through it. It is smaller than a grain of sand, and it makes its living eating bacteria.</p>
@@ -19794,8 +19792,7 @@ content: `
     readTime: 6,
     featured: false,
     editorsPick: false,
-    tags: [ "Roman ruins", "drought archaeology", "parch marks", "cropmarks", "Aventicum", "Switzerland", "Constantine's Bridge", "aerial archaeology",    "Archaeology & Evidence",
-],
+    tags: [ "Roman ruins", "drought archaeology", "parch marks", "cropmarks", "Aventicum", "Switzerland", "Constantine's Bridge", "aerial archaeology",],
     content: `
 <p>Archaeologists in Switzerland are redrawing Roman maps after the country's hottest summer on record exposed buildings no one had charted. Drone photos of withered fields around Aventicum, the old Roman capital of Helvetia near today's Avenches, show thermal baths, houses, roads and a possible temple, <a href="https://www.arabnews.com/world/swiss-archeologists-redraw-roman-maps-following-drought-discovery-3003782" target="_blank" rel="noopener noreferrer">Reuters reported</a> on September 29, 2026. Vaud archaeologist Jordan Anastassov said they are the richest finds there in at least 50 years.</p>
 <p>Nothing was dug up. Heat changed how plants growing above the ruins behave, and the buried walls showed from the air. The clues are temporary, and some have already vanished, which is why the way they form matters as much as what they show.</p>
