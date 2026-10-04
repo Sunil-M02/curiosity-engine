@@ -57,7 +57,7 @@ export const topicClusterDefinitions: TopicClusterDefinition[] = [
     name: 'Computing & Semiconductors',
     description: 'The chips, processors, architectures, and computing systems behind modern technology.',
     category: 'technology',
-    keywords: ['semiconductor', 'chip', 'processor', 'cpu', 'gpu', 'quantum computing', 'computing'],
+    keywords: ['semiconductor', 'chip', 'processor', 'cpu', 'gpu', 'quantum computing', 'quantum error correction', 'error correction', 'decoding', 'computing'],
     priority: 100,
   },
   {
@@ -97,7 +97,7 @@ export const topicClusterDefinitions: TopicClusterDefinition[] = [
     name: 'Biology & Life',
     description: 'How living systems work, evolve, adapt, and interact with the world around them.',
     category: 'science',
-    keywords: ['biology', 'cell', 'genetics', 'gene', 'evolution', 'animal', 'life', 'organism'],
+    keywords: ['biology', 'cell', 'genetics', 'gene', 'evolution', 'animal', 'life', 'organism', 'amoeba', 'eukaryote', 'thermophile', 'thermophilic'],
     priority: 95,
   },
   {
@@ -137,7 +137,7 @@ export const topicClusterDefinitions: TopicClusterDefinition[] = [
     name: 'Archaeology & Evidence',
     description: 'What artifacts, excavations, and physical evidence reveal about the past.',
     category: 'history',
-    keywords: ['archaeology', 'archaeological', 'artifact', 'excavation', 'evidence', 'burial'],
+    keywords: ['archaeology', 'archaeological', 'artifact', 'excavation', 'evidence', 'burial', 'roman ruins', 'parch marks', 'cropmarks', 'aerial archaeology', 'Aventicum'],
     priority: 95,
   },
   {
