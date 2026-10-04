@@ -8,6 +8,7 @@ export interface TopicClusterDefinition {
   keywords: string[];
   priority: number;
   featured?: boolean;
+  articleSlugs?: string[];
 }
 
 export const topicClusterDefinitions: TopicClusterDefinition[] = [
@@ -59,6 +60,7 @@ export const topicClusterDefinitions: TopicClusterDefinition[] = [
     category: 'technology',
     keywords: ['semiconductor', 'chip', 'processor', 'cpu', 'gpu', 'quantum computing', 'quantum error correction', 'error correction', 'decoding', 'computing'],
     priority: 100,
+    articleSlugs: ['quantum-error-correction-decoding-bottleneck-explained'],
   },
   {
     slug: 'internet-digital-systems',
@@ -276,6 +278,7 @@ export const getClusterArticles = (cluster: TopicClusterDefinition): Article[] =
   const keywords = cluster.keywords.map(normalize);
   return articles.filter((article) => {
     if (article.category !== cluster.category) return false;
+    if (cluster.articleSlugs?.includes(article.slug)) return true;
 
     // Prefer explicit article tags. Title/excerpt matching is a fallback for
     // descriptive phrases, while short/generic terms are never substring-matched.
