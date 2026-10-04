@@ -19787,7 +19787,7 @@ content: `
     metaDescription: "Drought is exposing Roman baths, roads and a bridge in Europe. See how parch marks reveal buried ruins from the air and why the clues fade within weeks.",
     category: "history",
     author: authors[0],
-    coverImage: "image/articles/drought-roman-ruins-europe.jpg",
+    coverImage: "images/articles/drought-roman-ruins-europe.jpg",
     publishedAt: "2026-10-04",
     readTime: 6,
     featured: false,
