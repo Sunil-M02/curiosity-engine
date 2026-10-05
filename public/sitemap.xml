@@ -1466,4 +1466,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/space-station-robots-lab-experiments-commercial-stations</loc>
+  <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/incubation-effect-sleep-on-it-problem-solving-science</loc>
+  <lastmod>2026-10-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
