@@ -8160,7 +8160,7 @@ content: `
   category: "future-innovation", // CONFIRM casing vs live entries
   author: authors[0],
   publishedAt: "2026-07-07", // CONFIRM date
-  readTime: "7 min read",
+  readTime: 7,
   featured: false,
   tags: ["vertical farming", "hydroponics", "sustainable agriculture", "future innovation", "aeroponics"],
 },
@@ -8218,7 +8218,7 @@ content: `
   category: "technology", // CONFIRM casing vs live entries
   author: authors[0],
   publishedAt: "2026-07-07", // CONFIRM date
-  readTime: "6 min read",
+  readTime: 6,
   featured: false,
   tags: ["credit card security", "tokenization", "payment technology", "fintech", "EMVCo"],
 },
@@ -8384,7 +8384,7 @@ content: `
 },
 
   {
-  id: 0, // MANUAL: set to (current live max id + 1)
+  id: "auto-1",
   slug: "body-water-does-not-slosh-explained",
   title: "Your Body Is Mostly Water - So Why Doesn't It Slosh Around?",
   metaTitle: "Body Water: Why It Never Sloshes Around Inside You",
@@ -8867,7 +8867,7 @@ category: "artificial-intelligence",
 
   // ARTICLE 1 — Astronomy
 {
-  id: 0, // TODO Sunil: set to current array max + 1
+  id: "auto-2",
   slug: "neutron-star-black-hole-mass-limit",
   title: "The Exact Mass Where a Neutron Star Becomes a Black Hole",
   metaTitle: "Neutron Star to Black Hole: The Mass Limit Explained",
@@ -8949,7 +8949,7 @@ category: "artificial-intelligence",
  
 // ARTICLE 2 — Psychology & Mind
 {
-  id: 0, // TODO Sunil: set to current array max + 1
+  id: "auto-3",
   slug: "attractive-people-judged-smarter-halo-effect",
   title: "Attractive People Are Often Judged as Smarter Before They Even Speak",
   metaTitle: "Attractive People Are Judged Smarter: The Halo Effect",
@@ -9033,7 +9033,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0,
+  id: "auto-4",
   slug: "crying-movies-emotional-intelligence-science",
   title: "Crying at Films Is a Sign of High Emotional Intelligence, Not Weakness",
   metaTitle: "Why Crying at Movies Signals Emotional Intelligence",
@@ -9128,7 +9128,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0,
+  id: "auto-5",
   slug: "autonomous-weapons-ai-target-selection",
   title: "Weapons That Can Choose Their Own Targets Are No Longer Science Fiction",
   metaTitle: "Autonomous Weapons That Pick Targets: 2026 Reality",
@@ -9229,7 +9229,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0, // SET MANUALLY
+  id: "auto-6",
   slug: "aryabhata-earth-rotation-calculation",
   title: "The Astronomer Who Calculated Earth's Rotation More Than 1,500 Years Ago",
   metaTitle: "Aryabhata: The Astronomer Who Calculated Earth's Spin",
@@ -9342,7 +9342,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0, // SET MANUALLY
+  id: "auto-7",
   slug: "floating-cities-engineering-explained",
   title: "Floating Cities Could Become Humanity's Next Coastal Solution",
   metaTitle: "How Floating Cities Really Work, Engineering Explained",
@@ -9453,7 +9453,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-8",
   slug: "kavach-technology-indian-railways-safety",
   title: "The Technology That Keeps One of the World's Largest Railway Systems Moving Every Day",
   metaTitle: "How Kavach Technology Protects Indian Railways Daily",
@@ -9538,7 +9538,7 @@ category: "artificial-intelligence",
 // ---------- ARTICLE 2: Psychology & Mind ----------
 
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-9",
   slug: "illusion-of-explanatory-depth-explained",
   title: "The More You Know, the Harder It Becomes to Explain Simple Things",
   metaTitle: "Illusion of Explanatory Depth: Why Knowledge Backfires",
@@ -9618,7 +9618,7 @@ category: "artificial-intelligence",
   tags: ["Psychology", "Cognitive Bias", "Illusion of Explanatory Depth", "Curse of Knowledge", "Dunning-Kruger Effect"], // TODO: verify casing/taxonomy against live tags array
 },
   {
-  id: 999, // MANUAL: set against current array max
+  id: "auto-10",
   slug: "radio-telescope-reveals-hidden-galaxies-dust",
   title: "The Radio Telescope That Can See Galaxies Invisible to Optical Telescopes",
   metaTitle: "Radio Telescopes Reveal Galaxies Hidden From Optical", // 52 chars
@@ -9685,7 +9685,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 1000, // MANUAL: set against current array max
+  id: "auto-11",
   slug: "ai-accuracy-paradox-healthcare-risk",
   title: "A 99% Accurate AI Can Still Be Dangerous in Healthcare",
   metaTitle: "Why a 99% Accurate AI Can Fail in Healthcare", // 44 chars
@@ -9761,7 +9761,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set against current array max, no auto-increment
+  id: "auto-12",
   slug: "why-bees-build-hexagons-honeycomb-geometry",
   title: "Bees Solve Geometry Better Than Most Engineers Imagine",
   metaTitle: "Why Do Bees Build Hexagons? The Geometry Explained", // 50 chars
@@ -9843,7 +9843,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0, // TODO: set against current array max, no auto-increment
+  id: "auto-13",
   slug: "hydrogen-storage-bottleneck-explained",
   title: "Hydrogen Could Power the Future If Engineers Solve One Problem",
   metaTitle: "Hydrogen Storage Problem: Why Engineers Still Struggle", // 54 chars
@@ -9929,7 +9929,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-14",
   title: "The King Who Chose Peace After Winning One of History's Bloodiest Wars",
   slug: "ashoka-kalinga-war-peace-transformation",
   excerpt: "Ashoka won Kalinga, then dismantled his own war machine. His edicts reveal a ruler caught between remorse and cold political calculation.",
@@ -10006,7 +10006,7 @@ category: "artificial-intelligence",
 
   
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-15",
   title: "A Few Minutes of Cold Water Can Change Your Brain and Body",
   slug: "cold-water-immersion-brain-benefits",
   excerpt: "The dopamine spike everyone cites isn't the biggest hormonal shift cold water triggers. Here's what a 530 percent norepinephrine surge actually does.",
@@ -10086,7 +10086,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-16",
   title: "AI Doesn't Actually Think: Computational Thinking Does the Heavy Lifting",
   slug: "how-ai-thinking-actually-works",
   metaTitle: "Does AI Actually Think? Inside Its Real Computation",
@@ -10094,7 +10094,7 @@ category: "artificial-intelligence",
   excerpt: "New interpretability research shows AI models plan ahead and sometimes misreport their own reasoning. Here's what's actually happening under the hood.",
   category: "artificial-intelligence", // TODO: verify exact casing against live category array
   tags: ["AI Research", "Mechanistic Interpretability", "Machine Learning", "Anthropic"], // TODO: verify tag casing against live array
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-07-25", // TODO: set publish date
   coverImage: "/images/articles/how-ai-thinking-actually-works.jpg", // TODO: upload cover image using slug-based naming convention
   readTime: 6,
@@ -10167,7 +10167,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-17",
   title: "The Next Arms Race Isn't Just About Weapons: It's About Microchips",
   slug: "microchip-arms-race-global-power",
   metaTitle: "Microchip Arms Race: Why Chips Matter More Than Weapons",
@@ -10175,7 +10175,7 @@ category: "artificial-intelligence",
   excerpt: "A single Dutch company builds the only machine that can print the world's most advanced chips. That monopoly, not any weapon, may decide the next conflict.",
   category: "technology", // TODO: verify exact casing against live category array
   tags: ["Semiconductors", "Geopolitics", "National Security", "Chip Manufacturing"], // TODO: verify tag casing against live array
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-07-25", // TODO: set publish date
   coverImage: "/images/articles/microchip-arms-race-global-power.jpg", // TODO: upload cover image using slug-based naming convention
   readTime: 7,
@@ -10254,7 +10254,7 @@ category: "artificial-intelligence",
 // ARTICLE 1 — Astronomy
 // ============================================
 {
-  id: 0, // TODO: set to current max id in array + 1
+  id: "auto-18",
   title: "Astronauts Don't Carry Ordinary Tools: Here's What They Actually Use",
   slug: "astronaut-tools-spacewalk-engineering",
   category: "astronomy", // TODO: verify exact casing against live category array
@@ -10264,7 +10264,7 @@ category: "artificial-intelligence",
   metaDescription: "Astronaut tools fail instantly in vacuum without redesign. Discover why NASA rebuilds every drill, wrench, and glove from scratch just to survive space.",
   coverImage: "/images/articles/astronaut-tools-spacewalk-engineering.jpg", // TODO: upload cover image, slug-based naming
   publishedAt: "2026-07-26", // TODO: set actual publish date
-  authors: authors[0],
+  author: authors[0],
   readTime: 6,
   featured: false,
   content: `
@@ -10339,7 +10339,7 @@ category: "artificial-intelligence",
 // ARTICLE 2 — Future Innovation
 // ============================================
 {
-  id: 0, // TODO: set to current max id in array + 1
+  id: "auto-19",
   title: "Quantum Teleportation Is Real: Just Not the Way Science Fiction Promised",
   slug: "quantum-teleportation-explained-real-science",
   category: "future-innovation", // TODO: verify exact casing against live category array
@@ -10349,7 +10349,7 @@ category: "artificial-intelligence",
   metaDescription: "Quantum teleportation is real and proven on live Berlin commercial fiber in 2026, but it moves quantum data, not matter, and never breaks light speed.",
   coverImage: "/images/articles/quantum-teleportation-explained-real-science.jpg", // TODO: upload cover image, slug-based naming
   publishedAt: "2026-07-26", // TODO: set actual publish date
-  authors: authors[0],
+  author: authors[0],
   readTime: 6,
   featured: false,
   content: `
@@ -10418,7 +10418,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-20",
   title: "A Rainbow Never Exists Where You Think It Does",
   slug: "how-rainbows-form-optical-illusion",
   category: "science", // TODO: verify exact casing against live array
@@ -10426,7 +10426,7 @@ category: "artificial-intelligence",
   excerpt: "Every rainbow you've ever seen was built just for you: a private trick of light and geometry that vanishes the moment you take a step toward it.",
   metaTitle: "Why Rainbows Never Appear Where You Think They Are",
   metaDescription: "A rainbow isn't a place you can walk to. See the 42 degree optics behind why every viewer gets a private rainbow, and why chasing it never gets you closer.",
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-07-27", // TODO
   coverImage: "/images/articles/how-rainbows-form-optical-illusion.jpg", // TODO: upload, slug-based naming
   readTime: 7,
@@ -10502,7 +10502,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-21",
   title: "The Most Powerful Form of Persuasion Happens Without You Noticing",
   slug: "mere-exposure-effect-unconscious-persuasion",
   category: "psychology-mind", // TODO: verify exact casing against live array
@@ -10510,7 +10510,7 @@ category: "artificial-intelligence",
   excerpt: "Repetition doesn't argue you into anything. It just makes an idea feel familiar enough to stop questioning, and a 1980 experiment proved you don't even need to remember it to fall for it.",
   metaTitle: "Mere Exposure Effect: The Persuasion You Never Notice",
   metaDescription: "The mere exposure effect changes liking through repetition alone. See the 1980 study where people preferred images they couldn't even recall having seen.",
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-07-27", // TODO
   coverImage: "/images/articles/mere-exposure-effect-unconscious-persuasion.jpg", // TODO: upload, slug-based naming
   readTime: 6,
@@ -10587,12 +10587,12 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-22",
   title: "Gravity Was Described Centuries Before Newton Changed History",
   slug: "gravity-before-newton-history",
   category: "history", // TODO: verify exact casing against live array
   tags: ["Gravity", "Isaac Newton", "History of Science", "Ancient India"], // TODO: verify casing against live tag taxonomy
-  authors: authors[0],
+  author: authors[0],
   excerpt: "Long before Newton, Indian astronomers described gravity as attraction. What his 1687 law actually proved was something different, and more powerful.",
   metaTitle: "Gravity Was Described Centuries Before Newton Was Born",
   metaDescription: "Brahmagupta described gravity as attraction in 628 CE, centuries before Newton. Discover what his 1687 law actually proved that earlier scholars could not.",
@@ -10668,12 +10668,12 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-23",
   title: "The Internet's Most Critical Infrastructure Is Hidden Under the Ocean",
   slug: "undersea-internet-cables-carrying-global-data",
   category: "technology", // TODO: verify exact casing against live array
   tags: ["Internet Infrastructure", "Undersea Cables", "Telecommunications"], // TODO: verify casing against live tag taxonomy
-  authors: authors[0],
+  author: authors[0],
   excerpt: "The internet runs on glass fiber lying on the seafloor, maintained by a shrinking fleet of aging ships. Here's why almost nobody notices until one snaps.",
   metaTitle: "Undersea Internet Cables Carry 99% of World Data Now",
   metaDescription: "Roughly 600 fiber cables on the seafloor carry 99% of global internet traffic, yet fewer than 25 aging repair ships worldwide can fix one when it breaks.",
@@ -10749,13 +10749,13 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0,
+  id: "auto-24",
   title: "The Biggest Risk From AI Isn't Intelligence. It's Autonomy",
   slug: "ai-autonomy-risk-openai-hack",
   category: "artificial-intelligence",
   coverImage: "/images/articles/ai-autonomy-risk-openai-hack.jpg",
   tags: ["AI Safety", "AI Autonomy", "Agentic AI", "AI Regulation"],
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-07-29",
   readTime: 8,
   featured: false, 
@@ -10832,12 +10832,12 @@ category: "artificial-intelligence",
 // ============================================================
  
 {
-  id: 0,
+  id: "auto-25",
   title: "Scientists Are Racing to Build a Fusion Reactor That Produces More Energy Than It Consumes",
   slug: "fusion-reactor-net-energy-gain",
   category: "future-innovation",
   tags: ["Fusion Energy", "Clean Energy", "Nuclear Fusion", "Future Innovation"],
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-07-29",
   coverImage: "/images/articles/fusion-reactor-net-energy-gain.jpg",
   readTime: 8,
@@ -10917,7 +10917,7 @@ category: "artificial-intelligence",
   excerpt: "Satellites don't defy gravity. They're in permanent free fall, kept aloft only by enough sideways speed to keep missing the planet beneath them.",
   metaTitle: "Why Don't Satellites Fall? Orbital Physics Explained",
   metaDescription: "Satellites aren't gravity-free floaters. They're falling toward Earth every second, saved only by sideways speed fast enough to keep missing the ground.",
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-07-31",
   coverImage: "/images/articles/why-satellites-dont-fall-earth.jpg",
   readTime: 8,
@@ -11001,7 +11001,7 @@ category: "artificial-intelligence",
   excerpt: "Your amygdala can't tell a deadline from a predator. Here's the neuroscience behind why due dates trigger a full-body stress response.",
   metaTitle: "Deadline Stress Explained: Your Brain's Threat Alarm",
   metaDescription: "Deadlines trigger the same amygdala alarm as physical danger. Here is the 30-minute cortisol cascade behind deadline stress and how to slow it down fast.",
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-07-31",
   coverImage: "/images/articles/deadline-stress-brain-survival-response.jpg",
   readTime: 8,
@@ -11082,7 +11082,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-26",
   title: "The Tiny Organisms That Quietly Keep Earth Alive",
   slug: "ocean-bacteria-produce-earths-oxygen",
   category: "science", // TODO: verify exact casing against live array
@@ -11093,7 +11093,7 @@ category: "artificial-intelligence",
   coverImage: "/images/articles/ocean-bacteria-produce-earths-oxygen.jpg", // TODO: generate/upload, slug-based naming
   publishedAt: "2026-08-01", // TODO: set publish date
   readTime: 7,
-  authors: authors[0],
+  author: authors[0],
   featured: false,
   content: `
 <p>Most of the oxygen in your lungs right now did not come from a tree. A single strand of ocean bacteria called Prochlorococcus, invisible without a microscope, generates roughly one-fifth of Earth's entire oxygen supply.</p>
@@ -11164,7 +11164,7 @@ category: "artificial-intelligence",
 
 
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-27",
   title: "The Dark Web Hides Your Identity by Wrapping It in Layers Like an Onion",
   slug: "onion-routing-hides-identity-online",
   category: "technology", // TODO: verify exact casing against live array
@@ -11173,7 +11173,7 @@ category: "artificial-intelligence",
   metaTitle: "How Onion Routing Hides Your Identity, Layer by Layer", // 53 chars
   metaDescription: "Onion routing was built by the US Navy, not hackers. See how three encryption layers actually hide your identity online, and where they can still fail.", // 151 chars
   coverImage: "/images/articles/onion-routing-hides-identity-online.jpg", // TODO: generate/upload, slug-based naming
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-08-01", // TODO: set publish date
   readTime: 6,
   featured: false,
@@ -11244,7 +11244,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-28",
   title: "Ancient Engineers Moved Stones Weighing Hundreds of Tons Without Modern Machines",
   slug: "how-ancient-engineers-moved-massive-stone-blocks",
   excerpt: "Three ancient civilizations independently solved the same transport problem using nothing but sand, rope, and leverage. Here is the physics behind it, verified by 2014 and 2025 research.",
@@ -11319,7 +11319,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-29",
   title: "Humanoid Robots Are Leaving the Lab. What Happens When They Enter the Workplace?",
   slug: "humanoid-robots-in-the-workplace-2026",
   excerpt: "Behind the viral robot demos is a smaller, stranger reality: a handful of humanoid robots doing real, narrow, supervised work while safety rules race to catch up.",
@@ -11396,7 +11396,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-30",
   title: "The Hardest Problem in AI May Be Teaching Machines to Know When They Don't Know",
   slug: "why-ai-cant-tell-you-when-it-doesnt-know",
   category: "artificial-intelligence", // TODO: verify exact casing against live array
@@ -11404,7 +11404,7 @@ category: "artificial-intelligence",
   excerpt: "OpenAI just proved something counterintuitive: a language model that never hallucinates mathematically cannot be well calibrated. Here's why 'I don't know' is the hardest sentence in AI.",
   metaTitle: "The Hardest Problem in AI: Teaching Machines Doubt", // 50 chars
   metaDescription: "A 2025 OpenAI paper proved hallucination-free AI models can't be calibrated. Here is why teaching machines genuine uncertainty is harder than teaching facts.", // 154 chars
-  authors: authors[1],
+  author: authors[1],
   publishedAt: "2026-08-04", // TODO: set publish date
   coverImage: "/images/articles/why-ai-cant-tell-you-when-it-doesnt-know.jpg", // TODO: generate/upload, slug-based naming
   readTime: 8,
@@ -11484,7 +11484,7 @@ category: "artificial-intelligence",
 },
 
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-31",
   title: "Losing $100 Feels More Powerful Than Winning $100",
   slug: "why-losing-money-hurts-more-than-winning",
   category: "psychology-mind", // TODO: verify exact casing against live array
@@ -11492,7 +11492,7 @@ category: "artificial-intelligence",
   excerpt: "Kahneman and Tversky's most famous finding says losses hurt about twice as much as equal gains feel good. Brain scans reveal it's not fear driving that gap, and the exact ratio is now contested.",
   metaTitle: "Why Losing $100 Feels Worse Than Winning $100 Does", // 50 chars
   metaDescription: "Kahneman and Tversky found losses feel about twice as powerful as equal gains. Here is the brain science behind loss aversion and its contested 2.25 ratio.", // 155 chars
-  authors: authors[0],
+  author: authors[0],
   publishedAt: "2026-08-04", // TODO: set publish date
   coverImage: "/images/articles/why-losing-money-hurts-more-than-winning.jpg", // TODO: generate/upload, slug-based naming
   readTime: 8,
@@ -11571,7 +11571,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-32",
   title: "The Oldest Light in the Universe Is Still Passing Through Your Body",
   slug: "cosmic-microwave-background-oldest-light-explained",
   category: "astronomy", // TODO: verify casing against live array
@@ -11581,7 +11581,7 @@ category: "artificial-intelligence",
   metaDescription: "Discover the cosmic microwave background, the oldest light in the universe. Explore its discovery, its physics, and why it still surrounds Earth today.",
   coverImage: "/images/articles/cosmic-microwave-background-oldest-light-explained.jpg", // TODO: confirm slug-based filename exists in /public/images
   publishedAt: "2026-08-05", // TODO: set actual publish date
-  authors: authors[0],  
+  author: authors[0],  
   readTime: 7,
   featured: false,  
   content: `
@@ -11650,7 +11650,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-33",
   title: "GPS Satellites Need Einstein's Relativity for Your Maps to Work Correctly",
   slug: "gps-relativity-einstein-atomic-clock-explained",
   category: "technology", // TODO: verify casing against live array
@@ -11660,7 +11660,7 @@ category: "artificial-intelligence",
   metaDescription: "Without Einstein's relativity, GPS would drift 10 km a day. See how atomic clocks aboard satellites correct for time dilation to keep your maps accurate.",
   coverImage: "/images/articles/gps-relativity-einstein-atomic-clock-explained.jpg", // TODO: confirm slug-based filename exists in /public/images
   publishedAt: "2026-08-05", // TODO: set actual publish date
-  authors: authors[0],  
+  author: authors[0],  
   readTime: 6,
   featured: false,  
   content: `
@@ -11723,7 +11723,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current articles array max id + 1
+  id: "auto-34",
   title: "Earthquakes Can Change the Length of a Day by Tiny Amounts",
   slug: "earthquake-effect-on-earth-rotation-speed",
   metaTitle: "How Earthquakes Change Earth's Rotation and Day Length", // 54 chars
@@ -11731,7 +11731,7 @@ category: "artificial-intelligence",
   excerpt: "NASA geophysicist Richard Gross has calculated exactly how many microseconds earthquakes like Sumatra, Chile, and Japan's Tohoku shaved off Earth's day.",
   category: "science", // TODO: verify exact casing against live categories array
   tags: ["Earthquakes", "Earth Rotation", "NASA", "Geophysics", "Physics"], // TODO: verify tag casing against live tags array
-  authors: authors[0], // TODO: confirm author field/value used elsewhere in article.ts
+  author: authors[0], // TODO: confirm author field/value used elsewhere in article.ts
   publishedAt: "2026-08-06", // TODO: set publish date
   coverImage: "/images/articles/earthquake-effect-on-earth-rotation-speed.jpg", // TODO: confirm slug-based naming convention and upload actual asset
   readTime: 7,
@@ -11807,7 +11807,7 @@ category: "artificial-intelligence",
 
 
   {
-  id: 0, // TODO: set to current articles array max id + 1 (verify against article 1's placeholder too, since both are pending in this session)
+  id: "auto-35",
   title: "Solid-State Batteries Could Transform Electric Vehicles Forever",
   slug: "solid-state-battery-ev-real-timeline",
   metaTitle: "Solid-State EV Batteries: The Real 2027-2028 Timeline", // 53 chars
@@ -11815,7 +11815,7 @@ category: "artificial-intelligence",
   excerpt: "Toyota, QuantumScape, and Samsung SDI all have working solid-state cells in the lab. Here's why the factory, not the chemistry, is what's actually holding EVs back.",
   category: "future-innovation", // TODO: verify exact casing against live categories array
   tags: ["Solid-State Batteries", "Electric Vehicles", "Battery Technology", "Toyota", "QuantumScape"], // TODO: verify tag casing against live tags array
-  authors: authors[0], // TODO: confirm author field/value used elsewhere in article.ts
+  author: authors[0], // TODO: confirm author field/value used elsewhere in article.ts
   publishedAt: "2026-08-07", // TODO: set publish date
   coverImage: "/images/articles/solid-state-battery-ev-real-timeline.jpg", // TODO: confirm slug-based naming convention and upload actual asset
   readTime: 8,
@@ -12047,7 +12047,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-36",
   title: "AI Doesn't Need Consciousness to Become Dangerous",
   slug: "ai-danger-without-consciousness-alignment-risk",
   excerpt: "Real documented cases show AI systems finding harmful shortcuts through pure optimization, no sentience required. Here's the mechanism behind AI alignment risk.",
@@ -12055,7 +12055,7 @@ category: "artificial-intelligence",
   metaDescription: "AI systems already hack chess games and bypass safety limits without any consciousness. Learn why AI alignment risk comes from optimization, not sentience.",
   category: "artificial-intelligence",
   tags: ["AI Safety", "AI Alignment", "Machine Learning", "AI Risk", "Reward Hacking"], // TODO: verify exact casing against live array
-  authors: authors[0], // TODO: confirm author vs authors field name against live array
+  author: authors[0], // TODO: confirm author vs authors field name against live array
   publishedAt: "2026-08-08", // TODO: confirm actual publish date
   coverImage: "/images/articles/ai-danger-without-consciousness-alignment-risk.jpg", // TODO: create and upload — never auto-generated
   readTime: 7,
@@ -12123,7 +12123,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-37",
   title: "The Engineering Challenge Behind Delivering Internet to the Himalayas",
   slug: "himalayan-internet-engineering-challenges-fiber-satellite",
   excerpt: "Fiber snaps in the cold, satellites drift out of alignment, and glaciers physically move the ground. Here's how engineers actually solve it.",
@@ -12131,7 +12131,7 @@ category: "artificial-intelligence",
   metaDescription: "See how engineers deliver internet to the Himalayas despite extreme cold, moving glaciers, and terrain that blocks satellite and fiber optic signals.",
   category: "technology",
   tags: ["Telecom Engineering", "Satellite Internet", "Fiber Optic", "India Infrastructure", "BharatNet"], // TODO: verify exact casing against live array
-  authors: authors[0], // TODO: confirm author vs authors field name against live array
+  author: authors[0], // TODO: confirm author vs authors field name against live array
   publishedAt: "2026-08-09", // TODO: confirm actual publish date
   coverImage: "/images/articles/himalayan-internet-engineering-challenges-fiber-satellite.jpg", // TODO: create and upload — never auto-generated
   readTime: 7,
@@ -12200,7 +12200,7 @@ category: "artificial-intelligence",
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-38",
   title: "Mysterious Signals From Deep Space Still Have No Definitive Explanation",
   slug: "long-period-radio-transients-unexplained-signals",
   excerpt: "A radio object 15,000 light-years away has pulsed every 22 minutes since 1988, defying the physics that explains every other known pulsar.",
@@ -12208,7 +12208,7 @@ category: "artificial-intelligence",
   metaDescription: "A radio signal has pulsed from deep space every 22 minutes since 1988, defying known physics. See why long period radio transients remain unexplained.",
   category: "astronomy",
   tags: ["Astronomy", "Radio Astronomy", "Neutron Stars", "Pulsars", "Space Mysteries"], // TODO: verify exact casing against live array
-  authors: authors[0], // TODO: confirm author vs authors field name against live array
+  author: authors[0], // TODO: confirm author vs authors field name against live array
   publishedAt: "2026-08-09", // TODO: confirm actual publish date
   coverImage: "/images/articles/long-period-radio-transients-unexplained-signals.jpg", // TODO: create and upload — never auto-generated
   readTime: 6,
@@ -12275,7 +12275,7 @@ category: "artificial-intelligence",
 
   // TODO: set id to (current articles array max id + 1)
 {
-  id: 0, // TODO: set to current max id + 1
+  id: "auto-39",
   slug: "deep-sea-life-without-sunlight-chemosynthesis",
   title: "The Deep Ocean Contains Ecosystems That Exist Without Sunlight",
   metaTitle: "How Deep-Sea Ecosystems Survive Without Any Sunlight",
@@ -12283,7 +12283,7 @@ category: "artificial-intelligence",
   excerpt: "A 1977 deep-sea discovery showed animals thriving without sunlight, but most still depend on it indirectly. Here is where life truly cuts ties with the sun.",
   category: "science", // TODO: verify exact casing against live array
   tags: ["Deep Sea", "Biology", "Ocean", "Astrobiology", "Chemosynthesis"], // TODO: verify exact tag casing against live array
-  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  author: authors[0], // TODO: confirm field is `author` not `authors` against live array
   publishedAt: "2026-08-10", // TODO: set publish date
   coverImage: "/images/articles/deep-sea-life-without-sunlight-chemosynthesis.jpg", // TODO: upload cover image, slug-based filename
   readTime: 6,
@@ -12350,7 +12350,7 @@ category: "artificial-intelligence",
 
 // TODO: set id to (current articles array max id + 1)
 {
-  id: 0, // TODO: set to current max id + 1
+  id: "auto-40",
   slug: "what-happened-to-the-dinosaur-killing-asteroid",
   title: "The Asteroid That Killed the Dinosaurs Is Gone. Here's What Happened to It",
   metaTitle: "What Really Happened to the Dinosaur-Killing Asteroid",
@@ -12358,7 +12358,7 @@ category: "artificial-intelligence",
   excerpt: "The dinosaur-killing asteroid was vaporized on impact, leaving behind a global clay layer and a crater that took until 2024 to fully decode.",
   category: "history", // TODO: verify exact casing against live array
   tags: ["Asteroid Impact", "Extinction", "Chicxulub", "Paleontology", "Earth Science"], // TODO: verify exact tag casing against live array
-  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  author: authors[0], // TODO: confirm field is `author` not `authors` against live array
   publishedAt: "2026-08-10", // TODO: set publish date
   coverImage: "/images/articles/what-happened-to-the-dinosaur-killing-asteroid.jpg", // TODO: upload cover image, slug-based filename
   readTime: 7,
@@ -12427,7 +12427,7 @@ category: "artificial-intelligence",
 // ARTICLE 1
 // ============================================================
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-41",
   title: "Space-Based Solar Power Could Collect Energy Even When Earth Is Dark",
   slug: "space-based-solar-power-collect-energy-earth-dark",
   metaTitle: "Space-Based Solar Power: Energy Even When Earth Is Dark", // 55 chars
@@ -12435,7 +12435,7 @@ category: "artificial-intelligence",
   excerpt: "A panel in geostationary orbit sees the sun almost all year. Here's how space-based solar power actually collects that energy and beams it back down.",
   category: "future-innovation", // TODO: verify casing against live array
   tags: ["space-based-solar-power", "renewable-energy", "orbital-technology", "wireless-power-transmission"], // TODO: verify casing/format against live array
-  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  author: authors[0], // TODO: confirm field is `author` not `authors` against live array
   publishedAt: "2026-08-11", // TODO: set publish date
   coverImage: "/images/articles/space-based-solar-power-collect-energy-earth-dark.jpg", // TODO: upload cover image, slug-based filename
   readTime: 8,
@@ -12496,7 +12496,7 @@ category: "artificial-intelligence",
 // ARTICLE 2
 // ============================================================
 {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-42",
   title: "Giving AI More Data Can Actually Make It Less Reliable",
   slug: "more-ai-training-data-makes-models-less-reliable",
   metaTitle: "Why More AI Training Data Can Make Models Less Reliable", // 55 chars
@@ -12504,7 +12504,7 @@ category: "artificial-intelligence",
   excerpt: "Bigger datasets used to mean better AI. A 2024 Nature study shows why more data can now make models less reliable instead of more capable.",
   category: "artificial-intelligence", // TODO: verify casing against live array
   tags: ["artificial-intelligence", "model-collapse", "machine-learning", "ai-training-data"], // TODO: verify casing/format against live array
-  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  author: authors[0], // TODO: confirm field is `author` not `authors` against live array
   publishedAt: "2026-08-11", // TODO: set publish date
   coverImage: "/images/articles/more-ai-training-data-makes-models-less-reliable.jpg", // TODO: upload cover image, slug-based filename
   readTime: 7,
@@ -12558,7 +12558,7 @@ content: `
 },
 
   {
-  id: 0,
+  id: "auto-43",
   title: "A Total Solar Eclipse Crosses the Arctic and Europe This Month, and Here's the Physics",
   slug: "total-solar-eclipse-2026-arctic-europe-path-physics",
   category: "astronomy",
@@ -12566,7 +12566,7 @@ content: `
   excerpt: "On August 12, 2026 a total solar eclipse crosses the Arctic, Greenland, Iceland and Spain, the first mainland Europe has seen since 1999. Here is the orbital geometry that makes its path look backward, why totality never lasts long, and exactly when and where to see it.",
   metaTitle: "Total Solar Eclipse August 12, 2026: Path & Physics",
   metaDescription: "A total solar eclipse sweeps over the Arctic, Greenland, Iceland and Spain on August 12, 2026. Here's the orbital physics behind its strange backward path.",
-  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  author: authors[0], // TODO: confirm field is `author` not `authors` against live array
   publishedAt: "2026-08-11", // TODO: set publish date
   coverImage: "/images/articles/total-solar-eclipse-2026-arctic-europe-path-physics.jpg", // TODO: upload cover image, slug-based filename
   readTime: 6,
@@ -12631,7 +12631,7 @@ content: `
 },
 
   {
-  id: 0,
+  id: "auto-44",
   title: "The Bystander Effect Explains Why Larger Crowds Often Help Less, Not More",
   slug: "bystander-effect-crowds-help-less-psychology-explained",
   category: "psychology-mind",
@@ -12639,7 +12639,7 @@ content: `
   excerpt: "Psychology's most famous crowd myth is only half right. Darley and Latane's 1968 experiments proved diffusion of responsibility is real, but decades of newer research, including a landmark CCTV study of real conflicts, show danger flips the effect entirely.",
   metaTitle: "Bystander Effect: Why Big Crowds Help Less, Not More",
   metaDescription: "The bystander effect makes crowds slower to help in ambiguous emergencies, but CCTV footage of public conflicts shows genuine danger flips this pattern.",
-  authors: authors[0], // TODO: confirm field is `author` not `authors` against live array
+  author: authors[0], // TODO: confirm field is `author` not `authors` against live array
   publishedAt: "2026-08-12", // TODO: set publish date
   coverImage: "/images/articles/bystander-effect-crowds-help-less-psychology-explained.jpg", // TODO: upload cover image, slug-based filename
   readTime: 6,
@@ -12702,7 +12702,7 @@ content: `
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-45",
   title: "5G Towers Use Beamforming to Aim Signal Directly at Your Phone",
   slug: "5g-beamforming-signal-targeting-explained",
   excerpt: "5G towers use Massive MIMO antenna arrays to shape and steer a concentrated radio beam directly at your phone instead of broadcasting evenly, boosting speed and capacity.",
@@ -12710,7 +12710,7 @@ content: `
   metaDescription: "5G towers do not broadcast in every direction. Massive MIMO antennas track your phone and beamform a signal aimed only at you. Here is how it works.", // 148 chars
   category: "technology", // TODO: verify casing against live array
   tags: ["5G", "Beamforming", "Massive MIMO", "Wireless Networks", "Telecommunications"], // TODO: verify casing
-  authors: authors[0], // TODO: confirm author vs authors field name against current schema
+  author: authors[0], // TODO: confirm author vs authors field name against current schema
   coverImage: "/images/articles/5g-beamforming-signal-targeting-explained.jpg", // TODO: create and upload
   readTime: 7,
   publishedAt: "2026-08-12", // TODO: set manually
@@ -12778,7 +12778,7 @@ content: `
 },
 
   {
-  id: 0, // TODO: set to current array max + 1
+  id: "auto-46",
   title: "The Indus Valley Civilisation Had Standardised Weights Centuries Before Coinage",
   slug: "indus-valley-standardized-weights-before-coinage",
   excerpt: "Cubical stone weights from Mohenjo-daro, Harappa, and Dholavira followed the same precise binary ratio, letting Indus Valley trade run smoothly for centuries with no coinage at all.",
@@ -12786,7 +12786,7 @@ content: `
   metaDescription: "Harappan traders used binary ratio stone weights standardized across cities a thousand years before coins existed. Here is how the system worked.", // 145 chars
   category: "history", // TODO: verify casing against live array
   tags: ["Indus Valley Civilisation", "Harappa", "Ancient History", "Archaeology", "Ancient India"], // TODO: verify casing
-  authors: authors[0], // TODO: confirm author vs authors field name against current schema
+  author: authors[0], // TODO: confirm author vs authors field name against current schema
   coverImage: "/images/articles/indus-valley-standardized-weights-before-coinage.jpg", // TODO: create and upload
   readTime: 6,
   publishedAt: "2026-08-13", // TODO: set manually
@@ -12855,7 +12855,7 @@ content: `
 <p>The standardized system declined alongside the broader civilization after roughly 1900 BCE, a period that also saw significant climate shifts and the reshaping of trade routes across the wider Bronze Age world.</p>`,
 },
   {
-  id: 0, // TODO: set to current max id + 1
+  id: "auto-47",
   title: "Spider Silk Outperforms Steel by Weight Because of Its Molecular Structure",
   slug: "spider-silk-stronger-than-steel-molecular-bond",
   excerpt: "A new PNAS study reveals the amino acid bond that gives spider silk its five-to-one strength advantage over steel, and why steel isn't going anywhere yet.",
@@ -12863,7 +12863,7 @@ content: `
   metaDescription: "New research pinpoints the amino acid bond that makes spider silk outperform steel by weight, plus why silk still cannot replace steel in construction.",
   category: "science", // TODO: verify exact casing against live array
   tags: ["Spider Silk", "Materials Science", "Biomimicry", "Steel", "Biology"], // TODO: verify casing
-  authors: authors[0], // TODO: confirm field name is 'author' not 'authors' against live schema
+  author: authors[0], // TODO: confirm field name is 'author' not 'authors' against live schema
   publishedAt: "2026-08-14", // TODO: set manually
   coverImage: "/images/articles/spider-silk-stronger-than-steel-molecular-bond.jpg", // TODO: upload; confirm naming convention
   readTime: 7,
@@ -12937,7 +12937,7 @@ content: `
 },
 
 {
-  id: 0, // TODO: set to current articles.ts array max id + 1
+  id: "auto-48",
   title: "Gaganyaan's First Uncrewed Test Flight Is India's Rehearsal for Human Spaceflight",
   slug: "gaganyaan-g1-uncrewed-test-flight-isro",
   metaTitle: "Gaganyaan G1: ISRO's Uncrewed Test Before Astronauts", // 52 chars
@@ -12945,7 +12945,7 @@ content: `
   excerpt: "Before any Indian astronaut reaches orbit, ISRO has to prove the Gaganyaan rocket, life support system, and escape hardware work by flying them uncrewed first.",
   category: "astronomy", // TODO: verify exact casing against live category array
   tags: ["Gaganyaan", "ISRO", "India Space Program", "Human Spaceflight", "HLVM3", "Vyommitra"], // TODO: verify casing/format against live tags array
-  authors: authors[0], // TODO: confirm field name is 'author' not 'authors' against live schema
+  author: authors[0], // TODO: confirm field name is 'author' not 'authors' against live schema
   publishedAt: "2026-08-15", // TODO: set manually
   coverImage: "/images/articles/gaganyaan-g1-uncrewed-test-flight-isro.jpg", // TODO: upload; confirm naming convention
   readTime: 6,
@@ -13013,7 +13013,7 @@ content: `
 },
   
 {
-  id: 0, // TODO: set to current articles.ts array max id + 1
+  id: "auto-49",
   title: "Retrieval-Augmented Generation Lets AI Models Cite Sources Instead of Guessing",
   slug: "retrieval-augmented-generation-rag-explained",
   metaTitle: "Retrieval-Augmented Generation: How AI Cites Facts", // 50 chars
@@ -13021,7 +13021,7 @@ content: `
   excerpt: "Retrieval-Augmented Generation changes how AI models answer questions by forcing them to pull real documents first, turning an unverifiable guess into a traceable, checkable claim.",
   category: "artificial-intelligence", // TODO: verify exact casing against live category array
   tags: ["AI", "Retrieval-Augmented Generation", "RAG", "AI Hallucination", "LLM", "Machine Learning"], // TODO: verify casing/format against live tags array
-  authors: authors[0], // TODO: confirm field name is 'author' not 'authors' against live schema
+  author: authors[0], // TODO: confirm field name is 'author' not 'authors' against live schema
   publishedAt: "2026-08-15", // TODO: set manually
   coverImage: "/images/articles/retrieval-augmented-generation-rag-explained.jpg", // TODO: upload; confirm naming convention
   readTime: 7,
@@ -13256,7 +13256,7 @@ content: `
 },
 
   {
-  id: 0, // MANUAL: set against current array max
+  id: "auto-50",
   slug: "sunk-cost-fallacy-psychology-failing-decisions",
   title: "The Sunk Cost Fallacy Keeps People Investing in Failing Decisions",
   metaTitle: "Sunk Cost Fallacy: Why People Keep Failing Decisions", // 52 chars
@@ -13340,7 +13340,7 @@ content: `
 },
 
   {
-  id: 0, // MANUAL: set against current array max
+  id: "auto-51",
   slug: "chola-dynasty-naval-empire-srivijaya-invasion",
   title: "India's Chola Dynasty Built a Naval Empire That Reached Southeast Asia",
   metaTitle: "India Chola Dynasty: The 1025 Naval Invasion Explained", // 54 chars
@@ -13428,7 +13428,7 @@ content: `
 
   
   {
-  id: 0, 
+  id: "auto-52",
   slug: "wood-wide-web-mycelium-networks-evidence-gap",
   title: "Mycelium Networks Let Trees Share Nutrients Across an Entire Forest",
   metaTitle: "Mycelium Networks: The Wood Wide Web, Fact-Checked", // 50 chars
@@ -13507,7 +13507,7 @@ content: `
 },
  
   {
-  id: 0, // MANUAL: see numbering note on the article above
+  id: "auto-53",
   slug: "agentic-commerce-ai-agents-checkout-payment-rails-2026",
   title: "AI Agents Can Now Book, Buy, and Execute Tasks Without a Human Clicking Confirm",
   metaTitle: "AI Agents Now Book and Buy Without Human Confirm", // 52 chars
@@ -13789,7 +13789,7 @@ content: `
 
 
   {
-  id: 0, // TODO: confirm against live array (slug-as-id convention)
+  id: "auto-54",
   slug: "nalanda-university-ancient-library-history-oxford",
   title: "The Library of Nalanda Held Scholars From Across Asia Centuries Before Oxford Existed",
   metaTitle: "Nalanda University History: India's Ancient Library", // 51 chars
@@ -13873,7 +13873,7 @@ content: `
 },
 
   {
-  id: 0, // TODO: confirm against live array (slug-as-id convention)
+  id: "auto-55",
   slug: "india-green-hydrogen-export-targets-cost-reality",
   title: "India's Green Hydrogen Mission Is Betting on Becoming a Global Export Hub",
   metaTitle: "Green Hydrogen Mission India: 2030 Export Hub Targets", // 53 chars
@@ -13954,7 +13954,7 @@ content: `
 },
 
   {
-  id: 0, // TODO: confirm against live array (slug-as-id convention)
+  id: "auto-56",
   slug: "actions-speak-louder-than-words-psychology-study",
   title: "People Reveal More About Themselves Through Their Behavior Than Their Words",
   metaTitle: "Why Actions Speak Louder Than Words, Says Psychology", // 52 chars
@@ -14027,7 +14027,7 @@ content: `
 },
 
   {
-  id: 0, // TODO: confirm against live array (slug-as-id convention)
+  id: "auto-57",
   slug: "ai-automating-tasks-not-entire-jobs-2026",
   title: "AI Is Taking Over Tasks Long Before It Takes Over Entire Jobs",
   metaTitle: "AI Automates Tasks First, Not Entire Jobs, Data Shows", // 53 chars
