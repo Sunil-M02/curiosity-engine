@@ -28,7 +28,7 @@ const GlobalFavicon = () => (
       rel="icon"
       type="image/png"
       sizes="64x64"
-      href="/favicon-64x64.png?v=20261006"
+      href="/curiosityfields-favicon-dark.png?v=20261008"
     />
   </Helmet>
 );
