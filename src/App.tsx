@@ -22,6 +22,17 @@ import { SmoothScroll } from "./components/effects/SmoothScroll";
 
 const queryClient = new QueryClient();
 
+const GlobalFavicon = () => (
+  <Helmet>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="64x64"
+      href="/favicon-64x64.png?v=20261006"
+    />
+  </Helmet>
+);
+
 const CategoryRedirect = () => {
   const { slug } = useParams<{ slug: string }>();
   return <Navigate to={`/categories/${slug}`} replace />;
@@ -30,6 +41,7 @@ const CategoryRedirect = () => {
 const App = () => (
   <HelmetProvider>
     <QueryClientProvider client={queryClient}>
+      <GlobalFavicon />
       <TooltipProvider>
         <Toaster />
         <Sonner />
