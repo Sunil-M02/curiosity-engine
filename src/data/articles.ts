@@ -8160,7 +8160,7 @@ content: `
   category: "future-innovation", // CONFIRM casing vs live entries
   author: authors[0],
   publishedAt: "2026-07-07", // CONFIRM date
-  readTime: "7 min read",
+  readTime: 7,
   featured: false,
   tags: ["vertical farming", "hydroponics", "sustainable agriculture", "future innovation", "aeroponics"],
 },
@@ -8218,7 +8218,7 @@ content: `
   category: "technology", // CONFIRM casing vs live entries
   author: authors[0],
   publishedAt: "2026-07-07", // CONFIRM date
-  readTime: "6 min read",
+  readTime: 6,
   featured: false,
   tags: ["credit card security", "tokenization", "payment technology", "fintech", "EMVCo"],
 },
