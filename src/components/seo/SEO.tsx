@@ -38,6 +38,10 @@ export function SEO({
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       {robotsContent && <meta name="robots" content={robotsContent} />}
+      
+      {/* Global favicon — re-applied on every route so SPA navigation keeps the same visible icon */}
+      <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png?v=20261007" />
+      <link rel="shortcut icon" type="image/png" href="/favicon-64x64.png?v=20261007" />
       {canonical && <link rel="canonical" href={canonical} />}
       
       {/* Open Graph */}
