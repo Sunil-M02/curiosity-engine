@@ -45,10 +45,12 @@ const handler = async (req: Request): Promise<Response> => {
     });
 
     if (emailResponse.error) {
+      // Subscription is already saved; don't fail the signup if the welcome email can't be sent
+      // (e.g. Resend sending domain not verified yet).
       console.error("Newsletter email send error:", emailResponse.error);
       return new Response(
-        JSON.stringify({ error: "Failed to send confirmation email" }),
-        { status: 502, headers: { "Content-Type": "application/json", ...corsHeaders } }
+        JSON.stringify({ success: true, emailSent: false }),
+        { status: 200, headers: { "Content-Type": "application/json", ...corsHeaders } }
       );
     }
 
