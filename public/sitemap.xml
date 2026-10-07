@@ -1478,4 +1478,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/jwst-little-red-dots-black-hole-super-eddington-growth</loc>
+  <lastmod>2026-10-07</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/optical-atomic-clock-redefine-the-second-cgpm-2030</loc>
+  <lastmod>2026-10-07</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
