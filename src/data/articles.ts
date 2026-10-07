@@ -20011,6 +20011,142 @@ content: `
 `,
 },
 
+
+{
+  id: "jwst-little-red-dots-black-hole-super-eddington-growth",
+  slug: "jwst-little-red-dots-black-hole-super-eddington-growth",
+  title: "JWST's Little Red Dots May Be Feeding Black Holes Too Fast",
+  metaTitle: "JWST Little Red Dots: Are Black Holes Eating Too Fast?", // 54 chars
+  excerpt: "Webb's Little Red Dots look like baby black holes in gas cocoons. New models say they gorged in bursts, but X-ray data and revised weights complicate the story.", // distinct from metaDescription
+  metaDescription: "Little Red Dots may hide black holes feeding above the Eddington limit, yet Chandra and Nature data disagree. See what the JWST evidence really shows.", // 150 chars
+  category: "astronomy",
+  author: authors[0], // TODO CONFIRM: category default per live-file convention
+  coverImage: "/images/articles/jwst-little-red-dots-black-hole-super-eddington-growth.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-10-07", // TODO: set actual publish date before merging
+  readTime: 6,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Astronomy", "JWST", "Little Red Dots", "Black Holes", "Early Universe"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">Little Red Dots are compact, red galaxies that the James Webb Space Telescope keeps finding in the first billion years of the universe, and many astronomers now think each one hides a growing black hole. The "too fast" part is a proposal, not a measurement. A <a href="https://arxiv.org/abs/2605.31077" target="_blank" rel="noopener noreferrer">May 2026 preprint</a> by Yangyao Chen and Houjun Mo argues these black holes feed in short bursts at up to roughly 10 times the Eddington limit, the usual speed cap on black hole growth. A September 2026 Nature simulation paints a similar picture. Chandra X-ray data and a Nature spectroscopy study pull the other way, and the dispute hinges on one number: how heavy these black holes really are.</p>
+ 
+<h2>What Are JWST's Little Red Dots?</h2>
+<p>Little Red Dots (LRDs) are point-like galaxies with a V-shaped spectrum. The slope changes near the Balmer limit, a hydrogen feature at about 365 nanometers, as <a href="https://www.nature.com/articles/s41586-025-09900-4" target="_blank" rel="noopener noreferrer">Rusakov and colleagues</a> describe. Many also show hydrogen emission lines wider than 1,000 kilometers per second. A <a href="https://doi.org/10.3847/1538-4357/ad2345" target="_blank" rel="noopener noreferrer">2024 survey led by Matthee</a> found them to be an abundant population around redshift 5.</p>
+<p>Because of <a href="https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-light-travel-time">light travel time</a>, an LRD at redshift 5 shows the universe roughly a billion years after the Big Bang. The telescope had already found <a href="https://www.curiosityfields.com/article/james-webb-telescope-discoveries-changing-astronomy">unexpectedly mature early galaxies</a>, so LRDs arrived in a field that was already short on easy explanations.</p>
+ 
+<h2>What Does "Feeding Too Fast" Mean for a Black Hole?</h2>
+<p>Gas <a href="https://www.curiosityfields.com/article/black-holes-dont-suck-physics-of-orbiting-one">orbiting a black hole</a> spirals inward and heats up, and the light it gives off pushes back on the gas that follows. The Eddington limit is the brightness where that outward push balances gravity, so it roughly caps how fast a black hole can grow. Super-Eddington accretion means beating the cap, which can work when light gets trapped in the inflow and is dragged inward with the gas.</p>
+<p>The simulation by <a href="https://www.nature.com/articles/s41586-026-10985-8" target="_blank" rel="noopener noreferrer">Chon and colleagues</a> puts numbers on it: accretion at several to a few tens of times the Eddington rate, lasting less than a million years. Why bother? Supermassive black holes already exist less than a billion years <a href="https://www.curiosityfields.com/article/big-bang-explosion-myth-space-expansion">after the Big Bang</a>, and how they grew so fast is still unclear. Beating the cap is one way to buy time.</p>
+ 
+<h2>What Do the New Papers Actually Claim?</h2>
+<p><strong>Chen and Mo (preprint, May 2026).</strong> In their model, galaxy nuclei go through "nuclear bursts" with super-Eddington feeding at about 10 times the Eddington rate. Young stars born in the burst supply the blue ultraviolet light, and the feeding black hole supplies the red optical glow. Most LRDs at redshift 5 were seeded at redshift 20 or higher, then grew to about 100,000 to 10 million solar masses. The authors call the observed LRDs the "tip of the iceberg" of a larger, fainter population. As of October 2026 I found it only as an arXiv preprint, with no sign of peer review.</p>
+<p>Chen and Mo's pitch is that LRDs fall out of standard <a href="https://www.curiosityfields.com/article/dark-matter-mystery-what-we-know">cold dark matter</a> cosmology without new physics.</p>
+<p><strong>Chon and colleagues (Nature, September 16, 2026).</strong> Their simulation forms heavy seeds of about a million solar masses in dense protocluster regions flooded with far-ultraviolet light. A brief super-Eddington phase then grows them to roughly 30 million solar masses by redshift 8. In the model, the obscured, LRD-like phase ends after several hundred thousand years, and the object stays X-ray dark for at least half a million. One caveat matters: the model has no jets or winds from the black hole, and the authors call it an upper limit on growth.</p>
+ 
+<h2>Why Do Other Astronomers Doubt the Burst Story?</h2>
+<p>Andrea Sacchi and Ákos Bogdán <a href="https://arxiv.org/abs/2505.09669" target="_blank" rel="noopener noreferrer">stacked Chandra data</a> for 55 LRDs, nearly 400 million seconds of exposure, and still saw no X-rays. They concluded that current super-Eddington models are ruled out unless the gas is extremely thick, and they speculated that the black holes are less massive and less luminous than believed.</p>
+<p>Rusakov's team attacks the weight itself. In the best JWST spectra, electron scattering, not fast orbital motion, broadens the lines. Remove that effect and the black hole masses drop by about a factor of 100, to 10<sup>5</sup> to 10<sup>7</sup> solar masses, with feeding near the Eddington limit instead of far above it.</p>
+<p><a href="https://www.curiosityfields.com/article/radio-telescope-reveals-hidden-galaxies-dust">Radio telescopes</a> have shown how dust can hide early galaxies, so dust was the obvious suspect for the red color. A <a href="https://arxiv.org/abs/2601.09778" target="_blank" rel="noopener noreferrer">2026 analysis by Hviding and colleagues</a> of an X-ray-detected LRD found that standard dust models could not reproduce its colors without extremely steep extinction curves. A stars-only explanation from <a href="https://doi.org/10.3847/2041-8213/ad90b8" target="_blank" rel="noopener noreferrer">Baggen and colleagues</a> argued that very dense star populations could mimic the broad lines, though Rusakov's team says the luminosity in its sample needs accretion.</p>
+ 
+<h2>Do the Two Camps Disagree as Much as They Seem To?</h2>
+<p>Less than the headlines suggest. Both sides land on black holes of roughly 100,000 to 10 million solar masses. Chen and Mo say super-Eddington bursts built them. Rusakov's team says they now feed near the Eddington limit and were never as heavy as the old estimates implied. That overlap is my reading, not a claim either team makes.</p>
+<p>If the lower masses hold, "feeding too fast" turns into a different question: how did black holes get started so early? That is the seed problem Chon's simulation tackles with million-solar-mass starting points. Until the weights are settled, the "too fast" label depends on which scale you trust.</p>
+ 
+<h2>What Would Settle the Question?</h2>
+<p>Rusakov's team says larger samples and repeat observations are needed to test how well current mass methods work for these objects. Deeper X-ray stacks would test Sacchi and Bogdán's result. Peer review would test Chen and Mo.</p>
+<p><a href="https://www.curiosityfields.com/article/pulsar-timing-array-gravitational-wave-background">Pulsar timing arrays</a> already hint at a gravitational-wave background likely produced by merging supermassive black holes. Chon's team says heavy-seed scenarios predict tens to hundreds of LISA events over a three-year mission, which would be a direct test.</p>
+ 
+<h2>Conclusion</h2>
+<p>Little Red Dots may well be baby black holes wrapped in gas. Whether they fed too fast depends on a weight nobody can measure directly yet.</p>
+<p>If the lower masses hold, the puzzle shifts from overeating to how black holes got started so early. For now, "too fast" is a hypothesis with a simulation behind it and an X-ray non-detection against it.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Are Little Red Dots black holes or star clusters?</h3>
+<p>Most of the evidence now favors accreting black holes inside dense gas, but a stars-only picture has not been fully excluded. The answer may differ from object to object.</p>
+ 
+<h3>How big are the black holes in Little Red Dots?</h3>
+<p>Rusakov and colleagues estimate 100,000 to 10 million solar masses, about 100 times lower than earlier estimates. Earlier work argued for 10 million to 100 million.</p>
+ 
+<h3>Why are Little Red Dots red?</h3>
+<p>One leading explanation is dense ionized gas around the black hole, not ordinary dust. That gas reprocesses the light into the red optical glow and the V-shaped spectrum.</p>
+ 
+<h3>Do Little Red Dots still exist today?</h3>
+<p>A few similar systems have been reported at later cosmic times, but they appear to be exceptionally rare. The population is mainly an early-universe phenomenon.</p>
+ 
+<h3>Has the Chen and Mo paper been peer reviewed?</h3>
+<p>As of October 2026 I found it listed only as an arXiv preprint. Treat its numbers as a proposal until a journal version appears.</p>
+`,
+},
+ 
+{
+  id: "optical-atomic-clock-redefine-the-second-cgpm-2030",
+  slug: "optical-atomic-clock-redefine-the-second-cgpm-2030",
+  title: "The World's Most Accurate Clock Is Redefining What a Second Means",
+  metaTitle: "Most Accurate Clock: Will the Second Be Redefined?", // 50 chars
+  excerpt: "A single aluminum ion now keeps the best time ever reported. The second itself is still defined by cesium, and the switch to optical clocks is a slower story.", // distinct from metaDescription
+  metaDescription: "NIST's aluminum ion clock is the most accurate ever built, yet the second hasn't changed. See what the 2026 CGPM draft says and what could come by 2030.", // 152 chars
+  category: "technology",
+  author: authors[1], // TODO CONFIRM: category default per live-file convention
+  coverImage: "/images/articles/optical-atomic-clock-redefine-the-second-cgpm-2030.jpg", // TODO: create and upload, slug-based filename convention
+  publishedAt: "2026-10-07", // TODO: set actual publish date before merging
+  readTime: 6,
+  featured: false, // TODO: confirm
+  editorsPick: false, // TODO: confirm
+  tags: ["Technology", "Atomic Clocks", "Optical Clocks", "Metrology", "Explainers"], // TODO: verify tag casing against live tag taxonomy array
+  content: `
+<p class="lead">The most accurate clock ever reported is a single aluminum ion at NIST, with a <a href="https://www.nist.gov/news-events/news/2025/07/nist-ion-clock-sets-new-record-most-accurate-clock-world" target="_blank" rel="noopener noreferrer">fractional uncertainty of 5.5 × 10<sup>-19</sup></a>. Yet the second has not been redefined, and next week's General Conference on Weights and Measures (October 13 to 15, 2026) is not set up to do it. The <a href="https://www.bipm.org/documents/d/guest/cgpm-2026-draft-resolutions" target="_blank" rel="noopener noreferrer">draft resolution</a> says scientists still disagree on which atom, or mix of atoms, should define the new second, and it asks for a proposal in 2030. The record clock shows why the change is coming. It does not decide when or how.</p>
+ 
+<h2>What Is the Most Accurate Clock in the World Right Now?</h2>
+<p>As of October 2026, NIST's aluminum ion clock holds the accuracy record, according to its <a href="https://www.nist.gov/node/1880236" target="_blank" rel="noopener noreferrer">2025 Physical Review Letters paper</a>. NIST says the result is 41% better than the previous record and that the clock is 2.6 times more stable than any other ion clock. An aluminum ion keeps excellent time but is hard to read. So a magnesium ion trapped beside it cools it and reports its state, a method called quantum logic spectroscopy.</p>
+<p>An uncertainty of 5.5 × 10<sup>-19</sup> equals roughly one second in 58 billion years, by my arithmetic, more than four times the age of the universe. "Most accurate" is a statement about published uncertainty, though. A strontium lattice clock in China has <a href="https://www.sciencealert.com/this-new-clock-is-so-precise-it-could-soon-redefine-the-second" target="_blank" rel="noopener noreferrer">reported 9.2 × 10<sup>-19</sup></a>, and records in this field change fast.</p>
+ 
+<h2>How Is the Second Defined Today?</h2>
+<p>Since 1967, the second has been 9,192,631,770 periods of the radiation tied to a transition in the cesium-133 atom. The <a href="https://www.bipm.org/en/-/resolution-cgpm-27-5" target="_blank" rel="noopener noreferrer">2018 revision</a> rephrased this by fixing the cesium frequency at that number of hertz, but the idea did not change.</p>
+<p>Cesium ticks at microwave frequencies. An aluminum ion's clock transition sits in the ultraviolet, roughly 100,000 times higher. Optical clocks divide time into finer marks, <a href="https://www.nist.gov/si-redefinition/second-future" target="_blank" rel="noopener noreferrer">like a ruler with finer tick marks</a>, and that is where their accuracy comes from.</p>
+ 
+<h2>Why Can't the Best Clock Simply Replace Cesium?</h2>
+<p>A definition is the ruler, and nobody can check a clock against something less precise than itself. The BIPM says in its <a href="https://www.bipm.org/faq-redefinition-second" target="_blank" rel="noopener noreferrer">redefinition FAQ</a> that frequency accuracy is now limited by the definition, not by what the best labs can build. Several optical standards already serve as secondary representations of the second, and the draft resolution says the best devices beat the current realization by a factor of up to 100.</p>
+<p>Labs therefore compare optical clocks with each other through frequency ratios. The criteria are strict. NIST says optical clocks must show accuracy equal to losing less than a second over 16 billion years, validated by at least three institutes that agree to better than a second over 6 billion years.</p>
+ 
+<h2>Why Hasn't the Second Been Redefined Yet?</h2>
+<p>Draft Resolution B, in the version published in July 2026, names the obstacles. There is no consensus on a single species or an ensemble. Some optical clock comparisons and frequency-ratio measurements show "noticeable inconsistencies." Some mandatory criteria are unmet, such as optical clocks' contribution to calibrating International Atomic Time. The draft says these could realistically be met by 2030.</p>
+<p>The species fight is real. Sébastien Bize of France's LNE-SYRTE has said that <a href="https://www.lne.fr/en/we-talk-about-it/redefinition-second-unit" target="_blank" rel="noopener noreferrer">about ten atomic transitions</a> look promising. One proposal avoids picking a winner by <a href="https://arxiv.org/pdf/1911.05551" target="_blank" rel="noopener noreferrer">defining the second from a weighted mix</a> of the best optical transitions, because none stands out as the obvious choice and the field moves quickly.</p>
+<p>The draft asks the International Committee for Weights and Measures to bring a definition and an implementation date to the 2030 meeting. Ratification cannot come earlier, according to the BIPM FAQ. A <a href="https://indico.cern.ch/event/1064855/contributions/4524160/attachments/2315207/3940980/Optical%20clocks%20for%20redefinition%20of%20second%20(Helen%20Margolis).pdf" target="_blank" rel="noopener noreferrer">roadmap presentation by Helen Margolis</a> lists 2034 as the backup. The final text can change at the meeting, so check the BIPM site after October 15.</p>
+ 
+<h2>Will a New Definition Change How Long a Second Is?</h2>
+<p>Not in any way you would notice. The roadmap requires continuity with the cesium-based definition, and the BIPM says cesium will remain a secondary standard. What improves is how precisely labs realize and share time, especially Coordinated Universal Time (UTC). The draft calls a more accurate UTC a potential gain, not a delivered one.</p>
+<p>Earth's rotation, which <a href="https://www.curiosityfields.com/article/earthquake-effect-on-earth-rotation-speed">earthquakes can nudge</a>, is why leap seconds exist at all. That is a separate decision on the same agenda. Draft Resolution C would make UTC continuous from May 20, 2027, because a negative leap second, never yet used, carries risk. A CCTF and IERS workshop put its probability at 30% by 2035.</p>
+ 
+<h2>What Do Better Clocks Change Outside the Lab?</h2>
+<p><a href="https://www.curiosityfields.com/article/why-astronauts-age-slower-time-dilation-explained">Time dilation</a> makes a clock run slightly differently at different altitudes. LNE says optical clocks could therefore sense <a href="https://www.lne.fr/en/we-talk-about-it/redefinition-second-unit" target="_blank" rel="noopener noreferrer">height differences better than one centimeter</a>, finer than the best current geodetic methods.</p>
+<p>Researchers also propose using optical clocks in <a href="https://www.curiosityfields.com/article/dark-matter-mystery-what-we-know">dark matter</a> searches. I found no claimed detection.</p>
+<p><a href="https://www.curiosityfields.com/article/artemis-iii-update-nasa-2026-moon-landing">Moon missions</a> need their own clock as well. Draft Resolution D backs a single international lunar time scale, because space agencies are planning lunar navigation and timing systems. The draft says using UTC directly would greatly complicate the most demanding lunar applications, because general relativity changes how clocks run there.</p>
+<p><a href="https://www.curiosityfields.com/article/pulsar-timing-array-gravitational-wave-background">Pulsar timing arrays</a> already turn dead stars into clocks to detect gravitational waves, so precise timing doubles as a science instrument. The same logic runs through <a href="https://www.curiosityfields.com/article/gps-relativity-einstein-atomic-clock-explained">GPS satellites</a>, which depend on atomic clocks and relativity corrections. The draft resolutions also name transportation, energy distribution and telecommunications as users that need synchronized time.</p>
+ 
+<h2>Conclusion</h2>
+<p>The aluminum clock record is real, and so is the plan to rebuild the second around optical clocks. But a record is one lab's number. A definition needs several labs agreeing, clock comparisons that line up, and a time scale that can use the result.</p>
+<p>Next week's meeting looks set to keep that work moving, not finish it. The thing to watch is whether the 2030 proposal names one atom or an ensemble, because that open choice, not the next accuracy record, is the real holdup.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Will the second change at the October 2026 CGPM?</h3>
+<p>The draft does not propose a new definition. It asks for a proposal at the 2030 meeting, but the final decision rests on the vote.</p>
+ 
+<h3>Which atom will define the new second?</h3>
+<p>That is undecided. The draft says there is no consensus on a single species or an ensemble of species.</p>
+ 
+<h3>What is the difference between accuracy and stability in an atomic clock?</h3>
+<p>NIST describes accuracy as how close a clock comes to ideal "true" time. Stability is how efficiently it can measure time.</p>
+ 
+<h3>Is the leap second going away?</h3>
+<p>Draft Resolution C would make UTC continuous from May 20, 2027, if adopted. That decision is separate from redefining the second.</p>
+ 
+<h3>Can optical clocks help find dark matter?</h3>
+<p>Researchers say they could help with searches for it. I found no reported detection from clocks.</p>
+`,
+},
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
