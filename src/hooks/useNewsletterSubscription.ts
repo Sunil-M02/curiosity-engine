@@ -56,17 +56,26 @@ export function useNewsletterSubscription({
           source_page: sourcePage,
         });
       
-      if (insertError) {
-        if (insertError.code === '23505') {
-          // Duplicate email - treat as success
-          setIsSuccess(true);
-        } else {
-          throw insertError;
+      if (insertError && insertError.code !== '23505') {
+        throw insertError;
+      }
+
+      const { error: emailError } = await supabase.functions.invoke(
+        'send-newsletter-subscription',
+        {
+          body: {
+            email: trimmedEmail,
+            source_page: sourcePage,
+          },
         }
-      } else {
-        setIsSuccess(true);
+      );
+
+      if (emailError) {
+        console.error('Newsletter confirmation email error:', emailError);
+        throw new Error('Newsletter confirmation email could not be sent.');
       }
       
+      setIsSuccess(true);
       setEmail('');
     } catch (err: any) {
       console.error('Newsletter subscription error:', err);
