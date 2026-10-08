@@ -32,7 +32,7 @@ const handler = async (req: Request): Promise<Response> => {
     }
 
     const emailResponse = await resend.emails.send({
-      from: "CuriosityFields <onboarding@resend.dev>",
+      from: "CuriosityFields <hello@curiosityfields.com>",
       to: [trimmedEmail],
       subject: "Welcome to CuriosityFields — You're subscribed",
       html: '<div style="font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;max-width:600px;margin:0 auto;color:#18181b">' +
