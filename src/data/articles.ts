@@ -20280,6 +20280,141 @@ content: `
 <p>It lived during the Early Cretaceous, in a window Nature's reporting gives as 145 to 100 million years ago. The individual was roughly three years old when it died.</p>`,
   },
 
+  
+  {
+    id: "museum-fossil-reclassified-lost-crocodile-herugavialis",
+    slug: "new-crocodile-genus-great-sphinx-rocks-egypt-fossil",
+    title: "A Museum Fossil Was Reclassified as a Lost Crocodile Species After a Century",
+    metaTitle: "Crocodile Fossil From Great Sphinx Rocks Reclassified", // 53 chars
+    excerpt: "A skull pulled from Egyptian limestone in the 1920s sat under the wrong name for nearly a century. CT scans now place it in its own genus, and the full story is more nuanced than the headlines.", // distinct from metaDescription
+    metaDescription: "CT scans of a 1920s skull from Egypt's Great Sphinx limestone show it is no false gharial. Meet Herugavialis, the gavial renamed after nearly 100 years.", // 152 chars
+    category: "science",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/museum-fossil-reclassified-lost-crocodile-herugavialis.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-09", // TODO: set actual publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Paleontology", "Crocodiles", "Herugavialis", "Egypt", "Fossils", "Explainers"],
+    content: `
+<p class="lead">A skull dug out of Egyptian limestone in the 1920s has been renamed Herugavialis cairensis. CT scans and a family-tree analysis of 152 species showed it is not a close relative of the false gharial, as scientists assumed for nearly a century. The <a href="https://royalsocietypublishing.org/rsos/article/13/10/261173/483496/Cranial-anatomy-of-the-Middle-Eocene-Egyptian" target="_blank" rel="noopener noreferrer">Royal Society Open Science paper</a> appeared in October 2026. The rock is the Mokattam Formation, the same limestone unit behind the Great Sphinx, and the skull is missing its snout tip, just as the Sphinx lost its nose. One catch: the species name dates to 1927, so what changed is the genus.</p>
+ 
+<h2>What Did Researchers Find in the Sphinx's Limestone?</h2>
+<p>The fossil is a nearly complete skull catalogued as SMNS 10575 at the Staatliches Museum für Naturkunde Stuttgart. It comes from the 45-million-year-old Mokattam Formation near Cairo. A team from the UK, Sweden, Germany and Egypt rescanned it.</p>
+<p>Paul Burke of the Swedish Museum of Natural History led the study, and Philip Mannion of University College London co-led it, according to the <a href="https://www.eurekalert.org/news-releases/1145647" target="_blank" rel="noopener noreferrer">university press release</a>.</p>
+<p>Mokattam limestone supplied the Great Pyramid and medieval Cairo, <a href="https://thedebrief.org/an-ancient-crocodile-was-discovered-in-egyptian-rocks-linked-to-the-great-sphinx-and-it-has-a-curious-connection-to-gizas-ancient-guardian/" target="_blank" rel="noopener noreferrer">The Debrief reports</a>, so builders who <a href="https://www.curiosityfields.com/article/how-ancient-engineers-moved-massive-stone-blocks">moved massive stone blocks</a> there were hauling stone laid down in shallow Eocene seas. The Sphinx was carved from the same unit. That coincidence is how the crocodile got its odd, famous neighbor.</p>
+ 
+<h2>Is Herugavialis a New Species or a Renamed One?</h2>
+<p>Both, depending on how you count. Press coverage called it a new species, but the epithet cairense dates to 1927, when the fossil was described as Tomistoma cairense. What is new is the genus. Herugavialis no longer sits beside the living false gharial, Tomistoma schlegelii.</p>
+<p>Burke told The Debrief a new genus was warranted because analyses never consistently placed the animal near any other gavial. The paper also notes that recent analyses had already found it was not closely related to the false gharial. Doubts came before the scans. The 2026 work supplied the anatomy and the name, which is the part most headlines skip.</p>
+ 
+<h2>How Did CT Scans Overturn a Century-Old Label?</h2>
+<p>CT scanning has reopened old finds before, notably the <a href="https://www.curiosityfields.com/article/ancient-computers-antikythera-mechanism">Antikythera mechanism</a>, a corroded lump recovered in 1901 whose gears took modern imaging to decode. Here, the team used micro-CT to reconstruct the internal anatomy of SMNS 10575, then ran an analysis covering 152 species and 331 anatomical characters, according to <a href="https://www.sci.news/paleontology/herugavialis-cairensis-15114.html" target="_blank" rel="noopener noreferrer">Sci.News</a>.</p>
+<p>The fossil landed among the gavialoids, but not near the false gharial. It is an early-branching member of the gavialine lineage, outside the group that includes the living Indian gharial and its relatives. Its long, narrow snout makes up about 64% of skull length, and its eye sockets have raised rims.</p>
+<p>The 1927 label came from superficial resemblance, per the press release. A long, narrow snout can look alike in animals that are not close relatives. Inside the skull and across hundreds of traits, the match failed.</p>
+ 
+<h2>Why Does Moving One Fossil Out of Tomistoma Matter?</h2>
+<p>Tomistoma became a catch-all. The authors note that many Cenozoic fossil species were historically assigned to it, which made the genus look more diverse and more widespread than it was, stretching back to the Eocene and across Africa and Europe. Every fossil that fails a modern test shrinks that picture. Pulling Herugavialis out is a small correction to a much larger map of crocodile history.</p>
+ 
+<h2>Did Gavials Really Live in the Sea?</h2>
+<p>Only two gavial species survive today, the Indian gharial and the false gharial, and both live in freshwater in South and Southeast Asia. The fossil record looks different. Gavials span more than 100 million years with a near-global distribution, and many lived in shallow marine environments. Herugavialis shared its Egyptian seas with at least two other gavial species.</p>
+<p><a href="https://www.curiosityfields.com/article/why-saltwater-freshwater-fish-cant-swap-habitats">Saltwater and freshwater fish</a> struggle to cross that boundary because of water balance, which makes a group that appears in both settings across its history interesting. This study did not test how gavials made the switch, so that question stays open.</p>
+ 
+<h2>What Happened to the Mediterranean's Gavials?</h2>
+<p>The team counted at least six gavialoid species in the Mediterranean region during the Paleogene and at least six more in the Miocene. None is known from the Oligocene between them. Mediterranean gavialoids appear to have declined in the Late Miocene and disappeared before the Pliocene, per Sci.News.</p>
+<p>Burke tied the diversity swings to changes in global temperature and sea level. He linked the final loss of Mediterranean crocodiles to the drying of the basin about 6 million years ago, an episode known as the Messinian salinity crisis.</p>
+<p>The paper says that drying possibly drove the extirpation, so treat it as a leading hypothesis. A gap in the Oligocene record is an absence in the fossils, which is not the same as an absence in life.</p>
+ 
+<h2>Why Do Old Museum Fossils Keep Getting Renamed?</h2>
+<p>Herugavialis is not a one-off. In April 2026, Yale researchers used CT scans to name <a href="https://news.yale.edu/2026/04/14/210-million-year-old-crocodile-cousin-was-built-biting" target="_blank" rel="noopener noreferrer">Eosphorosuchus lacrimosa</a>, a Triassic crocodile relative excavated in New Mexico in 1948 and never fully examined. Old collections work like time capsules, and so do old bones. Skeletons at <a href="https://www.curiosityfields.com/article/roopkund-skeleton-lake-dna-mystery-explained">Roopkund Lake</a> gave up DNA in 2019 that overturned decades of assumptions.</p>
+<p>A new name is still a hypothesis. Placement depends on which traits are scored and how the tree is built, and other teams may redraw it. Family trees stay contested even with strong data, as the debate around a <a href="https://www.curiosityfields.com/article/feathered-dinosaur-fossil-flight-evolution-norellraptor">feathered dinosaur fossil</a> named Norellraptor shows.</p>
+ 
+<h2>The Bottom Line on the Sphinx Crocodile</h2>
+<p>Herugavialis corrects a filing error that lasted nearly a century. A skull that looked like a false gharial now belongs to its own genus, one of at least three gavials that shared Egypt's Eocene seas. The next test is whether other teams place it the same way and whether more Mokattam fossils surface. The label holds for now, as of October 2026.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Is Herugavialis cairensis a new species?</h3>
+<p>Not strictly. The species name cairense dates to 1927, but the fossil now sits in a new genus, Herugavialis.</p>
+ 
+<h3>Why is the crocodile named after Horus?</h3>
+<p>The authors used Heru, the Egyptian god who may have inspired the Sphinx. The fossil and the Sphinx are both missing the front tip of the nose or snout.</p>
+ 
+<h3>How old is the Herugavialis fossil?</h3>
+<p>It is about 45 million years old, from the Middle Eocene Mokattam Formation in Egypt.</p>
+ 
+<h3>Is Herugavialis related to the Indian gharial?</h3>
+<p>Distantly. It is an early-branching gavialine, outside the group that holds the living Indian gharial and its relatives.</p>`,
+  },
+ 
+  {
+    id: "brain-signals-predict-attention-failure",
+    slug: "predict-attention-lapses-brain-signals-mind-wandering",
+    title: "Brain Signals Can Predict Attention Failure Before You Consciously Notice It",
+    metaTitle: "Brain Signals Flag Attention Lapses Before You Notice", // 53 chars
+    excerpt: "Alpha waves, sleep-like slow waves and weakening neural representations all shift before a lapse. What that does and does not prove about awareness is the interesting part.", // distinct from metaDescription
+    metaDescription: "Can the brain predict losing focus? EEG shows warning signals up to 20 seconds ahead of a lapse. See what 2026 research proves, and what it still can't.", // 152 chars
+    category: "psychology-mind",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/brain-signals-predict-attention-failure.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-09", // TODO: set actual publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Psychology", "Attention", "Mind Wandering", "Neuroscience", "Explainers"],
+    content: `
+<p class="lead">Yes, in lab studies, measurable brain activity shifts before an attention lapse shows up as a missed target or a slow response. One <a href="https://www.jneurosci.org/content/29/26/8604" target="_blank" rel="noopener noreferrer">EEG study</a> found alpha-band changes up to 20 seconds ahead. A 2026 <a href="https://www.nature.com/articles/s41593-026-02294-0" target="_blank" rel="noopener noreferrer">Nature Neuroscience study</a> found a signal that appeared just before children's attention shifting slowed. The "before you consciously notice" part is partly inference, though. These experiments time signals against errors and self-reports, and separate work shows people often never notice a lapse at all. Below is what is solid, what is early, and what no study has yet tested.</p>
+ 
+<h2>What Counts as an Attention Lapse in These Studies?</h2>
+<p>A lapse is usually a measurable slip: a missed target, a response that comes too fast or too slow, or a thought-probe answer admitting the mind had drifted. The tasks are deliberately dull, such as pressing a key for most items and withholding it for rare ones. That makes lapses easy to count. It also means the results describe lab vigilance, not a Monday meeting.</p>
+ 
+<h2>How Far Ahead Can EEG See an Attention Lapse?</h2>
+<p>A 2009 Journal of Neuroscience study tracked EEG before errors in a sustained attention task. Alpha-band activity diverged significantly up to 20 seconds before a lapse. The largest differences, including in the frontal P3 signal, came 3 to 4 seconds before the missed target. Before successful detections, alpha stayed stable. Before lapses, it climbed.</p>
+<p>A 2021 <a href="https://doi.org/10.1038/s41467-021-23890-7" target="_blank" rel="noopener noreferrer">Nature Communications study</a> by Thomas Andrillon and colleagues added a stranger signal. Brief, local slow waves, a pattern typical of falling asleep, appeared in awake people and preceded reports of mind wandering and mind blanking. Their location differed between those two states, and between sluggish and impulsive responses.</p>
+ 
+<h2>What Did the 2026 Nature Neuroscience Study Add?</h2>
+<p>Researchers at SickKids in Toronto recorded directly from the brains of 30 children with epilepsy during an attention-shifting task, then used machine learning to predict fluctuations. They found a signature that arose just before each child's shifting slowed, according to the <a href="https://www.news-medical.net/news/20260513/Researchers-discover-a-brain-signal-that-predicts-child-attention-lapses.aspx" target="_blank" rel="noopener noreferrer">hospital's release</a>. Lead author George Ibrahim and first author Nebras Warsi led the work.</p>
+<p>Reading a brain signal and acting on it in real time is the logic behind <a href="https://www.curiosityfields.com/article/brain-chips-paralysis-movement-restoration">brain implants for paralysis</a>, and this study applied it to attention. Electrical stimulation timed to the predicted moments kept the children engaged and made them faster and more accurate. Stimulation at other times made performance worse. Timing was the whole effect.</p>
+<p>The team then used magnetoencephalography in 37 typically developing children and 25 with ADHD and could again predict delays. A single TMS-EEG pulse improved reaction time and accuracy without implanted electrodes. The invasive work involved children with epilepsy, the tasks lasted 20 to 30 minutes, and the researchers call the technology early.</p>
+ 
+<h2>What Is the Brain Doing Before a Lapse?</h2>
+<p>A September 2026 <a href="https://www.biorxiv.org/content/10.64898/2026.09.21.753248v1" target="_blank" rel="noopener noreferrer">bioRxiv preprint</a> from Anna Corriveau and colleagues, not yet peer reviewed, recorded EEG during a sustained attention task. The fidelity of neural representations for task-relevant items weakened in poor attentional states, ahead of behavioral failures. The authors read this as disengagement, with brain activity decoupling from task processing.</p>
+<p>Stronger representations before an item also predicted whether targets were later remembered.</p>
+<p>That memory result is not the <a href="https://www.curiosityfields.com/article/why-walking-through-doorways-makes-you-forget">doorway effect</a>, where crossing a threshold disrupts recall. Both do suggest that what you encode depends on the brain state you are in when the moment arrives.</p>
+<p>Rising alpha, sleep-like slow waves and weakening task representations are different measures from different tasks. Reading them as one gradual loosening of task focus is a synthesis across studies, not a claim any single paper makes. The shared idea is that attention fades before it fails.</p>
+ 
+<h2>Do You Notice a Lapse While It Is Happening?</h2>
+<p>Often not. In a 2009 fMRI study, Kalina Christoff and colleagues interrupted people with thought probes. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2689035" target="_blank" rel="noopener noreferrer">Neural recruitment</a> in default and executive networks was strongest when participants had not noticed their own mind wandering. Unaware meant realizing the mind had wandered only when the probe arrived.</p>
+<p>Behavior and awareness can split in stranger ways too. People with <a href="https://www.curiosityfields.com/article/blindsight-explained-cortically-blind-vision-science">blindsight</a> respond to objects they insist they cannot see.</p>
+<p>So "before you consciously notice" is the best-supported reading, not a measured fact. The studies show signals before the error or the report, and other work shows many episodes escape awareness. None of the studies reviewed here timed a signal against the exact moment a person became aware.</p>
+ 
+<h2>Can Anyone Use This Outside a Lab Today?</h2>
+<p>Not reliably. A 2026 study in <a href="https://link.springer.com/article/10.3758/s13415-026-01467-5" target="_blank" rel="noopener noreferrer">Cognitive, Affective, & Behavioral Neuroscience</a> followed 93 adolescents enriched for anxiety and depression symptoms as they focused on their breathing. Whole-brain connectivity models predicted lapses with an AUC near 0.65, only marginally better than models using behavior alone. </p>
+<p>An AUC of 0.5 is chance, so 0.65 beats a coin flip but is far from a dependable alert.</p>
+<p>Lapses are also not always a loss. Reviews of the <a href="https://www.curiosityfields.com/article/incubation-effect-sleep-on-it-problem-solving-science">incubation effect</a> find that stepping away from a stuck problem can help solve it, so a system that suppressed every drift could trade away something useful.</p>
+<p>Until wearable lapse detectors exist, the practical lever is fewer interruptions, since separate research on <a href="https://www.curiosityfields.com/article/multitasking-neurologically-impossible-brain-task-switching">task switching</a> already shows costs in time and accuracy.</p>
+ 
+<h2>The Bottom Line on Predicting Attention Lapses</h2>
+<p>The brain announces some lapses in advance, through alpha shifts, sleep-like slow waves and weakening task representations. What the evidence does not yet show is a dependable personal early-warning system, or a clean test of what you consciously notice. The closed-loop work in children is the most concrete step so far, and it is early. For now, the main finding is how lapses begin: gradually, and well before the mistake.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Can brain scans tell when your mind is about to wander?</h3>
+<p>In lab tasks, EEG and MEG models predict lapses better than chance. Accuracy is modest, with one 2026 study reporting an AUC near 0.65.</p>
+ 
+<h3>How far ahead do brain signals predict attention lapses?</h3>
+<p>A 2009 EEG study found alpha-band differences up to 20 seconds before a lapse. The biggest differences came in the final 3 to 4 seconds.</p>
+ 
+<h3>Is mind wandering the same as mind blanking?</h3>
+<p>No. Mind wandering means thinking about something unrelated to the task, while mind blanking means the stream of thought itself stops. The location of sleep-like slow waves differed between the two.</p>
+ 
+<h3>Can brain stimulation restore attention?</h3>
+<p>In a 2026 study of children, stimulation timed to a predicted lapse improved speed and accuracy, and stimulation at other times hurt performance. It remains experimental.</p>
+ 
+<h3>Are attention lapses normal?</h3>
+<p>Yes. SickKids researchers note that fluctuations in attention are natural.</p>`,
+  },
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
