@@ -20288,7 +20288,7 @@ content: `
     metaTitle: "Crocodile Fossil From Great Sphinx Rocks Reclassified", // 53 chars
     excerpt: "A skull pulled from Egyptian limestone in the 1920s sat under the wrong name for nearly a century. CT scans now place it in its own genus, and the full story is more nuanced than the headlines.", // distinct from metaDescription
     metaDescription: "CT scans of a 1920s skull from Egypt's Great Sphinx limestone show it is no false gharial. Meet Herugavialis, the gavial renamed after nearly 100 years.", // 152 chars
-    category: "science",
+    category: "history",
     author: authors[0], // TODO: confirm
     coverImage: "/images/articles/museum-fossil-reclassified-lost-crocodile-herugavialis.jpg", // TODO: create and upload, slug-based filename convention
     publishedAt: "2026-10-09", // TODO: set actual publish date before merging
