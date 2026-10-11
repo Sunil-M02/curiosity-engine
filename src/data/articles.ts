@@ -20625,6 +20625,176 @@ content: `
 <p>As of October 2026, examples include New York courts, Western Australian public schools, and several Australian council facilities. Norway has proposed a temporary ban in selected public places.</p>`,
   },
 
+  {
+    id: "jwst-extreme-debris-disks-planet-collisions",
+    slug: "jwst-planet-collisions-extreme-debris-disks-moon-formation",
+    title: "JWST Is Watching Planetary Collisions That May Resemble Earth's Violent Birth",
+    metaTitle: "JWST Planet Collisions: Clues to How the Moon Formed",
+    excerpt: "Webb cannot film a planetary crash, but it can read the dust one leaves behind. Here is what 21 dusty young star systems suggest about the impact that made our Moon.",
+    metaDescription: "James Webb data on 21 dusty star systems reveals Mars-sized planet collisions like the one that formed the Moon. See what it proves and what it doesn't.",
+    category: "astronomy",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/jwst-extreme-debris-disks-planet-collisions.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-11", // TODO: set actual publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["James Webb Space Telescope", "Extreme debris disks", "Moon formation", "Theia", "Planetary collisions", "Planet formation", "Kate Su"],
+    content: `<p>Webb is not filming planetary crashes. It is reading the dust they leave behind. A team led by Kate Su of the Space Science Institute studied 21 young stars wrapped in unusually dusty "extreme debris disks," and the minerals in about one-third of them point to collisions between Mars-sized bodies. That is the scale of the impact <a href="https://science.nasa.gov/moon/formation/" target="_blank" rel="noopener noreferrer">thought to have created the Moon</a>. The results appeared in <a href="http://doi.org/10.3847/1538-4357/ae88fe" target="_blank" rel="noopener noreferrer">The Astrophysical Journal</a> on October 1, 2026. The match with Earth's history is suggestive, not proven, and where it holds and where it strains is the interesting part.</p>
+ 
+<h2>What Is an Extreme Debris Disk?</h2>
+<p>An extreme debris disk is a rare, dust-rich ring around a young star, packed with warm dust in the zone where rocky planets form. NASA's Spitzer Space Telescope discovered the subclass. According to <a href="https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/" target="_blank" rel="noopener noreferrer">NASA's release</a>, the new work confirmed three shared traits: smaller dust grains than in other disks, a high concentration of warm dust, and irregular swings in brightness.</p>
+<p>Before the <a href="https://www.curiosityfields.com/article/james-webb-telescope-discoveries-changing-astronomy">James Webb Space Telescope</a> looked at them, Su said, astronomers knew these systems were strange but little else. The final sample holds 21 disks: five from Spitzer's archive and 16 from Webb, 12 of them newly observed.</p>
+<p>They are also scarce. Theory predicts many, yet only about 1% of young stars show one so far. NASA describes these dust-rich phases as short-lived, which would explain why so few are caught in the act.</p>
+ 
+<h2>How Can Dust Reveal the Size of a Collision?</h2>
+<p>The dust's mineral recipe hints at how hard the objects hit. The team sorted its disks into silica-rich and silica-poor groups. Silica-rich dust points to high-energy impacts between Mars-sized bodies that vaporize a large share of their rock. Silica-poor dust points to grazing collisions between Moon-sized objects.</p>
+<p>Obsidian, a volcanic glass, is a silica-rich material on Earth. Forsterite, the silica-poor mineral, forms the green sand on some Hawaiian beaches. About one-third of the sample is silica-rich and two-thirds are silica-poor.</p>
+<p>Reading chemistry from light is an established method for cosmic wrecks. <a href="https://www.curiosityfields.com/article/neutron-star-merger-kilonova-gold-explained">Neutron star mergers</a>, for example, leave debris whose glow carries a chemical signature. Agnes Kóspál of Konkoly Observatory said the Webb spectra were the most exciting part of the work for her, because planetary embryos are too small to study any other way.</p>
+<p>Mars is roughly 4,200 miles across, while the <a href="https://www.curiosityfields.com/article/what-happened-to-the-dinosaur-killing-asteroid">dinosaur-killing asteroid</a> was a rock only miles wide. A Mars-sized impact is a different order of event.</p>
+ 
+<h2>Why Do the Ages of Silica-Rich Disks Matter?</h2>
+<p>Silica-rich disks appear only around stars younger than 300 million years, while silica-poor disks persist across a broad range of ages. That fits simulations that form terrestrial planets within the first few hundred million years. NASA adds that it also fits estimates that Earth and the Moon formed about 100 million years after the Sun.</p>
+<p>Estimates for the Moon vary. NASA's Moon formation page, citing the age of Apollo samples, gives roughly 60 million years after the solar system began forming. Both figures fall inside the window where the silica-rich disks live, so the age test does not hinge on which one is right.</p>
+<p>The test is thin where it matters most. Attila Moór of Konkoly Observatory said astronomers expect no silica-rich systems among older disks, but only three disks in the sample are old enough to check. More observations are needed to confirm it.</p>
+ 
+<h2>Has Anyone Actually Seen a Moon-Forming Collision?</h2>
+<p>Not conclusively. Webb sees dust that is already in orbit, not the impact itself, and "Mars-sized" is inferred from composition rather than measured directly. Even Theia is a model. NASA says the Moon's parent impact may have been one Mars-sized object or a series of objects.</p>
+<p>The closest thing to a live event is Gaia20ehk, a Sun-like star about 11,000 light-years away. Because of <a href="https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-light-travel-time">light travel time</a>, the flicker astronomers saw there left the star roughly 11,000 years earlier.</p>
+<p><a href="https://www.washington.edu/news/2026/03/11/uw-astronomers-spot-planet-collision-evidence/" target="_blank" rel="noopener noreferrer">University of Washington astronomers</a> Andy Tzanidakis and James Davenport reported in March 2026 that the star dipped in brightness three times starting in 2016, then went erratic around 2021 while its infrared light spiked.</p>
+<p>They read this as a collision between two planets, with dust orbiting at about the Earth-Sun distance. The dust has to settle before anyone can be sure, and that could take a few years or a few million. Davenport's rough math suggests the Vera C. Rubin Observatory could find about 100 more impacts in a decade.</p>
+ 
+<h2>What Did That Impact Do to Early Earth?</h2>
+<p>NASA says the Moon likely formed about 4.5 billion years ago when a Mars-sized object struck the young Earth, flinging molten and vaporized debris into orbit.</p>
+<p>Apollo samples back this up. Oxygen isotopes in Moon rocks match Earth's too closely to be a coincidence, and the Moon's metal core is only about 1.6 to 1.8% of its mass, versus roughly 30% for Earth.</p>
+<p>The Moon is now <a href="https://www.curiosityfields.com/article/why-the-moon-always-shows-the-same-face-the-physics-of-tidal-locking">tidally locked</a> to Earth, and it drifts away about an inch and a half per year, which implies it formed much closer.</p>
+<p>The <a href="https://www.curiosityfields.com/article/artemis-iii-update-nasa-2026-moon-landing">Artemis program</a> may tighten the models, because every Apollo mission landed near the lunar equator. NASA wants samples from the far side and the poles to narrow down the formation scenarios.</p>
+ 
+<h2>Could the Early Solar System Have Had More Than One Violent Phase?</h2>
+<p>Su's team says our own solar system may have gone through more than one extreme debris disk phase. The <a href="https://www.curiosityfields.com/article/asteroid-belt-mostly-empty-space-explained">asteroid belt</a> is leftover building material that never became a planet, and migrating giant planets could have stirred such leftovers into collisions.</p>
+<p>If older silica-poor disks and their erratic brightness reflect orbital instability, that would broadly match the Late Heavy Bombardment hypothesis, NASA says. The Late Heavy Bombardment itself is still debated, so this is a hypothesis stacked on a hypothesis.</p>
+ 
+<h2>What Webb's Debris Disks Do and Don't Prove</h2>
+<p>Webb has not caught another Theia. It has shown that violent impacts between Mars-sized bodies leave a recognizable mineral signature, and that the signature turns up around young stars in the age window when Earth and the Moon formed. That makes the Moon's origin look less like a freak accident and more like a stage some planetary systems may pass through.</p>
+<p>The weak spot is the thin older sample. Three disks cannot settle it.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>How common are extreme debris disks?</h3>
+<p>Only about 1% of young stars show one based on current data, although theory predicts more. Su's team found 21 so far.</p>
+ 
+<h3>What is Theia?</h3>
+<p>Theia is the name for the Mars-sized object thought to have hit the young Earth about 4.5 billion years ago. NASA says it may have been a single body or a series of objects.</p>
+ 
+<h3>How soon after the Sun did the Moon form?</h3>
+<p>Estimates run from about 60 to 100 million years, depending on the method, according to NASA. The 60 million figure comes from Apollo sample ages.</p>
+ 
+<h3>Could another Moon-forming collision be happening now?</h3>
+<p>Possibly. Gaia20ehk is a candidate caught in progress, but astronomers say they cannot be sure until the dust settles.</p>
+ 
+<h3>Is the giant impact theory proven?</h3>
+<p>It is the leading explanation, and NASA says almost all competing theories share a collision. Details such as the number of impactors are still unsettled.</p>`,
+  },
+
+  {
+    id: "antarctica-breid-bay-polynya-atmospheric-rivers",
+    slug: "antarctica-sea-ice-hole-atmospheric-rivers-polynya",
+    title: "Antarctica's Winter Sea-Ice Hole Exposed a Climate Pattern Scientists Missed",
+    metaTitle: "Antarctica Sea Ice Hole: Why the Winter Ice Opened Up",
+    excerpt: "Six atmospheric rivers and a rising layer of warm water teamed up to carve open water in the winter ice. Here is how the 2024 Breid Bay event compares with older Antarctic holes.",
+    metaDescription: "A hole nearly the size of Portugal opened in Antarctica's winter sea ice in 2024. See how atmospheric rivers and warm upwelling opened it, and what's next.",
+    category: "science",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/antarctica-breid-bay-polynya-atmospheric-rivers.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-11", // TODO: set actual publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Antarctica", "Sea ice", "Polynya", "Atmospheric rivers", "Breid Bay", "Southern Ocean", "Climate change"],
+    content: `<p>In August 2024, a hole roughly the size of Portugal opened in the winter sea ice of Breid Bay, East Antarctica, a spot that had stayed frozen in July and August every year since satellite records began in 1979. A new <a href="https://doi.org/10.1029/2026GL122580" target="_blank" rel="noopener noreferrer">Geophysical Research Letters study</a> led by Jeebanjyoti Swain says no single freak event did it. Six atmospheric rivers warmed and weakened the ice from above while wind-driven upwelling brought warm water up from below. Calling that pattern "missed" overstates it, but the combination in a place nobody expected is new, and it matters for how often winter ice may open.</p>
+ 
+<h2>What Happened in Breid Bay in August 2024?</h2>
+<p>A polynya, an area of open water surrounded by sea ice, opened in Breid Bay and peaked on August 8, 2024 at about 89,100 square kilometers (34,400 square miles). <a href="https://gizmodo.com/a-massive-hole-opened-up-in-antarctica-scientists-may-have-finally-figured-out-why-2000822872" target="_blank" rel="noopener noreferrer">Gizmodo's summary of the paper</a> says it then shrank and refroze by mid-August. The study region spans 16 to 31 degrees east and 65 to 68 degrees south.</p>
+<p>Open water in a frozen winter sea is not unheard of. Most Southern Ocean polynyas form along the coast, and the Weddell Sea has hosted famous open-ocean ones. What set this one apart was timing and place: Breid Bay had never opened in July or August in the satellite record, and this opening was about as big as a country.</p>
+ 
+<h2>Why Did Six Atmospheric Rivers Matter?</h2>
+<p>Atmospheric rivers heated the ice from above. Six of them reached the region between July and August 2024, and <a href="https://www.sciencealert.com/a-vast-hole-almost-the-size-of-portugal-opened-up-in-antarcticas-winter-sea-ice-now-we-know-why" target="_blank" rel="noopener noreferrer">ScienceAlert reports</a> the authors rank them among the strongest mid-winter moisture transport events on record. Together they produced more downwelling longwave radiation, warmer air, warm snowfall, and a positive heat flux into the ocean. All of that suppressed ice growth.</p>
+<p>Atmospheric rivers are long streams of moisture that run from the tropics toward the poles. Warm snow adds a second effect. In the Weddell case, Ethan Campbell of the University of Washington has said a snow blanket may insulate the ocean, trapping heat and magnifying melt from below.</p>
+ 
+<h2>How Did the Ocean Add Heat From Below?</h2>
+<p>Strong winds drove Ekman suction. Wind friction displaces surface water, and deeper water rises to replace it. Here that meant upper circumpolar deep water, warmer and more turbulent than the usual winter surface, reached the top and slowed freezing. Sustained marine heatwaves added to the effect.</p>
+<p>Salt plays a role in other Antarctic holes. A <a href="https://eprints.soton.ac.uk/490055" target="_blank" rel="noopener noreferrer">2024 Science Advances study</a> found that at Maud Rise in the Weddell Sea, an Ekman transport of salt across a jet around the seamount was needed to destabilize the upper ocean. A separate <a href="https://www.pnas.org/doi/pdf/10.1073/pnas.2500440122" target="_blank" rel="noopener noreferrer">PNAS paper</a> links rising surface salinity to the return of that polynya.</p>
+ 
+<h2>Was This Pattern Really Missed?</h2>
+<p>Partly. Ocean-first explanations dominated the Weddell story. But <a href="https://www.smithsonianmag.com/science-nature/how-rivers-sky-melt-huge-holes-antarctic-ice-180977112/" target="_blank" rel="noopener noreferrer">a 2021 report in Smithsonian Magazine</a> describes work by Diana Francis of Khalifa University and colleagues tying atmospheric rivers to the 2017 Weddell polynya, the 1973 to 1974 event, and a smaller opening in 2016.</p>
+<p>Sarah Gille of Scripps called the study transformative and noted that people tend to credit the ocean first.</p>
+<p>So the new part is not that atmospheric rivers can open the ice. It is that the same two-sided squeeze, atmosphere above and warm water below, worked in a different sector, in a bay with no winter opening in 45 years of satellite data. The table sets the two events side by side.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Maud Rise, Weddell Sea (2016 to 2017)</th>
+      <th>Breid Bay, East Antarctica (2024)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Peak size</td>
+      <td>Close to 80,000 km2 in 2017</td>
+      <td>About 89,100 km2 on August 8</td>
+    </tr>
+    <tr>
+      <td>Ocean driver</td>
+      <td>Ekman transport of salt, jet interacting with a seamount</td>
+      <td>Ekman suction lifting warm deep water, plus marine heatwaves</td>
+    </tr>
+    <tr>
+      <td>Atmospheric driver</td>
+      <td>Cyclones and atmospheric rivers</td>
+      <td>Six atmospheric rivers in July and August</td>
+    </tr>
+    <tr>
+      <td>Duration</td>
+      <td>Persisted for several weeks</td>
+      <td>Refroze by mid-August</td>
+    </tr>
+    <tr>
+      <td>Earlier winter openings</td>
+      <td>1970s and 2016 to 2017</td>
+      <td>None in July or August since 1979</td>
+    </tr>
+  </tbody>
+</table>
+<p>Neither hole is the largest on record. Satellites saw a Weddell polynya roughly the size of New Zealand stay open through three winters from 1974 to 1976, according to <a href="https://www.aip.org/inside-science/new-study-explains-how-big-holes-form-in-antarctic-ice-despite-the-cold" target="_blank" rel="noopener noreferrer">Inside Science</a>. A University of Washington team led by Ethan Campbell found those openings formed when the cold surface water was unusually salty.</p>
+<p>Holes in the ice are also an old feature of this ocean. The Alfred Wegener Institute reports that sediment cores from East Antarctica show repeated polynyas between 75,000 and 19,000 years ago, very likely <a href="https://www.awi.de/en/about-us/service/press/single-view/loecher-im-meereis-staerkten-in-der-vergangenheit-den-antarktischen-eisschild.html" target="_blank" rel="noopener noreferrer">larger than Germany</a>. Polynyas themselves are natural. The open question is frequency.</p>
+ 
+<h2>What Does One Polynya Say About Antarctica's Winter Ice?</h2>
+<p>One event is not a trend. The authors write that low sea-ice conditions and polynya formation may become frequent in regions where ice has historically been stable, as climate change strengthens atmospheric rivers and marine heatwaves. That is a projection, and a single event cannot show whether warming caused it.</p>
+<p>The backdrop is not calm. ScienceAlert reports Antarctica's 2026 winter ice extent was the third lowest on record, and all four of the lowest winter records fall within the past four years, with 2023 the minimum and 2024 second. Earlier in 2026, a patch of the Bellingshausen Sea roughly the size of France failed to freeze in June, the same report notes.</p>
+<p>Sea ice floats, so its loss does not directly raise sea level. It does buffer the ice shelves and glaciers that can. Food webs that feed much of the world's oceans also hinge on the ice returning each year, and they start with <a href="https://www.curiosityfields.com/article/ocean-bacteria-produce-earths-oxygen">ocean microbes</a>.</p>
+ 
+<h2>What the Breid Bay Hole Changes</h2>
+<p>Winter sea ice is not only an ocean story. When strong atmospheric rivers and warm upwelling line up, ice can open where it never did before.</p>
+<p>What nobody knows yet is how often such alignments happen, or whether warming makes them more likely. The next winter with a run of strong atmospheric rivers will show whether Breid Bay was a one-off or an early example.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>What is a polynya?</h3>
+<p>A polynya is an area of open water surrounded by sea ice. Coastal ones form most winters, while open-ocean ones like Breid Bay in 2024 and Weddell in 2016 and 2017 are rare.</p>
+ 
+<h3>How big was the Antarctic sea ice hole in 2024?</h3>
+<p>About 89,100 square kilometers (34,400 square miles) at its peak on August 8, 2024, slightly smaller than Portugal's land area.</p>
+ 
+<h3>What are atmospheric rivers?</h3>
+<p>They are long, narrow streams of moisture that carry water vapor from the tropics toward the poles. They can be hundreds of kilometers wide and thousands long.</p>
+ 
+<h3>Will more holes open in Antarctic sea ice?</h3>
+<p>The study's authors say they may, as atmospheric rivers and marine heatwaves strengthen. That is a projection from one event, not a measured trend.</p>
+ 
+<h3>Does a hole in sea ice raise sea level?</h3>
+<p>Not directly, because sea ice already floats. Less winter ice can expose ice shelves and glaciers to warmer water, which can raise sea level over time.</p>`,
+  },
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
