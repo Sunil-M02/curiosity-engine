@@ -1526,4 +1526,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/jwst-planet-collisions-extreme-debris-disks-moon-formation</loc>
+  <lastmod>2026-10-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/antarctica-sea-ice-hole-atmospheric-rivers-polynya</loc>
+  <lastmod>2026-10-11</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
