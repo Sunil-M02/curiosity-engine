@@ -1538,4 +1538,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/ai-safety-disclosure-gap-model-releases</loc>
+  <lastmod>2026-10-12</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/basal-ganglia-damage-strategic-learning</loc>
+  <lastmod>2026-10-12</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
