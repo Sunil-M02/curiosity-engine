@@ -20795,6 +20795,146 @@ content: `
 <p>Not directly, because sea ice already floats. Less winter ice can expose ice shelves and glaciers to warmer water, which can raise sea level over time.</p>`,
   },
 
+   {
+    id: "ai-safety-disclosure-gap-model-releases",
+    slug: "ai-model-safety-reports-disclosure-gap-explained",
+    title: "AI Safety Reports Reveal a Disclosure Gap Between Model Releases",
+    metaTitle: "AI Safety Reports: The Disclosure Gap Between Releases", // 54 chars
+    excerpt: "Three gaps hide inside AI safety reporting: which releases get a report, when it arrives, and whether it still describes the model you actually use.", // distinct from metaDescription
+    metaDescription: "Only 31 of 857 Chinese AI model releases had published safety results. See what AI safety reports cover, how late they arrive, and what they leave out.", // 151 chars
+    category: "artificial-intelligence",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/ai-safety-disclosure-gap-model-releases.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-12", // TODO: set actual publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["AI safety", "Safety reports", "System cards", "Model releases", "AI transparency", "SemiAnalysis", "AI governance"],
+    content: `
+<p class="lead">AI safety reports exist for some model releases and not for others, and a published one may not describe the model people use months later. A <a href="https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier" target="_blank" rel="noopener noreferrer">SemiAnalysis review</a> of 857 releases from nine leading Chinese AI developers found a published, model-specific safety result for only 31, and just nine had one at or before launch. That counts disclosure, not testing, because companies may evaluate privately.</p>
+<p>Even so, a result nobody can read cannot help a buyer or a regulator. The gap has three parts: which releases get a report, when it arrives, and whether it still applies.</p>
+ 
+<h2>What Counts as a Published AI Safety Result?</h2>
+<p>A published safety result is a specific finding about a named model, such as how often it refuses harmful requests, resists jailbreaks or shows a dangerous capability. These usually appear in a system card, model card or technical report released with the model. SemiAnalysis counted only findings of that kind. A statement that a model was "safety-trained" did not qualify.</p>
+<p>The standard is strict, and it gives "not found" a narrow meaning. SemiAnalysis says the label covers only the materials it checked, and a flagship model's result was never stretched to cover other sizes or snapshots of the same family.</p>
+ 
+<h2>How Many AI Model Releases Ship Without Safety Results?</h2>
+<p>In SemiAnalysis's sample, 813 of 857 releases, or 94.9%, had no safety disclosure at all. Another 10 claimed an evaluation without giving figures, and 3 were known only from press or investor accounts. The 31 releases with published results are the exception, and their number did not grow with the release pipeline.</p>
+<p>Quarterly releases climbed from 3 in early 2023 to 101 in the third quarter of 2025. Releases with any safety result never passed 7 in a quarter. Releases with a result at launch never passed 3 and sat at zero in nine of the 15 quarters.</p>
+<p><a href="https://www.curiosityfields.com/article/ai-reasoning-chain-of-thought">Reasoning models</a>, the fastest-advancing category, are no exception: 93% have no published results. Startups did better than the large platforms, with 20 of 317 releases documented (6.3%) against 11 of 540 (2%) for the four large platforms, but no company did it routinely. Zhipu (Z.ai) is the only developer with a result in every year since 2022.</p>
+ 
+<h2>Why Does the Timing of an AI Safety Report Matter?</h2>
+<p>A report that arrives after launch cannot inform the first users, and some arrive very late. Of the 31 documented releases, nine had results at or before launch and 16 were documented afterward, with a median lag of 42 days. The longest was 349 days: DeepSeek-R1's verified safety appendix dates to January 2026.</p>
+<p><a href="https://www.curiosityfields.com/article/fine-tuning-ai-safety-dangerous-capabilities">Fine-tuning</a> is a central worry with open weights. Once weights are public, anyone can retrain a model, and the Shanghai AI Lab's risk framework, as SemiAnalysis describes it, asks developers to measure how cheaply safety training can be stripped away before they publish. Open-weight models made up more than half of the sampled releases in every quarter since mid-2023.</p>
+ 
+<h2>Does a Safety Report Describe the Model You Actually Use?</h2>
+<p>Often that cannot be checked. A <a href="https://arxiv.org/abs/2608.11803" target="_blank" rel="noopener noreferrer">2026 preprint</a> by Sophia Abraham of Pivotal Research and Ben Bucknall of the University of Oxford examined nine first-party API providers. None published information that lets an outside party confirm the model being served is the one named in its safety documentation.</p>
+<p>Disclosure itself was not the weak point. Seven of the nine providers published quantitative safety metrics, and six compared safety results across versions. What was missing was a binding step. Only one provider, Anthropic, named a pinned, callable snapshot as the evaluated model, and the authors score even that as partial because some dangerous-capability numbers are maxima across internal snapshots.</p>
+<p><a href="https://www.curiosityfields.com/article/retrieval-augmented-generation-rag-explained">Retrieval</a> settings, system prompts, safety classifiers and routing rules can all change what a model does without changing its name. The authors point to DeepSeek's deepseek-chat identifier, which stayed constant while the model behind it moved through ten documented releases over 19 months.</p>
+<p>Only two of the nine providers flagged safety-relevant changes in their release notes, and six restrict benchmarking through their terms, which can discourage independent checks. The scorecard is a preprint, scored by one rater and then audited by a co-author. The authors stress that a low score reflects missing public verification, not misconduct.</p>
+ 
+<h2>Is This Only a Chinese AI Lab Problem?</h2>
+<p>No, but the evidence differs by country. SemiAnalysis gave no comparable figures for US developers, so the 3.6% cannot be set beside an American number. <a href="https://kfgo.com/2026/10/09/china-ai-developers-publish-safety-tests-for-just-3-6-of-model-releases-report-finds/" target="_blank" rel="noopener noreferrer">Reuters notes</a> that OpenAI, Anthropic and Google DeepMind have published safety reports, system cards or model cards for some major launches, which is not the same as every release.</p>
+<p>The wider transparency picture is mixed. Stanford's <a href="https://arxiv.org/abs/2512.10169" target="_blank" rel="noopener noreferrer">2025 Foundation Model Transparency Index</a> put the average score at 40 out of 100, down from 58 in 2024, though the index tightened its criteria, so the drop is not a clean like-for-like comparison. Five Frontier Model Forum members, including Anthropic, Google and OpenAI, landed in the middle of the pack.</p>
+<p><a href="https://www.curiosityfields.com/article/ai-danger-without-consciousness-alignment-risk">Alignment risks</a> such as models deceiving evaluators or hiding capabilities appear by name in China's AI Safety Governance Framework 3.0, issued in September 2026. SemiAnalysis notes the framework attaches no duties triggered by a model's capability, unlike EU systemic-risk rules and California's SB 53, and concludes a Chinese lab could satisfy every listed rule without running a dangerous-capability evaluation.</p>
+ 
+<h2>What Would Close the Disclosure Gap?</h2>
+<p>The Silent Updates authors propose replacing vague "material change" language with three triggers. A capability shift would require re-evaluation, behavioral drift would require updated documentation, and changes to components such as system prompts or classifiers would require logged disclosure. They also propose legal protection for good-faith third-party benchmarking.</p>
+<p>The fixes look technically feasible. Replicate identifies each deployment with a content hash, and Together AI discloses quantization settings. The paper treats both as proof that such details can be exposed, so their absence elsewhere reflects documentation choices, not technical limits.</p>
+<p>For anyone relying on a safety claim, four checks help: whether a report exists for this specific model, whether it names a version, whether it appeared at launch, and whether it covers the variant in use.</p>
+ 
+<h2>What the Disclosure Gap Means for Anyone Using AI</h2>
+<p>A safety report is a dated claim about one build of a model. The useful questions are whether the claim exists, whether it arrived when people started using the model, and whether it still describes what is being served.</p>
+<p>The evidence is strongest for coverage among Chinese developers and for verification limits across nine providers, and nobody has measured both for the same set of labs. Until then, treat a missing report as unknown, not as proof of risk or of safety.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Does a missing safety report mean the model was never tested?</h3>
+<p>No. SemiAnalysis counted only public, model-specific results, and companies could have tested privately, so the figure measures disclosure rather than safety work.</p>
+ 
+<h3>What is a system card for an AI model?</h3>
+<p>A system card is a document a developer publishes with a model describing how it was tested and what risks were found. It is one of several formats, alongside model cards and technical reports, that count as safety reporting.</p>
+ 
+<h3>What is a silent update in AI?</h3>
+<p>It is a change to a deployed model or its surrounding system that affects user-facing behavior without public disclosure, a version increment or re-evaluation. Examples include a revised system prompt, a changed safety classifier or new routing rules.</p>
+ 
+<h3>How long after release do some safety results appear?</h3>
+<p>Among releases documented afterward, SemiAnalysis found a median lag of 42 days and a maximum of 349 days, for DeepSeek-R1's safety appendix.</p>
+ 
+<h3>Do US AI companies publish a safety report for every model?</h3>
+<p>Not necessarily. Reuters reports that OpenAI, Anthropic and Google DeepMind have published safety reports, system cards or model cards for some major launches, and SemiAnalysis did not report a comparable count for them.</p>
+`,
+  },
+ 
+  {
+    id: "basal-ganglia-damage-strategic-learning",
+    slug: "basal-ganglia-damage-strategic-thinking-brain-study",
+    title: "A Brain Region Can Lose Trial-and-Error Learning Without Losing Strategic Thinking",
+    metaTitle: "Basal Ganglia Damage: Why Strategic Thinking Survives", // 53 chars
+    excerpt: "Basal ganglia damage broke learning from plain rewards but spared learning against other players' choices, while orbitofrontal damage did the reverse. Here is why, and what the small study cannot prove.", // distinct from metaDescription
+    metaDescription: "Patients with basal ganglia damage struggled to learn from simple rewards yet played a strategy game normally. See what the lesion study shows and misses.", // 154 chars
+    category: "psychology-mind",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/basal-ganglia-damage-strategic-learning.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-12", // TODO: set actual publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Basal ganglia", "Strategic thinking", "Brain lesions", "Reinforcement learning", "Orbitofrontal cortex", "Social decision-making", "Neuroeconomics"],
+    content: `
+<p class="lead">Yes, according to a <a href="https://www.nature.com/articles/s41467-019-08766-1" target="_blank" rel="noopener noreferrer">2019 Nature Communications study</a>. Six patients with basal ganglia damage failed to learn from plain reward feedback, yet they learned normally in a competitive investment game built from other people's choices. Six patients with orbitofrontal cortex damage showed roughly the opposite pattern, although those results were less stable.</p>
+<p>The result points to parallel learning routes in the brain, with the situation deciding which route carries the load. It is a small study, and it did not measure speed or theory of mind, so reading it carefully matters.</p>
+ 
+<h2>What Do the Basal Ganglia Do, and Why Study Damage to Them?</h2>
+<p>The basal ganglia are a cluster of deep brain structures, including the putamen, caudate and globus pallidus, long tied to movement and to learning from rewards. Brain imaging has also linked them to social decisions, but imaging shows only correlation. Lesion studies ask the causal question: if the region is damaged, what stops working?</p>
+<p><a href="https://www.curiosityfields.com/article/blindsight-explained-cortically-blind-vision-science">Blindsight</a> shows how well damage can split abilities that feel inseparable. Patients with cortical blindness can still react to objects they say they cannot see. The basal ganglia study makes a similar split in decision-making.</p>
+ 
+<h2>How Did Researchers Test Strategic Learning in Patients?</h2>
+<p>Lusha Zhu, Ming Hsu and colleagues at Peking University and UC Berkeley tested six patients with focal basal ganglia lesions, six with orbitofrontal cortex lesions and 20 healthy volunteers. Everyone played the Patent Race, a game in which two players choose how much of an endowment to invest, and the higher investment wins a prize.</p>
+<p>Each person played 80 rounds against recorded choices from earlier human players, then 80 rounds against a computer that generated a random hurdle with the same pattern of choices. Only the first condition gave a strategic context. Payoffs were hypothetical.</p>
+ 
+<h2>What Happened When Basal Ganglia Patients Played the Game?</h2>
+<p>They did fine in the strategic condition and poorly in the plain one. Against human choices, the patients' decisions responded to both payoff and regret, the gap between what they won and the best they could have won, just as healthy volunteers' did. Against the computer hurdle, their choices stopped tracking either signal.</p>
+<p>The orbitofrontal patients did the reverse. Their choices showed little sensitivity to payoff or regret in the strategic game but did respond to payoff against the computer. The authors caution that the orbitofrontal results were more variable and depended on analysis choices.</p>
+<p>A learning model backed up the basal ganglia pattern. Its fit to the patients' choices matched healthy volunteers in the strategic game, 0.45 against 0.42, and fell in the plain game, 0.26 against 0.36.</p>
+ 
+<h2>Why Would a Strategic Context Rescue Learning?</h2>
+<p>The game can be learned two ways, and basal ganglia damage seems to remove only one. Reinforcement learning works by trial and error from your own outcomes. Belief-based learning also uses the payoffs you could have earned given what the opponent did, so it needs a context that explains the opponent's behavior.</p>
+<p>Think of a commuter choosing a route. Trial and error says to take whichever road got you home fastest yesterday. Anticipation says everyone saw the same traffic report, so that road will be jammed today. The first needs only your own history. The second needs a model of other drivers.</p>
+<p><a href="https://www.curiosityfields.com/article/alphago-zero-ai-surpassed-human-knowledge-go">AlphaGo Zero</a> learned Go from the outcomes of its own games, which borrows the same broad idea as reinforcement learning in the brain.</p>
+<p>In the brain, the work is split across regions. Earlier fMRI work by Zhu, Mathewson and Hsu, published in <a href="https://doi.org/10.1073/pnas.1116783109" target="_blank" rel="noopener noreferrer">PNAS in 2012</a>, found that medial prefrontal cortex responded selectively to belief-learning errors, while the putamen tracked errors from both kinds of learning.</p>
+<p>The 2019 authors read their result as consistent with that picture. The basal ganglia may receive a higher-order learning signal from cortical regions when a strategic context is present, which would let belief-based learning compensate for the damaged trial-and-error system.</p>
+ 
+<h2>What Does This Study Not Show About Social Reasoning?</h2>
+<p>It does not show that complex social reasoning survives basal ganglia damage. <a href="https://www.curiosityfields.com/article/joint-family-childhood-social-cognition-research">Theory of mind</a>, the ability to track what others believe, was not tested, and the authors note that belief-based learning does not require verbalizable beliefs about an opponent.</p>
+<p>Speed was not measured either. The analysis described in the paper tracked whether choices followed payoff and regret, and the paper describes no response-time analysis.</p>
+<p>Sample size is the biggest limit. Six patients per lesion group is small. The basal ganglia lesions were all in one hemisphere, four left and two right, so the intact side may have compensated. Lesion size and location also varied, and some orbitofrontal lesions extended into lateral and dorsal regions.</p>
+<p>The label "social" is also slippery. A 2021 fMRI study in <a href="https://www.sciencedirect.com/science/article/pii/S0896627321005699" target="_blank" rel="noopener noreferrer">Neuron</a> found that most social-brain areas respond to reactive opponents, human or not. A 2026 review in <a href="https://www.nature.com/articles/s41583-026-01028-2" target="_blank" rel="noopener noreferrer">Nature Reviews Neuroscience</a> argues that regions linked to social cognition also support similar computations in non-social settings. What rescued learning here may be opponent reactivity, not sociality.</p>
+ 
+<h2>What Does This Change About One-Region, One-Skill Thinking?</h2>
+<p>Lesion results like this undercut tidy "one region, one skill" stories. <a href="https://www.curiosityfields.com/article/left-brain-right-brain-myth-neuroscience">The left-brain, right-brain myth</a> is the best-known example of such a story, and brain-scan work found no support for it. A skill such as learning from outcomes can run on several circuits, and damage reveals which circuit a task leans on in a given context.</p>
+<p>There may be a cautious clinical hint. A patient who struggles with a plain reward task may still manage a richer one. The authors did not test rehabilitation, so that remains a hypothesis for future work.</p>
+ 
+<h2>What the Basal Ganglia Study Leaves Open</h2>
+<p>The cleanest lesson is that the same damage can look severe or mild depending on the task. Basal ganglia damage hurt learning from rewards alone and spared learning when a strategic context was available. Orbitofrontal damage did the reverse.</p>
+<p>Still open: whether the pattern holds with more patients, bilateral lesions, live opponents, response-time data and direct tests of theory of mind. The authors point to lesion-symptom mapping and larger samples as the next step.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Is strategic learning the same as social reasoning?</h3>
+<p>No. Here, strategic learning meant adjusting choices to what opponents did in a competitive game, while social reasoning such as theory of mind involves tracking what others believe and was not tested.</p>
+ 
+<h3>What is the Patent Race game?</h3>
+<p>Two players, one Strong and one Weak, each choose how much of an endowment to invest, and the higher investment wins a 10-unit prize. A tie means both lose the prize, and the amount invested is lost either way.</p>
+ 
+<h3>Why do researchers study patients with brain lesions?</h3>
+<p>Lesions show what a region is necessary for, which imaging alone cannot because it shows only correlation. The authors note that patient studies are one of the few causal methods for the basal ganglia, which cannot be reached with noninvasive stimulation such as TMS.</p>
+ 
+<h3>Did the orbitofrontal patients also show social problems?</h3>
+<p>Orbitofrontal damage has long been linked to changes in social and emotional behavior, and these patients' choices did not follow payoff or regret in the strategic game. The authors call their orbitofrontal results less stable than the basal ganglia findings.</p>
+`,
+  },
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
