@@ -20935,6 +20935,142 @@ content: `
 `,
   },
 
+  {
+    id: "iron-age-domestic-burials-violence-scandinavia",
+    slug: "viking-age-skeletons-under-house-floors-violence-study",
+    title: "Burials Beneath Ordinary Homes Reveal Violence Outside Monumental Graves",
+    metaTitle: "Viking Age Skeletons Under House Floors Reveal Violence", // 55 chars
+    excerpt: "Twelve people with 19 injuries lay in Scandinavian pits, wells and house floors, outside the cemeteries that shape our view of Iron Age and Viking violence. Here is what the bones show and what they cannot.", // distinct from metaDescription
+    metaDescription: "Skeletons found under Viking Age and Iron Age Scandinavian homes reveal violence cemeteries miss, from a child's skull to repeat injuries. See the study.", // 153 chars
+    category: "history",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/iron-age-domestic-burials-violence-scandinavia.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-13", // TODO: set actual publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Viking Age", "Iron Age Scandinavia", "Bioarchaeology", "Skeletal trauma", "Archaeology", "Violence in history", "Settlement burials"],
+    content: `
+<p class="lead">Archaeologists have found evidence of violence in places cemeteries never recorded: the floors, pits, wells and postholes of Iron Age and Viking Age Scandinavian settlements. A <a href="https://link.springer.com/article/10.1007/s10816-026-09817-w" target="_blank" rel="noopener noreferrer">2026 study in the Journal of Archaeological Method and Theory</a> identified 12 people with 19 injuries among bones deposited in and around domestic spaces. Because none received a cemetery burial, standard trauma statistics skip them.</p>
+<p>One was a boy aged 2 to 4. A sharp-force injury marks his skull, and part of it was set between two floor layers of a Danish longhouse. The people living there kept walking across it.</p>
+
+<h2>What Did Researchers Find in Scandinavian Domestic Spaces?</h2>
+<p>Marianne Hem Eriksen of the National Museum of Denmark and colleagues analyzed remains from an estimated 192 individuals found in 197 contexts across roughly 1,500 years of settlement life. Most are single bones. None was placed in a cemetery, urnfield or burial mound, and most were not cremated, even when cremation was the norm.</p>
+<p>Archaeologists already argue over what counts as deliberate burial, as the debate over <a href="https://www.curiosityfields.com/article/neanderthal-burial-fire-chemistry-evidence-explained">Neanderthal graves</a> shows. This dataset is stranger still. It mixes a few ordinary-looking graves with skulls, limbs and fragments left in settlement features, and the rest of those bodies is usually missing.</p>
+<p>Twelve individuals showed injuries. At least eight were interpreted as deliberate violence, and four had injuries of less clear cause. Six had head trauma, and four carried multiple injuries. The team worked from museum collections where they could and from excavation reports where collections were closed.</p>
+<p>Museum stores keep changing old conclusions. A <a href="https://www.curiosityfields.com/article/new-crocodile-genus-great-sphinx-rocks-egypt-fossil">century-old fossil skull</a> was recently renamed after fresh CT scans, and here too, re-examination changed how some bones read.</p>
+
+<h2>Why Do Cemeteries Miss Some Victims of Violence?</h2>
+<p>Popular culture's Viking, <a href="https://www.curiosityfields.com/article/history-textbook-lies-myths-debunked">horned helmets</a> and all, is a warrior built from sagas, raids and rich graves. Yet trauma rates in Swedish Viking Age cemeteries run between 0.7% and 6%, according to studies the authors cite. A <a href="https://doi.org/10.1016/j.jaa.2024.101605" target="_blank" rel="noopener noreferrer">2024 study</a> found 60% in Norway, but from only 30 people.</p>
+<p>The gap makes sense once you ask who gets a cemetery grave. A cemetery holds people whose communities chose formal burial. Anyone killed, exposed or deposited elsewhere vanishes from the statistics, so cemetery data can understate violence in a systematic way.</p>
+<p>Bones understate it too. Strangulation, cut throats and stab wounds to soft tissue, all described in contemporary texts and bog body evidence, often leave no mark on the skeleton.</p>
+
+<h2>What Happened to the Child Whose Skull Lay Under a Floor?</h2>
+<p><a href="https://www.curiosityfields.com/article/roopkund-skeleton-lake-dna-mystery-explained">Ancient DNA</a> corrected the first reading of the bone. Excavators had classed the fragment of frontal bone from Postgården VI, a Jutland village of 85 longhouses, as a young adult woman. Osteological and genetic analysis showed a 2-to-4-year-old genetic male.</p>
+<p>The injury is a sharp-force cut from around the time of death, consistent with a sword or similar heavy blade, plus a fracture above the right eye socket. Radiocarbon dating put the bone about 200 years older than the house. The authors suggest it may have been kept for generations before deposition. Why, nobody knows.</p>
+
+<h2>Was It War, Domestic Violence or Ritual?</h2>
+<p>The authors do not pick one. They weigh war-like raids, violence inside a community including domestic violence, and ritual violence including possible human sacrifice, and note the categories can overlap.</p>
+<p>The cases show why. A shoulder blade from Uppåkra, a cult and power center in Sweden, carries a wound from behind, consistent with a spear. At Sdr. Tranders, a man with two cuts on a rib was buried with wrists possibly tied, and a longhouse was built over the pit. At Gammel Lejre, a man's skeleton records five separate injury episodes before he died, and he was buried south of a feasting hall.</p>
+<p>Caution is warranted. A Viking Age Danish grave long read as a slave sacrifice held a man with bound wrists and a woman with rich goods. A <a href="https://doi.org/10.7146/dja.v10i0.126750" target="_blank" rel="noopener noreferrer">2021 DNA analysis</a> showed they were most likely mother and son.</p>
+
+<h2>Does a 6.25% Trauma Rate Mean Violence Was Rare?</h2>
+<p>No. Twelve of 192 individuals is 6.25%, similar to Viking Age cemetery rates, but the authors call it a minimum. Most individuals are one bone, so injuries elsewhere are invisible. The 12 also come from about 23% of the sites that practiced such deposition, nearly one in four communities.</p>
+<p>Some coverage described <a href="https://www.livescience.com/archaeology/vikings/archaeologists-discover-a-childs-skull-built-into-the-floor-of-a-2-500-year-old-scandinavian-house" target="_blank" rel="noopener noreferrer">unusually high levels of violence</a>. The paper's own comparison is more modest. The news is who the cemetery record leaves out.</p>
+<p>Several also carried signs of hard lives. A single <a href="https://www.curiosityfields.com/article/5500-year-old-syphilis-skeleton-rewrote-disease-history">skeleton can record disease</a>, and these recorded stress: childhood growth disruption, dental abscesses, joint wear and a forearm fracture that never healed. The authors read the pattern as possible structural, or slow, violence. They warn that such markers were common in prehistory, so context matters.</p>
+<p>Eight of the 12 were adult males or possible males. Among all deposits, men outnumber women roughly two to one, and among injured individuals the ratio rises to four to one. Males are overrepresented overall, so the sample is small and tentative.</p>
+
+<h2>How Ordinary Were These Homes, and What Stays Uncertain?</h2>
+<p>Not all were ordinary, and not all lay under floors. Only the child's skull sat between floor layers, and two other individuals had longhouses built over their graves. Others went into pits, wells and postholes, and several sites were power centers such as Uppåkra and Gammel Lejre.</p>
+<p>Preservation limits every reading. Many bones are weathered or gnawed, and one chopped tibia may reflect post-mortem processing, not violence. Genetic and biomolecular analysis of the full dataset is still underway.</p>
+<p>Sampling matters as well. Archaeology records what surveys expose, as <a href="https://www.curiosityfields.com/article/drought-reveals-roman-ruins-europe-parch-marks">drought crop marks</a> over buried Roman ruins remind us, so unfound settlements may hold more of these bodies.</p>
+
+<h2>What Burials Beneath Homes Change About Viking Age Violence</h2>
+<p>The shift is about whose violence gets counted. If cemeteries hold only people granted formal burial, trauma statistics describe a filtered population. This dataset adds people who were killed, curated, and built into houses.</p>
+<p>The open question is whether their life histories differed from those of cemetery burials. Comparing stress markers across both groups, and finishing the DNA work, should show whether these were violent deaths or lives shaped by vulnerability.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Were these people Viking warriors?</h3>
+<p>The study does not label them warriors. Most were adults, and the authors say the injuries fit raids, violence within communities or ritual violence.</p>
+
+<h3>Why would anyone place a skull beneath a floor?</h3>
+<p>The reason is unknown. Settlement burials are often read as respectful commemoration, but some Iron Age cases may reflect using bodies to make powerful objects, and the authors stress it is not a strict either-or.</p>
+
+<h3>How do archaeologists tell violence from accidents in old bones?</h3>
+<p>They look for head injuries, sharp-force cuts, defensive parry fractures and damage from around the time of death. Even then, accidents such as a fall from a horse cannot always be ruled out.</p>
+
+<h3>What is the BODY-POLITICS project?</h3>
+<p>It is a European Research Council Starting Grant project, running 2021 to 2026, studying human remains placed in Iron Age settlements. The authors describe it as the first to analyze such remains at scale.</p>
+`,
+  },
+
+  {
+    id: "seven-ev-bandgap-semiconductor-aluminum-gallium-oxide",
+    slug: "ultrawide-bandgap-semiconductor-7-ev-aluminum-gallium-oxide",
+    title: "A Seven-Electronvolt Semiconductor Could Work Where Insulators Were Expected",
+    metaTitle: "7 eV Semiconductor: Gallium Oxide Alloy Breaks Record", // 53 chars
+    excerpt: "A doped aluminum gallium oxide film grown on sapphire conducts electricity above 7 eV, a range once left to insulators. Here is why doping is the hard part and which device numbers are still unverified.", // distinct from metaDescription
+    metaDescription: "A Nature study reports a doped aluminum gallium oxide above 7 eV that conducts electricity. See how wide-bandgap doping works and what it could power.", // 150 chars
+    category: "technology",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/seven-ev-bandgap-semiconductor-aluminum-gallium-oxide.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-13", // TODO: set actual publish date before merging
+    readTime: 5,
+    featured: false,
+    editorsPick: false,
+    tags: ["Ultrawide bandgap", "Gallium oxide", "Power electronics", "Semiconductors", "Sapphire", "Nature", "Materials science"],
+    content: `
+<p class="lead">A Cornell-led team reported in <a href="https://www.nature.com/articles/s41586-026-11085-3" target="_blank" rel="noopener noreferrer">Nature on October 7, 2026</a> that silicon-doped aluminum gallium oxide can conduct electricity with a bandgap above 7 electronvolts (eV). That is wider than cubic boron nitride, the next-widest-bandgap semiconductor known, and a range where materials are usually treated as insulators. The films grow on sapphire, a substrate industry already makes at large scale.</p>
+<p>Wider-gap films existed before. The new part is that this one carries current well enough for a working diode and transistor.</p>
+
+<h2>What Does a 7 eV Bandgap Actually Mean?</h2>
+<p>A bandgap is the energy an electron needs to jump into a state where it can carry current. <a href="https://www.curiosityfields.com/article/how-modern-chips-pack-billions-of-transistors">Silicon transistors</a> in logic chips work with a gap of about 1.1 eV. Gallium nitride sits at 3.4 eV and aluminum nitride at 6.2 eV, so 7 eV is a different regime.</p>
+<p>Gap width matters because of a scaling rule the authors cite. For rectifying power electronics, the Baliga figure of merit, a standard measure of efficiency and power density, is proportional to the bandgap raised to the 5.5 power. Doubling the gap raises it about 45 times in principle. Real devices fall short, because mobility, defects and doping all intervene.</p>
+<p>Bandgap choice also drives solar design. Stacked absorbers and <a href="https://www.curiosityfields.com/article/the-artificial-leaf-that-converts-sunlight-and-water-directly-into-hydrogen-fuel">artificial leaves</a> pick materials by which photons their gap can capture.</p>
+
+<h2>Why Is It So Hard to Make a Wide-Bandgap Material Conduct?</h2>
+<p>The obstacle is doping, the deliberate addition of atoms that supply free electrons. The authors write that controlling conductivity by equilibrium doping becomes increasingly elusive as the bandgap grows. Insulators are not failures; chipmakers even <a href="https://www.curiosityfields.com/article/air-gap-interconnects-microchips-explained">insulate wires with air</a> on purpose. But a power switch needs a material that can be switched between blocking and conducting.</p>
+<p>The same story played out before. The paper notes that gallium nitride, silicon carbide, aluminum nitride, gallium oxide and germanium dioxide were all once considered insulators, then became useful semiconductors as defects fell and suitable dopants were found.</p>
+<p>Temperature data show the struggle. In the paper's extended data, sheet resistance rose roughly tenfold as a sample cooled from 300 to 200 kelvin, and carrier concentration fell. That freeze-out pattern is typical when dopants need thermal energy to release electrons.</p>
+
+<h2>What Did the Cornell Team Change?</h2>
+<p>They made a record-gap alloy conduct. In 2021, the same collaboration grew alpha-phase aluminum gallium oxide on sapphire with bandgaps from 5.4 to 8.6 eV, according to <a href="https://doi.org/10.1126/sciadv.abd5891" target="_blank" rel="noopener noreferrer">Science Advances</a> and a <a href="https://news.cornell.edu/stories/2021/01/ultrawide-bandgap-gives-material-high-power-potential" target="_blank" rel="noopener noreferrer">Cornell Chronicle report</a>. A <a href="https://doi.org/10.1063/5.0026095" target="_blank" rel="noopener noreferrer">2020 paper</a> had reported conductive silicon-doped films only up to 6.22 eV.</p>
+<p>The 2026 work, led by Jacob Steele and Debaditya Bhattacharya with Darrell Schlom, Debdeep Jena and Huili Xing among the senior authors, reports silicon-doped films above 7.0 eV. Above 6 eV, room-temperature conductivity is more than 100 million times higher than any earlier report, the authors state. They used suboxide molecular-beam epitaxy, a vacuum growth method.</p>
+
+<h2>What Did the Devices Show, and What Is Missing?</h2>
+<p>The team built a Schottky diode and a field-effect transistor, named the AlphaFET, both with colossal-bandgap channels. These are rectifier and switch building blocks. Cross-sections show a layered stack on sapphire, with buffer layers and regrown contact layers containing less aluminum, so the devices are engineered structures, not a single slab.</p>
+<p>The main text is paywalled, and I could not verify its device numbers such as breakdown voltage, mobility or on-resistance, so this article does not report them. Readers should check the paper before citing any performance figure. In his Nature commentary, Hironori Okumura of the University of Tsukuba calls it a push of semiconductors into territory long reserved for insulators.</p>
+<p>Disclosure matters here. The authors declare a granted patent on suboxide epitaxy and a provisional patent on growing this conductive film. That is routine in materials research, but it makes independent replication more valuable.</p>
+
+<h2>How Close Is a 7 eV Semiconductor to Real Products?</h2>
+<p>As of October 2026, this is one laboratory demonstration. The stated target is power electronics, the parts that convert and control electricity. Candidate uses include <a href="https://www.curiosityfields.com/article/electric-roads-charge-ev-while-driving-explained">EV charging</a> hardware and power delivery in <a href="https://www.curiosityfields.com/article/hyperscale-data-centres-consuming-more-power-than-countries">data centers</a>, but no product has been shown.</p>
+<p>The cost argument is the strongest. The authors say sapphire is abundant and cheap, and that their approach breaks the trend of ever-wider-gap materials such as diamond and cubic boron nitride being harder, costlier and smaller to make. Silicon is also an n-type dopant, so the demonstrated devices rely on electrons, and the abstract does not claim hole conduction.</p>
+<p>Open questions include long-term reliability, heat handling and manufacturing yield. Any move from lab to factory also runs through the wider <a href="https://www.curiosityfields.com/article/microchip-arms-race-global-power">chip supply chain</a>.</p>
+
+<h2>What a 7 eV Semiconductor Changes</h2>
+<p>The 7 eV figure matters mostly as a boundary marker. A region assumed to belong to insulators now holds a doped, conducting film and two working device types.</p>
+<p>Whether it matters commercially depends on data not yet public: reliability, heat and independent replication. The pattern from gallium nitride and silicon carbide suggests such materials can cross over, but slowly.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How wide is a 7 eV bandgap compared with silicon?</h3>
+<p>It is more than six times silicon's roughly 1.1 eV and about double gallium nitride's 3.4 eV.</p>
+
+<h3>Is aluminum gallium oxide the same as gallium oxide?</h3>
+<p>No. It is an alloy in which aluminum replaces some gallium, and more aluminum widens the bandgap. The study uses the alpha crystal phase grown on sapphire.</p>
+
+<h3>Why does sapphire matter for this semiconductor?</h3>
+<p>The authors say sapphire is abundant, inexpensive and produced at massive scale. That could make scaling easier than with diamond or cubic boron nitride.</p>
+
+<h3>Could it replace silicon in computer processors?</h3>
+<p>Not on this evidence. The work targets rectifying power electronics such as diodes and switches, not the logic transistors in processors.</p>
+
+<h3>Has the result been independently confirmed?</h3>
+<p>As far as I could find as of October 2026, no independent replication is public. The paper passed peer review at Nature, with Okumura named as one reviewer.</p>
+`,
+  },
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
