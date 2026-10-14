@@ -21143,6 +21143,76 @@ content: `
 <p>As of October 2026, I found only the arXiv preprint, which names Applied Energy as its journal. Treat the numbers as preliminary until a published version appears.</p>
 `,
   },
+
+  
+  {
+    id: "quantum-criticality-collisions-early-universe",
+    slug: "qcd-critical-point-star-experiment-quark-gluon-plasma",
+    title: "Hints of Criticality Are Showing Up in Collisions That Mimic the Early Universe",
+    metaTitle: "QCD Critical Point: Hints in Early Universe Collisions", // 54 chars
+    excerpt: "Gold-ion collisions show a fluctuation dip that a critical point would explain. The early universe likely skipped that part of the phase diagram, though.", // distinct from metaDescription
+    metaDescription: "A STAR experiment saw a dip near 19.6 GeV that a QCD critical point would produce, at 2 to 5 sigma. See what is proven and what the early universe skipped.", // 155 chars
+    category: "science",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/quantum-criticality-collisions-early-universe.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-14",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["QCD critical point", "Quark-gluon plasma", "STAR experiment", "RHIC", "Heavy-ion collisions", "Early universe", "Phase transitions"],
+    content: `
+<p class="lead">Heavy-ion collisions at the Relativistic Heavy Ion Collider (RHIC) have produced the first hints of a critical point in the phase diagram of the strong force, but not a confirmation. In 2025 the <a href="https://arxiv.org/abs/2504.00817" target="_blank" rel="noopener noreferrer">STAR Collaboration</a> reported that a net-proton fluctuation measure dips to a minimum near 19.6 GeV collision energy, deviating from non-critical baselines by roughly 2 to 5 sigma. A critical point would mark where the change between quark-gluon plasma and ordinary matter turns abrupt. The wrinkle is that the early universe probably never passed through it. Whether the dip is a real signature or an artifact is still open.</p>
+ 
+<h2>What Is the QCD Critical Point, and Is It Really Quantum Criticality?</h2>
+<p>The QCD critical point is a hypothesized spot on the phase diagram of quantum chromodynamics (QCD), the theory of the strong force. It would end a line of abrupt, first-order transitions between hadronic matter and quark-gluon plasma, much as the liquid-gas critical point ends the boiling line for water.</p>
+<p>Lattice QCD calculations show that at zero baryon density the change is a smooth crossover, with a pseudo-critical temperature of 158.0 ± 0.6 MeV, according to a <a href="https://arxiv.org/abs/2610.18830" target="_blank" rel="noopener noreferrer">framework posted October 13, 2026</a>. That is about 1.8 trillion kelvin. At higher baryon density, models predict the crossover could become first order, ending at a critical point whose location remains uncertain.</p>
+<p>The phrase "quantum criticality" needs care. In condensed-matter physics it usually means a transition at absolute zero, driven by quantum fluctuations. The QCD critical point sits at trillions of kelvin and is modeled as a thermal transition in the 3D Ising universality class, the same family as the liquid-gas point. "Quantum" here refers to the theory, not the criticality.</p>
+ 
+<h2>How Do Collisions Recreate Early-Universe Matter?</h2>
+<p>Colliding gold nuclei at RHIC or lead nuclei at the Large Hadron Collider (LHC) briefly produces quark-gluon plasma, the matter believed to fill the universe during the first microseconds after the <a href="https://www.curiosityfields.com/article/big-bang-explosion-myth-space-expansion">Big Bang</a>. One review puts these temperatures at several trillion degrees, the hottest matter humans have made.</p>
+<p>Collisions are the only laboratory probe of that era. The <a href="https://www.curiosityfields.com/article/cosmic-microwave-background-oldest-light-explained">cosmic microwave background</a> carries light from roughly 380,000 years after the Big Bang, long after the plasma cooled into hadrons. What collisions show is a fluid: MIT researchers reported in January 2026 that <a href="https://news.mit.edu/2026/study-infant-universes-primordial-soup-was-actually-soupy-0128" target="_blank" rel="noopener noreferrer">quarks leave wakes in the plasma</a>, evidence that it flows like a liquid.</p>
+<p>Gravitational-wave backgrounds, such as the one a <a href="https://www.curiosityfields.com/article/pulsar-timing-array-gravitational-wave-background">pulsar timing array</a> detects, are another route to early-universe physics, though their origin is debated.</p>
+<p>The analogy has limits. A 2011 analysis notes that the space-time scales of a collision differ from cosmological ones by almost twenty orders of magnitude. The early universe was effectively infinite, while a fireball is tiny and short-lived.</p>
+ 
+<h2>What Did STAR Actually Measure?</h2>
+<p>STAR counted protons and antiprotons in each collision. The net-proton number, protons minus antiprotons, varies event to event, and its statistical moments (cumulants) describe that scatter. Near a critical point, fluctuations should grow. The ratio of the fourth to the second cumulant, C4/C2, is expected to show a minimum against a non-critical baseline.</p>
+<p>The team used phase II of the Beam Energy Scan, covering 7.7 to 27 GeV, and found exactly that. In the most central 0 to 5% collisions, C4/C2 reaches a minimum around 19.6 GeV, with a significance of about 2 to 5 sigma depending on the baseline. Ratios of proton factorial cumulants deviate near the same energy. The result appeared in <a href="https://doi.org/10.1103/9l69-2d7p" target="_blank" rel="noopener noreferrer">Physical Review Letters</a>.</p>
+<p>Collision energy works as a dial. Lowering it changes the temperature and baryon chemical potential of the fireball, so a scan across energies sweeps a path through the phase diagram.</p>
+ 
+<h2>Why Is This Not a Discovery Yet?</h2>
+<p>A dip that is 2 to 5 sigma, depending on the baseline, falls short of the 5 sigma convention for discovery in physics. The authors say dynamical model calculations that include a critical point are needed to interpret the measurement. Noncritical effects such as hadronic scattering, resonance decays and baryon number conservation can also shape net-proton distributions.</p>
+<p>Size and time matter too. A finite-size scaling analysis argues that a short-lived, small fireball blurs any critical signal. Meanwhile, the <a href="https://arxiv.org/abs/2303.17254" target="_blank" rel="noopener noreferrer">Hot QCD White Paper</a> notes that lattice calculations have found no sign of a critical point at baryon chemical potential to temperature ratios up to about 2 to 3, which pushes the search toward lower collision energies.</p>
+<p>STAR is following that lead. A July 2026 conference abstract says a comprehensive energy dependence, especially below 7.7 GeV, is needed to establish a critical point, and presents new proton-fluctuation measurements from 3.0 to 27 GeV.</p>
+ 
+<h2>Does This Mean the Early Universe Had a Critical Point?</h2>
+<p>No. Lattice QCD indicates the early universe passed through a smooth crossover at near-zero baryon density. The October 2026 framework notes that heavy-ion collisions, neutron-star matter and the early universe follow different trajectories through the phase diagram.</p>
+<p>That is the gap in the "mimic the early universe" framing. Top-energy collisions resemble early-universe conditions. The critical point hunt happens at lower energies and higher baryon density, closer to the conditions in a <a href="https://www.curiosityfields.com/article/neutron-star-merger-kilonova-gold-explained">neutron star merger</a>. The collisions are a lab for a region of the phase diagram the early universe skipped.</p>
+ 
+<h2>Why Would Finding a Critical Point Matter?</h2>
+<p>A confirmed critical point would anchor the QCD phase diagram. An APS Physics commentary on the STAR result says such a landmark could offer insight into supernovae and binary neutron-star mergers.</p>
+<p>The link runs through dense matter. Questions such as how heavy a <a href="https://www.curiosityfields.com/article/neutron-star-black-hole-mass-limit">neutron star</a> can get depend on how matter behaves at extreme density, and a critical point would constrain that behavior. Researchers are also building equations of state that include criticality for hydrodynamic simulations, so future data can be compared with concrete predictions.</p>
+ 
+<h2>What the Critical Point Hunt Changes</h2>
+<p>The finding is not that criticality has been seen. It is that a precise measurement has a feature a critical point would produce, and that the explanation is still open. The early universe appears to have skipped this part of the phase diagram, so the payoff is in dense-matter physics, not cosmic history. Lower-energy STAR data and models that include a critical point will show whether the dip at 19.6 GeV is physics or an artifact.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Has the QCD critical point been confirmed?</h3>
+<p>No. STAR's net-proton C4/C2 minimum near 19.6 GeV deviates from non-critical baselines by about 2 to 5 sigma, which is a hint, not a discovery.</p>
+ 
+<h3>What is the difference between a crossover and a phase transition?</h3>
+<p>In a crossover, properties change smoothly with no sharp boundary. In a first-order phase transition, such as water boiling, the change is abrupt.</p>
+ 
+<h3>Is the QCD critical point the same as quantum criticality?</h3>
+<p>Not in the usual sense. Quantum criticality typically refers to transitions at absolute zero, while the QCD critical point is a thermal transition at about 1.8 trillion kelvin.</p>
+ 
+<h3>What is quark-gluon plasma?</h3>
+<p>Quark-gluon plasma is a state of matter in which quarks and gluons are not confined inside protons and neutrons. It is believed to have filled the universe in its first microseconds.</p>
+ 
+<h3>How will scientists test the result?</h3>
+<p>STAR is extending proton-fluctuation measurements down to 3.0 GeV, and theorists are building models that include a critical point to compare with the data.</p>
+`,
+  },
  
 
 ];
