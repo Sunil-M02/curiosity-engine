@@ -21213,8 +21213,144 @@ content: `
 <p>STAR is extending proton-fluctuation measurements down to 3.0 GeV, and theorists are building models that include a critical point to compare with the data.</p>
 `,
   },
- 
 
+  {
+    id: "second-generation-planet-white-dwarf-hs-0209-0832",
+    slug: "second-generation-planet-dead-star-white-dwarf-niobium",
+    title: "A Dead Star May Have Formed a Second Generation of Planets Around It",
+    metaTitle: "Second-Generation Planet Around a White Dwarf Explained", // 55 chars
+    excerpt: "Old Hubble data on the white dwarf HS 0209+0832 carry a chemical fingerprint that no first-generation planet should leave. Here is the evidence, the rival explanations, and what could still overturn it.", // distinct from metaDescription
+    metaDescription: "Hubble data hints at a 'phoenix planet' built from a white dwarf's own debris. See the niobium clue, the 4.4-day signal, and why it is still a candidate.", // 153 chars
+    category: "astronomy",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/second-generation-planet-dead-star-white-dwarf-niobium.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-15",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Second-generation planet", "White dwarf", "HS 0209+0832", "Niobium", "Hubble Space Telescope", "Phoenix planet", "Exoplanets"],
+    content: `
+<p class="lead">A white dwarf called HS 0209+0832 may be orbited by a planet that did not exist until its star began to die. In an <a href="https://www.nature.com/articles/s41550-026-02983-7" target="_blank" rel="noopener noreferrer">October 2026 Nature Astronomy paper</a>, a team led by Jamie Williams of the University of Warwick reports a chemical fingerprint in the star's atmosphere that ordinary planets should not leave, plus a 4.4-day brightness cycle. No one has imaged the planet, so it is a candidate. If it holds up, it would be the first second-generation planet found around a white dwarf.</p>
+<p>The case rests on chemistry, not a picture. The star's own light is the evidence.</p>
+ 
+<h2>What Is a Second-Generation Planet?</h2>
+<p>A first-generation planet forms from the gas and dust left over when its star is born. Earth is one. A <a href="https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/" target="_blank" rel="noopener noreferrer">second-generation planet</a> forms later, from material the star casts off as it dies. Headlines have nicknamed this candidate the "phoenix planet."</p>
+<p>The star at the center is a white dwarf, the leftover core of a low-mass star that burned through its fuel and shed its outer layers. HS 0209+0832 sits about 270 light-years away in Cetus, according to <a href="https://www.universetoday.com/articles/astronomers-detect-potential-second-generation-planet-around-dying-stellar-white-dwarf" target="_blank" rel="noopener noreferrer">Universe Today</a>. Hubble recorded about 100 unidentified absorption lines in its light in 1999. They sat unexplained in the archive for 25 years.</p>
+ 
+<h2>Why Does Niobium Point to a Planet Built From a Dying Star's Debris?</h2>
+<p>Niobium points there because dying giant stars make it, and ordinary planet-forming disks do not carry it in such quantity. Williams reopened the 1999 spectrum with an updated atomic database and matched most of the mystery lines to niobium and copper. The paper identifies niobium from 62 separate absorption lines.</p>
+<p>Heavy elements come from more than one factory. <a href="https://www.curiosityfields.com/article/neutron-star-merger-kilonova-gold-explained">Neutron star mergers</a> forge much of the universe's gold and platinum in one violent burst. Niobium belongs to a slower route, the s-process, in which atoms capture neutrons gradually inside giant stars late in life. The authors argue that material ejected in that phase would carry this signature.</p>
+<p>The numbers are lopsided. Measured against calcium, niobium runs more than three orders of magnitude above the solar level. Silicon and iron, the backbone of Earth-like rock, are almost missing. The nickel-to-iron ratio exceeds 2, against about 0.05 in Earth-like material. Archival ultraviolet spectra of 33 other metal-polluted white dwarfs showed no niobium at all.</p>
+ 
+<h2>How Do Astronomers Know the Star Is Being Fed Right Now?</h2>
+<p>Because the evidence should vanish quickly. In a white dwarf atmosphere, heavy elements sink out of view within days, and helium at this temperature sinks within months. Both are still present, so something keeps resupplying them. The authors calculate an accretion rate near 430 million grams per second.</p>
+<p>"Dead" is also a poor word here. HS 0209+0832 is young and hot, about 35,800 kelvin, with a cooling age near 5 million years. NASA reports that the team estimates a Jupiter-size gas giant that is rapidly losing atmosphere, with the stripped gas falling back onto the star. We are not seeing a planet. We are reading what falls off it.</p>
+ 
+<h2>What Does the 4.4-Day Brightness Signal Add?</h2>
+<p>It adds a second, independent hint that something orbits the star. Using four sectors of TESS data, the team found the white dwarf's brightness varies every 4.399 days by about 0.12%. That fits a giant planet roughly 0.04 astronomical units out, about 6 million kilometers, far closer than Mercury is to the Sun.</p>
+<p>A giant planet that close should be <a href="https://www.curiosityfields.com/article/why-the-moon-always-shows-the-same-face-the-physics-of-tidal-locking">tidally locked</a>, with one hot face turned toward the star. As it circles, we would see more or less of that face, and the star's brightness would rise and fall. The authors also allow a comet-like tail crossing our line of sight. Spin is an unlikely cause: most white dwarfs rotate in about 1.25 days.</p>
+<p>The signal is weak, though. It shows up clearly in two of the four TESS sectors and not in the other two. Injection tests suggest a real signal this size would be missed about 60% of the time in a single sector, so the gaps do not rule it out. Four nearby stars of similar brightness showed no matching period.</p>
+ 
+<h2>How Could a Planet Form After Its Star Died?</h2>
+<p>The leading scenario needs a companion. A lone giant star loses mass in a roughly spherical wind, which is unlikely to build a disk. A close, low-mass companion could change that. A common-envelope event during the giant phase could throw the star's envelope into a disk rich in s-process elements, and a gas giant could form there by direct gravitational collapse.</p>
+<p>The companion idea is plausible because close white dwarf binaries are well documented. One unconfirmed proposal even ties some <a href="https://www.curiosityfields.com/article/long-period-radio-transients-unexplained-signals">long-period radio transients</a> to them. For this star, the authors say a brown dwarf companion would not collect enough s-process material. A first-generation sub-Neptune scattered into the new disk could instead have picked up a second-generation atmosphere.</p>
+ 
+<h2>Is This the First Second-Generation Planet Astronomers Have Found?</h2>
+<p>It is the first proposed around a white dwarf, not the first anywhere. The first confirmed exoplanets, announced in 1992 by Aleksander Wolszczan and Dale Frail, orbit the pulsar PSR B1257+12 about 2,300 light-years away, according to <a href="https://www.scientificamerican.com/article/the-exoplanet-revolution-turns-25" target="_blank" rel="noopener noreferrer">Scientific American</a>. The Nature Astronomy authors note that pulsar planets are generally thought to be second-generation worlds too.</p>
+<p>Those planets were found by <a href="https://www.curiosityfields.com/article/pulsar-timing-array-gravitational-wave-background">timing pulsars</a>, watching for tiny shifts in the arrival of their radio pulses. A pulsar is a rapidly spinning <a href="https://www.curiosityfields.com/article/neutron-star-black-hole-mass-limit">neutron star</a>, the collapsed core left by a supernova. White dwarfs are far more common than pulsars, which is why a planet like this one would matter. Williams told Universe Today there are too few cases yet to estimate how many exist.</p>
+ 
+<h2>What Could Still Overturn the Candidate?</h2>
+<p>Several things could. The planet has not been imaged, only inferred from chemistry and a faint brightness cycle. The abundance math depends on models of how elements are held up or sink in a hot atmosphere, and the authors flag that heavy accretion may disturb those models. They adopt the most conservative assumption instead.</p>
+<p>The cleanest test is a bigger sample. The paper says high carbon and strong s-process enhancements, both visible in ultraviolet spectra of hot white dwarfs, could flag other candidates. Williams told NASA he plans to use Hubble over the next several years to look for them. As of October 2026, I found no independent confirmation of the planet.</p>
+ 
+<h2>What a Dead Star's Second Act Changes</h2>
+<p>White dwarfs have long been treated as the end of a planetary story. This candidate suggests they may sometimes be the start of another. The evidence is a chemical fingerprint plus a faint 4.4-day pulse, not a photograph. Whether HS 0209+0832 is a lone oddity or the first of many depends on the next white dwarfs that show niobium and carbon together.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Can planets survive the death of their star?</h3>
+<p>Yes. Astronomers have found a few first-generation planets around white dwarfs, including a giant planet candidate reported in Nature in 2020. The difference here is that this candidate appears to have formed after the star died.</p>
+ 
+<h3>How can astronomers detect niobium in a star hundreds of light-years away?</h3>
+<p>Each element absorbs light at its own wavelengths, leaving dark lines in a spectrum. Hubble's ultraviolet spectrum of HS 0209+0832 contained lines that matched niobium's known atomic signatures.</p>
+ 
+<h3>Could the Sun get second-generation planets after it dies?</h3>
+<p>The route proposed here would not apply, because it needs a close companion star. The authors say a single star's spherical wind is unlikely to form a disk.</p>
+ 
+<h3>Could life exist on a planet around a white dwarf?</h3>
+<p>Not on this candidate, which is a hot gas giant losing its atmosphere. Williams has said rocky planets could stay warm around white dwarfs for a very long time, but that starting life there would probably be difficult.</p>
+`,
+  },
+
+  {
+    id: "reward-function-compression-goal-learning",
+    slug: "how-brain-simplifies-goals-learn-faster-working-memory",
+    title: "Your Brain Compresses Rewards Into Simple Rules to Make Learning Easier",
+    metaTitle: "How the Brain Simplifies Goals to Learn Faster (2026)", // 53 chars
+    excerpt: "Learning toward an abstract goal costs working memory until the goal collapses into a simple rule. A Nature Communications study ties that shift to faster learning, with real limits.", // distinct from metaDescription
+    metaDescription: "Berkeley researchers found people learn faster when a goal reduces to one simple rule. See how working memory limits goal learning, and the study's gaps.", // 153 chars
+    category: "psychology-mind",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/how-brain-simplifies-goals-learn-faster-working-memory.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-15",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Reward function compression", "Working memory", "Reinforcement learning", "Goal-directed learning", "Cognitive neuroscience", "Anne Collins", "Gaia Molinaro"],
+    content: `
+<p class="lead">People learn toward a goal more efficiently when the goal can be boiled down to a simple rule. That is the central claim of a <a href="https://www.nature.com/articles/s41467-026-78295-1" target="_blank" rel="noopener noreferrer">Nature Communications study</a> published October 8, 2026 by Gaia Molinaro and Anne Collins of UC Berkeley. Across six experiments, volunteers learned from abstract "goal" images instead of points. Learning got worse as goals multiplied and improved when one visible feature was enough to spot a goal. The evidence is behavioral and computational. Nobody scanned a brain.</p>
+ 
+<h2>What Does Compressing a Reward Actually Mean?</h2>
+<p>Here, a reward is not money or food. It is a goal: an outcome that counts as success because you decided it does. A reward function is the rule that maps outcomes to value, the thing that says "this counts, that does not."</p>
+<p>The authors' example is learning chess. A novice first holds specific winning positions in mind, later reduces them to a rule like controlling the center, and eventually applies it without thinking. Holding detailed goals uses working memory, the small mental workspace for information you are actively using. The authors propose that this workspace competes with the learning itself.</p>
+<p>A compressed rule is cheaper to hold. With consistent experience, they argue, it can move into long-term memory and be applied automatically.</p>
+ 
+<h2>How Did the Researchers Test It?</h2>
+<p>Volunteers learned by trial and error which of three keys to press for each of six images. This is reinforcement learning, the feedback-driven framework behind systems such as <a href="https://www.curiosityfields.com/article/alphago-zero-ai-surpassed-human-knowledge-go">AlphaGo Zero</a>. In some blocks the feedback was "+1" or "+0" points. In others it was a fractal-like image labeled "goal" or "nongoal."</p>
+<p>Participants also pressed a separate key to "collect" each good outcome. That extra step became the study's measuring stick. According to the authors' preprint, the first two experiments analyzed 54 and 51 participants after exclusions, recruited through UC Berkeley's research participant pool.</p>
+ 
+<h2>How Much Does Learning From Goals Cost Compared With Points?</h2>
+<p>A lot, when the goal keeps changing. In a re-analysis of earlier data, goal images changed on every trial, so compression was impossible. Accuracy averaged 67% with goals against 80% with points. Even in the last block, goals trailed: 75% versus 81%.</p>
+<p>That gap is the baseline the new experiments try to explain. It shows that treating an arbitrary image as a goal works, but it is not free.</p>
+ 
+<h2>Why Does Learning Get Worse When Goals Multiply?</h2>
+<p>Working memory limits also help explain why <a href="https://www.curiosityfields.com/article/multitasking-neurologically-impossible-brain-task-switching">multitasking</a> feels productive while performance drops. In Experiment 1, each block used one, two, three, or four goal and nongoal image pairs. Accuracy fell as the number rose, and even the single-goal blocks trailed the points blocks.</p>
+<p>The twist is that only one pair mattered on any given trial. Participants never needed the other pairs. They appear to have carried the whole goal set anyway, and it cost them.</p>
+ 
+<h2>Is Repetition Enough, or Does the Goal Need a Simple Rule?</h2>
+<p>The rule mattered, not the repetition. Experiment 2 held constant the number of goal images and how often each appeared. The goals were geometric figures that varied in shape, color, and fill. In "compressible" blocks, one feature separated goals from nongoals, such as all goals being filled. In "incompressible" blocks, all three features were needed.</p>
+<p>Accuracy was higher in compressible blocks (t(50) = 3.31, p = 0.002, per the preprint). Supplementary experiments add that showing a goal image more often did not help when the goal space stayed too big to compress. Giving one image conflicting labels hurt.</p>
+<p>With a single fixed goal pair, the early gap with points closed. By the final two repetitions in a block, accuracy was 92% with goals versus 93% with points, a difference that was not statistically significant.</p>
+ 
+<h2>What Can Reaction Time Reveal About Hidden Compression?</h2>
+<p>Reaction time offers a clue. People who collected goal outcomes faster also learned better in those conditions. Choice reaction time showed weak or no such link. That pattern suggests the savings come from evaluating outcomes more automatically, not from responding faster in general.</p>
+<p>A model that tied the learning rate to collection speed fit behavior at least as well as a model with free parameters for each condition. The authors read this as a bottleneck at value updating, the step where feedback changes what you expect from an action. They say the algorithmic details remain to be established.</p>
+ 
+<h2>Did the Study Find Compression in the Brain Itself?</h2>
+<p>Not yet. The study measured behavior and fit models, so it cannot say where or how the brain does this. Neuroscience usually ties reward learning to <a href="https://www.curiosityfields.com/article/why-you-cant-stop-scrolling-dopamine-loops-brain">dopamine</a>, yet this work tracked no dopamine signal. Other research shows reward learning is not one system. A <a href="https://www.curiosityfields.com/article/basal-ganglia-damage-strategic-thinking-brain-study">basal ganglia lesion study</a> found patients failed to learn from plain rewards yet learned normally from other players' choices.</p>
+ 
+<h2>What Are the Limits of the Study?</h2>
+<p>The sample was narrow. Participants were mostly young university undergraduates, and women made up 74% and 80% of the first two analyzed groups. Exclusions were high, with 20 of 71 participants dropped in Experiment 2, a rate the authors call typical for online studies. The tasks were simple and deterministic, and the experimenters assigned the goals. The authors say future work should test self-imposed goals.</p>
+<p>The reaction-time link is also correlational. Faster collection could result from learning well, not cause it. The compression process itself was not modeled in detail. And Nature Communications labels its current text an early accepted manuscript that may change, so I took the numbers from the authors' preprint.</p>
+ 
+<h2>What Reward Compression Changes About Learning</h2>
+<p>The takeaway is narrower than "simplify your goals," and more interesting. The study shows a cost to holding detailed goals in mind and a payoff when a goal collapses into a rule. It does not show that simple goals produce better outcomes. The open question is whether people compress self-chosen, real-world goals the same way, and what gets lost when they do.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Does this mean simpler goals are always better?</h3>
+<p>No. The study shows compressible goals are easier to learn toward, not that they lead to better outcomes. The authors also note that people may gravitate to simple metrics at the expense of richer values.</p>
+ 
+<h3>What is working memory?</h3>
+<p>Working memory is the limited mental workspace that holds and manipulates information you are using right now, such as a goal or a phone number. Its small capacity is why extra mental load can slow learning.</p>
+ 
+<h3>Did the researchers scan participants' brains?</h3>
+<p>No. They used behavioral tasks and computational models, so any claim about brain mechanisms remains an inference.</p>
+ 
+<h3>Can this research help me set better goals?</h3>
+<p>The study did not test any goal-setting method. The authors say the findings may eventually inform behavioral and educational strategies, which is a hypothesis, not a result.</p>
+`,
+  },
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
