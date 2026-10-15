@@ -21223,7 +21223,7 @@ content: `
     metaDescription: "Hubble data hints at a 'phoenix planet' built from a white dwarf's own debris. See the niobium clue, the 4.4-day signal, and why it is still a candidate.", // 153 chars
     category: "astronomy",
     author: authors[0], // TODO: confirm
-    coverImage: "/images/articles/second-generation-planet-dead-star-white-dwarf-niobium.jpg", // TODO: create and upload, slug-based filename convention
+    coverImage: "/images/articles/second-generation-planet-white-dwarf-hs-0209-0832.jpg", // TODO: create and upload, slug-based filename convention
     publishedAt: "2026-10-15",
     readTime: 6,
     featured: false,
@@ -21291,7 +21291,7 @@ content: `
     metaDescription: "Berkeley researchers found people learn faster when a goal reduces to one simple rule. See how working memory limits goal learning, and the study's gaps.", // 153 chars
     category: "psychology-mind",
     author: authors[0], // TODO: confirm
-    coverImage: "/images/articles/how-brain-simplifies-goals-learn-faster-working-memory.jpg", // TODO: create and upload, slug-based filename convention
+    coverImage: "/images/articles/reward-function-compression-goal-learning.jpg", // TODO: create and upload, slug-based filename convention
     publishedAt: "2026-10-15",
     readTime: 6,
     featured: false,
