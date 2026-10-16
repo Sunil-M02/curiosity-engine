@@ -1586,4 +1586,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/ai-biology-data-bottleneck-virtual-cell-models-explained</loc>
+  <lastmod>2026-10-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/hyper-na-euv-lithography-5nm-chip-features-explained</loc>
+  <lastmod>2026-10-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
