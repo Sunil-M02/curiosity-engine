@@ -21351,6 +21351,145 @@ content: `
 <p>The study did not test any goal-setting method. The authors say the findings may eventually inform behavioral and educational strategies, which is a hypothesis, not a result.</p>
 `,
   },
+
+  {
+    id: "ai-biology-data-bottleneck-virtual-cell",
+    slug: "ai-biology-data-bottleneck-virtual-cell-models-explained",
+    title: "AI Biology Is Hitting a Data Bottleneck Bigger Than Model Size Alone",
+    metaTitle: "AI Biology's Data Bottleneck: Why More Cells Fall Short", // 55 chars
+    excerpt: "Biohub and its partners just committed $1.8 billion to biological data. Yet studies suggest piling on more of the same cells stops helping, and the missing piece may be experiments across many cell states.", // distinct from metaDescription
+    metaDescription: "A Nature Methods study shows single-cell AI plateaus as cell counts grow. See why diverse perturbation data, not only model size, limits virtual cell AI.", // 153 chars
+    category: "artificial-intelligence",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/ai-biology-data-bottleneck-virtual-cell.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-16",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["AI biology", "Biological foundation models", "Virtual cell", "Single-cell foundation models", "Perturb-seq", "Biohub", "Scaling laws"],
+    content: `
+<p class="lead">AI models of biology are increasingly limited by the data they learn from, but adding more of the same data is not the fix. A <a href="https://www.broadinstitute.org/publications/broad1378181" target="_blank" rel="noopener noreferrer">2026 Nature Methods study</a> pretrained 400 single-cell models from a 22.2-million-cell corpus and found performance leveling off at dataset sizes well below today's largest training sets. What seems to be missing is variety: experiments that disturb cells in many different states. On <a href="https://biohub.org/news/virtual-biology-initiative-expansion/" target="_blank" rel="noopener noreferrer">October 7, 2026</a>, Biohub, the U.S. Department of Energy, the National Institutes of Health and industry partners committed $1.8 billion to generate that kind of data.</p>
+<p>Whether money fixes it is a separate question. The evidence says the problem is not simply "get bigger."</p>
+ 
+<h2>What Is the Data Bottleneck in AI Biology?</h2>
+<p>It is the gap between the data biological AI models can use and the useful data scientists have actually measured. Biological foundation models are trained on protein sequences, genomes or single-cell gene-expression profiles, then adapted to tasks such as predicting how a cell reacts to a drug.</p>
+<p>Epoch AI tracked this growth. Training compute for top biology models rose 1,000 to 10,000 times between 2018 and 2021, then only 10 to 100 times after that, according to its <a href="https://epoch.ai/data-insights/biology-models-trends" target="_blank" rel="noopener noreferrer">February 2025 analysis</a>. Its leading protein language models still trained with roughly 100 times less compute than frontier language models. That snapshot is old, so the gap may have moved.</p>
+<p>Text for a language model can be scraped from the web. Biological data has to be measured, one costly experiment at a time.</p>
+ 
+<h2>Does More Data Make Single-Cell AI Better?</h2>
+<p>Not reliably, at least with current methods. In the Nature Methods study, Alan DenAdel, Lorin Crawford and colleagues ran 6,400 evaluation experiments on 400 pretrained models. Performance plateaued with datasets only a fraction of the size of current training corpora. Unlike large language models, single-cell models showed no clear data scaling law.</p>
+<p>The authors advise balancing model capacity, dataset size and compute instead of raising all three indiscriminately.</p>
+<p>That runs against the language-model playbook, where more text has generally helped. One explanation comes from a separate paper, and it is about coverage rather than count.</p>
+ 
+<h2>Why Might the Kind of Data Matter More Than the Amount?</h2>
+<p>Because one intervention can do different things in different cells. In a <a href="https://www.biorxiv.org/content/10.64898/2026.02.04.703804.full.pdf" target="_blank" rel="noopener noreferrer">February 2026 position paper</a>, Payam Dibaeinia, Aly Khan and colleagues argue that cell-response models fail mainly because they lack coverage of diverse biological contexts, not because of data volume or model capacity.</p>
+<p>More data drawn from the same distributions cannot fix that, they say. They also review studies in which simple baselines matched sophisticated architectures within a single context.</p>
+<p>The mechanism is easy to picture. Most single-cell atlases are snapshots of cells as they are. They show which genes are active, not what happens when one gene is switched off. Watching traffic tells you how cars move. Closing a lane and watching what happens tells you why.</p>
+<p>Researchers behind Xaira's X-Cell model make the same point in a <a href="https://www.biorxiv.org/content/10.64898/2026.03.18.712807.full.pdf" target="_blank" rel="noopener noreferrer">March 2026 preprint</a>. Current methods typically fail outside their training distributions, they write, because they rely on observational atlases instead of interventional perturbation data. Their answer was a dataset of 25.6 million perturbed cells across 16 contexts.</p>
+ 
+<h2>Is Model Size Irrelevant, Then?</h2>
+<p>No, and this is where the evidence is contested. An <a href="https://arxiv.org/abs/2608.02961" target="_blank" rel="noopener noreferrer">August 2026 arXiv preprint</a> argues that earlier plateau results varied only one axis at a time. A plateau, it says, can mean a model too small to use extra data, not an absent scaling law.</p>
+<p>Its authors report that a joint scaling law fits once model size and data are varied independently. It is not peer reviewed, and I could read only excerpts, so I am reporting its stated conclusion without rechecking its fits.</p>
+<p>The X-Cell team argues from the data side. They report scaling a model to 4.9 billion parameters and say that growing perturbation data and model capacity together produced predictions in cell contexts the model had never seen. That is the authors' own result on their own model. As of October 2026, I found no independent test of it.</p>
+<p>Read together, the studies suggest model size, data volume and context diversity have to grow together. Which one binds first likely depends on the task.</p>
+ 
+<h2>Who Is Paying to Close the Data Gap?</h2>
+<p>Biohub launched its <a href="https://biohub.org/news/virtual-biology-initiative/" target="_blank" rel="noopener noreferrer">Virtual Biology Initiative</a> on April 29, 2026 with a $500 million commitment. Of that, $400 million goes to measurement technology and data generation, and $100 million to outside research. The stated goal is open datasets for predictive models of the human cell, often called a virtual cell.</p>
+<p>The October 7 expansion lifted the total to $1.8 billion. The Department of Energy will contribute more than $500 million over five years, drawing on exascale computing, cryo-electron microscopy and <a href="https://www.curiosityfields.com/article/ai-lab-on-a-chip-droplet-robots-colorimetric-testing">autonomous laboratories</a> across its national labs. NIH will coordinate existing datasets from more than $500 million in earlier federal investment. Google DeepMind, Isomorphic Labs and Meta add $300 million.</p>
+<p>Biohub calls this the largest coordinated commitment to AI-ready biological data so far. That is its own description. Keep one more thing in mind: the groups saying data is the bottleneck are also the ones funding data generation. That does not make them wrong. It does mean the framing deserves independent testing.</p>
+ 
+<h2>What Are the Limits of This Evidence?</h2>
+<p>The Nature Methods study tested single-cell transcriptomic models, not protein or DNA models, so it says little about structure predictors such as AlphaFold. Several key papers are preprints or position papers. Epoch's compute figures date from early 2025.</p>
+<p>Nobody has published how much interventional data is enough. Biohub says it needs orders of magnitude more data than exists today. That is a goal, not a measured threshold.</p>
+ 
+<h2>What the Biology Data Gap Changes</h2>
+<p>The bottleneck is real, but the lesson is not "collect more." It is "collect differently." A model that has seen millions of cells in familiar states can still fail when a gene is knocked out in a state it has never met. The $1.8 billion bet assumes broad, standardized, interventional data will fix that. The open question is how much variety is enough, and whether model capacity can keep pace once it arrives.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>What is a biological foundation model?</h3>
+<p>It is a model pretrained on large biological datasets, such as protein sequences or single-cell gene-expression profiles, then adapted to specific tasks. Single-cell versions learn patterns of gene activity across many cells.</p>
+ 
+<h3>What is a virtual cell?</h3>
+<p>It is an AI model meant to predict how a cell responds to a change, such as a drug or a gene edit, so researchers can run some experiments digitally. Biohub's initiative aims to build the open datasets such models need.</p>
+ 
+<h3>What is Perturb-seq?</h3>
+<p>Perturb-seq pairs CRISPR gene perturbations with single-cell RNA sequencing, recording how each perturbed cell's gene activity changes. It supplies the interventional data that observational atlases lack.</p>
+ 
+<h3>Does this mean bigger models do not help biology?</h3>
+<p>No. The evidence is mixed: one study found plateaus as cell counts grew, while a 2026 preprint says plateaus can reflect capacity limits. The X-Cell team reports gains from scaling data and model size together.</p>
+`,
+  },
+
+  {
+    id: "hyper-na-lithography-five-nanometre-features",
+    slug: "hyper-na-euv-lithography-5nm-chip-features-explained",
+    title: "Hyper-NA Lithography Could Push Chip Features Toward Five Nanometres",
+    metaTitle: "Hyper-NA EUV Lithography: How It Could Print 5nm Lines", // 54 chars
+    excerpt: "ASML and Zeiss engineers say a wider lens opening could shrink printable lines from about 8 nm to 5 nm. The design is real, the timeline is about a decade, and the number does not mean 5 nm transistors.", // distinct from metaDescription
+    metaDescription: "A 0.75 NA Hyper-NA EUV scanner could print 5nm half-pitch lines, ASML and Zeiss say. See how it works, why it is 10 years away, and what 5nm really means.", // 154 chars
+    category: "technology",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/hyper-na-lithography-five-nanometre-features.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-16",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Hyper-NA", "EUV lithography", "Numerical aperture", "ASML", "Carl Zeiss SMT", "High-NA EUV", "Semiconductor manufacturing"],
+    content: `
+<p class="lead">Hyper-NA is a proposed extreme ultraviolet (EUV) lithography design that would raise a scanner's numerical aperture from 0.55 to at least 0.75. That would let it print dense lines with a 5-nanometer half-pitch, meaning lines and gaps each about 5 nm wide, in a single exposure. Engineers at Carl Zeiss SMT and ASML described it in an <a href="https://www.spiedigitallibrary.org/journals/journal-of-micro-nanopatterning-materials-and-metrology/volume-25/issue-4/041807/Hyper-NA-a-system-with-a-numerical-aperture-of-at-least-0-75/10.1117/1.JMM.25.4.041807.full" target="_blank" rel="noopener noreferrer">October 2026 paper</a> and put its readiness roughly ten years out, with the same 13.5 nm light source. It is a design study, not a product: ASML has begun developing it but has not committed to building it.</p>
+<p>The "5 nm" here is a printed line, not a transistor.</p>
+ 
+<h2>What Is Hyper-NA Lithography?</h2>
+<p>Hyper-NA is a proposed EUV scanner with a numerical aperture (NA) of at least 0.75. Today's High-NA machines use 0.55, and the first generation of EUV tools used 0.33. NA measures how wide a cone of light the scanner's mirrors can gather from the mask.</p>
+<p>All three generations use the same 13.5 nm wavelength. Only the cone of light gets wider.</p>
+<p>Chipmakers want the wider cone to avoid multipatterning, where one layer is split across several exposures. Intel has said High-NA allows fewer patterning steps and lower mask counts, <a href="https://www.tomshardware.com/tech-industry/semiconductors/intel-installs-industrys-first-commercial-high-na-euv-lithography-tool-asml-twinscan-exe-5200b-sets-the-stage-for-14a" target="_blank" rel="noopener noreferrer">according to Tom's Hardware</a>. Hyper-NA would aim to extend that logic to finer layers.</p>
+ 
+<h2>How Does a Wider Numerical Aperture Print Smaller Features?</h2>
+<p>Finer patterns bend light at steeper angles, and a scanner can only print what its optics catch. A larger NA catches steeper angles, so smaller features survive the trip to the wafer. At a fixed wavelength, the smallest printable feature shrinks in proportion to 1/NA.</p>
+<p>ASML's own figures fit that rule. Its <a href="https://www.asml.com/en/products/euv-lithography-systems/twinscan-exe-5200b" target="_blank" rel="noopener noreferrer">High-NA EXE:5200B</a> lists 8 nm resolution, which ASML says is 1.7 times smaller than its NXE systems print in one exposure. The jump from 0.33 to 0.55 NA is a factor of 1.67.</p>
+<p>Hyper-NA's number is subtler. Scaling 8 nm by 0.55/0.75 gives about 5.9 nm, not 5. The textbook limit for dense lines is wavelength divided by four times NA, or about 4.5 nm at 0.75 NA.</p>
+<p>So 5 nm sits roughly 10% above the optical floor, while High-NA's 8 nm sits about 30% above its own floor near 6.1 nm. That is my arithmetic, not the authors'. I could not open the full paper, so I could not check which imaging assumptions support the figure.</p>
+ 
+<h2>Why Can Hyper-NA Reuse Today's Light Source and Masks?</h2>
+<p>Because the design raises NA without changing the wavelength or most of the mask geometry. The authors say the current EUV plasma source can be reused as is. They also say the maximum light angle at the mask rises only about 1 degree compared with High-NA, so today's mask infrastructure should need little change, <a href="https://www.electronicsweekly.com/news/business/asml-starts-on-hyper-na-euv-2026-10/" target="_blank" rel="noopener noreferrer">according to Electronics Weekly's summary</a>.</p>
+<p>Zeiss says it can already make mirrors precise enough, and the machine would be barely larger than a High-NA tool, <a href="https://rallies.ai/news/asml-zeiss-say-next-generation-chipmaking-technology-may-be-ready-in-10-years-4c8a218407f6f8b4" target="_blank" rel="noopener noreferrer">as reported on October 8, 2026</a>.</p>
+<p>Continuity is the whole argument. The authors weighed scanner feasibility, source reuse, mask continuity and footprint, and concluded that 0.75 NA at 13.5 nm is the next extension beyond High-NA. The alternative is a shorter wavelength, which needs a new source and is still academic research.</p>
+ 
+<h2>What Makes 0.75 NA Hard to Image?</h2>
+<p>Steep angles make polarization matter. When light rays cross at wide angles, they interfere differently depending on their polarization, which can cut image contrast. <a href="https://www.tomshardware.com/tech-industry/semiconductors/asml-lithograpy-roadmap-examined-from-duv-to-hyper-na" target="_blank" rel="noopener noreferrer">Tom's Hardware reports</a> that one orientation effectively cancels at extreme angles, and filtering polarization costs photons.</p>
+<p>The authors find four different optimal polarization orientations, one for each pair of interfering diffraction orders. Electronics Weekly adds that they judge polarization control of limited value for many two-dimensional patterns once light loss is counted. The paper also examines how the mask's own three-dimensional structure distorts the image, according to <a href="https://semiengineering.com/hyper-na-euv-the-next-extension-beyond-high-na-lithography-carl-zeiss-asml/" target="_blank" rel="noopener noreferrer">its abstract summary</a>.</p>
+ 
+<h2>Does a 5 nm Printed Line Mean 5 nm Chips?</h2>
+<p>No. A 5 nm half-pitch describes the finest dense line pattern a tool can print in one exposure. It is not the size of a transistor or the name of a chip generation. <a href="https://spectrum.ieee.org/the-status-of-moores-law-its-complicated" target="_blank" rel="noopener noreferrer">IEEE Spectrum explains</a> that a modern node name no longer reflects the size of any particular chip feature.</p>
+<p>Whatever label a future process gets, it will not be a measurement of the printed line.</p>
+<p>Shrinking lines is also only one way chips improve. Cornell-led researchers recently reported an <a href="https://www.curiosityfields.com/article/ultrawide-bandgap-semiconductor-7-ev-aluminum-gallium-oxide">ultrawide-bandgap semiconductor</a> based on aluminum gallium oxide, a materials route aimed at power electronics, not at denser logic.</p>
+ 
+<h2>When Could Hyper-NA Actually Be Built?</h2>
+<p>The authors' horizon is about ten years, which points to the mid-2030s. ASML has begun developing the concept but has not committed to producing it, <a href="https://www.technology.org/2026/10/10/asml-zeiss-hyper-na-euv-10-years/" target="_blank" rel="noopener noreferrer">Technology.org reports</a>. ASML first put Hyper-NA on its roadmap in May 2024, when its Martin van den Brink pointed to around 2030 as when an NA above 0.7 would become a visible option.</p>
+<p>Cost is the open question. Earlier reports questioned whether such a step would ever pay off as scaling nears its limits. High-NA itself is still ramping: <a href="https://siliconangle.com/2026/07/15/intel-starts-using-asmls-high-na-euv-technology-produce-chips/" target="_blank" rel="noopener noreferrer">SiliconANGLE reported on July 15, 2026</a> that Intel had begun using ASML's EXE tools on select Intel 18A layers. As of October 2026, I found no public customer commitment to Hyper-NA.</p>
+ 
+<h2>What a Five-Nanometer Printed Line Would Change</h2>
+<p>If Hyper-NA gets built, chipmakers could aim to print the tightest layers in one exposure instead of splitting them across several. The design's appeal is continuity: same light, similar masks, similar footprint. Its risk is headroom. At 5 nm it sits close to the optical limit, and beyond it the road likely needs shorter wavelengths. Hyper-NA looks less like a leap than a last long step on the current path.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>What is numerical aperture in lithography?</h3>
+<p>Numerical aperture measures how wide a cone of light a scanner's optics can collect. A larger NA captures finer detail, so smaller features can be printed at the same wavelength.</p>
+ 
+<h3>What is the difference between High-NA and Hyper-NA EUV?</h3>
+<p>High-NA uses a numerical aperture of 0.55 and lists 8 nm resolution. Hyper-NA would use at least 0.75 and target a 5 nm half-pitch, with the same 13.5 nm light.</p>
+ 
+<h3>Will Hyper-NA make chips with 5 nm transistors?</h3>
+<p>No. The 5 nm figure is a printed half-pitch, and modern node names no longer match the size of any chip feature.</p>
+ 
+<h3>Why not switch to a shorter wavelength instead?</h3>
+<p>The authors say tools beyond Hyper-NA would likely need a shorter wavelength, which remains under academic research. Hyper-NA keeps today's 13.5 nm source.</p>
+ 
+<h3>Is ASML building a Hyper-NA machine?</h3>
+<p>ASML has begun developing the concept but has not committed to producing it. The authors say it could be ready in about ten years.</p>
+`,
+  },
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
