@@ -21490,6 +21490,150 @@ content: `
 <p>ASML has begun developing the concept but has not committed to producing it. The authors say it could be ready in about ten years.</p>
 `,
   },
+
+  {
+    id: "peak-district-lead-mining-teeth-social-inequality",
+    slug: "medieval-lead-poisoning-teeth-peak-district-mining",
+    title: "Medieval Teeth Reveal How Lead Mining Exposed Children Unequally",
+    metaTitle: "Medieval Lead Poisoning: What Teeth Reveal About Mining", // 55 chars
+    excerpt: "Enamel from 15 medieval people in Derbyshire records how much lead each absorbed as a child. The pattern points to unequal exposure, but only five graves support the status link.", // distinct from metaDescription
+    metaDescription: "Peak District tooth enamel shows medieval lead mining exposed children to lead, with doses varying by status. See the evidence and what it can't show.", // 150 chars
+    category: "history",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/peak-district-lead-mining-teeth-social-inequality.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-17",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Medieval lead mining", "Peak District", "Tooth enamel", "Lead exposure", "Bioarchaeology", "Social inequality", "Castleton"],
+    content: `
+<p class="lead">Teeth from medieval graves in England's Peak District show that children in lead-mining communities absorbed heavy lead doses, and that exposure was not shared evenly. A <a href="https://doi.org/10.15184/aqy.2026.10416" target="_blank" rel="noopener noreferrer">2026 study in Antiquity</a> measured lead in the enamel of 15 medieval people, and all but one carried more than 10 parts per million (ppm). At the seventh-century Wigber Low cemetery, a man buried with a sword measured 2 ppm, while a 17-year-old woman measured 69.1 ppm. The sample is tiny, so the result is a strong hint about inequality, not a proven rule. The same teeth also date the restart of post-Roman lead production to the mid-seventh century.</p>
+ 
+<h2>What Did Researchers Measure, and Why Do Teeth Keep the Record?</h2>
+<p>Christopher Loveluck of the University of Nottingham and colleagues sampled enamel from 17 people: 10 from two Castleton cemeteries, five from Wigber Low, and two Iron Age individuals from Eldon Hole as a pre-mining comparison. Every person was radiocarbon dated, and the British Geological Survey measured lead. <a href="https://www.nature.com/articles/d41586-026-03236-3" target="_blank" rel="noopener noreferrer">Nature's news team</a> framed the work as a snapshot of social inequality in medieval Europe.</p>
+<p>Bone chemistry also records geography, much as ancient DNA did at the <a href="https://www.curiosityfields.com/article/roopkund-skeleton-lake-dna-mystery-explained">Roopkund skeleton lake</a>. Strontium and oxygen isotopes here showed little immigration, so mining knowledge likely passed through local families rather than arriving with outsiders.</p>
+<p>Teeth suit this work because enamel never remodels once it forms. Lead absorbed between about ages 4 and 12 stays locked in as a closed record, and lead settles preferentially in bone, dentine and enamel.</p>
+<p>The authors treat readings above roughly 0.6 to 0.7 ppm as human-made, and below 0.5 ppm as natural background. Children could have absorbed lead through dust, fumes and contaminated materials, including while washing ore or standing near smelting. Enamel lead does not map cleanly to blood lead, so the numbers show exposure, not diagnosed poisoning.</p>
+ 
+<h2>How Do the Teeth Change the Start Date of Medieval Lead Production?</h2>
+<p>Rome ran the Peak District's lead trade first. Lead ingots point to large-scale Roman production from about AD 80 to 200, and the industry was long assumed to have largely collapsed after the fourth century, serving only local needs.</p>
+<p>Earlier evidence for fresh post-Roman smelting was thin. Lead isotopes in weights from Birka, Sweden, suggested AD 760 to 860, and an AD 835 charter records a nobleman paying rent on a Wirksworth estate in lead.</p>
+<p>The Wigber Low enamel pushes the restart back roughly a century, to the mid-seventh century, when wealthy furnished graves appear. The authors link that wealth to demand for lead in Christian church building.</p>
+ 
+<h2>Did Status Protect Some Children From Lead?</h2>
+<p>At Wigber Low, dated to roughly AD 625 to 685, readings ran from 2 to 69.1 ppm. Two local men buried with weapons measured 2 and 10.9 ppm, and a woman buried with a crystal ball amulet measured 13.2 ppm. An unfurnished male grave measured 29.5 ppm, and the 17-year-old woman topped the group at 69.1 ppm.</p>
+<p>Grave goods are an argument about rank, not a measurement, as the debate over <a href="https://www.curiosityfields.com/article/neanderthal-burial-fire-chemistry-evidence-explained">Neanderthal burial</a> evidence shows. The authors suggest the low-exposure men may have profited from lead without doing its most hazardous work. Sex and status overlap across these five graves, so the data cannot separate them.</p>
+<p>Cemetery samples also filter who gets counted, a problem <a href="https://www.curiosityfields.com/article/viking-age-skeletons-under-house-floors-violence-study">Viking Age skeletons under house floors</a> made visible. Five graves from one site are an even narrower window.</p>
+ 
+<h2>Were Medieval Children Really Exposed Like Industrial City Kids?</h2>
+<p>Early coverage said seventh-century children matched or exceeded industrial cities. The paper supports a narrower claim. Only two Wigber Low individuals reached concentrations otherwise seen at Castleton and in Industrial Revolution Coventry and Chelsea. The sword-buried man resembled people from non-mining regions of Britain.</p>
+ 
+<h2>Did the Gap Widen Once Castleton Grew, and When Did Exposure Peak?</h2>
+<p>The study does not show that. It shows exposure spreading. In Castleton's Joule Yard cemetery, mostly the 680s to 880s, all five sampled people exceeded 25 ppm, with a range of 25.5 to 54.1. At Spital Field, in use from the 11th to 16th centuries, five people ranged from 25.2 to 68.4 ppm.</p>
+<p>Those graves were unfurnished, so no status comparison is possible. The authors read the pattern as a heavily contaminated living environment by the mid-eighth century, sustained by a long, inherited local trade.</p>
+<p>Compare Sala, Sweden, where 16th-century mine workers included forced laborers raised elsewhere, and one cemetery shows much lower enamel lead. Peak District readings instead reflect children raised inside the polluted landscape.</p>
+
+<p>The <a href="https://www.curiosityfields.com/article/history-of-money-barter-myth-debt-to-digital-currency">history of money</a> explains part of the pull. Domesday Book records five Peak District manors owing 40 pounds of pure silver in 1086, possibly drawn from silver in lead ore, near the start of a European silver shortage.</p>
+<p>The two highest Spital Field readings belong to people dated to about 1175 to 1270. Royal Pipe Rolls place peak Peak District production at roughly 1180 to 1215, and an Alpine ice core from Colle Gnifetti shows lead pollution peaking in the same window.</p>
+ 
+<h2>Why Did Three Young Women Die So Early?</h2>
+<p>A single skeleton can carry a disease record, as the <a href="https://www.curiosityfields.com/article/5500-year-old-syphilis-skeleton-rewrote-disease-history">5,500-year-old syphilis skeleton</a> did, but three deaths cannot establish a cause. Three women in the study died between about 17 and 25, all with elevated childhood lead.</p>
+<p>Pregnancy releases stored lead from bone into the blood, according to World Health Organization guidance the authors cite, which may endanger mother and fetus. Two Wigber Low women lay near children aged about 2 and 5. A 2024 study found only a direction of association between childhood lead and earlier death.</p>
+ 
+<h2>What Medieval Teeth Add to the History of Lead</h2>
+<p>The teeth move lead's history from documents into bodies. They date post-Roman production to the mid-seventh century and show that, once Castleton industrialized, everyone sampled carried a heavy childhood dose.</p>
+<p>Whether status protected people rests on five graves and remains untested. Larger samples from more cemeteries, plus direct comparison of lifespans, would show who worked the ore, who profited, and who simply breathed the air it fouled. Until then, this is a careful first look, not a verdict.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>How did scientists measure lead in medieval teeth?</h3>
+<p>They sampled enamel and analyzed it with inductively coupled plasma mass spectrometry at the British Geological Survey. Enamel keeps a closed record of lead absorbed between roughly ages 4 and 12.</p>
+ 
+<h3>When did lead mining restart in the Peak District after Rome?</h3>
+<p>Enamel from Wigber Low dates renewed lead production to the mid-seventh century AD. Large-scale contamination around Castleton followed by the mid-eighth century.</p>
+ 
+<h3>Does lead in teeth prove medieval lead poisoning?</h3>
+<p>No. It proves childhood exposure, but the link between enamel lead and blood lead is complex, so poisoning in any one person cannot be confirmed.</p>
+ 
+<h3>What counts as natural lead levels in human teeth?</h3>
+<p>The authors cite natural background below about 0.5 ppm, with 0.6 to 0.7 ppm and above signaling human-made exposure. Nearly every medieval person here exceeded 10 ppm.</p>
+ 
+<h3>Did wealthier medieval people avoid lead exposure?</h3>
+<p>At Wigber Low, people buried with weapons or richer goods mostly had lower readings. That rests on five graves, so it is a pattern to test, not a conclusion.</p>
+`,
+  },
+  {
+    id: "reef-building-corals-extinction-risk-iucn-nature-2026",
+    slug: "coral-reef-extinction-risk-iucn-red-list-44-percent",
+    title: "Nearly Half of Reef-Building Corals Face Elevated Extinction Risk",
+    metaTitle: "Coral Reef Extinction Risk: 44% of Species Threatened", // 53 chars
+    excerpt: "A Nature reassessment of 892 species finds 340 threatened. The number rests on projected heat, a choice of denominator and data that stop before the worst bleaching on record.", // distinct from metaDescription
+    metaDescription: "A Nature study finds 44% of assessed reef-building corals are threatened. See what the Red List measures and why 2023-2025 bleaching is not yet counted.", // 152 chars
+    category: "science",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/reef-building-corals-extinction-risk-iucn-nature-2026.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-17",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Coral reefs", "Reef-building corals", "IUCN Red List", "Coral bleaching", "Extinction risk", "Ocean warming", "Marine conservation"],
+    content: `
+<p class="lead">Nearly half of reef-building corals face an elevated relative risk of extinction, according to a <a href="https://doi.org/10.1038/s41586-026-11263-3" target="_blank" rel="noopener noreferrer">Nature reassessment published October 15, 2026</a>. Researchers reassessed 892 species for the IUCN Red List of Threatened Species, and 774 had enough data to rank. Of those, 340 (44%) are threatened: 33 Critically Endangered, 251 Endangered and 56 Vulnerable. About one third were threatened in 2008. Reefs support people across more than 100 tropical countries. The ranking does not predict extinction, and the data predate the record 2023 to 2025 bleaching, so the picture may be worse.</p>
+ 
+<h2>What Does the 44% Figure Actually Count?</h2>
+<p>The Red List ranks relative extinction risk by comparing population size, decline and range with fixed thresholds. The authors state it does not predict whether or when a species will go extinct. "Threatened" covers Vulnerable, Endangered and Critically Endangered, so a threatened coral is closer to the edge, not already lost.</p>
+<p>Ecology often runs on thin data, as the <a href="https://www.curiosityfields.com/article/wood-wide-web-mycelium-networks-evidence-gap">wood wide web evidence gap</a> shows. For corals, species-level population counts mostly do not exist, which shapes how the ranking was built.</p>
+
+<p>The 44% divides 340 threatened species by the 774 with sufficient data. The other 118 species, the difference from 892, lacked enough data to assess. Dividing by all 892 gives about 38%, our own arithmetic. Neither number is wrong. Each answers a different question, and unassessed species could fall on either side.</p>
+ 
+<h2>How Did Scientists Rank Corals and Track the Trend?</h2>
+<p>The first global assessment, in 2008, found about one third of reef-building corals threatened. Now the share is 44%. <a href="https://cordioea.net/corals-at-elevated-risk-of-extinction/" target="_blank" rel="noopener noreferrer">CORDIO East Africa reports</a> that the coral Red List Index is falling by 0.07 to 0.094 points per decade, versus 0.002 to 0.039 for other groups.</p>
+<p>Methods changed between assessments, so the supplementary data separate genuine status shifts from reclassifications that reflect better knowledge. Only the genuine shifts say anything about reefs.</p>
+
+<p>With species-level trends unavailable for most corals, the team inferred population reductions from proxies: global coral cover trends and projected annual severe bleaching under the intermediate SSP2-4.5 warming scenario, both over three decades. It then adjusted for trait-based vulnerability. Most threatened listings rest on projected thermal stress, not observed species counts.</p>
+<p>Every organism has a heat ceiling, as research on the <a href="https://www.curiosityfields.com/article/fire-amoeba-hottest-temperature-complex-life-survive">fire amoeba</a> shows, and the vulnerability scores try to capture which coral traits raise that ceiling.</p>
+ 
+<h2>Why Do the 2023 to 2025 Bleaching Data Matter?</h2>
+<p>Reef corals run on a sunlight-powered partnership with algae called zooxanthellae, unlike communities that live on chemistry in <a href="https://www.curiosityfields.com/article/deep-sea-life-without-sunlight-chemosynthesis">deep-sea ecosystems without sunlight</a>. Heat breaks the partnership. Stressed corals expel the algae and turn white, and NOAA notes bleaching does not always kill if stress eases.</p>
+<p>The assessment predates the three hottest years on record and the fourth global bleaching event. <a href="https://www.nesdis.noaa.gov/news/worlds-fourth-mass-coral-bleaching-event-likely-ended-2025" target="_blank" rel="noopener noreferrer">NOAA reports</a> bleaching-level heat stress hit about 84% of reef area from early 2023 to mid-2025, versus <a href="https://www.yahoo.com/news/largest-coral-bleaching-event-record-210458063.html" target="_blank" rel="noopener noreferrer">68.2% in 2014 to 2017</a>. Lead author David Obura <a href="https://phys.org/news/2026-10-el-nio-threat-coral-reefs.html" target="_blank" rel="noopener noreferrer">considers it possible</a> that a reassessment after the coming El Niño would show more than half at elevated risk.</p>
+ 
+<h2>Which Corals Face the Worst Odds?</h2>
+<p>A <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11567617/" target="_blank" rel="noopener noreferrer">2024 PLOS ONE reassessment</a> of all 85 shallow-water Atlantic species put 45.88% to 54.12% at elevated risk and listed 26 as Critically Endangered, citing projected annual severe bleaching within 30 years.</p>
+<p>The <a href="https://iucn.org/press-release/202411/over-40-coral-species-face-extinction-iucn-red-list" target="_blank" rel="noopener noreferrer">IUCN adds</a> that disease and pollution compound the pressure. Staghorn and elkhorn corals in the Caribbean are Critically Endangered after declines tied to warming, pollution, hurricanes and disease. Most coral species live in the Indo-Pacific.</p>
+ 
+<h2>What Does the Assessment Leave Out, and Why Does It Matter?</h2>
+<p>It covers warm-water, reef-building corals only. Cold-water corals live in deeper, colder water without sunlight, and their assessments are ongoing. IUCN says only 22 of more than 4,000 cold-water species had been assessed by 2024, and their main threats, including bottom trawling and deep-sea mining, differ from reef heat stress.</p>
+<p>So "nearly half of corals" overstates the scope. The accurate phrase is nearly half of assessed reef-building species.</p>
+
+<p>The authors tie coral biodiversity to reef ecosystem function, and reefs provide ecological, economic and social benefits in over 100 tropical countries. IUCN adds that reefs sustain coastal fishing communities, stabilize shorelines and help remove carbon from the ocean.</p>
+ 
+<h2>What Could Lower the Risk?</h2>
+<p>The authors conclude that limiting further warming is essential to maintain coral biodiversity and reef function. IUCN assessors add that local pressures such as pollution, agricultural runoff and unsustainable fishing need action too, and that evidence of adaptation to warmer water remains limited.</p>
+<p>Cutting emissions also means decarbonizing heavy industry, as work on <a href="https://www.curiosityfields.com/article/carbon-capture-industrial-manufacturing-decarbonization">carbon capture in manufacturing</a> shows. Keeping clean grids stable matters as well, and <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-blackouts">long-duration energy storage</a> is one tool for that.</p>
+<p>Technological rescue is a harder sell. Research on <a href="https://www.curiosityfields.com/article/woolly-mammoth-resurrection-crispr-de-extinction-biology">woolly mammoth resurrection</a> shows how difficult it is to rebuild a species once lost, and a 2025 paper concluded that <a href="https://www.nature.com/articles/s41559-025-02667-x" target="_blank" rel="noopener noreferrer">restoration cannot be scaled up globally</a> to save reefs.</p>
+ 
+<h2>What the 44% Figure Means for Coral Reefs</h2>
+<p>Read the 44% as a ranking of exposure to projected heat, not a countdown to extinction. It rests on proxies, a denominator choice and data that stop before the worst bleaching on record, and it covers reef-building species only.</p>
+<p>The authors give no date for any species. The next assessment will show how much the 2023 to 2025 heat added, and whether the share crosses half. Until then, the 44% is a snapshot built from data that predate those years.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Are reef-building corals going extinct?</h3>
+<p>The Red List does not predict whether or when a species will go extinct. It ranks relative risk, and 340 of 774 assessed species are classed as threatened.</p>
+ 
+<h3>How many coral species are threatened with extinction?</h3>
+<p>The Nature study classed 340 of 774 species with sufficient data (44%) as threatened. Thirty-three are Critically Endangered, 251 Endangered and 56 Vulnerable.</p>
+ 
+<h3>Why are Atlantic corals so threatened?</h3>
+<p>IUCN attributes the pressure to annual severe bleaching, pollution and disease. A 2024 reassessment put 45.88% to 54.12% of Atlantic species at elevated risk.</p>
+ 
+<h3>Does coral bleaching mean the coral is dead?</h3>
+<p>No. NOAA says corals can recover if stress eases, but prolonged bleaching raises mortality risk sharply.</p>
+ 
+<h3>Could the share of threatened corals pass 50%?</h3>
+<p>Lead author David Obura considers it possible after the coming El Niño. That is a possibility he raised, not a forecast.</p>
+`,
+  },
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
