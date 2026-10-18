@@ -1610,4 +1610,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/ev-battery-recycling-critical-minerals-lithium-cobalt-supply</loc>
+  <lastmod>2026-10-18</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/sleep-score-vs-sleep-regularity-health-risks-wearable-data</loc>
+  <lastmod>2026-10-18</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
