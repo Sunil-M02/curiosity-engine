@@ -21634,6 +21634,150 @@ content: `
 <p>Lead author David Obura considers it possible after the coming El Niño. That is a possibility he raised, not a forecast.</p>
 `,
   },
+
+  {
+    id: "battery-recycling-critical-minerals-iea-2026",
+    slug: "ev-battery-recycling-critical-minerals-lithium-cobalt-supply",
+    title: "Battery Recycling Is Becoming a New Source of the Minerals Clean Energy Needs",
+    metaTitle: "EV Battery Recycling: Can It Fix Mineral Shortages?", // 51 chars
+    excerpt: "Most recycled battery metal today comes from factory scrap, not old EVs. The IEA expects retired packs to take over in the mid-2030s, with chemistry, trade rules and used-EV markets deciding how much that helps.", // distinct from metaDescription
+    metaDescription: "IEA data shows battery recycling mostly recovers factory scrap today. See when old EV packs take over and how LFP changes lithium and cobalt recovery.", // 150 chars
+    category: "future-innovation",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/battery-recycling-critical-minerals-iea.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-18", // TODO: confirm publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Battery recycling", "EV battery recycling", "Critical minerals", "Lithium", "Cobalt", "Nickel", "Black mass", "LFP batteries", "Clean energy"],
+    content: `
+<p class="lead">Battery recycling is starting to supply lithium, nickel and cobalt, but today most of it comes from scrap made inside battery factories, not from worn-out electric vehicles. The IEA's <a href="https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries" target="_blank" rel="noopener noreferrer">Global EV Outlook 2026</a> says end-of-life batteries should take the lead only around the mid-2030s. Its <a href="https://iea.blob.core.windows.net/assets/19c60aa0-ee07-4a20-a138-33c967ac5008/GlobalCriticalMineralsOutlook2026.pdf" target="_blank" rel="noopener noreferrer">Global Critical Minerals Outlook 2026</a> projects that average recycling rates for key energy minerals rise from about 10% today to close to 20% by 2040. That leaves mines and refineries as the main source for years. Recycling is a real future mineral source. Timing, battery chemistry and trade rules decide how soon it matters.</p>
+ 
+<h2>How Much of Today's Battery Metal Comes From Recycling?</h2>
+<p>Only a small share, and most of it is manufacturing scrap. The IEA says recycling mainly recovers scrap generated while cells and components are made, and that its contribution to meeting battery mineral needs beyond that scrap remains limited. Packs from retired EVs are not yet arriving in volume.</p>
+<p>The reason is timing. Between 2020 and 2025, lithium-ion battery deployment grew more than sixfold, and nearly all batteries deployed in recent years are still in use. The IEA expects most to keep running until the mid-2030s, possibly longer, which creates a lag of roughly 15 years between demand growth and comparable volumes of end-of-life batteries.</p>
+<p><a href="https://www.curiosityfields.com/article/solid-state-battery-ev-real-timeline">Solid-state batteries</a> will not change that picture soon. The IEA expects them to stay in premium segments until the first half of the 2030s, so the packs reaching recyclers in the mid-2030s will likely be today's chemistries.</p>
+ 
+<h2>Which Minerals Does Recycling Cover Best?</h2>
+<p>Cobalt and copper already have relatively established recycling streams, while lithium and nickel recycling are at an early stage but expected to expand rapidly, according to the <a href="https://iea.blob.core.windows.net/assets/19c60aa0-ee07-4a20-a138-33c967ac5008/GlobalCriticalMineralsOutlook2026.pdf" target="_blank" rel="noopener noreferrer">IEA's July 2026 outlook</a>. Under today's policy settings, secondary supply could roughly double its contribution by 2040.</p>
+<p>Prices raise the stakes. The IEA reports that lithium prices more than doubled and cobalt rose by around 130% between January 2025 and April 2026, driven by storage demand, tight supply and export restrictions such as the Democratic Republic of the Congo's cobalt quota. Higher prices make recovered metal more valuable, but only where feedstock exists.</p>
+ 
+<h2>Why Do LFP Batteries Change Recycling Economics?</h2>
+<p>Lithium iron phosphate (LFP) batteries contain no cobalt or nickel, so a recycler has less high-value metal to sell. LFP made up over 55% of EV batteries deployed worldwide in 2025, up from nearly 50% in 2024. The <a href="https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries" target="_blank" rel="noopener noreferrer">IEA says</a> this shift challenges recyclers that rely on the value of recovered minerals and may require different business models.</p>
+<p>One alternative is a toll model, where the recycler is paid for processing and the customer keeps the recovered materials. Combined with rules that make automakers or battery makers responsible for end-of-life packs, as in the <a href="https://eur-lex.europa.eu/eli/reg/2023/1542/oj/eng" target="_blank" rel="noopener noreferrer">EU Battery Regulation</a> and in China, the main incentive shifts from selling metal to avoiding disposal costs.</p>
+<p><a href="https://www.curiosityfields.com/article/sodium-ion-battery-cost-parity-lithium-2026">Sodium-ion batteries</a> add another variable because they avoid lithium entirely, and the IEA notes growing interest in them. Every new chemistry that reaches scale changes what a retired pack is worth.</p>
+ 
+<h2>Who Controls Battery Recycling Capacity?</h2>
+<p>China does. The IEA says China holds over three-quarters of global pre-treatment capacity and about <a href="https://iea.blob.core.windows.net/assets/19c60aa0-ee07-4a20-a138-33c967ac5008/GlobalCriticalMineralsOutlook2026.pdf" target="_blank" rel="noopener noreferrer">90% of material recovery capacity</a>, with Korea the leading player in material recovery outside China. <a href="https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries" target="_blank" rel="noopener noreferrer">Capacity currently exceeds available feedstock</a> worldwide, so some recyclers struggle to secure enough material.</p>
+<p>Trade rules are shifting. China began allowing imports of high-grade black mass, the concentrated metal mixture recovered from used batteries, in August 2025 and cut import tariffs on it at the start of 2026. The IEA says the short-term effect has been limited, but black mass made elsewhere could increasingly flow to Chinese plants, depending on regulations in other regions.</p>
+<p>Used-car markets complicate the timeline too. Reselling or refurbishing a used EV currently earns more than dismantling it, so batteries keep running in other regions for years. The IEA says this may require recalibrating expectations of how much recycling will add to domestic mineral supply in Europe and North America.</p>
+ 
+<h2>Can EU Recycled-Content Rules Outrun the Supply of Old Batteries?</h2>
+<p>The EU Battery Regulation requires recovery of 50% of lithium by the end of 2027 and 80% by the end of 2031, and 90% rising to 95% for cobalt, copper, lead and nickel. From August 2031, new EV, industrial and starter batteries must contain minimum recycled shares of <a href="https://eur-lex.europa.eu/summary/EN/LEGISSUM:4704179" target="_blank" rel="noopener noreferrer">16% cobalt, 6% lithium and 6% nickel</a>, <a href="https://www.iea.org/policies/16763-eu-sustainable-batteries-regulation" target="_blank" rel="noopener noreferrer">rising to 26%, 12% and 15%</a> from 2036.</p>
+<p>There is a catch. <a href="https://www.euwid-recycling.com/news/policy/eu-battery-regulation-enters-into-force-010823/" target="_blank" rel="noopener noreferrer">EUWID's reading</a> of the adopted text is that manufacturing scrap reused in production counts as a by-product, not waste, so it does not count toward the recycled-content minimums.</p>
+<p>Our reading is that the 2031 minimums arrive before the mid-2030s crossover the IEA describes. The Commission must also assess by the end of 2028 whether supply and technology warrant changing the targets.</p>
+ 
+<h2>Can Cutting Mineral Demand Work Alongside Recycling?</h2>
+<p>Recycling is one lever. Another is needing fewer battery minerals per unit of clean power. <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-blackouts">Long-duration energy storage</a> for grids facing multi-day shortages includes designs that use no lithium-ion cells, from pumped hydro to gravity systems, though not every design reaches multi-day duration.</p>
+<p>A <a href="https://www.curiosityfields.com/article/mine-shaft-gravity-battery-steel-weights">gravity battery</a> lifts heavy steel weights up a disused mine shaft and lets them fall to generate power, with no chemical cell involved. Whether it scales is a separate question.</p>
+<p><a href="https://www.curiosityfields.com/article/electric-roads-charge-ev-while-driving-explained">Electric roads</a> let trucks and buses carry fewer kilowatt-hours onboard by collecting power while moving. One Swedish transport planner has said faster battery progress reduced the need for them, so the payoff is uncertain.</p>
+<p><a href="https://www.curiosityfields.com/article/hyperscale-data-centres-consuming-more-power-than-countries">Data centres</a> are part of why stationary storage keeps growing. The IEA reports that battery storage demand grew over 70% in 2025 to 330 GWh, and in the United States storage made up one third of battery deployment.</p>
+ 
+<h2>What Battery Recycling Can and Cannot Supply Yet</h2>
+<p>Battery recycling is becoming a real mineral source, but not yet a large one. Today it mostly returns factory scrap. The IEA expects end-of-life batteries to take the lead in the mid-2030s, and its outlook has average recycling rates for key energy minerals rising from about 10% to near 20% by 2040. Mines and refiners still supply most of the rest. The open question is whether collection rules, chemistry-appropriate business models and trade policy are ready when the old packs finally arrive.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Can recycled batteries replace new mining?</h3>
+<p>Not on current projections. The IEA's base case has average recycling rates for key energy minerals reaching close to 20% by 2040, so mining and refining remain the main sources.</p>
+ 
+<h3>Why can't more EV batteries be recycled right now?</h3>
+<p>Few have reached the end of their life. The IEA says most batteries deployed in recent years will keep operating until the mid-2030s, possibly longer.</p>
+ 
+<h3>What is black mass?</h3>
+<p>Black mass is the concentrated mixture of metals recovered from used lithium-ion batteries, including nickel, cobalt and lithium. Recyclers refine it into battery-grade materials.</p>
+ 
+<h3>Is LFP battery recycling profitable?</h3>
+<p>It is harder, because LFP batteries contain no cobalt or nickel. The IEA says this may require different business models, such as toll-based processing backed by producer responsibility rules.</p>
+ 
+<h3>What recycled content will EU batteries need?</h3>
+<p>From August 2031, EV, industrial and starter batteries must contain minimum recycled shares of 16% cobalt, 85% lead, 6% lithium and 6% nickel. The minimums for cobalt, lithium and nickel rise in 2036.</p>
+`,
+  },
+  {
+    id: "sleep-regularity-wearable-data-health-risk-sleep-score",
+    slug: "sleep-score-vs-sleep-regularity-health-risks-wearable-data",
+    title: "Sleep Data Can Reveal Health Risks That Standard Sleep Scores Miss",
+    metaTitle: "Sleep Score vs Sleep Regularity: What Trackers Miss", // 51 chars
+    excerpt: "A nightly score compresses one night into one number. Large accelerometer studies find risk in patterns across nights: irregular timing, swinging duration and clusters of unfavorable traits. The evidence is observational, and no study yet tests commercial scores.", // distinct from metaDescription
+    metaDescription: "Sleep scores rate one night, but UK Biobank studies link irregular sleep timing to higher health risk. See which sleep metrics matter and what to track.", // 152 chars
+    category: "psychology-mind",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/sleep-regularity-wearable-data-health-risk-sleep-score.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-18", // TODO: confirm publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Sleep score", "Sleep regularity", "Sleep tracking", "Wearable data", "UK Biobank", "Sleep health", "Cardiovascular risk", "Sleep apnea"],
+    content: `
+<p class="lead">Tracked sleep data can reveal health risks that a single nightly sleep score blurs, but the signal sits in patterns across many nights, not in one night's number. In <a href="https://www.broadinstitute.org/publications/broad1346196" target="_blank" rel="noopener noreferrer">60,977 UK Biobank adults who wore wrist accelerometers for a week</a>, the consistency of sleep timing predicted all-cause mortality more strongly than sleep duration did. A <a href="https://www.ukbiobank.ac.uk/publications/health-risks-and-genetic-architecture-of-objectively-measured-multidimensional-sleep-health/" target="_blank" rel="noopener noreferrer">2025 Nature Communications analysis</a> found that a bundle of unfavorable sleep traits tracked with 76 of 526 later health outcomes. These are observational findings, so they mark risk, not proven causes. A nightly score compresses one night, while these research metrics draw on about a week of nights.</p>
+ 
+<h2>What Does a Standard Sleep Score Actually Measure?</h2>
+<p>A sleep score is a proprietary summary of a single day's sleep, scaled from 0 to 100. <a href="https://support.ouraring.com/hc/en-us/articles/360057792293" target="_blank" rel="noopener noreferrer">Oura says</a> its score blends seven contributors: total sleep, efficiency, restfulness, REM sleep, deep sleep, latency and timing, combined by proprietary algorithms.</p>
+<p>Two limits matter. Oura's description of its timing contributor refers to chronotype and naps, not to how much bedtimes drift from day to day. Other devices may include a consistency measure, so check what yours counts.</p>
+<p>The sensors have limits as well. A <a href="https://recipp.ipp.pt/entities/publication/03f8669c-ed69-48d3-8136-328a227645d7" target="_blank" rel="noopener noreferrer">meta-analysis in Behavioral Sleep Medicine</a> found wearables overestimated total sleep time and sleep efficiency and underestimated time awake after falling asleep, with large differences between devices. A <a href="https://mhealth.jmir.org/2024/1/e52192" target="_blank" rel="noopener noreferrer">2024 JMIR review</a> rated sleep-stage accuracy as moderate for Fitbit Charge 4 and Garmin Vivosmart 4.</p>
+ 
+<h2>What Does Sleep Regularity Reveal That Hours Do Not?</h2>
+<p>Sleep regularity is the day-to-day consistency of when you fall asleep and wake. Daniel Windred and colleagues calculated a Sleep Regularity Index from more than 10 million hours of accelerometer data in 60,977 UK Biobank participants, then tracked deaths for up to 7.8 years. Of those people, 1,859 died.</p>
+<p>Regularity predicted all-cause mortality more strongly than duration did. Adding duration to a model that already included regularity did not significantly improve the fit (p = 0.14 to 0.20). The authors <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10782489/" target="_blank" rel="noopener noreferrer">acknowledge</a> that UK Biobank lacks diversity, which limits how far the findings generalize.</p>
+<p>Night-to-night swings matter for the heart too. A <a href="https://www.broadinstitute.org/publications/broad1366816" target="_blank" rel="noopener noreferrer">2025 Journal of the American Heart Association analysis</a> of 86,219 UK Biobank adults recorded 2,310 major cardiovascular events. Greater variation in accelerometer-measured sleep duration went with higher risk, and the link was stronger among people who averaged more than 8 hours.</p>
+ 
+<h2>Why Do Averages and Nightly Scores Hide the Pattern?</h2>
+<p>An average treats very different weeks as identical. Seven hours every night and an alternating five and nine both average seven hours. Only the spread across nights tells them apart. A score that rates each night on its own gives no reading of that spread, though some apps chart bedtime consistency separately.</p>
+<p><a href="https://www.curiosityfields.com/article/sleep-debt-weekend-recovery-science">Weekend catch-up sleep</a> is the everyday version of this problem. The <a href="https://sciencedaily.com/releases/2025/04/250414124710.htm" target="_blank" rel="noopener noreferrer">American Heart Association</a> describes regularity as the stability of sleep duration and timing across days, and calls a shift between workday and weekend sleep "social jetlag."</p>
+<p>The AHA's April 2025 <a href="https://professional.heart.org/en/science-news/multidimensional-sleep-health-definitions-and-implications-for-cardiometabolic-health" target="_blank" rel="noopener noreferrer">scientific statement</a> says no single facet of sleep health fully captures a person's sleep. It lists regularity, satisfaction, alertness, timing, efficiency, duration, disturbed sleep and sleep architecture as dimensions worth measuring.</p>
+ 
+<h2>What Do Several Sleep Traits Reveal Together?</h2>
+<p>Shengkui Zhang and colleagues built an Unfavorable Sleep Profile from five accelerometer-measured domains: timing, efficiency, duration, rhythmicity and regularity. Of 85,233 UK Biobank participants, 16,008 fit the unfavorable profile, which was associated with 76 of 526 incident health outcomes over 7.9 years. The team validated the framework in the Multi-Ethnic Study of Atherosclerosis.</p>
+<p>Timing carries its own signal. In a <a href="https://biobank.ctsu.ox.ac.uk/ukb/pub.cgi?id=12662" target="_blank" rel="noopener noreferrer">UK Biobank analysis of 103,712 people</a>, falling asleep before 10 p.m., between 11 p.m. and midnight, or after midnight carried higher cardiovascular risk than falling asleep between 10 and 11 p.m. The hazard ratios were 1.24, 1.12 and 1.25, even after adjusting for duration and irregularity, and the association was stronger in women.</p>
+ 
+<h2>Can a Wearable Flag a Risk the Score Does Not?</h2>
+<p>Sleep apnea is the clearest example. The FDA cleared Apple's sleep apnea notification feature on September 13, 2024. The <a href="https://aasm.org/?p=41162" target="_blank" rel="noopener noreferrer">American Academy of Sleep Medicine</a> explains that it uses the Apple Watch accelerometer to detect small wrist movements linked to breathing disturbances and notifies users who show consistent signs of obstructive sleep apnea.</p>
+<p>Apple says it is not a diagnostic tool. <a href="https://techcrunch.com/2024/09/16/apple-watch-sleep-apnea-detection-gets-fda-approval" target="_blank" rel="noopener noreferrer">TechCrunch reported</a> that it needs 10 nights of data spread over 30 days, so no single night decides the result.</p>
+ 
+<h2>How Strong Is the Evidence, and What Is Missing?</h2>
+<p>Most of it is observational. Participants in the mortality study averaged about 63 years old, and illness can disturb sleep, so some irregularity may be a consequence of poor health rather than a cause. The AHA says it still needs causal evidence that improving sleep health improves cardiometabolic outcomes before it can guide public recommendations.</p>
+<p>We also found no published study that tests a commercial sleep score against long-term health outcomes. The evidence comes from research metrics such as the Sleep Regularity Index, measured over about a week.</p>
+<p>Self-perception is unreliable too. A <a href="https://jcircadianrhythms.com/articles/10.5334/jcr.265" target="_blank" rel="noopener noreferrer">2026 study in the Journal of Circadian Rhythms</a> compared a sleep regularity questionnaire with ring-derived indices in 31 adults and found weak correspondence, with correlations of 0.36 or lower. The sample is small, but it suggests how regular your sleep feels may differ from how regular it is.</p>
+<p><a href="https://www.curiosityfields.com/article/predict-attention-lapses-brain-signals-mind-wandering">Attention lapses</a> show a similar blind spot. Separate work shows people often never notice them.</p>
+<p>Popular sleep claims often outrun their evidence. The research on <a href="https://www.curiosityfields.com/article/incubation-effect-sleep-on-it-problem-solving-science">sleeping on a problem</a>, for example, is more mixed than most summaries admit.</p>
+ 
+<h2>What Should You Check in Your Own Sleep Data?</h2>
+<p>Look at a week, not a night. Compare your bed and wake times across seven days, since the mortality study used seven days of data. Check whether your app reports consistency or timing separately from its score, and whether it flags breathing disturbances.</p>
+<p>If a device flags breathing disturbances or you feel sleepy through the day, raise it with a clinician. The AHA statement links excessive daytime sleepiness with cardiovascular disease and encourages clinicians to ask about sleep with open-ended questions.</p>
+<p><a href="https://www.curiosityfields.com/article/smartphone-data-collection-app-privacy">Smartphone data collection</a> often reaches beyond what permission screens show, so check what a sleep app shares and with whom.</p>
+ 
+<h2>What a Sleep Score Can and Cannot Tell You</h2>
+<p>A sleep score is a useful nightly summary. It is not a risk assessment. The evidence so far points to regularity, timing and night-to-night swings as markers worth watching across weeks, and to breathing signals worth taking to a clinician. What remains unproven is whether changing those patterns lowers risk, and whether commercial scores capture them. Until trials answer that, treat your own trend as a prompt for questions, not a verdict.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Is sleep regularity more important than sleep duration?</h3>
+<p>In one UK Biobank analysis of 60,977 adults, regularity predicted all-cause mortality more strongly than duration did. That is an association, and both still matter.</p>
+ 
+<h3>Can a sleep score predict health problems?</h3>
+<p>We found no published study that tests a commercial sleep score against long-term health outcomes. The supporting evidence comes from research metrics such as the Sleep Regularity Index.</p>
+ 
+<h3>How many nights of data show a real pattern?</h3>
+<p>The mortality study used one week of accelerometer data, and Apple's apnea notification needs 10 nights within 30 days. A single night cannot show regularity.</p>
+ 
+<h3>Can a smartwatch detect sleep apnea?</h3>
+<p>Some can flag risk. Apple's FDA-cleared notification uses wrist movement to detect breathing disturbances, but it screens for risk and does not diagnose.</p>
+ 
+<h3>Should I worry if my tracker shows irregular sleep?</h3>
+<p>One irregular week is not a diagnosis, and these studies describe group-level risk, not individual outcomes. If a device flags breathing disturbances or you feel sleepy all day, ask a clinician.</p>
+`,
+  },
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
