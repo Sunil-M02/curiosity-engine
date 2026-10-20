@@ -1622,4 +1622,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/jwst-wasp-17b-hot-jupiter-atmosphere-map-explained</loc>
+  <lastmod>2026-10-20</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/photonic-computing-chip-in-memory-neurons-flare-explained</loc>
+  <lastmod>2026-10-20</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
