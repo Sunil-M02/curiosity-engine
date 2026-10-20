@@ -21778,6 +21778,143 @@ content: `
 <p>One irregular week is not a diagnosis, and these studies describe group-level risk, not individual outcomes. If a device flags breathing disturbances or you feel sleepy all day, ask a clinician.</p>
 `,
   },
+
+  {
+    id: "jwst-wasp-17b-transmission-strings-limb-map",
+    slug: "jwst-wasp-17b-hot-jupiter-atmosphere-map-explained",
+    title: "JWST Maps a Hot Jupiter's Atmosphere From Pole to Pole",
+    metaTitle: "WASP-17b: How JWST Mapped a Hot Jupiter's Atmosphere", // 52 chars
+    excerpt: "Webb never photographed WASP-17b. It fitted the planet's atmospheric rim angle by angle during transits, exposing a hot, puffed-up evening side and a much cooler morning side.", // distinct from metaDescription
+    metaDescription: "JWST mapped hot Jupiter WASP-17b's atmosphere from equator to poles, finding a 1,520 K evening edge and 860 K morning edge. See what the map still misses.", // 154 chars
+    category: "astronomy",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/jwst-wasp-17b-transmission-strings-limb-map.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-20", // TODO: confirm publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["JWST", "WASP-17b", "Hot Jupiter", "Exoplanet atmosphere", "Transmission strings", "Transit mapping", "Exoplanet weather", "Lili Alderson", "Hannah Wakeford"],
+    content: `
+<p class="lead">The James Webb Space Telescope has produced an angle-by-angle map of the atmosphere's edge on the hot Jupiter WASP-17b. In a <a href="https://www.nature.com/articles/s41550-026-02986-4" target="_blank" rel="noopener noreferrer">Nature Astronomy paper published October 14, 2026</a>, Lili Alderson, Hannah Wakeford and colleagues report an evening rim near 1,520 kelvin and a morning rim near 860 kelvin. The map follows the ring where starlight grazes the atmosphere during a transit, from the equator toward the poles. It is not a picture of the whole globe, and that distinction decides what the result can and cannot show.</p>
+ 
+<h2>What Did Webb Actually Map on WASP-17b?</h2>
+<p><a href="https://www.curiosityfields.com/article/james-webb-telescope-discoveries-changing-astronomy">The James Webb Space Telescope</a> watched WASP-17b cross its star using three instruments, NIRISS, NIRSpec and MIRI, which together span 0.6 to 12 microns, according to the team's <a href="https://arxiv.org/abs/2610.18806" target="_blank" rel="noopener noreferrer">preprint</a>. What it recorded is the limb, the thin rim of atmosphere seen in silhouette during transit. Nobody sees the planet's disk. Everything is inferred from how starlight changes. The data come from a Webb Guaranteed Time program that pairs the three instruments on the same planet.</p>
+<p>WASP-17b is a hot Jupiter, a gas giant orbiting very close to its star. An <a href="https://arxiv.org/abs/2203.02434" target="_blank" rel="noopener noreferrer">earlier analysis</a> measured it at about 0.49 Jupiter masses but nearly twice Jupiter's radius, so it is unusually puffy. The team calls its observability outstanding.</p>
+<p><a href="https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-light-travel-time">Light-travel time</a> adds a quirk. The system lies <a href="https://www.technology.org/2026/10/18/pulling-strings-new-method-maps-exoplanets-true-shape/" target="_blank" rel="noopener noreferrer">more than 1,000 light-years away</a>, so the starlight Webb recorded left it over a millennium ago.</p>
+ 
+<h2>How Do Transmission Strings Turn a Transit Into a Map?</h2>
+<p>Transmission strings let the fitted planet radius change continuously with angle around the limb. Standard transit analysis returns one spectrum averaged over the whole ring, as the <a href="https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html" target="_blank" rel="noopener noreferrer">University of Bristol release</a> explains. Bristol's David Grant and Hannah Wakeford developed the method, and this is its first application.</p>
+<p>An average hides shape, the way one average diameter cannot tell an egg from a ball. The Cornell-led team describes WASP-17b's atmosphere as circle-like but slightly egg-shaped. Each angle samples a different slice of the rim, running from the equator toward a pole on one side and across the morning and evening sides.</p>
+ 
+<h2>Why Does an Averaged Atmosphere Spectrum Mislead?</h2>
+<p>A single limb-averaged temperature blends regions that differ by hundreds of kelvin. If the evening side runs near 1,520 K and the morning side near 860 K, the average describes neither. Chemistry retrieved from that blended signal can inherit the same blur, which is why three-dimensional structure matters when reading exoplanet spectra.</p>
+<p>WASP-17b's puffiness amplifies the effect. From the published mass and radius, our arithmetic puts its gravity near an eighth of Jupiter's. Weak gravity lets a hot atmosphere stretch far above the planet, which helps a transit measurement notice it.</p>
+<p>Patchy weather is not unique to exoplanets. Even nearby, <a href="https://www.curiosityfields.com/article/saturn-great-white-spot-storm-cycle-explained">Saturn's Great White Spot</a> erupts as a storm that wraps around the planet, though Saturn can be photographed directly.</p>
+ 
+<h2>What Does the Map Say About WASP-17b's Weather?</h2>
+<p>The evening limb is hotter and more extended than the morning limb. The fits give 1,522 K on the evening side and 858 K on the morning side, a gap near 650 K, according to the <a href="https://arxiv.org/abs/2610.18806" target="_blank" rel="noopener noreferrer">arXiv abstract</a>. A hotter atmosphere has a larger scale height, meaning its density falls off more gradually with altitude, so it reaches higher and blocks more light.</p>
+<p>WASP-17b is believed to be tidally locked, with one hemisphere permanently lit. Winds carry heat from that day side toward the night side. Gas on the evening limb is still hot, while gas returning on the morning limb has cooled. Alderson said the contrast was <a href="https://www.bristol.ac.uk/news/2026/october/trailblazing-technique-uncovers-real-shape-of-scorching-hot-exoplanet-atmosphere.html" target="_blank" rel="noopener noreferrer">"pretty much bang-on what we thought it would be."</a></p>
+<p>The fits also held water and carbon dioxide abundances at constant values around the limb, which gives circulation models a new observational constraint. The authors say <a href="https://arxiv.org/html/2610.18806" target="_blank" rel="noopener noreferrer">thermodynamics is the dominant driver</a> of the changes around the limb.</p>
+ 
+<h2>How Is This Different From Eclipse Mapping?</h2>
+<p>Eclipse mapping reads the glow of the dayside as a planet slips behind its star. A <a href="https://arxiv.org/abs/2510.24708" target="_blank" rel="noopener noreferrer">2025 Webb analysis of WASP-18b</a> used it to find a hotspot under the star and a colder ring near the dayside limbs. Transmission strings look at the rim where day meets night instead. The two are complementary views of the same kind of world.</p>
+<p><a href="https://www.curiosityfields.com/article/jupiter-great-red-spot-shrinking-explained">Jupiter's Great Red Spot</a> can be tracked in images. A planet at WASP-17b's distance is a single point of light, so astronomers rebuild its weather from filtered starlight. Direct imaging is a third route, but it works best for planets far from their stars. NASA's <a href="https://www.curiosityfields.com/article/nasa-roman-space-telescope-22-year-lifespan">Roman Space Telescope</a> carries a coronagraph instrument meant to test it.</p>
+ 
+<h2>What Can't the WASP-17b Map Tell Us?</h2>
+<p>The map traces only the limb, a silhouette. It does not show the dayside, the nightside or deep polar regions, and light at each angle crosses a long slant path through the atmosphere, so each value blends gas along that path.</p>
+<p>Temperatures come from fitted models, not thermometers. The morning estimate, 858 K with an uncertainty of +434 K and -233 K, is far looser than the evening one, so the 650 K gap is firmer in direction than in size. Bristol's release says the team measured the limb's shape as a function of angle across the poles. Read "pole to pole" as a ring around the silhouette, not a scan of the globe.</p>
+<p>It is also one planet. The authors say the demonstration paves the way for mapping many more candidates, but fainter targets than WASP-17b will be harder.</p>
+ 
+<h2>What the WASP-17b Map Does and Does Not Prove</h2>
+<p>Webb has shown that a hot Jupiter's atmospheric rim can be mapped by angle, and WASP-17b matches what circulation theory predicted: a hot, inflated evening side and a cooler morning side. Still open is how well the method works on dimmer planets, and how limb maps combine with dayside maps into a full three-dimensional picture. As of October 2026, that test has one planet.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>Did JWST take a picture of WASP-17b?</h3>
+<p>No. Webb measured starlight filtered through the planet's atmosphere during transits, and the planet's disk is not resolved. The map is a model-based reconstruction from that signal.</p>
+ 
+<h3>How hot is WASP-17b's atmosphere?</h3>
+<p>The paper's fits give about 1,522 K on the evening limb and 858 K on the morning limb. The morning value carries a much wider uncertainty.</p>
+ 
+<h3>Why is the evening side of WASP-17b hotter?</h3>
+<p>Winds appear to carry heat from the permanently lit day side toward the night side. Gas on the evening limb is freshly heated, while gas on the morning limb has cooled.</p>
+ 
+<h3>What is a hot Jupiter?</h3>
+<p>A hot Jupiter is a gas giant that orbits very close to its star. That proximity makes its atmosphere extremely hot.</p>
+ 
+<h3>Can transmission strings map other exoplanets?</h3>
+<p>The team says the method paves the way for mapping many more candidates. WASP-17b is unusually observable, so fainter planets will be harder.</p>
+`,
+  },
+  {
+    id: "flare-photonic-neurons-in-memory-computing-tsinghua",
+    slug: "photonic-computing-chip-in-memory-neurons-flare-explained",
+    title: "Photonic Neurons Are Putting Sensing, Memory, and Computing in One Device",
+    metaTitle: "Photonic Computing Chip: How In-Memory Neurons Work", // 51 chars
+    excerpt: "FLARE puts memory inside each photonic neuron, so signals pass between layers without leaving the chip. The catches: memory lasts seconds, electronics stay involved, and the navigation test was simulated.", // distinct from metaDescription
+    metaDescription: "Tsinghua's photonic computing chip packs 7,378 neurons and holds memory for 7.45 seconds. See how in-memory photonics works and what is still unproven.", // 151 chars
+    category: "technology",
+    author: authors[0], // TODO: confirm
+    coverImage: "/images/articles/flare-photonic-neurons-in-memory-computing-tsinghua.jpg", // TODO: create and upload, slug-based filename convention
+    publishedAt: "2026-10-20", // TODO: confirm publish date before merging
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Photonic computing", "In-memory computing", "Photonic neurons", "FLARE", "Tsinghua University", "Nature Sensors", "Neuromorphic hardware", "Optical neural network", "AI hardware"],
+    content: `
+<p class="lead">A silicon photonic chip from Tsinghua University now keeps network parameters and intermediate signals inside the artificial neurons that process them, so layers can hand data to each other without leaving the chip. The design, called FLARE, appeared in <a href="https://www.nature.com/articles/s44460-026-00123-2" target="_blank" rel="noopener noreferrer">Nature Sensors</a> on August 27, 2026. Its monolithic chip holds 7,378 photonic neurons, and the long-term memory lasts an average of 7.45 seconds. "One device" is fair for the neuron design. But the neurons still use electronics, the memory fades in seconds, and the flagship navigation test ran in simulation.</p>
+ 
+<h2>Why Does a Photonic Neuron Need Memory Inside It?</h2>
+<p>Photonic networks compute with light, but most still depend on electronics to connect layers and update weights. <a href="https://www.tsinghua.edu.cn/info/1175/127927.htm" target="_blank" rel="noopener noreferrer">Tsinghua's release</a> (published in Chinese) says existing optical networks use external optoelectronic conversion and digital buffering for those steps, which holds back large, deep networks. A <a href="https://www.nature.com/natsensors/reviews-and-analysis" target="_blank" rel="noopener noreferrer">Nature Sensors research briefing</a> adds that moving data between memory and processors consumes substantial energy in AI systems.</p>
+<p>Modern chips with <a href="https://www.curiosityfields.com/article/how-modern-chips-pack-billions-of-transistors">billions of transistors</a> keep memory and logic in separate blocks, so data shuttles between them constantly. Optical networks inherit a version of that problem when every layer's output is converted to electricity and stored.</p>
+<p><a href="https://www.curiosityfields.com/article/hyperscale-data-centres-consuming-more-power-than-countries">Hyperscale data centers</a> are where that cost adds up, because AI workloads concentrate there. A neuron that stores its own state removes some of those trips, at least in principle.</p>
+ 
+<h2>How Does a FLARE Neuron Store and Compute at the Same Time?</h2>
+<p>Each FLARE neuron couples a photonic cavity to an electronic cavity and carries two kinds of memory, according to Tsinghua. Long-term memory is programmable stored charge that holds the network's parameters. Short-term memory is a transient photoelectric modulation that carries inputs and intermediate activations. Both shape the same optical response, so stored values take part in the calculation instead of waiting in a separate block.</p>
+<p>The two timescales are not arbitrary. A neural network has slowly changing weights and fast-changing activations, and FLARE gives each its own memory. By our arithmetic, a 7.45-second retention time against a 4 GHz response differs by roughly ten orders of magnitude.</p>
+<p>Think of a cook who keeps the recipe taped to the counter instead of walking to a library. The handoff matters most. One neuron's optical output can directly write and drive the next layer's neurons, so layers connect without intermediate optoelectronic conversion or external memory access.</p>
+<p><a href="https://www.curiosityfields.com/article/smartphone-camera-computational-photography-ai-explained">Computational photography</a> already shows how much work happens after a sensor captures light, but the pixels still travel to a processor first. FLARE's pitch is to fold perception into the same fabric. The paper reports end-to-end machine vision on the chip, though public summaries give few details.</p>
+ 
+<h2>What Did the 7,378-Neuron Chip Demonstrate?</h2>
+<p>The monolithic multicore chip integrates 7,378 photonic memory neurons, with row-and-column addressing and parallel parameter writing. Tsinghua says that raises the size of programmable photonic memory arrays by two orders of magnitude over earlier methods. Average long-term retention was 7.45 seconds, while short-term dynamics ran at 4 GHz.</p>
+<p>A ten-core, multilayer system then handled a navigation task at a system-level energy cost of 61.87 attojoules per operation, per the paper's abstract. An attojoule is a billionth of a billionth of a joule.</p>
+<p>Tsinghua describes the navigation test as an open-environment simulation in which the network processed first-person images. The abstract frames it as autonomous racing-drone navigation. On Tsinghua's description, this was a simulated task, not a physical drone flying on a photonic chip.</p>
+ 
+<h2>Is a FLARE Neuron Really All Light?</h2>
+<p>No. The paper describes an architecture that couples photonic and electronic mechanisms. Electrons store the long-term parameters as charge. Light carries the signals and does the optical calculation. "In one device" therefore means one integrated neuron fabric, not one physical mechanism.</p>
+<p>The hybrid is a design choice, not a flaw. Charge is a mature way to hold a value, and light is good at fast, parallel signal flow. The cost is that the chip still needs electronic control circuitry, which matters for the energy claim below.</p>
+ 
+<h2>How Does FLARE Compare With Other Photonic In-Memory Designs?</h2>
+<p>Memory time and scale pull in different directions. A <a href="https://www.nature.com/articles/s41467-026-69084-x" target="_blank" rel="noopener noreferrer">2026 Nature Communications design</a> with an electro-optic analog memory reports a retention time constant of about 0.83 milliseconds in its measurements. FLARE's seconds are a large step, though the metrics differ and this is not a head-to-head comparison.</p>
+<p>A <a href="https://link.springer.com/article/10.1186/s43593-026-00141-0" target="_blank" rel="noopener noreferrer">liquid-crystal platform</a> reports up to 9.44 million reconfigurable neurons for optical sensing, memory and computing. It is a free-space optical system, not an integrated chip, so it trades integration for scale.</p>
+<p>Electronics are not standing still either. <a href="https://www.curiosityfields.com/article/hyper-na-euv-lithography-5nm-chip-features-explained">Hyper-NA lithography</a> is one effort to push chip features toward five nanometers, which keeps the bar high for any photonic rival.</p>
+ 
+<h2>What Is Still Unproven About FLARE?</h2>
+<p>Retention comes first. Seconds is long for a photonic neuron but short for stored model weights, which electronic memory can keep for years. The public summaries we reviewed do not say how a deployed FLARE system would refresh them.</p>
+<p>Energy is next. The 61.87 attojoules figure is described as system-level, and we could not confirm which components, such as lasers, drivers or cooling, it includes. Treat it as a result for that system and task, not a general rating.</p>
+<p>The <a href="https://www.curiosityfields.com/article/ai-chip-arms-race-nvidia-near-monopoly-hardware">AI hardware market</a> is dominated by Nvidia, whose position rests on mature software and manufacturing as well as speed. A research chip must run varied workloads before it challenges that. Scale is the other gap. A chip with 7,378 neurons proves an architecture, while modern AI models have billions of parameters. Independent replication and tests on physical hardware would settle much of this.</p>
+ 
+<h2>What FLARE Changes, and What It Does Not</h2>
+<p>FLARE shows that photonic neurons can hold parameters and intermediate signals themselves, on a 7,378-neuron chip with seconds of retention and gigahertz-speed dynamics. It does not show an all-optical computer, long-term storage or a physical drone flying on light. As of October 2026, the evidence is one chip, one research group and one demonstration task. The next test is whether other labs can reproduce it on real workloads.</p>
+ 
+<h2>Frequently Asked Questions</h2>
+ 
+<h3>What is FLARE?</h3>
+<p>FLARE is a photonic computing architecture from Tsinghua University in which each artificial neuron holds long-term and short-term memory. It was published in Nature Sensors on August 27, 2026.</p>
+ 
+<h3>What is in-memory computing?</h3>
+<p>It performs calculations where data is stored instead of moving the data to a separate processor. That cuts the energy and delay of data transfer.</p>
+ 
+<h3>How long does FLARE's memory last?</h3>
+<p>The long-term memory averaged 7.45 seconds in the reported chip. Its short-term states change at gigahertz speeds.</p>
+ 
+<h3>Does FLARE use only light?</h3>
+<p>No. It couples photonic and electronic mechanisms, with charge storage handling the long-term parameters.</p>
+ 
+<h3>Can FLARE power a real drone today?</h3>
+<p>Not on current evidence. Tsinghua describes the navigation test as an open-environment simulation.</p>
+`,
+  },
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
