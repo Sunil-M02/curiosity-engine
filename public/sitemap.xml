@@ -1658,4 +1658,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/nasa-moon-rover-lunar-south-pole-darkness-long-range-tests</loc>
+  <lastmod>2026-10-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/raibo2-robot-dog-marathon-single-battery-charge-kaist</loc>
+  <lastmod>2026-10-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
