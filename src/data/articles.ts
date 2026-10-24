@@ -22345,6 +22345,196 @@ content: `
 <p>The authors posted the full scale and a shorter five-item version on the Open Science Framework. The short version tracked the full scale closely across cultures (r = 0.94).</p>
 `,
   },
+
+  // Paste these two objects inside the `articles` array in src/data/articles.ts, directly before the closing `];`
+  {
+    id: "lunar-rover-extreme-darkness-long-distance-viper-ernest-testing",
+    slug: "nasa-moon-rover-lunar-south-pole-darkness-long-range-tests",
+    title: "Lunar Rover Designs Are Being Tested for Extreme Darkness and Long-Distance Exploration",
+    metaTitle: "NASA Moon Rover Tests: Darkness and Long-Range Drives", // 53 chars
+    excerpt: "NASA's VIPER rover is fully built, JPL's ERNEST prototype drove 16 miles in a desert test, and crewed lunar vehicles are in mockup trials. Each tackles a different piece of working in polar darkness and covering real distance.",
+    metaDescription: "See how NASA's VIPER, ERNEST and Artemis moon rovers are tested for polar darkness, -334°F cold and long drives, plus which problems are still unsolved.", // 152 chars
+    category: "future-innovation",
+    author: authors[0],
+    coverImage: "/images/articles/lunar-rover-extreme-darkness-long-distance-viper-ernest-testing.jpg",
+    publishedAt: "2026-10-24",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: [
+      "Lunar rover",
+      "NASA VIPER",
+      "Moon base",
+      "Lunar south pole",
+      "Permanently shadowed regions",
+      "ERNEST rover",
+      "Lunar terrain vehicle",
+      "Artemis",
+      "Space robotics"
+    ],
+    content: `
+<p class="lead">NASA's VIPER rover is fully built and in final testing at Johnson Space Center, according to a <a href="https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/" target="_blank" rel="noopener noreferrer">NASA update published October 20, 2026</a>. It is slated to reach the Moon's south pole in 2027 and drive more than 18 miles (30 kilometers), including into permanently shadowed craters that can fall to minus 334°F (minus 203°C). Darkness and distance are different problems, though, and they are being tested on different machines: VIPER, a JPL prototype called ERNEST, and the crewed lunar terrain vehicles. Together they show that lunar rover design is about solving power, cold and range one piece at a time.</p>
+
+<h2>Why Are the Moon's Permanently Shadowed Regions So Hard on Rovers?</h2>
+<p>Permanently shadowed regions are craters near the lunar poles where sunlight never reaches the floor. A solar-powered rover has no daily recharge there, so it must carry stored power, survive the cold and navigate with its own lights. NASA's VIPER, for example, carries lights to shine the way in those craters.</p>
+<p>A rover that cannot use sunlight depends on stored energy, the same basic constraint behind <a href="/article/long-duration-energy-storage-grid-resilience-blackouts">long-duration energy storage</a> on Earth's power grids. On the Moon the budget is tighter. Every kilometer driven into the dark spends energy that cannot be replaced unless another source, such as a laser, supplies it.</p>
+<p>The reward is ice. <a href="https://science.nasa.gov/mission/viper/" target="_blank" rel="noopener noreferrer">NASA's VIPER mission page</a> says orbiters and impacts have already shown ice exists at the poles. What is missing is where it is, how much there is, and how easy it would be to reach.</p>
+<p>VIPER also targets a question about origins: where lunar water came from. That sits alongside the Moon's own formation, which most researchers trace to debris from a giant impact, the kind of <a href="/article/jwst-planet-collisions-extreme-debris-disks-moon-formation">planetary collisions</a> JWST is now watching around other stars.</p>
+
+<h2>How Is NASA Testing VIPER Before It Reaches the South Pole?</h2>
+<p>VIPER is fully built and in final testing at NASA's Johnson Space Center, the agency reported on October 20, 2026. It will then travel to Kennedy Space Center for launch, riding to the surface on Blue Origin's Blue Moon Mark 1 lander.</p>
+<p>The rover's job is resource mapping. It will log the thermal, lighting and terrain conditions along a route of more than 30 kilometers, and it carries a 1-meter drill and science instruments to sample soil at different depths and temperatures. Earlier tests ran the rover across simulated lunar terrain to check its mobility.</p>
+<p>Mission operations will run from NASA's Ames Research Center, where teams are already simulating scenarios for the rover's drive. NASA lists a 2027 target. Lunar lander schedules have slipped before, so treat that date as a plan, not a guarantee.</p>
+
+<h2>How Do Engineers Test a Rover for Very Long Drives?</h2>
+<p>JPL's ERNEST prototype covered about 16 miles (26 kilometers) in a March 2026 desert field test, with minimal intervention from engineers. It drove for 37 hours across seven days of intermittent testing, and the team ran it at dusk, dawn and night to recreate the long shadows of the lunar poles, according to <a href="https://www.jpl.nasa.gov/news/nasa-testing-advanced-capabilities-for-moon-mars-rovers/" target="_blank" rel="noopener noreferrer">JPL's account of the test</a>.</p>
+<p>ERNEST (Exploration Rover for Navigating Extreme Sloped Terrain) is 4 feet long. It can lift each mesh wheel over obstacles, and it reached speeds up to 0.6 mph (1 kph). JPL describes that as an order of magnitude above the top speed at which Curiosity and Perseverance navigate.</p>
+<p>It also trades capability for efficiency. A clutch lets the rover switch between active suspension, which handles rough terrain, and passive suspension, which is less capable but uses less energy. Autonomy came from reinforcement learning, trained in simulation, sometimes completing thousands of hours of virtual tests in one weekend.</p>
+<p>ERNEST is a testbed for a potential future long-range lunar mission, not an approved flight rover.</p>
+
+<h2>What Are the Crewed Lunar Terrain Vehicles Being Tested For?</h2>
+<p>NASA's lunar terrain vehicles are designed to carry astronauts and operate remotely between visits. Per NASA, they will drive up to 3.7 miles (6 kilometers) a day under remote control, travel up to 6 miles (10 kilometers) on one battery charge, and collect data on how well they preserve energy moving in and out of shadow.</p>
+<p>Astrolab and Lunar Outpost hold the contracts, and testing is already underway. Astronauts in pressurized spacesuits evaluated a Lunar Outpost Pegasus mockup, and Astrolab's CLV-1 mockup went through crew evaluation at Axiom Space. Both companies are heading to NASA's Glenn Research Center to test their airless or mesh wheels on simulated lunar soil.</p>
+<p>Precursor robots come first. Lunar Outpost's MAPP rover operated at the south pole in 2025, and Astrolab's FLIP is scheduled to fly on Griffin Mission One in late 2026. Flight-ready LTV hardware is due at the end of 2027.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Design</th>
+      <th>What it tests</th>
+      <th>Status (October 2026)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NASA VIPER</td>
+      <td>Driving 30+ km and mapping ice in shadowed craters</td>
+      <td>Built, final testing, 2027 target</td>
+    </tr>
+    <tr>
+      <td>JPL ERNEST</td>
+      <td>Fast, long drives and autonomy in low light</td>
+      <td>16-mile desert test, prototype only</td>
+    </tr>
+    <tr>
+      <td>Astrolab and Lunar Outpost LTVs</td>
+      <td>Crewed and remote driving, 10 km per charge</td>
+      <td>Mockup and wheel tests, hardware due end of 2027</td>
+    </tr>
+    <tr>
+      <td>ESA PHILIP concept</td>
+      <td>Laser power for shadowed craters</td>
+      <td>2020 design study</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Could a Laser Keep a Rover Powered in the Dark?</h2>
+<p>ESA's PHILIP study proposed exactly that. A solar-powered lander would sit on a sunlit ridge and aim a 500-watt infrared laser at a 250-kilogram rover up to 15 kilometers away, according to <a href="https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Laser-powered_rover_to_explore_Moon_s_dark_shadows" target="_blank" rel="noopener noreferrer">ESA</a>.</p>
+<p>The rover's panels would convert that light to electricity. The study picked a landing site between de Gerlache and Shackleton craters and mapped routes descending at about 10 degrees while keeping line of sight to the lander. ESA has separately run night field tests of rover autonomy in Tenerife.</p>
+<p>This is a 2020 concept, and ESA said then that prototyping would still have to come from follow-up programs. No flight mission using it appeared in the sources reviewed.</p>
+
+<h2>What Is Still Unproven About Lunar Rovers in Darkness?</h2>
+<p>Based on the NASA and ESA material reviewed here, no single rover has yet shown dark-crater survival and ERNEST-style long-distance speed together. VIPER has not flown. ERNEST drove in Earth's desert at night, which reproduces shadow but not minus 203°C. The LTVs are still mockups, and the laser idea remains on paper.</p>
+<p>That is an assessment of public sources, not a claim that no private testing exists. It also means the headline word "tested" covers very different things: hardware trials, simulations, crew evaluations and field campaigns.</p>
+<p>Real shadowed craters will supply the final exam. Until VIPER or an LTV drives into one, designers are inferring how power, cold and terrain interact.</p>
+
+<h2>What Lunar Rover Testing Shows So Far</h2>
+<p>Lunar rover design is splitting a hard problem into testable parts: VIPER for shadowed-crater prospecting, ERNEST for speed and autonomy, the LTVs for crew-ready mobility, and laser power for sunless craters. Each part has real evidence behind it. The combined vehicle that crosses far, fast and in the dark does not exist yet, and the 2027 VIPER landing will be the first chance to see how those pieces behave together.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why can't solar-powered rovers work in permanently shadowed regions?</h3>
+<p>Sunlight never reaches the floors of these craters, so solar panels produce no power. A rover must rely on stored energy or an outside source such as a laser.</p>
+
+<h3>How far will NASA's VIPER rover travel?</h3>
+<p>NASA says VIPER will travel more than 18 miles (30 kilometers) at the lunar south pole. It is targeting a 2027 mission.</p>
+
+<h3>How fast can a lunar rover drive?</h3>
+<p>NASA's planned lunar terrain vehicles are expected to cover up to 6 kilometers a day under remote control. JPL's ERNEST prototype reached about 1 kph in its March 2026 field test.</p>
+
+<h3>When will NASA's lunar terrain vehicles reach the Moon?</h3>
+<p>NASA has awarded Blue Origin a task order to deliver them to the south pole region by 2028. Astrolab and Lunar Outpost are scheduled to deliver flight-ready hardware at the end of 2027.</p>
+`,
+  },
+  {
+    id: "marathon-robot-dog-battery-efficiency-cost-of-transport-raibo2",
+    slug: "raibo2-robot-dog-marathon-single-battery-charge-kaist",
+    title: "A Marathon-Running Robot Dog Shows How Far Battery Efficiency Can Go",
+    metaTitle: "RAIBO2 Robot Dog Runs a Marathon on One Battery Charge", // 54 chars
+    excerpt: "KAIST's RAIBO2 finished a 42.195-kilometer marathon on one charge and beat the human cost-of-transport benchmark. The gains came from lighter legs, lower-loss motor drives and a learned gait, but a human operator steered the run.",
+    metaDescription: "A KAIST robot dog finished a marathon on one battery charge. See how lighter legs, better motors and AI gaits cut energy use, and what the run skipped.", // 151 chars
+    category: "technology",
+    author: authors[1],
+    coverImage: "/images/articles/marathon-robot-dog-battery-efficiency-cost-of-transport-raibo2.jpg",
+    publishedAt: "2026-10-24",
+    readTime: 5,
+    featured: false,
+    editorsPick: false,
+    tags: [
+      "Robot dog",
+      "Quadruped robot",
+      "RAIBO2",
+      "KAIST",
+      "Battery efficiency",
+      "Cost of transport",
+      "Legged robots",
+      "Reinforcement learning",
+      "Robotics"
+    ],
+    content: `
+<p class="lead">A four-legged robot called RAIBO2 finished a full 42.195-kilometer marathon on one battery charge in 4 hours, 19 minutes and 52 seconds, according to a <a href="https://www.nature.com/articles/s41586-026-11102-5" target="_blank" rel="noopener noreferrer">Nature paper published September 23, 2026</a>. The KAIST team measured a cost of transport of 0.25, below the human benchmark of 0.37 cited in the study. The headline sounds like a bigger battery, but the bigger story is where the energy stopped leaking. The run also had caveats that most coverage skims past.</p>
+
+<h2>How Did a Robot Dog Finish a Marathon on One Charge?</h2>
+<p>RAIBO2 ran the 22nd Sangju Dried-Persimmon Marathon in South Korea on November 17, 2024, alongside human runners, as <a href="https://www.livescience.com/technology/robotics/south-korean-robot-dog-becomes-first-to-run-a-marathon-on-a-single-battery-charge" target="_blank" rel="noopener noreferrer">Live Science reported</a>. It used 1,280 watt-hours of a 2,016 watt-hour battery.</p>
+<p>That works out to about 30 watt-hours per kilometer, with roughly 36 percent of the battery left at the finish. My finish-time arithmetic puts the average pace near 9.7 kilometers per hour, a brisk jog.</p>
+<p>The authors estimate the robot could have gone about 25 kilometers farther, and say it travels roughly three times as far per charge as existing quadrupeds. Earlier machines were generally limited to about 20 kilometers, according to a <a href="https://www.nanowerk.com/news2/robotics/newsid=70268.php" target="_blank" rel="noopener noreferrer">summary of the Nature paper</a>.</p>
+<p>Before the race, RAIBO2 had also run a GPS-guided 43-kilometer route across a flat athletic field in 4 hours and 40 minutes on one charge. The real course added hills, slippery sections and other runners, which is why it is the harder result.</p>
+
+<h2>What Does Cost of Transport Actually Measure?</h2>
+<p>Cost of transport measures how much energy it takes to move a given weight over a given distance. Because it divides by body weight, it lets engineers compare a small robot, a large robot and a person on one scale. Lower is better.</p>
+<p>RAIBO2 averaged 0.25 over the marathon. The paper cites 0.37 for humans, and the authors propose RAIBO2 is the first quadruped robot to beat that figure.</p>
+<p>That comparison deserves care. The 0.37 figure is a benchmark the authors cite, not a runner measured on the same hill, and the robot's number reflects its own battery draw during one course.</p>
+
+<h2>Where Did RAIBO2 Stop Wasting Energy?</h2>
+<p>Legged robots lose energy in three places, and the team attacked all of them. Unlike wheeled robots, quadrupeds spend energy at their joints just to hold up body weight, and they lose kinetic energy every time a foot hits the ground.</p>
+<p>On hardware, the team built lightweight legs that pass motion from joint to foot with little interference, plus a low-loss motor-driving circuit. Power electronics matter at every scale, as our piece on an <a href="/article/ultrawide-bandgap-semiconductor-7-ev-aluminum-gallium-oxide">ultrawide-bandgap semiconductor</a> shows.</p>
+<p>On software, a locomotion policy trained with reinforcement learning in the team's RaiSim simulator rewards soft, efficient footfalls. The simulator includes slopes, stairs and icy roads, so the robot practices before it ever touches asphalt. The robot also recovers some energy by braking its motors like generators on downhill stretches, though that does not erase the cost of hills.</p>
+
+<h2>Was the Marathon Just a Bigger Battery?</h2>
+<p>No, but the battery did grow, and some coverage blurs that. An earlier attempt against other competitors ended near the 37-kilometer mark when the battery ran out. The team linked part of that shortfall to frequent pace changes while adjusting to nearby runners.</p>
+<p>Live Science reports that the team then raised battery capacity by 33 percent and added joint-stiffness control. Popular Science notes the more efficient motor board freed room for the larger pack.</p>
+<p>Bigger batteries have material costs, from lithium to cobalt, which is why <a href="/article/ev-battery-recycling-critical-minerals-lithium-cobalt-supply">battery recycling</a> is becoming a supply question. Hauling a larger pack only pays off when the robot wastes little of what it carries.</p>
+
+<h2>What Does the Headline Leave Out?</h2>
+<p>RAIBO2 was not fully autonomous. According to <a href="https://www.popsci.com/technology/robot-dog-runs-marathon-one-charge/" target="_blank" rel="noopener noreferrer">Popular Science</a>, a head-mounted camera sent the route to a human operator who steered the robot. Full autonomy would need more onboard computing, which draws battery, so the result is a locomotion milestone, not an autonomy one.</p>
+<p>Efforts such as the <a href="/article/photonic-computing-chip-in-memory-neurons-flare-explained">photonic neurons</a> we covered recently aim to cut the energy cost of computing itself.</p>
+<p>It was also one robot on one course. The official-race result is a single run, and the 25-kilometer extension is an estimate, with some outlets citing a total near 65 kilometers and others 67. Treat the exact maximum as approximate.</p>
+
+<h2>Why Does Battery Efficiency Matter Outside a Race?</h2>
+<p>Legged robots are chosen for ground that wheels cannot handle, and range has limited those jobs. Live Science reports the developers see uses in disaster zones and mountainous areas, where a robot could carry cameras, sensors or communications gear over rough terrain.</p>
+<p>Efficiency trade-offs appear across robotics. NASA's ERNEST prototype uses a clutch to switch between rugged active suspension and efficient passive suspension, as described in our look at <a href="/article/nasa-moon-rover-lunar-south-pole-darkness-long-range-tests">lunar rover tests</a>.</p>
+<p>The lesson carries over: range comes from removing losses at every layer, not from one component.</p>
+
+<h2>What the Marathon Really Measured</h2>
+<p>RAIBO2 showed that a quadruped can cover marathon distance while carrying its own power, mainly because its designers cut losses in legs, circuits and gait together. It did not show a fully autonomous robot dog, and one course is one data point. The open question is whether the same efficiency survives once navigation computing, payloads and rougher terrain are added back.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Who built RAIBO2?</h3>
+<p>RAIBO2 was developed at KAIST in South Korea by a team led by Jemin Hwangbo. The work appeared in Nature on September 23, 2026.</p>
+
+<h3>When did the robot dog actually run the marathon?</h3>
+<p>It ran on November 17, 2024, nearly two years before the paper appeared. The delay is typical of peer review for a result like this.</p>
+
+<h3>Is a robot dog more efficient than a human runner?</h3>
+<p>By the paper's cost-of-transport comparison, yes: 0.25 for RAIBO2 against a 0.37 human benchmark. That compares an average figure with one robot on one course.</p>
+
+<h3>Can robot dogs run marathons on their own?</h3>
+<p>Not yet, based on reporting. A human operator steered RAIBO2 using a head camera feed.</p>
+`,
+  },
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
