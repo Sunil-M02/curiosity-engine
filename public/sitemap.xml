@@ -1670,4 +1670,16 @@
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/nasa-baby-planet-elias-2-24-b-protoplanetary-disk-born</loc>
+  <lastmod>2026-10-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+  <url>
+  <loc>https://www.curiosityfields.com/article/ai-search-cross-field-links-beyond-semantic-similarity</loc>
+  <lastmod>2026-10-26</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
 </urlset>
