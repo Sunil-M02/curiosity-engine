@@ -22535,6 +22535,272 @@ content: `
 `,
   },
 
+  {
+    id: "nasa-baby-planet-elias-2-24-b-protoplanetary-disk-born",
+    slug: "nasa-baby-planet-elias-2-24-b-protoplanetary-disk-born",
+    title: "NASA Found a Baby Planet Still Inside the Environment Where It Was Born",
+    metaTitle: "NASA Confirms Youngest Baby Planet Inside Its Birth Disk", // 56 chars
+    excerpt: "Using archival W. M. Keck Observatory and ALMA data, astronomers confirmed Elias 2-24 b inside a dusty protoplanetary disk gap at less than 1 million years old. The gas giant formed at 55 astronomical units far faster than standard core-accretion models predict, while active gas infall inflates its apparent brightness.",
+    metaDescription: "Archival Keck and ALMA data confirmed Elias 2-24 b inside its dusty birth disk at under 1 million years old, challenging how fast giant planets form.", // 149 chars
+    category: "astronomy",
+    author: authors[1],
+    coverImage: "/images/articles/nasa-baby-planet-elias-2-24-b-protoplanetary-disk-born.jpg",
+    publishedAt: "2026-10-26",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: [
+      "Exoplanets",
+      "Protoplanetary disk",
+      "Elias 2-24 b",
+      "WISPIT 2b",
+      "NASA",
+      "W. M. Keck Observatory",
+      "ALMA",
+      "Planet formation",
+      "Core accretion"
+    ],
+    content: `
+<p class="lead">Astronomers have confirmed the youngest exoplanet ever detected, a gas giant less than 1 million years old named Elias 2-24 b that is still growing inside the dusty disk where it was born, according to a <a href="https://arxiv.org/abs/2609.23122" target="_blank" rel="noopener noreferrer">September 2026 study in The Astrophysical Journal Letters</a>. Using archival data from the W. M. Keck Observatory in Hawaii alongside millimeter radio maps from Chile, a team led by Andrea Bernardi at Universidad Diego Portales pinpointed the planet 55 astronomical units from its star. Standard models say a giant planet should take at least 5 million years to assemble at that distance, meaning newborn worlds build cores far faster than textbook physics predicted.</p>
+
+<h2>How Did Astronomers Confirm a Baby Planet Inside Its Birth Disk?</h2>
+<p>Researchers confirmed Elias 2-24 b by combining multi-year infrared images from the W. M. Keck Observatory with dust and gas maps from the Atacama Large Millimeter/submillimeter Array (ALMA) and the Very Large Telescope (VLT), as <a href="https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/" target="_blank" rel="noopener noreferrer">NASA Science reported</a>. No single observatory could prove the planet existed alone.</p>
+<p>High-resolution <a href="https://www.curiosityfields.com/article/radio-telescope-reveals-hidden-galaxies-dust">millimeter radio telescopes</a> like ALMA first spotted a 30-astronomical-unit-wide dark gap in the dusty disk around Elias 2-24 a decade ago. Follow-up VLT observations detected a faint infrared point inside that lane, while ALMA carbon monoxide maps showed gas swirls matching a circumplanetary disk.</p>
+<p>Infrared observatories act as <a href="https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-light-travel-time">cosmic time machines</a> when pointed at stellar nurseries like the Ophiuchus cloud 454 light-years (139.3 parsecs) away. Recovering the planet in 2018 and 2020 Keck NIRC2 vortex coronagraph archive images ruled out a stationary background star at 3.2-sigma confidence.</p>
+
+<h2>Why Are Newborn Planets Almost Impossible to See?</h2>
+<p>Newborn exoplanets are nearly invisible because thick cocoons of gas and dust block visible light while the host star's glare drowns out faint planetary heat. Out of more than 6,000 confirmed exoplanets, astronomers have directly imaged only a handful inside active planet-forming disks.</p>
+<p>Unlike older systems shaped by collisions inside <a href="https://www.curiosityfields.com/article/jwst-planet-collisions-extreme-debris-disks-moon-formation">extreme debris disks</a>, a protoplanetary disk is packed with dense gas and soot. Surrounding dust imposes 8.7 magnitudes of visual extinction around Elias 2-24, dimming visible light 3,000-fold and hiding transits when planets orbit far out.</p>
+<p>Direct imaging overcomes this barrier with a coronagraph, an optical mask that blocks central starlight while passing thermal infrared wavelengths around 3.8 micrometers. At those wavelengths, dust is far more transparent, and a contracting young gas giant glows intensely from its assembly heat.</p>
+
+<h2>How Does Elias 2-24 b Compare With WISPIT 2b and PDS 70?</h2>
+<p>At less than 1 million years old, Elias 2-24 b cuts the age record for a confirmed planet by over 80 percent compared with the 5-million-year-old protoplanets orbiting PDS 70 and WISPIT 2. Together, these systems prove that growing gas giants carve dark rings across young disks.</p>
+<p>Until September 2026, four worlds shared the title for youngest confirmed planet: PDS 70 b and c, plus two siblings in the WISPIT 2 system 437 light-years away. In August 2025, University of Arizona astronomer Laird Close and Leiden Observatory researcher Richelle van Capelleveen <a href="https://science.nasa.gov/universe/exoplanets/discovery-alert-baby-planet-photographed-in-a-ring-around-a-star-for-the-first-time/" target="_blank" rel="noopener noreferrer">photographed WISPIT 2b</a> with the Magellan Telescope's MagAO-X system, followed by the <a href="https://www.researchgate.net/publication/403087981_Direct_Spectroscopic_Confirmation_of_the_Young_Embedded_Protoplanet_WISPIT_2c" target="_blank" rel="noopener noreferrer">March 2026 confirmation of WISPIT 2c</a>.</p>
+<p>Studies of mature <a href="https://www.curiosityfields.com/article/jwst-wasp-17b-hot-jupiter-atmosphere-map-explained">hot Jupiter atmospheres</a> usually examine gas giants billions of years after their birth clouds vanish. Catching WISPIT 2b in hydrogen-alpha light showed hydrogen crashing onto the 5-Jupiter-mass world like a waterfall, whereas Elias 2-24 b captures an even earlier stage.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Protoplanet</th>
+      <th>Age</th>
+      <th>Distance (AU)</th>
+      <th>Mass (Jupiters)</th>
+      <th>Primary Detection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Elias 2-24 b</td>
+      <td>Under 1 Myr</td>
+      <td>54.9</td>
+      <td>0.4 to 4.0</td>
+      <td>Keck/NIRC2 infrared + ALMA</td>
+    </tr>
+    <tr>
+      <td>WISPIT 2b</td>
+      <td>About 5 Myr</td>
+      <td>56.0</td>
+      <td>About 5.0</td>
+      <td>Magellan MagAO-X H-alpha</td>
+    </tr>
+    <tr>
+      <td>WISPIT 2c</td>
+      <td>About 5 Myr</td>
+      <td>14 to 15</td>
+      <td>About 9.0</td>
+      <td>LBT infrared + spectroscopy</td>
+    </tr>
+    <tr>
+      <td>PDS 70 b</td>
+      <td>About 5.4 Myr</td>
+      <td>22.7</td>
+      <td>5.0 to 9.0</td>
+      <td>VLT/SPHERE + H-alpha</td>
+    </tr>
+    <tr>
+      <td>PDS 70 c</td>
+      <td>About 5.4 Myr</td>
+      <td>30.2</td>
+      <td>3.3 to 5.5</td>
+      <td>VLT/SPHERE + ALMA disk</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Why Does Elias 2-24 b Challenge Standard Planet Formation Models?</h2>
+<p>Elias 2-24 b challenges classical timelines because it assembled a Jupiter-scale planet at 55 astronomical units in under 1 million years, whereas standard core-accretion models require roughly 5 million years just to build Jupiter at 5.2 astronomical units. Solid cores must grow far faster in early disks than assumed.</p>
+<p>In our own <a href="/article/asteroid-belt-mostly-empty-space-explained">outer solar system</a>, Neptune orbits at 30 astronomical units, yet Elias 2-24 b sits nearly twice as far out at 54.9 astronomical units. Astronomers debate two formation routes: core accretion, where rock and ice pebbles build a core that pulls in gas, and gravitational instability, where an unstable disk fragments directly.</p>
+<p>The <a href="https://arxiv.org/html/2609.23122v1" target="_blank" rel="noopener noreferrer">Bernardi et al. study</a> shows that Elias 2-24's disk lacks the chaotic spiral arms of gravitational fragmentation. Instead, the planet sits inside a narrow gap bordered by a bright outer ring of trapped millimeter pebbles, acting like a snowplow whose pressure bump halts inward-drifting dust.</p>
+
+<h2>Why Do Astronomers Disagree on the Baby Planet's Exact Mass?</h2>
+<p>Estimates for Elias 2-24 b's mass span from 0.4 to 4.0 Jupiter masses because infalling gas heats the planet and its circumplanetary disk, making the world shine brighter than its internal heat alone would justify. Converting infrared brightness directly into mass without subtracting accretion glow inflates its size.</p>
+<p>Even compared with exotic <a href="https://www.curiosityfields.com/article/second-generation-planet-dead-star-white-dwarf-niobium">second-generation planet candidates</a> around dead stars, dust-embedded newborns pose a tougher measurement puzzle. Cooling models that ignore gas infall set an upper limit of 1.9 to 4.0 Jupiter masses, whereas hydrodynamical simulations of the 30-astronomical-unit gap require only 0.41 to 1.72 Jupiter masses.</p>
+<p>Bernardi's team calculated that Elias 2-24 b swallows between 1.6 millionths and 6.8 millionths of a Jupiter mass per year. Because standalone Keck detections reached 3.85 sigma in 2018 and 2.82 sigma in 2020 under worse seeing, confirmation relied on matching independent ALMA and VLT detections at the same coordinates.</p>
+
+<h2>How Will New Telescopes Test How Solar Systems Begin?</h2>
+<p>Next-generation infrared spectrographs and space coronagraphs will measure Elias 2-24 b's orbital curvature and spectrum to separate its true mass from accretion glow. Over an eight-year baseline from 2018 to 2026, a circular orbit at 55 astronomical units shifts the planet by 6.2 degrees, enough to resolve Keplerian motion.</p>
+<p>NASA's newly launched <a href="https://www.curiosityfields.com/article/nasa-roman-space-telescope-22-year-lifespan">Roman Space Telescope</a> carries an advanced space coronagraph designed to push inside the glare that blinds ground observatories, as <a href="https://earthsky.org/space/baby-exoplanet-elias-2-24-b-w-m-keck-observatory/" target="_blank" rel="noopener noreferrer">EarthSky noted</a>. Alongside VLT/ERIS spectroscopy, Roman will help astronomers spot baby planets in tighter, Jupiter-like orbits.</p>
+
+<h2>What Catching a Planet Inside Its Birthplace Changes</h2>
+<p>Confirming Elias 2-24 b inside its natal gap settles a decade-long debate over whether dark rings in infant disks under 1 million years old are carved by planets rather than dust physics alone.</p>
+<p>Alongside WISPIT 2b and PDS 70, the discovery shifts planet formation from a slow aftermath of star birth to an overlapping process that builds gas giants while a star still feeds. The next test is determining whether rocky worlds assemble on the same accelerated schedule closer to their stars.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How old is the baby planet Elias 2-24 b?</h3>
+<p>Elias 2-24 b is less than 1 million years old, with estimates for its host star system ranging between 200,000 and 1 million years. By comparison, Earth and our solar system are about 4.5 billion years old.</p>
+
+<h3>Where is Elias 2-24 b located?</h3>
+<p>The planet orbits the young K-type star Elias 2-24 about 454 light-years (139.3 parsecs) from Earth in the Ophiuchus star-forming region. It sits inside a cleared dust gap roughly 55 astronomical units from its star, nearly twice Neptune's distance from the Sun.</p>
+
+<h3>Did Elias 2-24 b form by core accretion or gravitational instability?</h3>
+<p>Observational evidence strongly favors core accretion, where a solid core of rock and ice rapidly pulls in surrounding gas. The disk shows a crisp, narrow gap and a bright outer pebble ring rather than the chaotic spiral arms caused by gravitational instability.</p>
+
+<h3>How massive is Elias 2-24 b?</h3>
+<p>Hydrodynamical models of the disk gap point to a mass between 0.41 and 1.72 Jupiter masses, while thermal brightness models set an upper limit of 1.9 to 4.0 Jupiter masses. Infalling gas heats the planet and makes it glow brighter than its mass alone would produce.</p>
+
+<h3>What is the difference between Elias 2-24 b and WISPIT 2b?</h3>
+<p>Both are gas giants imaged inside disk gaps around 55 to 56 astronomical units out, but Elias 2-24 b is under 1 million years old whereas WISPIT 2b is about 5 million years old. WISPIT 2b was photographed in hydrogen-alpha light at the Magellan Telescope, while Elias 2-24 b was confirmed in infrared with Keck and ALMA.</p>
+`,
+  },
+
+  {
+    id: "ai-search-cross-field-links-beyond-semantic-similarity",
+    slug: "ai-search-cross-field-links-beyond-semantic-similarity",
+    title: "AI Search Can Discover Cross-Field Links Beyond Simple Semantic Similarity",
+    metaTitle: "How AI Search Finds Cross-Field Links Beyond Similarity", // 55 chars
+    excerpt: "Off-the-shelf AI search models miss over 70 percent of relevant papers from outside a query's discipline, and citation-trained scientific embedders like SPECTER2 perform worst. Two 2026 breakthroughs, Cross-Pollination Retrieval and domain-stripped computational fingerprints, match underlying mathematical mechanisms across fields.",
+    metaDescription: "Standard AI vector search misses breakthroughs hidden in other fields. New cross-pollination retrieval models match shared mechanisms across disciplines.", // 153 chars
+    category: "artificial-intelligence",
+    author: authors[1],
+    coverImage: "/images/articles/ai-search-cross-field-links-beyond-semantic-similarity.jpg",
+    publishedAt: "2026-10-26",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: [
+      "AI search",
+      "Semantic similarity",
+      "Cross-pollination retrieval",
+      "Information retrieval",
+      "Vector embeddings",
+      "Scientific discovery",
+      "Computational fingerprints",
+      "Large language models",
+      "Knowledge graphs"
+    ],
+    content: `
+<p class="lead">Standard AI search tools fail to find more than 70 percent of relevant scientific papers when those papers come from a different academic field, according to an <a href="https://arxiv.org/abs/2610.25678" target="_blank" rel="noopener noreferrer">October 2026 study by researchers at KAIST, the University of Tubingen and NAVER AI Lab</a>. Because embedding models group documents by shared vocabulary and citation neighborhoods, they miss breakthroughs disguised under unfamiliar terminology. Two fall 2026 studies show that stripping away domain jargon to match underlying mathematical mechanisms, or training retrievers on cross-field analogies, raises cross-domain discovery nearly threefold without requiring new model architectures.</p>
+
+<h2>Why Does Standard AI Semantic Search Miss Cross-Field Breakthroughs?</h2>
+<p>Standard dense vector search misses cross-field links because embedding models compress a document's topical nouns and citation neighborhood into a single vector, treating different terminology for the same underlying mechanism as unrelated subjects. When two fields solve an identical mathematical problem using different words, cosine similarity places their papers far apart.</p>
+<p>Modern <a href="https://www.curiosityfields.com/article/retrieval-augmented-generation-rag-explained">retrieval-augmented generation systems</a> convert queries and documents into numerical vectors called embeddings, ranking results by vector alignment. Yet an analysis of <a href="https://www.science.org/doi/abs/10.1126/science.1240474" target="_blank" rel="noopener noreferrer">17.9 million papers in Science</a> found that studies blending conventional knowledge with unusual cross-field links were nearly twice as likely to become top-cited breakthroughs.</p>
+<p>A <a href="https://doi.org/10.1371/journal.pone.0122565" target="_blank" rel="noopener noreferrer">PLOS ONE study of 9.2 million papers</a> likewise showed that co-citing distant fields boosted citation impact by 72 percent. Generative AI's diffusion models came from such a bridge in 2015, when Jascha Sohl-Dickstein adapted a <a href="https://link.aps.org/doi/10.1103/PhysRevE.56.5018" target="_blank" rel="noopener noreferrer">1997 nonequilibrium physics equation by Christopher Jarzynski</a> to generate images from noise.</p>
+
+<h2>Why Do Specialized Scientific Search Models Perform Even Worse Across Fields?</h2>
+<p>Retrievers trained specifically on scientific literature score worse on cross-field discovery than general-purpose models because they learn relevance from citation graphs, which segregate researchers into disciplinary silos. On the 1,300-query Cross-Pollination Retrieval benchmark (CPR-eval), the scientific model SPECTER2 achieved a Recall@10 of 0.09, barely above random guessing at 0.07.</p>
+<p>Models trained on <a href="https://www.curiosityfields.com/article/ai-reads-every-word-but-understands-nothing-context-problem">surface word patterns</a> group documents by shared nouns rather than causal logic. In the <a href="https://arxiv.org/html/2610.25678v1" target="_blank" rel="noopener noreferrer">October 2026 Cross-Pollination Retrieval paper</a>, Seokwon Jung and colleagues tested 11 retrievers across 26 fields where every valid answer came from a non-overlapping topic in the OpenAlex taxonomy.</p>
+<p>Even the strongest off-the-shelf models, Gemini Embedding and inf-retriever-v1-pro, placed the true cross-field paper in the top 10 only 26 percent of the time (0.26 Recall@10). In a <a href="https://arxiv.org/abs/2609.07595" target="_blank" rel="noopener noreferrer">September 2026 ACM/IEEE JCDL study</a>, KU Leuven researcher Eryk Kulikowski found that citation-trained embedders SPECTER (0.095 average precision) and SciNCL (0.149) fell below plain TF-IDF keyword matching (0.222).</p>
+
+<h2>How Does Cross-Pollination Retrieval Train AI to Spot Structural Analogies?</h2>
+<p>Cross-pollination retrieval trains embedding models to map functional relationships between problem components rather than matching topic keywords, lifting top-10 recall from 0.17 to 0.69 on Qwen3-Embedding-4B and to 0.70 on Llama-Embed-Nemotron-8B. The gain comes from mining historical cross-field citations and pairing them with same-field "hard negatives."</p>
+<p>As <a href="https://www.curiosityfields.com/article/ai-scientist-self-driving-lab-experiments-explained">autonomous AI scientists</a> begin proposing hypotheses and running lab protocols, their blind spots mirror the literature they retrieve. Following Dedre Gentner's structure-mapping theory, Jung's team filtered Semantic Scholar citations to verify that at least two objects in the source problem mapped onto counterparts in the cited paper under the same relation.</p>
+<p>That filter discarded 91 percent of cross-topic citations that were merely background mentions, leaving 1,300 evaluation queries and 10,573 training pairs (Cohen's kappa 0.84). Fine-tuning on those pairs with same-field hard negatives generalized to held-out domains and boosted scores by 33 percent on AnaloBench and 70 percent on BRIGHT.</p>
+
+<h2>How Do Domain-Stripped Computational Fingerprints Work Without Retraining?</h2>
+<p>Instead of retraining an embedding model, domain-stripped computational fingerprinting uses a single cached language-model pass to rewrite each paper's abstract into a jargon-free mathematical skeleton plus six structural facets. Searching those stripped skeletons with standard TF-IDF lifts cross-domain average precision from 0.222 to 0.513, and adding facet filtering reaches 0.557.</p>
+<p>Across science, researchers reinvent the same math under incompatible names: recursive Bayesian state estimation is a Kalman filter in aerospace, Bayesian forecasting in pharmacokinetics, and data assimilation in meteorology. Similarly, dominant-eigenvector ranking appears as PageRank in web search and Eigenfactor in scientometrics.</p>
+<p>Applying <a href="https://www.curiosityfields.com/article/ai-reasoning-chain-of-thought">chain-of-thought reasoning</a> inside a tournament-style reranker allowed MiMo-V2.6-Pro to reach 0.81 Recall@10 on CPR-eval, but reranking millions of papers at query time is too costly. Kulikowski's pipeline shifts comprehension offline to indexing time, rewriting PageRank as "the stationary distribution of a damped random walk on a weighted graph" with all field nouns removed.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Retrieval Approach</th>
+      <th>What It Matches</th>
+      <th>CPR-eval R@10</th>
+      <th>JCDL AP</th>
+      <th>Primary Limitation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scientific Dense (SPECTER2)</td>
+      <td>Citation neighborhoods and terms</td>
+      <td>0.09</td>
+      <td>0.182</td>
+      <td>Separates fields by construction</td>
+    </tr>
+    <tr>
+      <td>Lexical Search (BM25 / TF-IDF)</td>
+      <td>Exact term overlap in abstracts</td>
+      <td>0.16</td>
+      <td>0.222</td>
+      <td>Fails when fields name math differently</td>
+    </tr>
+    <tr>
+      <td>General Dense (Gemini / Qwen3)</td>
+      <td>Broad semantic similarity</td>
+      <td>0.17 to 0.26</td>
+      <td>0.226</td>
+      <td>Distracted by same-field nouns</td>
+    </tr>
+    <tr>
+      <td>Domain-Stripped Fingerprint</td>
+      <td>Jargon-free math skeleton + facets</td>
+      <td>Not tested</td>
+      <td>0.557</td>
+      <td>Requires algorithmic structure</td>
+    </tr>
+    <tr>
+      <td>CPR-train Fine-Tuned</td>
+      <td>Learned structural analogy</td>
+      <td>0.69 to 0.70</td>
+      <td>Not tested</td>
+      <td>Tested on 151-paper pools</td>
+    </tr>
+    <tr>
+      <td>LLM Reranker (MiMo-V2.6-Pro)</td>
+      <td>Pairwise multi-step reasoning</td>
+      <td>0.81</td>
+      <td>Not applicable</td>
+      <td>Too slow for full-corpus scan</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Can AI Cross-Field Search Actually Replace Bespoke Scientific Code?</h2>
+<p>Yes: in four executed cross-domain imports, Kulikowski replaced specialized domain code with open-source solvers surfaced from other fields, reproducing a clinical antibiotic-dosing engine's patient clearance estimates within 2.5 percent. The fingerprint pipeline also connected political-science voting models with recommender-system matrix completion.</p>
+<p>Because standard <a href="https://www.curiosityfields.com/article/how-google-indexes-130-trillion-pages-crawling-architecture">web indexing architectures</a> already run fast lexical engines like BM25 and Elasticsearch, repositories can deploy fingerprint search without custom vector hardware. A BM25 query over the stripped mechanism text retrieves the top 1,000 candidates, and an exact-match filter checks how many of four core computational facets agree.</p>
+<p>Even <a href="https://www.curiosityfields.com/article/small-language-models-vs-large-ai-2026">smaller language models</a> such as Claude Haiku and a local 14-billion-parameter Qwen3 model beat frontier models at distilling consistent facet labels, because coarse models assign identical category labels where frontier models over-split. Swapping hospitals' Nonparametric Adaptive Grid (NPAG) rifapentine dosing code for an open-source mixture solver reproduced clearance at 3.90 versus 4.00 liters per hour.</p>
+
+<h2>What Are the Limits and Risks of Cross-Domain AI Retrieval?</h2>
+<p>Cross-field AI retrievers still face a steep trade-off between precision and recall, have mostly been benchmarked on pre-filtered candidate pools rather than full 200-million-paper libraries, and can return superficial analogies that fail in practice. Human domain verification remains mandatory before adopting an imported method.</p>
+<p>Just as language models generate <a href="https://www.curiosityfields.com/article/why-ai-language-models-confidently-state-false-facts-mechanism">confident false claims</a> when extrapolating past their training distribution, analogy-trained retrievers can surface plausible-looking papers whose math does not transfer. In Kulikowski's facet filter, requiring all four core computational facets to match raised precision from 0.18 to 0.94, but caused recall to drop from 0.87 to 0.15.</p>
+<p>Rewriting a search query with a language model before searching (using HyDE) raised BM25 recall on CPR-eval from 0.16 to 0.44, well below structure-aware training (0.70). Meanwhile, a May 2026 study on <a href="https://arxiv.org/html/2605.05242v1" target="_blank" rel="noopener noreferrer">agentic search via direct corpus interaction</a> showed complex queries need iterative exploration, making fast structural embeddings plus an LLM reranker the most practical blueprint.</p>
+
+<h2>Moving From Keyword Matching to Mechanism Matching</h2>
+<p>For two decades, digital libraries have organized human knowledge around nouns and citation cliques, rewarding researchers who stay inside their own disciplinary vocabulary.</p>
+<p>The 2026 breakthroughs in cross-pollination retrieval and computational fingerprinting prove that AI search can index what a paper computes or how its causal pieces interact, regardless of what a field calls them. The next frontier is scaling two-stage structural retrieval across hundreds of millions of papers so researchers stop reinventing solvers that already exist next door.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Why does semantic search fail at finding papers in other fields?</h3>
+<p>Semantic search relies on embedding models that place documents with similar domain vocabulary and shared citations close together in vector space. When two unrelated disciplines solve the same underlying problem using different terminology, standard embeddings treat them as unrelated.</p>
+
+<h3>Why did scientific models like SPECTER2 score worse than general AI search on cross-field retrieval?</h3>
+<p>Models like SPECTER2 are trained using citation links between papers, which overwhelmingly stay within a single academic discipline. That training pushes non-citing fields apart in embedding space, causing SPECTER2 to score 0.09 Recall@10 on the 2026 CPR-eval benchmark compared with 0.26 for Gemini Embedding.</p>
+
+<h3>What is a domain-stripped computational fingerprint in AI search?</h3>
+<p>Developed at KU Leuven in 2026, a computational fingerprint uses a cached language-model pass at indexing time to rewrite a paper into a 100-word mathematical skeleton and six structural facets with all field jargon and method names removed. Standard keyword search over those stripped fingerprints more than doubles cross-domain retrieval precision without retraining the embedder.</p>
+
+<h3>Can rewriting a search query fix cross-field retrieval without new training data?</h3>
+<p>Only partially: testing on CPR-eval showed that hypothetical document expansion (HyDE) with a frontier language model raised BM25 top-10 recall from 0.16 to 0.44. That still fell well short of retrievers fine-tuned on cross-field analogies (0.70) and tournament-style LLM rerankers (0.81).</p>
+
+<h3>How can search engines combine fast embeddings with accurate LLM rerankers?</h3>
+<p>A practical pipeline uses domain-stripped fingerprints or analogy-trained embeddings to rapidly narrow millions of papers down to a candidate pool of 100 to 150 documents. A reasoning-capable language model then reranks only that small pool to verify whether the structural analogy genuinely transfers.</p>
+`,
+  },
+
 ];
 
 const isoDatePattern = /^(\d{4})-(\d{2})-(\d{2})$/;
