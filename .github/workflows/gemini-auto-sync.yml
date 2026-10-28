@@ -18,97 +18,140 @@ jobs:
 
       - name: Setup gdown
         run: |
-          pip install gdown
+          pip install -U gdown
 
       - name: Download daily_publish_payload.json and images from shared Google Drive folder
         env:
           DRIVE_FOLDER_ID: "1P8l-xqjJIKcqsUR1IF8fiZvrvRl1v5Md"
+          FALLBACK_PAYLOAD_ID: "18q_KPYw3R1CZgYXt5DKWI6tdI7JA16sF"
         run: |
           mkdir -p /tmp/gemini_sync
-          gdown --folder "https://drive.google.com/drive/folders/${DRIVE_FOLDER_ID}" -O /tmp/gemini_sync --remaining-ok
+          gdown --folder "https://drive.google.com/drive/folders/${DRIVE_FOLDER_ID}" -O /tmp/gemini_sync || true
+          if [ -z "$(find /tmp/gemini_sync -name 'daily_publish_payload*.json' 2>/dev/null)" ]; then
+            echo "Folder download did not fetch payload; using direct file ID fallback..."
+            gdown "https://drive.google.com/uc?id=${FALLBACK_PAYLOAD_ID}" -O /tmp/gemini_sync/daily_publish_payload.json
+          fi
 
       - name: Inject new articles, images, and sitemap entries (idempotent)
         run: |
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
+          const { execSync } = require('child_process');
+
+          function getAllFiles(dirPath, arrayOfFiles = []) {
+            if (!fs.existsSync(dirPath)) return arrayOfFiles;
+            const entries = fs.readdirSync(dirPath, { withFileTypes: true });
+            for (const entry of entries) {
+              const fullPath = path.join(dirPath, entry.name);
+              if (entry.isDirectory()) {
+                getAllFiles(fullPath, arrayOfFiles);
+              } else {
+                arrayOfFiles.push(fullPath);
+              }
+            }
+            return arrayOfFiles;
+          }
 
           const syncDir = '/tmp/gemini_sync';
-          const files = fs.existsSync(syncDir) ? fs.readdirSync(syncDir) : [];
-          const payloadFile = files.find(f => f.startsWith('daily_publish_payload'));
-          if (!payloadFile) {
+          const allFiles = getAllFiles(syncDir);
+          const payloadFiles = allFiles.filter(f => path.basename(f).startsWith('daily_publish_payload') && f.endsWith('.json'));
+
+          if (payloadFiles.length === 0) {
             console.log('No daily_publish_payload.json found in sync folder.');
             process.exit(0);
           }
 
-          const payload = JSON.parse(fs.readFileSync(path.join(syncDir, payloadFile), 'utf8'));
+          // Copy any .jpg or .png images found anywhere in syncDir into public/images/articles/
+          fs.mkdirSync('public/images/articles', { recursive: true });
+          for (const filePath of allFiles) {
+            const base = path.basename(filePath);
+            if (base.endsWith('.jpg') || base.endsWith('.png')) {
+              fs.copyFileSync(filePath, path.join('public/images/articles', base));
+              console.log(`Copied image from folder download: ${base}`);
+            }
+          }
+
           let articlesTs = fs.readFileSync('src/data/articles.ts', 'utf8');
           let sitemapXml = fs.readFileSync('public/sitemap.xml', 'utf8');
           let addedCount = 0;
 
-          // Copy any .jpg or .png images from syncDir into public/images/articles/
-          fs.mkdirSync('public/images/articles', { recursive: true });
-          for (const file of files) {
-            if (file.endsWith('.jpg') || file.endsWith('.png')) {
-              fs.copyFileSync(path.join(syncDir, file), path.join('public/images/articles', file));
-            }
-          }
+          for (const pFile of payloadFiles) {
+            const payload = JSON.parse(fs.readFileSync(pFile, 'utf8'));
+            const articles = Array.isArray(payload.articles) ? payload.articles : [];
 
-          for (const art of payload.articles) {
-            if (articlesTs.includes(`slug: "${art.slug}"`)) {
-              console.log(`Skipping already-present slug: ${art.slug}`);
-              continue;
-            }
+            for (const art of articles) {
+              // Ensure image exists or download directly by driveImageFileId as fallback
+              if (art.imageFilename && art.driveImageFileId) {
+                const targetImg = path.join('public/images/articles', art.imageFilename);
+                if (!fs.existsSync(targetImg) || fs.statSync(targetImg).size === 0) {
+                  try {
+                    console.log(`Downloading image by ID for ${art.imageFilename}...`);
+                    execSync(`gdown "https://drive.google.com/uc?id=${art.driveImageFileId}" -O "${targetImg}"`, { stdio: 'inherit' });
+                  } catch (e) {
+                    console.warn(`Fallback image download failed for ${art.imageFilename}:`, e.message);
+                  }
+                }
+              }
 
-            const safeContent = art.content.split('`').join('\\`').split('${').join('\\${');
-            const entryLines = [
-              '  {',
-              `    id: ${JSON.stringify(art.id)},`,
-              `    slug: ${JSON.stringify(art.slug)},`,
-              `    title: ${JSON.stringify(art.title)},`,
-              `    metaTitle: ${JSON.stringify(art.metaTitle)},`,
-              `    excerpt: ${JSON.stringify(art.excerpt)},`,
-              `    metaDescription: ${JSON.stringify(art.metaDescription)},`,
-              `    category: ${JSON.stringify(art.category)},`,
-              `    author: authors[${art.authorIndex || 0}],`,
-              `    coverImage: ${JSON.stringify(art.coverImage)},`,
-              `    publishedAt: ${JSON.stringify(art.publishedAt)},`,
-              `    readTime: ${art.readTime || 6},`,
-              `    featured: Boolean(${art.featured}),`,
-              `    editorsPick: Boolean(${art.editorsPick}),`,
-              `    tags: ${JSON.stringify(art.tags)},`,
-              `    content: \`${safeContent}\``,
-              '  },'
-            ].join('\n');
+              if (articlesTs.includes(`slug: "${art.slug}"`) || articlesTs.includes(`slug: '${art.slug}'`)) {
+                console.log(`Skipping already-present slug: ${art.slug}`);
+                continue;
+              }
 
-            // Insert at the start of `export const articles: Article[] = [`
-            const marker = 'export const articles: Article[] = [';
-            const idx = articlesTs.indexOf(marker);
-            if (idx !== -1) {
-              const insertPos = idx + marker.length;
-              articlesTs = articlesTs.slice(0, insertPos) + '\n' + entryLines + articlesTs.slice(insertPos);
-              addedCount++;
-            }
-
-            const locUrl = `https://www.curiosityfields.com/article/${art.slug}`;
-            if (!sitemapXml.includes(locUrl)) {
-              const urlBlock = [
-                '  <url>',
-                `    <loc>${locUrl}</loc>`,
-                `    <lastmod>${art.publishedAt}</lastmod>`,
-                '    <changefreq>monthly</changefreq>',
-                '    <priority>0.8</priority>',
-                '  </url>',
-                '</urlset>'
+              const safeContent = String(art.content || '').split('`').join('\\`').split('${').join('\\${');
+              const entryLines = [
+                '  {',
+                `    id: ${JSON.stringify(art.id)},`,
+                `    slug: ${JSON.stringify(art.slug)},`,
+                `    title: ${JSON.stringify(art.title)},`,
+                `    metaTitle: ${JSON.stringify(art.metaTitle)},`,
+                `    excerpt: ${JSON.stringify(art.excerpt)},`,
+                `    metaDescription: ${JSON.stringify(art.metaDescription)},`,
+                `    category: ${JSON.stringify(art.category)},`,
+                `    author: authors[${art.authorIndex || 0}],`,
+                `    coverImage: ${JSON.stringify(art.coverImage)},`,
+                `    publishedAt: ${JSON.stringify(art.publishedAt)},`,
+                `    readTime: ${art.readTime || 6},`,
+                `    featured: Boolean(${art.featured}),`,
+                `    editorsPick: Boolean(${art.editorsPick}),`,
+                `    tags: ${JSON.stringify(art.tags)},`,
+                `    content: \`${safeContent}\``,
+                '  },'
               ].join('\n');
-              sitemapXml = sitemapXml.replace('</urlset>', urlBlock);
+
+              const match = articlesTs.match(/export\s+const\s+articles(?:\s*:\s*[^=]+)?\s*=\s*\[/);
+              if (match) {
+                const insertPos = match.index + match[0].length;
+                articlesTs = articlesTs.slice(0, insertPos) + '\n' + entryLines + articlesTs.slice(insertPos);
+                addedCount++;
+                console.log(`Injected article into src/data/articles.ts: ${art.slug}`);
+              } else {
+                console.error('Could not find articles array declaration in src/data/articles.ts');
+                process.exit(1);
+              }
+
+              const locUrl = `https://www.curiosityfields.com/article/${art.slug}`;
+              if (!sitemapXml.includes(locUrl)) {
+                const urlBlock = [
+                  '  <url>',
+                  `    <loc>${locUrl}</loc>`,
+                  `    <lastmod>${art.publishedAt}</lastmod>`,
+                  '    <changefreq>monthly</changefreq>',
+                  '    <priority>0.8</priority>',
+                  '  </url>',
+                  '</urlset>'
+                ].join('\n');
+                sitemapXml = sitemapXml.replace('</urlset>', urlBlock);
+                console.log(`Added URL to public/sitemap.xml: ${locUrl}`);
+              }
             }
           }
 
           if (addedCount > 0) {
             fs.writeFileSync('src/data/articles.ts', articlesTs, 'utf8');
             fs.writeFileSync('public/sitemap.xml', sitemapXml, 'utf8');
-            console.log(`Added ${addedCount} new article(s).`);
+            console.log(`Successfully updated repository with ${addedCount} new article(s).`);
           } else {
             console.log('All articles in payload already exist in repository.');
           }
@@ -123,5 +166,6 @@ jobs:
             echo "No new changes to commit."
           else
             git commit -m "Auto-sync daily CuriosityFields articles, images, and sitemap"
+            git pull --rebase origin main
             git push origin main
           fi
