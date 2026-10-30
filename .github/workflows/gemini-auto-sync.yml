@@ -2,168 +2,213 @@ name: Auto-Sync Daily Articles from Gemini Drive Folder
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Checks every 15 minutes and syncs ONLY after Part A & Part B upload READY_FOR_SYNC payload
-  workflow_dispatch: # Allows manual trigger anytime
+    # Polls every 5 minutes so new READY_FOR_SYNC payloads commit immediately after Part B finishes
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  sync-drive-to-github:
+  sync-articles:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      - name: Setup gdown
+        run: |
+          pip install -U gdown
 
-      - name: Fetch and apply daily payload from Google Drive
+      - name: Download daily payloads and images from shared Google Drive folder
         env:
-          DRIVE_FOLDER_ID: '1P8l-xqjJIKcqsUR1IF8fiZvrvRl1v5Md'
+          DRIVE_FOLDER_ID: "1P8l-xqjJIKcqsUR1IF8fiZvrvRl1v5Md"
+          OCT29_V2_PAYLOAD_ID: "1esU_7AEnJ69eRynvdsFLpAXoqQjqfVMu"
+          OCT30_PAYLOAD_ID: "1iv3-9qe5Mcd3LVT2V7hltvixoISqColK"
+        run: |
+          mkdir -p /tmp/gemini_sync
+          gdown --folder "https://drive.google.com/drive/folders/${DRIVE_FOLDER_ID}" -O /tmp/gemini_sync --remaining-ok || true
+          # Ensure both Oct 29 v2 and Oct 30 payloads are present even if folder download hit file limits
+          gdown "https://drive.google.com/uc?id=${OCT29_V2_PAYLOAD_ID}" -O /tmp/gemini_sync/daily_publish_payload_2026-10-29_v2.json || true
+          gdown "https://drive.google.com/uc?id=${OCT30_PAYLOAD_ID}" -O /tmp/gemini_sync/daily_publish_payload_2026-10-30.json || true
+
+      - name: Inject new and updated articles, cover thumbnails, inline images, and sitemap entries
         run: |
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
-          const https = require('https');
+          const { execSync } = require('child_process');
 
-          function fetchText(url) {
-            return new Promise((resolve, reject) => {
-              https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
-                if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-                  return resolve(fetchText(res.headers.location));
-                }
-                let data = '';
-                res.on('data', chunk => data += chunk);
-                res.on('end', () => resolve(data));
-              }).on('error', reject);
-            });
+          function getAllFiles(dirPath, arrayOfFiles = []) {
+            if (!fs.existsSync(dirPath)) return arrayOfFiles;
+            const entries = fs.readdirSync(dirPath, { withFileTypes: true });
+            for (const entry of entries) {
+              const fullPath = path.join(dirPath, entry.name);
+              if (entry.isDirectory()) {
+                getAllFiles(fullPath, arrayOfFiles);
+              } else {
+                arrayOfFiles.push(fullPath);
+              }
+            }
+            return arrayOfFiles;
           }
 
-          function downloadBinary(url, dest) {
-            return new Promise((resolve, reject) => {
-              https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
-                if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-                  return resolve(downloadBinary(res.headers.location, dest));
-                }
-                const file = fs.createWriteStream(dest);
-                res.pipe(file);
-                file.on('finish', () => file.close(resolve));
-              }).on('error', reject);
-            });
+          const syncDir = '/tmp/gemini_sync';
+          const allFiles = getAllFiles(syncDir);
+          const payloadFiles = allFiles
+            .filter(f => path.basename(f).startsWith('daily_publish_payload') && f.endsWith('.json'))
+            .sort();
+
+          if (payloadFiles.length === 0) {
+            console.log('No daily_publish_payload*.json found in sync folder.');
+            process.exit(0);
           }
 
-          (async () => {
-            const folderUrl = `https://drive.google.com/embeddedfolderview?id=${process.env.DRIVE_FOLDER_ID}#list`;
-            const folderHtml = await fetchText(folderUrl);
-
-            const entryRegex = /id="entry-([A-Za-z0-9_-]+)"[\s\S]*?<div class="flip-entry-title">([^<]+)<\/div>/g;
-            const files = {};
-            let match;
-            while ((match = entryRegex.exec(folderHtml)) !== null) {
-              files[match[2].trim()] = match[1].trim();
+          fs.mkdirSync('public/images/articles', { recursive: true });
+          for (const filePath of allFiles) {
+            const base = path.basename(filePath);
+            if (base.endsWith('.jpg') || base.endsWith('.png')) {
+              fs.copyFileSync(filePath, path.join('public/images/articles', base));
+              console.log(`Copied image from folder download: ${base}`);
             }
+          }
 
-            const payloadId = files['daily_publish_payload.json'];
-            if (!payloadId) {
-              console.log('No daily_publish_payload.json found in Drive folder. Exiting cleanly.');
-              process.exit(0);
+          let articlesTs = fs.readFileSync('src/data/articles.ts', 'utf8');
+          let sitemapXml = fs.readFileSync('public/sitemap.xml', 'utf8');
+          let changedCount = 0;
+
+          for (const pFile of payloadFiles) {
+            let payload;
+            try {
+              payload = JSON.parse(fs.readFileSync(pFile, 'utf8'));
+            } catch (e) {
+              console.warn(`Skipping unparseable JSON file: ${pFile}`);
+              continue;
             }
-
-            const rawJson = await fetchText(`https://drive.google.com/uc?export=download&id=${payloadId}`);
-            const payload = JSON.parse(rawJson);
 
             if (payload.status && payload.status !== 'READY_FOR_SYNC') {
-              console.log(`Payload status is ${payload.status} (waiting for Part A & Part B completion). Exiting.`);
-              process.exit(0);
+              console.log(`Skipping payload ${pFile} with status: ${payload.status}`);
+              continue;
             }
 
-            let articlesFile = fs.readFileSync('src/data/articles.ts', 'utf8');
-            let sitemapFile = fs.readFileSync('public/sitemap.xml', 'utf8');
-            fs.mkdirSync('public/images/articles', { recursive: true });
+            const articles = Array.isArray(payload.articles) ? payload.articles : [];
 
-            let updatedCount = 0;
-
-            for (const art of (payload.articles || [])) {
-              // 1. Download cover thumbnail
-              const imgId = art.driveImageFileId || files[art.imageFilename];
-              const imgDest = path.join('public/images/articles', art.imageFilename);
-              if (imgId && !fs.existsSync(imgDest)) {
-                await downloadBinary(`https://drive.google.com/uc?export=download&id=${imgId}`, imgDest);
-                console.log(`Downloaded cover image: ${art.imageFilename}`);
+            for (const art of articles) {
+              // 1. Ensure cover thumbnail exists or download directly by driveImageFileId
+              if (art.imageFilename && art.driveImageFileId) {
+                const targetImg = path.join('public/images/articles', art.imageFilename);
+                if (!fs.existsSync(targetImg) || fs.statSync(targetImg).size === 0) {
+                  try {
+                    console.log(`Downloading cover image by ID for ${art.imageFilename}...`);
+                    execSync(`gdown "https://drive.google.com/uc?id=${art.driveImageFileId}" -O "${targetImg}"`, { stdio: 'inherit' });
+                    changedCount++;
+                  } catch (e) {
+                    console.warn(`Fallback cover image download failed for ${art.imageFilename}:`, e.message);
+                  }
+                }
               }
 
-              // 2. Download in-article inline images (if present)
+              // 2. Ensure all in-article inlineImages exist or download directly by driveFileId
               for (const inlineImg of (art.inlineImages || [])) {
-                const inlineId = inlineImg.driveFileId || files[inlineImg.filename];
-                const inlineDest = path.join('public/images/articles', inlineImg.filename);
-                if (inlineId && !fs.existsSync(inlineDest)) {
-                  await downloadBinary(`https://drive.google.com/uc?export=download&id=${inlineId}`, inlineDest);
-                  console.log(`Downloaded inline image: ${inlineImg.filename}`);
+                if (inlineImg.filename && inlineImg.driveFileId) {
+                  const targetInline = path.join('public/images/articles', inlineImg.filename);
+                  if (!fs.existsSync(targetInline) || fs.statSync(targetInline).size === 0) {
+                    try {
+                      console.log(`Downloading inline image by ID for ${inlineImg.filename}...`);
+                      execSync(`gdown "https://drive.google.com/uc?id=${inlineImg.driveFileId}" -O "${targetInline}"`, { stdio: 'inherit' });
+                      changedCount++;
+                    } catch (e) {
+                      console.warn(`Fallback inline image download failed for ${inlineImg.filename}:`, e.message);
+                    }
+                  }
                 }
               }
 
               // 3. Build TypeScript article entry
-              const entryBlock = `  {\n` +
-                `    id: ${JSON.stringify(art.id)},\n` +
-                `    slug: ${JSON.stringify(art.slug)},\n` +
-                `    title: ${JSON.stringify(art.title)},\n` +
-                `    metaTitle: ${JSON.stringify(art.metaTitle)},\n` +
-                `    excerpt: ${JSON.stringify(art.excerpt)},\n` +
-                `    metaDescription: ${JSON.stringify(art.metaDescription)},\n` +
-                `    category: ${JSON.stringify(art.category)},\n` +
-                `    author: authors[${art.authorIndex || 0}],\n` +
-                `    coverImage: ${JSON.stringify(art.coverImage)},\n` +
-                `    publishedAt: ${JSON.stringify(art.publishedAt)},\n` +
-                `    readTime: ${art.readTime || 6},\n` +
-                `    featured: ${Boolean(art.featured)},\n` +
-                `    editorsPick: ${Boolean(art.editorsPick)},\n` +
-                `    tags: ${JSON.stringify(art.tags, null, 6).replace(/\n\]/g, '\n    ]')},\n` +
-                `    content: \`${art.content.replace(/`/g, '\\`').replace(/\$\{/g, '\\${')}\`\n` +
-                `  },\n`;
+              const safeContent = String(art.content || '').split('`').join('\\`').split('${').join('\\${');
+              const entryLines = [
+                '  {',
+                `    id: ${JSON.stringify(art.id)},`,
+                `    slug: ${JSON.stringify(art.slug)},`,
+                `    title: ${JSON.stringify(art.title)},`,
+                `    metaTitle: ${JSON.stringify(art.metaTitle)},`,
+                `    excerpt: ${JSON.stringify(art.excerpt)},`,
+                `    metaDescription: ${JSON.stringify(art.metaDescription)},`,
+                `    category: ${JSON.stringify(art.category)},`,
+                `    author: authors[${art.authorIndex || 0}],`,
+                `    coverImage: ${JSON.stringify(art.coverImage)},`,
+                `    publishedAt: ${JSON.stringify(art.publishedAt)},`,
+                `    readTime: ${art.readTime || 6},`,
+                `    featured: ${Boolean(art.featured)},`,
+                `    editorsPick: ${Boolean(art.editorsPick)},`,
+                `    tags: ${JSON.stringify(art.tags)},`,
+                `    content: \`${safeContent}\``,
+                '  },'
+              ].join('\n');
 
               const existingPattern = new RegExp(
-                `  \\{\\s*id:\\s*${JSON.stringify(art.id)},\\s*slug:\\s*${JSON.stringify(art.slug)},[\\s\\S]*?content:\\s*\`[\\s\\S]*?\`\\s*\\},\\n?`
+                `  \\{\\s*id:\\s*${JSON.stringify(art.id)},\\s*slug:\\s*${JSON.stringify(art.slug)},[\\s\\S]*?content:\\s*\`[\\s\\S]*?\`\\s*\\},`
               );
 
-              if (existingPattern.test(articlesFile)) {
-                const replaced = articlesFile.replace(existingPattern, entryBlock);
-                if (replaced !== articlesFile) {
-                  articlesFile = replaced;
-                  updatedCount++;
-                  console.log(`Updated existing article: ${art.slug}`);
+              if (existingPattern.test(articlesTs)) {
+                const updatedTs = articlesTs.replace(existingPattern, entryLines);
+                if (updatedTs !== articlesTs) {
+                  articlesTs = updatedTs;
+                  changedCount++;
+                  console.log(`Updated existing article in src/data/articles.ts: ${art.slug}`);
+                } else {
+                  console.log(`Article already up-to-date: ${art.slug}`);
                 }
               } else {
-                const marker = 'export const articles: Article[] = [';
-                articlesFile = articlesFile.replace(marker, marker + '\n' + entryBlock);
-                updatedCount++;
-                console.log(`Added new article: ${art.slug}`);
+                const match = articlesTs.match(/export\s+const\s+articles(?:\s*:\s*[^=]+)?\s*=\s*\[/);
+                if (match) {
+                  const insertPos = match.index + match[0].length;
+                  articlesTs = articlesTs.slice(0, insertPos) + '\n' + entryLines + articlesTs.slice(insertPos);
+                  changedCount++;
+                  console.log(`Injected new article into src/data/articles.ts: ${art.slug}`);
+                } else {
+                  console.error('Could not find articles array declaration in src/data/articles.ts');
+                  process.exit(1);
+                }
               }
 
-              // 4. Add sitemap entry if missing
+              // 4. Add URL to public/sitemap.xml if missing
               const locUrl = `https://www.curiosityfields.com/article/${art.slug}`;
-              if (!sitemapFile.includes(locUrl)) {
-                const urlEntry = `  <url>\n    <loc>${locUrl}</loc>\n    <lastmod>${art.publishedAt}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>`;
-                sitemapFile = sitemapFile.replace('</urlset>', urlEntry);
+              if (!sitemapXml.includes(locUrl)) {
+                const urlBlock = [
+                  '  <url>',
+                  `    <loc>${locUrl}</loc>`,
+                  `    <lastmod>${art.publishedAt}</lastmod>`,
+                  '    <changefreq>monthly</changefreq>',
+                  '    <priority>0.8</priority>',
+                  '  </url>',
+                  '</urlset>'
+                ].join('\n');
+                sitemapXml = sitemapXml.replace('</urlset>', urlBlock);
+                changedCount++;
+                console.log(`Added URL to public/sitemap.xml: ${locUrl}`);
               }
             }
+          }
 
-            fs.writeFileSync('src/data/articles.ts', articlesFile, 'utf8');
-            fs.writeFileSync('public/sitemap.xml', sitemapFile, 'utf8');
-            console.log(`Sync check complete. Articles added/updated: ${updatedCount}`);
-          })();
+          if (changedCount > 0) {
+            fs.writeFileSync('src/data/articles.ts', articlesTs, 'utf8');
+            fs.writeFileSync('public/sitemap.xml', sitemapXml, 'utf8');
+            console.log(`Successfully updated repository with ${changedCount} change(s).`);
+          } else {
+            console.log('All articles, images, and sitemap entries are already up to date.');
+          }
           EOF
 
-      - name: Commit and Push if changes exist
+      - name: Commit and push changes to main (for Lovable sync)
         run: |
-          git config user.name "curiosity-engine-bot"
-          git config user.email "bot@curiosityfields.com"
-          git add src/data/articles.ts public/sitemap.xml public/images/articles/
+          git config user.name "CuriosityFields Auto-Publisher"
+          git config user.email "sunilfun009@gmail.com"
+          git add public/images/articles/ src/data/articles.ts public/sitemap.xml
           if git diff --staged --quiet; then
             echo "No new changes to commit."
           else
-            git commit -m "chore(content): auto-sync daily articles, inline images, and sitemap from Drive"
+            git commit -m "Auto-sync daily CuriosityFields articles, inline images, and sitemap"
+            git pull --rebase origin main
             git push origin main
           fi
