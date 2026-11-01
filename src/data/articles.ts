@@ -117,6 +117,211 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "jupiter-mass-companion-brown-dwarf-first-exomoon-candidate",
+    slug: "jupiter-mass-companion-brown-dwarf-first-exomoon-candidate",
+    title: "A Jupiter-Mass Companion Around a Brown Dwarf Could Be the First Exomoon",
+    metaTitle: "First Exomoon Candidate Found Around Brown Dwarf CD-35 2722 B | CuriosityFields",
+    excerpt: "Using the CRIRES+ infrared spectrograph on the Very Large Telescope, astronomers detected a periodic gravitational wobble in the 37-Jupiter-mass brown dwarf CD-35 2722 B caused by an orbiting gas-giant exosatellite at least as massive as Jupiter.",
+    metaDescription: "VLT CRIRES+ radial-velocity observations of brown dwarf CD-35 2722 B reveal a Jupiter-mass exosatellite candidate, blurring the line between planet and moon.",
+    category: "astronomy",
+    author: authors[1],
+    coverImage: "/images/articles/jupiter-mass-companion-brown-dwarf-first-exomoon-candidate.jpg",
+    publishedAt: "2026-11-01",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Exomoons","Brown Dwarfs","Exoplanets","Very Large Telescope","Astrophysics"],
+    content: `<p class="lead">Using the CRIRES+ high-resolution infrared spectrograph on the European Southern Observatory's Very Large Telescope in Chile, astronomers detected a periodic gravitational wobble in the 37-Jupiter-mass brown dwarf CD-35 2722 B, revealing a planetary-mass exosatellite at least as massive as Jupiter that could represent the first confirmed natural satellite beyond our Solar System.</p>
+
+<h2>Why Moons Beyond Our Solar System Have Eluded Astronomers</h2>
+<p>Over the past three decades, space observatories and ground-based spectrographs have cataloged more than 6,000 exoplanets orbiting distant stars, yet confirming even a single natural satellite outside our Solar System has remained one of astronomy's hardest observational challenges, much like spotting <a href="https://www.curiosityfields.com/article/far-out-solar-system-objects-shared-ancient-history-tnos">five-kilometer trans-Neptunian objects in the outer Kuiper Belt</a>. In our own Solar System, moons outnumber planets by more than thirty to one, ranging from tiny captured asteroids in the <a href="https://www.curiosityfields.com/article/asteroid-belt-mostly-empty-space-jupiter-gravity">gravity-sculpted main asteroid belt</a> to volatile-rich worlds like Titan, Europa, and Ganymede.</p>
+
+<p>Detecting an exomoon across interstellar distances is difficult because most candidate moons are small rocky or icy bodies whose transit dips or gravitational tugs are drowned out by stellar noise. Earlier transit-timing candidates from the Kepler space telescope faced fierce debate, and an early 2026 interferometric study of the system HD 206893 B led by Quentin Kral using the Very Large Telescope Interferometer suggested a possible 0.4-Jupiter-mass satellite without establishing a definitive confirmation.</p>
+
+<p>Now, a research team led by Kevin Hoy and Alice Zurlo at the European Southern Observatory (ESO), Universidad Diego Portales, and the Millennium Nucleus of Young Exoplanets and their Moons (YEMS) in Chile has reported the strongest detection yet of an extrasolar satellite. Published in <em>Nature</em> (Vol. 655, Issue 8124, p. 865, DOI: 10.1038/s41586-026-10751-w) and detailed in an <a href="https://www.sciencedaily.com/releases/2026/10/261023023736.htm" target="_blank" rel="noopener noreferrer">ESO and ScienceDaily release on the CD-35 2722 system</a>, the discovery reveals a gas-giant companion at least as massive as Jupiter orbiting the brown dwarf CD-35 2722 B.</p>
+
+<h2>Inside the Nested Architecture of the CD-35 2722 System</h2>
+<p>What makes the CD-35 2722 discovery so striking is its three-tier hierarchical architecture, which looks nothing like the textbook layout of our Solar System and challenges standard models alongside <a href="https://www.curiosityfields.com/article/jwst-little-red-dots-overmassive-black-holes-early-universe">JWST's discoveries of overmassive early black holes</a>. At the center of the system sits the primary star, CD-35 2722, a relatively young M-dwarf star with roughly half the mass of our Sun (0.5 solar masses).</p>
+
+<p>Orbiting that red-dwarf star is CD-35 2722 B, a substellar companion with approximately 37 times the mass of Jupiter. Because objects between roughly 13 and 75 Jupiter masses are too small to sustain core hydrogen fusion like ordinary stars yet massive enough to fuse deuterium, astronomers classify CD-35 2722 B as a brown dwarf.</p>
+
+<p>Using the CRIRES+ high-resolution infrared spectrograph on the European Southern Observatory's Very Large Telescope between 2023 and 2026, astronomers led by Kevin Hoy and Alice Zurlo measured periodic radial-velocity Doppler shifts in the 37-Jupiter-mass brown dwarf CD-35 2722 B, uncovering a planetary-mass exosatellite of at least one Jupiter mass orbiting the brown dwarf as both circle a half-solar-mass host star. Rather than orbiting the central star directly, this newly detected Jupiter-mass gas giant circles the brown dwarf CD-35 2722 B, forming a nested star-brown dwarf-exosatellite hierarchy.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50">
+  <img src="/images/articles/jupiter-mass-companion-brown-dwarf-first-exomoon-candidate-inline-1.jpg" alt="Nighttime view of the four 8.2-meter Unit Telescopes of the European Southern Observatory Very Large Telescope at Cerro Paranal beneath the southern Milky Way" class="w-full object-cover" loading="lazy" />
+  <figcaption class="px-4 py-3 text-xs text-slate-400">The European Southern Observatory's Very Large Telescope (VLT) at Cerro Paranal in Chile. Using the upgraded CRIRES+ high-resolution infrared spectrograph on the VLT between 2023 and 2026, astronomers isolated the infrared light of brown dwarf CD-35 2722 B and measured the radial-velocity wobble caused by its Jupiter-mass exosatellite.</figcaption>
+</figure>
+
+<h2>How CRIRES+ Radial Velocity Isolated a Wobbling Brown Dwarf</h2>
+<p>How did astronomers spot an unseen companion orbiting a dim brown dwarf next to a brighter star? Just as <a href="https://www.curiosityfields.com/article/why-all-telescopes-are-time-machines-looking-back-in-time">high-precision astronomical spectrographs</a> separate light into thousands of wavelength channels, the team used the upgraded Cryogenic High-Resolution Infrared Echelle Spectrograph (CRIRES+) on ESO's Very Large Telescope at Cerro Paranal to isolate the infrared light emitted directly by the brown dwarf CD-35 2722 B between 2023 and 2026.</p>
+
+<p>Thirty years ago, astronomers discovered the first exoplanet around a Sun-like star using the radial velocity method, which tracks tiny Doppler shifts in a star's spectral lines as an orbiting planet tugs the star back and forth around their shared center of mass, a gravitational dance that also governs <a href="https://www.curiosityfields.com/article/roman-space-telescope-fuel-lifetime-l2-orbit">spacecraft orbital dynamics at Lagrange points</a>. Hoy, Zurlo, and their colleagues applied that exact radial velocity technique not to the host star, but directly to the substellar companion CD-35 2722 B.</p>
+
+<p>As reported in <a href="https://www.snexplores.org/article/cosmic-oddity-moon-planet-definition" target="_blank" rel="noopener noreferrer">Science News Explores' interview with lead author Kevin Hoy</a> and cataloged by <a href="https://www.stellarcatalog.com/tag/exomoons" target="_blank" rel="noopener noreferrer">Stellar Catalog's radial-velocity exosatellite briefing</a>, the infrared spectral lines of CD-35 2722 B shifted periodically toward shorter and longer wavelengths over multiple observing seasons. Those periodic velocity changes proved that at least one unseen body of at least one Jupiter mass, and potentially a second outer satellite, is gravitationally tugging the 37-Jupiter-mass brown dwarf to and fro.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>System / Candidate Object</th>
+      <th>Host Body &amp; Mass</th>
+      <th>Satellite / Companion Mass</th>
+      <th>Detection Method &amp; Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CD-35 2722 B Exosatellite (Hoy et al., 2026)</strong></td>
+      <td>Brown dwarf CD-35 2722 B (~37 Jupiter masses) around 0.5-solar-mass star</td>
+      <td>At least 1 Jupiter mass (gas giant exosatellite)</td>
+      <td>VLT CRIRES+ infrared radial velocity (2023-2026); strong detection in <em>Nature</em></td>
+    </tr>
+    <tr>
+      <td><strong>HD 206893 B Candidate (Kral et al., 2026)</strong></td>
+      <td>Substellar companion HD 206893 B</td>
+      <td>~0.4 Jupiter masses (~40% of Jupiter)</td>
+      <td>VLTI GRAVITY astrometry; tentative astrometric signature</td>
+    </tr>
+    <tr>
+      <td><strong>Ganymede (Solar System Benchmark)</strong></td>
+      <td>Jupiter (1.0 Jupiter mass) around 1.0-solar-mass Sun</td>
+      <td>0.000078 Jupiter masses (0.025 Earth masses)</td>
+      <td>Largest confirmed rocky-icy moon in the Solar System</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Exomoon or Exosatellite: Why Cosmic Definitions Are Blurring</h2>
+<p>In the CD-35 2722 system, the newly discovered companion has a mass comparable to or greater than Jupiter, yet it does not orbit the central star directly; instead, it orbits a 37-Jupiter-mass brown dwarf that itself revolves around the star, prompting astronomers to classify it as a planetary-mass exosatellite that blurs the traditional boundary between planets and moons. If this Jupiter-sized gas giant floated alone in space, astronomers would call it a rogue planet; if it orbited the star CD-35 2722 directly, it would be a classic gas-giant exoplanet whose atmospheric storms might resemble <a href="https://www.curiosityfields.com/article/jupiters-great-red-spot-shrinking-storm-physics">Jupiter's evolving Great Red Spot</a>.</p>
+
+<p>Because it is the third body orbiting a brown dwarf that orbits a star, its orbital role matches that of a moon, even though its mass is more than 12,000 times greater than Ganymede, the largest moon in our Solar System. Furthermore, the companion-to-host mass ratio in CD-35 2722 B (roughly 1:37, or about 2.7 percent) is similar to the Earth-Moon mass ratio (1.2 percent), suggesting that massive gaseous satellites can form within circum-substellar disks around young brown dwarfs, an evolutionary puzzle that complements <a href="https://www.curiosityfields.com/article/earths-hidden-deep-ocean-ringwoodite-transition-zone">deep planetary interior studies</a> and <a href="https://www.curiosityfields.com/article/mars-communication-delay-20-minutes-solar-conjunction">precision interplanetary tracking</a>.</p>
+
+<p>Confirming whether Jupiter-mass exosatellites are rare cosmic oddities or common outcomes of star and brown-dwarf formation will soon become much easier. When ESO's upcoming 39-meter Extremely Large Telescope (ELT) begins operations in Chile, its extreme angular resolution and infrared spectrographs will allow astronomers to image exosatellites directly and extend moon searches down to smaller worlds around giant exoplanets.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What did astronomers discover in the CD-35 2722 star system?</h3>
+<p>Using the European Southern Observatory's Very Large Telescope, astronomers detected a planetary-mass companion at least as massive as Jupiter orbiting the brown dwarf CD-35 2722 B, which itself orbits the half-solar-mass star CD-35 2722.</p>
+
+<h3>How did the CRIRES+ instrument detect this possible exomoon?</h3>
+<p>Between 2023 and 2026, researchers used the CRIRES+ high-resolution infrared spectrograph on the VLT to measure the light of the brown dwarf CD-35 2722 B, detecting a periodic radial-velocity Doppler wobble caused by the gravitational pull of an unseen Jupiter-mass companion.</p>
+
+<h3>Why do astronomers call the object an exosatellite rather than a typical moon?</h3>
+<p>Because the newly found object in CD-35 2722 is a gas giant at least as massive as Jupiter and orbits a 37-Jupiter-mass brown dwarf rather than a standard planet, researchers use the broader term planetary-mass exosatellite.</p>
+
+<h3>What is a brown dwarf and how massive is CD-35 2722 B?</h3>
+<p>A brown dwarf is a substellar object more massive than a gas-giant planet (above about 13 Jupiter masses) but not massive enough to sustain core hydrogen fusion like a star (below about 75 to 80 Jupiter masses). CD-35 2722 B has roughly 37 times the mass of Jupiter.</p>
+
+<h3>How will future telescopes search for smaller exomoons?</h3>
+<p>ESO's upcoming 39-meter Extremely Large Telescope (ELT) will have the resolution to detect smaller exomoons.</p>`
+  },
+  {
+    id: "paper-thin-biohybrid-robots-swim-light-driven-muscle-cells",
+    slug: "paper-thin-biohybrid-robots-swim-light-driven-muscle-cells",
+    title: "Paper-Thin Biohybrid Robots Can Swim Using Light-Driven Muscle Cells",
+    metaTitle: "MIT's Paper-Thin Biohybrid Swimming Robot Explained | CuriosityFields",
+    excerpt: "MIT engineers built a gum-sized, paper-thin biohybrid robot with two hydrogel fins coated in a hair-thin layer of optogenetic skeletal muscle cells that swims and steers through water at four body lengths per minute in response to flashes of light.",
+    metaDescription: "MIT engineers built a paper-thin 2D biohybrid robot powered by optogenetic skeletal muscle cells on a GelMA hydrogel film that swims and steers with light.",
+    category: "future-innovation",
+    author: authors[0],
+    coverImage: "/images/articles/paper-thin-biohybrid-robots-swim-light-driven-muscle-cells.jpg",
+    publishedAt: "2026-11-01",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Biohybrid Robotics","Soft Robotics","Optogenetics","Tissue Engineering","MIT Research"],
+    content: `<p class="lead">Engineers at the Massachusetts Institute of Technology have built the first paper-thin, two-dimensional biohybrid robot that swims and steers through water using a single micro-grooved layer of optogenetic skeletal muscle cells grown on a half-millimeter gelatin methacrylate hydrogel skeleton, reaching speeds of four body lengths per minute in response to flashes of light.</p>
+
+<h2>Why Biohybrid Robotics Needed to Escape Bulky 3D Muscle Chunks</h2>
+<p>Traditional underwater micro-robots rely on rigid electromagnetic motors, acoustic transducers, or pneumatic tethers that struggle to navigate fragile biological or aquatic environments without damaging surrounding structures, a limitation that has inspired new approaches across <a href="https://www.curiosityfields.com/article/raibo2-robot-dog-marathon-single-battery-charge-kaist">next-generation robotic locomotion systems</a>. Living skeletal muscle tissue offers an attractive alternative actuator because biological muscle generates smooth mechanical force from chemical nutrients in surrounding fluid, adapts to repeated exercise, and repairs microscopic tears on its own.</p>
+
+<p>Until now, however, nearly all muscle-powered biohybrid walkers and swimmers were built around thick, three-dimensional rings or strips of laboratory-grown tissue, distinct from self-assembling <a href="https://www.curiosityfields.com/article/ai-lab-on-a-chip-droplet-robots-colorimetric-testing">microfluidic lab-on-a-chip droplet robots</a>. Fabricating a bulky 3D muscle actuator requires culturing millions of cells across thick scaffolds where oxygen and nutrients struggle to diffuse past the outer few hundred micrometers, driving up manufacturing cost while adding passive mass that slows aquatic propulsion.</p>
+
+<p>In a landmark study published in <em>Advanced Functional Materials</em> (DOI: 10.1002/adfm.78065) and detailed by <a href="https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929" target="_blank" rel="noopener noreferrer">MIT News in a report by Jennifer Chu</a>, graduate researcher Maheera Bawa, Arielle Berman, Laura Schwendeman, Ferdows Afghah, Seanbiron Johnson, and Associate Professor Ritu Raman demonstrated that a single two-dimensional sheet of skeletal muscle cells much thinner than a human hair can propel an untethered swimming robot through water when paired with a mechanically tuned hydrogel skeleton.</p>
+
+<h2>From an Artificial Iris to a Gum-Sized Swimming Skeleton</h2>
+<p>The swimming aquabot builds directly on an earlier breakthrough from the Raman Lab that engineered a thin circular disk of artificial muscle modeled after the human iris, using optical control principles similar to <a href="https://www.curiosityfields.com/article/light-controlled-gene-editing-crispr-spatial-precision">light-controlled molecular switches in biotechnology</a>. By stamping concentric and radial grooves into a soft hydrogel disk and seeding optogenetic muscle cells onto the surface, the team showed that a 2D cell monolayer could contract along multiple directions simultaneously.</p>
+
+<p>Yet that iris-inspired actuator had a major mechanical bottleneck for locomotion: its cells moved only about 100 micrometers per contraction because they were grown on fibrin, an ultrasoft protein gel that quickly shriveled under the constant tension of living muscle fibers. Moving through water demands far greater mechanical work than flexing in air because fluid drag resists every stroke.</p>
+
+<p>To transform microscopic 100-micrometer twitches into macroscopic fin strokes capable of pulling a robot through water, the MIT engineers redesigned the underlying hydrogel skeleton across three physical parameters: chemical polymer composition, elastic stiffness, and micro-stamped groove geometry. As reported in <a href="https://www.sciencedaily.com/releases/2026/10/261022081308.htm" target="_blank" rel="noopener noreferrer">ScienceDaily's coverage of the MIT biohybrid swimmer</a>, replacing fibrin with gelatin methacrylate (GelMA), a tunable biocompatible hydrogel widely used in tissue engineering, prevented the substrate from shriveling under cellular tension.</p>
+
+<p>MIT engineers led by Maheera Bawa and Ritu Raman replaced ultrasoft fibrin scaffolds with a 0.5-millimeter-thin film of stiffer gelatin methacrylate (GelMA) stamped with square-bottomed micro-grooves, enabling a single hair-thin layer of optogenetic skeletal muscle cells to fuse into aligned fibers and propel a two-finned biohybrid robot at four body lengths per minute. When the researchers compared long curved valleys against narrow square-bottomed troughs stamped into the GelMA surface, they found that skeletal myoblasts settled into tighter parallel alignment inside square grooves, fusing into stronger, coordinated myotube fibers.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50">
+  <img src="/images/articles/paper-thin-biohybrid-robots-swim-light-driven-muscle-cells-inline-1.jpg" alt="Stereomicroscope view of aligned skeletal muscle myotube fibers cultured inside square-bottomed micro-grooves on a translucent gelatin methacrylate elastomer film" class="w-full object-cover" loading="lazy" />
+  <figcaption class="px-4 py-3 text-xs text-slate-400">Culturing optogenetic skeletal muscle cells inside square-bottomed micro-grooves on a 0.5-millimeter gelatin methacrylate (GelMA) film forces individual myoblasts to fuse into parallel contractile fibers that bend the thin hydrogel fin without peeling away.</figcaption>
+</figure>
+
+<h2>How Optical Exercise and Independent Fins Enable Maze Navigation</h2>
+<p>Balancing substrate thickness proved just as critical as groove shape, echoing how <a href="https://www.curiosityfields.com/article/wafer-scale-2d-semiconductors-moving-beyond-laboratory-samples">ultrathin two-dimensional semiconductor films</a> require precise mechanical support on carrier wafers. Testing multiple thicknesses revealed an optimal sweet spot at roughly 0.5 millimeters (500 micrometers), thin enough to flex like a diving board yet sturdy enough to anchor the muscle monolayer without delamination.</p>
+
+<p>Before testing the robot in water, the researchers conditioned the engineered tissue using an optical exercise regimen, a biological training process that parallels how <a href="https://www.curiosityfields.com/article/what-if-ageing-could-be-reversed-the-biology-of-longevity-research">cellular stress and longevity pathways</a> strengthen living tissues. Flashing rhythmic pulses of light across the culture dish forced the developing fibers to contract repeatedly, building contractile force and sarcomere organization.</p>
+
+<p>The finished aquabot measures roughly the length and width of a stick of chewing gum and is divided into two symmetric hydrogel fins, each stamped on both sides with square-bottomed micro-grooves and coated with trained optogenetic muscle fibers. Operating much like a biological counterpart to <a href="https://www.curiosityfields.com/article/photonic-materials-control-light-scale-of-atoms-picocavities">light-driven nanoscale photonic actuators</a>, the two fins act as independent motors:</p>
+<ul>
+  <li><strong>Forward Propulsion (Bilateral Flashing):</strong> Illuminating both fins simultaneously causes both muscle layers to contract and flap together, pulling the paper-thin ribbon forward through the water.</li>
+  <li><strong>Directional Steering (Unilateral Flashing):</strong> Shining the light beam onto only the left or right fin triggers a single-sided stroke that pivots and swivels the robot around corners.</li>
+  <li><strong>Speed Modulation (Pulse Frequency Control):</strong> Varying the interval between light flashes adjusts the flapping cadence, allowing operators to guide the swimmer through a submerged maze in a petri dish.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Design Parameter</th>
+      <th>Previous Iris-Inspired 2D Actuator</th>
+      <th>New MIT 2D Swimming Aquabot (Bawa et al., 2026)</th>
+      <th>Engineering &amp; Locomotion Benefit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Hydrogel Skeleton Material</strong></td>
+      <td>Ultrasoft fibrin gel</td>
+      <td>Stiffness-tuned gelatin methacrylate (GelMA, 0.5 mm thick)</td>
+      <td>Prevents substrate shriveling and cell delamination under load</td>
+    </tr>
+    <tr>
+      <td><strong>Surface Groove Geometry</strong></td>
+      <td>Concentric and radial channels</td>
+      <td>Square-bottomed parallel micro-troughs on both sides</td>
+      <td>Maximizes myoblast alignment and fusion into strong fibers</td>
+    </tr>
+    <tr>
+      <td><strong>Muscle Architecture</strong></td>
+      <td>Single circular disk monolayer</td>
+      <td>Dual independent 2D muscle-coated fins (stick-of-gum scale)</td>
+      <td>Cuts cell count vs. 3D chunks while enabling left/right steering</td>
+    </tr>
+    <tr>
+      <td><strong>Actuation &amp; Peak Output</strong></td>
+      <td>~100-micrometer local tissue deformation</td>
+      <td>Optogenetic light-pulsed flapping at ~4 body lengths/minute</td>
+      <td>Matches cruising pace of a cow shark; navigates watery mazes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Comparing Biological Swim Speeds and Future Environmental Uses</h2>
+<p>At its top speed, the MIT aquabot travels roughly four times its own body length per minute. While that pace is modest compared with an Olympic human swimmer covering up to 65 body lengths per minute, it matches the steady cruising rate of marine predators such as the sixgill cow shark, complementing broader advances in <a href="https://www.curiosityfields.com/article/ai-biology-data-bottleneck-virtual-cell-models-explained">computational and synthetic bioengineering</a>.</p>
+
+<p>Supported in part by the Office of Naval Research and profiled in <a href="https://scitechdaily.com/mits-paper-thin-swimming-robot-is-powered-by-living-muscle/" target="_blank" rel="noopener noreferrer">SciTechDaily's analysis of 2D skeletal muscle actuators</a>, the team is now refining the hydrodynamic body profile of the hydrogel skeleton to boost swimming speed. Because thin 2D muscle films require far fewer cells than bulky 3D biohybrid tissues and degrade safely without electronic waste, future biohybrid swimmers could monitor fragile ecosystems alongside conservation efforts tracking <a href="https://www.curiosityfields.com/article/coral-reef-extinction-risk-iucn-red-list-44-percent">global coral reef extinction risks</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How does MIT's paper-thin biohybrid robot swim without a mechanical motor?</h3>
+<p>The robot's skeleton is a 0.5-millimeter-thin film of gelatin methacrylate (GelMA) hydrogel shaped into two fins and coated with a single layer of living skeletal muscle cells genetically engineered to contract when exposed to light.</p>
+
+<h3>Why did the researchers switch from fibrin to gelatin methacrylate (GelMA)?</h3>
+<p>In earlier experiments, ultrasoft fibrin gel shriveled under the pulling forces of contracting muscle cells, limiting movement to about 100 micrometers. Stiffer GelMA films support strong muscle contractions without buckling while remaining flexible enough to flap.</p>
+
+<h3>Why do square-bottomed micro-grooves work better than curved grooves?</h3>
+<p>Square-bottomed troughs guide muscle precursor cells into tighter parallel alignment than curved valleys, helping individual cells fuse into coordinated muscle fibers that generate greater collective force.</p>
+
+<h3>How fast can the paper-thin muscle robot swim and how is it steered?</h3>
+<p>At maximum speed, the robot swims about four body lengths per minute, comparable to the cruising speed of a cow shark. Shining light on both fins drives it straight ahead, while illuminating only one fin steers it through turns.</p>
+
+<h3>What are the advantages of 2D muscle films over 3D biohybrid muscle actuators?</h3>
+<p>Conventional 3D biohybrid robots require millions of lab-grown cells packed into thick chunks that are expensive to culture and heavy to move. A 2D thin-film muscle layer thinner than a human hair uses far fewer cells and reduces body weight for efficient swimming.</p>`
+  },
+  {
     id: "magnetic-skyrmion-lattice-melting-brain-like-spintronics",
     slug: "magnetic-skyrmion-lattice-melting-brain-like-spintronics",
     title: "Sub-Nanometer Magnetic Skyrmion Melting Could Enable Brain-Like Spintronics",
