@@ -117,6 +117,200 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "mathematical-models-copper-zinc-alzheimer-plaque-growth",
+    slug: "mathematical-models-copper-zinc-alzheimer-plaque-growth",
+    title: "Mathematical Models Show How Copper and Zinc Fuel Alzheimer Plaque Growth",
+    metaTitle: "Math Model Maps Copper & Zinc in Alzheimer's Plaques | CuriosityFields",
+    excerpt: "Validated against atomic force microscopy data, a Mississippi State University mathematical model reveals how copper, zinc, and iron ions catalyze amyloid-beta clumping in Alzheimer's disease and predicts how combined chelation and direct inhibitors slow plaque growth.",
+    metaDescription: "Mississippi State mathematicians modeled how copper, zinc, and iron ions accelerate amyloid-beta plaques in Alzheimer's and tested combined chelation therapies.",
+    category: "psychology-mind",
+    author: authors[1],
+    coverImage: "/images/articles/mathematical-models-copper-zinc-alzheimer-plaque-growth.jpg",
+    publishedAt: "2026-11-02",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Alzheimer's Disease","Mathematical Biology","Neuroscience","Amyloid-Beta","Computational Medicine"],
+    content: `<p class="lead">Mathematicians at Mississippi State University have developed and validated a unified kinetic model showing how charged copper, zinc, and iron ions accelerate the clumping of amyloid-beta proteins into Alzheimer's disease plaques, reproducing atomic force microscopy measurements from laboratory experiments and simulating how combined metal chelation and direct aggregation inhibitors can slow plaque assembly.</p>
+
+<h2>Why Alzheimer's Plaque Formation Is a Multi-Variable Systems Problem</h2>
+<p>Alzheimer's disease is driven by a cascade of interacting biochemical and electrical changes in the brain that begin years before clinical memory loss appears, a systems-level complexity also seen in how <a href="https://www.curiosityfields.com/article/waking-brain-ripples-tag-daytime-experiences-memory-storage">hippocampal sharp-wave ripples tag and consolidate memories</a>. A defining pathological hallmark of the disorder is the accumulation of misfolded amyloid-beta peptides outside cortical and hippocampal neurons, where soluble protein monomers stick together into toxic oligomers, protofibrils, and dense senile plaques.</p>
+
+<p>Studying amyloid-beta self-assembly in a test tube or clinical trial one variable at a time is notoriously difficult because protein clumping is sensitive to local chemical microenvironments, much like the multi-factor biological bottlenecks explored in <a href="https://www.curiosityfields.com/article/ai-biology-data-bottleneck-virtual-cell-models-explained">computational virtual cell models</a>. Among the most potent accelerators of plaque buildup in the aging human brain are transition metal ions, specifically electrically charged copper, zinc, and iron ions, which pool at abnormally high concentrations inside amyloid plaques and catalyze rapid protein cross-linking.</p>
+
+<p>To untangle how metallic ions and drug candidates alter plaque kinetics simultaneously, Associate Professor Shantia Yarahmadian at Mississippi State University's Department of Mathematics and Statistics teamed up with Yasser Alzahrani and Vaghawan Prasad Ojha. Published in the <em>Bulletin of Mathematical Biology</em> (Vol. 88, Issue 9, Article 162, DOI: 10.1007/s11538-026-01732-1) and indexed on <a href="https://pubmed.ncbi.nlm.nih.gov/42624961/" target="_blank" rel="noopener noreferrer">PubMed (PMID: 42624961)</a>, their study translates the microscopic chemical reaction pathways of metal-assisted amyloid aggregation into a predictive system of differential equations.</p>
+
+<h2>How Copper, Zinc, and Iron Ions Catalyze Amyloid-Beta Clumping</h2>
+<p>In a healthy nervous system, trace amounts of copper, zinc, and iron are tightly regulated inside synaptic clefts to support neurotransmission and metabolic enzymes, complementing the delicate circuit balance revealed in <a href="https://www.curiosityfields.com/article/basal-ganglia-damage-strategic-thinking-brain-study">neurological studies of basal ganglia and prefrontal networks</a>. When age-related metabolic stress or blood-brain barrier breakdown disrupts metal homeostasis, excess free metal ions bind directly to histidine and amino-terminal residues on soluble amyloid-beta monomers.</p>
+
+<p>That metal-peptide binding lowers the activation energy barrier required for misfolded proteins to nucleate and elongate into fibrils, while copper and iron ions also participate in redox reactions that generate reactive oxygen species and inflame surrounding neural tissue. As reported in <a href="https://www.sciencedaily.com/releases/2026/10/261008102714.htm" target="_blank" rel="noopener noreferrer">ScienceDaily's feature on the Mississippi State mathematical framework</a>, earlier mathematical models typically examined either pure amyloid-beta self-assembly in isolation or single-metal binding without accounting for competing therapeutic interventions.</p>
+
+<p>Published in the <em>Bulletin of Mathematical Biology</em> (Vol. 88, Issue 9, DOI: 10.1007/s11538-026-01732-1), mathematician Shantia Yarahmadian and colleagues at Mississippi State University formulated a kinetic differential-equation model of copper, zinc, and iron ion catalysis in amyloid-beta aggregation, validating simulated oligomer and fibril size distributions against laboratory atomic force microscopy (AFM) measurements. By coupling auto-catalytic fibril self-assembly with metal-ion coordination kinetics, the equations track how different metal concentrations shift the speed, peak height, and structural heterogeneity of protein aggregates over time.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50">
+  <img src="/images/articles/mathematical-models-copper-zinc-alzheimer-plaque-growth-inline-1.jpg" alt="Close-up view of a golden atomic force microscope cantilever tip scanning nanoscale amyloid-beta protein fibril clusters on a crystalline substrate" class="w-full object-cover" loading="lazy" />
+  <figcaption class="px-4 py-3 text-xs text-slate-400">Atomic force microscopy (AFM) uses a nanometer-sharp cantilever probe to measure the height and morphology distribution of amyloid-beta protein aggregates on a substrate, providing the experimental benchmark that validated the Mississippi State mathematical model.</figcaption>
+</figure>
+
+<h2>Simulating Dual Therapies: Metal Chelation Plus Direct Inhibition</h2>
+<p>A central contribution of the Mississippi State framework is its ability to test two distinct pharmacological strategies, both individually and in combination, across multiple kinetic regimes before running costly wet-lab screens, an in-silico screening philosophy that complements <a href="https://www.curiosityfields.com/article/light-controlled-gene-editing-crispr-spatial-precision">precision molecular targeting tools</a> and <a href="https://www.curiosityfields.com/article/what-if-ageing-could-be-reversed-the-biology-of-longevity-research">cellular longevity interventions</a>:</p>
+<ul>
+  <li><strong>Metal Chelation Therapy (Ion Sequestration):</strong> Chelating agents are specialized small molecules designed to bind and sequester excess free copper, zinc, and iron ions in the brain, stripping away the metallic catalysts that accelerate amyloid-beta nucleation.</li>
+  <li><strong>Direct Aggregation Inhibition (Peptide Blocking):</strong> Inhibitory compounds bind directly to amyloid-beta monomers or oligomer ends, physically blocking peptide-to-peptide self-assembly even when metal ions are present.</li>
+  <li><strong>Synergistic Dual-Regime Modulation:</strong> Numerical simulations across varying reaction rate constants reveal that combining metal chelation with direct aggregation inhibitors suppresses both metal-catalyzed nucleation and autocatalytic fibril elongation far more effectively than either single-target strategy alone.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pathway / Intervention in Model</th>
+      <th>Primary Molecular Mechanism</th>
+      <th>Effect on Amyloid-Beta (Abeta) Kinetics</th>
+      <th>Validation &amp; Clinical Scope</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Unchecked Copper, Zinc &amp; Iron Ions</strong></td>
+      <td>Metal ions coordinate with Abeta peptides and lower nucleation barriers</td>
+      <td>Accelerates oligomer clumping and creates heterogeneous plaque peaks</td>
+      <td>Matches metal-dependent aggregate distributions seen in AFM lab scans</td>
+    </tr>
+    <tr>
+      <td><strong>Metal Chelation Therapy Alone</strong></td>
+      <td>Sequestering agents bind free Cu, Zn, and Fe ions</td>
+      <td>Slows metal-assisted nucleation; leaves baseline self-assembly active</td>
+      <td>Simulated across kinetic regimes; requires blood-brain barrier tuning</td>
+    </tr>
+    <tr>
+      <td><strong>Combined Chelation + Direct Inhibition</strong></td>
+      <td>Simultaneous metal sequestration and peptide-binding blockade</td>
+      <td>Synergistically flattens aggregate growth curves and reduces peak size</td>
+      <td>Computational hypothesis generator to guide future wet-lab trials</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Benchmarking Math Against Atomic Force Microscopy, and What Comes Next</h2>
+<p>In theoretical biology, a mathematical model is only as trustworthy as its agreement with physical measurements, a standard of empirical rigor emphasized across <a href="https://www.curiosityfields.com/article/sleep-score-vs-sleep-regularity-health-risks-wearable-data">quantitative neurological health studies</a> and <a href="https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained">scientific validation benchmarks</a>. To test whether their differential equations reflected real protein behavior, Yarahmadian, Alzahrani, and Ojha reconstructed simulated aggregate morphology distributions and compared them directly against laboratory measurements captured with atomic force microscopy (AFM).</p>
+
+<p>Atomic force microscopy scans a nanometer-sharp mechanical probe across protein deposits to measure the exact height and size distribution of oligomers and fibrils, achieving nanoscale spatial resolution comparable to <a href="https://www.curiosityfields.com/article/photonic-materials-control-light-scale-of-atoms-picocavities">sub-nanometer optical and surface probes</a>. The mathematical model accurately reproduced both the multi-peak size structure and the metal-dependent heterogeneity observed in the AFM experiments.</p>
+
+<p>As highlighted in an <a href="https://www.stopalzheimernow.com/news/the-hidden-math-of-alzheimer-s-could-point-to-new-treatments-1601" target="_blank" rel="noopener noreferrer">independent research review by StopAlzheimerNow</a>, Yarahmadian is careful to emphasize what the equations do and do not prove: the mathematical framework does not establish a ready-to-prescribe clinical cure, nor can computer simulations replace wet-lab toxicology or human trials. Instead, by pinpointing the exact kinetic thresholds where copper and zinc chelation synergizes with aggregation inhibitors, applied mathematics gives neuropharmacologists a quantitative map to prioritize the most promising drug combinations for laboratory testing.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How do metals like copper and zinc influence Alzheimer's disease plaques?</h3>
+<p>Electrically charged copper, zinc, and iron ions can bind to soluble amyloid-beta proteins in the brain and act as chemical catalysts that speed up protein clumping (aggregation), accelerating the formation of neurotoxic oligomers and plaques linked to Alzheimer's disease.</p>
+
+<h3>What did the Mississippi State University mathematical model simulate?</h3>
+<p>Published in the <em>Bulletin of Mathematical Biology</em> by Shantia Yarahmadian, Yasser Alzahrani, and Vaghawan Prasad Ojha, the model uses kinetic equations to simulate how amyloid-beta proteins self-assemble in the presence of copper, zinc, and iron ions, and tests how two types of drug interventions alter that buildup.</p>
+
+<h3>What is the difference between metal chelation therapy and direct aggregation inhibition?</h3>
+<p>Metal chelation therapy uses specialized molecules to trap and remove excess free metal ions like copper and zinc so they cannot catalyze protein clumping. Direct aggregation inhibitors bind to the amyloid-beta peptides themselves to block them from sticking to one another.</p>
+
+<h3>How did the researchers verify that their mathematical equations were realistic?</h3>
+<p>The team compared the aggregate size and shape distributions predicted by their computer simulations against real laboratory measurements of amyloid-beta clusters taken with atomic force microscopy (AFM), confirming that the model reproduced the experimental peak structures.</p>
+
+<h3>Does this mathematical model mean a new Alzheimer's treatment is ready for patients?</h3>
+<p>No. The researchers emphasize that mathematical modeling complements rather than replaces laboratory and clinical trials. The framework is a predictive screening tool designed to help experimental scientists identify which combinations of chelators and inhibitors are most worth testing in the lab.</p>`
+  },
+  {
+    id: "multi-scale-network-sampling-1996-shortest-path-limit",
+    slug: "multi-scale-network-sampling-1996-shortest-path-limit",
+    title: "Multi-Scale Network Sampling Breaks a 1996 Shortest-Path Computing Limit",
+    metaTitle: "Multi-Scale Sampling Breaks 1996 Shortest-Path Limit | CuriosityFields",
+    excerpt: "Computer scientist Manoj Gupta at IIT Gandhinagar introduced a multi-scale vertex sampling algorithm at IEEE FOCS that extends the 1996 Dor-Halperin-Zwick 2-approximate All-Pairs Shortest Paths guarantee to closely connected network nodes without sacrificing speed.",
+    metaDescription: "IIT Gandhinagar's multi-scale network sampling algorithm breaks a 1996 All-Pairs Shortest Paths limit, guaranteeing 2-approximate distances for close nodes.",
+    category: "artificial-intelligence",
+    author: authors[0],
+    coverImage: "/images/articles/multi-scale-network-sampling-1996-shortest-path-limit.jpg",
+    publishedAt: "2026-11-02",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Graph Algorithms","Computer Science","Network Theory","Artificial Intelligence","IIT Gandhinagar"],
+    content: `<p class="lead">By replacing single-layer landmark shortcuts with a hierarchical multi-scale vertex sampling strategy, computer scientist Manoj Gupta at the Indian Institute of Technology Gandhinagar broke through a computational limit that had stood since 1996, enabling All-Pairs Shortest Paths (APSP) algorithms to guarantee 2-approximate distance estimates for closely connected network nodes without sacrificing speed.</p>
+
+<h2>Why Calculating Shortest Paths Across Massive Networks Hits a Cubic Wall</h2>
+<p>Every time a navigation platform routes traffic across millions of intersections, an internet router forwards packets across autonomous systems, or a graph neural network maps protein interactions, the underlying software must solve a fundamental graph theory challenge, a computational bottleneck that parallels <a href="https://www.curiosityfields.com/article/ai-models-hardware-software-co-design-at-the-edge">memory-wall constraints in edge AI architectures</a>. In computer science, a network is represented as a mathematical graph made of points called vertices (such as cities, servers, or biological neurons) linked by connections called edges.</p>
+
+<p>Finding the shortest path from a single starting point to a single destination is fast enough for everyday devices, but modern data infrastructure and <a href="https://www.curiosityfields.com/article/what-context-window-actually-means-limits-every-ai">large-scale AI context processing systems</a> frequently need to know the shortest distance between every possible pair of vertices in a massive graph simultaneously. Computer scientists call this the All-Pairs Shortest Paths (APSP) problem.</p>
+
+<p>In a dense network containing <em>n</em> vertices, computing the exact shortest path between every pair using classical dynamic programming (such as the Floyd-Warshall algorithm) requires roughly cubic time, proportional to <em>n</em> raised to the third power. Under cubic scaling, doubling the number of nodes in a graph multiplies the computational workload roughly eightfold. When a network scales to millions of vertices, exact cubic-time algorithms become far too slow and memory-intensive for real-time computing.</p>
+
+<h2>The 1996 Dor-Halperin-Zwick Shortcut and Its Local Blind Spot</h2>
+<p>Because exact all-pairs distance calculation scales so poorly, theoretical computer scientists spent decades designing approximation algorithms that trade exact distances for dramatic speedups, an algorithmic philosophy shared by <a href="https://www.curiosityfields.com/article/small-language-models-catching-up-giant-llms">compact language models optimizing inference efficiency</a>. In 1996, researchers Dorit Dor, Shay Halperin, and Uri Zwick presented a landmark algorithm at the IEEE Symposium on Foundations of Computer Science (FOCS) that achieved a multiplicative 2-approximation in sub-cubic time.</p>
+
+<p>A 2-approximation guarantees that the estimated distance returned by the algorithm is never more than twice the true shortest distance between two points. Rather than checking every possible path across the entire graph, the 1996 Dor-Halperin-Zwick (DHZ) method selects a small, strategic set of representative vertices to act as highway landmarks. To estimate the distance between two nodes, the algorithm routes the calculation through the nearest sampled landmark.</p>
+
+<p>As explained in <a href="https://www.sciencedaily.com/releases/2026/10/261029072146.htm" target="_blank" rel="noopener noreferrer">ScienceDaily's report on the IIT Gandhinagar shortest-path breakthrough</a>, that single-scale landmark strategy works remarkably well when two vertices are far apart, such as estimating the driving distance between Delhi and Chennai, because at least one sampled hub lies close to the true shortest corridor. However, the 1996 DHZ shortcut suffered from a stubborn blind spot whenever two vertices sat close to one another, such as two neighborhoods in the Mumbai suburbs separated by only two edges. If the nearest sampled landmark sat several hops away, routing through that landmark produced a five-edge detour, violating the 2-approximation guarantee (since five is more than twice two).</p>
+
+<h2>How Multi-Scale Vertex Sampling Solves Close-Pair Distortion</h2>
+<p>For nearly three decades, extending a strict 2-approximation guarantee to closely connected vertex pairs without inflating the overall runtime remained an open problem in graph algorithms, much like resolving <a href="https://www.curiosityfields.com/article/the-quantum-revolution-reshaping-computing">algorithmic complexity barriers in quantum and classical computing</a>. Now, Associate Professor Manoj Gupta at the Indian Institute of Technology Gandhinagar has broken through that 1996 barrier in a study presented at the 66th IEEE Annual Symposium on Foundations of Computer Science (<a href="https://arxiv.org/pdf/2507.19859" target="_blank" rel="noopener noreferrer">FOCS, DOI: 10.1109/FOCS63196.2025.00065; arXiv:2507.19859</a>) and extended in follow-up work on <a href="https://arxiv.org/pdf/2607.18714" target="_blank" rel="noopener noreferrer">near-optimal 2-approximate All-Pairs Shortest Paths (arXiv:2607.18714)</a>.</p>
+
+<p>Presented at the IEEE Symposium on Foundations of Computer Science (FOCS, DOI: 10.1109/FOCS63196.2025.00065), Associate Professor Manoj Gupta of the Indian Institute of Technology Gandhinagar introduced a multi-scale vertex sampling algorithm for the All-Pairs Shortest Paths (APSP) problem that extends the 2-approximation accuracy guarantee of Dor, Halperin, and Zwick (1996) to closely connected vertex pairs without increasing asymptotic runtime. Instead of relying on a flat, coarse layer of sampled vertices that overlooks short local bridges, Gupta's algorithm organizes vertex sampling across multiple hierarchical scales simultaneously.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50">
+  <img src="/images/articles/multi-scale-network-sampling-1996-shortest-path-limit-inline-1.jpg" alt="Macro view of three stacked transparent optical network layers connected by vertical light beams representing hierarchical multi-scale graph sampling" class="w-full object-cover" loading="lazy" />
+  <figcaption class="px-4 py-3 text-xs text-slate-400">Conceptual model of multi-scale network sampling: while a coarse top sampling layer (top) captures long-range highway routes across a massive graph, intermediate and fine-grained local sampling layers (middle and bottom) preserve the 2-approximation shortest-path guarantee for closely connected vertex pairs.</figcaption>
+</figure>
+
+<h2>Comparing All-Pairs Shortest Path Algorithms Across Scales</h2>
+<p>By partitioning local neighborhoods and sampling connections at progressively finer resolutions while pruning redundant intermediate searches, the multi-scale framework captures two-hop and three-hop local paths that single-layer landmarks miss, mirroring how <a href="https://www.curiosityfields.com/article/photonic-computing-chip-in-memory-neurons-flare-explained">multi-layer optical computing architectures</a> route signals across local and global waveguides. Crucially, the refined sampling hierarchy lowers the minimum distance threshold required for the 2-approximation guarantee to hold while keeping the total computational complexity within the same fast asymptotic envelope as earlier methods.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Algorithm / Approach</th>
+      <th>Distance Accuracy Guarantee</th>
+      <th>Close-Vertex Pair Performance</th>
+      <th>Computational Scaling &amp; Trade-Off</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Exact APSP (e.g., Floyd-Warshall)</strong></td>
+      <td>Exact shortest path (1.0x true distance)</td>
+      <td>Exact for all local and distant pairs</td>
+      <td>Cubic time O(n^3); 2x nodes requires ~8x compute work</td>
+    </tr>
+    <tr>
+      <td><strong>Dor-Halperin-Zwick (DHZ, FOCS 1996)</strong></td>
+      <td>Multiplicative 2-approximation for distant pairs</td>
+      <td>Breaks down on close pairs (e.g., 5-edge detour on 2-edge path)</td>
+      <td>Sub-cubic landmark sampling; misses short local neighborhoods</td>
+    </tr>
+    <tr>
+      <td><strong>Multi-Scale APSP (Manoj Gupta, FOCS 2025/2026)</strong></td>
+      <td>Strict 2-approximation extended to close vertex pairs</td>
+      <td>Captures short local connections via hierarchical sampling</td>
+      <td>Preserves fast sub-cubic runtime without extra complexity penalty</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Why Multi-Scale Graph Approximation Matters for AI and Complex Systems</h2>
+<p>Although Gupta's theorem is a foundational advance in theoretical computer science rather than a commercial software patch, fast distance estimation across massive graphs underpins the tools that power modern artificial intelligence and scientific discovery, including <a href="https://www.curiosityfields.com/article/ai-biology-data-bottleneck-virtual-cell-models-explained">virtual cell interaction networks in computational biology</a>. In protein-protein interaction maps, metabolic pathways, and brain connectomes, nearby nodes represent functionally coupled molecules whose local shortest-path distances determine how signals propagate through living cells.</p>
+
+<p>Similarly, knowledge-graph retrieval systems, <a href="https://www.curiosityfields.com/article/what-happens-when-ai-can-design-its-own-successor">automated neural architecture search engines</a>, and <a href="https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained">large-scale AI evaluation frameworks</a> rely on fast graph distance metrics to cluster related concepts and audit multi-step reasoning chains. By proving that computers can estimate both cross-network highways and tight neighborhood links within twice the true shortest distance at the same time, multi-scale sampling removes a 30-year-old mathematical blind spot in network science.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What is the All-Pairs Shortest Paths (APSP) problem in computer science?</h3>
+<p>The All-Pairs Shortest Paths problem asks a computer to calculate the shortest route between every possible pair of points (vertices) in a network (graph). In dense networks, solving APSP exactly takes roughly cubic time, meaning that doubling the number of points increases the computation roughly eightfold.</p>
+
+<h3>What does a 2-approximation guarantee mean for shortest paths?</h3>
+<p>A 2-approximation algorithm trades exactness for speed while guaranteeing that its estimated distance between two points is never more than twice the actual shortest distance. If the true shortest path is 10 kilometers, a 2-approximation guarantees an estimate between 10 and 20 kilometers.</p>
+
+<h3>Why did the 1996 Dor-Halperin-Zwick algorithm struggle with nearby points?</h3>
+<p>The 1996 DHZ algorithm estimated distances by routing paths through a small set of sampled landmark vertices. When two points were very close together (such as two edges apart), the nearest sampled landmark could sit farther away, producing a five-edge detour that exceeded twice the true distance.</p>
+
+<h3>How does Manoj Gupta's multi-scale sampling fix the close-vertex problem?</h3>
+<p>Developed at IIT Gandhinagar and presented at IEEE FOCS, Gupta's algorithm samples the network across multiple hierarchical scales rather than a single landmark layer. This multi-scale structure captures short local paths between nearby vertices without increasing the overall runtime.</p>
+
+<h3>Where are fast approximate shortest-path algorithms used?</h3>
+<p>Fast shortest-path estimation is foundational for large-scale road and logistics routing, internet packet switching, social and knowledge graph analysis, and biological network modeling such as mapping protein interactions and neural connectomes.</p>`
+  },
+  {
     id: "jupiter-mass-companion-brown-dwarf-first-exomoon-candidate",
     slug: "jupiter-mass-companion-brown-dwarf-first-exomoon-candidate",
     title: "A Jupiter-Mass Companion Around a Brown Dwarf Could Be the First Exomoon",
