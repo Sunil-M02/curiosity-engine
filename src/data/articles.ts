@@ -117,6 +117,197 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "4000-year-old-fortified-wall-morocco-north-african-history",
+    slug: "4000-year-old-fortified-wall-morocco-north-african-history",
+    title: "A 4,000-Year-Old Fortified Wall in Morocco Rewrites North African History",
+    metaTitle: "4,000-Year-Old Oued Beht Wall Rewrites North African History | CuriosityFields",
+    excerpt: "Radiocarbon-dated excavations at Oued Beht in northwestern Morocco uncovered a 4,000-to-3,500-year-old Bronze Age ditch, rampart, and barred-spur stone wall, revealing the earliest known defensive fortification in North Africa outside the Nile Valley.",
+    metaDescription: "Excavations at Oued Beht in Morocco dated a Bronze Age defensive rampart and stone wall to 4,000 years ago, the oldest fortification in North Africa outside Egypt.",
+    category: "history",
+    author: authors[1],
+    coverImage: "/images/articles/4000-year-old-fortified-wall-morocco-north-african-history.jpg",
+    publishedAt: "2026-11-03",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Archaeology","Bronze Age","North African History","Oued Beht","Ancient Civilizations"],
+    content: `<p class="lead">Radiocarbon-dated excavations at Oued Beht in northwestern Morocco have uncovered a 4,000-to-3,500-year-old Bronze Age defensive rampart, ditch, and stone wall system cutting across a strategic river ridge, revealing the earliest known large-scale fortification in North Africa outside the Nile Valley and linking the prehistoric Maghreb to wider western Mediterranean networks.</p>
+
+<h2>Why the Prehistoric Maghreb Was Long Left Out of Mediterranean History</h2>
+<p>Archaeological narratives of the Bronze Age Mediterranean have traditionally centered on the monumental palaces of the Aegean, the Nile Valley in Egypt, and the fortified hilltop citadels of southern Iberia, leaving northwestern Africa's Maghreb region (modern Morocco, Algeria, and Tunisia) portrayed as a sparsely populated periphery, a historiographical blind spot similar to long-standing myths overturned by <a href="https://www.curiosityfields.com/article/mohenjo-daro-urban-inequality-falling-gini-coefficient">new residential excavations at Mohenjo-daro</a>. Because systematic field surveys in inland Morocco were historically rare compared with European river valleys where <a href="https://www.curiosityfields.com/article/drought-revealing-roman-ruins-european-rivers">droughts routinely expose Roman fortifications</a>, historians assumed complex defensive architecture arrived in northwestern Africa much later.</p>
+
+<p>Over the past few years, the international Oued Beht Archaeological Project has dismantled that assumption. Situated in the rolling foothills of northwestern Morocco overlooking the Oued Beht river, the site had already yielded a sprawling 10-hectare Final Neolithic farming and craft complex dating between 5,400 and 4,900 years ago (the mid-fourth to early third millennia BCE), making it the largest known prehistoric agricultural settlement in Africa outside the Nile Valley.</p>
+
+<p>Now, a major follow-up study published in <em>Libyan Studies</em> (2026, Vol. 1, DOI: 10.1017/lis.2026.10037) by Giulio Lucarini of the National Research Council of Italy (CNR), Youssef Bokbot of Morocco's National Institute of Archaeological Sciences and Heritage (INSAP), Toby Wilkinson and Cyprian Broodbank of the University of Cambridge, Hamza Benattia, and colleagues, and highlighted by <a href="https://www.sciencedaily.com/releases/2026/10/261030003022.htm" target="_blank" rel="noopener noreferrer">ScienceDaily and The Conversation</a>, reveals that Oued Beht also preserves a 4,000-to-3,500-year-old Bronze Age defensive fortification system.</p>
+
+<h2>Inside the 4,000-Year-Old Barred-Spur Wall and Ditch at Oued Beht</h2>
+<p>Hints of ancient earthworks on the Oued Beht ridge were first noted in the 1930s by French archaeologist Armand Ruhlmann, who described a configuration of three walls cutting across a narrow rocky promontory whose fourth side was guarded by a steep natural cliff above the river, a defensive landform known in European archaeology as an <em>eperon barre</em> (barred spur). For nearly ninety years, however, the exact age and construction sequence of those walls remained unverified, much like <a href="https://www.curiosityfields.com/article/new-crocodile-genus-great-sphinx-rocks-egypt-fossil">museum fossils awaiting modern reanalysis</a>.</p>
+
+<p>During intensive field excavations in 2023 documented in <a href="https://www.cambridge.org/core/journals/libyan-studies/article/expanding-oued-beht-final-neolithic-bronze-age-medieval-and-later-discoveries-from-excavation-and-survey-in-2023/14DDFFC8CCE2D73816C8ED2240FBCFDC" target="_blank" rel="noopener noreferrer">Cambridge Core's publication of Libyan Studies</a>, the team cut stratigraphic trenches across the narrow neck of the southern ridge between the Oued Beht river and a deep lateral ravine. The excavations revealed a carefully engineered, multi-phase defensive barrier consisting of a dug ditch, an earthen and stone rampart embankment, and a masonry wall that sealed off and protected the southern tip of the ridge.</p>
+
+<p>Published in <em>Libyan Studies</em> (2026, DOI: 10.1017/lis.2026.10037), excavations led by Giulio Lucarini, Youssef Bokbot, Toby Wilkinson, and Cyprian Broodbank at Oued Beht in northwestern Morocco radiocarbon-dated a multi-phase ditch, rampart, and barred-spur stone wall across the site's southern ridge to 4,000 to 3,500 years ago, establishing the earliest confirmed defensive fortification in North Africa outside Egypt. Mobilizing the labor to quarry stone, excavate the ditch, and raise a coordinated rampart across the spur required organized communal planning and leadership.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50">
+  <img src="/images/articles/4000-year-old-fortified-wall-morocco-north-african-history-inline-1.jpg" alt="Excavated prehistoric polished stone axes alongside geometric painted terracotta pottery sherds from the Oued Beht archaeological complex in Morocco" class="w-full object-cover" loading="lazy" />
+  <figcaption class="px-4 py-3 text-xs text-slate-400">Polished stone axes and decorated ceramic sherds characteristic of the Oued Beht complex in northwestern Morocco, where a 10-hectare Final Neolithic farming and craft hub evolved into a fortified second-millennium BCE Bronze Age stronghold.</figcaption>
+</figure>
+
+<h2>From Open Neolithic Farming Hub to Fortified Bronze Age Ridge</h2>
+<p>Combining archaeobotanical remains, zooarchaeological bone assemblages, and radiocarbon dates across the 10-hectare landscape allowed the researchers to trace a dramatic shift in how prehistoric communities used the Oued Beht valley over thousands of years, an infrastructural evolution comparable in regional significance to <a href="https://www.curiosityfields.com/article/mauryan-empire-ancient-india-irrigation-networks">ancient Mauryan water and administrative networks</a> and <a href="https://www.curiosityfields.com/article/the-civilisation-that-invented-the-wheel-and-why-it-wasnt-used-for-transport">early Eurasian craft specialization</a>:</p>
+<ul>
+  <li><strong>Phase 1: Final Neolithic Open Agricultural Hub (5,400 to 4,900 Years Ago):</strong> During the fourth and early third millennia BCE, activity centered on the broad, open northern sector of the plateau, where communities cultivated barley and wheat, herded livestock, produced painted pottery, and manufactured thousands of polished stone axes and grinding tools.</li>
+  <li><strong>Phase 2: Bronze Age Fortified Barred Spur (4,000 to 3,500 Years Ago):</strong> In the second millennium BCE, settlement contracted away from the open northern fields onto the narrower, easily defended southern ridge, where inhabitants built the ditch, rampart, and three-wall barrier to control movement along the river corridor and protect stored resources.</li>
+  <li><strong>Phase 3: Medieval Rural Reoccupation (11th to 13th Centuries CE):</strong> More than two millennia after the Bronze Age wall was abandoned, medieval communities between 1000 and 1300 CE rebuilt the exact same defensive wall line, established a hilltop farmstead nearby, and placed a cemetery between the two zones.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Chronological Phase at Oued Beht</th>
+      <th>Approximate Date Range</th>
+      <th>Primary Settlement &amp; Architectural Features</th>
+      <th>Broader Historical Context</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Final Neolithic Megavillage</strong></td>
+      <td>5,400 to 4,900 years ago (~3400-2900 BCE)</td>
+      <td>10-hectare open northern plateau; barley/wheat farming, thousands of polished axes, painted pottery</td>
+      <td>Largest known early agricultural complex in Africa outside the Nile Valley</td>
+    </tr>
+    <tr>
+      <td><strong>Bronze Age Fortified Ridge</strong></td>
+      <td>4,000 to 3,500 years ago (~2000-1500 BCE)</td>
+      <td>Multi-phase ditch, rampart, and 3-wall barred spur (<em>eperon barre</em>) on narrow southern ridge</td>
+      <td>Earliest defensive fortification in North Africa outside Egypt; parallels Iberian El Argar culture</td>
+    </tr>
+    <tr>
+      <td><strong>Medieval Reoccupation</strong></td>
+      <td>11th to 13th centuries CE (~1000-1300 CE)</td>
+      <td>Rebuilt defensive ridge wall, hilltop hamlet/farmstead, and intervening cemetery</td>
+      <td>Demonstrates multi-millennial strategic reuse of the Oued Beht landform</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Connections Across the Western Mediterranean and Iberian El Argar</h2>
+<p>Why did communities in northwestern Morocco shift from open farming villages to fortified hilltops around 2000 BCE? Rather than pointing to a single foreign invasion, the researchers note in their <a href="https://www.researchgate.net/publication/414057820_Expanding_Oued_Beht_Final_Neolithic_Bronze_Age_medieval_and_later-discoveries_from_excavation_and_survey_in_2023" target="_blank" rel="noopener noreferrer">2026 excavation report</a> that the second millennium BCE was a period of intense social stratification and territorial competition across the western Mediterranean, preceding the wider <a href="https://www.curiosityfields.com/article/1200-bc-bronze-age-collapse-civilisation-vanished">Late Bronze Age systemic upheavals around 1200 BCE</a>.</p>
+
+<p>Just across the Strait of Gibraltar in southeastern Spain and Portugal, Early Bronze Age Argaric societies (roughly 2200 to 1550 BCE) were simultaneously abandoning open lowland villages in favor of fortified hilltop citadels characterized by stone ramparts, bronze metallurgy, and social hierarchies, while northern European communities left very different <a href="https://www.curiosityfields.com/article/viking-age-skeletons-under-house-floors-violence-study">domestic and burial evidence of social conflict</a> and later <a href="https://www.curiosityfields.com/article/medieval-lead-poisoning-teeth-peak-district-mining">resource-extraction inequalities</a>. Archaeological finds of African ivory and ostrich eggshell in Iberian tombs, paired with Oued Beht's newly dated Bronze Age rampart, confirm that communities in the Moroccan Maghreb were active participants in western Mediterranean exchange and political transformation.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How old is the newly dated defensive wall at Oued Beht in Morocco?</h3>
+<p>Radiocarbon dating of archaeological deposits from the 2023 excavations shows that the defensive ditch, rampart, and stone wall on the southern ridge of Oued Beht were built between 4,000 and 3,500 years ago during the second millennium BCE, equivalent to the Mediterranean Bronze Age.</p>
+
+<h3>Why is the Oued Beht fortification historically significant?</h3>
+<p>It represents the earliest confirmed large-scale defensive construction in North Africa outside the Nile Valley in Egypt, proving that prehistoric societies in the Maghreb organized complex communal labor and territorial defense much earlier than previously thought.</p>
+
+<h3>What is an eperon barre (barred spur) fortification?</h3>
+<p>An <em>eperon barre</em> is a defensive landform in which builders construct a ditch and rampart wall across the narrow neck of a ridge bordered by steep natural cliffs or river ravines, sealing off the tip of the promontory to create a protected stronghold.</p>
+
+<h3>How does the Bronze Age wall relate to the earlier Neolithic site at Oued Beht?</h3>
+<p>Between 5,400 and 4,900 years ago, Oued Beht was a 10-hectare open Final Neolithic farming and stone-axe manufacturing hub on the northern plateau. Around 4,000 years ago, activity shifted to the narrower, more defensible southern ridge where the Bronze Age wall was erected.</p>
+
+<h3>How was the Oued Beht ridge used during the medieval period?</h3>
+<p>Between the 11th and 13th centuries CE, medieval rural communities reoccupied the ridge, rebuilt the prehistoric defensive wall line, constructed a nearby hilltop farmstead, and established a cemetery between the two areas.</p>`
+  },
+  {
+    id: "ancient-tibetan-ice-cores-128000-years-climate-history",
+    slug: "ancient-tibetan-ice-cores-128000-years-climate-history",
+    title: "Ancient Tibetan Ice Cores Preserve 128,000 Years of Climate History",
+    metaTitle: "128,000-Year-Old Tibetan Ice Cores Rewrite Climate History | CuriosityFields",
+    excerpt: "By matching oxygen isotopes across Guliya Plateau ice cores drilled 23 years apart and dating cosmogenic beryllium-10 and chlorine-36 across the 41,000-year-old Laschamp geomagnetic excursion, scientists proved high-mountain Tibetan ice has survived for over 128,000 years.",
+    metaDescription: "Guliya Plateau ice cores in Tibet preserve over 128,000 years of climate history, dated via the 41,000-year-old Laschamp geomagnetic excursion.",
+    category: "science",
+    author: authors[0],
+    coverImage: "/images/articles/ancient-tibetan-ice-cores-128000-years-climate-history.jpg",
+    publishedAt: "2026-11-03",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Paleoclimatology","Ice Cores","Tibetan Plateau","Climate History","Glaciology"],
+    content: `<p class="lead">By matching oxygen-isotope profiles across ice cores drilled 23 years apart on the Guliya Plateau in northwestern Tibet and dating them with cosmogenic beryllium-10 and chlorine-36 across the 41,000-year-old Laschamp geomagnetic excursion, paleoclimatologists confirmed that high-mountain Tibetan ice has survived for more than 128,000 years since the last interglacial period.</p>
+
+<h2>Why Subtropical Mountain Glaciers Were Thought to Be Geologically Young</h2>
+<p>Polar ice sheets in Antarctica and Greenland store continuous atmospheric archives stretching back hundreds of thousands of years, yet reconstructing how monsoons and mid-latitude temperatures behaved where most of humanity actually lives requires ice cores from high-altitude mountain glaciers, a paleoclimate puzzle that complements <a href="https://www.curiosityfields.com/article/white-sands-footprints-ice-age-climate-lake-otero">Ice Age environmental records preserved at White Sands</a>. Outside the polar circles, the Tibetan Plateau and surrounding mountain ranges hold the largest concentration of glacial ice on Earth, often called the world's Third Pole.</p>
+
+<p>For decades, however, glaciologists debated whether any non-polar mountain glacier could retain basal ice from before the Holocene epoch, which began roughly 11,700 years ago after the last Ice Age ended. Even iconic tropical ice cores drilled atop Mount Huascaran in the Peruvian Andes reach back roughly 30,000 years, leaving scientists uncertain whether subtropical glaciers melted completely during warm post-glacial swings, much like the hydrological shifts linked to <a href="https://www.curiosityfields.com/article/earths-hidden-deep-ocean-ringwoodite-transition-zone">deep planetary water cycles</a>.</p>
+
+<p>Now, an international team led by Professor Lonnie G. Thompson, Mary E. Davis, and Professor Ellen Mosley-Thompson at The Ohio State University's Byrd Polar and Climate Research Center, alongside collaborators at ETH Zurich, Eawag, the Chinese Academy of Sciences, and Northwest University in China, has settled that debate. Published in <em>Science Advances</em> (Vol. 12, Issue 40, DOI: 10.1126/sciadv.aeh2912) and reported by <a href="https://www.sciencedaily.com/releases/2026/10/261028232713.htm" target="_blank" rel="noopener noreferrer">ScienceDaily and Ohio State University</a>, their multi-decade audit proves that the Guliya ice cap in northwestern Tibet preserves a reproducible climate record exceeding 128,000 years.</p>
+
+<h2>Testing Reproducibility Across Cores Drilled 23 Years Apart</h2>
+<p>Establishing a reliable timeline inside a mountain glacier is challenging because wind scouring, summer surface melting, and intense sheer thinning near the bedrock can distort or erase annual snow layers, a chronological challenge analogous to calibrating <a href="https://www.curiosityfields.com/article/ancient-chinese-eclipse-records-earth-faster-historical-spin">ancient astronomical eclipse records across millennia</a>. Earlier interpretations of parts of the Guliya ice cap had suggested that some cores might only span the mid-Holocene, raising questions about whether the deep ice truly survived the transition out of the last glacial maximum.</p>
+
+<p>To test whether the Guliya stratigraphy was intact or scrambled by ice flow, Thompson's team compared deep ice cores recovered from the Guliya Plateau during two separate high-altitude expeditions in 1992 and 2015, separated by 23 years. Measuring stable oxygen isotope ratios (delta-18O), which track atmospheric temperature and precipitation sources at the moment snow falls, revealed virtually identical isotopic oscillations across both the 1992 and 2015 cores.</p>
+
+<p>Published in <em>Science Advances</em> (Vol. 12, Issue 40, DOI: 10.1126/sciadv.aeh2912), paleoclimatologists led by Lonnie G. Thompson at The Ohio State University demonstrated that ice cores drilled on the Guliya Plateau in 1992 and 2015 share reproducible oxygen-isotope profiles and cosmogenic beryllium-10 and chlorine-36 markers from the 41,000-year-old Laschamp geomagnetic excursion, proving the Tibetan ice cap preserves more than 128,000 years of climate history. As documented in the <a href="https://www.research-collection.ethz.ch/bitstreams/21e755f1-8448-4a36-b0bd-a52e222df398/download" target="_blank" rel="noopener noreferrer">ETH Zurich Research Collection repository for the Science Advances study</a>, replicating the exact same isotopic profile nearly a quarter-century later confirmed that the deep layers represent an undisturbed, laterally continuous archive.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50">
+  <img src="/images/articles/ancient-tibetan-ice-cores-128000-years-climate-history-inline-1.jpg" alt="Paleoclimatologists in insulated mountaineering gear operating a high-altitude ice-core drilling rig atop the Guliya ice cap on the northwestern Tibetan Plateau" class="w-full object-cover" loading="lazy" />
+  <figcaption class="px-4 py-3 text-xs text-slate-400">Field drilling on the high-elevation Guliya ice cap in northwestern Tibet. Comparing cores extracted in 1992 and 2015 confirmed reproducible oxygen-isotope layers extending past 128,000 years.</figcaption>
+</figure>
+
+<h2>How Cosmogenic Isotopes and the Laschamp Excursion Anchored the Timeline</h2>
+<p>Because annual ice layers compress to microscopic thicknesses near the bottom of a glacier, counting individual winter-summer bands cannot date basal ice over 100,000 years old, requiring nuclear physics techniques related to <a href="https://www.curiosityfields.com/article/optical-atomic-clock-redefine-the-second-cgpm-2030">ultra-precise radiometric and atomic timekeeping</a>. Instead, co-authors Juerg Beer of Eawag and Christof Vockenhuber and Marcus Christl of ETH Zurich used accelerator mass spectrometry to measure two cosmogenic radionuclides trapped in the ice: beryllium-10 and chlorine-36.</p>
+
+<p>Cosmic rays bombarding Earth's upper atmosphere continuously produce radioactive beryllium-10 and chlorine-36, which attach to aerosols and fall with snow, a cosmic-ray production mechanism that also informs <a href="https://www.curiosityfields.com/article/far-out-solar-system-objects-shared-ancient-history-tnos">solar and heliospheric radiation reconstructions</a>. Normally, Earth's geomagnetic field deflects a large fraction of incoming cosmic rays. However, roughly 41,000 years ago during the Laschamp geomagnetic excursion, Earth's magnetic field weakened dramatically and briefly reversed its polarity, allowing a global surge of cosmic rays to strike the atmosphere and leave a sharp spike of beryllium-10 and chlorine-36 in ice sheets worldwide.</p>
+
+<p>Pinpointing that 41,000-year-old Laschamp radionuclide peak inside the Guliya cores gave the researchers an unambiguous absolute time marker midway down the glacier. When the team combined radioactive decay ratios of beryllium-10 to chlorine-36 with cross-correlations against uranium-thorium-dated oxygen isotope records from Tibetan cave stalagmites (speleothems), the deep basal ice below the Laschamp horizon extended past 128,000 years ago into the Last Interglacial period.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dating Method / Proxy Archive</th>
+      <th>Physical Signal Measured in Guliya Ice</th>
+      <th>Chronological Benchmark Provided</th>
+      <th>Significance for Tibetan Glacial History</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Dual-Core Oxygen Isotopes (1992 vs. 2015)</strong></td>
+      <td>Stable delta-18O water isotope oscillations</td>
+      <td>23-year lateral reproducibility across the ice cap</td>
+      <td>Proves stratigraphy is intact rather than scrambled by flow</td>
+    </tr>
+    <tr>
+      <td><strong>Cosmogenic Beryllium-10 &amp; Chlorine-36</strong></td>
+      <td>Cosmic-ray radionuclide surge &amp; Be-10/Cl-36 decay ratio</td>
+      <td>Pinpoints the >41,000-year-old Laschamp geomagnetic excursion</td>
+      <td>Provides an absolute radiometric anchor in compressed deep ice</td>
+    </tr>
+    <tr>
+      <td><strong>Tibetan Cave Speleothem Tie-Points</strong></td>
+      <td>Monsoon oxygen-isotope matching with dated cave deposits</td>
+      <td>Extends basal ice chronology beyond 128,000 years</td>
+      <td>Quadruples the ~30,000-year age limit of Andean Huascaran cores</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>What 128,000-Year-Old Ice Reveals About Glacier Survival</h2>
+<p>Confirming that basal ice on the Guliya Plateau survived for more than 128,000 years carries major implications for understanding how high-mountain cryospheres respond to orbital warming cycles alongside modern <a href="https://www.curiosityfields.com/article/coral-reef-extinction-risk-iucn-red-list-44-percent">climate-driven ecosystem thresholds</a>. As <a href="https://www.researchgate.net/scientific-contributions/Lonnie-G-Thompson-4145149" target="_blank" rel="noopener noreferrer">Lonnie Thompson's paleoclimate research group</a> notes, if Guliya contained only Holocene-era ice under 12,000 years old, it would imply that even the highest Tibetan ice caps melted away completely during the warm early Holocene thermal maximum.</p>
+
+<p>Instead, the survival of 128,000-year-old ice proves that the extreme elevation, cold continental climate, and flat plateau geometry of northwestern Tibet shielded the Guliya ice cap through both the Last Interglacial warm period and the early Holocene warming, preserving chemical clues that complement <a href="https://www.curiosityfields.com/article/drought-revealing-roman-ruins-european-rivers">historical European hydroclimate reconstructions</a> and <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-illinois">modern climate-resilience modeling</a>. With the 128,000-year timescale now firmly anchored, researchers can re-analyze trapped atmospheric dust, aerosols, and ancient microbial DNA across a full glacial-interglacial cycle in the heart of Asia.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How old is the ancient ice confirmed in the Guliya ice cap in Tibet?</h3>
+<p>Published in <em>Science Advances</em> in October 2026 by a team led by Lonnie Thompson at The Ohio State University, new radiometric and isotopic evidence confirms that ice near the base of the Guliya ice cap in northwestern Tibet is more than 128,000 years old, making it the oldest known non-polar mountain ice core record on Earth.</p>
+
+<h3>Why did scientists compare ice cores drilled in 1992 and 2015?</h3>
+<p>Comparing cores drilled 23 years apart allowed researchers to test whether the glacier's internal layers were reproducible across different locations and decades. Both cores showed matching oxygen-isotope patterns, proving that the climate record was preserved intact.</p>
+
+<h3>How did the Laschamp geomagnetic excursion help date the Tibetan ice?</h3>
+<p>More than 41,000 years ago, Earth's magnetic field weakened dramatically during the Laschamp geomagnetic excursion, allowing extra cosmic rays to hit the atmosphere and create a distinct spike of radioactive beryllium-10 and chlorine-36 in falling snow. Detecting that chemical spike anchored the Guliya timeline.</p>
+
+<h3>How does the Guliya ice core compare to ice cores in the Andes?</h3>
+<p>While high-altitude tropical ice cores from Mount Huascaran in the Peruvian Andes reach back roughly 30,000 years, the Guliya record extends past 128,000 years, more than four times longer.</p>
+
+<h3>What does this discovery prove about Tibetan glaciers during past warm periods?</h3>
+<p>Because the basal ice dates back more than 128,000 years, the study proves that large high-elevation ice masses in northwestern Tibet did not melt away completely during the warm early Holocene epoch or the end of the last Ice Age.</p>`
+  },
+  {
     id: "mathematical-models-copper-zinc-alzheimer-plaque-growth",
     slug: "mathematical-models-copper-zinc-alzheimer-plaque-growth",
     title: "Mathematical Models Show How Copper and Zinc Fuel Alzheimer Plaque Growth",
