@@ -117,6 +117,199 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel",
+    slug: "machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel",
+    title: "Machine Learning Uncovers 9,389 Reactions to Turn Carbon Dioxide Into Fuel",
+    metaTitle: "Machine Learning Uncovers 9,389 Reactions to Turn Carbon Dioxide Into Fuel | CuriosityFields",
+    excerpt: "By expanding a copper catalyst model from 152 manual steps to 9,389 machine-learned chemical reactions, Indian Institute of Science researchers boosted predicted CO2 conversion 40-fold and discovered direct molecular H2 transfer.",
+    metaDescription: "Learn how Indian Institute of Science researchers used machine learning and quantum simulations to map 9,389 catalytic reactions for converting CO2 into liquid methanol fuel.",
+    category: "artificial-intelligence",
+    author: authors[1],
+    coverImage: "/images/articles/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel.jpg",
+    publishedAt: "2026-11-05",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["AI for Science","Computational Catalysis","Carbon Capture","Green Methanol","Machine Learning"],
+    content: `<p class="lead"><strong>Researchers at the Indian Institute of Science have combined quantum mechanical simulations with machine learning to expand the catalytic reaction network for converting carbon dioxide into methanol from 152 manually selected steps to 9,389 elementary chemical reactions, increasing predicted carbon dioxide conversion 40-fold and uncovering a previously unknown pathway where hydrogen molecules react intact without splitting into atoms first.</strong> Published in October 2026 in <a href="https://doi.org/10.1038/s41467-026-77080-4" target="_blank" rel="noopener noreferrer">Nature Communications</a> by first author Dr. Anand Mohan Verma, Ph.D. researcher Shivam Chaturvedi, Professor Ambedkar Dukkipati, and corresponding author Associate Professor Ananth Govind Rajan, the data-driven framework resolves a long-standing mismatch between computer models and laboratory reactors.</p>
+
+<h2>Why Traditional Catalysis Models Miss the Reactions That Matter</h2>
+<p>Designing industrial catalysts to recycle captured carbon dioxide into liquid methanol fuel requires tracking hundreds of transient chemical intermediates across a metal surface, a combinatorial search space as vast as the graph structures tackled by <a href="https://www.curiosityfields.com/article/multi-scale-network-sampling-1996-shortest-path-limit">multi-scale network sampling</a>. In heterogeneous catalysis, carbon dioxide and hydrogen gas molecules adsorb onto active copper sites, break and form chemical bonds through dozens of branching steps, and desorb as methanol, carbon monoxide, formic acid, or water.</p>
+
+<p>Computing the activation energy barrier of every conceivable bond rearrangement from first principles using density functional theory demands immense supercomputing time. Consequently, computational chemists have historically built microkinetic models by hand, selecting between 50 and 150 elementary reactions that human intuition deemed most plausible. As Dr. Anand Mohan Verma (a CV Raman Postdoctoral Fellow at the Indian Institute of Science during the study and now Assistant Professor at Motilal Nehru National Institute of Technology Allahabad) explained, manual curation carries a fundamental blind spot: omitting even one low-barrier reaction step can skew the entire predicted output of a chemical reactor.</p>
+
+<p>When the <a href="https://www.sciencedaily.com/releases/2026/10/261013015758.htm" target="_blank" rel="noopener noreferrer">Indian Institute of Science team</a> simulated carbon dioxide hydrogenation on a copper catalyst using a conventional 152-reaction network, the model failed two basic experimental reality checks. It wrongly predicted formic acid rather than methanol as the dominant chemical product, and it severely underestimated total carbon dioxide conversion compared with real laboratory reactors operated by collaborators at Hindustan Petroleum Corporation Limited's Green Research and Development Centre and the Agency for Science, Technology and Research in Singapore.</p>
+
+<h2>How Machine Learning Expanded 152 Reactions Into a 9,389-Step Network</h2>
+<p>Training surrogate algorithms to approximate quantum physics mirrors how <a href="https://www.curiosityfields.com/article/ai-models-hardware-software-co-design-at-the-edge">edge AI architectures</a> compress heavy computations without sacrificing numerical fidelity. To break the quantum simulation bottleneck, Associate Professor Ananth Govind Rajan, computer scientist Professor Ambedkar Dukkipati, and colleagues first computed an initial ground-truth dataset of 152 elementary surface reactions using density functional theory. They then trained machine learning models to predict the activation energy barriers and reaction enthalpies of unseen surface transformations in a fraction of a second.</p>
+
+<p>Next, the researchers deployed automated reaction-enumeration algorithms across 105 distinct chemical species capable of existing on the copper catalyst surface, systematically testing every chemically valid single-step bond breaking and bond formation event. That automated sweep expanded the reaction network more than 60-fold, from 152 reactions to 9,389 elementary steps.</p>
+
+<p>Feeding all 9,389 reactions into a microkinetic rate model transformed its predictive accuracy, much like unified kinetic equations clarified <a href="https://www.curiosityfields.com/article/mathematical-models-copper-zinc-alzheimer-plaque-growth">copper-catalyzed plaque kinetics</a> in biophysics. Compared with the truncated 152-step network, the 9,389-reaction model predicted a 40-fold increase in carbon dioxide conversion rate and accurately identified methanol and carbon monoxide, not formic acid, as the primary reaction products, matching experimental measurements from the Hindustan Petroleum and Singapore catalysis laboratories.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel-inline-1.jpg" alt="Scientific visualization of a crystalline copper catalyst surface converting carbon dioxide and intact hydrogen molecules into methanol beneath a glowing 9,389-node machine learning reaction network graph" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">From 152 manual steps to 9,389 machine-discovered pathways: mapping every single-step transformation among 105 surface species reveals how intact molecular hydrogen transfers directly to oxygen-bearing intermediates on copper to form methanol.</figcaption></figure>
+
+<h2>The Intact Molecular Hydrogen Shortcut That Rewrites Textbook Catalysis</h2>
+<p>Beyond fixing macroscopic conversion rates, mining the 9,389-step network revealed an atomic-scale reaction mechanism that contradicted decades of textbook heterogeneous catalysis, a physical surprise comparable to how <a href="https://www.curiosityfields.com/article/photonic-materials-control-light-scale-of-atoms-picocavities">atomic-scale photonic cavities</a> reshape light-matter interactions. In standard Sabatier and methanol-synthesis theory, molecular hydrogen gas (H2) must first land on two bare metal atoms and dissociate into separate adsorbed hydrogen atoms before those individual atoms can hydrogenate carbon-oxygen intermediates.</p>
+
+<p>Inside the expanded network, co-author Shivam Chaturvedi and colleagues noticed high-flux pathways where intact molecular H2 reacted directly with surface intermediates, especially oxygen-containing species, without splitting into isolated hydrogen atoms beforehand. When the researchers went back and verified those specific molecular H2 transfer steps using explicit quantum mechanical calculations, the low energy barriers held up. Because this molecular H2 shortcut bypasses the surface-site competition required for H2 dissociation, catalysts engineered to bind molecular H2 weakly near oxygenated intermediates could dramatically accelerate green methanol synthesis.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Catalytic Modeling Approach</th>
+        <th>Reaction Network Size</th>
+        <th>Predicted Major Carbon Product</th>
+        <th>Predicted CO2 Conversion Rate</th>
+        <th>Dominant Hydrogen Transfer Mechanism</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Conventional Manual DFT Microkinetic Model</td>
+        <td>152 hand-selected reactions</td>
+        <td>Formic acid (contradicts experiment)</td>
+        <td>Baseline (underestimates conversion by ~40x)</td>
+        <td>Strictly dissociative atomic H addition on metal sites</td>
+      </tr>
+      <tr>
+        <td>ML-Accelerated Massive Reaction Network (<a href="https://doi.org/10.1038/s41467-026-77080-4" target="_blank" rel="noopener noreferrer">Verma et al., Nature Communications 2026</a>)</td>
+        <td>9,389 automated reactions across 105 species</td>
+        <td>Methanol and carbon monoxide (matches experiment)</td>
+        <td>~40x higher CO2 conversion than 152-step model</td>
+        <td>Atomic H addition plus direct intact molecular H2 transfer to oxygenated species</td>
+      </tr>
+      <tr>
+        <td>Experimental Copper Catalyst Validation (HPCL &amp; A*STAR Labs)</td>
+        <td>Physical catalytic reactor bed</td>
+        <td>Methanol and carbon monoxide</td>
+        <td>High experimental conversion matching 9,389-step model</td>
+        <td>Confirms macroscopic kinetics predicted by expanded network</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Scaling AI Reaction Networks to Green Hydrogen, Ammonia, and Grid Fuels</h2>
+<p>Converting captured carbon dioxide and renewable hydrogen into liquid methanol provides a high-density chemical fuel for maritime shipping, aviation feedstocks, and seasonal energy buffering that complements <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-illinois">multi-day grid storage</a>. Because liquid methanol can be stored at ambient temperature and pressure, unlike cryogenic liquid hydrogen requiring <a href="https://www.curiosityfields.com/article/grain-boundary-engineering-metals-defy-deep-freeze-20-kelvin">20 kelvin alloy tanks</a>, improving catalytic selectivity directly lowers the cost of carbon-neutral synthetic fuels.</p>
+
+<p>At the same time, deploying machine-learned reaction networks in industrial chemical plants requires rigorous validation and transparent model documentation, echoing the governance standards highlighted in <a href="https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained">AI safety disclosures</a>. Machine learning barrier predictors are only as reliable as the quantum mechanical training set covering the catalyst's active facets, defects, and oxide supports. As the Indian Institute of Science team extends its automated network generator to nitrogen reduction for green ammonia, carbon dioxide electroreduction across bimetallic alloys, and electrocatalytic water splitting, pairing active-learning quantum mechanical verification with live spectroscopic reactor diagnostics will be essential to translate machine-discovered reaction pathways into industrial chemical plants.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Why did earlier computer models fail to predict methanol production on copper catalysts?</h3>
+<p>Because quantum mechanical simulations are computationally expensive, earlier models only included around 152 manually chosen reactions. Leaving out thousands of secondary pathways caused those truncated models to wrongly predict formic acid as the main product and underestimate carbon dioxide conversion by a factor of 40.</p>
+
+<h3>How did researchers at the Indian Institute of Science identify 9,389 reactions?</h3>
+<p>The team used quantum mechanics to calculate 152 baseline reactions, trained machine learning algorithms to rapidly estimate activation energy barriers, and ran automated enumeration tools across 105 chemical surface species to map every possible single-step reaction.</p>
+
+<h3>What is the intact molecular hydrogen pathway discovered by the AI model?</h3>
+<p>Textbook catalysis assumes hydrogen gas (H2) must split into individual hydrogen atoms on the catalyst surface before reacting. The 9,389-reaction network revealed, and quantum calculations confirmed, that intact H2 molecules can transfer hydrogen directly to oxygen-containing chemical intermediates.</p>
+
+<h3>How did scientists verify that the 9,389-reaction model was accurate?</h3>
+<p>Researchers compared the expanded microkinetic model's predictions against physical catalytic reactor experiments conducted at Hindustan Petroleum Corporation Limited's Green R&amp;D Centre in India and A*STAR in Singapore, confirming that both product selectivity (methanol and carbon monoxide) and conversion rates matched reality.</p>
+
+<h3>Can this machine learning framework improve other clean-energy chemical processes?</h3>
+<p>Yes. By combining automated reaction network generation with machine-learned energy barriers, chemical engineers can uncover hidden reaction pathways in green ammonia synthesis (nitrogen reduction), electrocatalytic water splitting, and multi-carbon fuel synthesis.</p>`
+  },
+  {
+    id: "170-year-planetary-mystery-70-ophiuchi-stellar-wobble",
+    slug: "170-year-planetary-mystery-70-ophiuchi-stellar-wobble",
+    title: "A 170-Year Planetary Mystery at 70 Ophiuchi Exposed Stellar Wobble Noise",
+    metaTitle: "A 170-Year Planetary Mystery at 70 Ophiuchi Exposed Stellar Wobble Noise | CuriosityFields",
+    excerpt: "Combining a century of astrometry with Magellan and McDonald radial velocities, astronomers proved that 70 Ophiuchi AB's 170-year wobble comes from stellar activity rather than a gas giant, leaving room for habitable rocky worlds 16 light-years away.",
+    metaDescription: "Discover how University of Michigan astronomers solved the 170-year exoplanet mystery at binary star system 70 Ophiuchi AB, ruling out Jupiter-mass giants while keeping habitable-zone rocky worlds in play.",
+    category: "astronomy",
+    author: authors[0],
+    coverImage: "/images/articles/170-year-planetary-mystery-70-ophiuchi-stellar-wobble.jpg",
+    publishedAt: "2026-11-05",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Exoplanets","Binary Stars","70 Ophiuchi","Radial Velocity","Habitable Worlds Observatory"],
+    content: `<p class="lead"><strong>Astronomers led by the University of Michigan have solved a 170-year-old planetary mystery in the nearby binary star system 70 Ophiuchi AB, proving that a long-debated gravitational wobble is caused by intrinsic stellar surface activity rather than a hidden giant planet, while leaving the system's habitable zone wide open for Saturn-sized or rocky Earth-like worlds just 16 light-years from Earth.</strong> Published in October 2026 in <a href="https://doi.org/10.3847/1538-4357/ae9f52" target="_blank" rel="noopener noreferrer">The Astrophysical Journal</a> by postdoctoral researcher Yiting Li, Professor Michael R. Meyer, and collaborators across more than a dozen institutions, the century-spanning analysis rules out planets of one Jupiter mass or larger within five astronomical units of the primary star and half an astronomical unit of its companion.</p>
+
+<h2>How an 1855 Planet Claim Became Astronomy's Longest Cold Case</h2>
+<p>Deciphering faint orbital perturbations across decades of observations demands the same astrometric precision that recently uncovered a <a href="https://www.curiosityfields.com/article/jupiter-mass-companion-brown-dwarf-first-exomoon-candidate">Jupiter-mass exomoon candidate</a> around a brown dwarf. In 1855, British astronomer William Jacob noticed a systematic deviation in visual measurements of the double star 70 Ophiuchi AB and proposed an unseen planetary body, making it the first star system to host an officially proposed exoplanet candidate.</p>
+
+<p>Located roughly 16 light-years away in the constellation Ophiuchus, 70 Ophiuchi AB is the third closest binary star system to the Sun, trailing only Alpha Centauri at 4.2 light-years and 61 Cygni at 11.4 light-years. Unlike our single-star solar system, approximately half of all sun-like stars in the Milky Way reside in binary or multiple-star configurations. Understanding whether close binaries can form and retain stable planetary systems is critical to mapping cosmic habitability.</p>
+
+<p>Although Jacob's original 1855 orbital solution and several late-nineteenth-century and mid-twentieth-century planet claims were eventually refuted, modern radial-velocity surveys continued to pick up a tantalizing periodic wobble in the stars' light. For decades, astronomers could not tell whether that Doppler shift came from the gravitational pull of an unseen gas giant or from magnetic turbulence churning on the stars themselves.</p>
+
+<h2>Combining a Century of Astrometry With Precision Radial Velocities</h2>
+<p>Untangling orbital dynamics over multi-decade baselines parallels how researchers used <a href="https://www.curiosityfields.com/article/ancient-chinese-eclipse-records-earth-faster-historical-spin">ancient Chinese eclipse records</a> to reconstruct long-term shifts in Earth's rotation. In the <a href="https://www.sciencedaily.com/releases/2026/10/261028232711.htm" target="_blank" rel="noopener noreferrer">University of Michigan study</a>, Yiting Li, Michael R. Meyer, Stephen R. Kane, R. Paul Butler, Stephen A. Shectman, Eric E. Mamajek, Johanna Teske, and colleagues assembled roughly 100 years of historical astrometric position measurements and combined them with high-cadence Doppler spectroscopy from two premier ground-based instruments: the Planet Finder Spectrograph on the 6.5-meter Magellan Clay Telescope at Las Campanas Observatory in Chile and the 2.7-meter Harlan J. Smith Telescope at McDonald Observatory in Texas.</p>
+
+<p>By jointly modeling three-dimensional sky-plane astrometry alongside line-of-sight radial velocities, the team established the orbits of 70 Ophiuchi A and 70 Ophiuchi B as two of the most precisely measured stellar orbits in the sky. When the researchers compared the apparent radial-velocity wobble against chromospheric activity indicators and rotational modulation, the phantom giant planet vanished. The velocity variations tracked changes in starspots, magnetic plages, and convective granulation on the stellar photospheres rather than Keplerian reflex motion from a companion body.</p>
+
+<p>With stellar activity isolated as the culprit, the team set the tightest mass limits ever achieved for the system. Around the primary star 70 Ophiuchi A, the data exclude Jupiter-mass or larger planets within 5 astronomical units (one astronomical unit is the 93-million-mile Earth-Sun distance), and within 0.5 astronomical units around 70 Ophiuchi B.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/170-year-planetary-mystery-70-ophiuchi-stellar-wobble-inline-1.jpg" alt="Astrophysical visualization contrasting a magnetically active K-dwarf star with starspots and Doppler shift wavefronts against clean gravitational orbital contours in a binary star system" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">Separating stellar jitter from planetary gravity: rotating starspots and magnetic activity cycles on 70 Ophiuchi AB mimic the Doppler wavelength shifts of a giant planet, requiring a century of combined astrometry and spectroscopy to unmask the false signal.</figcaption></figure>
+
+<h2>Comparing the Closest Binary Star Systems to Earth</h2>
+<p>Placing 70 Ophiuchi AB alongside our nearest binary neighbors clarifies why eliminating gas giants makes the system even more attractive for future rocky-planet searches, just as mapping <a href="https://www.curiosityfields.com/article/far-out-solar-system-objects-shared-ancient-history-tnos">distant trans-Neptunian objects</a> reveals how giant-planet migration sculpts smaller debris belts.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Binary System &amp; Distance</th>
+        <th>Stellar Components</th>
+        <th>Historical &amp; Modern Planet Status</th>
+        <th>Excluded Giant Planet Zone (<a href="https://doi.org/10.3847/1538-4357/ae9f52" target="_blank" rel="noopener noreferrer">Li et al., ApJ 2026</a>)</th>
+        <th>Future Direct-Imaging &amp; Astrometric Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alpha Centauri AB (4.2 light-years)</td>
+        <td>G2V primary + K1V companion (plus M-dwarf Proxima)</td>
+        <td>Confirmed planets around Proxima; candidate giant disk signals around AB</td>
+        <td>Gas giants constrained beyond ~2 to 3 AU around each star</td>
+        <td>Prime target for JWST mid-infrared coronagraphy and Roman CGI</td>
+      </tr>
+      <tr>
+        <td>61 Cygni AB (11.4 light-years)</td>
+        <td>K5V primary + K7V companion in wide binary orbit</td>
+        <td>Mid-20th-century astrometric giant planet claims refuted by modern data</td>
+        <td>Sub-stellar and multi-Jupiter companions ruled out in inner orbits</td>
+        <td>High-priority astrometric target for sub-Neptune and terrestrial worlds</td>
+      </tr>
+      <tr>
+        <td>70 Ophiuchi AB (16.6 light-years)</td>
+        <td>K0V primary (70 Oph A) + K5V companion (70 Oph B)</td>
+        <td>1855 William Jacob planet claim; 170-year RV wobble proven to be stellar activity</td>
+        <td>No &gt;=1 Jupiter-mass planets within 5 AU of 70 Oph A or 0.5 AU of 70 Oph B</td>
+        <td>Top binary target for proposed SHERA mission and NASA Habitable Worlds Observatory</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Why Ruling Out Hot Jupiters Is Good News for Habitable Worlds</h2>
+<p>Eliminating Jupiter-scale gas giants within 5 astronomical units of 70 Ophiuchi A removes a major dynamical threat to smaller terrestrial planets, a orbital stability factor closely tied to mission planning for <a href="https://www.curiosityfields.com/article/roman-space-telescope-fuel-lifetime-l2-orbit">L2 space observatories</a>. In a binary system where two stars already exert periodic gravitational torques on each other's circumstellar disks, an interior Jupiter-mass giant can scatter rocky planetesimals or destabilize orbits inside the habitable zone, the temperate annulus where liquid surface water can persist.</p>
+
+<p>Because the Magellan and McDonald radial-velocity campaign was optimized to bound giant-planet masses against noisy stellar activity, planets the mass of Saturn, Neptune, or Earth could still orbit comfortably inside the habitable zones of either 70 Ophiuchi A or 70 Ophiuchi B. Professor Michael R. Meyer noted that setting an upper mass ceiling allows mission architects to calibrate exposure times and coronagraph inner working angles for two upcoming space initiatives: the proposed SHERA astrometric binary mission and NASA's flagship Habitable Worlds Observatory.</p>
+
+<h2>What Radial-Velocity Monitoring Still Cannot Resolve</h2>
+<p>While the <a href="https://doi.org/10.3847/1538-4357/ae9f52" target="_blank" rel="noopener noreferrer">Astrophysical Journal study</a> closes the book on a 170-year-old giant-planet illusion, detecting an Earth-mass planet around an active K-dwarf star remains one of astrophysics' toughest signal-processing problems, requiring noise-filtering strategies as sophisticated as <a href="https://www.curiosityfields.com/article/multi-scale-network-sampling-1996-shortest-path-limit">multi-scale network algorithms</a> and extreme-environment hardware built from <a href="https://www.curiosityfields.com/article/grain-boundary-engineering-metals-defy-deep-freeze-20-kelvin">cryogenic structural alloys</a> or <a href="https://www.curiosityfields.com/article/shaped-ultrafast-laser-beams-computer-memory-1000x-faster">ultrafast optical memory</a>. An Earth-mass planet in the habitable zone tugs its host star at roughly 10 centimeters per second, whereas photospheric starspots and convective flows on 70 Ophiuchi AB generate meter-per-second radial-velocity jitter. Confirming rocky worlds in this historic system will require space-based micro-arcsecond astrometry or direct high-contrast imaging that separates planetary starlight from the glare of both binary suns.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Why did astronomers think 70 Ophiuchi AB had a planet for 170 years?</h3>
+<p>In 1855, astronomer William Jacob noticed apparent irregularities in the visual orbit of the two stars in 70 Ophiuchi AB and proposed an unseen planet as the cause. Decades later, spectroscopic radial-velocity measurements also detected a periodic wobble in the stars' light that resembled the gravitational tug of a Jupiter-sized planet.</p>
+
+<h3>What actually caused the mysterious wobble in 70 Ophiuchi AB?</h3>
+<p>By combining 100 years of astrometric measurements with high-precision radial velocities from the Magellan Clay Telescope and McDonald Observatory, University of Michigan researchers proved that magnetic stellar activity, including rotating starspots and surface convection on the stars themselves, created the apparent Doppler wobble.</p>
+
+<h3>What kinds of planets are ruled out by the new study?</h3>
+<p>The analysis excludes gas giant planets with masses equal to or greater than one Jupiter mass within 5 astronomical units of the primary star, 70 Ophiuchi A, and within 0.5 astronomical units of the smaller companion star, 70 Ophiuchi B.</p>
+
+<h3>Could habitable, Earth-sized planets still exist in 70 Ophiuchi AB?</h3>
+<p>Yes. Ruling out disruptive Jupiter-mass giants within 5 astronomical units actually improves the odds that smaller worlds, from Saturn-mass and Neptune-mass planets down to rocky Earth-like planets, could maintain stable orbits inside the habitable zone of either star.</p>
+
+<h3>How will future NASA missions search 70 Ophiuchi AB for rocky worlds?</h3>
+<p>Because stellar activity masks tiny Earth-scale radial-velocity signals, upcoming space concepts such as the binary-focused SHERA mission and NASA's flagship Habitable Worlds Observatory will use ultra-precise space astrometry and direct coronagraphic imaging to look for smaller planets around both stars.</p>`
+  },
+  {
     id: "shaped-ultrafast-laser-beams-computer-memory-1000x-faster",
     slug: "shaped-ultrafast-laser-beams-computer-memory-1000x-faster",
     title: "Shaped Ultrafast Laser Beams Could Make Computer Memory 1,000x Faster",
