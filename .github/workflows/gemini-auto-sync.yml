@@ -1,106 +1,302 @@
+
 name: Auto-Sync Daily Articles from Gemini Drive Folder
 
 on:
-  schedule:
-    # Polls every 5 minutes so articles auto-sync immediately after Gemini's Part A + Part B run finishes
-    - cron: '*/5 * * * *'
+  # Immediate trigger after Gemini Part B completes
+  repository_dispatch:
+    types: [articles_ready]
+
+  # Manual fallback
   workflow_dispatch:
+
+  # Backup polling every 5 minutes
+  schedule:
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: write
 
+concurrency:
+  group: curiosityfields-article-sync
+  cancel-in-progress: false
+
 jobs:
   sync-articles:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    timeout-minutes: 20
 
-      - name: Discover & sync new articles, cover thumbnails, inline images, and sitemap from Drive
+    steps:
+      - name: Checkout latest repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Discover Drive payloads and images
         env:
           DRIVE_FOLDER_ID: "1P8l-xqjJIKcqsUR1IF8fiZvrvRl1v5Md"
+          PAYLOAD_FILE_ID: ${{ github.event.client_payload.payload_file_id || '' }}
           VERIFIED_CUMULATIVE_PAYLOAD_ID: "1HjCsPKrISZiAbJR9BLDQhaUq_9E57LV1"
         run: |
-          node << 'EOF'
+          mkdir -p /tmp/gemini_sync
+
+          node <<'EOF'
           const fs = require('fs');
           const path = require('path');
           const { execFileSync } = require('child_process');
 
+          const dir = '/tmp/gemini_sync';
           const folderId = process.env.DRIVE_FOLDER_ID;
+          const directId = process.env.PAYLOAD_FILE_ID;
           const cumulativeId = process.env.VERIFIED_CUMULATIVE_PAYLOAD_ID;
-          const syncDir = '/tmp/gemini_sync';
-          fs.mkdirSync(syncDir, { recursive: true });
-          fs.mkdirSync('public/images/articles', { recursive: true });
 
-          function curlDownload(url, destPath) {
+          function curl(url, destination) {
             try {
-              execFileSync('curl', ['-sSL', '--fail', '--retry', '3', '-o', destPath, url], { stdio: 'pipe' });
-              return fs.existsSync(destPath) && fs.statSync(destPath).size > 0;
-            } catch (e) {
+              execFileSync('curl', [
+                '-sSL', '--fail',
+                '--retry', '3',
+                '--retry-delay', '2',
+                '-o', destination,
+                url
+              ], { stdio: 'pipe' });
+
+              return fs.existsSync(destination) &&
+                fs.statSync(destination).size > 0;
+            } catch {
               return false;
             }
           }
 
-          function downloadDriveFile(fileId, destPath) {
-            const directUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-            if (curlDownload(directUrl, destPath)) {
-              const head = fs.readFileSync(destPath, { encoding: 'utf8', flag: 'r' }).slice(0, 120);
-              if (!head.includes('<!DOCTYPE html>') && !head.includes('<html')) {
+          function downloadDrive(id, destination) {
+            const urls = [
+              `https://drive.google.com/uc?export=download&id=${id}`,
+              `https://drive.usercontent.google.com/download?id=${id}&export=download&confirm=t`
+            ];
+
+            for (const url of urls) {
+              if (!curl(url, destination)) continue;
+
+              const head = fs.readFileSync(destination)
+                .subarray(0, 500).toString('utf8').toLowerCase();
+
+              if (
+                !head.includes('<!doctype html') &&
+                !head.includes('<html')
+              ) {
                 return true;
               }
             }
-            const confirmUrl = `https://drive.usercontent.google.com/download?id=${fileId}&export=download&confirm=t`;
-            return curlDownload(confirmUrl, destPath);
+
+            return false;
           }
 
-          // 1. Discover all files inside the public Google Drive folder via lightweight embeddedfolderview
-          const discoveredPayloads = [];
-          const discoveredImagesByName = {};
-          const listHtmlPath = path.join(syncDir, 'folder_list.html');
-          const embedUrl = `https://drive.google.com/embeddedfolderview?id=${folderId}#list`;
+          // Always discover image IDs, including event-triggered runs.
+          const folderPath = path.join(dir, 'folder_list.html');
 
-          if (curlDownload(embedUrl, listHtmlPath)) {
-            const html = fs.readFileSync(listHtmlPath, 'utf8');
-            const entryRegex = /id="entry-([A-Za-z0-9_-]+)"[\s\S]*?<div class="flip-entry-title">([^<]+)<\/div>/g;
-            let m;
-            while ((m = entryRegex.exec(html)) !== null) {
-              const fid = m[1];
-              const title = m[2].trim();
-              if (title.startsWith('daily_publish_payload') && title.endsWith('.json')) {
-                discoveredPayloads.push({ id: fid, title });
-              } else if (title.endsWith('.jpg') || title.endsWith('.png')) {
-                discoveredImagesByName[title] = fid;
+          const folderUrl =
+            `https://drive.google.com/embeddedfolderview?id=${folderId}#list`;
+
+          if (!curl(folderUrl, folderPath)) {
+            throw new Error('Could not access Google Drive folder listing.');
+          }
+
+          const html = fs.readFileSync(folderPath, 'utf8');
+
+          const regex =
+            /id="entry-([A-Za-z0-9_-]+)"[\s\S]*?<div class="flip-entry-title">([^<]+)<\/div>/g;
+
+          const payloads = [];
+          const imageMap = {};
+
+          let match;
+
+          while ((match = regex.exec(html)) !== null) {
+            const id = match[1];
+            const name = match[2].trim();
+
+            if (/\.(jpg|jpeg|png|webp)$/i.test(name)) {
+              imageMap[name] = id;
+            }
+
+            if (
+              name.startsWith('daily_publish_payload') &&
+              name.endsWith('.json')
+            ) {
+              payloads.push({ id, title: name });
+            }
+          }
+
+          // Direct event: process only the payload supplied by Part B.
+          if (directId) {
+            payloads.length = 0;
+            payloads.push({
+              id: directId,
+              title: 'event-payload.json'
+            });
+          } else {
+            // Fallback: process discovered payloads and verified cumulative payload.
+            if (
+              cumulativeId &&
+              !payloads.some(p => p.id === cumulativeId)
+            ) {
+              payloads.push({
+                id: cumulativeId,
+                title: 'verified-cumulative.json'
+              });
+            }
+          }
+
+          fs.writeFileSync(
+            path.join(dir, 'image-map.json'),
+            JSON.stringify(imageMap)
+          );
+
+          console.log(
+            `Discovered ${Object.keys(imageMap).length} images and ${payloads.length} payloads.`
+          );
+
+          const readyPayloads = [];
+
+          for (const item of payloads) {
+            const destination = path.join(dir, `${item.id}.json`);
+
+            if (!downloadDrive(item.id, destination)) {
+              throw new Error(`Payload download failed: ${item.title}`);
+            }
+
+            let payload;
+
+            try {
+              payload = JSON.parse(fs.readFileSync(destination, 'utf8'));
+            } catch {
+              throw new Error(`Invalid JSON: ${item.title}`);
+            }
+
+            if (payload.status !== 'READY_FOR_SYNC') {
+              console.log(`Not ready: ${item.title}`);
+              continue;
+            }
+
+            if (
+              !Array.isArray(payload.articles) ||
+              payload.articles.length === 0
+            ) {
+              throw new Error(`Ready payload has no articles: ${item.title}`);
+            }
+
+            readyPayloads.push({
+              path: destination,
+              title: item.title
+            });
+          }
+
+          fs.writeFileSync(
+            path.join(dir, 'ready-payloads.json'),
+            JSON.stringify(readyPayloads)
+          );
+
+          console.log(`Ready payloads: ${readyPayloads.length}`);
+          EOF
+
+      - name: Sync articles, cover images, inline images and sitemap
+        run: |
+          node <<'EOF'
+          const fs = require('fs');
+          const path = require('path');
+          const { execFileSync } = require('child_process');
+
+          const dir = '/tmp/gemini_sync';
+          const imageDir = 'public/images/articles';
+
+          const manifest = path.join(dir, 'ready-payloads.json');
+
+          if (!fs.existsSync(manifest)) {
+            throw new Error('Ready payload manifest is missing.');
+          }
+
+          const payloadFiles = JSON.parse(
+            fs.readFileSync(manifest, 'utf8')
+          );
+
+          if (payloadFiles.length === 0) {
+            console.log('No READY_FOR_SYNC payloads. Nothing to sync.');
+            process.exit(0);
+          }
+
+          const imageMap = JSON.parse(
+            fs.readFileSync(path.join(dir, 'image-map.json'), 'utf8')
+          );
+
+          fs.mkdirSync(imageDir, { recursive: true });
+
+          function safeName(filename) {
+            if (!filename || path.basename(filename) !== filename) {
+              throw new Error(`Invalid image filename: ${filename}`);
+            }
+            return filename;
+          }
+
+          function downloadImage(id, destination) {
+            const urls = [
+              `https://drive.google.com/uc?export=download&id=${id}`,
+              `https://drive.usercontent.google.com/download?id=${id}&export=download&confirm=t`
+            ];
+
+            for (const url of urls) {
+              try {
+                execFileSync('curl', [
+                  '-sSL', '--fail', '--retry', '3',
+                  '-o', destination, url
+                ], { stdio: 'pipe' });
+
+                if (
+                  fs.existsSync(destination) &&
+                  fs.statSync(destination).size > 0
+                ) {
+                  const head = fs.readFileSync(destination)
+                    .subarray(0, 500).toString('utf8').toLowerCase();
+
+                  if (
+                    !head.includes('<html') &&
+                    !head.includes('<!doctype html')
+                  ) {
+                    return;
+                  }
+                }
+              } catch {
+                // Try alternate download URL.
               }
             }
-            console.log(`Discovered ${discoveredPayloads.length} payload(s) and ${Object.keys(discoveredImagesByName).length} image(s) from Drive folder listing.`);
+
+            throw new Error(`Image download failed: ${id}`);
           }
 
-          // Sort payloads so verified and date-stamped payloads are processed cleanly
-          discoveredPayloads.sort((a, b) => a.title.localeCompare(b.title));
+          function ensureImage(filename, driveId) {
+            safeName(filename);
 
-          // Always ensure the verified cumulative payload ID is included first
-          if (cumulativeId && !discoveredPayloads.some(p => p.id === cumulativeId)) {
-            discoveredPayloads.unshift({ id: cumulativeId, title: 'daily_publish_payload-000-verified.json' });
-          }
+            const destination = path.join(imageDir, filename);
 
-          let articlesTs = fs.readFileSync('src/data/articles.ts', 'utf8');
-          let sitemapXml = fs.readFileSync('public/sitemap.xml', 'utf8');
-          let modified = false;
+            if (
+              fs.existsSync(destination) &&
+              fs.statSync(destination).size > 0
+            ) {
+              return;
+            }
 
-          // Self-heal any previously injected syntax or schema issues in src/data/articles.ts
-          const healedTs = articlesTs
-            .replace(/readTime:\s*"?(\d+)\s*min\s*read"?\s*,/g, 'readTime: $1,')
-            .replace(/category:\s*"History"\s*,/g, 'category: "history",')
-            .replace(/category:\s*"Technology"\s*,/g, 'category: "technology",')
-            .replace(/category:\s*"Science"\s*,/g, 'category: "science",')
-            .replace(/category:\s*"Future Innovation"\s*,/g, 'category: "future-innovation",')
-            .replace(/category:\s*"Astronomy & Space"\s*,/g, 'category: "astronomy",')
-            .replace(/category:\s*"Artificial Intelligence"\s*,/g, 'category: "artificial-intelligence",')
-            .replace(/category:\s*"Psychology & Mind"\s*,/g, 'category: "psychology-mind",');
-          if (healedTs !== articlesTs) {
-            articlesTs = healedTs;
-            modified = true;
-            console.log('Healed legacy field formatting in src/data/articles.ts');
+            const id = driveId || imageMap[filename];
+
+            if (!id) {
+              throw new Error(`Image not found in Drive: ${filename}`);
+            }
+
+            downloadImage(id, destination);
+
+            if (!fs.existsSync(destination) ||
+                fs.statSync(destination).size === 0) {
+              throw new Error(`Image validation failed: ${filename}`);
+            }
+
+            console.log(`Image ready: ${filename}`);
           }
 
           const CATEGORY_MAP = {
@@ -118,136 +314,216 @@ jobs:
             'psychology-mind': 'psychology-mind'
           };
 
-          let addedCount = 0;
+          function escapeXml(value) {
+            return String(value)
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;')
+              .replace(/'/g, '&apos;');
+          }
 
-          for (const item of discoveredPayloads) {
-            const localJson = path.join(syncDir, `${item.id}_${item.title}`);
-            if (!downloadDriveFile(item.id, localJson)) {
-              console.warn(`Could not download payload ${item.title} (${item.id})`);
-              continue;
-            }
-            let payload;
-            try {
-              payload = JSON.parse(fs.readFileSync(localJson, 'utf8'));
-            } catch (e) {
-              console.warn(`Invalid JSON in ${item.title}:`, e.message);
-              continue;
+          let articlesTs = fs.readFileSync(
+            'src/data/articles.ts', 'utf8'
+          );
+
+          let sitemapXml = fs.readFileSync(
+            'public/sitemap.xml', 'utf8'
+          );
+
+          if (!sitemapXml.includes('</urlset>')) {
+            throw new Error('Invalid sitemap structure.');
+          }
+
+          let added = 0;
+          let modified = false;
+          const seen = new Set();
+
+          for (const item of payloadFiles) {
+            const payload = JSON.parse(
+              fs.readFileSync(item.path, 'utf8')
+            );
+
+            if (payload.status !== 'READY_FOR_SYNC') {
+              throw new Error(`Payload readiness changed: ${item.title}`);
             }
 
-            if (payload.status && payload.status !== 'READY_FOR_SYNC') {
-              console.log(`Skipping payload ${item.title} with status=${payload.status}`);
-              continue;
-            }
-
-            const articles = Array.isArray(payload.articles) ? payload.articles : [];
-            for (const art of articles) {
-              if (!art || !art.slug || !art.title || !art.content) continue;
+            for (const art of payload.articles) {
+              if (!art || !art.slug || !art.title || !art.content) {
+                throw new Error('Incomplete article detected.');
+              }
 
               const slug = String(art.slug).trim();
-              const coverFilename = art.imageFilename || art.imageFileName || `${slug}.jpg`;
-              const coverPublicPath = art.coverImage || art.image || `/images/articles/${coverFilename}`;
-              const coverDriveId = art.driveImageFileId || discoveredImagesByName[coverFilename];
 
-              // Ensure cover image is downloaded into public/images/articles/
-              const targetCoverPath = path.join('public/images/articles', coverFilename);
-              if ((!fs.existsSync(targetCoverPath) || fs.statSync(targetCoverPath).size < 1000) && coverDriveId) {
-                if (downloadDriveFile(coverDriveId, targetCoverPath)) {
-                  console.log(`Downloaded cover image: ${coverFilename}`);
-                  modified = true;
+              if (seen.has(slug)) continue;
+              seen.add(slug);
+
+              const coverFilename = safeName(
+                art.imageFilename ||
+                art.imageFileName ||
+                `${slug}.jpg`
+              );
+
+              ensureImage(
+                coverFilename,
+                art.driveImageFileId || null
+              );
+
+              const coverPath =
+                art.coverImage ||
+                art.image ||
+                `/images/articles/${coverFilename}`;
+
+              for (const img of (art.inlineImages || [])) {
+                const filename = img.filename || img.fileName;
+
+                if (filename) {
+                  ensureImage(
+                    filename,
+                    img.driveFileId || null
+                  );
                 }
               }
 
-              // Ensure all inline images are downloaded into public/images/articles/
-              const inlineList = Array.isArray(art.inlineImages) ? art.inlineImages : [];
-              for (const inl of inlineList) {
-                const inlName = inl.filename || inl.fileName;
-                const inlId = inl.driveFileId || (inlName ? discoveredImagesByName[inlName] : null);
-                if (inlName && inlId) {
-                  const targetInlPath = path.join('public/images/articles', inlName);
-                  if (!fs.existsSync(targetInlPath) || fs.statSync(targetInlPath).size < 1000) {
-                    if (downloadDriveFile(inlId, targetInlPath)) {
-                      console.log(`Downloaded inline image: ${inlName}`);
-                      modified = true;
-                    }
-                  }
+              const exists =
+                articlesTs.includes(`slug: "${slug}"`) ||
+                articlesTs.includes(`slug: '${slug}'`);
+
+              if (!exists) {
+                const rawCategory = String(
+                  art.categorySlug || art.category || 'science'
+                ).toLowerCase().trim();
+
+                const category = CATEGORY_MAP[rawCategory];
+
+                if (!category) {
+                  throw new Error(`Unknown category: ${rawCategory}`);
                 }
-              }
 
-              if (articlesTs.includes(`slug: "${slug}"`) || articlesTs.includes(`slug: '${slug}'`)) {
-                continue;
-              }
+                const publishedAt =
+                  art.publishedAt || payload.publishDate;
 
-              const rawCat = String(art.categorySlug || art.category || 'science').toLowerCase().trim();
-              const normalizedCategory = CATEGORY_MAP[rawCat] || 'science';
-              const readTimeInt = typeof art.readTime === 'number' ? art.readTime : (parseInt(String(art.readTime), 10) || 6);
-              const authorIdx = typeof art.authorIndex === 'number' ? art.authorIndex : 0;
-              const safeContent = String(art.content || '').split('`').join('\\`').split('${').join('\\${');
+                if (!publishedAt) {
+                  throw new Error(`Missing publication date: ${slug}`);
+                }
 
-              const entryLines = [
-                '  {',
-                `    id: ${JSON.stringify(art.id || slug)},`,
-                `    slug: ${JSON.stringify(slug)},`,
-                `    title: ${JSON.stringify(art.title)},`,
-                `    metaTitle: ${JSON.stringify(art.metaTitle || art.title)},`,
-                `    excerpt: ${JSON.stringify(art.excerpt || art.metaDescription || '')},`,
-                `    metaDescription: ${JSON.stringify(art.metaDescription || art.excerpt || '')},`,
-                `    category: ${JSON.stringify(normalizedCategory)},`,
-                `    author: authors[${authorIdx}],`,
-                `    coverImage: ${JSON.stringify(coverPublicPath)},`,
-                `    publishedAt: ${JSON.stringify(art.publishedAt || payload.publishDate || '2026-10-31')},`,
-                `    readTime: ${readTimeInt},`,
-                `    featured: ${Boolean(art.featured)},`,
-                `    editorsPick: ${Boolean(art.editorsPick)},`,
-                `    tags: ${JSON.stringify(Array.isArray(art.tags) ? art.tags : [])},`,
-                `    content: \`${safeContent}\``,
-                '  },'
-              ].join('\n');
+                const readTime =
+                  typeof art.readTime === 'number'
+                    ? art.readTime
+                    : parseInt(String(art.readTime), 10) || 6;
 
-              const match = articlesTs.match(/export\s+const\s+articles(?:\s*:\s*[^=]+)?\s*=\s*\[/);
-              if (match) {
-                const insertPos = match.index + match[0].length;
-                articlesTs = articlesTs.slice(0, insertPos) + '\n' + entryLines + articlesTs.slice(insertPos);
-                addedCount++;
+                const authorIndex =
+                  typeof art.authorIndex === 'number'
+                    ? art.authorIndex
+                    : 0;
+
+                const safeContent = String(art.content)
+                  .split('\\').join('\\\\')
+                  .split('`').join('\\`')
+                  .split('${').join('\\${');
+
+                const entry = [
+                  '  {',
+                  `    id: ${JSON.stringify(art.id || slug)},`,
+                  `    slug: ${JSON.stringify(slug)},`,
+                  `    title: ${JSON.stringify(art.title)},`,
+                  `    metaTitle: ${JSON.stringify(art.metaTitle || art.title)},`,
+                  `    excerpt: ${JSON.stringify(art.excerpt || art.metaDescription || '')},`,
+                  `    metaDescription: ${JSON.stringify(art.metaDescription || art.excerpt || '')},`,
+                  `    category: ${JSON.stringify(category)},`,
+                  `    author: authors[${authorIndex}],`,
+                  `    coverImage: ${JSON.stringify(coverPath)},`,
+                  `    publishedAt: ${JSON.stringify(publishedAt)},`,
+                  `    readTime: ${readTime},`,
+                  `    featured: ${Boolean(art.featured)},`,
+                  `    editorsPick: ${Boolean(art.editorsPick)},`,
+                  `    tags: ${JSON.stringify(Array.isArray(art.tags) ? art.tags : [])},`,
+                  `    content: \`${safeContent}\``,
+                  '  },'
+                ].join('\n');
+
+                const marker = articlesTs.match(
+                  /export\s+const\s+articles(?:\s*:\s*[^=]+)?\s*=\s*\[/
+                );
+
+                if (!marker) {
+                  throw new Error('Articles array not found.');
+                }
+
+                const pos = marker.index + marker[0].length;
+
+                articlesTs =
+                  articlesTs.slice(0, pos) +
+                  '\n' + entry +
+                  articlesTs.slice(pos);
+
+                added++;
                 modified = true;
-                console.log(`Injected article into src/data/articles.ts: ${slug} (${normalizedCategory})`);
+
+                console.log(`Added article: ${slug}`);
+              } else {
+                console.log(`Article already exists: ${slug}`);
               }
 
-              const locUrl = `https://www.curiosityfields.com/article/${slug}`;
-              if (!sitemapXml.includes(locUrl)) {
-                const urlBlock = [
+              // Ensure sitemap entry exists even for existing articles.
+              const loc =
+                `https://www.curiosityfields.com/article/${slug}`;
+
+              if (!sitemapXml.includes(`<loc>${loc}</loc>`)) {
+                const publishedAt =
+                  art.publishedAt || payload.publishDate;
+
+                if (!publishedAt) {
+                  throw new Error(`Missing sitemap date: ${slug}`);
+                }
+
+                const urlEntry = [
                   '  <url>',
-                  `    <loc>${locUrl}</loc>`,
-                  `    <lastmod>${art.publishedAt || '2026-10-31'}</lastmod>`,
+                  `    <loc>${escapeXml(loc)}</loc>`,
+                  `    <lastmod>${escapeXml(publishedAt)}</lastmod>`,
                   '    <changefreq>monthly</changefreq>',
                   '    <priority>0.8</priority>',
-                  '  </url>',
-                  '</urlset>'
+                  '  </url>'
                 ].join('\n');
-                sitemapXml = sitemapXml.replace('</urlset>', urlBlock);
+
+                sitemapXml = sitemapXml.replace(
+                  '</urlset>',
+                  urlEntry + '\n</urlset>'
+                );
+
                 modified = true;
-                console.log(`Added URL to public/sitemap.xml: ${locUrl}`);
+                console.log(`Added sitemap URL: ${slug}`);
               }
             }
           }
 
           if (modified) {
-            fs.writeFileSync('src/data/articles.ts', articlesTs, 'utf8');
-            fs.writeFileSync('public/sitemap.xml', sitemapXml, 'utf8');
-            console.log(`Repository updated (${addedCount} new article(s) injected).`);
-          } else {
-            console.log('All articles and images are already up to date.');
+            fs.writeFileSync('src/data/articles.ts', articlesTs);
+            fs.writeFileSync('public/sitemap.xml', sitemapXml);
           }
+
+          console.log(`New articles added: ${added}`);
           EOF
 
-      - name: Commit and push changes to main (for Lovable sync)
+      - name: Commit and push changes to main
         run: |
+          git diff --check
+
           git config user.name "CuriosityFields Auto-Publisher"
-          git config user.email "sunilfun009@gmail.com"
-          git add public/images/articles/ src/data/articles.ts public/sitemap.xml
-          if git diff --staged --quiet; then
+          git config user.email "bot@curiosityfields.com"
+
+          git add public/images/articles/ \
+            src/data/articles.ts \
+            public/sitemap.xml
+
+          if git diff --cached --quiet; then
             echo "No new changes to commit."
           else
-            git commit -m "Auto-sync daily CuriosityFields articles, images, and sitemap"
+            git commit -m "Auto-sync CuriosityFields articles, images and sitemap"
+
             git pull --rebase origin main
+
             git push origin main
+
+            echo "Successfully committed and pushed to main."
           fi
