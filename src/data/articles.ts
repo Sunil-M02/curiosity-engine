@@ -117,6 +117,209 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "global-warming-accelerated-035-celsius-per-decade-since-2015",
+    slug: "global-warming-accelerated-035-celsius-per-decade-since-2015",
+    title: "Global Warming Has Accelerated to 0.35 Degrees Celsius per Decade Since 2015",
+    metaTitle: "Global Warming Has Accelerated to 0.35 Degrees Celsius per Decade Since 2015 | CuriosityFields",
+    excerpt: "After filtering out El Nino, volcanic eruptions, and solar cycles across five global temperature datasets, climate scientists confirmed with >98% confidence that warming has nearly doubled to 0.35 C per decade since 2015.",
+    metaDescription: "Learn how Potsdam Institute for Climate Impact Research scientists filtered out El Nino, volcanic aerosols, and solar cycles to confirm global warming accelerated to 0.35 C per decade since 2015.",
+    category: "science",
+    author: authors[1],
+    coverImage: "/images/articles/global-warming-accelerated-035-celsius-per-decade-since-2015.jpg",
+    publishedAt: "2026-11-06",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Climate Change","Global Warming","Atmospheric Physics","Paris Agreement","Earth Science"],
+    content: `<p class="lead"><strong>After mathematically filtering out temporary temperature spikes from El Nino ocean cycles, volcanic eruptions, and solar activity across five major global climate records, scientists at the Potsdam Institute for Climate Impact Research have confirmed with greater than 98 percent statistical confidence that global warming has accelerated since around 2015 to roughly 0.35 degrees Celsius per decade, nearly double the 1970 to 2015 average pace.</strong> Published in <a href="https://doi.org/10.1029/2025GL118804" target="_blank" rel="noopener noreferrer">Geophysical Research Letters</a> in 2026 by statistical analyst Grant Foster and climate physicist Professor Stefan Rahmstorf, the analysis warns that maintaining the past decade's warming rate would push Earth across the long-term 1.5 degrees Celsius Paris Agreement threshold before 2030.</p>
+
+<h2>Why Detecting an Acceleration in Global Warming Was So Difficult</h2>
+<p>Separating a long-term planetary trend from short-term environmental fluctuations requires the same rigorous signal extraction used to reconstruct <a href="https://www.curiosityfields.com/article/ancient-tibetan-ice-cores-128000-years-climate-history">128,000-year Tibetan ice cores</a> and regional <a href="https://www.curiosityfields.com/article/antarctica-winter-sea-ice-hole-climate-pattern">Antarctic sea-ice anomalies</a>. Since modern instrumental temperature records began in 1880, Earth's surface temperature has climbed in an irregular staircase rather than a smooth line. Between 1970 and 2015, global mean surface temperature rose at a relatively steady linear rate of just under 0.20 degrees Celsius per decade.</p>
+
+<p>When global temperatures shattered records in 2023 and 2024, climate scientists debated whether the underlying greenhouse warming rate had genuinely shifted into a higher gear or whether temporary natural variability was skewing the curve. Three natural forces routinely mask or amplify multi-year temperature trends: the El Nino-Southern Oscillation, which releases vast plumes of stored heat from the tropical Pacific Ocean into the atmosphere; explosive volcanic eruptions, which inject reflective sulfate aerosols into the stratosphere to cool the planet; and the 11-year solar magnetic cycle, which alters incoming solar irradiance.</p>
+
+<p>In their <a href="https://www.sciencedaily.com/releases/2026/10/261027231200.htm" target="_blank" rel="noopener noreferrer">Potsdam Institute for Climate Impact Research study</a>, US statistics specialist Grant Foster and PIK lead author Professor Stefan Rahmstorf removed the effects of El Nino, volcanic aerosols, and solar variations from the observational temperature record. Stripping away that natural noise allowed the underlying long-term anthropogenic warming signal to stand out clearly.</p>
+
+<h2>Testing Five Global Temperature Datasets With Two Independent Models</h2>
+<p>Cross-checking independent observational records to rule out instrument bias is a cornerstone of modern Earth and planetary science, much like astronomers combined multiple observatories to resolve the <a href="https://www.curiosityfields.com/article/170-year-planetary-mystery-70-ophiuchi-stellar-wobble">70 Ophiuchi wobble mystery</a>. Foster and Rahmstorf applied their natural-variability filter to the five most widely used global temperature datasets in climate science: NASA's GISTEMP, NOAA's GlobalTemp, the UK Met Office HadCRUT record, Berkeley Earth, and the European Centre for Medium-Range Weather Forecasts ERA5 reanalysis.</p>
+
+<p>Even after subtracting the warming boost from the strong 2023-2024 El Nino and the peak of the 11-year solar maximum, 2023 and 2024 remained the two hottest years since instrumental records began in 1880. More revealingly, the noise-adjusted curves showed that the upward inflection in warming speed had already begun emerging around 2013 to 2015 across all five datasets, proving that the acceleration was not an artifact of two unusual years.</p>
+
+<p>To test whether the post-2015 slope change was statistically significant, the authors ran two distinct mathematical tests: a quadratic trend analysis, which checks for upward curvature since 1970, and a piecewise linear model, which lets the data itself identify the exact breakpoint year where the warming rate shifted. Both methods confirmed an acceleration since around 2015 with statistical certainty exceeding 98 percent across every single dataset, reaching a recent pace of approximately 0.35 degrees Celsius per decade.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/global-warming-accelerated-035-celsius-per-decade-since-2015-inline-1.jpg" alt="Scientific climate physics visualization showing Pacific El Nino currents, volcanic aerosol plumes, and solar irradiance waves filtered away from a glowing Earth globe to reveal a rising thermal gradient" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">Filtering the noise to see the signal: removing short-term temperature swings from El Nino ocean heat release, volcanic aerosols, and solar cycles across five global datasets reveals a statistically significant (>98%) jump in warming speed since 2015.</figcaption></figure>
+
+<h2>Comparing the 1970-2015 Baseline With the Post-2015 Warming Surge</h2>
+<p>Quantifying the jump from 0.20 to 0.35 degrees Celsius per decade highlights why biological and physical thresholds are arriving faster than linear projections assumed, a risk directly reflected in <a href="https://www.curiosityfields.com/article/coral-reef-extinction-risk-iucn-red-list-44-percent">coral extinction assessments</a> across tropical oceans.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Climate Metric &amp; Analytical Parameter</th>
+        <th>1970 to 2015 Historical Baseline</th>
+        <th>Post-2015 Accelerated Regime (<a href="https://doi.org/10.1029/2025GL118804" target="_blank" rel="noopener noreferrer">Foster &amp; Rahmstorf, GRL 2026</a>)</th>
+        <th>Observational &amp; Statistical Basis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Average Global Warming Rate</td>
+        <td>Just under 0.20 degrees Celsius per decade</td>
+        <td>Approximately 0.35 degrees Celsius per decade (nearly 2x faster)</td>
+        <td>Consistent across NASA, NOAA, HadCRUT, Berkeley Earth, and ERA5</td>
+      </tr>
+      <tr>
+        <td>Natural Variability Filtering</td>
+        <td>Raw and adjusted trends track near ~0.18 to 0.20 C/decade</td>
+        <td>Acceleration persists after removing El Nino, volcanic, and solar effects</td>
+        <td>Multivariate regression removes short-term ENSO, aerosol, and TSI noise</td>
+      </tr>
+      <tr>
+        <td>Statistical Confidence &amp; Timing</td>
+        <td>Steady linear warming regime following 1970s aerosol shift</td>
+        <td>Greater than 98 percent confidence; inflection emerges around 2013 to 2015</td>
+        <td>Verified independently via quadratic trend and piecewise linear models</td>
+      </tr>
+      <tr>
+        <td>Paris Agreement 1.5 C Crossing Horizon</td>
+        <td>Previously projected for the early-to-mid 2030s at 0.20 C/decade</td>
+        <td>Long-term 1.5 C exceedance before 2030 if 10-year pace continues</td>
+        <td>Based on multi-year sustained warming trend rather than single El Nino years</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>What a Pre-2030 Paris Threshold Crossing Means for Clean Energy</h2>
+<p>Under the international Paris Agreement, nations pledged to pursue efforts to hold the long-term human-caused temperature rise below 1.5 degrees Celsius above preindustrial levels, defined by multi-year average warming rather than a single hot year. As Professor Rahmstorf warned, if the 0.35 degrees Celsius per decade rate observed over the past ten years continues unabated, Earth will cross the permanent 1.5 degrees Celsius guardrail before 2030.</p>
+
+<p>Halting that acceleration depends entirely on how rapidly global energy and industrial systems cut fossil-fuel carbon dioxide emissions to net zero. Deploying <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-illinois">long-duration energy storage</a> to buffer weather-driven grids, scaling <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">AI-designed CO2 catalysts</a> to synthesize carbon-neutral fuels, and engineering <a href="https://www.curiosityfields.com/article/grain-boundary-engineering-metals-defy-deep-freeze-20-kelvin">cryogenic hydrogen alloys</a> for zero-emission transport all gain heightened urgency when the remaining carbon budget shrinks by several years.</p>
+
+<h2>Statistical Detection Versus Physical Attribution Limits</h2>
+<p>Foster and Rahmstorf are careful to draw a sharp scientific boundary between statistical detection and physical attribution. Their <a href="https://doi.org/10.1029/2025GL118804" target="_blank" rel="noopener noreferrer">Geophysical Research Letters study</a> proves with over 98 percent confidence that the warming rate has sped up since 2015, and notes that such an acceleration falls within the range simulated by physics-based Earth system models. However, statistical time-series analysis alone cannot partition exactly how much of the post-2015 surge comes from record greenhouse gas concentrations versus reductions in reflective shipping and industrial sulfate aerosols or cloud-albedo feedbacks. Pinpointing the exact radiative weights of those physical drivers remains the crucial next step for atmospheric observation networks.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How fast is Earth warming now compared to previous decades?</h3>
+<p>Between 1970 and 2015, global temperatures rose at an average pace of just under 0.20 degrees Celsius per decade. Over the past 10 years since around 2015, the warming rate has surged to approximately 0.35 degrees Celsius per decade across five major global datasets, nearly double the previous pace.</p>
+
+<h3>Did El Nino or the solar cycle cause the recent spike in global temperatures?</h3>
+<p>El Nino and the 11-year solar maximum did add temporary heat in 2023 and 2024, but researchers mathematically filtered out El Nino, volcanic eruptions, and solar fluctuations. Even after removing those natural factors, 2023 and 2024 remained the hottest years on record and the post-2015 acceleration held with over 98 percent confidence.</p>
+
+<h3>Which global temperature records were analyzed in the study?</h3>
+<p>The Potsdam Institute for Climate Impact Research team analyzed all five primary global temperature records: NASA, NOAA, HadCRUT, Berkeley Earth, and ERA5. Every dataset independently showed the same post-2015 acceleration.</p>
+
+<h3>When could Earth cross the 1.5 degrees Celsius Paris Agreement limit?</h3>
+<p>The Paris Agreement's 1.5 degrees Celsius threshold refers to long-term average warming rather than a single hot year. If the past decade's warming rate of 0.35 degrees Celsius per decade continues, Earth will exceed the long-term 1.5 degrees Celsius limit before 2030.</p>
+
+<h3>Does the study prove why global warming accelerated after 2015?</h3>
+<p>No. The study was designed to statistically detect a change in the warming rate after removing natural noise, not to isolate the exact physical cause. While the acceleration is consistent with climate model simulations of rising greenhouse gases and reduced aerosol pollution, separate attribution studies are needed to quantify each physical driver.</p>`
+  },
+  {
+    id: "weakened-beta-band-brain-signals-link-schizophrenia-symptoms",
+    slug: "weakened-beta-band-brain-signals-link-schizophrenia-symptoms",
+    title: "Weakened Beta-Band Brain Signals Link Diverse Symptoms of Schizophrenia",
+    metaTitle: "Weakened Beta-Band Brain Signals Link Diverse Symptoms of Schizophrenia | CuriosityFields",
+    excerpt: "High-resolution magnetoencephalography (MEG) scans at McGill University reveal that a single weakened and slowed beta-band brain signal links impaired sensory timing, movement, and disorganized speech in schizophrenia.",
+    metaDescription: "Discover how McGill University neuroscientists used MEG brain imaging to link sensory timing deficits, movement coordination, and disorganized speech in schizophrenia to weakened beta-band oscillations.",
+    category: "psychology-mind",
+    author: authors[0],
+    coverImage: "/images/articles/weakened-beta-band-brain-signals-link-schizophrenia-symptoms.jpg",
+    publishedAt: "2026-11-06",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Neuroscience","Schizophrenia","Brain Oscillations","Magnetoencephalography","Predictive Processing"],
+    content: `<p class="lead"><strong>High-resolution magnetoencephalography scans of 50 human participants reveal that a single weakened and slowed beta-band brain signal links three seemingly unrelated hallmarks of schizophrenia: impaired timing of sights and sounds, abnormal movement coordination, and disorganized speech.</strong> Published in October 2026 in <a href="https://doi.org/10.1126/sciadv.aeh5819" target="_blank" rel="noopener noreferrer">Science Advances</a> by lead author Dr. Hsi Tiana Wei, biophysicist Dr. Sylvain Baillet, and senior psychiatrist Dr. Lena Palaniyappan at McGill University and the Douglas Research Centre, the findings suggest that diverse psychotic symptoms may share a common neurophysiological root in how the brain updates its internal model of reality.</p>
+
+<h2>Why Schizophrenia Symptoms Have Long Been Treated as Separate Puzzles</h2>
+<p>Psychiatrists and neuroscientists studying complex brain conditions often find that distinct cognitive abilities rely on separable neural circuits, much like <a href="https://www.curiosityfields.com/article/basal-ganglia-damage-strategic-thinking-brain-study">basal ganglia damage</a> impairs simple trial-and-error reward learning while sparing strategic social reasoning. In schizophrenia, however, patients frequently experience a baffling combination of perceptual distortions, subtle motor timing deficits, fragmented or tangential speech, and clinical delusions or hallucinations. For decades, research groups typically investigated sensory perception, motor control, and language disorganization in separate silos, assuming each symptom domain arose from its own isolated circuit failure.</p>
+
+<p>An alternative framework known as predictive processing proposes that the brain constantly generates top-down expectations about incoming sights, sounds, and self-generated actions, then revises those internal predictions whenever sensory feedback arrives. If the neural rhythm responsible for broadcasting and updating those predictions falters, a person's timing of visual and auditory events, motor execution, and coherent sentence planning should all degrade together.</p>
+
+<p>In their <a href="https://www.sciencedaily.com/releases/2026/10/261028232659.htm" target="_blank" rel="noopener noreferrer">McGill University and Montreal Neurological Institute-Hospital study</a>, postdoctoral researcher Dr. Hsi Tiana Wei, Dominic Boutet, Rukun Dou, Jessica Ahrens, Nadia Zeramdini, Alban Voppel, Fernando Gonzales-Aste, Fatme Abboud, Professor Sylvain Baillet, and Professor Lena Palaniyappan tested whether a shared oscillatory deficit bridges perception, action, and language. Rather than relying on slow blood-flow scans, the team tracked millisecond-scale magnetic fields across the cerebral cortex while participants processed sensory cues, performed movements, and spoke naturally.</p>
+
+<h2>Inside the McConnell Brain Imaging Centre MEG Experiments</h2>
+<p>Capturing fast cortical rhythms across multiple behavioral tasks requires non-invasive sensors with millisecond precision, complementing invasive electrophysiological discoveries showing how <a href="https://www.curiosityfields.com/article/waking-brain-ripples-tag-daytime-experiences-memory-storage">waking brain ripples</a> tag daytime experiences for memory consolidation. The McGill and University of Montreal researchers recorded brain activity at the McConnell Brain Imaging Centre at The Neuro using magnetoencephalography (MEG), which detects femto-tesla magnetic fields generated by synchronized electrical currents in cortical pyramidal neurons.</p>
+
+<p>The study enrolled 25 adults diagnosed with schizophrenia and 25 healthy control participants. Inside the magnetically shielded room, participants completed multisensory timing tasks that required judging the temporal order and synchrony of visual flashes and auditory tones, alongside finger-movement paradigms. Outside the scanner tasks, the researchers recorded and quantitatively analyzed speech samples from the participants to measure conceptual disorganization, tangentiality, and structural coherence.</p>
+
+<p>Across visual processing, auditory timing, and motor execution, the same neurophysiological signature emerged in the schizophrenia group: rhythmic electrical activity in the beta frequency band (typically oscillating between 13 and 30 hertz) was significantly weaker and slower to rebound than in healthy controls. Crucially, individuals with the most severely blunted beta-band dynamics exhibited the poorest multisensory timing accuracy, the most disorganized speech patterns, and the highest overall clinical symptom severity.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/weakened-beta-band-brain-signals-link-schizophrenia-symptoms-inline-1.jpg" alt="Scientific visualization of a translucent human brain showing golden-amber and cyan beta-band oscillatory pathways connecting visual, auditory, sensorimotor, and frontal speech cortices" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">One rhythm across three domains: magnetoencephalography recordings show that weakened beta-band oscillations (13 to 30 Hz) link impaired audio-visual timing, motor coordination, and disorganized speech in schizophrenia.</figcaption></figure>
+
+<h2>How Beta-Band Oscillations Coordinate Perception, Action, and Speech</h2>
+<p>Understanding why a single frequency band can disrupt both sensory timing and spoken language builds on broader insights into how cortical rhythms govern conscious awareness, including studies showing that <a href="https://www.curiosityfields.com/article/brain-signals-predict-attention-failure-before-you-notice">alpha and slow waves</a> shift before a lapse in attention. In healthy cortical networks, beta-band oscillations act as a top-down stabilizing carrier wave that maintains current sensorimotor and linguistic context while signaling when an internal model needs to be held or updated.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Behavioral &amp; Clinical Domain</th>
+        <th>Experimental Task &amp; Measurement</th>
+        <th>Healthy Control Beta-Band Dynamics</th>
+        <th>Schizophrenia Group Beta-Band Finding (<a href="https://doi.org/10.1126/sciadv.aeh5819" target="_blank" rel="noopener noreferrer">Wei et al., Science Advances 2026</a>)</th>
+        <th>Functional Consequence for Everyday Cognition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Multisensory Perception (Audio-Visual Timing)</td>
+        <td>Judging timing and order of visual flashes and auditory tones during MEG</td>
+        <td>Crisp beta-band desynchronization and rapid post-stimulus rebound</td>
+        <td>Significantly weakened and slowed beta-band amplitude and timing</td>
+        <td>Blurred temporal window between sights and sounds; fragmented sensory reality</td>
+      </tr>
+      <tr>
+        <td>Motor Coordination &amp; Action</td>
+        <td>Cued voluntary movement execution tracked via cortical MEG sensors</td>
+        <td>Strong sensorimotor beta suppression followed by sharp beta rebound</td>
+        <td>Attenuated beta modulation across primary motor and premotor cortices</td>
+        <td>Impaired internal forward modeling of self-generated physical actions</td>
+      </tr>
+      <tr>
+        <td>Language &amp; Speech Production</td>
+        <td>Quantitative linguistic analysis of natural speech organization</td>
+        <td>Intact beta dynamics correlate with coherent discourse planning</td>
+        <td>Greater beta-band weakening predicts more disorganized speech</td>
+        <td>Difficulty maintaining topical thread and syntactic structure across sentences</td>
+      </tr>
+      <tr>
+        <td>Overall Clinical Symptom Severity</td>
+        <td>Standardized psychiatric symptom rating scales across patients</td>
+        <td>Baseline healthy neurophysiological reference profile</td>
+        <td>Pronounced beta abnormalities track higher total clinical burden</td>
+        <td>Identifies a candidate cross-domain biomarker for early psychosis support</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Potential for Adolescent Risk Screening and Targeted Neuromodulation</h2>
+<p>Discovering a shared physiological thread across sensory, motor, and linguistic symptoms opens new possibilities for quantitative psychiatric biomarkers, complementing biophysical efforts that use <a href="https://www.curiosityfields.com/article/mathematical-models-copper-zinc-alzheimer-plaque-growth">kinetic mathematical models</a> to track neurodegenerative disease mechanisms. As Dr. Lena Palaniyappan (Professor of Psychiatry at McGill University and Director of the Centre of Excellence in Youth Mental Health at the Douglas Hospital) noted, the earliest prodromal signs of schizophrenia typically surface during adolescence, yet subtle perceptual and speech changes often go unrecognized for years until a full psychotic episode occurs.</p>
+
+<p>If non-invasive MEG or high-density electroencephalography can detect weakened beta-band updating across simple audio-visual and motor tasks, clinicians could eventually screen help-seeking youth to identify who needs early preventive care. Furthermore, pinpointing a specific oscillatory deficit gives researchers a concrete physiological target for future pharmacological treatments or non-invasive brain stimulation protocols, which increasingly rely on precision hardware and <a href="https://www.curiosityfields.com/article/ai-models-hardware-software-co-design-at-the-edge">edge signal processing</a> to adapt stimulation pulses in real time.</p>
+
+<h2>Why a 50-Participant Study Requires Larger Independent Replication</h2>
+<p>Despite the consistency of the signal across three behavioral domains, the authors emphasize strict scientific caution before translating beta-band measurements into clinical diagnostics, a standard of evidence that applies equally to <a href="https://www.curiosityfields.com/article/light-controlled-gene-editing-crispr-spatial-precision">precision biomedical tools</a> and <a href="https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained">clinical AI evaluations</a>. As Dr. Wei pointed out, the <a href="https://doi.org/10.1126/sciadv.aeh5819" target="_blank" rel="noopener noreferrer">Science Advances study</a> examined a modest cohort of 25 patients with schizophrenia and 25 healthy controls at a single neuroimaging center. Confirming whether weakened beta-band dynamics reliably predict disorganized speech and psychosis transition will require longitudinal, multi-site studies across hundreds of unmedicated and early-stage adolescents, alongside controls with other psychiatric conditions such as bipolar disorder or major depression.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What brain signal did McGill University researchers link to schizophrenia symptoms?</h3>
+<p>Using high-resolution magnetoencephalography (MEG), the researchers identified a weakened and slowed rhythmic electrical signal in the beta frequency band (13 to 30 hertz) that appeared consistently whether patients were processing sights, hearing sounds, or completing movements.</p>
+
+<h3>How can a single brain rhythm affect vision, hearing, movement, and speech at the same time?</h3>
+<p>Beta-band oscillations help the cerebral cortex maintain and update its internal predictive model of the world. When beta rhythms are too weak or slow, the brain struggles to judge the exact timing of sights and sounds, coordinate motor actions, and keep spoken sentences organized along a coherent train of thought.</p>
+
+<h3>How does magnetoencephalography (MEG) measure brain activity?</h3>
+<p>MEG uses ultra-sensitive magnetic sensors housed inside a magnetically shielded room to detect the tiny magnetic fields produced by electrical currents in brain cells. Unlike structural scans, MEG tracks neural oscillations millisecond by millisecond during live tasks.</p>
+
+<h3>Could this discovery help doctors detect schizophrenia earlier in teenagers?</h3>
+<p>Potentially, yes. Because prodromal signs of psychosis often begin in adolescence and are easily missed in standard interviews, an objective MEG or EEG test measuring beta-band responses during simple sensory timing tasks could help identify high-risk youth who need early support.</p>
+
+<h3>Can a MEG scan diagnose schizophrenia on its own today?</h3>
+<p>No. This initial study included 50 participants (25 patients and 25 healthy controls). Researchers must replicate the findings in much larger, independent, and longitudinal cohorts before beta-band measurements can be used as a validated clinical diagnostic or treatment target.</p>`
+  },
+  {
     id: "machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel",
     slug: "machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel",
     title: "Machine Learning Uncovers 9,389 Reactions to Turn Carbon Dioxide Into Fuel",
