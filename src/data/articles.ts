@@ -117,6 +117,207 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "3d-printed-thermal-cloaks-hide-objects-infrared-cameras",
+    slug: "3d-printed-thermal-cloaks-hide-objects-infrared-cameras",
+    title: "3D-Printed Thermal Cloaks Hide Complex Objects From Infrared Cameras",
+    metaTitle: "3D-Printed Thermal Cloaks Hide Complex Objects From Infrared Cameras | CuriosityFields",
+    excerpt: "By combining 3D-printed aluminum lattices with mold-cast low-conductivity rubber, engineers built the first free-form 3D thermal invisibility cloak that routes heat around complex shapes from any direction.",
+    metaDescription: "Learn how University of Illinois and DTU engineers used 3D-printed aluminum lattices and rubber to build an omnidirectional 3D thermal cloak that hides complex objects from infrared cameras.",
+    category: "technology",
+    author: authors[1],
+    coverImage: "/images/articles/3d-printed-thermal-cloaks-hide-objects-infrared-cameras.jpg",
+    publishedAt: "2026-11-07",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Thermal Metamaterials","3D Printing","Transformation Thermotics","Infrared Cloaking","Electronics Cooling"],
+    content: `<p class="lead"><strong>Engineers at the University of Illinois Urbana-Champaign and the Technical University of Denmark have built and experimentally verified the first free-form three-dimensional thermal invisibility cloak, combining 3D-printed aluminum lattices with mold-cast low-conductivity rubber to route heat smoothly around complex 3D objects from any direction while rendering them invisible to infrared cameras.</strong> Published in October 2026 in <a href="https://doi.org/10.1038/s41467-026-73167-0" target="_blank" rel="noopener noreferrer">Nature Communications</a> by postdoctoral researcher Weichen Li, graduate student Yibo Wang, Professor Ole Sigmund, and senior author Professor Xiaojia Shelly Zhang, the metamaterial shell shields internal payloads from extreme heat and cold without disturbing surrounding temperature fields.</p>
+
+<h2>Why Earlier Thermal Cloaks Failed in Real Three-Dimensional Space</h2>
+<p>Controlling how energy flows around microchips and structural components is a foundational challenge in modern hardware design, complementing breakthroughs in <a href="https://www.curiosityfields.com/article/ultrawide-bandgap-semiconductor-7-ev-aluminum-gallium-oxide">7 eV ultrawide-bandgap semiconductors</a> and <a href="https://www.curiosityfields.com/article/ai-models-hardware-software-co-design-at-the-edge">edge AI hardware</a>. Whenever a solid object sits inside a thermal gradient, it perturbs the natural flow of heat, casting a telltale thermal shadow downstream that an infrared camera can spot immediately and exposing the interior of the object to external temperature swings.</p>
+
+<p>For over a decade, physicists have used the mathematics of transformation thermotics, a diffusive cousin of optical metamaterial cloaking, to calculate how an engineered shell could bend heat flux around an obstacle and recombine the thermal wavefronts on the far side as if nothing were there. In practice, however, nearly all experimental thermal cloaks were restricted to flat, two-dimensional plates, simple concentric cylinders, or unidirectional setups that failed as soon as the heat source shifted angle.</p>
+
+<p>In their <a href="https://www.sciencedaily.com/releases/2026/10/261025073051.htm" target="_blank" rel="noopener noreferrer">University of Illinois Urbana-Champaign and Technical University of Denmark study</a>, Professor Xiaojia Shelly Zhang, Weichen Li, Yibo Wang, and Professor Ole Sigmund solved the three-dimensional material bottleneck. True omnidirectional 3D thermal cloaking requires a shell whose thermal conductivity tensor varies continuously and anisotropically along all three spatial axes at every point in space, a property no single homogeneous bulk metal or polymer possesses in nature.</p>
+
+<h2>How 3D-Printed Aluminum Lattices and Rubber Bend Heat Flux</h2>
+<p>Engineering composite microstructures to achieve extreme physical properties parallels how metallurgists use <a href="https://www.curiosityfields.com/article/grain-boundary-engineering-metals-defy-deep-freeze-20-kelvin">grain-boundary twinning</a> in cryogenic alloys and how photonics engineers sculpt <a href="https://www.curiosityfields.com/article/photonic-materials-control-light-scale-of-atoms-picocavities">sub-nanometer picocavities</a> to guide light. To span the full mathematical range of anisotropic conductivities required by 3D transformation thermotics, Li, Wang, Sigmund, and Zhang designed a unit-cell lattice architecture whose strut thickness and orientation can be tuned independently along three principal directions.</p>
+
+<p>Rather than stopping at finite-element computer simulations, the team fabricated physical 3D cloaks using a two-step hybrid manufacturing process. First, they used laser-based additive manufacturing (3D metal printing) to print an intricate, spatially graded three-dimensional skeleton out of high-conductivity aluminum alloy. Second, they used vacuum-assisted mold casting to infiltrate the open pores of the aluminum lattice with a low-conductivity elastomeric rubber compound.</p>
+
+<p>Inside the finished hybrid composite, the continuous aluminum struts act as high-speed thermal highways that accelerate heat tangential to the cloak's curvature, while the insulating rubber matrix blocks radial heat leakage into the central cavity. By varying the local geometry of the aluminum-rubber unit cells across the shell, the cloak matches the exact spatially varying conductivity tensor prescribed by transformation thermotics for arbitrary 3D shapes.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/3d-printed-thermal-cloaks-hide-objects-infrared-cameras-inline-1.jpg" alt="Scientific thermal visualization showing parallel golden-crimson isothermal heat-flux streamlines bending smoothly around a 3D spherical hybrid lattice cloak and recombining undisturbed downstream while the interior remains dark and shielded" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">Omnidirectional 3D transformation thermotics in action: spatially graded 3D-printed aluminum struts and insulating rubber guide incoming heat flux around complex three-dimensional cavities so downstream isotherms remain straight and unperturbed.</figcaption></figure>
+
+<h2>Infrared Camera Verification on Complex Free-Form 3D Shapes</h2>
+<p>Validating that a metamaterial works across complex geometries requires direct physical imaging, much like magneto-optical Kerr microscopy confirmed <a href="https://www.curiosityfields.com/article/shaped-ultrafast-laser-beams-computer-memory-1000x-faster">shaped-beam magnetic switching</a> and <a href="https://www.curiosityfields.com/article/magnetic-skyrmion-lattice-melting-brain-like-spintronics">skyrmion lattice melting</a>. The Illinois team placed their fabricated 3D cloaks between controlled hot and cold boundary plates to establish a steady-state heat flux and imaged the setup from multiple angles using a calibrated infrared thermal camera.</p>
+
+<p>Across both canonical 3D shapes and highly irregular, asymmetric geometries, including a detailed three-dimensional miniature sculpture of a human head, the hybrid aluminum-rubber cloaks routed heat around the interior cavity without distorting the external temperature gradient. To the infrared camera, the background isothermal lines appeared flat and uninterrupted, rendering the concealed 3D object thermally invisible regardless of which direction the heat flowed. Simultaneously, temperature sensors inside the cloaked region confirmed that the interior remained thermally uniform and isolated from the external hot-to-cold gradient.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Thermal Management &amp; Cloaking Architecture</th>
+        <th>Spatial Dimensionality &amp; Geometry</th>
+        <th>Directional Heat-Flow Capability</th>
+        <th>External Infrared Signature</th>
+        <th>Interior Payload Thermal Protection</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Conventional Thermal Insulation (Ceramic / Foam Shield)</td>
+        <td>3D bulk wrapping</td>
+        <td>Omnidirectional passive blocking</td>
+        <td>Strong thermal shadow; immediately visible to IR cameras</td>
+        <td>Slows heat transfer but disturbs surrounding thermal field</td>
+      </tr>
+      <tr>
+        <td>2D / Unidirectional Metamaterial Cloaks (Concentric Rings)</td>
+        <td>2D flat plates or simple cylinders</td>
+        <td>Single fixed direction or 2D in-plane flow only</td>
+        <td>Conceals only along one alignment axis; fails in 3D</td>
+        <td>Limited to simple planar or cylindrical laboratory cavities</td>
+      </tr>
+      <tr>
+        <td>Free-Form 3D Hybrid Lattice Cloak (<a href="https://doi.org/10.1038/s41467-026-73167-0" target="_blank" rel="noopener noreferrer">Li et al., Nature Communications 2026</a>)</td>
+        <td>Arbitrary 3D free-form shapes (including complex 3D head models)</td>
+        <td>True 3D omnidirectional performance (infinite incoming angles)</td>
+        <td>Undisturbed external isotherms; invisible to infrared cameras</td>
+        <td>Maintains uniform, thermally shielded interior environment</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Applications in Dense Microchip Cooling and Aerospace Shielding</h2>
+<p>Routing heat around sensitive components in three dimensions has immediate engineering value well beyond defense stealth. On densely packed semiconductor circuit boards, autonomous robotics controllers such as those powering <a href="https://www.curiosityfields.com/article/marathon-running-robot-dog-battery-efficiency-raibo2">legged robotic systems</a>, and satellite avionics bays, high-power processors sit millimeters away from temperature-sensitive optical modulators, quantum sensors, or battery cells. A 3D-printed aluminum-elastomer thermal cloak can channel waste heat around a delicate sensor package without altering the thermal design of the surrounding chassis.</p>
+
+<h2>Why Hiding Internal Heat Sources Is the Next Major Hurdle</h2>
+<p>While the <a href="https://doi.org/10.1038/s41467-026-73167-0" target="_blank" rel="noopener noreferrer">Nature Communications study</a> proves that passive 3D omnidirectional thermal cloaking is manufacturable today, Professor Zhang highlighted an important physical boundary: the current hybrid aluminum-rubber cloak is a passive device designed to route external heat around an object that does not generate significant heat of its own. If an enclosed engine, human body, or active processor continuously produces internal watts of heat inside a passive cloak, conservation of energy dictates that the trapped heat must eventually warm the shell or escape. Concealing active, heat-generating objects from infrared cameras will require pairing 3D transformation-thermotics lattices with active thermoelectric heat pumps, phase-change sinks, or convective microfluidic channels.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How does a 3D thermal invisibility cloak hide an object from infrared cameras?</h3>
+<p>Infrared cameras detect objects by looking for disturbances in temperature patterns and heat flow. Instead of blocking heat like ordinary insulation, which creates a visible thermal shadow, the 3D cloak guides incoming heat smoothly around the hidden object and rejoins the heat flow on the other side, making the temperature field look completely empty.</p>
+
+<h3>What materials did the University of Illinois engineers use to build the 3D cloak?</h3>
+<p>The researchers combined two contrasting materials: an intricate three-dimensional aluminum lattice fabricated via 3D metal printing (which conducts heat rapidly) and a mold-cast rubber-like elastomer filling the spaces between the metal struts (which conducts heat poorly).</p>
+
+<h3>How is this 3D cloak different from earlier thermal cloaking experiments?</h3>
+<p>Previous experimental thermal cloaks only worked across flat 2D surfaces, simple cylinders, or when heat flowed from one specific direction. By independently tuning the 3D lattice geometry along three axes, the new cloak hides complex free-form 3D shapes, including a miniature 3D human head, from heat arriving from any direction.</p>
+
+<h3>Where could 3D thermal cloaks be used in everyday technology?</h3>
+<p>In consumer electronics, data centers, electric vehicles, and spacecraft, 3D thermal metamaterials can route waste heat from hot processors around nearby temperature-sensitive batteries, optical sensors, or memory chips while keeping their internal temperature stable.</p>
+
+<h3>Can this passive 3D cloak hide an object that generates its own internal heat?</h3>
+<p>Not on its own. The current device passively redirects heat coming from outside the cloak while keeping the interior thermally stable. Hiding an object that actively generates its own heat, such as a running motor or a warm living body, will require adding active cooling or heat-pumping elements to the metamaterial design.</p>`
+  },
+  {
+    id: "18-million-year-old-ape-fossil-egypt-hominoid-history",
+    slug: "18-million-year-old-ape-fossil-egypt-hominoid-history",
+    title: "An 18-Million-Year-Old Ape Fossil in Egypt Reshapes Early Hominoid History",
+    metaTitle: "An 18-Million-Year-Old Ape Fossil in Egypt Reshapes Early Hominoid History | CuriosityFields",
+    excerpt: "Excavated at Wadi Moghra in northern Egypt, the 17-to-18-million-year-old fossil ape Masripithecus moghraensis is the first definitive Miocene ape found in North Africa and sits closer to living apes than known Early Miocene East African species.",
+    metaDescription: "Discover how the 18-million-year-old Egyptian ape fossil Masripithecus moghraensis challenges East African origins and places North Africa at the crossroads of hominoid evolution.",
+    category: "history",
+    author: authors[0],
+    coverImage: "/images/articles/18-million-year-old-ape-fossil-egypt-hominoid-history.jpg",
+    publishedAt: "2026-11-07",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Paleoanthropology","Human Evolution","Fossil Apes","Egypt","Early Miocene"],
+    content: `<p class="lead"><strong>Paleontologists excavating the Early Miocene deposits of Wadi Moghra in northern Egypt have discovered a 17- to 18-million-year-old fossilized lower jaw belonging to a previously unknown hominoid species, <em>Masripithecus moghraensis</em>, representing the first definitive fossil ape ever recovered in North Africa and challenging the long-standing consensus that the common ancestor of all living apes evolved exclusively in East Africa.</strong> Published on March 26, 2026, in the journal <a href="https://doi.org/10.1126/science.adz4102" target="_blank" rel="noopener noreferrer">Science</a> by first author Shorouq F. Al-Ashqar, Professor Erik R. Seiffert of the University of Southern California, and senior author Professor Hesham M. Sallam at the Mansoura University Vertebrate Paleontology Center, Bayesian evolutionary modeling places <em>Masripithecus</em> closer to living apes and humans than any known Early Miocene ape from East Africa.</p>
+
+<h2>Why North Africa Was Long Considered a Blank Spot for Early Apes</h2>
+<p>Reexamining desert fossil beds in Egypt has repeatedly overturned century-old paleontological assumptions, much like CT scans of a museum skull recently revealed a <a href="https://www.curiosityfields.com/article/new-crocodile-genus-great-sphinx-rocks-egypt-fossil">lost Egyptian crocodile genus</a> from the Western Desert. For decades, researchers tracing the origins of Hominoidea, the group uniting gibbons, great apes, and humans, focused on Rift Valley sites in Kenya and Uganda, where 23- to 16-million-year-old sediments yielded early stem apes such as <em>Proconsul</em>, <em>Ekembo</em>, and <em>Afropithecus</em>.</p>
+
+<p>Early Miocene beds in North Africa had yielded monkeys and other mammals, but never a confirmed ape, leading scientists to treat northern Africa and Arabia as a late transit corridor rather than an evolutionary center.</p>
+
+<p>The <a href="https://www.sciencedaily.com/releases/2026/10/261031011638.htm" target="_blank" rel="noopener noreferrer">Mansoura University Vertebrate Paleontology Center discovery</a> fills that missing geographic link after five years of targeted fieldwork at Wadi Moghra in Egypt's Qattara Depression. During expeditions in 2023 and 2024, Sallam Lab researchers recovered a partial mandibular corpus preserving the canine, premolar, and molar dentition. The team named the new taxon <em>Masripithecus moghraensis</em>, combining <em>Masr</em> (the Arabic name for Egypt) with the Greek word for ape and the Moghra locality.</p>
+
+<h2>What the Wadi Moghra Jaw Reveals About Miocene Diet and Climate</h2>
+<p>Reconstructing ancient ecosystems from dental morphology and sedimentology requires the same multi-proxy precision used to link <a href="https://www.curiosityfields.com/article/white-sands-footprints-ice-age-environmental-change">White Sands fossil footprints</a> to abrupt climate shifts. Although only mandibular material of <em>Masripithecus moghraensis</em> has been found so far, its teeth and jawbone preserve a distinctive mosaic of primitive and derived hominoid traits that set it apart from contemporary East African apes.</p>
+
+<p>The mandibular corpus is remarkably deep and robust, anchoring disproportionately large canine and premolar teeth alongside low-cusped, bunodont molars with crenulated, textured enamel surfaces. First author Shorouq F. Al-Ashqar and colleagues interpret this dental architecture as an adaptation for dietary versatility. While <em>Masripithecus</em> relied primarily on soft ripe fruits in riverine gallery forests, its thick jawbone, enlarged premolars, and textured molar basins allowed it to crack and grind harder fallback foods such as tough seeds, nuts, and fibrous pods.</p>
+
+<p>That mechanical versatility carried a major survival advantage between 18 million and 17 million years ago, a period when tectonic shifts and orbital cycles were intensifying seasonal aridity across northern Africa and Arabia, just as later Holocene climate shifts shaped <a href="https://www.curiosityfields.com/article/4000-year-old-fortified-wall-morocco-north-african-history">North African settlements</a> in the Maghreb. When fruiting trees experienced seasonal scarcity along the ancient Moghra delta, <em>Masripithecus</em> could switch to mechanically demanding seeds rather than facing local extinction.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/18-million-year-old-ape-fossil-egypt-hominoid-history-inline-1.jpg" alt="High-resolution micro-CT 3D rendering of an Early Miocene hominoid mandible showing internal molar root canals, thick enamel-dentine junctions, and robust cortical jawbone architecture" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">Inside the Wadi Moghra mandible: high-resolution X-ray micro-computed tomography reveals robust mandibular bone, enlarged premolars, and textured molar crowns adapted for a versatile frugivorous and hard-seed diet 18 million years ago.</figcaption></figure>
+
+<h2>Bayesian Phylogenetics Places North Africa at the Hominoid Crossroads</h2>
+<p>Testing where an extinct species sits on the primate family tree demands quantitative statistical modeling across morphological, molecular, and stratigraphic datasets, echoing how <a href="https://www.curiosityfields.com/article/medieval-teeth-lead-mining-exposed-children-unequally">bioarchaeological tooth analyses</a> and <a href="https://www.curiosityfields.com/article/viking-age-skeletons-under-house-floors-violence-study">osteological trauma studies</a> combine physical anatomy with statistical controls. Co-author Professor Erik R. Seiffert and the research team ran Bayesian tip-dating phylogenetic and historical biogeographic analyses integrating hundreds of craniodental traits from living and fossil catarrhines, genomic divergence constraints from extant primates, and geological ages across African and Eurasian fossil horizons.</p>
+
+<p>The Bayesian trees yielded a striking topology: <em>Masripithecus moghraensis</em> sits closer to crown Hominoidea, the evolutionary node uniting the last common ancestor of gibbons, great apes, and humans, than any known Early Miocene ape from East Africa. Furthermore, the biogeographic reconstructions identified northern Africa and the Afro-Arabian crossroads, rather than equatorial East Africa, as the most probable ancestral range for the immediate stem lineage leading to crown hominoids during the Early Miocene.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Early Miocene Hominoid Taxon</th>
+        <th>Geographic Region &amp; Age</th>
+        <th>Key Mandibular &amp; Dental Traits</th>
+        <th>Inferred Dietary Ecology</th>
+        <th>Phylogenetic Position Relative to Crown Apes (<a href="https://doi.org/10.1126/science.adz4102" target="_blank" rel="noopener noreferrer">Al-Ashqar et al., Science 2026</a>)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><em>Ekembo</em> / <em>Proconsul</em> spp.</td>
+        <td>East Africa (Kenya &amp; Uganda), ~20 to 17 Ma</td>
+        <td>Generalized catarrhine mandible; thin-to-moderate molar enamel</td>
+        <td>Predominantly soft-fruit arboreal frugivory in humid forests</td>
+        <td>Basal stem hominoids diverging well before the crown ape node</td>
+      </tr>
+      <tr>
+        <td><em>Afropithecus turkanensis</em></td>
+        <td>East Africa (Northern Kenya), ~17.5 to 17 Ma</td>
+        <td>Massive prognathic jaws; thick enamel and procumbent incisors</td>
+        <td>Specialized hard-object sclerocarp foraging and seed predation</td>
+        <td>More derived stem hominoid, but basal to the Afro-Arabian transition</td>
+      </tr>
+      <tr>
+        <td><em>Masripithecus moghraensis</em></td>
+        <td>North Africa (Wadi Moghra, Egypt), ~18 to 17 Ma</td>
+        <td>Sturdy mandibular corpus; large canines/premolars; crenulated molars</td>
+        <td>Versatile frugivory with hard-seed fallback capability in seasonal habitats</td>
+        <td>Closest known Early Miocene sister lineage to crown Hominoidea</td>
+      </tr>
+      <tr>
+        <td>Early Crown Hominoids (Hylobatids &amp; Hominids)</td>
+        <td>Afro-Arabian &amp; Eurasian Crossroads, ~17 to 15 Ma</td>
+        <td>Broadened molars, reduced tail, and suspensory postcranial adaptations</td>
+        <td>Diverse frugivorous and omnivorous niches across Eurasia and Africa</td>
+        <td>Crown Hominoidea (last common ancestor of gibbons, great apes, and humans)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Tectonic Collisions and the Afro-Arabian Evolutionary Corridor</h2>
+<p>During the Early Miocene, the northward drift of the African-Arabian plate toward Eurasia progressively narrowed the Tethys Seaway, periodically opening land bridges known as the Gomphotherium landbridge, a geological reorganization whose long-term planetary echoes are tracked alongside <a href="https://www.curiosityfields.com/article/ancient-chinese-eclipse-records-earth-faster-historical-spin">Earth rotation records</a> and <a href="https://www.curiosityfields.com/article/ancient-tibetan-ice-cores-128000-years-climate-history">paleoclimate archives</a>. Because northern Egypt and the Levant sat directly at the gateway between tropical Africa and warm-temperate Eurasia, fluctuating sea levels and seasonal savannas acted as an evolutionary pump, selecting for adaptable hominoids before they radiated into Eurasia and back into Africa.</p>
+
+<h2>What a Single Fossil Jaw Can and Cannot Prove</h2>
+<p>The authors are careful to clarify what <em>Masripithecus moghraensis</em> represents, and what remains unknown. First, <em>Masripithecus</em> is not a direct ancestor of <em>Homo sapiens</em>, which evolved over 10 million years later, but a close relative near the root of living apes. Second, because only lower jaw fragments survive, its body size, brain volume, and limb locomotion remain unknown. Discovering limb bones, crania, and additional Miocene primates across North Africa and the Arabian Peninsula will be essential to test how early hominoids moved and diversified at the crossroads of the Old World.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What is Masripithecus moghraensis and where was it found?</h3>
+<p><em>Masripithecus moghraensis</em> is a newly identified species of ancient ape that lived 17 to 18 million years ago during the Early Miocene. Its fossilized lower jaw and teeth were excavated in 2023 and 2024 at Wadi Moghra in northern Egypt by paleontologists from the Mansoura University Vertebrate Paleontology Center.</p>
+
+<h3>Why does this Egyptian fossil challenge traditional theories of ape evolution?</h3>
+<p>Until now, all definitive Early Miocene ape fossils came from East Africa, leading scientists to assume the common ancestor of living apes evolved there. Bayesian evolutionary analyses show that <em>Masripithecus</em> is more closely related to living apes than any known Early Miocene East African species, pointing to North Africa and the Middle East as a key evolutionary cradle.</p>
+
+<h3>Is Masripithecus a direct ancestor of modern humans?</h3>
+<p>No. Paleontologists view <em>Masripithecus moghraensis</em> as a close evolutionary cousin sitting near the base of crown Hominoidea, the group uniting gibbons, orangutans, gorillas, chimpanzees, and humans, rather than a direct ancestor of humans, who evolved millions of years later.</p>
+
+<h3>What did Masripithecus eat 18 million years ago?</h3>
+<p>Its sturdy jawbone, large canines and premolars, and textured molar surfaces indicate a flexible, fruit-based diet supplemented by harder fallback foods like seeds and nuts. That versatility helped it survive increasing seasonal dryness in northern Africa.</p>
+
+<h3>What fossils are scientists still hoping to find at Wadi Moghra?</h3>
+<p>Because only lower jaw material has been found so far, researchers have no direct evidence of the ape's skull shape, body weight, or limb skeleton. Recovering arm, shoulder, or leg bones will reveal whether <em>Masripithecus</em> walked on all fours or swung beneath tree branches like modern apes.</p>`
+  },
+  {
     id: "global-warming-accelerated-035-celsius-per-decade-since-2015",
     slug: "global-warming-accelerated-035-celsius-per-decade-since-2015",
     title: "Global Warming Has Accelerated to 0.35 Degrees Celsius per Decade Since 2015",
