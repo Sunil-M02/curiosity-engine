@@ -117,6 +117,205 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "asteroid-ryugu-samples-all-five-dna-rna-nucleobases",
+    slug: "asteroid-ryugu-samples-all-five-dna-rna-nucleobases",
+    title: "Pristine Asteroid Ryugu Samples Contain All Five DNA and RNA Nucleobases",
+    metaTitle: "Pristine Asteroid Ryugu Samples Contain All Five DNA and RNA Nucleobases | CuriosityFields",
+    excerpt: "Ultra-clean analyses of pristine rock grains returned from asteroid Ryugu by JAXA's Hayabusa2 mission confirm all five canonical nucleobases of DNA and RNA formed in space 4.5 billion years ago.",
+    metaDescription: "Learn how scientists identified all five canonical DNA and RNA nucleobases (adenine, guanine, cytosine, thymine, and uracil) in pristine asteroid Ryugu samples returned by Hayabusa2.",
+    category: "astronomy",
+    author: authors[1],
+    coverImage: "/images/articles/asteroid-ryugu-samples-all-five-dna-rna-nucleobases.jpg",
+    publishedAt: "2026-11-08",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Asteroid Ryugu","Hayabusa2","Astrobiology","Origin of Life","Planetary Science"],
+    content: `<p class="lead"><strong>Chemical analyses of pristine rock grains returned from the carbonaceous asteroid (162173) Ryugu by Japan's Hayabusa2 spacecraft have confirmed the presence of all five canonical nucleobases that form the genetic alphabet of DNA and RNA: adenine, guanine, cytosine, thymine, and uracil.</strong> Reported in 2026 in <a href="https://doi.org/10.1038/s41550-026-02791-z" target="_blank" rel="noopener noreferrer">Nature Astronomy</a> by lead researcher Toshiki Koga, Yasuhiro Oba, Yoshinori Takano, Hiroshi Naraoka, Naohiko Ohkouchi, and colleagues in Japan, the discovery proves that the complete set of genetic ring molecules existed inside primitive solar system asteroids 4.5 billion years ago, uncontaminated by Earth's biosphere.</p>
+
+<h2>Why Meteorites on Earth Could Never Fully Settle the Origin-of-Life Debate</h2>
+<p>Tracing how primordial solar system bodies preserved their birth chemistry requires the same contamination-free precision that astronomers use when studying <a href="https://www.curiosityfields.com/article/far-out-solar-system-objects-shared-ancient-history-tnos">distant Kuiper Belt objects</a> and <a href="https://www.curiosityfields.com/article/dead-star-white-dwarf-second-generation-planets">white dwarf planetary debris</a>. Every living cell on Earth stores and transcribes hereditary instructions using five nitrogen-rich heterocyclic ring molecules called canonical nucleobases: two double-ring purines (adenine and guanine) and three single-ring pyrimidines (cytosine, thymine in DNA, and uracil in RNA). Combined with ribose or deoxyribose sugars and phosphate groups, these five molecular letters build nucleotides.</p>
+
+<p>Since the 1960s, geochemists analyzing carbon-rich meteorites that fell to Earth, such as the Orgueil meteorite in France (1864) and the Murchison meteorite in Australia (1969), have detected various purines and pyrimidines. Yet every meteorite recovered on the ground carries a lingering scientific doubt: terrestrial soil microbes, groundwater, and atmospheric handling can introduce biological nucleobases within hours of impact, and cytosine and thymine are notoriously fragile during standard acid extraction.</p>
+
+<p>To eliminate terrestrial contamination completely, the Japan Aerospace Exploration Agency (JAXA) launched the Hayabusa2 mission, which collected 5.4 grams of pristine surface and subsurface regolith directly from the near-Earth carbonaceous asteroid Ryugu and sealed the sample capsule in vacuum before returning it to Australia in December 2020. In 2023, researchers reported detecting uracil in Ryugu grains; now, as highlighted in <a href="https://www.sciencedaily.com/releases/2026/11/261102075903.htm" target="_blank" rel="noopener noreferrer">Curtin University geochemist Kliti Grice's review</a> of the new <a href="https://doi.org/10.1038/s41550-026-02791-z" target="_blank" rel="noopener noreferrer">Nature Astronomy study</a>, Koga, Oba, Ohkouchi, and colleagues have identified all five canonical nucleobases across two separate Ryugu samples.</p>
+
+<h2>Ultra-Clean Extraction of Purines and Pyrimidines From 5.4 Grams of Regolith</h2>
+<p>Detecting parts-per-billion organic molecules inside millimeter-sized mineral grains demands ultra-clean analytical workflows comparable to the isotopic techniques used to date <a href="https://www.curiosityfields.com/article/ancient-tibetan-ice-cores-128000-years-climate-history">128,000-year Tibetan ice cores</a> and map <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">complex catalytic reaction networks</a>. Working inside positive-pressure cleanrooms, the Japanese research team extracted soluble organic matter from two pristine Ryugu aggregate samples using sequential hot water and hydrochloric acid treatments, followed by multi-stage chromatographic purification and high-resolution mass spectrometry.</p>
+
+<p>Both Ryugu samples yielded detectable quantities of adenine, guanine, cytosine, thymine, and uracil in roughly comparable concentrations, alongside structural isomers that do not occur in terrestrial biology. The presence of those non-biological isomers, paired with strict procedural blanks from the Hayabusa2 curation facility, confirmed that the five genetic nucleobases formed abiotically in space rather than from laboratory contamination.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/asteroid-ryugu-samples-all-five-dna-rna-nucleobases-inline-1.jpg" alt="Scientific astrochemistry visualization of a dark porous carbonaceous asteroid Ryugu grain surrounded by the five glowing molecular ring structures of adenine, guanine, cytosine, thymine, and uracil against a protoplanetary disk" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">The complete genetic alphabet in space: ultra-clean mass spectrometry of pristine Ryugu regolith returned by JAXA's Hayabusa2 mission confirms that both purines (adenine and guanine) and all three pyrimidines (cytosine, thymine, and uracil) formed abiotically in the early Solar System.</figcaption></figure>
+
+<h2>Comparing Ryugu, Bennu, Murchison, and Orgueil Prebiotic Chemistry</h2>
+<p>Comparing Ryugu's organic inventory against NASA's OSIRIS-REx samples from asteroid Bennu (which also confirmed all five nucleobases in 2025) and historic carbonaceous meteorites reveals how local parent-body chemistry shaped prebiotic synthesis during the era of <a href="https://www.curiosityfields.com/article/jwst-planetary-collisions-earths-violent-birth">early planetary collisions</a> and <a href="https://www.curiosityfields.com/article/nasa-baby-planet-elias-2-24-b-protoplanetary-disk">protoplanetary disk evolution</a>.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Planetary Sample / Meteorite</th>
+        <th>Sample Origin &amp; Recovery Method</th>
+        <th>Canonical Nucleobases Detected</th>
+        <th>Purine vs. Pyrimidine Balance</th>
+        <th>Terrestrial Contamination Risk &amp; Parent-Body Context</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Asteroid (162173) Ryugu (<a href="https://doi.org/10.1038/s41550-026-02791-z" target="_blank" rel="noopener noreferrer">Koga et al., Nature Astronomy 2026</a>)</td>
+        <td>JAXA Hayabusa2 spacecraft return (5.4 g sealed in space, 2020)</td>
+        <td>All 5: Adenine, Guanine, Cytosine, Thymine, Uracil</td>
+        <td>Roughly similar amounts across purines and pyrimidines</td>
+        <td>Zero terrestrial exposure; aqueous alteration on ~4.5-billion-year-old parent body</td>
+      </tr>
+      <tr>
+        <td>Asteroid (101955) Bennu (OSIRIS-REx 2025)</td>
+        <td>NASA OSIRIS-REx spacecraft return (sealed in space, 2023)</td>
+        <td>All 5: Adenine, Guanine, Cytosine, Thymine, Uracil</td>
+        <td>Enriched in pyrimidines relative to purines</td>
+        <td>Zero terrestrial exposure; ammonia-rich fluid chemistry on parent asteroid</td>
+      </tr>
+      <tr>
+        <td>Murchison Meteorite (Australia, 1969)</td>
+        <td>CM2 carbonaceous chondrite recovered after atmospheric fall</td>
+        <td>Purines and uracil (cytosine/thymine trace or unstable)</td>
+        <td>Strongly enriched in purines (guanine and adenine)</td>
+        <td>Subject to terrestrial soil exposure; distinct hydrothermal parent-body history</td>
+      </tr>
+      <tr>
+        <td>Orgueil Meteorite (France, 1864)</td>
+        <td>CI1 carbonaceous chondrite curated in museum collections</td>
+        <td>Purines and pyrimidines detected in modern re-analyses</td>
+        <td>Pyrimidine-rich profile similar to Bennu</td>
+        <td>Over 160 years of terrestrial museum storage; chemically close to Ryugu/Bennu CI class</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>How Ammonia and Liquid Water Shaped Asteroid Nucleobase Ratios</h2>
+<p>Why does Murchison favor double-ring purines while Bennu, Orgueil, and Ryugu preserve higher proportions of single-ring pyrimidines? Astrochemists point to two intertwined factors on the asteroids' ancient parent bodies: low-temperature liquid water and dissolved ammonia. Before Ryugu and Bennu were shattered by collisions into rubble-pile asteroids, their larger parent planetesimals were warmed by radioactive decay, melting internal ice into briny underground fluids.</p>
+
+<p>In those dark hydrothermal veins, simple interstellar molecules such as hydrogen cyanide, formaldehyde, and ammonia reacted on clay and iron-sulfide mineral surfaces, a natural catalytic reactor far older than any laboratory system or <a href="https://www.curiosityfields.com/article/170-year-planetary-mystery-70-ophiuchi-stellar-wobble">nearby exoplanet host star</a>. Variations in ammonia concentration, pH, and temperature shifted the chemical equilibrium between purine and pyrimidine synthesis across different regions of the solar nebula.</p>
+
+<h2>Why Finding Nucleobases Is Not Evidence of Extraterrestrial Life</h2>
+<p>While detecting all five genetic letters in Ryugu confirms that asteroids delivered ready-made prebiotic ingredients to the early Earth, scientists emphasize a vital distinction: abiotic nucleobases are chemical building blocks, not living organisms. Assembling free nucleobases into self-replicating RNA or DNA strands requires linking them to ribose sugars and phosphate backbones in exact chiral orientations without water immediately hydrolyzing the chain. Ryugu proves that the early Solar System stocked Earth's prebiotic pantry with all five letters of the genetic code, leaving early planetary environments on Earth to assemble those letters into life.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Which five genetic molecules were discovered in the asteroid Ryugu samples?</h3>
+<p>Scientists identified all five canonical nucleobases used by life on Earth to build DNA and RNA: the two purines (adenine and guanine) and the three pyrimidines (cytosine, thymine, and uracil).</p>
+
+<h3>Why is finding nucleobases in Ryugu more definitive than finding them in meteorites on Earth?</h3>
+<p>Meteorites that land on Earth can be contaminated by soil microbes and moisture before scientists collect them. Because JAXA's Hayabusa2 spacecraft collected 5.4 grams of rock directly from Ryugu in space and sealed it inside an airtight capsule, researchers know with 100 percent certainty that the five nucleobases formed in space.</p>
+
+<h3>Does the presence of all five DNA and RNA bases mean life existed on asteroid Ryugu?</h3>
+<p>No. The nucleobases on Ryugu formed through non-biological (abiotic) chemical reactions involving water, ammonia, and carbon compounds inside Ryugu's parent body 4.5 billion years ago. They are the raw chemical ingredients for genetic material, not remnants of living cells.</p>
+
+<h3>How does Ryugu's chemistry compare to asteroid Bennu and the Murchison meteorite?</h3>
+<p>While Ryugu contains all five nucleobases in roughly similar amounts, NASA's Bennu samples and the Orgueil meteorite are enriched in single-ring pyrimidines, whereas the Murchison meteorite is enriched in double-ring purines. Scientists attribute these differences to varying levels of ammonia and water alteration on each asteroid's parent body.</p>
+
+<h3>How could asteroids like Ryugu have helped start life on early Earth?</h3>
+<p>During the first few hundred million years of the Solar System, carbon-rich asteroids and meteorites heavily bombarded the young Earth, delivering vast quantities of prebiotic organic molecules, including all five genetic nucleobases, to Earth's early oceans and hydrothermal ponds.</p>`
+  },
+  {
+    id: "flexible-polymer-links-nanoparticle-crystal-superlattices",
+    slug: "flexible-polymer-links-nanoparticle-crystal-superlattices",
+    title: "Flexible Polymer Links Break a 20-Year Rule to Build New Nanoparticle Crystals",
+    metaTitle: "Flexible Polymer Links Break a 20-Year Rule to Build New Nanoparticle Crystals | CuriosityFields",
+    excerpt: "By replacing rigid molecular connectors with ultra-flexible, oppositely charged polymer tethers, MIT and University of Delaware scientists unlocked open, low-density nanoparticle crystal superlattices via spontaneous valency.",
+    metaDescription: "Discover how MIT and University of Delaware researchers broke a 20-year materials science rule using flexible polymer chains to assemble open nanoparticle crystal superlattices.",
+    category: "future-innovation",
+    author: authors[0],
+    coverImage: "/images/articles/flexible-polymer-links-nanoparticle-crystal-superlattices.jpg",
+    publishedAt: "2026-11-08",
+    readTime: 6,
+    featured: false,
+    editorsPick: false,
+    tags: ["Nanotechnology","Materials Science","Superlattices","Self-Assembly","Photonics"],
+    content: `<p class="lead"><strong>Materials scientists at the Massachusetts Institute of Technology and the University of Delaware have overturned a 20-year rule of nanotechnology by proving that ultra-flexible, oppositely charged polymer connectors can guide nanoparticles into open, never-before-seen crystal superlattices through spontaneous valency reorganization.</strong> Published in November 2026 in <a href="https://doi.org/10.1038/s41563-026-02787-0" target="_blank" rel="noopener noreferrer">Nature Materials</a> by lead author Nicholas Sbalbi, Stephen Kronenberger, Hana Shinzawa, Matthew Ye, Professor Arthi Jayaraman, and senior author Professor Robert J. Macfarlane, the method replaces rigid molecular rods with bendable polymer chains that limit how many neighbors each nanoparticle binds.</p>
+
+<h2>Why Nanoparticle Self-Assembly Hit a 20-Year Rigid-Ligand Wall</h2>
+<p>Building macroscopic functional materials from nanoscale building blocks requires the same atomic-scale precision that recently enabled <a href="https://www.curiosityfields.com/article/wafer-scale-2d-semiconductors-moving-beyond-laboratory-samples">wafer-scale 2D semiconductors</a> and <a href="https://www.curiosityfields.com/article/grain-boundary-engineering-metals-defy-deep-freeze-20-kelvin">grain-boundary-engineered alloys</a>. Individual nanoparticles can be synthesized with tailored optical, electronic, catalytic, or magnetic properties, and organizing billions of those particles into repeating three-dimensional crystal arrays, known as superlattices, allows engineers to design metamaterials whose collective behavior goes far beyond bulk solids.</p>
+
+<p>For the past two decades, however, bottom-up nanoparticle assembly has been governed by a strict design dogma: to build an ordered crystal lattice, the molecular connectors (ligands) attached to the nanoparticle surfaces had to be as stiff and rigid as possible. When nanoparticles are coated with uniform, flexible shells, isotropic attraction pulls every particle toward as many neighbors as geometry allows, collapsing the system into dense, close-packed spheres with twelve nearest neighbors.</p>
+
+<p>To escape close packing and build open, low-density crystal architectures, chemists previously resorted to two painstaking workarounds: sculpting faceted polyhedral nanoparticles or stamping chemically sticky patches onto specific spots on a sphere's surface. As Professor Robert J. Macfarlane of MIT's Department of Materials Science and Engineering explained in the <a href="https://www.sciencedaily.com/releases/2026/11/261104012248.htm" target="_blank" rel="noopener noreferrer">MIT study release</a>, those patchy-particle syntheses are bespoke, low-yield laboratory procedures that only work for one material and size at a time.</p>
+
+<h2>How Flexible Polymer Chains Create Spontaneous Valency</h2>
+<p>Instead of fighting molecular flexibility, Sbalbi, Jayaraman, and Macfarlane pushed flexibility to the opposite extreme, a counterintuitive design shift comparable to how <a href="https://www.curiosityfields.com/article/3d-printed-thermal-cloaks-hide-objects-infrared-cameras">3D thermal cloaks</a> combine contrasting conductive and insulating phases to steer heat. The MIT and University of Delaware team grafted long, highly flexible polymer chains onto spherical nanoparticles and placed positive or negative electrical charges at the tips of those polymer tethers.</p>
+
+<p>When positively and negatively tipped nanoparticles approach each other in solution, electrostatic attraction pulls opposite polymer ends together into discrete bundles of bridges between neighboring particles. Because the long polymer backbones can bend, stretch, and sweep across the nanoparticle surface, the tethers reorganize dynamically as particles collide.</p>
+
+<p>Crucially, once a few polymer bundles form between a central nanoparticle and two, three, or four neighbors, the stretched polymer coronas crowd the remaining surface and sterically block additional particles from squeezing in. Without pre-patterning any sticky patches on the particle core, the flexible chains spontaneously lock the nanoparticle into a low coordination number, or valency, dictating exactly how many neighbors it can bind.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/flexible-polymer-links-nanoparticle-crystal-superlattices-inline-1.jpg" alt="Side-by-side scientific comparison showing a dense close-packed nanoparticle cluster with rigid rods on the left versus an open diamond-like crystal superlattice linked by flexible glowing polymer chains on the right" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">Breaking the close-packed limit: while conventional isotropic or short rigid connectors pack nanoparticles into dense 12-neighbor clusters (left), long flexible charged polymer tethers bundle and reorganize into open, low-valency crystal superlattices (right).</figcaption></figure>
+
+<h2>Tuning Crystal Symmetry Through Particle Size and Chain Length</h2>
+<p>Controlling nanoscale geometry through simple physical dials mirrors how <a href="https://www.curiosityfields.com/article/shaped-ultrafast-laser-beams-computer-memory-1000x-faster">shaped laser pulses</a> reconfigure magnetic domains and how <a href="https://www.curiosityfields.com/article/photonic-materials-control-light-scale-of-atoms-picocavities">plasmonic picocavities</a> confine light. By pairing molecular dynamics simulations from the University of Delaware with small-angle X-ray scattering and electron microscopy at MIT, lead author Nicholas Sbalbi demonstrated that researchers can dial a superlattice's coordination number up or down simply by adjusting two accessible parameters: the diameter of the nanoparticle core and the contour length of the flexible polymer chains.</p>
+
+<p>Using those two dials, the team synthesized multiple low-coordination nanoparticle crystal structures that had never been observed before in self-assembled colloidal systems. Because the polymer tethers govern the bonding geometry independently of the underlying core composition, the same assembly rule can be applied to gold, silver, semiconductor quantum dots, or catalytic metal oxides.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Nanoparticle Assembly Strategy</th>
+        <th>Connector / Ligand Mechanics</th>
+        <th>Typical Coordination Number (Valency)</th>
+        <th>Resulting Crystal Packing Density</th>
+        <th>Manufacturing Scalability &amp; Material Generality</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Conventional Isotropic Colloidal Assembly</td>
+        <td>Uniform short shells with non-directional attraction</td>
+        <td>High valency (8 to 12 nearest neighbors)</td>
+        <td>Dense close-packed lattices (FCC / BCC / HCP)</td>
+        <td>Easy to scale, but severely restricted crystal symmetries</td>
+      </tr>
+      <tr>
+        <td>Traditional Patchy or Shape-Faceted Nanoparticles</td>
+        <td>Rigid DNA origami or chemically patterned surface patches</td>
+        <td>Pre-fixed directional valency (2 to 6 neighbors)</td>
+        <td>Open lattices, but fragile and narrow stability windows</td>
+        <td>Bespoke, low-yield synthesis tailored to one particle type</td>
+      </tr>
+      <tr>
+        <td>Spontaneous Valency via Flexible Charged Polymers (<a href="https://doi.org/10.1038/s41563-026-02787-0" target="_blank" rel="noopener noreferrer">Sbalbi et al., Nature Materials 2026</a>)</td>
+        <td>Ultra-flexible polymer chains with oppositely charged end groups</td>
+        <td>Tunable low valency (controlled by chain length and core size)</td>
+        <td>Open, low-density, previously unseen crystal superlattices</td>
+        <td>Independent of core chemistry; scalable polymer grafting</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Applications in Photonics, Catalysis, and Programmable Matter</h2>
+<p>Unlocking open, low-density nanoparticle superlattices directly addresses a long-standing bottleneck in functional metamaterials. In photonics and optical computing, open diamond-like and pyrochlore superlattices create full three-dimensional photonic bandgaps that trap and route light much like semiconductors control electrons. In heterogeneous chemical catalysis, where <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">AI-mapped reaction networks</a> rely on exposed active sites, open nanoparticle frameworks allow reactant gases and liquids to diffuse freely through the interior of the crystal rather than bouncing off a densely packed outer surface.</p>
+
+<h2>What Must Be Solved Before Industrial Superlattice Manufacturing</h2>
+<p>While the <a href="https://doi.org/10.1038/s41563-026-02787-0" target="_blank" rel="noopener noreferrer">Nature Materials study</a> establishes spontaneous valency as a general design principle, moving from laboratory vials to wafer-scale photonic films or industrial catalytic beds requires overcoming practical processing hurdles, similar to the integration challenges facing <a href="https://www.curiosityfields.com/article/paper-thin-biohybrid-robots-swim-light-driven-muscle-cells">biohybrid actuators</a>. Because the flexible polymer linkers operate in a liquid solvent where electrostatic screening and thermal annealing govern chain rearrangement, drying or solidifying the open superlattices without collapsing their low-density pores requires controlled solvent exchange or polymer cross-linking. Scaling those post-assembly stabilization steps will determine how quickly designer superlattices reach commercial optical and energy devices.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What 20-year rule of nanotechnology did MIT researchers break?</h3>
+<p>For two decades, materials scientists assumed that molecular connectors linking nanoparticles into ordered crystals had to be rigid, believing that flexible connectors would cause assembly to fail or collapse into random clumps. The MIT and University of Delaware team proved that ultra-flexible charged polymer chains can actually guide nanoparticles into precise, open crystal structures.</p>
+
+<h3>How do flexible polymer chains control how many neighbors a nanoparticle binds?</h3>
+<p>When oppositely charged ends of long flexible polymers connect two nanoparticles, the polymer chains bend and gather into bundles. That reorganization crowds the remaining surface around the nanoparticle, naturally limiting how many additional neighbors can attach, a mechanism the researchers call spontaneous valency.</p>
+
+<h3>How can scientists change the crystal structure that the nanoparticles form?</h3>
+<p>Instead of redesigning the chemistry of the nanoparticle core, researchers simply adjust two physical parameters: the size of the nanoparticles and the length of the flexible polymer chains attached to them.</p>
+
+<h3>Why are open, low-density nanoparticle crystals more useful than tightly packed ones?</h3>
+<p>When nanoparticles pack tightly like cannonballs, light and chemical molecules cannot easily pass through the structure, and collective optical properties are limited. Open, low-coordination crystal lattices create tunable pathways for manipulating light in photonics and expose far more surface area for chemical catalysis and sensors.</p>
+
+<h3>Can this method work with different types of nanoparticles?</h3>
+<p>Yes. Because the crystal geometry is controlled by the flexible polymer tethers and their electrical charges rather than the internal composition of the particle, the technique allows engineers to choose a nanoparticle for its optical, magnetic, or catalytic properties independently of the crystal lattice it builds.</p>`
+  },
+  {
     id: "3d-printed-thermal-cloaks-hide-objects-infrared-cameras",
     slug: "3d-printed-thermal-cloaks-hide-objects-infrared-cameras",
     title: "3D-Printed Thermal Cloaks Hide Complex Objects From Infrared Cameras",
