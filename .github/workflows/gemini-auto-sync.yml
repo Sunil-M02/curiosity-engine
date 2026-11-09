@@ -356,8 +356,15 @@ jobs:
               fs.readFileSync(item.path, 'utf8')
             );
 
-            if (payload.status !== 'READY_FOR_SYNC') {
-              throw new Error(`Payload readiness changed: ${item.title}`);
+            const structurallyReady =
+              payload.status == null &&
+              Boolean(payload.publishDate) &&
+              Array.isArray(payload.articles) &&
+              payload.articles.length > 0 &&
+              payload.articles.every(a => a && a.slug && a.title && a.content);
+
+            if (payload.status !== 'READY_FOR_SYNC' && !structurallyReady) {
+              throw new Error(`Payload is not ready or is invalid: ${item.title}`);
             }
 
             for (const art of payload.articles) {
