@@ -8,6 +8,11 @@ on:
 
   # Manual fallback
   workflow_dispatch:
+    inputs:
+      payload_file_id:
+        description: 'Google Drive file ID of the exact payload to publish'
+        required: false
+        type: string
 
   # Backup polling every 5 minutes
   schedule:
@@ -35,7 +40,7 @@ jobs:
       - name: Discover Drive payloads and images
         env:
           DRIVE_FOLDER_ID: "1P8l-xqjJIKcqsUR1IF8fiZvrvRl1v5Md"
-          PAYLOAD_FILE_ID: ${{ github.event.client_payload.payload_file_id || '' }}
+          PAYLOAD_FILE_ID: ${{ github.event.client_payload.payload_file_id || inputs.payload_file_id || '' }}
           VERIFIED_CUMULATIVE_PAYLOAD_ID: "1HjCsPKrISZiAbJR9BLDQhaUq_9E57LV1"
         run: |
           mkdir -p /tmp/gemini_sync
@@ -172,8 +177,15 @@ jobs:
               throw new Error(`Invalid JSON: ${item.title}`);
             }
 
-            if (payload.status !== 'READY_FOR_SYNC') {
-              console.log(`Not ready: ${item.title}`);
+            const structurallyReady =
+              payload.status == null &&
+              Boolean(payload.publishDate) &&
+              Array.isArray(payload.articles) &&
+              payload.articles.length > 0 &&
+              payload.articles.every(a => a && a.slug && a.title && a.content);
+
+            if (payload.status !== 'READY_FOR_SYNC' && !structurallyReady) {
+              console.log(`Not ready or invalid payload: ${item.title}`);
               continue;
             }
 
@@ -361,6 +373,8 @@ jobs:
               const coverFilename = safeName(
                 art.imageFilename ||
                 art.imageFileName ||
+                art.driveImageFileName ||
+                (art.image ? path.basename(art.image) : null) ||
                 `${slug}.jpg`
               );
 
@@ -375,7 +389,7 @@ jobs:
                 `/images/articles/${coverFilename}`;
 
               for (const img of (art.inlineImages || [])) {
-                const filename = img.filename || img.fileName;
+                const filename = img.filename || img.fileName || img.driveFileName || (img.path ? path.basename(img.path) : null);
 
                 if (filename) {
                   ensureImage(
@@ -401,7 +415,7 @@ jobs:
                 }
 
                 const publishedAt =
-                  art.publishedAt || payload.publishDate;
+                  art.publishedAt || art.date || payload.publishDate;
 
                 if (!publishedAt) {
                   throw new Error(`Missing publication date: ${slug}`);
@@ -471,7 +485,7 @@ jobs:
 
               if (!sitemapXml.includes(`<loc>${loc}</loc>`)) {
                 const publishedAt =
-                  art.publishedAt || payload.publishDate;
+                  art.publishedAt || art.date || payload.publishDate;
 
                 if (!publishedAt) {
                   throw new Error(`Missing sitemap date: ${slug}`);
