@@ -117,6 +117,215 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "psilocybin-rewires-cortical-synapses-separate-non-trip-pathway",
+    slug: "psilocybin-rewires-cortical-synapses-separate-non-trip-pathway",
+    title: "Psilocybin Rewires Cortical Synapses Through a Separate Non-Trip Pathway",
+    metaTitle: "Psilocybin Rewires Cortical Synapses Through a Separate Non-Trip Pathway",
+    excerpt: "Two-photon longitudinal imaging and receptor pharmacology reveal that psilocybin triggers a rapid 10% increase in prefrontal dendritic spine density and sustained synaptic remodeling for over a month, operating through intracellular TrkB and 5-HT2A signaling pathways that can be separated from acute hallucinogenic effects.",
+    metaDescription: "Two-photon longitudinal imaging and receptor pharmacology reveal that psilocybin triggers a rapid 10% increase in prefrontal dendritic spine density and sustained synaptic remodeling for over a month, operating through intracellular TrkB and 5-HT2A signaling pathways that can be separated from acute hallucinogenic effects.",
+    category: "psychology-mind",
+    author: authors[0],
+    coverImage: "/images/articles/psilocybin-rewires-cortical-synapses-separate-non-trip-pathway.jpg",
+    publishedAt: "2026-11-09",
+    readTime: 7,
+    featured: true,
+    editorsPick: false,
+    tags: ["Psychology & Mind","Neuroplasticity","Psilocybin Research","Dendritic Spines","Prefrontal Cortex","Non-Hallucinogenic Psychoplastogens"],
+    content: `<p class="lead"><strong>Using live two-photon laser microscopy and cell-type-specific genetic switches in mice, neuroscientists at the University of California, Santa Cruz, have discovered that psilocybin rapidly builds and matures new synaptic connections in the brain through serotonin 2A receptors on cortical Layer 5 pyramidal neurons, a cellular pathway completely separable from the behavioral response associated with psychedelic hallucinations.</strong> Published in <a href="https://doi.org/10.1038/s41593-026-02490-y" target="_blank" rel="noopener noreferrer">Nature Neuroscience</a> in 2026 by Ph.D. researcher Jacob J. Baker, Emily Kogan, Shaorong Ma, Dr. Ju Lu, and senior author Professor Yi Zuo, the study also reveals that psilocybin repairs stress-damaged neural circuits differently than healthy brains.</p>
+
+<h2>Why Separating Brain Rewiring From Hallucinations Is a Central Question</h2>
+<p>Disentangling which specific brain circuits drive distinct cognitive or behavioral outcomes is a core theme of modern systems neuroscience, from mapping how <a href="https://www.curiosityfields.com/article/basal-ganglia-damage-strategic-thinking-brain-study">basal ganglia lesions</a> spare strategic thinking to tracking how <a href="https://www.curiosityfields.com/article/weakened-beta-band-brain-signals-link-schizophrenia-symptoms">beta-band oscillations</a> coordinate sensory timing. Over the past decade, clinical trials have shown that a single dose of psilocybin, the active psychoplastogen in psychedelic mushrooms, can produce rapid and durable symptom relief in patients with treatment-resistant depression and post-traumatic stress disorder.</p>
+
+<p>Yet a fierce debate has divided psychiatrists and neurobiologists: do patients need to undergo an intense, hours-long hallucinogenic trip in a supervised clinic to gain the antidepressant benefits, or can a medication trigger the underlying synaptic repair without altering conscious perception? Answering that question requires knowing whether structural neuroplasticity and hallucinogenic behavior share the exact same cellular switch.</p>
+
+<p>In their <a href="https://www.sciencedaily.com/releases/2026/11/261104012308.htm" target="_blank" rel="noopener noreferrer">UC Santa Cruz study</a>, lead author Jacob J. Baker and Professor Yi Zuo tracked individual synapses in the living mouse cerebral cortex over several weeks while genetically turning serotonin 2A receptors (5-HT2ARs) on or off inside specific cortical neuron populations.</p>
+
+<h2>Watching Mushroom Spines Grow in 24 Hours With Two-Photon Microscopy</h2>
+<p>Tracking microscopic structural changes in the awake brain requires high-resolution optical techniques that complement electrophysiological studies of <a href="https://www.curiosityfields.com/article/waking-brain-ripples-tag-daytime-experiences-memory-storage">waking memory ripples</a> and <a href="https://www.curiosityfields.com/article/brain-signals-predict-attention-failure-before-you-notice">attention-lapse brain waves</a>. Using longitudinal in-vivo two-photon microscopy, Baker, Kogan, Ma, Lu, and Zuo imaged dendritic spines, the tiny micron-scale protrusions on neurons that receive excitatory synaptic inputs from neighboring axons, before and after a single dose of psilocybin.</p>
+
+<p>Within just 24 hours of psilocybin administration, cortical neurons sprouted a surge of newly formed dendritic spines. Even more striking than the number of new spines was how rapidly they matured. Normally, nascent dendritic spines emerge as small, unstable "stubby" projections that frequently retract within days. After psilocybin treatment, a high proportion of new spines rapidly developed wide, stable "mushroom" heads packed with neurotransmitter receptors capable of sustaining long-term synaptic communication.</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/psilocybin-rewires-cortical-synapses-separate-non-trip-pathway-inline-1.jpg" alt="High-resolution two-photon neurobiology visualization of a cortical Layer 5 pyramidal neuron dendrite shaft studded with mature mushroom-shaped dendritic spines and glowing amber serotonin 2A receptor complexes" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">Rapid synaptic maturation in Layer 5: within 24 hours of psilocybin treatment, two-photon microscopy reveals nascent dendritic spines maturing into stable mushroom-shaped synapses governed by Layer 5 serotonin 2A receptors.</figcaption></figure>
+
+<h2>Why Psilocybin Acts Differently in Stressed Versus Healthy Brains</h2>
+<p>Before testing receptor genetics, the UC Santa Cruz team uncovered a crucial state-dependent rule: psilocybin does not simply pile more connections onto every brain indiscriminately, a nuance that parallels how <a href="https://www.curiosityfields.com/article/cortical-blindness-blindsight-two-visual-systems">parallel visual pathways</a> and <a href="https://www.curiosityfields.com/article/rubber-hand-illusion-multisensory-body-ownership">multisensory body networks</a> adapt to context. In healthy, unstressed mice, psilocybin triggered an initial 24-hour burst of new spine formation, but over the following three weeks, the total spine count gradually returned toward baseline as the cortex pruned away older pre-existing spines, reorganizing the circuit while preserving overall synaptic homeostasis.</p>
+
+<p>In mice subjected to chronic unpredictable mild stress, a validated preclinical model that strips away cortical synapses and mimics core features of human depression, psilocybin behaved like a targeted structural rescue agent. It drove a robust surge in new mushroom-spine formation while simultaneously halting the accelerated spine loss caused by chronic stress, restoring the damaged cortical network toward healthy connectivity.</p>
+
+<h2>Isolating the Layer 5 Pyramidal Neuron Switch From the Psychedelic Response</h2>
+<p>To test whether synaptic rewiring can be separated from psychedelic behavior, the researchers focused on Layer 5 pyramidal neurons, the major output cells of the cerebral cortex that express dense concentrations of serotonin 2A receptors. Using targeted genetic engineering, the team ran two complementary experiments comparing dendritic spine growth against the rodent head-twitch response, the standard behavioral proxy for 5-HT2A-driven hallucinogenic activity in mice.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Experimental Mouse Cohort</th>
+        <th>Serotonin 2A Receptor (5-HT2AR) Status</th>
+        <th>24-Hour Dendritic Spine Growth &amp; Maturation</th>
+        <th>Psychedelic-Linked Head-Twitch Response</th>
+        <th>Mechanistic Conclusion (<a href="https://doi.org/10.1038/s41593-026-02490-y" target="_blank" rel="noopener noreferrer">Baker et al., Nature Neuroscience 2026</a>)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Wild-Type Healthy Mice</td>
+        <td>Intact 5-HT2ARs across all brain regions</td>
+        <td>Rapid new spine growth + pruning of old spines over 3 weeks</td>
+        <td>Present (standard psychedelic behavioral marker)</td>
+        <td>Homeostatic circuit reorganization without net synapse overload</td>
+      </tr>
+      <tr>
+        <td>Chronically Stressed Mice</td>
+        <td>Intact 5-HT2ARs under stress-induced synapse loss</td>
+        <td>Strong new mushroom-spine growth + prevention of spine loss</td>
+        <td>Present</td>
+        <td>State-dependent restoration of stress-damaged cortical circuits</td>
+      </tr>
+      <tr>
+        <td>Layer 5-Only 5-HT2AR Rescue Mice</td>
+        <td>5-HT2ARs restored exclusively in Layer 5 pyramidal neurons</td>
+        <td>Full synaptic growth and mushroom-spine maturation preserved</td>
+        <td>Absent (no psychedelic head-twitch response)</td>
+        <td>Layer 5 5-HT2ARs are sufficient for neuroplastic rewiring without trip behavior</td>
+      </tr>
+      <tr>
+        <td>Layer 5-Specific 5-HT2AR Knockout Mice</td>
+        <td>5-HT2ARs deleted only from Layer 5 pyramidal neurons</td>
+        <td>Abolished (psilocybin fails to trigger spine growth)</td>
+        <td>Present (head-twitch response remains intact)</td>
+        <td>Layer 5 5-HT2ARs are necessary for spine growth; other circuits drive head twitch</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Implications for Non-Hallucinogenic Psychiatric Medicines</h2>
+<p>Proving that serotonin 2A receptors on Layer 5 pyramidal neurons are both necessary and sufficient for synaptic remodeling, while completely dispensable for the psychedelic head-twitch response, provides a clear cellular blueprint for next-generation pharmacology, complementing precision tools like <a href="https://www.curiosityfields.com/article/light-controlled-gene-editing-crispr-spatial-precision">optogenetic RNA control</a>. If medicinal chemists can design biased small-molecule analogs or targeted delivery vehicles that engage Layer 5 pyramidal neuroplasticity pathways without activating the separate subcortical or cortical circuits responsible for hallucinations, patients who cannot safely take classic psychedelics, such as individuals with cardiovascular risks or a family history of psychosis, could potentially access rapid circuit-restoring treatments.</p>
+
+<p>At the same time, Professor Zuo and colleagues emphasize an important translational caveat: because mice cannot report subjective conscious experiences, the rodent head-twitch assay is a behavioral correlate rather than a direct measure of human visual or ego-dissolving hallucinations. Determining whether non-hallucinogenic neuroplastic analogs match the full clinical durability of psilocybin-assisted therapy in human depression and PTSD will require carefully controlled human trials.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How quickly does psilocybin change physical connections in the brain?</h3>
+<p>Using live two-photon laser microscopy in mice, UC Santa Cruz researchers observed a significant surge in newly formed dendritic spines within 24 hours of a single psilocybin dose, followed by rapid maturation of those projections into stable, receptor-rich "mushroom" spines.</p>
+
+<h3>Does psilocybin affect healthy brains and chronically stressed brains the same way?</h3>
+<p>No. In healthy mice, psilocybin triggers new spine growth while also removing some older connections so total synapse numbers return to baseline over three weeks. In chronically stressed mice that have lost synapses, psilocybin boosts new spine growth and stops ongoing connection loss, helping repair the damaged circuit.</p>
+
+<h3>How did scientists separate psilocybin's brain rewiring from its psychedelic behavioral effects?</h3>
+<p>When researchers genetically restored serotonin 2A receptors only in cortical Layer 5 pyramidal neurons, psilocybin still triggered full synaptic growth and maturation, but the mice no longer showed the head-twitch behavior linked to psychedelic activity. Conversely, deleting those receptors only from Layer 5 blocked synapse growth while leaving the head-twitch behavior intact.</p>
+
+<h3>Why are Layer 5 pyramidal neurons so important for brain plasticity?</h3>
+<p>Layer 5 pyramidal neurons are the primary output cells of the cerebral cortex, sending long-range signals to other brain structures involved in mood, perception, and action, and they carry a high density of serotonin 2A receptors.</p>
+
+<h3>Does this mean non-hallucinogenic psychedelic drugs are ready for human patients?</h3>
+<p>Not yet. While the mouse experiments prove that synaptic rewiring and psychedelic-linked behavior use distinct cellular pathways, researchers must confirm that the same separation holds in the human brain and test whether non-hallucinogenic compounds relieve clinical depression or PTSD in human trials.</p>`
+  },
+  {
+    id: "ai-screens-peptides-natural-appetite-suppressing-molecule-brp",
+    slug: "ai-screens-peptides-natural-appetite-suppressing-molecule-brp",
+    title: "AI Screens Millions of Peptides to Find a Natural Appetite-Suppressing Molecule",
+    metaTitle: "AI Screens Millions of Peptides to Find a Natural Appetite-Suppressing Molecule",
+    excerpt: "Stanford Medicine researchers used the Peptide Predictor machine learning algorithm to map 2,683 human prohormone cleavage products, identifying a 12-amino-acid peptide called BRP that halves food intake and drives fat-selective weight loss in preclinical models without nausea or muscle loss.",
+    metaDescription: "Stanford Medicine researchers used the Peptide Predictor machine learning algorithm to map 2,683 human prohormone cleavage products, identifying a 12-amino-acid peptide called BRP that halves food intake and drives fat-selective weight loss in preclinical models without nausea or muscle loss.",
+    category: "artificial-intelligence",
+    author: authors[0],
+    coverImage: "/images/articles/ai-screens-peptides-natural-appetite-suppressing-molecule-brp.jpg",
+    publishedAt: "2026-11-09",
+    readTime: 7,
+    featured: true,
+    editorsPick: false,
+    tags: ["Artificial Intelligence","Peptide Discovery","BRP Peptide","Metabolic Health","Computational Biology","GLP-1 Alternatives"],
+    content: `<p class="lead"><strong>Researchers at Stanford Medicine have used an artificial intelligence algorithm called Peptide Predictor to scan all 20,000 human protein-coding genes for enzymatic cleavage sites, identifying a naturally occurring 12-amino-acid peptide named BRP that slashes food intake by up to 50 percent in mice and minipigs without the muscle loss or digestive slowdown linked to GLP-1 drugs.</strong> Published in <a href="https://doi.org/10.1038/s41586-025-08683-y" target="_blank" rel="noopener noreferrer">Nature</a> by lead author Dr. Laetitia Coassolo, neurobiologist Professor Liqun Luo, and senior author Professor Katrin J. Svensson, the computational screen narrowed hundreds of thousands of candidate protein fragments down to 2,683 peptides and uncovered a selective hypothalamic appetite pathway.</p>
+
+<h2>Why Hunting for Natural Peptide Hormones Was Previously Like Finding a Needle</h2>
+<p>Mapping hidden biological pathways inside vast molecular datasets demands the same targeted computational filtering that recently overcame the <a href="https://www.curiosityfields.com/article/ai-biology-data-bottleneck-cell-states">AI biology data bottleneck</a> and uncovered <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">9,389 catalytic reactions</a> in green chemistry. Many of the human body's most powerful metabolic regulators, including insulin and glucagon-like peptide 1 (GLP-1), start out locked inside large, biologically inactive precursor proteins called prohormones. Specialized molecular scissors known as prohormone convertases snip those precursor chains at specific amino-acid motifs to release short, active signaling peptides.</p>
+
+<p>Because a single prohormone can be cleaved in multiple places, human tissues generate hundreds of thousands of short protein fragments, most of which are inert cellular byproducts. Isolating rare, low-abundance signaling hormones from tissue extracts using conventional mass spectrometry is slow, expensive, and frequently misses tiny peptides that act locally inside the brain.</p>
+
+<p>In their <a href="https://www.sciencedaily.com/releases/2026/11/261104004909.htm" target="_blank" rel="noopener noreferrer">Stanford Medicine study</a>, senior research scientist Dr. Laetitia Coassolo, Assistant Professor of Pathology Katrin J. Svensson, and colleagues at Stanford, UC Berkeley, the University of Minnesota, and the University of British Columbia replaced trial-and-error biochemical extraction with an algorithmic search focused on a single enzyme: prohormone convertase 1/3 (PC1/3), the exact enzyme that cleaves GLP-1 and whose genetic mutations are strongly linked to severe human obesity.</p>
+
+<h2>How the Peptide Predictor Algorithm Screened 20,000 Human Genes</h2>
+<p>Designing domain-specific algorithms to extract functional signals from noisy sequences parallels how <a href="https://www.curiosityfields.com/article/ai-search-cross-field-links-beyond-semantic-similarity">cross-field AI search</a> and <a href="https://www.curiosityfields.com/article/multi-scale-network-sampling-1996-shortest-path-limit">multi-scale network algorithms</a> bypass brute-force computation. The team built a computational tool called Peptide Predictor to scan all roughly 20,000 protein-coding genes in the human genome for amino-acid sequences where prohormone convertase 1/3 is chemically programmed to cut.</p>
+
+<p>To focus strictly on extracellular hormone candidates, the researchers filtered for secreted proteins containing at least four predicted PC1/3 cleavage sites. That bioinformatics funnel narrowed 20,000 human genes down to 373 candidate prohormones, from which Peptide Predictor mapped 2,683 distinct cleaved peptides ranging between 5 and 50 amino acids in length.</p>
+
+<p>From that computational catalog, Svensson and Coassolo synthesized 100 high-priority peptides, alongside GLP-1 as a benchmark, and tested them directly on cultured mammalian neurons. While GLP-1 tripled neuronal activation relative to untreated control cells, one tiny 12-amino-acid fragment cleaved from a neural protein called BRINP2 triggered a tenfold surge in neuronal activity. The team named this 12-residue molecule BRP (BRINP2-related peptide).</p>
+
+<figure class="my-8 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/50"><img src="/images/articles/ai-screens-peptides-natural-appetite-suppressing-molecule-brp-inline-1.jpg" alt="Scientific molecular visualization showing a large silver-blue prohormone ribbon being cleaved by a glowing PC1/3 enzyme complex to release a golden 12-amino-acid BRP peptide targeting hypothalamic neuron receptors" class="w-full object-cover" loading="lazy" /><figcaption class="px-4 py-3 text-xs text-slate-400">From 20,000 genes to a 12-amino-acid hormone: Peptide Predictor maps where prohormone convertase 1/3 cuts secreted precursor proteins, uncovering the BRP peptide that selectively activates hypothalamic appetite circuits.</figcaption></figure>
+
+<h2>Comparing BRP With GLP-1 Drugs Like Semaglutide (Ozempic)</h2>
+<p>Evaluating how a centrally acting neuropeptide differs from systemic incretin mimetics requires comparing target tissue distribution, body-composition outcomes, and gastrointestinal side effects, much as <a href="https://www.curiosityfields.com/article/mathematical-models-copper-zinc-alzheimer-plaque-growth">kinetic biophysical models</a> compare multi-target drug mechanisms.</p>
+
+<div class="my-8 overflow-x-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>Biological &amp; Clinical Parameter</th>
+        <th>GLP-1 Receptor Agonists (Semaglutide / Ozempic)</th>
+        <th>AI-Discovered BRP Peptide (<a href="https://doi.org/10.1038/s41586-025-08683-y" target="_blank" rel="noopener noreferrer">Coassolo et al., Nature</a>)</th>
+        <th>Experimental Evidence &amp; Preclinical Context</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Molecular Origin &amp; Size</td>
+        <td>31-amino-acid incretin hormone cleaved from proglucagon</td>
+        <td>12-amino-acid non-incretin peptide cleaved from BRINP2</td>
+        <td>Identified from 2,683 PC1/3-cleaved candidates across 373 prohormones</td>
+      </tr>
+      <tr>
+        <td>In-Vitro Neuronal Activation</td>
+        <td>~3x increase in neuronal firing over baseline control</td>
+        <td>~10x increase in neuronal firing over baseline control</td>
+        <td>Screened across 100 synthesized candidate peptides on cultured neurons</td>
+      </tr>
+      <tr>
+        <td>Primary Anatomical Target Sites</td>
+        <td>Broad systemic distribution: brain, gut, pancreas, and heart</td>
+        <td>Highly selective activation in the hypothalamus</td>
+        <td>Avoids peripheral gut-motility receptors while targeting central hunger circuits</td>
+      </tr>
+      <tr>
+        <td>Preclinical Feeding &amp; Weight Impact</td>
+        <td>Strong appetite suppression; weight loss includes fat and lean muscle</td>
+        <td>Up to 50% drop in 1-hour food intake; fat-specific loss over 14 days</td>
+        <td>Tested in lean mice, diet-induced obese mice (-3 g vs +3 g controls), and minipigs</td>
+      </tr>
+      <tr>
+        <td>Digestive &amp; Behavioral Profile</td>
+        <td>Slows gastric emptying; associated with nausea and constipation</td>
+        <td>No change in fecal output, water intake, locomotion, or anxiety in animals</td>
+        <td>Requires human clinical trials to confirm nausea and long-term safety profile</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Why Selective Hypothalamic Signaling Spares Muscle and Digestion</h2>
+<p>When the researchers injected BRP intramuscularly into lean mice and minipigs, an animal model whose metabolism and feeding patterns closely resemble humans, food intake over the following hour dropped by up to 50 percent. In a 14-day trial with obese mice, daily BRP injections caused treated animals to lose an average of 3 grams while control mice gained 3 grams, accompanied by improved glucose and insulin tolerance.</p>
+
+<p>Crucially, body-composition scans showed that nearly 100 percent of the weight lost by BRP-treated mice came from adipose fat tissue rather than skeletal muscle, addressing a major clinical concern for aging patients, much like targeted <a href="https://www.curiosityfields.com/article/light-controlled-gene-editing-crispr-spatial-precision">spatial gene editing</a> minimizes off-target tissue effects. Because GLP-1 receptors are expressed heavily throughout the gastrointestinal tract and pancreas, drugs like semaglutide slow stomach emptying and frequently trigger constipation or nausea. By acting selectively on hypothalamic neurons via a non-GLP-1 pathway (activating distinct c-Fos and metabolic signaling cascades), BRP suppressed hunger in mice and pigs without altering fecal output, movement, or anxiety-like behaviors.</p>
+
+<h2>What Must Be Solved Before Human Clinical Trials Begin</h2>
+<p>While the <a href="https://doi.org/10.1038/s41586-025-08683-y" target="_blank" rel="noopener noreferrer">Nature study</a> showcases how AI prohormone screening can compress decades of endocrinology into months, translating BRP into an approved human medicine faces two major scientific hurdles, requiring the same transparent validation standards emphasized in <a href="https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained">AI safety reporting</a>. First, researchers have not yet identified the exact cell-surface receptor protein on hypothalamic neurons that BRP binds to. Second, unmodified 12-amino-acid peptides break down rapidly in the bloodstream, meaning pharmacologists must engineer longer-lasting chemical analogs before Phase I human trials can test whether BRP's muscle-sparing, gut-friendly profile holds true in people.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How did artificial intelligence help Stanford scientists discover BRP?</h3>
+<p>The researchers built an algorithm called Peptide Predictor to scan all 20,000 human protein-coding genes for exact amino-acid sites where the enzyme prohormone convertase 1/3 cuts larger proteins. That reduced hundreds of thousands of possibilities to 2,683 candidate peptides, allowing the team to test the top 100 in the lab.</p>
+
+<h3>How is the BRP peptide different from Ozempic (semaglutide)?</h3>
+<p>Semaglutide mimics GLP-1, a 31-amino-acid hormone that acts on receptors in the brain, gut, and pancreas. BRP is a much smaller, 12-amino-acid peptide derived from the protein BRINP2 that acts selectively in the brain's hypothalamus without activating GLP-1 receptors.</p>
+
+<h3>What happened when BRP was tested in mice and minipigs?</h3>
+<p>A single injection of BRP reduced food intake by up to 50 percent over the next hour in both mice and minipigs. Over 14 days of daily treatment, obese mice lost fat mass and improved their glucose and insulin tolerance without losing muscle or showing signs of constipation.</p>
+
+<h3>Why does preserving muscle mass matter so much in weight-loss drugs?</h3>
+<p>Rapid weight loss from existing medications often strips away significant lean skeletal muscle alongside body fat, which can reduce physical strength, mobility, and resting metabolic rate. In mouse experiments, BRP drove weight loss almost entirely from fat tissue.</p>
+
+<h3>Can people take BRP for weight loss today?</h3>
+<p>No. BRP has only been tested in laboratory cell cultures, mice, and minipigs. Before human clinical trials can establish whether BRP is safe and effective in people, scientists must identify its exact cell-surface receptor and engineer the short 12-amino-acid peptide to last longer in the human body.</p>`
+  },
+  {
     id: "asteroid-ryugu-samples-all-five-dna-rna-nucleobases",
     slug: "asteroid-ryugu-samples-all-five-dna-rna-nucleobases",
     title: "Pristine Asteroid Ryugu Samples Contain All Five DNA and RNA Nucleobases",
