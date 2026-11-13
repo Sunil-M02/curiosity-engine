@@ -117,6 +117,215 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "electrically-tunable-microcavities-light-supersolid-room-temp",
+    slug: "electrically-tunable-microcavities-light-supersolid-room-temp",
+    title: "Electrically Tunable Microcavities Turn Light Into a Supersolid at Room Temp",
+    metaTitle: "Electrically Tunable Microcavities Turn Light Into a Supersolid at Room Temp | CuriosityFields",
+    excerpt: "By coupling an organic polymer semiconductor with a voltage-tuned liquid-crystal optical microcavity, physicists created a room-temperature supersolid condensate of hybrid light-matter particles.",
+    metaDescription: "Physicists observed a room-temperature supersolid phase in an electrically tunable liquid-crystal and organic polymer microcavity, published in Science Advances.",
+    category: "science",
+    author: authors[1],
+    coverImage: "/images/articles/electrically-tunable-microcavities-light-supersolid-room-temp.jpg",
+    publishedAt: "2026-11-13",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Quantum Physics","Supersolid","Exciton Polaritons","Photonics","Condensed Matter","Room Temperature Quantum","Science Advances"],
+    content: `<p class="lead">An international physics consortium from the University of Warsaw, the Military University of Technology in Poland, IBM Research Zurich, and France's CNRS has observed a room-temperature supersolid phase in a quantum fluid of light and matter. Published in <em>Science Advances</em>, the experiment traps photons inside an electrically tunable liquid-crystal microcavity lined with two 35-nanometer films of the organic semiconductor MeLPPP, generating hybrid exciton-polariton condensates that simultaneously display crystal-like periodic density stripes and superfluid phase coherence without cryogenic cooling.</p>
+
+<h2>Combining Crystalline Order with Frictionless Quantum Flow</h2>
+<p>In everyday materials, crystalline rigidity and fluid motion represent opposite ends of physical behavior, a boundary that physicists have increasingly challenged as <a href="/article/extreme-pressure-familiar-materials-entirely-new-phases">extreme laboratory conditions reveal unexpected states of matter</a>. A solid crystal locks atoms into a repeating spatial lattice that resists shear, whereas a quantum superfluid flows through microscopic channels with zero viscosity. First theorized in the late 1960s, a supersolid is a paradoxical quantum phase in which particles spontaneously arrange themselves into a periodic, crystal-like density modulation while simultaneously maintaining the frictionless, phase-coherent flow of a superfluid.</p>
+<p>For nearly five decades after it was proposed, supersolidity eluded experimental confirmation because thermal jiggling at ordinary temperatures destroys macroscopic quantum coherence. Physicists first verified supersolid stripe phases in 2017 using ultracold atomic Bose-Einstein condensates of dysprosium and rubidium cooled to nanokelvin temperatures, mere billionths of a degree above absolute zero, inside complex laser-cooling and magnetic-trapping vacuum chambers.</p>
+<p>While ultracold atomic gases proved that supersolids exist, their reliance on extreme cryogenics prevented practical device integration. In a study published in <a href="https://doi.org/10.1126/sciadv.aee4875" target="_blank" rel="noopener noreferrer">Science Advances (DOI: 10.1126/sciadv.aee4875)</a> and detailed in a <a href="https://www.sciencedaily.com/releases/2026/11/261105224536.htm" target="_blank" rel="noopener noreferrer">University of Warsaw Faculty of Physics release on ScienceDaily</a>, first author Marcin Muszyński, senior authors Guillaume Malpuech and Jacek Szczytko, and colleagues in the TopoLight consortium demonstrated a room-temperature alternative using hybrid light-matter quasiparticles called exciton polaritons.</p>
+
+<h2>Inside the Liquid-Crystal and Organic Polymer Microcavity</h2>
+<p>Confining light inside nanoscale architectures to engineer new quantum interactions builds directly on advances where <a href="/article/photonic-materials-control-light-scale-atoms">photonic cavities trap and manipulate light at atomic scales</a>. An exciton polariton forms when a photon bouncing between two highly reflective mirrors couples strongly to an exciton, a bound electron-hole pair, inside a semiconductor layer. Because photons carry an extremely small effective mass inside a microcavity, exciton polaritons can condense into a macroscopic Bose-Einstein state at ambient temperatures, and even at temperatures approaching 60 degrees Celsius (140 degrees Fahrenheit), according to co-author Wiktor Piecek of the Military University of Technology.</p>
+<p>To transform a standard polariton condensate into an electrically controllable supersolid, the team fabricated a multilayer optical microcavity at the Military University of Technology and completed precision organic deposition and optical measurements at IBM Research Zurich. The cavity sandwiches a birefringent nematic liquid crystal core between two 35-nanometer-thick layers of methyl-substituted ladder-type poly(paraphenylene) (MeLPPP), an organic polymer semiconductor long studied by Thilo Stöferle's group at IBM Research for its strong room-temperature exciton binding energy.</p>
+<p>Applying an external electrical voltage across transparent electrodes rotates the rod-like liquid-crystal molecules inside the cavity, dynamically tuning how horizontally and vertically polarized light waves propagate. At specific voltage settings, the cavity induces Rashba-Dresselhaus spin-orbit coupling, a quantum interaction that links a polariton's polarization state to its direction of motion, much as <a href="/article/altermagnetism-confirmed-third-fundamental-branch-magnetism">spin-momentum locking governs electron transport in altermagnetic crystals</a>. Instead of settling into a single lowest-energy state at zero momentum, the spin-orbit-coupled polaritons condense simultaneously into two degenerate energy minima moving in opposite directions. Their quantum interference carves a periodic, crystal-like stripe pattern into the condensate density.</p>
+
+<figure class="my-8">
+  <img src="/images/articles/electrically-tunable-microcavities-light-supersolid-room-temp-inline-1.jpg" alt="Scientific cutaway diagram of an electrically tunable optical microcavity sandwiching nematic liquid crystal molecules between organic polymer MeLPPP layers and Bragg mirrors to form a striped exciton-polariton supersolid." class="w-full rounded-xl shadow-lg" loading="lazy" />
+  <figcaption class="mt-3 text-sm text-muted-foreground text-center">Scientific cutaway illustration of the electrically tunable TopoLight microcavity: an external voltage rotates nematic liquid-crystal molecules sandwiched between two 35-nanometer MeLPPP organic semiconductor films and multilayer Bragg mirrors, generating spin-orbit-coupled density stripes and phase vortices at room temperature.</figcaption>
+</figure>
+
+<h2>Spontaneous Symmetry Breaking Across 500 Single-Shot Realizations</h2>
+<p>Proving that a striped optical emission pattern represents a genuine quantum supersolid rather than an ordinary standing wave trapped by mirror defects required rigorous single-shot verification, similar to how <a href="/article/hints-criticality-showing-up-collisions-early-universe">physicists separate statistical fluctuations from true phase transitions in collider data</a>. If microscopic bumps or refractive-index defects inside the polymer or liquid crystal were simply pinning the light fringes in place, every laser pulse would reproduce the exact same stripe positions.</p>
+<p>As detailed in an <a href="https://www.thebrighterside.news/post/scientists-discover-a-new-quantum-state-of-matter-that-functions-at-room-temperature/" target="_blank" rel="noopener noreferrer">experimental breakdown of the Science Advances paper</a>, Muszyński and colleagues recorded 500 individual single-shot laser excitation realizations rather than relying on time-averaged exposures. Near the low-density condensation threshold, sample disorder partially pinned the fringes. However, once laser pumping pushed the polariton condensate into a higher-density regime, nonlinear polariton-polariton interactions overcame the sample's structural disorder: histograms across all 500 realizations showed that the periodic stripes appeared at a nearly uniform random distribution of spatial positions from shot to shot.</p>
+<p>Co-author Guillaume Malpuech of CNRS Institut Pascal noted that this random shifting of a rigid periodic lattice from one realization to the next is a textbook demonstration of spontaneous continuous translational symmetry breaking. Simultaneously, polarization-resolved imaging revealed a persistent spin helix, a repeating spatial oscillation in the polarization of the emitted light, alongside quantized phase vortices and stripe dislocations in roughly 10 percent of realizations via the Kibble-Zurek mechanism. The table below compares ultracold atomic supersolids with this room-temperature liquid-crystal polariton platform.</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse text-left text-sm">
+    <thead>
+      <tr class="border-b border-border bg-muted/50">
+        <th class="p-3 font-semibold">Experimental Parameter</th>
+        <th class="p-3 font-semibold">Ultracold Atomic Bose-Einstein Supersolids (2017–Present)</th>
+        <th class="p-3 font-semibold">MeLPPP Liquid-Crystal Polariton Supersolid (2026)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Operating Temperature</td>
+        <td class="p-3">Nanokelvin cryogenic regime (near absolute zero)</td>
+        <td class="p-3">Room temperature (up to ~60°C / 140°F capability)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Constituent Particles</td>
+        <td class="p-3">Dipolar ultracold atoms (e.g., dysprosium, erbium, rubidium)</td>
+        <td class="p-3">Hybrid light-matter exciton polaritons (picosecond lifetime)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Tuning Mechanism</td>
+        <td class="p-3">External magnetic coils and optical lattice lasers</td>
+        <td class="p-3">On-chip electrical voltage rotating liquid-crystal birefringence</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Supersolid Signatures Observed</td>
+        <td class="p-3">Periodic density droplets/stripes plus phase coherence</td>
+        <td class="p-3">Unpinned density stripes (500 shots), persistent spin helix, ~10% vortices</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Current Platform Limitations</td>
+        <td class="p-3">Requires bulky vacuum chambers and cryogenic cooling</td>
+        <td class="p-3">Driven transient state; chemical degradation within hours to weeks</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Practical Limits and the Road to Neuromorphic Photonics</h2>
+<p>Translating fragile laboratory quantum phenomena into durable hardware requires confronting material constraints head-on, a challenge familiar to engineers developing <a href="/article/photonic-neurons-sensing-memory-computing-one-device">integrated photonic neurons for optical computing</a> and <a href="/article/seven-electronvolt-semiconductor-work-insulators-expected">next-generation wide-bandgap semiconductor films</a>. While the TopoLight microcavity eliminates cryogenic cooling and introduces voltage tunability, the authors openly report two important caveats in their <em>Science Advances</em> paper.</p>
+<p>First, because organic MeLPPP layers gradually react chemically with the adjacent nematic liquid crystal, each fabricated sample suffered optical degradation within hours to days of assembly, forcing the experimental team at IBM Research Zurich to pre-plan every laser measurement sequence before a fresh sample deteriorated. Second, while the unpinning of density stripes from sample disorder and the appearance of Kibble-Zurek phase vortices in 10 percent of shots provide strong indirect evidence of superfluidity, the authors emphasize that direct, quantitative measurements of frictionless hydrodynamic flow past an obstacle remain a necessary next step.</p>
+<p>If materials scientists can encapsulate the 35-nanometer organic semiconductor films with ultrathin protective barrier layers to prevent liquid-crystal degradation, voltage-tunable room-temperature supersolids could open new architectures for all-optical switching, high-sensitivity polarization interferometry, and low-energy neuromorphic accelerators where <a href="/article/ai-models-moving-toward-hardware-software-co-design-edge">hardware physics performs complex wave computations directly at the edge</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="space-y-4 my-6">
+  <div>
+    <h3>What is a quantum supersolid?</h3>
+    <p>A supersolid is an exotic quantum state of matter in which particles simultaneously form a repeating, crystal-like spatial structure while maintaining the frictionless, phase-coherent flow characteristic of a superfluid.</p>
+  </div>
+  <div>
+    <h3>How did physicists create a supersolid at room temperature without ultracold atoms?</h3>
+    <p>Instead of cooling atoms near absolute zero, the researchers trapped photons inside a microcavity containing a nematic liquid crystal and two 35-nanometer MeLPPP organic semiconductor layers, creating hybrid light-matter quasiparticles called exciton polaritons that condense at ambient temperature.</p>
+  </div>
+  <div>
+    <h3>How does electricity control the supersolid state in this device?</h3>
+    <p>Applying a small external voltage tilts the rod-like liquid-crystal molecules inside the microcavity, altering its optical birefringence and inducing Rashba-Dresselhaus spin-orbit coupling so the condensate interferes to form periodic stripes.</p>
+  </div>
+  <div>
+    <h3>How did the researchers prove the stripes were not just caused by sample defects?</h3>
+    <p>Across 500 single-shot laser realizations at high condensate density, the periodic stripes appeared at random, uniformly distributed positions rather than locking onto fixed sample imperfections, demonstrating spontaneous translational symmetry breaking.</p>
+  </div>
+  <div>
+    <h3>What are the main limitations of this room-temperature supersolid platform?</h3>
+    <p>The exciton-polariton condensate is a short-lived, laser-driven state lasting picoseconds per pulse, the organic MeLPPP layer degrades chemically within hours to days through contact with the liquid crystal, and quantitative frictionless transport measurements are still needed.</p>
+  </div>
+</div>`
+  },
+  {
+    id: "gut-to-brain-dopamine-pathway-learn-to-love-bitter-coffee",
+    slug: "gut-to-brain-dopamine-pathway-learn-to-love-bitter-coffee",
+    title: "A Gut-to-Brain Dopamine Pathway Explains How We Learn to Love Bitter Coffee",
+    metaTitle: "A Gut-to-Brain Dopamine Pathway Explains How We Learn to Love Bitter Coffee | CuriosityFields",
+    excerpt: "University of California, San Francisco neuroscientists have mapped a slow, post-ingestive dopamine circuit in the left basolateral amygdala that teaches the brain to crave flavors paired with nutrients or stimulants.",
+    metaDescription: "A Nature study reveals how a slow gut-to-brain dopamine pathway in the left basolateral amygdala rewires flavor preferences so bitter coffee becomes rewarding.",
+    category: "psychology-mind",
+    author: authors[0],
+    coverImage: "/images/articles/gut-to-brain-dopamine-pathway-learn-to-love-bitter-coffee.jpg",
+    publishedAt: "2026-11-13",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Dopamine","Gut-Brain Axis","Neuroscience","Basolateral Amygdala","Flavor Learning","Psychology","UCSF"],
+    content: `<p class="lead">Neuroscientists at the University of California, San Francisco (UCSF), Yale University, and the Max Planck Institute for Metabolism Research have identified a slow-acting gut-to-brain dopamine pathway that explains how initially unpleasant flavors like bitter black coffee become favorites over time. Published in <em>Nature</em>, the research demonstrates that post-ingestive nutrient detection triggers a prolonged dopamine surge concentrated in the left anterior basolateral amygdala (BLA), retroactively teaching the brain to value flavors that deliver metabolic energy or physiological stimulation minutes after swallowing.</p>
+
+<h2>Why Evolutionarily Aversive Flavors Become Daily Cravings</h2>
+<p>Human taste buds evolved as rapid chemical gatekeepers on the tongue, a sensory defense mechanism closely connected to how <a href="/article/brain-region-lose-trial-and-error-learning-strategic-thinking">distinct neural circuits separate immediate reward feedback from long-term learning</a>. Sweet and umami receptors signal calorie-dense carbohydrates and amino acids on contact, whereas bitter taste receptors such as the TAS2R family evolved to trigger immediate rejection of toxic plant alkaloids. On a person's very first sip of unsweetened coffee, dark roast espresso, or unsweetened cocoa, the tongue sends an unmistakable warning signal to avoid the beverage.</p>
+<p>Yet millions of adults not only override that innate aversion but actively crave the exact bitter profile they once disliked. For decades, neuroscientists focused primarily on fast phasic dopamine bursts in the ventral striatum that fire within milliseconds to seconds of tasting something sweet or spotting a food cue. While fast striatal dopamine explains why we reach for a sugared pastry right in front of us, it struggled to explain how the brain links a bitter flavor on the tongue with nutrients or caffeine absorbed in the stomach and small intestine 10 to 30 minutes later.</p>
+<p>In a study published November 4, 2026, in <a href="https://doi.org/10.1038/s41586-026-11229-5" target="_blank" rel="noopener noreferrer">Nature (DOI: 10.1038/s41586-026-11229-5)</a> and summarized in a <a href="https://www.sciencedaily.com/releases/2026/11/261108233100.htm" target="_blank" rel="noopener noreferrer">UCSF research release on ScienceDaily</a>, first author James C. R. Grove and senior author Zachary A. Knight, professor of physiology at UCSF, mapped the missing second stage of reward learning. Working alongside collaborators Dana M. Small (Yale University) and Marc Tittgemeyer (Max Planck Institute for Metabolism Research), the team uncovered a slow dopamine system that operates largely outside conscious awareness after food reaches the digestive tract.</p>
+
+<h2>Inside the Slow Dopamine Circuit of the Basolateral Amygdala</h2>
+<p>Tracking delayed internal signals across the body requires the same circuit-level precision neuroscientists use when <a href="/article/brain-signals-predict-attention-failure-consciously-notice">monitoring subtle shifts in neural activity before conscious awareness catches up</a>. To isolate gut-driven reward signals from oral taste, Grove and Knight infused sugar water or a calorie-rich milkshake directly into the stomachs of mice via intragastric catheters while recording real-time dopamine dynamics across multiple brain regions.</p>
+<p>Bypassing the tongue completely, the intragastric nutrient infusions triggered a powerful, sustained dopamine wave in the anterior basolateral amygdala (BLA) that built gradually and lasted for several minutes. Unlike the striatum, which guides motor habits and immediate action selection, the amygdala specializes in assigning emotional and motivational value to sensory memories. A slow dopamine bath arriving in the anterior BLA several minutes after a meal lands right while the memory trace of the recently tasted flavor is still active in the amygdala circuit.</p>
+<p>To prove that this delayed amygdala dopamine signal actually drives flavor-nutrient learning, the UCSF researchers ran two decisive causal tests. First, when they selectively silenced the dopamine pathway projecting into the anterior BLA, mice continued to eat normal quantities of food and still preferred sweet tastes on contact, proving their basic appetite and taste buds remained intact. However, the animals completely lost the ability to learn a preference for a novel flavor paired with intragastric calories. Second, when mice drank a zero-calorie flavored liquid and the researchers optically stimulated dopamine fibers in the anterior BLA afterward, the animals developed a lasting preference for that calorie-free flavor just as if it had nourished them.</p>
+
+<figure class="my-8">
+  <img src="/images/articles/gut-to-brain-dopamine-pathway-learn-to-love-bitter-coffee-inline-1.jpg" alt="Scientific neurobiology illustration showing nutrient signals traveling from the small intestine through the brainstem to trigger an asymmetric dopamine surge in the left basolateral amygdala." class="w-full rounded-xl shadow-lg" loading="lazy" />
+  <figcaption class="mt-3 text-sm text-muted-foreground text-center">Scientific illustration of the gut-to-brain flavor-nutrient learning circuit mapped by Grove, Knight, and colleagues: nutrient sensors in the digestive tract send ascending signals that trigger a prolonged dopamine release heavily concentrated in the left anterior basolateral amygdala (left hemisphere highlighted in amber) compared to the right hemisphere.</figcaption>
+</figure>
+
+<h2>An Unexpected Left-Brain Asymmetry in Mice and Humans</h2>
+<p>Discovering that an ancient survival circuit operates asymmetrically across the brain adds a new twist to how <a href="/article/your-brain-keep-solving-problem-stop-thinking">unconscious neural processing reshapes human cognition and behavior</a>. Because feeding and metabolism are foundational survival functions, neurobiologists have historically assumed that subcortical reward circuits operate symmetrically across the left and right hemispheres. Instead, the mouse recordings revealed that post-ingestive nutrients triggered a markedly stronger dopamine surge in the left basolateral amygdala than in the right.</p>
+<p>To test whether human brains share this lateralized gut-to-amygdala circuit, the authors analyzed two independent human neuroimaging cohorts. Psychologist Dana Small re-examined positron emission tomography (PET) scans from 13 adult men who consumed either a caloric milkshake or a non-caloric beverage, confirming that post-ingestive dopamine release was heavily concentrated in the left BLA. Simultaneously, Marc Tittgemeyer and his colleagues used functional magnetic resonance imaging (fMRI) to scan 38 adults after they ingested glucose, observing a matching left-dominant activation in the human basolateral amygdala. The table below compares the fast oral taste system with this newly characterized post-ingestive learning circuit.</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse text-left text-sm">
+    <thead>
+      <tr class="border-b border-border bg-muted/50">
+        <th class="p-3 font-semibold">Circuit Property</th>
+        <th class="p-3 font-semibold">Fast Oral Taste Reward System</th>
+        <th class="p-3 font-semibold">Slow Post-Ingestive Gut-to-Brain System</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Primary Sensory Trigger</td>
+        <td class="p-3">Tongue taste receptors (sweet, umami, bitter, salty, sour)</td>
+        <td class="p-3">Intestinal nutrient and metabolic sensors (sugar, fat, stimulants)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Dopamine Timescale</td>
+        <td class="p-3">Rapid phasic burst (milliseconds to a few seconds)</td>
+        <td class="p-3">Slow tonic wave developing over several minutes</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Target Brain Structure</td>
+        <td class="p-3">Ventral striatum / nucleus accumbens</td>
+        <td class="p-3">Anterior basolateral amygdala (BLA)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Hemispheric Symmetry</td>
+        <td class="p-3">Broadly bilateral across striatal hemispheres</td>
+        <td class="p-3">Strongly left-hemisphere dominant in both mice and humans</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Behavioral Function</td>
+        <td class="p-3">Drives immediate consumption or rejection at first bite</td>
+        <td class="p-3">Updates long-term flavor preference across repeated meals</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Implications for Food Cravings and GLP-1 Weight-Loss Therapies</h2>
+<p>Understanding how internal bodily states rewrite perceptual judgments echoes broader findings on how <a href="/article/tapping-plastic-arm-synchronously-tricks-brain-minutes">multisensory integration rapidly updates the brain's internal models</a> and how <a href="/article/cortically-blind-patients-catch-ball-cannot-see">subcortical pathways guide behavior without conscious awareness</a>. When a person drinks morning coffee, caffeine and accompanying milk or sugar are absorbed in the gut, triggering post-ingestive signaling that updates the anterior BLA's valuation of coffee's bitter aroma and flavor. Over repeated mornings, the brain reclassifies the bitter taste from a warning sign into a cue for alertness and metabolic reward.</p>
+<p>While the UCSF study did not directly test glucagon-like peptide-1 (GLP-1) receptor agonists such as semaglutide, Knight pointed out an important hypothesis for future clinical research. Current weight-loss drugs are widely known for suppressing acute hunger and slowing gastric emptying, yet patients taking GLP-1 therapies frequently report that ultra-processed, calorie-dense foods no longer taste as appealing as they once did. If gut-hormone medications dampen the slow post-ingestive dopamine signal reaching the left basolateral amygdala, they could gradually extinguish learned cravings by weakening the unconscious nutritional reinforcement loop.</p>
+<p>Separating established experimental proof from open questions remains essential, much as <a href="/article/people-judge-own-mistakes-differently-others">behavioral scientists distinguish immediate emotional reactions from reflective judgment</a>. Grove, Knight, and their co-authors have conclusively shown in mice that anterior BLA dopamine is both necessary and sufficient for flavor-nutrient preference learning, and they have verified left-biased BLA responses to nutrients in 51 human participants across PET and fMRI cohorts. However, why evolution concentrated this gut-to-brain reward signal in the left hemisphere rather than the right, and whether pharmacologically tuning this circuit can safely reshape human dietary habits without blunting normal motivation, remain active frontiers for upcoming trials.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="space-y-4 my-6">
+  <div>
+    <h3>Why do people learn to like bitter coffee if humans naturally dislike bitter tastes?</h3>
+    <p>After coffee is swallowed, the gut and bloodstream detect caffeine and any accompanying nutrients, activating a slow dopamine pathway into the anterior basolateral amygdala that retroactively pairs coffee's bitter flavor with positive post-ingestive reward.</p>
+  </div>
+  <div>
+    <h3>How does the gut-to-brain dopamine pathway differ from normal dopamine reward signals?</h3>
+    <p>Unlike rapid dopamine bursts in the striatum that fire within seconds of tasting sweet food, the gut-to-brain pathway releases dopamine gradually over several minutes in the anterior basolateral amygdala after nutrients reach the stomach and intestines.</p>
+  </div>
+  <div>
+    <h3>What happened when researchers blocked this amygdala dopamine circuit in mice?</h3>
+    <p>Mice with an interrupted anterior basolateral amygdala dopamine pathway continued eating normal amounts of food, but they completely lost the ability to learn a preference for unfamiliar flavors paired with calories.</p>
+  </div>
+  <div>
+    <h3>Why is the left side of the brain highlighted in this study?</h3>
+    <p>In both mouse recordings and human brain scans (13 PET participants and 38 fMRI participants), nutrient delivery in the gut produced a significantly stronger dopamine and neural response in the left basolateral amygdala than in the right hemisphere.</p>
+  </div>
+  <div>
+    <h3>Does this study prove how GLP-1 weight-loss drugs change food cravings?</h3>
+    <p>No. The researchers did not test GLP-1 medications in this study; senior author Zachary Knight proposed as a hypothesis for future testing that GLP-1 drugs might reduce cravings partly by dampening post-ingestive dopamine reinforcement.</p>
+  </div>
+</div>`
+  },
+  {
     id: "281",
     slug: "fractal-basins-limit-ai-predictability-reproducibility",
     title: "Fractal Basins Reveal a Hidden Mathematical Limit to AI Predictability",
