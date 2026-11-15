@@ -1910,4 +1910,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.curiosityfields.com/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.curiosityfields.com/article/parker-solar-probe-magnetic-field-reversals-solar-wind</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
