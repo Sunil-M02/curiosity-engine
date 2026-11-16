@@ -117,6 +117,219 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "brain-strategy-switching-deficits-kids-math-struggles",
+    slug: "brain-strategy-switching-deficits-kids-math-struggles",
+    title: "Brain Strategy-Switching Deficits Explain Kids' Persistent Math Struggles",
+    metaTitle: "Brain Strategy-Switching Deficits Explain Kids' Persistent Math Struggles | CuriosityFields",
+    excerpt: "A Stanford University study of 68 children shows that developmental dyscalculia is tied to neural differences in cognitive flexibility and how the brain switches problem-solving strategies.",
+    metaDescription: "Published in The Journal of Neuroscience, Stanford researchers link developmental dyscalculia to brain activity differences in switching math strategies.",
+    category: "psychology-mind",
+    author: authors[1],
+    coverImage: "/images/articles/brain-strategy-switching-deficits-kids-math-struggles.jpg",
+    publishedAt: "2026-11-16",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Neuroscience","Dyscalculia","Cognitive Flexibility","Executive Function","Child Development","Stanford University","Psychology"],
+    content: `<p class="lead">Neuroscientists at Stanford University have discovered that persistent childhood math difficulties in developmental dyscalculia extend beyond basic number sense to measurable differences in how the brain selects and switches problem-solving strategies. Published in <em>The Journal of Neuroscience</em>, the study of 68 children aged 8 to 10 combined behavioral strategy tracking with neuroimaging and found that children with developmental dyscalculia were slower to adapt their approach when problem difficulty changed, less able to refine their strategy choices over time, and showed distinct neural activity patterns in executive control circuits.</p>
+
+<h2>Why Persistent Math Difficulties Go Beyond Basic Number Sense</h2>
+<p>Understanding how the human brain adapts when a familiar mental rule stops working builds directly on research into <a href="/article/brain-region-lose-trial-and-error-learning-strategic-thinking">strategic learning circuits</a>. Developmental dyscalculia is a specific learning disorder affecting roughly 3 to 7 percent of school-age children, causing severe, ongoing difficulties with arithmetic and mathematical reasoning despite normal intelligence and classroom instruction. Historically, cognitive psychologists focused primarily on a core deficit in "number sense"—the intuitive ability to estimate quantities and compare numerical magnitudes in the intraparietal sulcus.</p>
+<p>However, solving arithmetic problems in elementary school requires more than recognizing which of two numbers is larger. As children progress from simple addition to multi-step arithmetic, they must constantly choose between competing mental strategies—such as counting one by one on their fingers, decomposing numbers into tens and ones, or retrieving memorized facts directly from long-term memory.</p>
+<p>In a study published in <a href="https://doi.org/10.1523/JNEUROSCI.2200-25.2026" target="_blank" rel="noopener noreferrer">The Journal of Neuroscience (DOI: 10.1523/JNEUROSCI.2200-25.2026)</a> and highlighted in a <a href="https://www.sciencedaily.com/releases/2026/11/261112025542.htm" target="_blank" rel="noopener noreferrer">Society for Neuroscience release on ScienceDaily</a>, lead author Oliver H. M. Lasnick alongside co-authors Yunji Park, Percy Mistry, and senior author Vinod Menon at Stanford University investigated how cognitive and metacognitive strategy management shapes developmental dyscalculia.</p>
+
+<h2>Tracking Strategy Switching Across 68 Elementary School Children</h2>
+<p>Measuring how the brain monitors its own performance before an error occurs parallels studies on <a href="/article/brain-signals-predict-attention-failure-consciously-notice">attention lapse signals</a> and <a href="/article/your-brain-keep-solving-problem-stop-thinking">unconscious problem solving</a>. To capture how children actually approach math challenges in real time, Lasnick, Menon, and their colleagues studied 68 children between the ages of 8 and 10, comparing students with developmental dyscalculia against typically developing peers across a series of arithmetic tasks of varying complexity.</p>
+<p>Rather than grading only whether a child arrived at the right or wrong answer, the Stanford team applied latent cognitive and metacognitive modeling to track how each child selected strategies trial by trial, how quickly they switched from slow counting to more efficient methods when problem difficulty shifted, and whether their strategy selection improved with practice.</p>
+<p>The behavioral modeling revealed three specific bottlenecks in children with developmental dyscalculia. First, they were significantly slower to shift from one problem-solving method to another across consecutive trials. Second, their strategy choices were less responsive to changes in problem complexity—persisting with effortful counting when retrieval was optimal, or guessing when careful calculation was needed. Third, while typically developing children steadily refined their metacognitive strategy choices over the course of the session, children with dyscalculia failed to show that same learning trajectory.</p>
+
+<figure class="my-8">
+  <img src="/images/articles/brain-strategy-switching-deficits-kids-math-struggles-inline-1.jpg" alt="Scientific cognitive neuroscience diagram comparing frontoparietal executive network activation during flexible math strategy switching versus rigid strategy persistence in developmental dyscalculia." class="w-full rounded-xl shadow-lg" loading="lazy" />
+  <figcaption class="mt-3 text-sm text-muted-foreground text-center">Scientific illustration comparing coordinated frontoparietal executive network engagement during flexible arithmetic strategy switching (left) with the attenuated neural modulation associated with strategy rigidity in developmental dyscalculia (right).</figcaption>
+</figure>
+
+<h2>Executive Function Networks and Neural Predictors of Math Strategy</h2>
+<p>Connecting behavioral flexibility to underlying neural circuits sheds light on how <a href="/article/people-judge-own-mistakes-differently-others">error judgment biases</a> and <a href="/article/gut-to-brain-dopamine-pathway-learn-to-love-bitter-coffee">dopamine reinforcement pathways</a> guide human learning. When the Stanford researchers analyzed functional brain imaging recorded while the 68 children solved problems, they found that the behavioral difficulties were mirrored by distinct activation patterns in brain systems governing executive functions—the cognitive control networks that manage working memory, sustained attention, and cognitive flexibility.</p>
+<p>Specifically, neural activity patterns within these executive control regions differed measurably between children with developmental dyscalculia and their typically developing classmates. More importantly, those brain activity signatures quantitatively predicted two distinct behavioral skills across individual children: how effectively a child executed counting procedures, and how flexibly the child switched between different problem-solving approaches. The table below contrasts the traditional single-deficit view of dyscalculia with the multi-process cognitive framework supported by the Stanford study.</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse text-left text-sm">
+    <thead>
+      <tr class="border-b border-border bg-muted/50">
+        <th class="p-3 font-semibold">Cognitive / Neural Dimension</th>
+        <th class="p-3 font-semibold">Typically Developing Children (Ages 8–10)</th>
+        <th class="p-3 font-semibold">Children With Developmental Dyscalculia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Strategy Switching Speed</td>
+        <td class="p-3">Rapidly shifts between counting, decomposition, and retrieval</td>
+        <td class="p-3">Significantly slower to switch from one strategy to another</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Sensitivity to Problem Difficulty</td>
+        <td class="p-3">Adapts method dynamically as arithmetic complexity changes</td>
+        <td class="p-3">Less responsive to difficulty shifts; persists with suboptimal methods</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Metacognitive Learning Over Time</td>
+        <td class="p-3">Progressively selects more efficient strategies across trials</td>
+        <td class="p-3">Shows blunted improvement in strategy selection over time</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Executive Network Brain Activity</td>
+        <td class="p-3">Coordinated modulation predicting counting and switching skill</td>
+        <td class="p-3">Altered neural activity patterns across cognitive control circuits</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Individual Variability Profile</td>
+        <td class="p-3">Consistent age-typical convergence toward memory retrieval</td>
+        <td class="p-3">Heterogeneous deficits spanning cognitive and metacognitive processes</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Why Individual Variability Matters for Classroom Interventions</h2>
+<p>Recognizing that perceptual and cognitive challenges arise from interacting brain systems rather than a single isolated switch echoes discoveries in <a href="/article/tapping-plastic-arm-synchronously-tricks-brain-minutes">multisensory body illusions</a> and <a href="/article/cortically-blind-patients-catch-ball-cannot-see">subcortical visual pathways</a>. As Lasnick emphasized in the Society for Neuroscience announcement, developmental dyscalculia does not stem from one uniform defect shared identically by every struggling student; instead, substantial individual variability exists across quantity representation, working memory, and metacognitive strategy control.</p>
+<p>The authors also highlight an essential scientific qualification: because their neuroimaging and behavioral comparisons are cross-sectional, the observed brain activity differences demonstrate a strong association with strategy-switching deficits rather than proving direct one-way causation. Years of frustrating experiences with arithmetic could also shape how a child's executive networks engage during math tests.</p>
+<p>Even with that caveat, the findings carry practical implications for educators and school psychologists. Simply drilling repetitive arithmetic facts may not help a child whose core bottleneck is recognizing when to abandon finger-counting and switch to a decomposition strategy. By designing targeted educational interventions that explicitly teach cognitive flexibility, self-monitoring, and strategy selection alongside foundational number skills, schools can better support the diverse neural profiles of children with developmental dyscalculia.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="space-y-4 my-6">
+  <div>
+    <h3>What is developmental dyscalculia?</h3>
+    <p>Developmental dyscalculia is a neurodevelopmental learning disorder that causes persistent difficulty understanding numbers, learning arithmetic facts, and solving mathematical problems, even when a child has normal intelligence and classroom instruction.</p>
+  </div>
+  <div>
+    <h3>What did the Stanford study discover about children who struggle with math?</h3>
+    <p>Studying 68 children aged 8 to 10, researchers found that children with developmental dyscalculia struggled to switch between math strategies, were less responsive to changes in problem difficulty, and did not improve their strategy choices over time like their peers.</p>
+  </div>
+  <div>
+    <h3>How was brain activity connected to children's math strategies?</h3>
+    <p>Distinct patterns of neural activity in brain systems supporting executive functions (attention, working memory, and cognitive flexibility) differed in children with dyscalculia and predicted both counting efficiency and strategy-switching ability.</p>
+  </div>
+  <div>
+    <h3>Does this study prove that brain differences cause developmental dyscalculia?</h3>
+    <p>No. The authors note that while the neuroimaging data establish a clear link between brain activity patterns and strategy-switching deficits, they show an association rather than proving that those brain differences directly cause the disorder.</p>
+  </div>
+  <div>
+    <h3>How could these findings change how schools help kids with math difficulties?</h3>
+    <p>Instead of focusing only on whether a student gets the right answer or drilling rote memorization, teachers and interventions can explicitly train children on how to evaluate problem difficulty and switch flexibly between different problem-solving methods.</p>
+  </div>
+</div>`
+  },
+  {
+    id: "worldparticle-ai-unifies-fluid-solid-protein-physics",
+    slug: "worldparticle-ai-unifies-fluid-solid-protein-physics",
+    title: "WorldParticle AI Unifies Fluid, Solid, and Protein Physics in One Model",
+    metaTitle: "WorldParticle AI Unifies Fluid, Solid, and Protein Physics in One Model | CuriosityFields",
+    excerpt: "Researchers at MIT CSAIL and the University of British Columbia built WorldParticle, a transformer foundation model that simulates fluids, granular sand, deformable solids, and folding proteins in a single particle architecture.",
+    metaDescription: "MIT CSAIL and UBC researchers created WorldParticle, a unified transformer AI simulator that models fluids, sand, solids, and protein dynamics up to 100x faster.",
+    category: "artificial-intelligence",
+    author: authors[0],
+    coverImage: "/images/articles/worldparticle-ai-unifies-fluid-solid-protein-physics.jpg",
+    publishedAt: "2026-11-16",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Artificial Intelligence","Physics Simulation","World Models","MIT CSAIL","Transformers","Protein Folding","Computational Science"],
+    content: `<p class="lead">Researchers at the Massachusetts Institute of Technology Computer Science and Artificial Intelligence Laboratory (MIT CSAIL), the University of British Columbia (UBC), and eight collaborating institutions have built a unified deep-learning foundation model called WorldParticle that simulates fluids, granular sand, deformable solids, and folding proteins within a single neural architecture. Presented at the ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia, the transformer-based system replaces specialized, hand-coded numerical solvers by representing all matter as three-dimensional Lagrangian particles and predicting their step-by-step motion up to 100 times faster than traditional molecular simulators.</p>
+
+<h2>Why Traditional Physics Simulation Requires Separate Solvers</h2>
+<p>Computational scientists have long relied on domain-specific engines to model the physical world, a specialization seen even in <a href="/article/the-ai-that-predicted-protein-structures-unsolved-for-50-years-alphafold-explained">AlphaFold protein models</a>. When an aerospace or civil engineer wants to test how ocean waves slam against a flexible seawall, or how granular soil shifts beneath a robot's foot, no single classical equation handles every material regime smoothly. Fluid dynamics relies on Navier-Stokes solvers, elastic solids require finite-element meshes, granular media use discrete-element contact models, and biomolecules depend on molecular dynamics force fields.</p>
+<p>Each of those numerical solvers must be hand-coded around partial differential equations tailored to one narrow class of matter. Coupling two different regimes together, such as sloshing oil pressing against a deformable rubber valve inside a storage tank, forces engineers to stitch separate simulators together across slow, error-prone software interfaces.</p>
+<p>As detailed in an <a href="https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109" target="_blank" rel="noopener noreferrer">MIT News research announcement</a> on the open-access paper <em>"WorldParticle: Unified World Simulation of Lagrangian Particle Dynamics via Transformer"</em>, co-lead and co-corresponding authors Minghao Guo (MIT CSAIL postdoc) and Peter Yichen Chen (assistant professor at UBC and former MIT postdoc), alongside UBC graduate students Caoliwen Wang and Siyuan Chen and MIT Professor Wojciech Matusik, set out to build a single general-purpose foundation model that learns physical dynamics directly across scales.</p>
+
+<h2>How WorldParticle Uses Transformers to Predict Particle Motion</h2>
+<p>Adapting sequence-prediction architectures from language processing to physical dynamics requires rethinking how models process spatial memory, a challenge related to <a href="/article/what-context-window-actually-means-and-why-it-limits-every-ai-you-use">transformer context windows</a> and <a href="/article/ai-models-moving-toward-hardware-software-co-design-edge">edge AI co-design</a>. Rather than dividing space into fixed grid cells, WorldParticle represents every object—whether a dune of sand, a splash of water, an elastic block, or a folding polypeptide chain—as a cloud of thousands to millions of three-dimensional dots using a Lagrangian particle representation.</p>
+<p>In a similar way to how a large language model predicts the next word token in a sentence, the WorldParticle transformer takes the 3D coordinates, velocities, and material properties of every particle at the current moment and predicts their updated positions and velocities for the next time step. Because a complex 3D object broken into millions of Lagrangian particles would overwhelm standard transformer attention memory, the team engineered a hierarchical particle-merging compression technique that groups nearby particles for long-range interactions while preserving fine-grained local contact details.</p>
+<p>Crucially, WorldParticle also separates intrinsic material dynamics from external environmental forces. Before each prediction step, the architecture isolates external impulses—such as gravity, wind, or a sudden mechanical boundary impact—predicts the internal particle evolution, and then integrates the external forces back into the trajectory to correct the final state. That force-decoupling step allows the trained network to generalize accurately to new materials, unfamiliar boundary shapes, and force magnitudes it never encountered during training.</p>
+
+<figure class="my-8">
+  <img src="/images/articles/worldparticle-ai-unifies-fluid-solid-protein-physics-inline-1.jpg" alt="Scientific architecture diagram of the WorldParticle transformer simulator decomposing fluids, granular sand, and proteins into 3D Lagrangian particles and predicting next-step trajectories." class="w-full rounded-xl shadow-lg" loading="lazy" />
+  <figcaption class="mt-3 text-sm text-muted-foreground text-center">Scientific illustration of the WorldParticle architecture: diverse physical substances (fluids, granular media, deformable solids, and proteins) are represented as 3D Lagrangian particles, compressed via particle merging, and stepped forward in time by a force-decoupled transformer network.</figcaption>
+</figure>
+
+<h2>Benchmarking Unified Particle AI Against Classical Solvers</h2>
+<p>Evaluating neural simulators against classical numerical baselines requires testing both physical fidelity and stability across regimes, complementing studies on <a href="/article/fractal-basins-limit-ai-predictability-reproducibility">fractal training basins</a>. Across six distinct physical phenomena spanning microscopic molecular motion to macroscopic continuum mechanics, WorldParticle matched or exceeded the accuracy of specialized numerical solvers while avoiding common simulation artifacts. For example, when modeling a collapsing column of granular sand, baseline neural methods left stray sand particles floating unphysically in mid-air, whereas WorldParticle reproduced a clean, realistic granular pile. In biomolecular tests, WorldParticle simulated time-resolved protein conformational changes roughly 100 times faster than conventional numerical molecular dynamics solvers. The table below compares classical single-domain solvers, earlier neural physics models, and the unified WorldParticle framework.</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse text-left text-sm">
+    <thead>
+      <tr class="border-b border-border bg-muted/50">
+        <th class="p-3 font-semibold">Simulation Dimension</th>
+        <th class="p-3 font-semibold">Classical Numerical Solvers (FEM / CFD / MD)</th>
+        <th class="p-3 font-semibold">Single-Domain Neural Simulators</th>
+        <th class="p-3 font-semibold">WorldParticle Transformer (MIT &amp; UBC, 2026)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Material Scope</td>
+        <td class="p-3">Requires separate hand-coded solver per physical regime</td>
+        <td class="p-3">Trained for one specific material or equation family</td>
+        <td class="p-3">Unified model across 6 regimes (fluids, sand, solids, proteins)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Core Representation</td>
+        <td class="p-3">Meshes, Eulerian grids, or specialized force fields</td>
+        <td class="p-3">Uncompressed graph networks or pixel grids</td>
+        <td class="p-3">3D Lagrangian particles with hierarchical particle merging</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Generalization to Unseen Forces</td>
+        <td class="p-3">High within programmed equation bounds</td>
+        <td class="p-3">Poor when external forces shift outside training set</td>
+        <td class="p-3">High via explicit external-force separation and correction</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Protein Dynamics Speed</td>
+        <td class="p-3">1x baseline (computationally intensive step integration)</td>
+        <td class="p-3">Limited to static structure or narrow trajectories</td>
+        <td class="p-3">~100x faster than numerical molecular dynamics simulators</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Multi-Physics Coupling</td>
+        <td class="p-3">Requires complex co-simulation interface stitching</td>
+        <td class="p-3">Cannot couple fluids, granular media, and solids natively</td>
+        <td class="p-3">Native unified particle interaction across material types</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Applications From Soft Robotics to Drug and Materials Discovery</h2>
+<p>Unifying multi-scale physical modeling inside a single trainable engine opens practical workflows for engineers building <a href="/article/paper-thin-biohybrid-robots-swim-light-driven-muscle-cells">soft biohybrid robots</a>, researchers advancing <a href="/article/ai-search-discover-cross-field-links-beyond-semantic-similarity">cross-field AI discovery</a>, and biologists tackling <a href="/article/ai-biology-hitting-data-bottleneck-bigger-model-size">biological simulation bottlenecks</a>. Because WorldParticle treats deformable solids, fluids, and granular particles in the same coordinate language, roboticists can simulate how a compliant gripper or bio-inspired robot navigates shifting sand or underwater currents without switching software stacks.</p>
+<p>At the molecular scale, accelerating dynamic protein and RNA trajectory modeling by two orders of magnitude allows biochemists to observe how candidate drug molecules bind to flexible protein pockets over time, rather than relying solely on static crystal snapshots. Meanwhile, astrophysicists and geophysicists can adapt the same Lagrangian transformer backbone to study colliding planetary debris or multiphase fluid flow.</p>
+<p>While Guo, Chen, Matusik, and their co-authors emphasize that WorldParticle is a foundational first step rather than a replacement for every high-precision certification solver in aerospace or structural engineering, their results demonstrate that a single transformer world model can learn shared physical principles that span from nanometers to meters.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="space-y-4 my-6">
+  <div>
+    <h3>What is the WorldParticle AI model?</h3>
+    <p>WorldParticle is a unified deep-learning foundation model developed by researchers at MIT CSAIL, the University of British Columbia, and partner institutions that simulates multiple physical systems—including fluids, granular sand, deformable solids, and proteins—using a single transformer architecture.</p>
+  </div>
+  <div>
+    <h3>How does WorldParticle simulate such different materials in one system?</h3>
+    <p>It converts every object into three-dimensional Lagrangian particles and uses a transformer neural network to predict each particle's position, velocity, and physical properties one time step ahead, similar to how language models predict the next word.</p>
+  </div>
+  <div>
+    <h3>How fast is WorldParticle compared to traditional protein simulators?</h3>
+    <p>In benchmark tests across six physical domains, WorldParticle modeled dynamic changes in protein structures approximately 100 times faster than conventional numerical molecular dynamics simulators while maintaining high physical accuracy.</p>
+  </div>
+  <div>
+    <h3>How does the model handle millions of particles without running out of memory?</h3>
+    <p>The researchers engineered a particle-merging compression technique that groups particles efficiently during calculation while preserving fine-grained local details, alongside a force-separation step that integrates external forces accurately.</p>
+  </div>
+  <div>
+    <h3>What real-world problems could WorldParticle help solve?</h3>
+    <p>Engineers can use it to model coupled fluid-structure interactions (such as oil sloshing against an elastic tank valve) and soft robots moving across sand, while biologists can simulate dynamic protein and RNA motion for drug design.</p>
+  </div>
+</div>`
+  },
+  {
     id: "parker-solar-probe-magnetic-field-reversals-solar-wind",
     slug: "parker-solar-probe-magnetic-field-reversals-solar-wind",
     title: "Parker Solar Probe Finds Magnetic Field Reversals in Solar Wind Turbulence",
