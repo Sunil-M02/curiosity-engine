@@ -117,6 +117,220 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "medieval-parchment-manuscripts-sheeppox-virus-dna",
+    slug: "medieval-parchment-manuscripts-sheeppox-virus-dna",
+    title: "Medieval Parchment Manuscripts Preserve 3,500 Years of Sheeppox Virus DNA",
+    metaTitle: "Medieval Parchment Manuscripts Preserve 3,500 Years of Sheeppox Virus DNA | CuriosityFields",
+    excerpt: "By extracting ancient viral DNA from the 1,000-year-old York Gospels, early European parchments, and Bronze Age sheep teeth, researchers reconstructed 3,700 years of sheeppox virus evolution.",
+    metaDescription: "Ancient viral DNA from the 1,000-year-old York Gospels, medieval parchments, and Bronze Age sheep teeth reveals 3,700 years of sheeppox virus evolution.",
+    category: "history",
+    author: authors[1],
+    coverImage: "/images/articles/medieval-parchment-manuscripts-sheeppox-virus-dna.jpg",
+    publishedAt: "2026-11-17",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Medieval History","Ancient DNA","Biocodicology","York Gospels","Archaeology","Virology","Livestock History"],
+    content: `<p class="lead">An international consortium of geneticists, historians, and conservators led by University College Dublin (UCD) has recovered ancient sheeppox virus (SPPV) DNA from some of Europe's most treasured medieval manuscripts—including the 1,000-year-old York Gospels and the eighth-century Corpus Glossary at Cambridge—as well as 3,700-year-old Bronze Age sheep teeth from the Eurasian steppe. By turning historic animal-skin parchments into biological archives, the researchers demonstrated that this contagious livestock pathogen plagued European and Eurasian herds for nearly four millennia while remaining genetically stable.</p>
+
+<h2>When Illuminated Medieval Books Become Disease Archives</h2>
+<p>Extracting genetic history from non-skeletal artifacts is transforming archaeology, much like recent breakthroughs in <a href="/article/ancient-cave-sediment-dna-europeans-last-ice-age">cave sediment DNA</a> and <a href="/article/tooth-enamel-proteins-zero-male-markers-homo-naledi-fossils">fossil enamel proteins</a>. Before rag paper spread across late medieval Europe, monasteries and royal chanceries recorded laws, gospels, and dictionaries on parchment—treated skins of sheep, goats, and calves stretched, scraped, and dried under tension. Because each folio was crafted from the dermis of a once-living farm animal, medieval libraries inadvertently preserved a vast, dated tissue bank of historical European livestock.</p>
+<p>In a study led by PhD candidate Louis L'Hote and Associate Professor Kevin G. Daly at University College Dublin alongside collaborators across more than 30 institutions—reported in <a href="https://doi.org/10.64898/2026.02.23.707469" target="_blank" rel="noopener noreferrer">bioRxiv (DOI: 10.64898/2026.02.23.707469)</a> and<em> Science Advances</em> and summarized in a <a href="https://www.sciencedaily.com/releases/2026/11/261106174545.htm" target="_blank" rel="noopener noreferrer">University College Dublin release on ScienceDaily</a>—researchers screened historical parchment codices and archaeological animal remains for ancient livestock pathogens.</p>
+<p>Using non-invasive biocodicological sampling methods that analyze microscopic biological traces without harming illuminated ink or parchment fibers, the team identified authentic sheeppox virus DNA across multiple pages of several famous early medieval manuscripts. Among the positive volumes were the York Gospels—an Anglo-Saxon gospel book produced around 1000 CE and still used in York Minster ceremonies today—and the Corpus Glossary held at Corpus Christi College, Cambridge, one of the oldest surviving English dictionaries dating to the eighth and ninth centuries CE.</p>
+
+<h2>Why Viral DNA Showed Up on Calfskin and Goatskin Folios</h2>
+<p>Reconstructing how ancient communities managed herds and trade networks complements archaeological studies of <a href="/article/4000-year-old-fortified-wall-morocco-north-african-history">Bronze Age fortifications</a> and <a href="/article/burials-beneath-ordinary-homes-violence-monumental-graves">Scandinavian house burials</a>. Sheeppox virus is a double-stranded DNA virus belonging to the genus <em>Capripoxvirus</em> (alongside goatpox virus and lumpy skin disease virus in cattle). In modern outbreaks, sheeppox spreads rapidly through wool and aerosol droplets, causing severe fever, skin nodules, internal lesions, high mortality in lambs, and devastating losses in wool, milk, and meat production.</p>
+<p>Finding sheeppox viral DNA embedded across multiple folios of Anglo-Saxon and continental European manuscripts provided the first direct molecular proof that the disease was circulating in medieval European flocks centuries before veterinary chronicles clearly distinguished it from other livestock plagues. Even more unexpectedly, when the researchers cross-checked the host species of each parchment folio using collagen peptide fingerprinting and host DNA, they discovered sheeppox virus DNA not only on sheepskin pages, but also on folios crafted from calfskin (vellum) and goatskin.</p>
+<p>The authors point out two plausible explanations for how a sheep-specific virus ended up on cattle and goat parchment. While a rare cross-species spillover infection cannot be completely ruled out, modern sheeppox strains are strictly host-adapted to sheep. More likely, skins from infected sheep were soaked in the same lime vats, scraped with the same curved knives, or dried on the same wooden frames as calf and goat hides in medieval parchment workshops, transferring viral DNA across hides during book production.</p>
+
+<figure class="my-8">
+  <img src="/images/articles/medieval-parchment-manuscripts-sheeppox-virus-dna-inline-1.jpg" alt="Scientific biomolecular archaeology diagram comparing ancient sheeppox virus DNA recovery from Bronze Age Eurasian steppe sheep teeth and medieval European parchment manuscripts." class="w-full rounded-xl shadow-lg" loading="lazy" />
+  <figcaption class="mt-3 text-sm text-muted-foreground text-center">Scientific illustration of the dual paleogenomic archive used by L'Hote, Daly, and colleagues: combining 3,700-year-old Bronze Age sheep teeth from the Eurasian steppe with medieval European parchments (700–1000 CE) revealed thousands of years of genetic stability in the sheeppox virus genome.</figcaption>
+</figure>
+
+<h2>Tracing Sheeppox Back 3,700 Years to Bronze Age Steppe Herds</h2>
+<p>Linking medieval artifacts to deeper prehistoric migrations parallels how researchers track <a href="/article/mohenjo-daro-evidence-urban-inequality-falling">ancient urban inequality</a>, <a href="/article/white-sands-footprints-timeline-ice-age-environmental-change">Ice Age footprints</a>, and <a href="/article/ancient-chinese-solar-eclipse-records-earth-faster-spin">historical eclipse chronicles</a>. To find out how long sheeppox had been infecting domestic flocks before the Middle Ages, the UCD-led consortium expanded their search from library archives to archaeological excavations across the Eurasian steppe, where dental cementum and pulp chambers inside ancient sheep teeth protect pathogen DNA for millennia.</p>
+<p>In sheep teeth excavated from Bronze Age pastoralist settlements on the Eurasian steppe, the researchers recovered the oldest known sheeppox virus genomes, dating back more than 3,700 years. By calibrating a molecular clock across the Bronze Age dental genomes, the medieval manuscript genomes (700–1000 CE), and modern 20th- and 21st-century outbreak strains, the team estimated that the three major branches of the capripoxvirus family—sheeppox, goatpox, and lumpy skin disease virus—diverged from a common ancestor between 11,500 and 3,700 years ago. That window aligns directly with the Neolithic domestication of sheep, goats, and cattle and the Bronze Age expansion of steppe pastoralists into Europe. The table below summarizes the key biomolecular findings across both historical archives.</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse text-left text-sm">
+    <thead>
+      <tr class="border-b border-border bg-muted/50">
+        <th class="p-3 font-semibold">Archive Dimension</th>
+        <th class="p-3 font-semibold">Bronze Age Steppe Archaeological Archive</th>
+        <th class="p-3 font-semibold">Medieval European Codicological Archive</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Biological Substrate</td>
+        <td class="p-3">Excavated sheep teeth from pastoralist settlements</td>
+        <td class="p-3">Animal-skin parchment folios (sheep, calf, and goat hides)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Chronological Horizon</td>
+        <td class="p-3">More than 3,700 years before present (Bronze Age)</td>
+        <td class="p-3">~700 to 1000 CE (including Corpus Glossary &amp; York Gospels)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Geographic Context</td>
+        <td class="p-3">Eurasian steppe pastoralist corridors</td>
+        <td class="p-3">Britain, Ireland, and continental European scriptoria</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Pathogen Genome Finding</td>
+        <td class="p-3">Oldest directly sequenced sheeppox virus (SPPV) DNA</td>
+        <td class="p-3">Multi-folio SPPV detection; workshop cross-hide transfer</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Evolutionary Pattern</td>
+        <td class="p-3">Follows capripoxvirus split (11,500–3,700 years BP)</td>
+        <td class="p-3">High genomic stability over the last 3,500+ years</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Why a 3,500-Year-Old Stable Genome Matters for Modern Outbreaks</h2>
+<p>Perhaps the most surprising virological result of the study was what did <em>not</em> happen to the sheeppox virus between the Bronze Age, the Anglo-Saxon period, and today. Unlike human smallpox (variola virus), which lost and mutated several virulence and immunomodulatory genes over recent millennia, the sheeppox virus genome has remained remarkably conserved across 3,700 years of livestock herding.</p>
+<p>As lead author Louis L'Hote noted, that multi-millennial genetic stability suggests that the core genetic adaptations allowing sheeppox to infect and spread efficiently among domestic sheep were already locked in prior to the Bronze Age—likely during the earliest phases of intensive flock management. Because sheeppox continues to cause severe agricultural outbreaks today, including recent flock epidemics in Greece and across parts of Africa, the Middle East, and Asia, knowing that the virus's key host-interaction genes have barely changed in 3,500 years helps veterinary virologists target conserved viral proteins for vaccines and diagnostics, while proving that the world's rare book libraries hold an untapped genetic record of agricultural history.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="space-y-4 my-6">
+  <div>
+    <h3>How did a sheep virus end up inside 1,000-year-old medieval books?</h3>
+    <p>Medieval manuscripts like the York Gospels and the Corpus Glossary were written on parchment made from animal skins; if a sheep was infected with sheeppox virus when it died, fragments of viral DNA remained trapped in the cured hide for centuries.</p>
+  </div>
+  <div>
+    <h3>Why was sheeppox virus DNA also found on calfskin and goatskin parchment?</h3>
+    <p>Because sheeppox normally infects only sheep, finding its DNA on calf and goat parchment suggests either rare cross-species exposure or, more likely, cross-contamination when hides from different animals were soaked and scraped together in medieval parchment workshops.</p>
+  </div>
+  <div>
+    <h3>How old is the earliest sheeppox virus DNA discovered in this study?</h3>
+    <p>Alongside the medieval manuscripts, the researchers extracted sheeppox virus DNA from archaeological sheep teeth in Eurasian steppe settlements dating back more than 3,700 years to the Bronze Age.</p>
+  </div>
+  <div>
+    <h3>When did the sheeppox virus first evolve to infect livestock?</h3>
+    <p>By comparing ancient and modern viral genomes, the team estimated that the capripoxvirus family (sheeppox, goatpox, and lumpy skin disease virus) split into distinct lineages between 11,500 and 3,700 years ago, coinciding with early livestock domestication.</p>
+  </div>
+  <div>
+    <h3>Has the sheeppox virus mutated rapidly over the past 3,500 years?</h3>
+    <p>No. Unlike human smallpox, the sheeppox virus genome has remained remarkably stable for at least 3,500 to 3,700 years, indicating that the genetic changes needed to infect sheep flocks occurred very early in its evolutionary history.</p>
+  </div>
+</div>`
+  },
+  {
+    id: "subcycle-videography-quantum-electron-jumps-graphene",
+    slug: "subcycle-videography-quantum-electron-jumps-graphene",
+    title: "Subcycle Videography Captures 100-Percent Quantum Electron Jumps in Graphene",
+    metaTitle: "Subcycle Videography Captures 100-Percent Quantum Electron Jumps in Graphene | CuriosityFields",
+    excerpt: "Using a photoemission momentum microscope and subcycle light pulses, physicists filmed electrons crossing a forbidden energy gap in rotated graphene with up to 100 percent probability via Landau-Zener-Majorana transitions.",
+    metaDescription: "Published in Nature, ultrafast momentum microscopy films Landau-Zener-Majorana quantum electron jumps across graphene energy gaps at 100% probability.",
+    category: "science",
+    author: authors[0],
+    coverImage: "/images/articles/subcycle-videography-quantum-electron-jumps-graphene.jpg",
+    publishedAt: "2026-11-17",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Quantum Physics","Graphene","Ultrafast Spectroscopy","Lightwave Electronics","Condensed Matter","Nature","Quantum Transitions"],
+    content: `<p class="lead">Physicists at the University of Regensburg, the University of Marburg, and Forschungszentrum Julich have filmed electrons leaping across a forbidden energy gap inside ultra-pure rotated graphene in real time, recording transition probabilities that reach 100 percent. Published in <em>Nature</em>, the experiment combines subcycle light-field driving with time-resolved photoemission momentum microscopy to capture Landau-Zener-Majorana quantum transitions frame by frame, establishing a direct blueprint for petahertz light-controlled electronics.</p>
+
+<h2>A 90-Year-Old Quantum Prediction Finally Caught in Motion</h2>
+<p>Controlling how electrons move through crystal lattices at the speed of light waves builds directly on recent breakthroughs in <a href="/article/photonic-materials-control-light-scale-atoms">atomic-scale light control</a>. In 1932, physicists Lev Landau, Clarence Zener, Ettore Majorana, and Ernst Stueckelberg independently solved a foundational quantum mechanical puzzle: what happens when a quantum particle is swept rapidly past an avoided crossing between two energy levels separated by a forbidden energy gap?</p>
+<p>If an electric field pushes an electron slowly toward an energy gap, the electron stays trapped in its lower energy band. However, the 1932 theory predicted a counterintuitive non-adiabatic regime: if an external electric field accelerates the electron toward the gap fast enough, the electron can jump across the forbidden energy zone into the higher conduction band without absorbing a resonant photon. Even more remarkably, the mathematical equations predicted that under sufficiently strong driving fields in a gapless or quasi-gapless Dirac system, the probability of making that seemingly impossible jump can approach 100 percent.</p>
+<p>For more than nine decades, however, Landau-Zener-Majorana transitions inside solid crystals could only be inferred indirectly after the light pulse had ended, because the electron jump unfolds within a fraction of a single optical oscillation cycle—mere femtoseconds (quadrillionths of a second). In a study published November 2026 in <a href="https://doi.org/10.1038/s41586-026-11214-y" target="_blank" rel="noopener noreferrer">Nature (DOI: 10.1038/s41586-026-11214-y)</a> and detailed in a <a href="https://www.sciencedaily.com/releases/2026/11/261112025523.htm" target="_blank" rel="noopener noreferrer">Forschungszentrum Julich release on ScienceDaily</a>, first authors V. Eggers and Giacomo Inzani alongside senior authors Stefan Tautz, Rupert Huber, and Ulrich Hofer captured the first direct subcycle videography of electrons executing this jump across momentum space.</p>
+
+<h2>How Momentum Microscopy and Rotated Graphene Made the Film Possible</h2>
+<p>Directing electron spin and momentum across two-dimensional crystals requires the same atomic perfection used to map <a href="/article/altermagnetism-confirmed-third-fundamental-branch-magnetism">altermagnetic spin bands</a> and <a href="/article/electrically-tunable-microcavities-light-supersolid-room-temp">room-temperature polariton supersolids</a>. Watching a quantum jump while it is still happening required solving two major experimental hurdles: building a camera fast enough to map electron energy and momentum within a fraction of an electromagnetic wave cycle, and growing a crystal free of atomic defects that would scatter the delicate quantum wavepacket.</p>
+<p>To build the ultrafast camera, Huber's team at Regensburg and Hofer's team at Marburg paired intense, phase-locked terahertz and infrared driving pulses with an extreme-ultraviolet photoemission momentum microscope. Unlike a conventional spatial microscope that magnifies physical surfaces, a photoemission momentum microscope ejects electrons from the crystal using ultrashort ultraviolet flashes and records their exact kinetic energies and emission angles, reconstructing a three-dimensional movie of how electrons populate the valence and conduction bands instant by instant.</p>
+<p>To prevent crystal defects from blurring that movie, Stefan Tautz, Christian Kumpf, and Francois Bocquet at Forschungszentrum Julich fabricated a specialized form of "rotated" single-layer graphene grown epitaxially on silicon carbide. Because the carbon honeycomb lattice is rotated relative to the underlying substrate, the graphene layer is decoupled electronically from substrate impurities, allowing its cone-shaped Dirac energy bands to appear with razor-sharp clarity.</p>
+
+<figure class="my-8">
+  <img src="/images/articles/subcycle-videography-quantum-electron-jumps-graphene-inline-1.jpg" alt="Scientific condensed-matter physics diagram showing an oscillating light wave driving an electron wavepacket across a forbidden Dirac cone energy gap in rotated graphene at 100 percent transition probability." class="w-full rounded-xl shadow-lg" loading="lazy" />
+  <figcaption class="mt-3 text-sm text-muted-foreground text-center">Scientific illustration of a Landau-Zener-Majorana transition in rotated graphene: an oscillating light field accelerates an electron wavepacket rapidly through the apex of the Dirac energy cone, driving a non-adiabatic jump across the forbidden energy gap into the upper conduction band with up to 100 percent probability.</figcaption>
+</figure>
+
+<h2>Why Energy-Space Jumps Differ From Spatial Quantum Tunneling</h2>
+<p>Distinguishing momentum-space transitions from ordinary spatial barrier penetration deepens our understanding of quantum matter, much like studies of <a href="/article/extreme-pressure-familiar-materials-entirely-new-phases">extreme pressure phases</a> and <a href="/article/seven-electronvolt-semiconductor-work-insulators-expected">ultrawide-bandgap oxide films</a>. In popular descriptions, Landau-Zener-Majorana transitions are often compared to conventional quantum tunneling, yet the <em>Nature</em> authors emphasize a fundamental physical difference between the two phenomena.</p>
+<p>In conventional spatial quantum tunneling—such as an electron passing through a thin insulating oxide layer in a flash memory cell—a particle traverses a physical barrier in real space, and its transmission probability drops exponentially as the barrier grows wider or higher. In a Landau-Zener-Majorana transition, by contrast, the electron does not tunnel through a wall in physical space; instead, the oscillating electric field of the light wave sweeps the electron's crystal momentum rapidly through an energy gap in energy-momentum space.</p>
+<p>When Eggers, Inzani, and their colleagues cranked up the electric field strength of the driving light wave, they directly observed electrons approaching the Dirac gap so rapidly that their transition probability into the upper energy band reached 100 percent. Even across trajectories where a substantial energy gap separated the lower and upper states, the speed of the light-driven sweep dictated the jump efficiency. The table below compares conventional spatial quantum tunneling, resonant photon absorption, and subcycle Landau-Zener-Majorana transitions.</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse text-left text-sm">
+    <thead>
+      <tr class="border-b border-border bg-muted/50">
+        <th class="p-3 font-semibold">Physical Parameter</th>
+        <th class="p-3 font-semibold">Conventional Spatial Tunneling</th>
+        <th class="p-3 font-semibold">Resonant Optical Absorption</th>
+        <th class="p-3 font-semibold">Landau-Zener-Majorana Transition (2026)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Domain of Transition</td>
+        <td class="p-3">Real physical space (across a nanometer barrier)</td>
+        <td class="p-3">Vertical energy jump at fixed crystal momentum</td>
+        <td class="p-3">Energy-momentum space (swept across band gap)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Driving Mechanism</td>
+        <td class="p-3">Static voltage bias or thermal kinetic energy</td>
+        <td class="p-3">Photon energy matching band gap (<em>hf = E_g</em>)</td>
+        <td class="p-3">Rapid subcycle acceleration by strong light field</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Peak Transition Probability</td>
+        <td class="p-3">Typically small; decays exponentially with width</td>
+        <td class="p-3">Limited by saturation and stimulated emission</td>
+        <td class="p-3">Reaches up to 100% in rotated graphene</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Characteristic Timescale</td>
+        <td class="p-3">Picoseconds to nanoseconds in circuit readout</td>
+        <td class="p-3">Multi-cycle optical envelope duration</td>
+        <td class="p-3">Subcycle femtosecond regime (fraction of one wave)</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Experimental Observation</td>
+        <td class="p-3">Steady-state tunneling current measurement</td>
+        <td class="p-3">Time-averaged optical pump-probe spectra</td>
+        <td class="p-3">Direct subcycle photoemission momentum videography</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Toward Petahertz Lightwave Electronics and Quantum Control</h2>
+<p>Steering electrons with the oscillating electric field of light rather than slow voltage gates complements advances in <a href="/article/photonic-neurons-sensing-memory-computing-one-device">integrated photonic neurons</a> and <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>. Modern silicon transistors switch at gigahertz clock rates—billions of operations per second—because charging and discharging metallic gate capacitances takes picoseconds. Oscillating light waves, by contrast, flip their electric field direction at terahertz to petahertz frequencies—thousands to millions of times faster than today's computer clocks.</p>
+<p>By filming exactly how an intense light wave drives 100-percent coherent electron jumps across an energy gap and sets up quantum interference between the split electron pathways, the Regensburg, Marburg, and Julich team has shown that electronic conductivity in two-dimensional materials can be switched on and off within a single optical half-cycle.</p>
+<p>While subcycle momentum videography currently requires an ultra-high-vacuum laboratory chamber and precision femtosecond laser sources, the researchers note that the technique can now be applied across topological insulators, transition-metal dichalcogenides, and twisted moire superlattices—giving materials physicists a real-time quantum camera to design ultrafast light-driven switches.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="space-y-4 my-6">
+  <div>
+    <h3>What is a Landau-Zener-Majorana transition?</h3>
+    <p>First predicted in 1932, a Landau-Zener-Majorana transition is a quantum mechanical process where an electron accelerated rapidly by an electric field jumps across a forbidden energy gap between two electronic bands instead of staying confined to its lower energy state.</p>
+  </div>
+  <div>
+    <h3>How is this quantum jump different from standard quantum tunneling?</h3>
+    <p>Standard quantum tunneling occurs when a particle passes through a physical barrier in real space, whereas a Landau-Zener-Majorana transition happens in energy-momentum space when a strong light field sweeps electrons rapidly past an energy gap.</p>
+  </div>
+  <div>
+    <h3>Why did the researchers use rotated graphene for this experiment?</h3>
+    <p>Rotated graphene grown at Forschungszentrum Julich is twisted relative to its underlying substrate, which shields the carbon sheet from substrate interference and provides an atomically pure crystal where delicate electron dynamics are not blurred by impurities.</p>
+  </div>
+  <div>
+    <h3>How did scientists film electrons moving in real time?</h3>
+    <p>They combined ultrafast driving light pulses with a photoemission momentum microscope, an instrument that measures both the kinetic energy and movement direction of electrons within a fraction of a single oscillation cycle of light.</p>
+  </div>
+  <div>
+    <h3>How could 100-percent electron transitions improve future electronics?</h3>
+    <p>Because light waves oscillate thousands to millions of times faster than conventional electrical voltages, using subcycle light fields to switch electrons across energy gaps with 100-percent efficiency could enable petahertz light-controlled electronics.</p>
+  </div>
+</div>`
+  },
+  {
     id: "brain-strategy-switching-deficits-kids-math-struggles",
     slug: "brain-strategy-switching-deficits-kids-math-struggles",
     title: "Brain Strategy-Switching Deficits Explain Kids' Persistent Math Struggles",
