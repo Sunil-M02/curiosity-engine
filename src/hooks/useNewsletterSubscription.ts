@@ -49,17 +49,6 @@ export function useNewsletterSubscription({
     setIsSubmitting(true);
     
     try {
-      const { error: insertError } = await supabase
-        .from('newsletter_subscribers')
-        .insert({
-          email: trimmedEmail,
-          source_page: sourcePage,
-        });
-      
-      if (insertError && insertError.code !== '23505') {
-        throw insertError;
-      }
-
       const { error: emailError } = await supabase.functions.invoke(
         'send-newsletter-subscription',
         {
