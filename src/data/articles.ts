@@ -117,6 +117,226 @@ export const authors: Author[] = [
 
 export const articles: Article[] = [
   {
+    id: "autonomous-caltech-robot-assembles-truss-structures-orbit",
+    slug: "autonomous-caltech-robot-assembles-truss-structures-orbit",
+    title: "Autonomous Caltech Robot Assembles Modular Truss Structures in Earth Orbit",
+    metaTitle: "Autonomous Caltech Robot Assembles Modular Truss Structures in Earth Orbit | CuriosityFields",
+    excerpt: "Funded by DARPA's NOM4D program, Caltech's ASTRA robotic payload autonomously retrieved composite struts and aluminum joints from dispensers in low-Earth orbit to build a structural truss bay without astronauts.",
+    metaDescription: "Caltech's ASTRA robot achieved the first autonomous in-space structural assembly in low-Earth orbit, building a modular truss bay for future giant telescopes.",
+    category: "future-innovation",
+    author: authors[1],
+    coverImage: "/images/articles/autonomous-caltech-robot-assembles-truss-structures-orbit.jpg",
+    publishedAt: "2026-11-18",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Space Robotics","In-Orbit Manufacturing","Caltech","DARPA","Aerospace Engineering","Space Telescopes","Space Solar Power"],
+    content: `<p class="lead">Aerospace engineers at the California Institute of Technology (Caltech) have achieved the first autonomous robotic construction of a structural framework in space without astronaut intervention. Operating aboard a spacecraft in low-Earth orbit as part of the Defense Advanced Research Projects Agency (DARPA) NOM4D program, Caltech's Autonomous In-Space Tensioned Reflector Assembly (ASTRA) robot extracted composite fiber tubes and aluminum joints from onboard dispensers to assemble a new bay of a perimeter truss reflector.</p>
+
+<h2>Breaking Through the Rocket Fairing Size Barrier</h2>
+<p>Building massive infrastructure directly in orbit extends recent advances in <a href="/article/swarm-robotics-coordinated-machines-build-structures-space">orbital robot swarms</a>, <a href="/article/reconfigurable-metasurface-antennas">reconfigurable metasurface antennas</a>, and <a href="/article/Origami-inspired-metamaterials-fold-flat-lock-into-load-bearing-beams">origami-inspired structural metamaterials</a>. Since the dawn of the Space Age, every space telescope, communications dish, and solar array has been governed by a rigid geometric constraint: the interior diameter of a launch vehicle's nose cone, or payload fairing.</p>
+<p>Historically, aerospace engineers have worked around fairing limits in only two ways. Either they fold a precision structure like the James Webb Space Telescope into a complex origami package on Earth and hope hundreds of mechanical latches unfurl cleanly in vacuum, or they launch heavy prefabricated modules across multiple rockets for astronauts to bolt together during risky spacewalks, as on the International Space Station.</p>
+<p>In a milestone announced November 2026 by the <a href="https://www.caltech.edu/about/news/caltech-robotic-space-demo-successfully-builds-in-space" target="_blank" rel="noopener noreferrer">California Institute of Technology</a> and detailed on <a href="https://www.sciencedaily.com/releases/2026/11/261108233043.htm" target="_blank" rel="noopener noreferrer">ScienceDaily</a>, a team led by Professor Sergio Pellegrino demonstrated a third paradigm under DARPA's Novel Orbital and Moon Manufacturing, Materials, and Mass-efficient Design (NOM4D) program: launching compact raw structural parts and having an autonomous robot assemble the framework directly in orbit.</p>
+
+<h2>Inside the ASTRA Payload and Its Six-Month Orbital Test</h2>
+<p>Deploying autonomous scientific hardware into harsh space environments supports the next generation of <a href="/article/parker-solar-probe-magnetic-field-reversals-solar-wind">solar wind probes</a> and <a href="/article/vera-c-rubin-observatory-discovers-two-milky-way-companions">wide-field sky surveys</a>. Designed, built, and delivered in less than 12 months for Phase 3 of DARPA's NOM4D initiative, the ASTRA payload occupies roughly one cubic meter inside Momentus Inc.'s Vigoride 7 orbital service vehicle, which launched from Vandenberg Space Force Base on March 30, 2026 aboard the SpaceX Transporter-16 mission.</p>
+<p>Packed inside that one-cubic-meter box were two prebuilt perimeter truss sections (called bays), an armlike robotic manipulator, an assembly plate, 11 monitoring cameras, and motorized cylindrical dispensers loaded with loose carbon-fiber composite struts and machined aluminum node joints. Once Vigoride 7 reached low-Earth orbit, ground engineers Charles Sommer, Alan Truong, and graduate student Tara Venkatadri commanded ASTRA to release its launch locks and push out the two prebuilt truss bays.</p>
+<p>Next came the critical test: the robotic arm reached into the motorized dispensers, gripped individual composite tubes and aluminum fittings, positioned them on the assembly plate, and mechanically joined them into a brand-new third truss bay in microgravity. Whenever orbital thermal shifts or mechanical tolerances caused unexpected hiccups, the Caltech team reproduced the issue on an identical "flight spare" hardware twin in Pellegrino's Pasadena laboratory and uploaded refined command sequences during seven or eight daily 15-minute ground-station communication windows.</p>
+
+<figure class="my-8">
+  <img src="/images/articles/autonomous-caltech-robot-assembles-truss-structures-orbit-inline-1.jpg" alt="Scientific aerospace engineering diagram illustrating Caltech's ASTRA robotic manipulator assembling triangular composite truss bays and attaching perforated Kapton reflective nets in orbit." class="w-full rounded-xl shadow-lg" loading="lazy" />
+  <figcaption class="mt-3 text-sm text-muted-foreground text-center">Scientific illustration of the ASTRA in-orbit construction cycle: an autonomous manipulator retrieves composite struts and aluminum joints from dispensers, assembles modular perimeter truss bays, and attaches spring-tensioned perforated Kapton reflective membranes.</figcaption>
+</figure>
+
+<h2>Why Low-Tension Perforated Film Replaces Heavy Metal Mesh</h2>
+<p>Reducing structural mass and mechanical stress in extreme environments parallels engineering breakthroughs in <a href="/article/solid-state-electrocaloric-heat-pumps-replace-refrigerants">solid-state thermal systems</a> and <a href="/article/self-healing-concrete-bacteria-seal-cracks-extend-lifespan">autonomous self-healing materials</a>. Building a rigid frame in orbit is only half the challenge of constructing a giant space antenna or telescope; the frame must also hold a smooth reflective surface without buckling under tension.</p>
+<p>Conventional deployable space reflectors stretch a knitted metallic mesh across their support ribs like a drumskin, which requires high preload tension and forces engineers to use thick, heavy structural beams that resist bending. For ASTRA's 1.4-meter-diameter (4.6-foot) prototype reflector design, the Caltech team collaborated with Professor Igor Bargatin's group at the University of Pennsylvania to co-invent an ultra-lightweight perforated Kapton polymer film.</p>
+<p>Arranged as two netlike reflective surfaces pulled gently against each other by small springs, the perforated Kapton film maintains an accurate reflector contour with a fraction of the preload tension required by knitted metal mesh. Because the membrane pulls much more lightly on the outer ring, the supporting perimeter truss can be built from slender, low-mass composite tubes. The table below compares traditional foldable space reflectors, astronaut-assembled orbital trusses, and Caltech's ASTRA autonomous robotic assembly architecture.</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse text-left text-sm">
+    <thead>
+      <tr class="border-b border-border bg-muted/50">
+        <th class="p-3 font-semibold">Engineering Parameter</th>
+        <th class="p-3 font-semibold">Foldable Unfurling Reflectors</th>
+        <th class="p-3 font-semibold">Astronaut EVA Truss Assembly</th>
+        <th class="p-3 font-semibold">Caltech ASTRA Robotic Assembly (2026)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Launch Packaging Method</td>
+        <td class="p-3">Prebuilt on Earth and folded inside fairing</td>
+        <td class="p-3">Prefabricated modules launched across multiple flights</td>
+        <td class="p-3">Loose struts, joints, and film packed in 1 m³ dispensers</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">On-Orbit Construction Mode</td>
+        <td class="p-3">Spring/motor deployment of hinges and latches</td>
+        <td class="p-3">Manual human spacewalks and station robotic arms</td>
+        <td class="p-3">Autonomous robotic manipulator bay-by-bay assembly</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Reflector Surface Material</td>
+        <td class="p-3">High-preload knitted metallic mesh or rigid mirrors</td>
+        <td class="p-3">Rigid radiator/solar panels bolted to heavy trusses</td>
+        <td class="p-3">Low-preload spring-tensioned perforated Kapton film</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Primary Aperture Size Limit</td>
+        <td class="p-3">Constrained by rocket fairing volume and folding complexity</td>
+        <td class="p-3">Constrained by astronaut EVA safety and launch cost</td>
+        <td class="p-3">Scalable to hundreds of meters or kilometer-class rings</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Orbital Demonstration Status</td>
+        <td class="p-3">Flight heritage (e.g., JWST, communication satellites)</td>
+        <td class="p-3">Flight heritage (e.g., International Space Station)</td>
+        <td class="p-3">First autonomous orbital truss bay assembled (2026)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>From 1.4-Meter Prototypes to Kilometer-Scale Orbital Arrays</h2>
+<p>While the full ASTRA antenna design calls for 11 connected bays forming a complete 1.4-meter ring, time constraints ahead of the mission's scheduled December conclusion mean the demonstration will not finish all 11 bays. Even so, assembling the third bay in orbit from individual dispensed parts fulfilled DARPA and Caltech's core objective: proving that an automated manipulator can construct modular truss hardware in microgravity and identifying where joint latches and dispenser mechanisms can be simplified for faster assembly cycles.</p>
+<p>As DARPA NOM4D program manager Andrew Detor and Caltech's Sergio Pellegrino point out, once space structures exceed the size that can be folded inside a single rocket fairing, in-orbit robotic construction becomes essential. By combining compact part dispensers, autonomous manipulators, and ultra-low-tension reflective films, future orbital builders could assemble apertures spanning hundreds of meters to several kilometers—enabling deep-space radio and optical observatories, high-capacity communications dishes, and kilometer-scale orbital solar power stations.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="space-y-4 my-6">
+  <div>
+    <h3>What did Caltech's ASTRA robot accomplish in orbit?</h3>
+    <p>ASTRA (Autonomous In-Space Tensioned Reflector Assembly) became the first robotic system to autonomously construct a new structural truss section in space from individual composite struts and aluminum joints without astronaut assistance.</p>
+  </div>
+  <div>
+    <h3>How did the ASTRA experiment reach low-Earth orbit?</h3>
+    <p>The one-cubic-meter ASTRA payload launched from Vandenberg Space Force Base on March 30, 2026 aboard a SpaceX Transporter-16 rocket, hosted on Momentus Inc.'s Vigoride 7 orbital vehicle.</p>
+  </div>
+  <div>
+    <h3>Why does ASTRA use perforated Kapton film instead of metal mesh?</h3>
+    <p>Co-invented by Caltech and the University of Pennsylvania, the spring-tensioned perforated Kapton film requires much less preload tension than traditional knitted metal mesh, allowing the supporting truss frame to be significantly lighter.</p>
+  </div>
+  <div>
+    <h3>How did engineers on Earth troubleshoot problems during the orbital build?</h3>
+    <p>Whenever onboard cameras revealed an assembly issue in orbit, engineers recreated the problem on an identical "flight spare" robot in Caltech's laboratory and transmitted updated instructions during 15-minute daily communication windows.</p>
+  </div>
+  <div>
+    <h3>What future space missions could use autonomous robotic truss assembly?</h3>
+    <p>DARPA's NOM4D program aims to scale autonomous orbital construction to structures measuring hundreds of meters or kilometers across, including giant space telescopes, deep-space communications antennas, and orbital solar power stations.</p>
+  </div>
+</div>`
+  },
+  {
+    id: "mechanical-drumhead-vibrations-working-memory-qubits",
+    slug: "mechanical-drumhead-vibrations-working-memory-qubits",
+    title: "Mechanical Drumhead Vibrations Act as Compact Working Memory for Qubits",
+    metaTitle: "Mechanical Drumhead Vibrations Act as Compact Working Memory for Qubits | CuriosityFields",
+    excerpt: "ETH Zurich physicists paired a superconducting transmon qubit with a bulk-acoustic wave resonator to store quantum states in high-frequency mechanical vibrations and execute quantum algorithms.",
+    metaDescription: "Published in Science, ETH Zurich researchers built a hybrid quantum processor that uses microscopic acoustic vibrations as compact working memory for qubits.",
+    category: "technology",
+    author: authors[0],
+    coverImage: "/images/articles/mechanical-drumhead-vibrations-working-memory-qubits.jpg",
+    publishedAt: "2026-11-18",
+    readTime: 7,
+    featured: false,
+    editorsPick: false,
+    tags: ["Quantum Computing","Quantum Memory","Quantum Acoustics","Superconducting Qubits","ETH Zurich","Science","Phononics"],
+    content: `<p class="lead">Physicists at ETH Zurich have built a hybrid quantum computing processor that separates quantum calculation from data storage by keeping working memory inside microscopic mechanical vibrations. Published in <em>Science</em>, the architecture links a fast superconducting transmon qubit to a high-overtone bulk-acoustic wave resonator (HBAR), demonstrating a universal set of quantum logic gates along with the Quantum Fourier Transform and quantum period-finding algorithms on stored vibrational modes.</p>
+
+<h2>Why Quantum Computers Need a Dedicated Working Memory</h2>
+<p>Scaling superconducting quantum processors requires both high-precision state measurement, such as <a href="/article/oscillating-supercurrents-read-out-qubit-states-accuracy">oscillating supercurrent readouts</a>, and compact on-chip memory architectures comparable to <a href="/article/2d-quantum-walk-framework-programmable-photonic-chips">programmable photonic chips</a>. In every classical laptop or server, hardware engineers separate the machine into two specialized physical units: a fast central processing unit (CPU) that executes logic gates, and random-access memory (RAM) that holds working data and instructions between operations.</p>
+<p>Current superconducting quantum computers rarely enjoy that division of labor. Superconducting transmon qubits excel as quantum CPUs because their strong electrical nonlinearity allows microwave pulses to flip and entangle quantum states in tens of nanoseconds. However, using extra transmon qubits or three-dimensional electromagnetic microwave cavities to store idle quantum data takes up large areas of chip real estate and introduces radiative energy loss.</p>
+<p>In a study published in <a href="https://doi.org/10.1126/science.aef4139" target="_blank" rel="noopener noreferrer">Science (DOI: 10.1126/science.aef4139)</a>, with an open preprint on <a href="https://arxiv.org/abs/2601.07825" target="_blank" rel="noopener noreferrer">arXiv (2601.07825)</a> and coverage from <a href="https://www.phys.ethz.ch/news-and-events/d-phys-news/2026/05/best-of-two-worlds-superconducting-qubits-and-mechanical-resonators-for-quantum-computing.html" target="_blank" rel="noopener noreferrer">ETH Zurich Department of Physics</a> and <a href="https://www.sciencedaily.com/releases/2026/11/261109205416.htm" target="_blank" rel="noopener noreferrer">ScienceDaily</a>, doctoral researchers Yu Yang and Igor Kladaric alongside Professor Yiwen Chu and colleagues solved this bottleneck by storing quantum states as gigahertz acoustic waves—phonons—inside a microscopic crystal resonator.</p>
+
+<h2>How Acoustic Phonons Store Qubits in a Flip-Chip Resonator</h2>
+<p>Coupling electromagnetic circuits to crystal lattice vibrations builds on advances in ultrafast condensed-matter control, including <a href="/article/subcycle-videography-quantum-electron-jumps-graphene">subcycle electron jumps</a> and <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic films</a>. Because sound travels through solid sapphire roughly 100,000 times slower than light travels through vacuum or microwave waveguides, an acoustic wave at gigahertz frequencies has a wavelength measured in micrometers rather than centimeters.</p>
+<p>Taking advantage of that acoustic compression, the ETH Zurich team assembled a two-chip flip-chip module inside a cryogenic dilution refrigerator. On the bottom sapphire chip sits a planar superconducting transmon qubit acting as the processor. Bonded directly above it sits a high-overtone bulk-acoustic wave resonator (HBAR) equipped with a microscopic dome of piezoelectric aluminum nitride. When the transmon emits an electromagnetic microwave excitation, the piezoelectric film converts that electrical pulse into a standing mechanical compression wave that bounces back and forth between the polished surfaces of the top crystal like an ultra-high-frequency guitar string or drumhead.</p>
+<p>Because the crystal supports dozens of distinct harmonic overtones within a single microscopic acoustic cavity, multiple independent quantum bits of information can reside in different vibrational frequencies of the same mechanical resonator. Even better, these trapped acoustic phonons are shielded from stray electromagnetic antennas, giving them longer coherence times than the transmon processor itself.</p>
+
+<figure class="my-8">
+  <img src="/images/articles/mechanical-drumhead-vibrations-working-memory-qubits-inline-1.jpg" alt="Scientific quantum engineering diagram showing a flip-chip hybrid architecture coupling a bottom superconducting transmon qubit to standing acoustic phonon modes inside a top bulk-acoustic wave resonator." class="w-full rounded-xl shadow-lg" loading="lazy" />
+  <figcaption class="mt-3 text-sm text-muted-foreground text-center">Scientific illustration of the ETH Zurich circuit quantum acoustodynamics (cQAD) architecture: a superconducting transmon qubit on the lower chip exchanges quantum states via a piezoelectric transducer with multiple long-lived harmonic phonon modes inside the upper bulk-acoustic wave resonator.</figcaption>
+</figure>
+
+<h2>Swapping States and Running Quantum Algorithms on Sound Waves</h2>
+<p>Executing multi-step logic across hybrid physical states complements hardware milestones in <a href="/article/photonic-neurons-sensing-memory-computing-one-device">integrated photonic neurons</a>, <a href="/article/majorana-qubits-pass-first-unified-global-parity-readout">Majorana parity readouts</a>, and <a href="/article/optical-cavity-arrays-scale-neutral-atom-quantum-networks">optical cavity arrays</a>. A working memory is only useful if the processor can read, modify, and write data back without scrambling delicate quantum phase relationships. Because acoustic phonon modes are harmonic—meaning their energy levels are evenly spaced—they cannot easily execute nonlinear logic gates on their own.</p>
+<p>To overcome that limitation, Yang, Kladaric, and Chu implemented fast <code>iSWAP</code> two-qubit operations between the transmon qubit and individual phonon modes. Whenever a calculation requires a stored qubit, the transmon swaps the quantum state out of its vibrational overtone, applies a single-qubit rotation or a novel controlled arbitrary-phase (<code>C-PHASE</code>) two-qubit gate, and swaps the updated state back into the acoustic crystal. Using quantum process tomography, the researchers verified that their single-qubit and continuous-phase two-qubit gates form a universal quantum gate set.</p>
+<p>To prove that the device functions as a genuine programmable processor rather than a passive delay line, the team executed two foundational algorithms across the coupled phonon modes: the Quantum Fourier Transform (QFT) and Quantum Period Finding (QPF). Both algorithms require all-to-all connectivity and controlled arbitrary-phase rotations while leaving certain qubits idle—conditions where the long coherence lifetime of the mechanical modes preserved algorithmic fidelity. The table below compares superconducting transmon registers, 3D microwave cavities, and the ETH Zurich HBAR mechanical working memory.</p>
+
+<div class="overflow-x-auto my-8">
+  <table class="w-full border-collapse text-left text-sm">
+    <thead>
+      <tr class="border-b border-border bg-muted/50">
+        <th class="p-3 font-semibold">Architectural Metric</th>
+        <th class="p-3 font-semibold">Planar Transmon Qubit Register</th>
+        <th class="p-3 font-semibold">3D Electromagnetic Cavity Memory</th>
+        <th class="p-3 font-semibold">ETH Zurich HBAR Mechanical Memory (2026)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Physical Information Carrier</td>
+        <td class="p-3">Nonlinear Josephson junction plasma oscillation</td>
+        <td class="p-3">Standing microwave photons in machined metal cavity</td>
+        <td class="p-3">Gigahertz bulk acoustic phonons in sapphire crystal</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Spatial Wavelength &amp; Footprint</td>
+        <td class="p-3">Millimeter-scale planar capacitor pads per qubit</td>
+        <td class="p-3">Centimeter-scale 3D waveguide housing per mode</td>
+        <td class="p-3">Micrometer-scale acoustic wavelength; compact flip-chip</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Mode Multiplexing Capacity</td>
+        <td class="p-3">1 qubit per physical resonator circuit</td>
+        <td class="p-3">1 to a few photon modes per bulky cavity</td>
+        <td class="p-3">Multiple harmonic phonon overtones in one crystal</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Universal Gate Mechanism</td>
+        <td class="p-3">Direct microwave drive and coupler gates</td>
+        <td class="p-3">Dispersive transmon-photon coupling</td>
+        <td class="p-3">Transmon-phonon <code>iSWAP</code> and arbitrary <code>C-PHASE</code> gates</td>
+      </tr>
+      <tr class="border-b border-border">
+        <td class="p-3 font-medium">Demonstrated Algorithms</td>
+        <td class="p-3">Standard circuit benchmarks</td>
+        <td class="p-3">Bosonic error-correction codes</td>
+        <td class="p-3">Quantum Fourier Transform (QFT) &amp; Period Finding (QPF)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>Next Steps Toward Scalable Quantum Random-Access Memory</h2>
+<p>By demonstrating that a single superconducting transmon can orchestrate universal gates and multi-step algorithms across multiple vibrational modes of a bulk-acoustic resonator, the ETH Zurich group has established circuit quantum acoustodynamics (cQAD) as a practical contender for quantum random-access memory (qRAM).</p>
+<p>In their <em>Science</em> paper, the authors note that the current processor size is bounded by how many acoustic overtone modes can be strongly coupled to a single transmon without spectral crowding, as well as residual state-preparation and swap infidelities. The team is now working to extend phonon coherence times further, accelerate transmon readout, and link multiple superconducting qubits to shared acoustic memory buses—paving the way for modular quantum computers that pair fast electrical processors with dense mechanical memory banks.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="space-y-4 my-6">
+  <div>
+    <h3>How does a mechanical resonator store quantum information?</h3>
+    <p>A piezoelectric transducer converts microwave signals from a superconducting qubit into high-frequency standing sound waves (phonons) inside a sapphire crystal, storing quantum states in distinct vibrational overtones much like harmonics on a guitar string.</p>
+  </div>
+  <div>
+    <h3>Why are sound waves more compact than electromagnetic waves for quantum memory?</h3>
+    <p>Acoustic waves travel through solid crystals about 100,000 times slower than electromagnetic waves travel through vacuum, shrinking gigahertz wavelengths from centimeters down to micrometers and allowing many memory modes to fit on a tiny chip.</p>
+  </div>
+  <div>
+    <h3>How does the superconducting qubit perform logic gates on stored vibrations?</h3>
+    <p>The superconducting transmon acts as a central processing unit, using two-qubit <code>iSWAP</code> gates to swap quantum states out of acoustic phonon modes, executing single-qubit or controlled-phase operations, and swapping the updated states back into memory.</p>
+  </div>
+  <div>
+    <h3>Which quantum algorithms did the ETH Zurich team test on this device?</h3>
+    <p>The researchers successfully executed instances of the Quantum Fourier Transform (QFT) and quantum period-finding (QPF) algorithms, both of which are core building blocks for large-scale quantum factoring and phase estimation.</p>
+  </div>
+  <div>
+    <h3>What is the main limitation of the current hybrid mechanical quantum processor?</h3>
+    <p>The current prototype is limited by the number of acoustic phonon modes that can couple to a single transmon qubit and by small swap infidelities, which the team is addressing through faster readout and higher-coherence crystal designs.</p>
+  </div>
+</div>`
+  },
+  {
     id: "medieval-parchment-manuscripts-sheeppox-virus-dna",
     slug: "medieval-parchment-manuscripts-sheeppox-virus-dna",
     title: "Medieval Parchment Manuscripts Preserve 3,500 Years of Sheeppox Virus DNA",
