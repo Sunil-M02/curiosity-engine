@@ -7,58 +7,56 @@ interface SEOProps {
   type?: 'website' | 'article';
   image?: string;
   robots?: string;
-  noIndex?: boolean; // Simplified prop for pre-launch deindexing
+  noIndex?: boolean;
   article?: {
     publishedTime?: string;
     modifiedTime?: string;
     section?: string;
     tags?: string[];
   };
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-export function SEO({ 
-  title, 
-  description, 
-  canonical, 
+export function SEO({
+  title,
+  description,
+  canonical,
   type = 'website',
-  image = 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1200&h=630&fit=crop',
+  image = 'https://www.curiosityfields.com/curiosityfields-favicon-dark.png',
   robots,
   noIndex = false,
-  article 
+  article,
+  jsonLd,
 }: SEOProps) {
   const siteName = 'CuriosityFields';
   const fullTitle = title.includes(siteName) ? title : `${title} | ${siteName}`;
-  
-  // Compute robots meta - noIndex prop takes precedence, default to index, follow
   const robotsContent = noIndex ? 'noindex, follow' : (robots || 'index, follow');
-  
+  const absImage = image.startsWith('http') ? image : `https://www.curiosityfields.com${image}`;
+  const jsonLdItems = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+
   return (
     <Helmet prioritizeSeoTags>
-      {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       {robotsContent && <meta name="robots" content={robotsContent} />}
-      
-      {/* Global favicon — re-applied on every route so SPA navigation keeps the same visible icon */}
+
       <link rel="icon" type="image/png" sizes="64x64" href="/curiosityfields-favicon-dark.png?v=20261008" />
       <link rel="shortcut icon" type="image/png" href="/curiosityfields-favicon-dark.png?v=20261008" />
       {canonical && <link rel="canonical" href={canonical} />}
-      
-      {/* Open Graph */}
+
       <meta property="og:site_name" content={siteName} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content={type} />
-      <meta property="og:image" content={image} />
+      <meta property="og:image" content={absImage} />
       {canonical && <meta property="og:url" content={canonical} />}
-      
-      {/* Twitter Card */}
+
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@curiosityfields" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
-      
-      {/* Article specific - Now uses Organization/Publisher instead of Person/Author */}
+      <meta name="twitter:image" content={absImage} />
+
       {type === 'article' && article && (
         <>
           {article.publishedTime && (
@@ -76,6 +74,12 @@ export function SEO({
           ))}
         </>
       )}
+
+      {jsonLdItems.map((schema, idx) => (
+        <script key={idx} type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
+      ))}
     </Helmet>
   );
 }
