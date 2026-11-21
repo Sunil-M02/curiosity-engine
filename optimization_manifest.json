@@ -1,0 +1,232 @@
+{
+  "modified_files": [
+    "src/pages/ArticlePage.tsx",
+    "src/data/topicClusters.ts",
+    "src/data/articles.ts"
+  ],
+  "broken_links_repaired": 149,
+  "broken_links_unlinked": 24,
+  "articles_optimized": [
+    {
+      "url": "https://www.curiosityfields.com/article/mars-earth-communication-delay-explained",
+      "target_queries": [
+        "mars communication delay",
+        "communication delay to mars",
+        "radio delay to moon"
+      ],
+      "before": {
+        "metaTitle": "Mars Communication Delay: Why Messages Take 20+ Minutes",
+        "metaDescription": "Mars can sit 250 million miles from Earth, so radio signals take over 20 minutes one way. Here is the physics NASA engineers around to run Mars missions."
+      },
+      "after": {
+        "metaTitle": "Mars-Earth Communication Delay: 3 to 22 Minutes Explained",
+        "metaDescription": "Radio signals between Earth and Mars take 3 to 22 minutes one way (up to 44 minutes round trip). See the orbital physics, solar blackouts, and NASA's solutions."
+      },
+      "internal_links_added": [
+        "/article/13-engineering-problems-mars-colonisation-harder-than-told",
+        "/article/perseverance-rover-confirms-widespread-complex-organic-carbon-mars",
+        "/article/human-torpor-hibernation-research-mars-spaceflight",
+        "/article/artemis-iii-update-nasa-2026-moon-landing"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/artemis-iii-update-nasa-2026-moon-landing",
+      "target_queries": [
+        "artemis iii update",
+        "nasa artemis iii 2026",
+        "artemis iii launch date"
+      ],
+      "before": {
+        "title": "Artemis III Update: NASA's 2026 Mission to Land Humans on the Moon",
+        "metaTitle": "Artemis III 2026: NASA Moon Landing Timeline and Key Risks",
+        "metaDescription": "NASA's Artemis III targets the Moon's south pole in 2026 \u2014 the first crewed lunar landing since 1972. Here's the timeline, spacecraft status, and what could delay it."
+      },
+      "after": {
+        "title": "Artemis III Update: NASA Shifts Mission to 2027 Orbit Test Ahead of 2028 Moon Landing",
+        "metaTitle": "Artemis III Update: 2027 Orbit Test & 2028 Moon Landing",
+        "metaDescription": "After Artemis II flew in April 2026, NASA refocused Artemis III for 2027 to test Orion and commercial landers in orbit ahead of a 2028 lunar South Pole landing."
+      },
+      "internal_links_added": [
+        "/article/nasa-moon-rover-lunar-south-pole-darkness-long-range-tests",
+        "/article/why-the-moon-always-shows-the-same-face-the-physics-of-tidal-locking",
+        "/article/mars-earth-communication-delay-explained"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained",
+      "target_queries": [
+        "frontier model forum",
+        "ai safety reports",
+        "ai model safety disclosure"
+      ],
+      "before": {
+        "metaTitle": "AI Safety Reports: The Disclosure Gap Between Releases",
+        "metaDescription": "Only 31 of 857 Chinese AI model releases had published safety results. See what AI safety reports cover, how late they arrive, and what they leave out."
+      },
+      "after": {
+        "metaTitle": "AI Safety Reports & Frontier Model Forum Disclosure Gaps",
+        "metaDescription": "Only 31 of 857 Chinese AI releases published safety results, while the Frontier Model Forum launched its 2026 cyber-jailbreak rating framework. See what is missing."
+      },
+      "internal_links_added": [
+        "/article/fine-tuning-ai-safety-dangerous-capabilities",
+        "/article/prompt-injection-attacks-ai-agents-security-explained",
+        "/article/2026-rise-of-agentic-ai-autonomous-agents-automation",
+        "/article/gpt-6-astra-agi-claim-explained"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/enhanced-geothermal-systems-supercritical-heat-explained",
+      "target_queries": [
+        "enhanced geothermal systems",
+        "supercritical geothermal energy",
+        "fervo geothermal 2026"
+      ],
+      "before": {
+        "metaTitle": "Enhanced Geothermal Systems Explained: 24/7 Clean Power",
+        "metaDescription": "Enhanced geothermal systems are drilling into supercritical heat to deliver always-on clean power. See how Fervo and Quaise are scaling the technology."
+      },
+      "after": {
+        "metaTitle": "Enhanced Geothermal Systems (EGS): 2026 Scale-Up & Physics",
+        "metaDescription": "Enhanced geothermal systems are moving from pilots to 24/7 commercial clean power in 2026. See how Fervo, DOE funding, and supercritical drilling work."
+      },
+      "internal_links_added": [
+        "/article/long-duration-energy-storage-grid-resilience-blackouts",
+        "/article/sodium-ion-battery-cost-parity-lithium-2026",
+        "/article/hyperscale-data-centres-consuming-more-power-than-countries",
+        "/article/fusion-reactor-net-energy-gain"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/does-fasting-trigger-autophagy-human-studies",
+      "target_queries": [
+        "does fasting trigger autophagy",
+        "fasting autophagy human studies",
+        "16 hour fasting autophagy"
+      ],
+      "before": {
+        "metaTitle": "Fasting Triggers Autophagy, But Not on a 16 Hour Clock",
+        "metaDescription": "Fasting does activate cellular recycling via mTOR and AMPK, but the 16 hour autophagy timeline is mostly animal data. See what 2025 human trials found."
+      },
+      "after": {
+        "metaTitle": "Does Fasting Trigger Autophagy? What Human Trials Show",
+        "metaDescription": "Human clinical trials confirm fasting alters metabolic pathways linked to autophagy, but popular 16-hour clocks rely mostly on mouse studies. See the clinical data."
+      },
+      "internal_links_added": [
+        "/article/what-if-ageing-could-be-reversed-biology-longevity-research",
+        "/article/sleep-score-vs-sleep-regularity-health-risks-wearable-data",
+        "/article/placebo-effect-brain-chemistry-science-healing",
+        "/article/gut-to-brain-dopamine-pathway-learn-to-love-bitter-coffee"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/fermi-paradox-solutions-explained",
+      "target_queries": [
+        "fermi paradox",
+        "fermi paradox solutions",
+        "solutions to the fermi paradox",
+        "great filter"
+      ],
+      "before": {
+        "metaTitle": "Fermi Paradox Theory: Why We Haven't Found Aliens",
+        "metaDescription": "No alien signal has ever been confirmed. The Fermi Paradox asks why, and every proposed solution has a fatal flaw. Here is where the real science stands."
+      },
+      "after": {
+        "metaTitle": "Fermi Paradox Solutions: Great Filter, Dark Forest & More",
+        "metaDescription": "Why haven't we detected alien civilizations? Compare the Great Filter, Rare Earth, Dark Forest, Zoo, and SETI limits in this evidence-led Fermi Paradox guide."
+      },
+      "internal_links_added": [
+        "/article/james-webb-telescope-discoveries-changing-astronomy",
+        "/article/vera-c-rubin-observatory-discovers-two-milky-way-companions",
+        "/article/far-out-solar-system-objects-shared-ancient-history-tnos",
+        "/article/pulsar-timing-array-gravitational-wave-background"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/darwin-evolution-theory-without-genetics-mendel",
+      "target_queries": [
+        "darwin evolution theory without genetics",
+        "darwin and mendel"
+      ],
+      "before": {
+        "metaTitle": "Darwin's Theory of Evolution Without Modern Genetics",
+        "metaDescription": "Darwin never knew about genes or DNA. See how blending inheritance nearly broke natural selection and why Mendel's pea plant data sat unread for 34 years."
+      },
+      "after": {
+        "metaTitle": "How Darwin Built Evolution Theory Without Knowing Genetics",
+        "metaDescription": "Charles Darwin formulated natural selection without knowing about genes or DNA. Learn how blending inheritance challenged his theory and why Mendel went unread for 34 years."
+      },
+      "internal_links_added": [
+        "/article/ancient-cave-sediment-dna-europeans-survived-last-ice-age",
+        "/article/feathered-dinosaur-fossil-flight-evolution-norellraptor",
+        "/article/coral-reef-extinction-risk-iucn-red-list-44-percent"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/quantum-error-correction-decoding-bottleneck-explained",
+      "target_queries": [
+        "quantum error correction decoding bottleneck",
+        "quantum computing bottleneck"
+      ],
+      "before": {
+        "metaTitle": "Quantum Computing Bottleneck: Why Qubits Aren't Enough",
+        "metaDescription": "Quantum error correction now hinges on classical decoders that answer in microseconds. See why decoding speed, wiring and heat limit scale, not qubits."
+      },
+      "after": {
+        "metaTitle": "Quantum Error Correction: Why Classical Decoders Are the Bottleneck",
+        "metaDescription": "Scaling quantum computers now depends on microsecond classical decoders, not just qubit counts. See how decoding latency, wiring, and heat limit fault tolerance."
+      },
+      "internal_links_added": [
+        "/article/the-quantum-revolution-reshaping-computing",
+        "/article/oscillating-supercurrents-read-out-qubit-states-accuracy",
+        "/article/wafer-scale-2d-semiconductors-moving-beyond-laboratory-samples"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/sodium-ion-battery-cost-parity-lithium-2026",
+      "target_queries": [
+        "sodium ion battery cost parity 2026",
+        "sodium batteries vs lithium"
+      ],
+      "before": {
+        "metaTitle": "Sodium Batteries: The Real 2026 Cost Parity Timeline",
+        "metaDescription": "CATL is now shipping sodium-ion batteries, targeting cost parity with lithium by 2026. See the real chemistry, timeline, and limits of the technology."
+      },
+      "after": {
+        "metaTitle": "Sodium-Ion Batteries in 2026: Real Cost Parity vs. Lithium",
+        "metaDescription": "CATL and global automakers are scaling sodium-ion batteries in 2026. Compare energy density, cold-weather performance, and true cost parity against LFP lithium."
+      },
+      "internal_links_added": [
+        "/article/solid-state-battery-ev-real-timeline",
+        "/article/ev-battery-recycling-critical-minerals-lithium-cobalt-supply",
+        "/article/long-duration-energy-storage-grid-resilience-blackouts"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/bgp-hijacking-route-leak-financial-traffic-explained",
+      "target_queries": [
+        "bgp hijacking route leak",
+        "how bgp hijacking works"
+      ],
+      "before": {
+        "metaTitle": "BGP Hijacking Explained: How Route Leaks Reroute Data",
+        "metaDescription": "One misconfigured router can reroute global bank and DNS traffic worldwide. How BGP hijacking works, real incidents, and why RPKI only stops part of it."
+      },
+      "after": {
+        "metaTitle": "BGP Hijacking & Route Leaks: How Internet Traffic Gets Rerouted",
+        "metaDescription": "One misconfigured router can hijack global banking and DNS traffic. Learn how BGP route leaks happen, real-world incidents, and why RPKI stops only part of them."
+      },
+      "internal_links_added": [
+        "/article/how-dns-finds-websites-without-server-location",
+        "/article/how-hackers-bypass-encryption-without-breaking-it",
+        "/article/how-undersea-cable-repeaters-amplify-signals"
+      ]
+    }
+  ],
+  "unresolved_fixes_applied": [
+    "Upgraded ArticlePage.tsx JSON-LD to Article + BreadcrumbList + FAQPage inside <SEO>",
+    "Expanded topicClusters.ts Knowledge Hub keywords for Oct-Nov topics",
+    "Removed first-person paywall disclaimer from Oct 12 7 eV semiconductor article",
+    "Removed first-person FAQ disclaimer from Oct 12 7 eV semiconductor article",
+    "Upgraded getEditorsPickArticles() to prioritize recent US-English flagship articles"
+  ]
+}
