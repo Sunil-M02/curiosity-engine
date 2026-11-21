@@ -85,30 +85,68 @@ const ArticlePage = () => {
   const categoryColor = categoryInfo[article.category].color;
   const articleCluster = getArticleCluster(article);
 
+  const canonicalUrl = `https://www.curiosityfields.com/article/${article.slug}`;
+  const categoryName = categoryInfo[article.category].name;
+  const absCoverImage = article.coverImage.startsWith('http')
+    ? article.coverImage
+    : `https://www.curiosityfields.com${article.coverImage}`;
+
   const articleJsonLd = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
+    "@type": "Article",
     "headline": article.title,
-    "description": article.excerpt,
-    "image": article.coverImage,
+    "description": article.metaDescription || article.excerpt,
+    "image": absCoverImage,
     "datePublished": article.publishedAt,
     "author": {
       "@type": "Organization",
-      "name": "CuriosityFields Editorial"
+      "name": "CuriosityFields Editorial",
+      "url": "https://www.curiosityfields.com/about"
     },
     "publisher": {
       "@type": "Organization",
       "name": "CuriosityFields",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.curiosityfields.com/logo.png"
+        "url": "https://www.curiosityfields.com/curiosityfields-favicon-dark.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://www.curiosityfields.com/article/${article.slug}`
+      "@id": canonicalUrl
     }
   };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.curiosityfields.com/" },
+      { "@type": "ListItem", "position": 2, "name": categoryName, "item": `https://www.curiosityfields.com/categories/${article.category}` },
+      { "@type": "ListItem", "position": 3, "name": article.title, "item": canonicalUrl }
+    ]
+  };
+
+  const faqSplit = article.content.split(/<h2[^>]*>\s*Frequently Asked Questions\s*<\/h2>/i);
+  const faqPairs = faqSplit.length >= 2
+    ? [...faqSplit[1].split(/<h2[^>]*>/i)[0].matchAll(/<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/gi)].map((m) => ({
+        "@type": "Question",
+        "name": m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(),
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
+        }
+      }))
+    : [];
+
+  const jsonLdList: Record<string, unknown>[] = [articleJsonLd, breadcrumbJsonLd];
+  if (faqPairs.length > 0) {
+    jsonLdList.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqPairs
+    });
+  }
 
   return (
     <Layout>
@@ -116,19 +154,15 @@ const ArticlePage = () => {
       <SEO
         title={article.metaTitle}
         description={article.metaDescription}
-        canonical={`https://www.curiosityfields.com/article/${article.slug}`}
+        canonical={canonicalUrl}
         type="article"
         image={article.coverImage}
         article={{
           publishedTime: article.publishedAt,
-          section: categoryInfo[article.category].name,
+          section: categoryName,
           tags: article.tags
         }}
-      />
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+        jsonLd={jsonLdList}
       />
 
       <article>
