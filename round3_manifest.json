@@ -1,0 +1,292 @@
+{
+  "round": "Round 3 (2026-11-28)",
+  "modified_files": [
+    "public/sitemap.xml",
+    "vercel.json",
+    "src/data/articles.ts"
+  ],
+  "sitemap_fixes": [
+    {
+      "removed": "https://www.curiosityfields.com/article/ai-safety-disclosure-gap-model-releases",
+      "added": "https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained"
+    },
+    {
+      "removed": "https://www.curiosityfields.com/article/basal-ganglia-damage-strategic-learning",
+      "added": "https://www.curiosityfields.com/article/basal-ganglia-damage-strategic-thinking-brain-study"
+    }
+  ],
+  "vercel_redirects_added": [
+    {
+      "source": "/article/ai-safety-disclosure-gap-model-releases",
+      "destination": "/article/ai-model-safety-reports-disclosure-gap-explained",
+      "permanent": true
+    },
+    {
+      "source": "/article/basal-ganglia-damage-strategic-learning",
+      "destination": "/article/basal-ganglia-damage-strategic-thinking-brain-study",
+      "permanent": true
+    }
+  ],
+  "broken_links_repaired": [
+    {
+      "old_slug": "burials-beneath-ordinary-homes-violence-monumental-graves",
+      "new_slug": "viking-age-skeletons-under-house-floors-violence-study",
+      "count": 1
+    },
+    {
+      "old_slug": "mohenjo-daro-evidence-urban-inequality-falling",
+      "new_slug": "mohenjo-daro-urban-inequality-falling-gini-coefficient",
+      "count": 1
+    },
+    {
+      "old_slug": "white-sands-footprints-timeline-ice-age-environmental-change",
+      "new_slug": "white-sands-footprints-ice-age-climate-lake-otero",
+      "count": 1
+    },
+    {
+      "old_slug": "ancient-chinese-solar-eclipse-records-earth-faster-spin",
+      "new_slug": "ancient-chinese-eclipse-records-earth-faster-historical-spin",
+      "count": 1
+    },
+    {
+      "old_slug": "majorana-qubits-pass-first-unified-global-parity-readout",
+      "new_slug": "quantum-error-correction-decoding-bottleneck-explained",
+      "count": 1
+    },
+    {
+      "old_slug": "optical-cavity-arrays-scale-neutral-atom-quantum-networks",
+      "new_slug": "the-quantum-revolution-reshaping-computing",
+      "count": 1
+    },
+    {
+      "old_slug": "2d-quantum-walk-framework-programmable-photonic-chips",
+      "new_slug": "photonic-computing-chip-in-memory-neurons-flare-explained",
+      "count": 1
+    }
+  ],
+  "internal_links_added": [
+    {
+      "source_url": "https://www.curiosityfields.com/article/james-webb-telescope-discoveries-changing-astronomy",
+      "destination_url": "https://www.curiosityfields.com/article/fermi-paradox-solutions-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/dark-energy-weakening-desi-evidence-explained",
+      "destination_url": "https://www.curiosityfields.com/article/fermi-paradox-solutions-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/dark-energy-weakening-desi-evidence-explained",
+      "destination_url": "https://www.curiosityfields.com/article/cosmic-microwave-background-oldest-light-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/agentic-commerce-ai-agents-checkout-payment-rails-2026",
+      "destination_url": "https://www.curiosityfields.com/article/openclaw-the-ai-agent-that-actually-does-things"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/agentic-commerce-ai-agents-checkout-payment-rails-2026",
+      "destination_url": "https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained",
+      "destination_url": "https://www.curiosityfields.com/article/openclaw-the-ai-agent-that-actually-does-things"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained",
+      "destination_url": "https://www.curiosityfields.com/article/fine-tuning-ai-safety-dangerous-capabilities"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/how-dns-finds-websites-without-server-location",
+      "destination_url": "https://www.curiosityfields.com/article/nobody-invented-internet-distributed-history-biggest-network"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/how-undersea-cable-repeaters-amplify-signals",
+      "destination_url": "https://www.curiosityfields.com/article/nobody-invented-internet-distributed-history-biggest-network"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/anthrobots-human-cells-self-assembling-living-machines",
+      "destination_url": "https://www.curiosityfields.com/article/cultivated-meat-regulatory-approval-by-country"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/confirmation-bias-news-feed-psychology",
+      "destination_url": "https://www.curiosityfields.com/article/illusion-of-explanatory-depth-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/pulsar-timing-array-gravitational-wave-background",
+      "destination_url": "https://www.curiosityfields.com/article/long-period-radio-transients-unexplained-signals"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/multi-scale-network-sampling-1996-shortest-path-limit",
+      "destination_url": "https://www.curiosityfields.com/article/traffic-light-timing-algorithms-400000-signals"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/openclaw-the-ai-agent-that-actually-does-things",
+      "destination_url": "https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/openclaw-the-ai-agent-that-actually-does-things",
+      "destination_url": "https://www.curiosityfields.com/article/agentic-commerce-ai-agents-checkout-payment-rails-2026"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/openclaw-the-ai-agent-that-actually-does-things",
+      "destination_url": "https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation",
+      "destination_url": "https://www.curiosityfields.com/article/openclaw-the-ai-agent-that-actually-does-things"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation",
+      "destination_url": "https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation",
+      "destination_url": "https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/illusion-of-explanatory-depth-explained",
+      "destination_url": "https://www.curiosityfields.com/article/confirmation-bias-news-feed-psychology"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/illusion-of-explanatory-depth-explained",
+      "destination_url": "https://www.curiosityfields.com/article/sunk-cost-fallacy-psychology-failing-decisions"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/illusion-of-explanatory-depth-explained",
+      "destination_url": "https://www.curiosityfields.com/article/judging-own-mistakes-vs-others-actor-observer-bias"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/the-quantum-revolution-reshaping-computing",
+      "destination_url": "https://www.curiosityfields.com/article/quantum-error-correction-decoding-bottleneck-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/the-quantum-revolution-reshaping-computing",
+      "destination_url": "https://www.curiosityfields.com/article/bounded-error-learning-quantum-simulators"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/the-quantum-revolution-reshaping-computing",
+      "destination_url": "https://www.curiosityfields.com/article/quantum-computers-crack-every-password-earth-timeline"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/fine-tuning-ai-safety-dangerous-capabilities",
+      "destination_url": "https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/fine-tuning-ai-safety-dangerous-capabilities",
+      "destination_url": "https://www.curiosityfields.com/article/waluigi-effect-ai-jailbreak-fine-tuning"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/nobody-invented-internet-distributed-history-biggest-network",
+      "destination_url": "https://www.curiosityfields.com/article/how-dns-finds-websites-without-server-location"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/nobody-invented-internet-distributed-history-biggest-network",
+      "destination_url": "https://www.curiosityfields.com/article/bgp-hijacking-route-leak-financial-traffic-explained"
+    },
+    {
+      "source_url": "https://www.curiosityfields.com/article/nobody-invented-internet-distributed-history-biggest-network",
+      "destination_url": "https://www.curiosityfields.com/article/how-undersea-cable-repeaters-amplify-signals"
+    }
+  ],
+  "articles_optimized": [
+    {
+      "url": "https://www.curiosityfields.com/article/openclaw-the-ai-agent-that-actually-does-things",
+      "gsc_evidence": "120 impr, 0 clicks, pos 52.6 ('openclaw ai agent' 13 impr pos 21.1; 'what can openclaw do' 14 impr; 'what is openclaw' 9 impr); Crawled - currently not indexed",
+      "before": {
+        "metaTitle": "OpenClaw AI Agent Review: Real Capabilities, Limits, and Verdict",
+        "metaDescription": "OpenClaw automates desktop tasks that chat-only AI can't touch \u2014 but has failure modes most reviews miss. Here's what it actually does in a real workflow."
+      },
+      "after": {
+        "metaTitle": "What Is OpenClaw AI Agent? Capabilities, Limits & Risks",
+        "metaDescription": "What is OpenClaw and what can this autonomous AI agent actually do? Explore how OpenClaw executes real-world workflows, its reliability limits, and safety trade-offs."
+      },
+      "internal_links_added": [
+        "https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation",
+        "https://www.curiosityfields.com/article/agentic-commerce-ai-agents-checkout-payment-rails-2026",
+        "https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/2026-rise-of-agentic-ai-autonomous-agents-automation",
+      "gsc_evidence": "44 impr, 0 clicks, pos 51.4 ('agentic behavior' 16 impr); Crawled - currently not indexed",
+      "before": {
+        "metaTitle": "Agentic AI in 2026: How Autonomous Agents Work, Fail, and Scale",
+        "metaDescription": "Autonomous AI agents can book meetings, run code, and browse the web unaided \u2014 but fail predictably. Here's what's real in 2026 and what isn't."
+      },
+      "after": {
+        "metaTitle": "Agentic AI in 2026: How Autonomous Agents Work & Fail",
+        "metaDescription": "How do autonomous AI agents execute multi-step workflows in 2026, and why do they still fail in production? See real-world benchmarks, risks, and adoption limits."
+      },
+      "internal_links_added": [
+        "https://www.curiosityfields.com/article/openclaw-the-ai-agent-that-actually-does-things",
+        "https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained",
+        "https://www.curiosityfields.com/article/prompt-injection-attacks-ai-agents-security-explained"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/illusion-of-explanatory-depth-explained",
+      "gsc_evidence": "30 impr, 0 clicks, pos 12.1 (Page-1/2 threshold); Crawled - currently not indexed",
+      "before": {
+        "metaTitle": "Illusion of Explanatory Depth: Why Knowledge Backfires",
+        "metaDescription": "You can ride a bicycle every day but likely still can't explain exactly how it balances. A 2002 Yale study shows why knowing more makes explaining harder."
+      },
+      "after": {
+        "metaTitle": "Illusion of Explanatory Depth: Why We Overestimate Knowledge",
+        "metaDescription": "The illusion of explanatory depth explains why people think they understand everyday systems until asked to explain them step by step. See the psychology and studies."
+      },
+      "internal_links_added": [
+        "https://www.curiosityfields.com/article/confirmation-bias-news-feed-psychology",
+        "https://www.curiosityfields.com/article/sunk-cost-fallacy-psychology-failing-decisions",
+        "https://www.curiosityfields.com/article/judging-own-mistakes-vs-others-actor-observer-bias"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/the-quantum-revolution-reshaping-computing",
+      "gsc_evidence": "27 impr, 1 click, pos 17.7 ('quantum computing' query); Indexed",
+      "before": {
+        "metaTitle": "How Quantum Computing Works: Qubits, Risks, and Timeline",
+        "metaDescription": "Qubits exist in multiple states \u2014 IBM crossed the fault-tolerant threshold. Here's how quantum computing works and what encryption risk means for your data."
+      },
+      "after": {
+        "metaTitle": "Quantum Computing Explained: Qubits, Limits & Real Progress",
+        "metaDescription": "How close is practical quantum computing? Explore qubits, superposition, error-correction bottlenecks, and which industries stand to benefit first."
+      },
+      "internal_links_added": [
+        "https://www.curiosityfields.com/article/quantum-error-correction-decoding-bottleneck-explained",
+        "https://www.curiosityfields.com/article/bounded-error-learning-quantum-simulators",
+        "https://www.curiosityfields.com/article/quantum-computers-crack-every-password-earth-timeline"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/fine-tuning-ai-safety-dangerous-capabilities",
+      "gsc_evidence": "11 impr, 0 clicks, pos 21.55 ('lora fine-tuning efficiently undoes safety training in llama 2-chat 70b' 3 impr pos 40)",
+      "before": {
+        "metaTitle": "How Fine-Tuning Reopens Dangerous AI Capabilities Fast",
+        "metaDescription": "Fine-tuning can undo AI safety training in minutes. Research shows why capabilities scrubbed before release often return, and what actually stops it."
+      },
+      "after": {
+        "metaTitle": "How LoRA Fine-Tuning Can Undo AI Safety Guardrails",
+        "metaDescription": "Research shows even lightweight LoRA fine-tuning on a few examples can strip safety alignment from open-weight LLMs. See how safety erosion happens and how labs defend."
+      },
+      "internal_links_added": [
+        "https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained",
+        "https://www.curiosityfields.com/article/waluigi-effect-ai-jailbreak-fine-tuning"
+      ]
+    },
+    {
+      "url": "https://www.curiosityfields.com/article/nobody-invented-internet-distributed-history-biggest-network",
+      "gsc_evidence": "46 impr, 0 clicks, pos 83.7 ('who invented the internet' 9 impr; 'who created the internet' 7 impr; 'who invented internet' 6 impr); Crawled - currently not indexed",
+      "before": {
+        "metaTitle": "Who Really Invented the Internet? It Wasn't Just One Person",
+        "metaDescription": "The internet has no single inventor \u2014 Cerf, Kahn, Berners-Lee, and dozens of DARPA researchers built it across three decades. Here's who did what and when."
+      },
+      "after": {
+        "metaTitle": "Who Invented the Internet? ARPANET, TCP/IP & the True History",
+        "metaDescription": "No single person invented the internet. Trace how ARPANET, Vint Cerf and Bob Kahn's TCP/IP, and Tim Berners-Lee's World Wide Web built today's global network."
+      },
+      "internal_links_added": [
+        "https://www.curiosityfields.com/article/how-dns-finds-websites-without-server-location",
+        "https://www.curiosityfields.com/article/bgp-hijacking-route-leak-financial-traffic-explained",
+        "https://www.curiosityfields.com/article/how-undersea-cable-repeaters-amplify-signals"
+      ]
+    }
+  ]
+}
