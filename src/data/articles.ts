@@ -409,7 +409,7 @@ export const articles: Article[] = [
 
 <p>This reversal fits the broader acceleration documented across contemporary climate observations, including <a href="https://www.curiosityfields.com/article/global-warming-accelerated-035-celsius-per-decade-since-2015">accelerated global warming</a> and rising ecological stress such as <a href="https://www.curiosityfields.com/article/coral-reef-extinction-risk-iucn-red-list-44-percent">coral reef risk</a>. Even though Northern Hemisphere summer insolation from Earth's orbital tilt continues to decline slightly, elevated atmospheric greenhouse gases have overwhelmed that gentle orbital cooling.</p>
 
-<p>Understanding deep-time geological baselines, from <a href="https://www.curiosityfields.com/article/mantle-convection-great-unconformity">Earth's missing billion</a> years of crust to modern Arctic melt, shows how rare it is for a single species to interrupt a planetary glacial rhythm. At the same time, climate scientists and engineers are working on mitigation and adaptation tools ranging from <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">carbon dioxide conversion</a> and <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-illinois">grid resilience</a> to improved <a href="https://www.curiosityfields.com/article/hard-constrained-ai-chaotic-systems">chaotic weather forecasts</a>.</p>
+<p>Understanding deep-time geological baselines, from <a href="https://www.curiosityfields.com/article/mantle-convection-great-unconformity">Earth's missing billion</a> years of crust to modern Arctic melt, shows how rare it is for a single species to interrupt a planetary glacial rhythm. At the same time, climate scientists and engineers are working on mitigation and adaptation tools ranging from <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">carbon dioxide conversion</a> and <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-blackouts">grid resilience</a> to improved <a href="https://www.curiosityfields.com/article/hard-constrained-ai-chaotic-systems">chaotic weather forecasts</a>.</p>
 
 <h2>What Losing the Last Laurentide Remnant Means for the Future</h2>
 
@@ -558,7 +558,7 @@ export const articles: Article[] = [
     content: `<p class="lead">Bladder cancer claims roughly 220,000 lives worldwide each year, partly because early warning signs often mimic benign kidney stones or routine urinary infections until invasive testing occurs. Published in <em>IEEE Transactions on Biomedical Engineering</em>, University of Plymouth researchers trained an interpretable AI system called PRECISE-AGZ on nearly 70,000 patient records, correctly identifying 85 percent of bladder cancer cases and surfacing subtle warning patterns up to five years before diagnosis.</p>
 
 <h2>Why Early Bladder Cancer Often Hides Behind Common Symptoms</h2>
-<p>Applying machine learning to messy clinical data requires careful attention to diagnostic trade-offs explored in <a href="/article/ai-accuracy-paradox-healthcare-risk">healthcare AI accuracy</a> and <a href="/article/ai-safety-disclosure-gap-model-releases">AI safety disclosures</a>. Ranking as the ninth most common cancer globally with 614,000 new diagnoses in 2022, bladder cancer lacks any routine population-wide screening program.</p>
+<p>Applying machine learning to messy clinical data requires careful attention to diagnostic trade-offs explored in <a href="/article/ai-accuracy-paradox-healthcare-risk">healthcare AI accuracy</a> and <a href="/article/ai-model-safety-reports-disclosure-gap-explained">AI safety disclosures</a>. Ranking as the ninth most common cancer globally with 614,000 new diagnoses in 2022, bladder cancer lacks any routine population-wide screening program.</p>
 <p>Under current clinical referral guidelines, doctors rely heavily on visible blood in the urine (hematuria) to refer patients for cystoscopy—an uncomfortable, invasive procedure in which a thin camera tube is guided through the urethra into the bladder. Because kidney stones and benign prostate enlargement also cause hematuria, many high-risk patients experience delayed referrals while low-risk patients undergo unnecessary invasive exams.</p>
 <p>In a study published in <a href="https://doi.org/10.1109/TBME.2026.3658230" target="_blank" rel="noopener noreferrer">IEEE Transactions on Biomedical Engineering (DOI: 10.1109/TBME.2026.3658230)</a> and detailed by the <a href="https://www.plymouth.ac.uk/news/bladder-cancer-detected-up-to-five-years-before-diagnosis-thanks-to-ai" target="_blank" rel="noopener noreferrer">University of Plymouth</a> and <a href="https://www.sciencedaily.com/releases/2026/11/261120075604.htm" target="_blank" rel="noopener noreferrer">ScienceDaily</a>, Xu Wang and Professor Shang-Ming Zhou alongside NHS collaborators built PRECISE-AGZ to read the hidden trajectory inside decades of routine electronic health records.</p>
 
@@ -1174,7 +1174,7 @@ export const articles: Article[] = [
 </figure>
 
 <h2>Context Matters: Why Stereotypes Miss Meaning-Making</h2>
-<p>Connecting subtle behavioral signatures to broader computational and brain science echoes precision modeling in <a href="/article/recurrent-neural-networks-nonlinear-laser-simulations">laser neural surrogates</a> and <a href="/article/photonic-neurons-sensing-memory-computing-one-device">integrated photonic neurons</a>. Crucially, Bray and Drislane discovered that the link between personality traits and word choice shifted depending on which prompt participants were answering, such as recalling a peak success versus a painful low point.</p>
+<p>Connecting subtle behavioral signatures to broader computational and brain science echoes precision modeling in <a href="/article/recurrent-neural-networks-nonlinear-laser-simulations">laser neural surrogates</a> and <a href="/article/photonic-computing-chip-in-memory-neurons-flare-explained">integrated photonic neurons</a>. Crucially, Bray and Drislane discovered that the link between personality traits and word choice shifted depending on which prompt participants were answering, such as recalling a peak success versus a painful low point.</p>
 <p>That context sensitivity overturns the stereotype that psychopathic traits flatten all speech into sterile detachment. As Drislane noted, autobiographical stories reflect how people construct meaning and a worldview, and each dimension shapes that meaning-making differently. The table below summarizes the three Triarchic linguistic profiles identified across the 450 participants.</p>
 
 <div class="overflow-x-auto my-8">
@@ -1267,7 +1267,7 @@ export const articles: Article[] = [
 </figure>
 
 <h2>Testing Bounded Chaos From Lorenz Attractors to Fluid Flows</h2>
-<p>Embedding physical conservation principles into hardware and software mirrors engineering advances across <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, <a href="/article/photonic-neurons-sensing-memory-computing-one-device">integrated photonic neurons</a>, and <a href="/article/networked-metamaterials-absorb-impacts">networked impact metamaterials</a>. To verify their approach, Tang, Azizan, and Sapsis tested it across benchmarks ranging from the classic butterfly-shaped Lorenz 63 attractor to high-dimensional multidimensional chaotic systems.</p>
+<p>Embedding physical conservation principles into hardware and software mirrors engineering advances across <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, <a href="/article/photonic-computing-chip-in-memory-neurons-flare-explained">integrated photonic neurons</a>, and <a href="/article/networked-metamaterials-absorb-impacts">networked impact metamaterials</a>. To verify their approach, Tang, Azizan, and Sapsis tested it across benchmarks ranging from the classic butterfly-shaped Lorenz 63 attractor to high-dimensional multidimensional chaotic systems.</p>
 <p>While conventional unconstrained neural networks rapidly diverged into unphysical territory during long simulations, the hard-constrained models remained strictly inside their learned boundaries and reproduced true long-term statistical patterns. Crucially, because physical constraints supply extra mathematical structure, the approach also performed strongly when training data were scarce. The table below compares unconstrained neural networks, soft-penalized physics models, and MIT's hard-constrained projection framework.</p>
 
 <div class="overflow-x-auto my-8">
@@ -1366,7 +1366,7 @@ export const articles: Article[] = [
 <p>As detailed by the <a href="https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-surveying-asteroids-with-superhuman-vision" target="_blank" rel="noopener noreferrer">European Space Agency</a>, the <a href="https://www.dlr.de/en/latest/news/2026/hera-spots-its-target-a-first-glimpse-into-the-study-of-the-didymos-binary-asteroid-system" target="_blank" rel="noopener noreferrer">German Aerospace Center (DLR)</a>, and <a href="https://www.sciencedaily.com/releases/2026/11/261116023351.htm" target="_blank" rel="noopener noreferrer">ScienceDaily</a>, Hera captured striking monochrome views of Didymos from 60 kilometers away using its DLR-led Asteroid Framing Camera, followed by multi-instrument observations from 28.5 kilometers out.</p>
 
 <h2>What Hera Saw on the Unexplored Far Side of Didymos</h2>
-<p>Inspecting distant rocky worlds with autonomous navigation and specialized sensors parallels engineering milestones in <a href="/article/perseverance-rover-confirms-widespread-complex-organic-carbon-mars">Mars organic carbon</a>, <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a>, and <a href="/article/swarm-robotics-coordinated-machines-build-structures-space">orbital robot swarms</a>. Because DART approached Didymos and Dimorphos rapidly from a single angle in 2022, its final photos only showed one hemisphere of the primary asteroid.</p>
+<p>Inspecting distant rocky worlds with autonomous navigation and specialized sensors parallels engineering milestones in <a href="/article/perseverance-rover-confirms-widespread-complex-organic-carbon-mars">Mars organic carbon</a>, <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a>, and <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital robot swarms</a>. Because DART approached Didymos and Dimorphos rapidly from a single angle in 2022, its final photos only showed one hemisphere of the primary asteroid.</p>
 <p>Hera's November 2026 imagery exposed the opposite side of 780-meter Didymos for the first time, prompting Hera Principal Investigator Patrick Michel to remark that it felt like looking at a whole new world. Although the far side shares the sharp-edged equatorial ridge seen in 2022, it is covered in abundant boulders, craters, and linear groove-like features.</p>
 <p>ESA Hera mission scientist Michael Kueppers noted that debris ejected when DART struck Dimorphos likely crossed the roughly 1-kilometer gap separating the two bodies. Mapping whether some of Didymos' surface boulders or grooves originated from that inter-asteroid ejecta transfer will be a central focus of Hera's six-month science phase.</p>
 
@@ -1376,7 +1376,7 @@ export const articles: Article[] = [
 </figure>
 
 <h2>Why Hera Flies a Rectangular Path With Superhuman Instruments</h2>
-<p>Operating precision imaging and communications hardware in deep space draws on broader aerospace systems such as <a href="/article/reconfigurable-metasurface-antennas">reconfigurable metasurface antennas</a> and <a href="/article/ancient-chinese-solar-eclipse-records-earth-faster-spin">ancient eclipse records</a>. Orbiting a tiny binary asteroid with feeble, uneven gravity is treacherous: a single thruster glitch could send a spacecraft drifting into the rocks or escaping into space.</p>
+<p>Operating precision imaging and communications hardware in deep space draws on broader aerospace systems such as reconfigurable metasurface antennas and <a href="/article/ancient-chinese-eclipse-records-earth-faster-historical-spin">ancient eclipse records</a>. Orbiting a tiny binary asteroid with feeble, uneven gravity is treacherous: a single thruster glitch could send a spacecraft drifting into the rocks or escaping into space.</p>
 <p>To eliminate collision risk, Hera entered a Rosetta-inspired "rectangular orbit" on November 11, 2026, coasting along straight segments at roughly 12 centimeters per second before firing thrusters to turn 90 degrees at a safe 25- to 30-kilometer standoff distance. From there, Hera combines its monochrome Asteroid Framing Camera (resolving features down to about 2.7 meters per pixel at 28.5 km) with the TIRI thermal infrared imager and the HyperScout-H hyperspectral sensor to measure surface temperatures, composition, and internal mass distribution. The table below compares NASA's DART impactor with ESA's Hera follow-up survey.</p>
 
 <div class="overflow-x-auto my-8">
@@ -1464,12 +1464,12 @@ export const articles: Article[] = [
     content: `<p class="lead">Engineers at MIT, Northeastern University, and Utrecht University have overturned a core rule of synthetic metamaterial design by replacing uniform, repeating geometric cells with disordered, multi-scale physical networks inspired by leaf veins and dragonfly wings. Published in <em>Nature</em>, these scale-rich metamaterials distribute impact forces across intersecting beams spanning microns to centimeters, preventing sudden catastrophic collapse in helmets, packaging, and armor.</p>
 
 <h2>Why Repeating Unit Cells Fail Under Sudden Impact</h2>
-<p>Rethinking internal geometry to unlock new mechanical behavior builds on advances in <a href="/article/Origami-inspired-metamaterials-fold-flat-lock-into-load-bearing-beams">origami-inspired structural metamaterials</a> and <a href="/article/self-healing-concrete-bacteria-seal-cracks-extend-lifespan">autonomous self-healing materials</a>. For decades, materials engineers have built synthetic metamaterials by designing a single microscopic unit cell, such as a square grid or hexagonal honeycomb, and copying that exact shape thousands of times across a structure.</p>
+<p>Rethinking internal geometry to unlock new mechanical behavior builds on advances in origami-inspired structural metamaterials and <a href="/article/technology-behind-self-healing-materials-polymer-chains">autonomous self-healing materials</a>. For decades, materials engineers have built synthetic metamaterials by designing a single microscopic unit cell, such as a square grid or hexagonal honeycomb, and copying that exact shape thousands of times across a structure.</p>
 <p>While periodic lattices offer high strength-to-weight ratios in steady lab tests, they harbor a dangerous vulnerability: localization. When a uniform honeycomb is punctured, cracked, or struck hard in one spot, neighboring unit cells share the exact same geometry and buckle together like falling dominoes, triggering sudden structural failure.</p>
 <p>In a study titled <em>Scale-Rich Network-Based Metamaterials</em> published November 11, 2026 in <em>Nature</em> and reported by <a href="https://news.mit.edu/2026/engineers-design-stronger-resilient-nature-inspired-metamaterials-1111" target="_blank" rel="noopener noreferrer">MIT News</a>, <a href="https://meche.mit.edu/news-media/inspired-networks-found-nature-engineers-design-stronger-more-resilient-%E2%80%9Cmetamaterials%E2%80%9D" target="_blank" rel="noopener noreferrer">MIT Mechanical Engineering</a>, and <a href="https://www.eurekalert.org/news-releases/1151316" target="_blank" rel="noopener noreferrer">EurekAlert</a>, MIT Associate Professor Carlos Portela and Northeastern University network scientist Albert-Laszlo Barabasi teamed up to test whether natural network disorder could solve that fragility.</p>
 
 <h2>Applying Network Science to 3D-Printed Physical Beams</h2>
-<p>Bridging abstract mathematical graphs with real-world hardware parallels structural breakthroughs in <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a> and <a href="/article/solid-state-electrocaloric-heat-pumps-replace-refrigerants">solid-state thermal systems</a>. Network science has long mapped invisible webs such as the internet, neural pathways, and food webs, but translating those graphs into solid materials required respecting physical constraints like beam thickness, intersection density, and empty pore space.</p>
+<p>Bridging abstract mathematical graphs with real-world hardware parallels structural breakthroughs in <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a> and <a href="/article/electrocaloric-cooling-air-conditioner-no-refrigerant">solid-state thermal systems</a>. Network science has long mapped invisible webs such as the internet, neural pathways, and food webs, but translating those graphs into solid materials required respecting physical constraints like beam thickness, intersection density, and empty pore space.</p>
 <p>To generate physical networks, Portela's MIT team (including Andrew Yen-Jong Chen, Mohammad Charara, and Jayna Wadhwa) alongside Barabasi's group and Utrecht University's Niek Mooij wrote a generative line-drawing algorithm. Starting inside a bounded square, the software picks a random coordinate and draws a thick beam across the domain, then places a second random point and draws another beam until it hits the boundary or the first beam.</p>
 <p>By repeating this step hundreds of times with progressively shorter and thinner lines, the algorithm builds a dense, scale-rich web of struts ranging from micrometers to centimeters in length. Remarkably, tuning just two inputs, the initial line thickness and how quickly line thickness shrinks with each iteration, allowed the team to dial in a wide range of mechanical stiffness and energy absorption profiles before 3D printing credit-card-sized polymer test squares.</p>
 
@@ -1479,7 +1479,7 @@ export const articles: Article[] = [
 </figure>
 
 <h2>Pomelo Rinds, Drop Tests, and Distributed Damage</h2>
-<p>Designing multi-scale resilience under heavy mechanical loads complements materials research in <a href="/article/extreme-pressure-familiar-materials-entirely-new-phases">extreme pressure phases</a>, <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, and <a href="/article/mechanical-drumhead-vibrations-working-memory-qubits">mechanical quantum memory</a>. When the researchers squeezed the 3D-printed networked samples and dropped heavy weights onto them alongside conventional lattice and honeycomb controls, the disordered webs consistently outperformed ordered designs.</p>
+<p>Designing multi-scale resilience under heavy mechanical loads complements materials research in <a href="/article/extreme-pressure-materials-new-phases-diamond-anvil-cell">extreme pressure phases</a>, <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, and <a href="/article/mechanical-drumhead-vibrations-working-memory-qubits">mechanical quantum memory</a>. When the researchers squeezed the 3D-printed networked samples and dropped heavy weights onto them alongside conventional lattice and honeycomb controls, the disordered webs consistently outperformed ordered designs.</p>
 <p>As Portela explained, the mixture of thick primary struts and fine secondary cross-braces ensures that if one local segment fractures under impact, a resilient web of surrounding structures immediately reroutes the force and prevents catastrophic collapse. In a second demonstration inspired by the thick, spongy rind of a pomelo fruit, the team printed a density-graded square with tightly packed beams along its outer rim and softer spacing inside, successfully cushioning a fragile object embedded at its core. The table below compares conventional periodic metamaterials against scale-rich networked metamaterials.</p>
 
 <div class="overflow-x-auto my-8">
@@ -1572,7 +1572,7 @@ export const articles: Article[] = [
 <p>In a study published in <a href="https://link.aps.org/doi/10.1103/s96t-n8tx" target="_blank" rel="noopener noreferrer">Physical Review X (DOI: 10.1103/s96t-n8tx)</a> and detailed by the <a href="https://www.munich-quantum-center.de/news-and-events/news/quantum-simulators-get-error-bars.html" target="_blank" rel="noopener noreferrer">Munich Quantum Center</a> and <a href="https://www.sciencedaily.com/releases/2026/11/261115085557.htm" target="_blank" rel="noopener noreferrer">ScienceDaily</a>, Tristan Kraft, Barbara Kraus, Manoj K. Joshi, Christian F. Roos, and Peter Zoller introduced a protocol that lets a quantum simulator certify its own uncertainty margins.</p>
 
 <h2>How Hamiltonian and Lindbladian Learning Certifies Hardware</h2>
-<p>Diagnosing real-world hardware behavior complements precision control advances in <a href="/article/majorana-qubits-pass-first-unified-global-parity-readout">Majorana parity readouts</a> and <a href="/article/optical-cavity-arrays-scale-neutral-atom-quantum-networks">optical cavity arrays</a>. Instead of assuming a quantum simulator implements its textbook target equations, the BEQS framework treats the device as a black box and asks what physics is actually occurring inside the vacuum chamber.</p>
+<p>Diagnosing real-world hardware behavior complements precision control advances in <a href="/article/quantum-error-correction-decoding-bottleneck-explained">Majorana parity readouts</a> and <a href="/article/the-quantum-revolution-reshaping-computing">optical cavity arrays</a>. Instead of assuming a quantum simulator implements its textbook target equations, the BEQS framework treats the device as a black box and asks what physics is actually occurring inside the vacuum chamber.</p>
 <p>The protocol unfolds in two steps using standard capabilities already available on programmable simulators: preparing simple product states and performing randomized measurements. First, researchers evolve the system for short time intervals and use Hamiltonian and Lindbladian learning to reconstruct both the coherent qubit-to-qubit interactions (the Hamiltonian) and the dissipative noise and fluctuations from the environment (the Lindbladian).</p>
 <p>Second, the team mathematically propagates the statistical uncertainties in those learned hardware parameters forward into rigorous upper and lower error bounds on later observable measurements. Crucially, for short-time predictions, those error bounds can be computed purely from experimental data without relying on any classical many-body simulation.</p>
 
@@ -1582,7 +1582,7 @@ export const articles: Article[] = [
 </figure>
 
 <h2>Testing Bounded-Error Simulation on 10 and 51 Trapped Ions</h2>
-<p>Combining statistical learning with experimental physics parallels computational speedups in <a href="/article/2d-quantum-walk-framework-programmable-photonic-chips">programmable photonic chips</a>, <a href="/article/subcycle-videography-quantum-electron-jumps-graphene">subcycle electron jumps</a>, and <a href="/article/recurrent-neural-networks-nonlinear-laser-simulations">laser neural surrogates</a>. To prove that BEQS works in practice rather than only on paper, the Munich and Innsbruck teams tested it on trapped-ion quantum simulators implementing long-range Ising spin interactions.</p>
+<p>Combining statistical learning with experimental physics parallels computational speedups in <a href="/article/photonic-computing-chip-in-memory-neurons-flare-explained">programmable photonic chips</a>, <a href="/article/subcycle-videography-quantum-electron-jumps-graphene">subcycle electron jumps</a>, and <a href="/article/recurrent-neural-networks-nonlinear-laser-simulations">laser neural surrogates</a>. To prove that BEQS works in practice rather than only on paper, the Munich and Innsbruck teams tested it on trapped-ion quantum simulators implementing long-range Ising spin interactions.</p>
 <p>They began with a 10-ion chain, where classical supercomputers can still solve the full quantum dynamics independently. The learned open-system model and its predicted error bars matched both independent measurements and exact classical benchmarks. Next, Manoj Joshi and Christian Roos scaled the experiment up to a 51-ion chain, demonstrating that the learned model reproduced experimental evolution within the predicted bounds even at large system sizes. The table below compares traditional classical benchmarking against the new BEQS framework.</p>
 
 <div class="overflow-x-auto my-8">
@@ -1675,7 +1675,7 @@ export const articles: Article[] = [
 <p>Yet Petrie could not point to clear fatal wounds on the skeletons, leaving the theory hotly debated for a century. In a study published in <a href="https://doi.org/10.3389/fearc.2026.1858940" target="_blank" rel="noopener noreferrer">Frontiers in Environmental Archaeology (DOI: 10.3389/fearc.2026.1858940)</a> and detailed via <a href="https://www.sciencedaily.com/releases/2026/11/261112025540.htm" target="_blank" rel="noopener noreferrer">ScienceDaily</a>, Purdue University bioarchaeologist Dr. Roselyn A. Campbell tracked down 46 Abydos skulls that Petrie had shipped to Cambridge University's Duckworth Collection.</p>
 
 <h2>What Modern Forensics Found on the 46 Preserved Skulls</h2>
-<p>Documenting skeletal evidence of organized violence in early states parallels archaeological investigations of <a href="/article/burials-beneath-ordinary-homes-violence-monumental-graves">Scandinavian house burials</a> and <a href="/article/4000-year-old-fortified-wall-morocco-north-african-history">Bronze Age fortifications</a>. While Petrie reburied most of the postcranial skeletons in Egypt, the 46 skulls preserved in Cambridge retained subtle clues invisible to 1920s excavators.</p>
+<p>Documenting skeletal evidence of organized violence in early states parallels archaeological investigations of <a href="/article/viking-age-skeletons-under-house-floors-violence-study">Scandinavian house burials</a> and <a href="/article/4000-year-old-fortified-wall-morocco-north-african-history">Bronze Age fortifications</a>. While Petrie reburied most of the postcranial skeletons in Egypt, the 46 skulls preserved in Cambridge retained subtle clues invisible to 1920s excavators.</p>
 <p>Using modern forensic osteology criteria, Campbell identified substantial cranial trauma on 18 of the 46 skulls, representing at least 39 percent of the examined individuals. Petrie had apparently mistaken these cracks for post-burial soil pressure or natural weathering. Under updated forensic inspection, however, the fracture edges matched perimortem trauma—injuries sustained around the time of death when bone still retains organic elasticity.</p>
 <p>Most of the 18 injured crania displayed linear fractures capable of causing rapid unconsciousness, internal bleeding, and death. Several skulls also exhibited sharp-force trauma, including a chopping injury across one individual's eye orbit. Interestingly, the fractures did not match the classic depressed, circular bone indentations expected from an Egyptian royal mace, pointing instead toward broad, flat weapons or blunt impacts.</p>
 
@@ -1685,7 +1685,7 @@ export const articles: Article[] = [
 </figure>
 
 <h2>Why Evidence Gaps Keep Exact Causes of Death Open</h2>
-<p>Weighing incomplete archaeological records honestly is essential across deep-time research, from <a href="/article/mohenjo-daro-evidence-urban-inequality-falling">ancient urban inequality</a> and <a href="/article/white-sands-footprints-timeline-ice-age-environmental-change">Ice Age footprints</a> to <a href="/article/ancient-chinese-solar-eclipse-records-earth-faster-spin">ancient eclipse records</a>. Campbell is explicit about what 46 isolated skulls can and cannot prove.</p>
+<p>Weighing incomplete archaeological records honestly is essential across deep-time research, from <a href="/article/mohenjo-daro-urban-inequality-falling-gini-coefficient">ancient urban inequality</a> and <a href="/article/white-sands-footprints-ice-age-climate-lake-otero">Ice Age footprints</a> to <a href="/article/ancient-chinese-eclipse-records-earth-faster-historical-spin">ancient eclipse records</a>. Campbell is explicit about what 46 isolated skulls can and cannot prove.</p>
 <p>First, the Cambridge sample represents only 5 to 15 percent of each subsidiary burial population, and many graves had been disturbed before Petrie arrived or damaged during shipment. Second, Petrie coated skulls in thick paraffin wax for preservation, which obscures subtle bone color variations that help pinpoint exact timing. Third, because the rest of the skeletons were reburied a century ago, researchers cannot check for defensive fractures on forearms or lethal injuries elsewhere on the body, nor can they rule out non-skeletal methods like asphyxiation in the remaining 61 percent of skulls. The table below summarizes Petrie's 1920s interpretation alongside Campbell's 2026 forensic findings.</p>
 
 <div class="overflow-x-auto my-8">
@@ -5670,6 +5670,8 @@ export const articles: Article[] = [
 
 <p>Similarly, knowledge-graph retrieval systems, <a href="https://www.curiosityfields.com/article/what-happens-when-ai-can-design-its-own-successor">automated neural architecture search engines</a>, and <a href="https://www.curiosityfields.com/article/ai-model-safety-reports-disclosure-gap-explained">large-scale AI evaluation frameworks</a> rely on fast graph distance metrics to cluster related concepts and audit multi-step reasoning chains. By proving that computers can estimate both cross-network highways and tight neighborhood links within twice the true shortest distance at the same time, multi-scale sampling removes a 30-year-old mathematical blind spot in network science.</p>
 
+
+<p>Faster graph routing algorithms have practical parallels in urban engineering, including <a href="/article/traffic-light-timing-algorithms-400000-signals">traffic light timing algorithms</a> that reduce city-wide congestion.</p>
 <h2>Frequently Asked Questions</h2>
 <h3>What is the All-Pairs Shortest Paths (APSP) problem in computer science?</h3>
 <p>The All-Pairs Shortest Paths problem asks a computer to calculate the shortest route between every possible pair of points (vertices) in a network (graph). In dense networks, solving APSP exactly takes roughly cubic time, meaning that doubling the number of points increases the computation roughly eightfold.</p>
@@ -7041,10 +7043,10 @@ export const articles: Article[] = [
     id: "1",
     slug: "the-quantum-revolution-reshaping-computing",
     title: "The Quantum Revolution: How Quantum Computing Is Reshaping Our Digital Future",
-    metaTitle: "How Quantum Computing Works: Qubits, Risks, and Timeline",
+    metaTitle: "Quantum Computing Explained: Qubits, Limits & Real Progress",
     excerpt:
       "Quantum computers are no longer science fiction. As tech giants race to achieve quantum supremacy, we explore what this means for cryptography, medicine, and beyond.",
-    metaDescription: "Qubits exist in multiple states — IBM crossed the fault-tolerant threshold. Here's how quantum computing works and what encryption risk means for your data.",
+    metaDescription: "How close is practical quantum computing? Explore qubits, superposition, error-correction bottlenecks, and which industries stand to benefit first.",
     content: `
       <p class="lead">Quantum computing uses subatomic physics to solve problems classical computers cannot crack in any practical timeframe. Unlike conventional processors that work with bits (0 or 1), quantum computers use qubits that exist in multiple states at once, letting them evaluate vast numbers of possibilities simultaneously. This makes them uniquely suited to optimization, molecular simulation, and cryptographic problems and poses a direct threat to the encryption systems securing the internet today.</p>
 
@@ -7104,7 +7106,9 @@ export const articles: Article[] = [
 
       <p>The barrier to learning quantum computing is falling. The cost of delaying a post-quantum security migration is rising.</p>
 
-      <h2>Frequently Asked Questions</h2>
+      
+<p>Practical fault tolerance now hinges on overcoming the <a href="/article/quantum-error-correction-decoding-bottleneck-explained">quantum decoding bottleneck</a>, improving <a href="/article/bounded-error-learning-quantum-simulators">quantum simulator error bounds</a>, and assessing cryptography timelines in <a href="/article/quantum-computers-crack-every-password-earth-timeline">quantum password-cracking limits</a>.</p>
+<h2>Frequently Asked Questions</h2>
 
       <h3>When will quantum computers be available to the public?</h3>
       <p>Quantum computing will reach most users through cloud access, not desktop hardware. Amazon Braket and IBM Quantum Experience already let developers run experiments on real quantum processors remotely. The use case for quantum hardware is specific: optimization, simulation, and eventually cryptographic problems. Running a browser or streaming video does not benefit from quantum architecture.</p>
@@ -7192,7 +7196,9 @@ export const articles: Article[] = [
  
       <p>The importance of JWST is not just better images. It is about changing which questions are possible to ask. Before JWST, many aspects of the early universe and exoplanet atmospheres were beyond direct observation. Now they are measurable. This shift from inference to observation is what makes JWST revolutionary. It turns theories into testable science, replaces assumptions with data, and forces astronomy to evolve based on evidence rather than expectation.</p>
  
-      <h2>Frequently Asked Questions</h2>
+      
+<p>As James Webb characterizes distant exoplanet atmospheres, its findings directly inform modern <a href="/article/fermi-paradox-solutions-explained">Fermi Paradox solutions</a> and estimates of how frequently complex life emerges.</p>
+<h2>Frequently Asked Questions</h2>
  
       <h3>What makes the James Webb Space Telescope different from Hubble?</h3>
       <p>JWST observes primarily in infrared light, while Hubble focuses on visible and ultraviolet wavelengths. This lets JWST see much older and more distant objects, study star-forming regions hidden by dust, and analyze exoplanet atmospheric chemistry in detail that Hubble cannot achieve.</p>
@@ -7612,10 +7618,10 @@ export const articles: Article[] = [
     id: "9",
     slug: "openclaw-the-ai-agent-that-actually-does-things",
     title: "OpenClaw: The 'Eyes and Hands' AI Agent That Actually Does Your Work",
-    metaTitle: "OpenClaw AI Agent Review: Real Capabilities, Limits, and Verdict",
+    metaTitle: "What Is OpenClaw AI Agent? Capabilities, Limits & Risks",
     excerpt:
       "OpenClaw is a local-first, open-source AI agent that connects language models to your computer so they can execute real tasks. This guide explains how it works, why privacy matters, and how it differs from standard chatbots.",
-    metaDescription: "OpenClaw automates desktop tasks that chat-only AI can't touch — but has failure modes most reviews miss. Here's what it actually does in a real workflow.",
+    metaDescription: "What is OpenClaw and what can this autonomous AI agent actually do? Explore how OpenClaw executes real-world workflows, its reliability limits, and safety trade-offs.",
     content: `
       <p class="lead">OpenClaw is an open-source, local-first AI agent that lets a language model use your computer through chat apps. Instead of only answering questions, it can execute tasks by running commands, opening a browser, and interacting with files you explicitly allow. It connects to models like Claude and GPT through your own machine, turning chat messages into tool calls. The result is a system that behaves less like a chatbot and more like a digital operator. This article explains what OpenClaw is, how its gateway and skills work, why local execution improves privacy and control, and how to deploy it safely as a practical example of agentic AI.</p>
 
@@ -7695,7 +7701,9 @@ export const articles: Article[] = [
       
       <p>For those looking to reclaim hours of their week from administrative drudgery, the path is clear: stop chatting with your AI and start giving it a job. OpenClaw is the platform that makes that transition possible.</p>
 
-      <h2>Frequently Asked Questions</h2>
+      
+<p>To see how OpenClaw fits into the wider autonomous software landscape, compare the <a href="/article/2026-rise-of-agentic-ai-autonomous-agents-automation">2026 rise of agentic AI</a>, checkout automation in <a href="/article/agentic-commerce-ai-agents-checkout-payment-rails-2026">agentic commerce rails</a>, and security risks from <a href="/article/prompt-injection-attacks-ai-agents-security-explained">prompt injection attacks</a>.</p>
+<h2>Frequently Asked Questions</h2>
 
       <h3>How is OpenClaw different from a chatbot?</h3>
       <p>Chatbots generate text. OpenClaw connects a model to tools like your terminal and browser, so it can execute tasks on your behalf with explicit permissions.</p>
@@ -8086,10 +8094,10 @@ export const articles: Article[] = [
     id: "agentic-ai-rise-2026-autonomous-agents",
     slug: "2026-rise-of-agentic-ai-autonomous-agents-automation",
     title: "The 2026 Rise of Agentic AI: How Autonomous Agents Automate Work",
-    metaTitle: "Agentic AI in 2026: How Autonomous Agents Work, Fail, and Scale",
+    metaTitle: "Agentic AI in 2026: How Autonomous Agents Work & Fail",
     excerpt:
       "Agentic AI refers to autonomous software agents that plan and execute multi-step tasks. In 2026 these systems move beyond chatbots by using tools, memory, and workflows to automate work. This guide explains how they function, where they are used, and what risks remain.",
-    metaDescription: "Autonomous AI agents can book meetings, run code, and browse the web unaided — but fail predictably. Here's what's real in 2026 and what isn't.",
+    metaDescription: "How do autonomous AI agents execute multi-step workflows in 2026, and why do they still fail in production? See real-world benchmarks, risks, and adoption limits.",
     content: `
 
   <p class="lead">Agentic AI refers to artificial intelligence systems that can plan, decide, and execute tasks independently toward a defined goal. Unlike traditional AI that waits for commands, agentic systems initiate actions, coordinate tools, and adapt strategies with minimal human input. In 2026, these agents connect large language models to tools, memory, and workflows, which moves AI from passive assistance to active operations. They can run continuously, coordinate multiple tools, and report results back for review. This shift is driving adoption in business operations, research, and personal productivity. This article defines agentic AI, explains how autonomous agents work, where they are already deployed, and what governance is required to keep them safe.</p>
@@ -8224,7 +8232,9 @@ export const articles: Article[] = [
     </ul>
   </div>
 
-  <h2>Frequently Asked Questions</h2>
+  
+<p>Real-world agent deployments span specialized assistants like the <a href="/article/openclaw-the-ai-agent-that-actually-does-things">OpenClaw AI agent</a>, governance gaps in <a href="/article/ai-model-safety-reports-disclosure-gap-explained">AI model safety reports</a>, and security controls against <a href="/article/prompt-injection-attacks-ai-agents-security-explained">prompt injection exploits</a>.</p>
+<h2>Frequently Asked Questions</h2>
 
   <h3>What is the difference between AI agents and chatbots?</h3>
   <p>Chatbots primarily respond to messages. AI agents plan and execute multi-step actions using tools and memory to achieve goals.</p>
@@ -10774,10 +10784,10 @@ export const articles: Article[] = [
     id: "nobody-invented-internet-distributed-history",
     slug: "nobody-invented-internet-distributed-history-biggest-network",
     title: "Nobody Invented the Internet: The Distributed History Behind the World's Biggest Network",
-    metaTitle: "Who Really Invented the Internet? It Wasn't Just One Person",
+    metaTitle: "Who Invented the Internet? ARPANET, TCP/IP & the True History",
     excerpt:
       "Everyone wants to credit a single inventor for the internet. The real story is more interesting: it was built by dozens of researchers over thirty years, with no single moment of invention and no single architect.",
-    metaDescription: "The internet has no single inventor — Cerf, Kahn, Berners-Lee, and dozens of DARPA researchers built it across three decades. Here's who did what and when.",
+    metaDescription: "No single person invented the internet. Trace how ARPANET, Vint Cerf and Bob Kahn's TCP/IP, and Tim Berners-Lee's World Wide Web built today's global network.",
     content: `
       <p class="lead">Ask someone who invented the internet and you will usually get one of two answers: Al Gore (which is a joke that became folklore) or Tim Berners-Lee (which is wrong but understandable). The real answer is genuinely more interesting: nobody invented the internet. It emerged from thirty years of overlapping contributions by dozens of scientists, engineers, and institutions, none of whom were trying to build what the internet eventually became.</p>
 
@@ -10851,7 +10861,9 @@ export const articles: Article[] = [
 
       <p>The next time someone asks who invented the internet, the honest answer is: a lot of people, working on different problems, over a very long time, most of whom never imagined what they were building toward.</p>
 
-      <h2>Frequently Asked Questions</h2>
+      
+<p>Modern traffic still relies on that decentralized foundation across <a href="/article/how-dns-finds-websites-without-server-location">DNS server resolution</a>, <a href="/article/bgp-hijacking-route-leak-financial-traffic-explained">BGP routing security</a>, and <a href="/article/how-undersea-cable-repeaters-amplify-signals">undersea fiber-optic repeaters</a>.</p>
+<h2>Frequently Asked Questions</h2>
       <h3>Who invented the internet?</h3>
       <p>No single person invented the internet. It emerged over decades through contributions from Licklider, Baran, Davies, Cerf, Kahn, Mockapetris, Berners-Lee, and many others.</p>
 
@@ -13219,6 +13231,8 @@ export const articles: Article[] = [
 
 <p>The next time your feed feels unusually validating, that feeling itself is worth noticing. Agreement at scale is not the same thing as accuracy.</p>
 
+
+<p>Overconfidence in algorithmic feeds often compounds the <a href="/article/illusion-of-explanatory-depth-explained">illusion of explanatory depth</a>, where readers overestimate how thoroughly they understand complex topics.</p>
 <h2>Frequently Asked Questions</h2>
 
 <h3>What is confirmation bias in simple terms?</h3>
@@ -16492,9 +16506,9 @@ category: "artificial-intelligence",
   id: "auto-9",
   slug: "illusion-of-explanatory-depth-explained",
   title: "The More You Know, the Harder It Becomes to Explain Simple Things",
-  metaTitle: "Illusion of Explanatory Depth: Why Knowledge Backfires",
+  metaTitle: "Illusion of Explanatory Depth: Why We Overestimate Knowledge",
   excerpt: "Confidence about how something works collapses the moment you're asked to actually explain it. Yale's Rozenblit and Keil traced why understanding and explaining are separate skills.",
-  metaDescription: "You can ride a bicycle every day but likely still can't explain exactly how it balances. A 2002 Yale study shows why knowing more makes explaining harder.",
+  metaDescription: "The illusion of explanatory depth explains why people think they understand everyday systems until asked to explain them step by step. See the psychology and studies.",
   content: `
 
 <p>You can ride a bicycle without falling. Ask yourself why it doesn't tip over, and the confident answer most people give turns out to be wrong. Psychologists call this gap the illusion of explanatory depth, and it gets worse, not better, the more someone actually knows about a topic.</p>
@@ -16538,6 +16552,8 @@ category: "artificial-intelligence",
 <p>None of this means expertise is fake or that confident people are lying to themselves on purpose. It means fluent use of knowledge and the ability to explain that knowledge causally are stored and tested differently by the brain.</p>
 <p>The next time you feel certain you understand something, try explaining it to someone with zero context before you trust that certainty. The gap you find there is usually the most interesting part of what you actually know.</p>
 
+
+<p>This metacognitive blind spot interacts closely with <a href="/article/confirmation-bias-news-feed-psychology">confirmation bias in news feeds</a>, <a href="/article/sunk-cost-fallacy-psychology-failing-decisions">the sunk cost fallacy</a>, and how people evaluate errors in <a href="/article/judging-own-mistakes-vs-others-actor-observer-bias">actor-observer bias</a>.</p>
 <h2>Frequently Asked Questions</h2>
 <h3>What is the illusion of explanatory depth?</h3>
 <p>It's the tendency to overestimate how well you understand something until you're asked to explain the mechanism step by step. Confidence typically drops once you actually attempt the explanation.</p>
@@ -20184,6 +20200,8 @@ content: `
 <p>That trick, repeated a hundred times over a single cable route, is what keeps a video call or a bank transfer intact after 8,000 kilometres of open water.</p>
 <p>None of it would work without engineering built for permanence rather than convenience, since nobody is ever coming back to open the housing once it hits the seabed.</p>
 
+
+<p>Global subsea fiber backbones physically connect the decentralized protocols traced in <a href="/article/nobody-invented-internet-distributed-history-biggest-network">the distributed history of the internet</a>.</p>
 <h2>Frequently Asked Questions</h2>
 
 <h3>How far apart are undersea cable repeaters spaced?</h3>
@@ -20512,7 +20530,9 @@ content: `
     <p>The technical plumbing for agents to book, buy, and pay without a human clicking confirm already exists and is processing real transactions today.</p>
     <p>What has not caught up is the legal architecture that decides who absorbs the cost when an autonomous agent gets it wrong. Until regulation closes that liability gap, card network rules, not courts or legislators, are effectively writing the rulebook for machine-initiated spending.</p>
  
-    <h2>Frequently Asked Questions</h2>
+    
+<p>Practical autonomous tooling such as the <a href="/article/openclaw-the-ai-agent-that-actually-does-things">OpenClaw AI agent</a> illustrates how real-world task execution is accelerating the broader <a href="/article/2026-rise-of-agentic-ai-autonomous-agents-automation">2026 shift toward agentic AI</a>.</p>
+<h2>Frequently Asked Questions</h2>
     <h3>Can AI agents actually complete purchases without any human approval?</h3>
     <p>Yes, within pre-set limits. A human defines a budget, merchant, or category upfront through a token or mandate, and the agent can complete transactions inside those boundaries without further confirmation.</p>
  
@@ -20611,6 +20631,8 @@ content: `
 
 <p>What began as Einstein's rejected constant may yet prove him right, or point toward physics beyond general relativity entirely. Either answer would fundamentally reshape how the universe's long story ultimately ends.</p>
 
+
+<p>How cosmic expansion evolves over billions of years also shapes long-term habitability assumptions inside <a href="/article/fermi-paradox-solutions-explained">Fermi Paradox research</a> and interpretations of the <a href="/article/cosmic-microwave-background-oldest-light-explained">cosmic microwave background</a>.</p>
 <h2>Frequently Asked Questions</h2>
 
 <h3>What is dark energy in simple terms?</h3>
@@ -21333,6 +21355,8 @@ content: `
 <p>Anthrobots turn a strange experiment with frog cells into something with a direct line to human medicine, using a patient's own tissue rather than foreign or engineered material. The rejuvenation finding adds a second, unexpected reason to keep watching this field.</p>
 <p>Whether either effect, the healing or the reversed epigenetic age, survives the jump from petri dish to patient is still an open question researchers are only beginning to answer.</p>
 
+
+<p>Advances in growing living tissues outside the body also underpin commercial food biotech tracked in <a href="/article/cultivated-meat-regulatory-approval-by-country">cultivated meat regulatory approvals</a>.</p>
 <h2>Frequently Asked Questions</h2>
 
 <h3>What are Anthrobots made from?</h3>
@@ -21939,7 +21963,9 @@ content: `
   <p>Prompt injection persists because it targets something structural, not a patchable flaw. Until models gain a reliable way to separate instructions from data, every AI agent that reads external content carries some version of this risk.</p>
   <p>The realistic goal for now is containment rather than elimination. Limiting an agent's permissions, sandboxing its tools, and monitoring its actions matters more than searching for a single fix that makes the underlying weakness disappear.</p>
   
-  <h2>Frequently Asked Questions</h2>
+  
+<p>Securing tool-using assistants like <a href="/article/openclaw-the-ai-agent-that-actually-does-things">OpenClaw autonomous agents</a> requires pairing prompt defenses with rigorous <a href="/article/fine-tuning-ai-safety-dangerous-capabilities">fine-tuning AI safety evaluations</a>.</p>
+<h2>Frequently Asked Questions</h2>
   
   <h3>What is a prompt injection attack in simple terms?</h3>
   <p>It is a technique that hides malicious instructions inside text an AI model processes, tricking the model into following the attacker's commands instead of its intended instructions.</p>
@@ -22561,6 +22587,8 @@ content: `
 <h2>Conclusion</h2>
 <p>DNS was never built to answer the question of where a server sits on Earth, only who is responsible for answering on its behalf. That single design choice, combined with anycast routing across globally distributed infrastructure, is what lets a browser find any website on the planet in milliseconds without ever needing a map.</p>
 
+
+<p>This distributed naming architecture reflects the decentralized origins explained in <a href="/article/nobody-invented-internet-distributed-history-biggest-network">how the internet was built</a> across competing research networks.</p>
 <h2>Frequently Asked Questions</h2>
 
 <h3>How does a browser find a website's server without knowing its location?</h3>
@@ -23123,6 +23151,8 @@ content: `
 <p>The 2023 announcement did not close a chapter in astronomy so much as open one. Pulsar timing arrays gave researchers a way to sense gravitational waves at frequencies no other instrument reaches, revealing a hum built from mergers unfolding across most of cosmic history.</p>
 <p>What remains uncertain is not whether the hum exists, but exactly what mix of sources produces it, and whether any single source within it can ever be pinned down. That question will likely occupy radio astronomers for the next decade.</p>
 
+
+<p>Wide-field radio surveys monitoring millisecond pulsars have also uncovered puzzling <a href="/article/long-period-radio-transients-unexplained-signals">long-period radio transients</a> that challenge standard neutron-star models.</p>
 <h2>Frequently Asked Questions</h2>
 
 <h3>What is a pulsar timing array?</h3>
@@ -25641,9 +25671,9 @@ content: `
   id: "fine-tuning-ai-safety-dangerous-capabilities",
   slug: "fine-tuning-ai-safety-dangerous-capabilities",
   title: "Fine-Tuning Open Weights Can Inadvertently Reactivate Dormant Dangerous Capabilities Scrubbed During Pre-Training",
-  metaTitle: "How Fine-Tuning Reopens Dangerous AI Capabilities Fast", // 54 chars
+  metaTitle: "How LoRA Fine-Tuning Can Undo AI Safety Guardrails", // 54 chars
   excerpt: "A 70-billion-parameter model lost its safety refusals for about 20 cents in fine-tuning. This is why dangerous capabilities scrubbed during training keep coming back, and what 2026 research says might actually fix it.", // 218 chars, distinct from metaDescription
-  metaDescription: "Fine-tuning can undo AI safety training in minutes. Research shows why capabilities scrubbed before release often return, and what actually stops it.", // 149 chars, distinct from excerpt
+  metaDescription: "Research shows even lightweight LoRA fine-tuning on a few examples can strip safety alignment from open-weight LLMs. See how safety erosion happens and how labs defend.", // 149 chars, distinct from excerpt
   category: "artificial-intelligence",
   author: authors[1], // Matches live convention for technology/AI entries, same desk used for the encryption article -- TODO confirm
   coverImage: "/images/articles/fine-tuning-ai-safety-dangerous-capabilities.jpg", // TODO: create and upload, slug-based filename convention
@@ -25688,6 +25718,8 @@ content: `
 <h2>Conclusion</h2>
 <p>Safety in a modern AI model is not a fixed property stamped on at the end of training. It is a property of the entire pipeline, from what data went in first to what gets bolted on last. Research through 2026 increasingly points toward one conclusion: the earlier a capability is kept out, the harder it becomes to fine-tune back in. What remains unresolved is whether pretraining filtering can scale to the full range of dangerous domains before open-weight releases outpace the defenses meant to contain them.</p>
 
+
+<p>Because post-release fine-tuning alters model alignment, it directly complicates pre-release <a href="/article/ai-model-safety-reports-disclosure-gap-explained">AI safety disclosure reports</a> and amplifies jailbreak pathways like the <a href="/article/waluigi-effect-ai-jailbreak-fine-tuning">Waluigi effect in LLMs</a>.</p>
 <h2>Frequently Asked Questions</h2>
 
 <h3>What does it mean for an AI model to have "dormant" capabilities?</h3>
