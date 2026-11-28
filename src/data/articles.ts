@@ -410,7 +410,11 @@ export const articles: Article[] = [
 <p>This reversal fits the broader acceleration documented across contemporary climate observations, including <a href="https://www.curiosityfields.com/article/global-warming-accelerated-035-celsius-per-decade-since-2015">accelerated global warming</a> and rising ecological stress such as <a href="https://www.curiosityfields.com/article/coral-reef-extinction-risk-iucn-red-list-44-percent">coral reef risk</a>. Even though Northern Hemisphere summer insolation from Earth's orbital tilt continues to decline slightly, elevated atmospheric greenhouse gases have overwhelmed that gentle orbital cooling.</p>
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Understanding deep-time geological baselines, from <a href="https://www.curiosityfields.com/article/mantle-convection-great-unconformity">Earth's missing billion</a> years of crust to modern Arctic melt, shows how rare it is for a single species to interrupt a planetary glacial rhythm. At the same time, climate scientists and engineers are working on mitigation and adaptation tools ranging from <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">carbon dioxide conversion</a> and <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-illinois">grid resilience</a> to improved <a href="https://www.curiosityfields.com/article/hard-constrained-ai-chaotic-systems">chaotic weather forecasts</a>.</p>
+=======
+<p>Understanding deep-time geological baselines, from <a href="https://www.curiosityfields.com/article/mantle-convection-great-unconformity">Earth's missing billion</a> years of crust to modern Arctic melt, shows how rare it is for a single species to interrupt a planetary glacial rhythm. At the same time, climate scientists and engineers are working on mitigation and adaptation tools ranging from <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">carbon dioxide conversion</a> and <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-blackouts">grid resilience</a> to improved <a href="https://www.curiosityfields.com/article/hard-constrained-ai-chaotic-systems">chaotic weather forecasts</a>.</p>
+>>>>>>> Stashed changes
 =======
 <p>Understanding deep-time geological baselines, from <a href="https://www.curiosityfields.com/article/mantle-convection-great-unconformity">Earth's missing billion</a> years of crust to modern Arctic melt, shows how rare it is for a single species to interrupt a planetary glacial rhythm. At the same time, climate scientists and engineers are working on mitigation and adaptation tools ranging from <a href="https://www.curiosityfields.com/article/machine-learning-uncovers-9389-reactions-co2-into-methanol-fuel">carbon dioxide conversion</a> and <a href="https://www.curiosityfields.com/article/long-duration-energy-storage-grid-resilience-blackouts">grid resilience</a> to improved <a href="https://www.curiosityfields.com/article/hard-constrained-ai-chaotic-systems">chaotic weather forecasts</a>.</p>
 >>>>>>> Stashed changes
@@ -563,7 +567,11 @@ export const articles: Article[] = [
 
 <h2>Why Early Bladder Cancer Often Hides Behind Common Symptoms</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Applying machine learning to messy clinical data requires careful attention to diagnostic trade-offs explored in <a href="/article/ai-accuracy-paradox-healthcare-risk">healthcare AI accuracy</a> and <a href="/article/ai-safety-disclosure-gap-model-releases">AI safety disclosures</a>. Ranking as the ninth most common cancer globally with 614,000 new diagnoses in 2022, bladder cancer lacks any routine population-wide screening program.</p>
+=======
+<p>Applying machine learning to messy clinical data requires careful attention to diagnostic trade-offs explored in <a href="/article/ai-accuracy-paradox-healthcare-risk">healthcare AI accuracy</a> and <a href="/article/ai-model-safety-reports-disclosure-gap-explained">AI safety disclosures</a>. Ranking as the ninth most common cancer globally with 614,000 new diagnoses in 2022, bladder cancer lacks any routine population-wide screening program.</p>
+>>>>>>> Stashed changes
 =======
 <p>Applying machine learning to messy clinical data requires careful attention to diagnostic trade-offs explored in <a href="/article/ai-accuracy-paradox-healthcare-risk">healthcare AI accuracy</a> and <a href="/article/ai-model-safety-reports-disclosure-gap-explained">AI safety disclosures</a>. Ranking as the ninth most common cancer globally with 614,000 new diagnoses in 2022, bladder cancer lacks any routine population-wide screening program.</p>
 >>>>>>> Stashed changes
@@ -1183,7 +1191,11 @@ export const articles: Article[] = [
 
 <h2>Context Matters: Why Stereotypes Miss Meaning-Making</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Connecting subtle behavioral signatures to broader computational and brain science echoes precision modeling in <a href="/article/recurrent-neural-networks-nonlinear-laser-simulations">laser neural surrogates</a> and <a href="/article/photonic-neurons-sensing-memory-computing-one-device">integrated photonic neurons</a>. Crucially, Bray and Drislane discovered that the link between personality traits and word choice shifted depending on which prompt participants were answering, such as recalling a peak success versus a painful low point.</p>
+=======
+<p>Connecting subtle behavioral signatures to broader computational and brain science echoes precision modeling in <a href="/article/recurrent-neural-networks-nonlinear-laser-simulations">laser neural surrogates</a> and <a href="/article/photonic-computing-chip-in-memory-neurons-flare-explained">integrated photonic neurons</a>. Crucially, Bray and Drislane discovered that the link between personality traits and word choice shifted depending on which prompt participants were answering, such as recalling a peak success versus a painful low point.</p>
+>>>>>>> Stashed changes
 =======
 <p>Connecting subtle behavioral signatures to broader computational and brain science echoes precision modeling in <a href="/article/recurrent-neural-networks-nonlinear-laser-simulations">laser neural surrogates</a> and <a href="/article/photonic-computing-chip-in-memory-neurons-flare-explained">integrated photonic neurons</a>. Crucially, Bray and Drislane discovered that the link between personality traits and word choice shifted depending on which prompt participants were answering, such as recalling a peak success versus a painful low point.</p>
 >>>>>>> Stashed changes
@@ -1280,7 +1292,11 @@ export const articles: Article[] = [
 
 <h2>Testing Bounded Chaos From Lorenz Attractors to Fluid Flows</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Embedding physical conservation principles into hardware and software mirrors engineering advances across <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, <a href="/article/photonic-neurons-sensing-memory-computing-one-device">integrated photonic neurons</a>, and <a href="/article/networked-metamaterials-absorb-impacts">networked impact metamaterials</a>. To verify their approach, Tang, Azizan, and Sapsis tested it across benchmarks ranging from the classic butterfly-shaped Lorenz 63 attractor to high-dimensional multidimensional chaotic systems.</p>
+=======
+<p>Embedding physical conservation principles into hardware and software mirrors engineering advances across <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, <a href="/article/photonic-computing-chip-in-memory-neurons-flare-explained">integrated photonic neurons</a>, and <a href="/article/networked-metamaterials-absorb-impacts">networked impact metamaterials</a>. To verify their approach, Tang, Azizan, and Sapsis tested it across benchmarks ranging from the classic butterfly-shaped Lorenz 63 attractor to high-dimensional multidimensional chaotic systems.</p>
+>>>>>>> Stashed changes
 =======
 <p>Embedding physical conservation principles into hardware and software mirrors engineering advances across <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, <a href="/article/photonic-computing-chip-in-memory-neurons-flare-explained">integrated photonic neurons</a>, and <a href="/article/networked-metamaterials-absorb-impacts">networked impact metamaterials</a>. To verify their approach, Tang, Azizan, and Sapsis tested it across benchmarks ranging from the classic butterfly-shaped Lorenz 63 attractor to high-dimensional multidimensional chaotic systems.</p>
 >>>>>>> Stashed changes
@@ -1383,7 +1399,11 @@ export const articles: Article[] = [
 
 <h2>What Hera Saw on the Unexplored Far Side of Didymos</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Inspecting distant rocky worlds with autonomous navigation and specialized sensors parallels engineering milestones in <a href="/article/perseverance-rover-confirms-widespread-complex-organic-carbon-mars">Mars organic carbon</a>, <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a>, and <a href="/article/swarm-robotics-coordinated-machines-build-structures-space">orbital robot swarms</a>. Because DART approached Didymos and Dimorphos rapidly from a single angle in 2022, its final photos only showed one hemisphere of the primary asteroid.</p>
+=======
+<p>Inspecting distant rocky worlds with autonomous navigation and specialized sensors parallels engineering milestones in <a href="/article/perseverance-rover-confirms-widespread-complex-organic-carbon-mars">Mars organic carbon</a>, <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a>, and <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital robot swarms</a>. Because DART approached Didymos and Dimorphos rapidly from a single angle in 2022, its final photos only showed one hemisphere of the primary asteroid.</p>
+>>>>>>> Stashed changes
 =======
 <p>Inspecting distant rocky worlds with autonomous navigation and specialized sensors parallels engineering milestones in <a href="/article/perseverance-rover-confirms-widespread-complex-organic-carbon-mars">Mars organic carbon</a>, <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a>, and <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital robot swarms</a>. Because DART approached Didymos and Dimorphos rapidly from a single angle in 2022, its final photos only showed one hemisphere of the primary asteroid.</p>
 >>>>>>> Stashed changes
@@ -1397,7 +1417,11 @@ export const articles: Article[] = [
 
 <h2>Why Hera Flies a Rectangular Path With Superhuman Instruments</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Operating precision imaging and communications hardware in deep space draws on broader aerospace systems such as <a href="/article/reconfigurable-metasurface-antennas">reconfigurable metasurface antennas</a> and <a href="/article/ancient-chinese-solar-eclipse-records-earth-faster-spin">ancient eclipse records</a>. Orbiting a tiny binary asteroid with feeble, uneven gravity is treacherous: a single thruster glitch could send a spacecraft drifting into the rocks or escaping into space.</p>
+=======
+<p>Operating precision imaging and communications hardware in deep space draws on broader aerospace systems such as reconfigurable metasurface antennas and <a href="/article/ancient-chinese-eclipse-records-earth-faster-historical-spin">ancient eclipse records</a>. Orbiting a tiny binary asteroid with feeble, uneven gravity is treacherous: a single thruster glitch could send a spacecraft drifting into the rocks or escaping into space.</p>
+>>>>>>> Stashed changes
 =======
 <p>Operating precision imaging and communications hardware in deep space draws on broader aerospace systems such as reconfigurable metasurface antennas and <a href="/article/ancient-chinese-eclipse-records-earth-faster-historical-spin">ancient eclipse records</a>. Orbiting a tiny binary asteroid with feeble, uneven gravity is treacherous: a single thruster glitch could send a spacecraft drifting into the rocks or escaping into space.</p>
 >>>>>>> Stashed changes
@@ -1489,7 +1513,11 @@ export const articles: Article[] = [
 
 <h2>Why Repeating Unit Cells Fail Under Sudden Impact</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Rethinking internal geometry to unlock new mechanical behavior builds on advances in <a href="/article/Origami-inspired-metamaterials-fold-flat-lock-into-load-bearing-beams">origami-inspired structural metamaterials</a> and <a href="/article/self-healing-concrete-bacteria-seal-cracks-extend-lifespan">autonomous self-healing materials</a>. For decades, materials engineers have built synthetic metamaterials by designing a single microscopic unit cell, such as a square grid or hexagonal honeycomb, and copying that exact shape thousands of times across a structure.</p>
+=======
+<p>Rethinking internal geometry to unlock new mechanical behavior builds on advances in origami-inspired structural metamaterials and <a href="/article/technology-behind-self-healing-materials-polymer-chains">autonomous self-healing materials</a>. For decades, materials engineers have built synthetic metamaterials by designing a single microscopic unit cell, such as a square grid or hexagonal honeycomb, and copying that exact shape thousands of times across a structure.</p>
+>>>>>>> Stashed changes
 =======
 <p>Rethinking internal geometry to unlock new mechanical behavior builds on advances in origami-inspired structural metamaterials and <a href="/article/technology-behind-self-healing-materials-polymer-chains">autonomous self-healing materials</a>. For decades, materials engineers have built synthetic metamaterials by designing a single microscopic unit cell, such as a square grid or hexagonal honeycomb, and copying that exact shape thousands of times across a structure.</p>
 >>>>>>> Stashed changes
@@ -1498,7 +1526,11 @@ export const articles: Article[] = [
 
 <h2>Applying Network Science to 3D-Printed Physical Beams</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Bridging abstract mathematical graphs with real-world hardware parallels structural breakthroughs in <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a> and <a href="/article/solid-state-electrocaloric-heat-pumps-replace-refrigerants">solid-state thermal systems</a>. Network science has long mapped invisible webs such as the internet, neural pathways, and food webs, but translating those graphs into solid materials required respecting physical constraints like beam thickness, intersection density, and empty pore space.</p>
+=======
+<p>Bridging abstract mathematical graphs with real-world hardware parallels structural breakthroughs in <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a> and <a href="/article/electrocaloric-cooling-air-conditioner-no-refrigerant">solid-state thermal systems</a>. Network science has long mapped invisible webs such as the internet, neural pathways, and food webs, but translating those graphs into solid materials required respecting physical constraints like beam thickness, intersection density, and empty pore space.</p>
+>>>>>>> Stashed changes
 =======
 <p>Bridging abstract mathematical graphs with real-world hardware parallels structural breakthroughs in <a href="/article/autonomous-caltech-robot-assembles-truss-structures-orbit">orbital truss assembly</a> and <a href="/article/electrocaloric-cooling-air-conditioner-no-refrigerant">solid-state thermal systems</a>. Network science has long mapped invisible webs such as the internet, neural pathways, and food webs, but translating those graphs into solid materials required respecting physical constraints like beam thickness, intersection density, and empty pore space.</p>
 >>>>>>> Stashed changes
@@ -1512,7 +1544,11 @@ export const articles: Article[] = [
 
 <h2>Pomelo Rinds, Drop Tests, and Distributed Damage</h2>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <p>Designing multi-scale resilience under heavy mechanical loads complements materials research in <a href="/article/extreme-pressure-familiar-materials-entirely-new-phases">extreme pressure phases</a>, <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, and <a href="/article/mechanical-drumhead-vibrations-working-memory-qubits">mechanical quantum memory</a>. When the researchers squeezed the 3D-printed networked samples and dropped heavy weights onto them alongside conventional lattice and honeycomb controls, the disordered webs consistently outperformed ordered designs.</p>
+=======
+<p>Designing multi-scale resilience under heavy mechanical loads complements materials research in <a href="/article/extreme-pressure-materials-new-phases-diamond-anvil-cell">extreme pressure phases</a>, <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, and <a href="/article/mechanical-drumhead-vibrations-working-memory-qubits">mechanical quantum memory</a>. When the researchers squeezed the 3D-printed networked samples and dropped heavy weights onto them alongside conventional lattice and honeycomb controls, the disordered webs consistently outperformed ordered designs.</p>
+>>>>>>> Stashed changes
 =======
 <p>Designing multi-scale resilience under heavy mechanical loads complements materials research in <a href="/article/extreme-pressure-materials-new-phases-diamond-anvil-cell">extreme pressure phases</a>, <a href="/article/ultrathin-multiferroic-films-eliminate-dead-layers-ai-chips">ultrathin multiferroic chips</a>, and <a href="/article/mechanical-drumhead-vibrations-working-memory-qubits">mechanical quantum memory</a>. When the researchers squeezed the 3D-printed networked samples and dropped heavy weights onto them alongside conventional lattice and honeycomb controls, the disordered webs consistently outperformed ordered designs.</p>
 >>>>>>> Stashed changes
