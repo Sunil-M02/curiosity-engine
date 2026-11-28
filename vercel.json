@@ -18,16 +18,6 @@
       "source": "/category/:slug",
       "destination": "/categories/:slug",
       "permanent": true
-    },
-    {
-      "source": "/article/ai-safety-disclosure-gap-model-releases",
-      "destination": "/article/ai-model-safety-reports-disclosure-gap-explained",
-      "permanent": true
-    },
-    {
-      "source": "/article/basal-ganglia-damage-strategic-learning",
-      "destination": "/article/basal-ganglia-damage-strategic-thinking-brain-study",
-      "permanent": true
     }
   ],
   "headers": [
